@@ -1,0 +1,91 @@
+# 📐 Módulo — Fase 2 (Remuxer)
+
+[← Índice](README.md) · [`3_juntar_legendas_filmes/batch_remuxer.py`](../3_juntar_legendas_filmes/batch_remuxer.py)
+
+---
+
+## Recursos
+
+| Recurso | Detalhe |
+|:---|:---|
+| **Pareamento estrito** | `{base}.mkv` ↔ `traducao/{base}_PTBR.ass` |
+| **Sem re-encode** | Apenas remux — I/O intensivo em NVMe (~1,5 s/ep.) |
+| **Metadados** | `--language 0:por`, `--track-name "0:Português (Gemma 4B)"`, `--default-track 0:yes` |
+| **Resiliência** | `Ctrl+C` salva estatísticas parciais em JSON |
+| **Saída** | `{pasta}/mkv_final_ptbr/{base}_PTBR.mkv` |
+
+---
+
+## Diagrama de fluxo
+
+```mermaid
+flowchart TB
+    START([__main__]) --> IN1[input pasta .mkv]
+    IN1 --> IN2[input pasta .ass]
+    IN2 --> INIT[IndustrialRemuxerV2<br/>cria mkv_final_ptbr]
+
+    INIT --> CFG[remux_config timestamp.txt]
+    CFG --> VAL[validar_infraestrutura<br/>mkvmerge --version]
+
+    VAL -->|Falha| EXIT([sys.exit 1])
+    VAL -->|OK| FILA[construir_fila_processamento]
+
+    FILA -->|Vazia| WARN[Nenhum par encontrado]
+    FILA -->|OK| LOOP{Para cada par}
+
+    LOOP --> CMD[subprocess mkvmerge]
+    CMD --> META[language por + default-track]
+    META --> OK[Sucesso + bytes no stats]
+    OK --> LOOP
+
+    CMD -->|Erro| ERR[remux_erros.txt]
+    ERR --> LOOP
+
+    LOOP --> REL[remux_stats.json]
+
+    CTRL[Ctrl+C] -.-> PARCIAL[Salva stats parciais JSON]
+
+    style OK fill:#1e4620,stroke:#32CD32,color:#fff
+    style EXIT fill:#5c1010,stroke:#ff4444,color:#fff
+    style CMD fill:#2d3748,stroke:#00E5FF,color:#fff
+```
+
+---
+
+## Entrada / saída (remux)
+
+```mermaid
+flowchart LR
+    subgraph ENTRADA["Entradas"]
+        V["episodio.mkv"]
+        S["episodio_PTBR.ass"]
+    end
+
+    subgraph REMUX["batch_remuxer.py"]
+        P["Pareamento estrito"]
+        M["mkvmerge.exe"]
+    end
+
+    subgraph SAIDA["Saida"]
+        O["mkv_final_ptbr/episodio_PTBR.mkv"]
+    end
+
+    V --> P
+    S --> P
+    P --> M
+    M --> O
+
+    style REMUX fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+---
+
+## Entradas e saídas
+
+| Entrada | Saída | Dependências |
+|:---|:---|:---|
+| Pasta `.mkv` + pasta `traducao/*.ass` | `mkv_final_ptbr/*_PTBR.mkv` | `mkvmerge.exe`, `colorama`, `tqdm` |
+
+---
+
+[← Fase 1](modulo-fase-1.md) · [Guia de execução](guia-de-execucao.md)

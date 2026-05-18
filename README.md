@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="icone.png" alt="Ícone do Projeto" width="250"/>
+  <img src="icone.png?v=2" alt="Ícone do Projeto" width="250"/>
   <h1>🌌 Sistema de analise, Tradução e Multiplexação de Animes</h1>
   <p><strong>Pipeline Industrial de Automação, Tradução de IA Local e Multiplexação de Mídia</strong></p>
 

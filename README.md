@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://img.icons8.com/color/144/000000/bot.png" alt="Bot Icon" width="100"/>
-  <h1>🌌 Aerospace/Mecha Translation Esteira</h1>
+  <h1>🌌 Sistema de analise, Tradução e Multiplexação de Animes</h1>
   <p><strong>Pipeline Industrial de Automação, Tradução de IA Local e Multiplexação de Mídia</strong></p>
 
   <p>

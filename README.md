@@ -32,7 +32,10 @@
 |---|---|
 | [🚀 Visão Geral](#-visão-geral) | [📦 Estrutura do Repositório](#-estrutura-do-repositório) |
 | [🏗️ Arquitetura do Pipeline](#️-arquitetura-do-pipeline) | [🛠️ Módulos (1 → 2 → 3)](#️-módulos-1--2--3) |
-| [✅ Pré-requisitos & Instalação](#-pré-requisitos--instalação) | [▶️ Como Executar](#️-como-executar) |
+| [📐 Diagrama — Fase 0](#-diagrama--fase-0-analisador) | [📐 Diagrama — Fase 1](#-diagrama--fase-1-tradutor) |
+| [📐 Diagrama — Fase 2](#-diagrama--fase-2-remuxer) | |
+| [✅ Pré-requisitos & Instalação](#-pré-requisitos--instalação) | [🐍 Dependências Python](#-dependências-python-requirementstxt) |
+| [▶️ Como Executar](#️-como-executar) | |
 | [📂 Layout de Pastas de Mídia](#-layout-de-pastas-de-mídia) | [📊 Auditoria e Logs](#-auditoria-e-logs) |
 | [⚠️ Solução de Problemas](#️-solução-de-problemas) | [📄 Licença](#-licença) |
 
@@ -62,36 +65,50 @@ Este repositório orquestra **três etapas sequenciais** em Python. O interpreta
 
 Fluxo determinístico: **análise (opcional) → extração/tradução → multiplexação**.
 
+> **Diagrama geral** — visão macro das três pastas numeradas. Cada fase tem um diagrama detalhado na seção [Módulos](#️-módulos-1--2--3).
+
+```mermaid
+flowchart LR
+    MKV["Pasta de episodios<br/>.mkv"]
+
+    MKV --> P0["1_analisador_de_midia<br/>media_analyzer.py"]
+    P0 -.->|opcional| P1
+    MKV --> P1["2_tradutor_ia_gemma4<br/>sub_extractor.py"]
+
+    P0 --> R0["relatorio/*.txt"]
+    P1 --> R1["traducao/*_PTBR.ass"]
+
+    MKV --> P2["3_juntar_legendas_filmes<br/>batch_remuxer.py"]
+    R1 --> P2
+    P2 --> R2["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style P0 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style P1 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style P2 fill:#1e4620,stroke:#32CD32,color:#fff
+    style R2 fill:#006400,stroke:#32CD32,color:#fff
+```
+
 ```mermaid
 flowchart TB
-    subgraph F0["Fase 0 — Auditoria (opcional)"]
-        A0["📂 Pasta de .mkv"] --> B0["media_analyzer.py<br/>pymediainfo"]
-        B0 --> C0["📄 relatorio/*.txt"]
+    subgraph DEP["Camada de dependencias externas"]
+        MKVT["MKVToolNix<br/>mkvmerge + mkvextract"]
+        LM["LM Studio :1234<br/>Gemma 4B"]
+        MI["MediaInfo DLL<br/>pymediainfo"]
     end
 
-    subgraph F1["Fase 1 — Tradução"]
-        A1["📂 Episódios .mkv"] --> B1["mkvmerge -J<br/>Detecta track S_TEXT/ASS"]
-        B1 --> C1["mkvextract.exe<br/>Legenda .ass original"]
-        C1 --> D1{"Filtros Regex"}
-        D1 -->|"> 2000 chars"| E1["🗑️ Descarta fontes Base64"]
-        D1 -->|"Dialogue:"| F1["📝 Lotes de 20 linhas"]
-        F1 --> G1["🧠 LM Studio :1234<br/>Gemma 4B"]
-        G1 --> H1["🇧🇷 traducao/*_PTBR.ass"]
+    subgraph PY["Camada Python - orquestracao"]
+        S0["media_analyzer.py"]
+        S1["sub_extractor.py"]
+        S2["batch_remuxer.py"]
     end
 
-    subgraph F2["Fase 2 — Multiplexação"]
-        A2[".mkv original"] --> I2["batch_remuxer.py"]
-        H1 --> I2
-        I2 --> J2["mkvmerge.exe<br/>--default-track 0:yes"]
-        J2 --> K2["🎬 mkv_final_ptbr/*_PTBR.mkv"]
-    end
+    MI --> S0
+    MKVT --> S1
+    MKVT --> S2
+    LM --> S1
 
-    F0 -.->|"valida faixas"| F1
-    F1 --> F2
-
-    style G1 fill:#4B0082,stroke:#00E5FF,color:#fff
-    style K2 fill:#006400,stroke:#32CD32,color:#fff
-    style H1 fill:#1a1a2e,stroke:#00E5FF,color:#fff
+    style DEP fill:#1a1a2e,stroke:#666,color:#fff
+    style PY fill:#2b2b2b,stroke:#00E5FF,color:#fff
 ```
 
 ### Binários externos (Windows)
@@ -153,6 +170,49 @@ Varredura recursiva de `.mkv`, `.mp4`, `.avi`, etc. Gera relatório por arquivo 
 
 > Use esta fase para confirmar que o episódio tem legenda **texto** (`S_TEXT/ASS`) antes de gastar tempo na tradução.
 
+#### 📐 Diagrama — Fase 0 (Analisador)
+
+```mermaid
+flowchart TB
+    START([main]) --> ARG{Caminho via<br/>argumento?}
+
+    ARG -->|Sim| PATH[Normaliza caminho]
+    ARG -->|Nao| INPUT[input interativo]
+
+    PATH --> TIPO{Tipo do caminho}
+    INPUT --> TIPO
+
+    TIPO -->|Pasta| WALK[os.walk recursivo<br/>filtra extensoes de video]
+    TIPO -->|Arquivo| FILA[Lista com 1 arquivo]
+
+    WALK --> FILA
+    FILA --> LOOP{Para cada video}
+
+    LOOP --> VAL[Valida existencia<br/>permissao e tamanho]
+    VAL --> PARSE[MediaInfo.parse<br/>barra tqdm]
+
+    PARSE --> CLASS[Classifica faixas<br/>General Video Audio Text]
+    CLASS --> LEG{Codec da legenda}
+
+    LEG -->|S_TEXT/ASS ou SSA| OK[Compativel com Fase 1]
+    LEG -->|SRT UTF8| SRT[Texto simples]
+    LEG -->|PGS ou In_Screen| BLOCK[NAO extraivel<br/>pare o pipeline]
+
+    CLASS --> REL[Monta relatorio texto]
+    REL --> SAVE[Salva relatorio/nome_timestamp.txt]
+    SAVE --> NEXT{Mais arquivos?}
+    NEXT -->|Sim| LOOP
+    NEXT -->|Nao| END([Fim])
+
+    style OK fill:#1e4620,stroke:#32CD32,color:#fff
+    style BLOCK fill:#5c1010,stroke:#ff4444,color:#fff
+    style PARSE fill:#2d3748,stroke:#00E5FF,color:#fff
+```
+
+| Entrada | Saída | Dependências |
+|:---|:---|:---|
+| Pasta ou arquivo de vídeo | `relatorio/*.txt` | `pymediainfo`, `colorama`, `tqdm`, MediaInfo |
+
 ---
 
 ### `2_tradutor_ia_gemma4/sub_extractor.py` — Fase 1
@@ -167,6 +227,69 @@ Varredura recursiva de `.mkv`, `.mp4`, `.avi`, etc. Gera relatório por arquivo 
 | **Cache em memória** | Evita retraduzir lotes idênticos |
 | **Saída** | `{pasta_episodios}/traducao/{nome}_PTBR.ass` |
 
+#### 📐 Diagrama — Fase 1 (Tradutor)
+
+```mermaid
+flowchart TB
+    START([main]) --> LOG[GerenciadorLogs<br/>4 arquivos de auditoria]
+    LOG --> VAL[validar<br/>LM Studio + MKVToolNix]
+
+    VAL -->|Falha| ABORT([Aborta])
+    VAL -->|OK| PASTA[input pasta dos .mkv]
+    PASTA --> LISTA[Lista mkv ordenados]
+    LISTA --> LOOP{Para cada episodio}
+
+    LOOP --> TRACK[mkvmerge -J<br/>descobrir track ASS]
+    TRACK -->|Sem ASS| SKIP[Pula episodio]
+    TRACK -->|OK| EXT[mkvextract tracks<br/>_extracted.ass]
+
+    EXT --> READ[ler_arquivo_com_encoding<br/>cadeia utf8 cp1252 latin1]
+    READ --> REGEX[Regex Dialogue<br/>filtro 2000 chars Base64]
+
+    REGEX --> LOTE[Lotes de 20 linhas]
+    LOTE --> API[POST /v1/chat/completions<br/>cache em memoria]
+    API --> REBUILD[Reconstroi linhas ASS]
+    REBUILD --> SAVE[traducao/nome_PTBR.ass UTF-8]
+    SAVE --> CLEAN[Remove _extracted.ass]
+    CLEAN --> MORE{Mais episodios?}
+    MORE -->|Sim| LOOP
+    MORE -->|Nao| STATS[stats.json + relatorio final]
+    STATS --> END([Fim])
+
+    SKIP --> MORE
+
+    style API fill:#4B0082,stroke:#00E5FF,color:#fff
+    style SAVE fill:#1a1a2e,stroke:#00E5FF,color:#fff
+    style ABORT fill:#5c1010,stroke:#ff4444,color:#fff
+```
+
+```mermaid
+sequenceDiagram
+    participant U as Usuario
+    participant P as sub_extractor.py
+    participant M as MKVToolNix
+    participant L as LM Studio :1234
+
+    U->>P: Informa pasta dos .mkv
+    P->>L: GET /v1/models
+    L-->>P: Modelo Gemma carregado
+    loop Cada episodio .mkv
+        P->>M: mkvmerge -J identifica track
+        P->>M: mkvextract extrai .ass
+        P->>P: Regex + filtros de encoding
+        loop Lotes de 20 dialogos
+            P->>L: POST /v1/chat/completions
+            L-->>P: Texto PT-BR indexado
+        end
+        P->>P: Salva traducao/nome_PTBR.ass
+    end
+    P-->>U: Logs em 2_tradutor_ia_gemma4/logs/
+```
+
+| Entrada | Saída | Dependências |
+|:---|:---|:---|
+| Pasta com `.mkv` | `traducao/*_PTBR.ass` | MKVToolNix, LM Studio, `requests`, `colorama`, `tqdm` |
+
 ---
 
 ### `3_juntar_legendas_filmes/batch_remuxer.py` — Fase 2
@@ -178,6 +301,68 @@ Varredura recursiva de `.mkv`, `.mp4`, `.avi`, etc. Gera relatório por arquivo 
 | **Metadados da faixa** | `--language 0:por`, `--track-name "0:Português (Gemma 4B)"`, `--default-track 0:yes` |
 | **Resiliência** | `Ctrl+C` salva estatísticas parciais em JSON |
 | **Saída** | `{pasta_videos}/mkv_final_ptbr/{base}_PTBR.mkv` |
+
+#### 📐 Diagrama — Fase 2 (Remuxer)
+
+```mermaid
+flowchart TB
+    START([__main__]) --> IN1[input pasta .mkv]
+    IN1 --> IN2[input pasta .ass]
+    IN2 --> INIT[IndustrialRemuxerV2<br/>cria mkv_final_ptbr]
+
+    INIT --> CFG[remux_config timestamp.txt]
+    CFG --> VAL[validar_infraestrutura<br/>mkvmerge --version]
+
+    VAL -->|Falha| EXIT([sys.exit 1])
+    VAL -->|OK| FILA[construir_fila_processamento<br/>pareamento nome_PTBR.ass]
+
+    FILA -->|Vazia| WARN[Nenhum par encontrado]
+    FILA -->|OK| LOOP{Para cada par}
+
+    LOOP --> CMD[subprocess mkvmerge<br/>-o saida.mkv]
+    CMD --> META[--language 0:por<br/>--default-track 0:yes]
+    META --> OK[Sucesso + bytes no stats]
+    OK --> LOOP
+
+    CMD -->|Erro| ERR[remux_erros.txt<br/>continua proximo]
+    ERR --> LOOP
+
+    LOOP --> REL[remux_stats.json<br/>relatorio final colorido]
+
+    CTRL[Ctrl+C] -.-> PARCIAL[Salva stats parciais JSON]
+
+    style OK fill:#1e4620,stroke:#32CD32,color:#fff
+    style EXIT fill:#5c1010,stroke:#ff4444,color:#fff
+    style CMD fill:#2d3748,stroke:#00E5FF,color:#fff
+```
+
+```mermaid
+flowchart LR
+    subgraph ENTRADA["Entradas"]
+        V["episodio.mkv"]
+        S["episodio_PTBR.ass"]
+    end
+
+    subgraph REMUX["batch_remuxer.py"]
+        P["Pareamento estrito<br/>base == base"]
+        M["mkvmerge.exe<br/>sem re-encode"]
+    end
+
+    subgraph SAIDA["Saida"]
+        O["mkv_final_ptbr/<br/>episodio_PTBR.mkv"]
+    end
+
+    V --> P
+    S --> P
+    P --> M
+    M --> O
+
+    style REMUX fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+| Entrada | Saída | Dependências |
+|:---|:---|:---|
+| Pasta `.mkv` + pasta `traducao/*.ass` | `mkv_final_ptbr/*_PTBR.mkv` | `mkvmerge.exe`, `colorama`, `tqdm` |
 
 ---
 
@@ -201,7 +386,7 @@ C:\Program Files\MKVToolNix\
 └── mkvmerge.exe      ← identificação de tracks e remux (Fases 1 e 2)
 ```
 
-### 2. Dependências Python
+### 2. Dependências Python — instalação rápida
 
 Recomendado: ambiente virtual na raiz do projeto.
 
@@ -212,17 +397,99 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-| Pacote | Função no projeto |
-|:---|:---|
-| **`colorama`** | Cores ANSI no PowerShell/CMD — blocos `[SUCESSO]`, `[AVISO]`, `[ERRO]` |
-| **`tqdm`** | Barras de progresso (tradução e remux) |
-| **`requests`** | Cliente HTTP para API do LM Studio |
-| **`pymediainfo`** | Leitura de metadados na Fase 0 |
-
-Instalação mínima manual (se não usar `requirements.txt`):
+Instalação mínima manual (apenas pacotes usados diretamente pelos scripts):
 
 ```powershell
 pip install colorama tqdm requests pymediainfo
+```
+
+---
+
+### 🐍 Dependências Python (`requirements.txt`)
+
+Arquivo na raiz do repositório: [`requirements.txt`](requirements.txt). Versões fixadas para reprodutibilidade do ambiente no Windows.
+
+#### Pacotes usados diretamente pelo código
+
+Estes são importados pelos scripts das pastas `1_`, `2_` e `3_`:
+
+| Pacote | Versão | Usado em | Fase | Função |
+|:---|:---:|:---|:---:|:---|
+| **`colorama`** | 0.4.6 | `media_analyzer.py`, `sub_extractor.py`, `batch_remuxer.py` | 0, 1, 2 | Traduz códigos ANSI para cores no PowerShell/CMD (`[SUCESSO]`, `[AVISO]`, `[ERRO]`) |
+| **`tqdm`** | 4.67.3 | `media_analyzer.py`, `sub_extractor.py`, `batch_remuxer.py` | 0, 1, 2 | Barras de progresso no console (parsing, tradução, remux) |
+| **`requests`** | 2.34.2 | `sub_extractor.py` | 1 | Cliente HTTP para LM Studio (`GET /v1/models`, `POST /v1/chat/completions`) |
+| **`pymediainfo`** | 7.0.1 | `media_analyzer.py` | 0 | Wrapper Python sobre a DLL **MediaInfo** — metadados de vídeo/áudio/legendas |
+
+> **MediaInfo (SO):** o `pymediainfo` exige a biblioteca nativa [MediaInfo](https://mediaarea.net/en/MediaInfo/Download) instalada no Windows. Sem ela, a Fase 0 falha na importação.
+
+#### Pacotes de suporte (dependências transitivas)
+
+Instalados automaticamente pelo `pip` ao resolver o `requirements.txt`. Não são importados diretamente nos scripts do projeto, mas fazem parte do ambiente fechado:
+
+| Pacote | Versão | Puxado por | Função |
+|:---|:---:|:---|:---|
+| `urllib3` | 2.7.0 | `requests` | Pool de conexões HTTP |
+| `certifi` | 2026.4.22 | `requests` | Certificados SSL/TLS |
+| `charset-normalizer` | 3.4.7 | `requests` | Detecção de encoding em respostas HTTP |
+| `idna` | 3.15 | `requests` | Suporte a domínios internacionais |
+| `httpx` | 0.28.1 | `ollama` | Cliente HTTP assíncrono |
+| `httpcore` | 1.0.9 | `httpx` | Camada baixa do `httpx` |
+| `h11` | 0.16.0 | `httpcore` | Protocolo HTTP/1.1 |
+| `anyio` | 4.13.0 | `httpx` | Abstração async para I/O |
+| `pydantic` | 2.13.4 | `ollama` | Validação de modelos de dados |
+| `pydantic_core` | 2.46.4 | `pydantic` | Núcleo Rust do Pydantic |
+| `annotated-types` | 0.7.0 | `pydantic` | Tipos anotados para validação |
+| `typing_extensions` | 4.15.0 | `pydantic` | Backport de tipos do Python |
+| `typing-inspection` | 0.4.2 | `pydantic` | Inspeção de tipos em runtime |
+
+#### Pacote listado sem uso atual no pipeline
+
+| Pacote | Versão | Observação |
+|:---|:---:|:---|
+| **`ollama`** | 0.6.2 | Presente no `requirements.txt`, porém **nenhum script do repositório importa `ollama`**. A Fase 1 comunica-se com o **LM Studio** via `requests`. Mantido no arquivo para compatibilidade ou uso futuro; pode ser removido se o ambiente for enxugado. |
+
+#### Mapa por fase do pipeline
+
+```mermaid
+flowchart LR
+    subgraph F0["Fase 0"]
+        MI[pymediainfo]
+        C0[colorama]
+        T0[tqdm]
+    end
+
+    subgraph F1["Fase 1"]
+        REQ[requests]
+        C1[colorama]
+        T1[tqdm]
+    end
+
+    subgraph F2["Fase 2"]
+        C2[colorama]
+        T2[tqdm]
+    end
+
+    MI --> F0
+    REQ --> F1
+    C0 --> F0
+    T0 --> F0
+    C1 --> F1
+    T1 --> F1
+    C2 --> F2
+    T2 --> F2
+```
+
+#### Comandos úteis
+
+```powershell
+# Listar o que está instalado no venv
+pip list
+
+# Verificar dependências de um pacote
+pip show requests
+
+# Reinstalar tudo a partir do lock do projeto
+pip install -r requirements.txt --force-reinstall
 ```
 
 ### 3. Servidor de IA — LM Studio

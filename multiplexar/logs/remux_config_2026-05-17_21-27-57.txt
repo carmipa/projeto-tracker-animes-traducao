@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-05-17 21:27:57
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : C:\TRACKER-ANIMES\animes\Macross Delta
+Diretório de Legendas Subs : C:\TRACKER-ANIMES\animes\Macross Delta\traducao
+Diretório de Destino Final : C:\TRACKER-ANIMES\animes\Macross Delta\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

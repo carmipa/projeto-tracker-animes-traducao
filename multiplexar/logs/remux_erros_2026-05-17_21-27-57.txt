@@ -1,0 +1,29 @@
+='+'= AUDITORIA DE ERRO: 2026-05-17 21:27:57 ='+'=
+Contexto: construir_fila_processamento
+Traceback Computacional:
+Traceback (most recent call last):
+  File "c:\TRACKER-ANIMES\projeto-tracker-animes-traducao\jutar_legendas_filmes\batch_remuxer.py", line 207, in construir_fila_processamento
+    self.console_log("DEBUG", f"  ↳ Pareado com sucesso: {mkv} ➔ {legenda_nome_esperado}")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\TRACKER-ANIMES\projeto-tracker-animes-traducao\jutar_legendas_filmes\batch_remuxer.py", line 92, in console_log
+    print(f"[{timestamp}] [{Fore.WHITE}DEBUG   {Style.RESET_ALL}] {mensagem}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\TRACKER-ANIMES\projeto-tracker-animes-traducao\.venv\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\TRACKER-ANIMES\projeto-tracker-animes-traducao\.venv\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\TRACKER-ANIMES\projeto-tracker-animes-traducao\.venv\Lib\site-packages\colorama\ansitowin32.py", line 205, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\TRACKER-ANIMES\projeto-tracker-animes-traducao\.venv\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u21b3' in position 4: character maps to <undefined>
+
+================================================================================
+

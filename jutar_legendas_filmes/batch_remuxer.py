@@ -10,6 +10,11 @@ from datetime import datetime
 from tqdm import tqdm
 from colorama import Fore, Style, init
 
+# Força a saída padrão do console para UTF-8 no Windows
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+
 # Inicializa o Colorama para controle de cores ANSI no PowerShell do Windows
 init(autoreset=True)
 
@@ -168,7 +173,7 @@ class IndustrialRemuxerV2:
             self.stats["erros_infraestrutura"] += 1
             return False
 
-        self.console_log("SUCESSO", "✓ Toda a infraestrutura e permissões foram validadas com sucesso!")
+        self.console_log("SUCESSO", "[OK] Toda a infraestrutura e permissões foram validadas com sucesso!")
         return True
 
     def construir_fila_processamento(self):

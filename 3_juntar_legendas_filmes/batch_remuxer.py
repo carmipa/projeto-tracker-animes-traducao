@@ -31,12 +31,19 @@ class IndustrialRemuxerV2:
     Controla diretórios, logging forense, tolerância a falhas (sinais do SO) 
     e envia os arquivos em lote para a linha de comando do mkvmerge.
     """
-    def __init__(self):
+    def __init__(self, pasta_videos, pasta_legendas):
         # 1. Configuração Estrita de Caminhos e Infraestrutura
+        # Caminho onde o executável do mkvmerge (ferramenta que une os arquivos) está instalado no Windows
         self.mkvmerge_path = r"C:\Program Files\MKVToolNix\mkvmerge.exe"
-        self.pasta_raiz = r"C:\TRACKER-ANIMES\animes\Macross Delta"
-        self.pasta_legendas = os.path.join(self.pasta_raiz, "traducao")
+        
+        # Recebe as pastas escolhidas pelo usuário no momento em que ele roda o script
+        self.pasta_raiz = pasta_videos
+        self.pasta_legendas = pasta_legendas
+        
+        # Define que a pasta de saída será criada dentro da pasta original de vídeos, com o nome 'mkv_final_ptbr'
         self.pasta_saida = os.path.join(self.pasta_raiz, "mkv_final_ptbr")
+        
+        # Define o local onde os relatórios de execução (logs) serão guardados
         self.pasta_logs = r"C:\TRACKER-ANIMES\projeto-tracker-animes-traducao\multiplexar\logs"
         
         # 2. Carimbo de Data/Hora Único para esta Sessão de Produção
@@ -353,5 +360,29 @@ class IndustrialRemuxerV2:
         self.console_log("SUCESSO", "Esteira finalizada e consolidada com sucesso!")
 
 if __name__ == "__main__":
-    remuxer = IndustrialRemuxerV2()
+    # Bloco principal do script. O que estiver aqui roda primeiro quando você executa o arquivo.
+    
+    # 1. Exibe um cabeçalho bonito no console
+    print(f"\n{Fore.CYAN}{'='*80}\n{Fore.CYAN}{'CONFIGURAÇÃO DE DIRETÓRIOS':^80}\n{Fore.CYAN}{'='*80}")
+    
+    # 2. Pede ao usuário que cole o caminho das pastas de vídeo e legenda.
+    # O comando .strip('" ') remove aspas ou espaços que o Windows pode adicionar ao arrastar a pasta para o console.
+    pasta_videos = input(f"{Fore.CYAN}Pasta com os vídeos originais (.mkv): {Style.RESET_ALL}").strip('" ')
+    pasta_legendas = input(f"{Fore.CYAN}Pasta com as legendas (.ass): {Style.RESET_ALL}").strip('" ')
+
+    # 3. Verifica se a pasta de vídeos informada realmente existe no seu PC
+    if not os.path.isdir(pasta_videos):
+        print(f"{Fore.RED}Erro: A pasta de vídeos não existe: {pasta_videos}{Style.RESET_ALL}")
+        sys.exit(1) # Fecha o programa com erro
+        
+    # 4. Verifica se a pasta de legendas informada realmente existe
+    if not os.path.isdir(pasta_legendas):
+        print(f"{Fore.RED}Erro: A pasta de legendas não existe: {pasta_legendas}{Style.RESET_ALL}")
+        sys.exit(1) # Fecha o programa com erro
+
+    # 5. Cria uma instância da nossa classe principal (o "motor" do script),
+    # passando as pastas que acabamos de recolher do usuário.
+    remuxer = IndustrialRemuxerV2(pasta_videos, pasta_legendas)
+    
+    # 6. Dá o comando para iniciar de fato a união das legendas com os vídeos.
     remuxer.executar_operacao_remux()

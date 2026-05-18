@@ -621,8 +621,10 @@ def main():
     try:
         log.secao("PIPELINE INDUSTRIAL UNIFICADO — VERSÃO FINAL DE PRODUÇÃO")
 
+        # Inicializa o 'motor' do script que faz a extração e se comunica com o LM Studio
         pipe = Pipeline(log)
 
+        # Checa se o LM Studio está rodando na porta correta e se o MKVToolNix foi encontrado
         if not pipe.validar():
             log.erro("Validação falhou — abortando")
             return
@@ -630,19 +632,23 @@ def main():
         # ── inputs ────────────────────────────────────────────────────────────
         log.secao("INPUTS")
 
+        # Pede ao usuário o caminho da pasta onde estão os episódios originais (.mkv)
         pasta = input(f"{Fore.CYAN}Pasta com os .mkv: {Style.RESET_ALL}").strip('" ')
         log.info(f"Pasta: {pasta}")
 
+        # Se a pasta digitada não existir no PC, avisa o erro e encerra o script
         if not os.path.isdir(pasta):
             log.erro(f"Pasta não existe: {pasta}")
             return
 
+        # Varre a pasta selecionada e cria uma lista apenas com os arquivos '.mkv', ordenados
         mkv_files = sorted(f for f in os.listdir(pasta) if f.endswith('.mkv'))
         log.info(f"Encontrados {len(mkv_files)} arquivo(s) .mkv")
         if not mkv_files:
             log.erro("Nenhum .mkv encontrado")
             return
 
+        # Prepara uma subpasta chamada 'traducao' dentro da pasta de vídeos, para guardar as legendas novas
         pasta_saida = os.path.join(pasta, "traducao")
         os.makedirs(pasta_saida, exist_ok=True)
         log.info(f"Saída: {pasta_saida}")
@@ -653,33 +659,39 @@ def main():
         log.secao("PROCESSAMENTO")
         pipe.stats['mkv_total'] = len(mkv_files)
 
+        # Entra em um loop (repetição) que vai passar, um a um, por todos os vídeos encontrados
         for idx, nome_mkv in enumerate(mkv_files, 1):
             log.info(f"[{idx}/{len(mkv_files)}] {nome_mkv}")
 
             mkv_path = os.path.join(pasta, nome_mkv)
 
             # 0. DESCOBRIR TRACK ID
+            # Analisa as trilhas (faixas) do vídeo para descobrir exatamente em qual delas está a legenda original
             track_id = pipe.descobrir_track_id_ass(mkv_path)
             if track_id == -1:
                 log.erro("Pulando episódio por não encontrar track .ass válido")
                 continue
 
             # 1. EXTRAÇÃO
+            # Extrai o arquivo de legenda do MKV e salva temporariamente no disco para ser manipulado
             ass_temp = pipe.extrair_legenda(mkv_path, track_id)
             if not ass_temp:
                 log.erro("Falha na extração — pulando episódio")
                 continue
 
             # 2. TRADUÇÃO
+            # Separa apenas o nome do arquivo (sem o '.mkv') para nomear o novo arquivo de legenda com '_PTBR.ass'
             nome_base = os.path.splitext(nome_mkv)[0]
             ass_final = os.path.join(pasta_saida, f"{nome_base}_PTBR.ass")
 
+            # Envia a legenda temporária para o tradutor e salva o resultado no arquivo final
             if pipe.processar_legenda(ass_temp, ass_final):
                 log.sucesso("✓ Episódio concluído")
             else:
                 log.erro("✗ Falha na tradução")
 
             # 3. LIMPEZA
+            # Deleta a legenda temporária em inglês, pois o processo já foi concluído
             try:
                 os.remove(ass_temp)
                 log.debug("Arquivo temporário removido")

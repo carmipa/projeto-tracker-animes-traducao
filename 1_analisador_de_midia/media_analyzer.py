@@ -525,6 +525,7 @@ def main():
     análise em lote de vários arquivos.
     """
     
+    # Configura o interpretador de argumentos de linha de comando (permite rodar via terminal passando o caminho)
     parser = argparse.ArgumentParser(
         description='Media Analyzer - Analisador de arquivos de midia',
         add_help=True
@@ -549,6 +550,7 @@ def main():
     arquivos_analisar = []
     
     if args.caminho:
+        # Se o usuário já passou o caminho pelo terminal (ex: python media_analyzer.py "C:\pasta")
         caminho_usuario = args.caminho.strip('"\'')
         print("\n" + "=" * 80)
         print(f"{Fore.CYAN}{Back.BLACK}MEDIA ANALYZER - Modo: Linha de Comando{Style.RESET_ALL}")
@@ -556,6 +558,7 @@ def main():
         if args.verbose:
             print(f"{Fore.YELLOW}Caminho recebido: {caminho_usuario}{Style.RESET_ALL}")
     else:
+        # Caso contrário, entra no modo interativo e pede para o usuário colar o caminho
         print("\n" + "=" * 80)
         print(f"{Fore.CYAN}{Back.BLACK}MEDIA ANALYZER - Modo: Interativo{Style.RESET_ALL}")
         print("=" * 80)
@@ -568,10 +571,11 @@ def main():
         print(f"\n{Fore.RED}ERRO: Nenhum caminho fornecido!{Style.RESET_ALL}")
         sys.exit(1)
     
-    # Verifica se eh pasta ou arquivo
+    # Verifica se o caminho passado pelo usuário é de fato uma pasta (diretório)
     if os.path.isdir(caminho_usuario):
         print(f"\n{Fore.GREEN}Pasta detectada{Style.RESET_ALL}\n")
         
+        # Vasculha a pasta para encontrar todos os vídeos com os formatos suportados
         arquivos_analisar = encontrar_videos(caminho_usuario)
         
         if not arquivos_analisar:
@@ -594,20 +598,24 @@ def main():
         print(f"{Fore.YELLOW}Caminho: {caminho_usuario}{Style.RESET_ALL}")
         sys.exit(1)
     
-    # Analisa cada arquivo
+    # Inicia o processo de análise de cada arquivo de vídeo listado
     total_arquivos = len(arquivos_analisar)
     
     for idx, arquivo in enumerate(arquivos_analisar, 1):
         print(f"\n{Fore.MAGENTA}[{idx}/{total_arquivos}] Analisando...{Style.RESET_ALL}")
+        
+        # Chama a função pesada que utiliza o FFprobe para inspecionar as faixas do arquivo
         sucesso, relatorio_linhas = analisar_arquivo_midia(arquivo)
         
-        # Salva relatorio se analise foi sucesso
+        # Se a análise funcionou, salva o relatório textual em disco
         if sucesso:
             salvar_relatorio(relatorio_linhas, os.path.basename(arquivo))
         
+        # Se falhou e era o único arquivo na fila, sai do script com código de erro
         if not sucesso and total_arquivos == 1:
             sys.exit(1)
         
+        # Se ainda houver mais vídeos na fila, pausa e aguarda o usuário apertar Enter para prosseguir
         if idx < total_arquivos:
             input(f"{Fore.CYAN}Pressione Enter para analisar o proximo arquivo...{Style.RESET_ALL}")
 

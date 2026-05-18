@@ -31,4 +31,10 @@
 
 ---
 
+## 👤 Autoria
+
+**[Paulo André Carminati](https://github.com/carmipa)** · Python · Antigravity · Cursor IDE · Gemini · Claude
+
+---
+
 [← Voltar ao README principal](../README.md)

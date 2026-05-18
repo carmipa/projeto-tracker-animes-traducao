@@ -103,4 +103,4 @@ Pré-requisitos (MKVToolNix, MediaInfo, LM Studio): **[docs/instalacao.md](docs/
 
   <p><sub>Pipeline industrial de tradução local · Maio 2026</sub></p>
 
-</motion>
+</div>

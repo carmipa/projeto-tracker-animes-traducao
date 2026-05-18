@@ -1,0 +1,138 @@
+================================================================================
+INICIANDO AUDITORIA TECNICA: [Judas] Sword Art Online the Movie Progressive - Aria of a Starless Night.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 2.13 GiB (2179 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+13 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  2.13 GiB
+
+Duracao Total
+  1 h 37 min
+
+Bitrate Geral
+  3134 kbps
+
+Aplicacao de Escrita
+  mkvmerge v68.0.0 ('The Curtain') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2672 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 195 kbps
+    Titulo: [Judas] JAP Stereo (Opus 192Kbps)
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 234 kbps
+    Titulo: [Judas] JAP 5.1 (Opus 256Kbps)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: ja
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Japanese [Full] (PGS)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: English [Full] (PGS)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: English
+
+  Legenda 4 (Track ID: 7)
+    Idioma: it
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Italian
+
+  Legenda 5 (Track ID: 8)
+    Idioma: fr
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: French
+
+  Legenda 6 (Track ID: 9)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Portuguese [BR]
+
+  Legenda 7 (Track ID: 10)
+    Idioma: ar
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Arabic
+
+  Legenda 8 (Track ID: 11)
+    Idioma: id
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Indonesian
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 13
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 8
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================

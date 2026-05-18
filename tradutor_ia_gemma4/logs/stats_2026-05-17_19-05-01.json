@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-17_19-05-01",
+  "data_hora": "2026-05-17T21:09:34.218846",
+  "stats": {
+    "mkv_total": 26,
+    "extraidos": 26,
+    "traduzidos": 26,
+    "erros_extracao": 0,
+    "erros_traducao": 0,
+    "requisicoes": 499,
+    "cache_hits": 3,
+    "linhas_traduzidas": 9789,
+    "encodings_detectados": {
+      "utf-8": 26
+    }
+  }
+}

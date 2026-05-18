@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""
+MÓDULO: media_analyzer.py
+Responsável por realizar uma auditoria técnica profunda em arquivos de vídeo (MKV, MP4, etc).
+Ele utiliza a biblioteca pymediainfo para ler os metadados do container, fluxos de vídeo, 
+áudio e legendas (incluindo detecção de legendas embudidas como PGS vs ASS).
+Gera relatórios de texto detalhados na pasta 'relatorio'.
+"""
 
 import os
 import sys
@@ -38,7 +45,10 @@ PASTA_RELATORIOS = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'
 
 
 def criar_pasta_relatorio():
-    """Cria pasta de relatorios se nao existir"""
+    """
+    Verifica se o diretório de relatórios existe e o cria caso necessário.
+    Retorna o caminho absoluto da pasta.
+    """
     if not os.path.exists(PASTA_RELATORIOS):
         os.makedirs(PASTA_RELATORIOS)
         print(f"{Fore.GREEN}Pasta de relatorios criada: {PASTA_RELATORIOS}{Style.RESET_ALL}")
@@ -46,7 +56,11 @@ def criar_pasta_relatorio():
 
 
 def encontrar_videos(caminho):
-    """Procura por arquivos de video em uma pasta - CASE INSENSITIVE"""
+    """
+    Faz a varredura (scan) recursiva de um diretório em busca de arquivos de vídeo 
+    suportados (ignorando maiúsculas e minúsculas).
+    Retorna uma lista ordenada com os caminhos absolutos dos vídeos encontrados.
+    """
     
     if not os.path.isdir(caminho):
         print(f"{Fore.RED}Erro: Caminho nao eh uma pasta valida{Style.RESET_ALL}")
@@ -70,7 +84,12 @@ def encontrar_videos(caminho):
 
 
 def analisar_arquivo_midia(caminho_arquivo, relatorio_txt=None):
-    """Analisa arquivo de midia com barra de progresso e cores"""
+    """
+    Lê a estrutura interna de um arquivo de vídeo usando MediaInfo.
+    Analisa faixas de vídeo (resolução, bitrate, fps), áudio (canais, codec) 
+    e legendas (tipo, idioma). Imprime o resultado formatado e colorido no terminal 
+    e retorna o conteúdo estruturado para ser salvo em arquivo.
+    """
     
     # Conteudo do relatorio (sem cores)
     relatorio_linhas = []
@@ -474,7 +493,10 @@ def analisar_arquivo_midia(caminho_arquivo, relatorio_txt=None):
 
 
 def salvar_relatorio(relatorio_linhas, nome_arquivo):
-    """Salva o relatorio em um arquivo .txt"""
+    """
+    Grava as linhas geradas pelo 'analisar_arquivo_midia' em um arquivo de texto 
+    na pasta de relatórios, incluindo um timestamp no nome para evitar sobrescrita.
+    """
     
     pasta = criar_pasta_relatorio()
     
@@ -497,7 +519,11 @@ def salvar_relatorio(relatorio_linhas, nome_arquivo):
 
 
 def main():
-    """Funcao principal com suporte a argumentos de linha de comando"""
+    """
+    Ponto de entrada do script. Lida com argumentos de linha de comando ou 
+    pede o caminho interativamente. Controla o loop de processamento para 
+    análise em lote de vários arquivos.
+    """
     
     parser = argparse.ArgumentParser(
         description='Media Analyzer - Analisador de arquivos de midia',

@@ -1,3 +1,10 @@
+"""
+MÓDULO: batch_remuxer.py (Fase 2 do Pipeline)
+Responsável por orquestrar o processo de multiplexação (remuxing) em lote.
+Ele recebe os arquivos de vídeo originais (.mkv) e as legendas traduzidas (.ass),
+e utiliza o mkvmerge para uni-los sem re-encodar o vídeo ou áudio.
+As novas legendas são definidas como faixa padrão (Default Track) em Português.
+"""
 import os
 import sys
 import json
@@ -19,6 +26,11 @@ if sys.platform == 'win32':
 init(autoreset=True)
 
 class IndustrialRemuxerV2:
+    """
+    Classe principal que gerencia o fluxo de trabalho de multiplexação.
+    Controla diretórios, logging forense, tolerância a falhas (sinais do SO) 
+    e envia os arquivos em lote para a linha de comando do mkvmerge.
+    """
     def __init__(self):
         # 1. Configuração Estrita de Caminhos e Infraestrutura
         self.mkvmerge_path = r"C:\Program Files\MKVToolNix\mkvmerge.exe"

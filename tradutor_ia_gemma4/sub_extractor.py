@@ -270,6 +270,16 @@ def ler_arquivo_com_encoding(caminho: str, log: GerenciadorLogs):
 # ============================================================================
 
 class Pipeline:
+    """
+    Orquestrador principal da Fase 1.
+    Responsável por:
+    1. Validar conexão com LM Studio e MKVToolNix
+    2. Extrair a legenda .ass do .mkv original
+    3. Tratar encodings (UTF-8, Latin-1, etc)
+    4. Aplicar Regex para isolar o texto dos diálogos (ignorando tags e fontes)
+    5. Traduzir via API local do Gemma 4B em lotes
+    6. Remontar o arquivo final _PTBR.ass
+    """
 
     LM_URL  = "http://127.0.0.1:1234"
     API_URL = f"{LM_URL}/v1/chat/completions"

@@ -88,7 +88,19 @@ Pré-requisitos (MKVToolNix, MediaInfo, LM Studio): **[docs/instalacao.md](docs/
 
 <div align="center">
 
-  <p>Construído por <strong>Paulo</strong> & <strong>Antigravity</strong> 🚀</p>
+  <p>
+    <strong>Construído por</strong>
+    <a href="https://github.com/carmipa"><strong>Paulo André Carminati</strong></a>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/Antigravity-FF6B35?style=flat-square" alt="Antigravity"/>
+    <img src="https://img.shields.io/badge/Cursor_IDE-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor IDE"/>
+    <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini"/>
+    <img src="https://img.shields.io/badge/Claude-CC785C?style=flat-square" alt="Claude"/>
+  </p>
+
   <p><sub>Pipeline industrial de tradução local · Maio 2026</sub></p>
 
-</div>
+</motion>

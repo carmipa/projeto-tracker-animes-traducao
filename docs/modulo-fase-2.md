@@ -88,4 +88,6 @@ flowchart LR
 
 ---
 
-[← Fase 1](modulo-fase-1.md) · [Guia de execução](guia-de-execucao.md)
+[← Fase 1](modulo-fase-1.md) · [← Fase 6](modulo-fase-6.md) · [Guia de execução](guia-de-execucao.md)
+
+> Também usado ao final da [esteira SRT (5→6→2)](pipeline-srt.md).

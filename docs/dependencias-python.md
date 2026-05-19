@@ -10,9 +10,9 @@ Versões fixadas para reprodutibilidade no Windows.
 
 | Pacote | Versão | Usado em | Fase | Função |
 |:---|:---:|:---|:---:|:---|
-| **`colorama`** | 0.4.6 | Todos os scripts `1_`, `2_`, `3_` | 0, 1, 2 | Cores ANSI no terminal |
-| **`tqdm`** | 4.67.3 | Todos os scripts | 0, 1, 2 | Barras de progresso |
-| **`requests`** | 2.34.2 | `sub_extractor.py` | 1 | HTTP para LM Studio |
+| **`colorama`** | 0.4.6 | Scripts `1_`–`3_`, `5_`, `6_` | 0–2, 5, 6 | Cores ANSI no terminal |
+| **`tqdm`** | 4.67.3 | Scripts `1_`–`3_`, `5_`, `6_` | 0–2, 5, 6 | Barras de progresso |
+| **`requests`** | 2.34.2 | `sub_extractor.py`, `tradutor_srt_direto.py` | 1, 5 | HTTP para LM Studio |
 | **`pymediainfo`** | 7.0.1 | `media_analyzer.py` | 0 | Metadados via DLL MediaInfo |
 
 > **MediaInfo (SO):** necessário além do pacote pip. [Download MediaInfo](https://mediaarea.net/en/MediaInfo/Download).
@@ -43,7 +43,7 @@ Versões fixadas para reprodutibilidade no Windows.
 
 | Pacote | Versão | Observação |
 |:---|:---:|:---|
-| **`ollama`** | 0.6.2 | Listado no `requirements.txt`, mas **nenhum script importa `ollama`**. A Fase 1 usa **LM Studio + `requests`**. |
+| **`ollama`** | 0.6.2 | Listado no `requirements.txt`, mas **nenhum script importa `ollama`**. Fases 1 e 5 usam **LM Studio + `requests`**. |
 
 ---
 
@@ -68,14 +68,30 @@ flowchart LR
         T2[tqdm]
     end
 
+    subgraph F5["Fase 5"]
+        REQ5[requests]
+        C5[colorama]
+        T5[tqdm]
+    end
+
+    subgraph F6["Fase 6"]
+        C6[colorama]
+        T6[tqdm]
+    end
+
     MI --> F0
     REQ --> F1
+    REQ5 --> F5
     C0 --> F0
     T0 --> F0
     C1 --> F1
     T1 --> F1
     C2 --> F2
     T2 --> F2
+    C5 --> F5
+    T5 --> F5
+    C6 --> F6
+    T6 --> F6
 ```
 
 ---

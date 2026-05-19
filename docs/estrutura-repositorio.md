@@ -4,17 +4,18 @@
 
 ```text
 projeto-tracker-animes-traducao/
-├── README.md                      ← entrada principal (este repo)
+├── README.md
 ├── icone.png
 ├── requirements.txt
 ├── LICENSE
 │
-├── docs/                          ← documentação detalhada
-│   ├── README.md                  ← índice da pasta docs
+├── docs/                              ← documentação
+│   ├── README.md
 │   ├── arquitetura.md
-│   ├── modulo-fase-0.md
-│   ├── modulo-fase-1.md
-│   ├── modulo-fase-2.md
+│   ├── pipeline-srt.md                ← esteira 5→6→2
+│   ├── modulo-fase-0.md … modulo-fase-2.md
+│   ├── modulo-fase-5.md               ← NOVO
+│   ├── modulo-fase-6.md               ← NOVO
 │   ├── instalacao.md
 │   ├── dependencias-python.md
 │   ├── guia-de-execucao.md
@@ -22,21 +23,30 @@ projeto-tracker-animes-traducao/
 │   ├── solucao-de-problemas.md
 │   └── estrutura-repositorio.md
 │
-├── 1_analisador_de_midia/
+├── 1_analisador_de_midia/             # Fase 0
 │   └── media_analyzer.py
 │
-├── 2_tradutor_ia_gemma4/
+├── 2_tradutor_ia_gemma4/              # Fase 1 — MKV + ASS
 │   ├── sub_extractor.py
 │   └── logs/
 │
-├── 3_juntar_legendas_filmes/
+├── 3_juntar_legendas_filmes/          # Fase 2 — remux (ambas esteiras)
 │   └── batch_remuxer.py
 │
-├── multiplexar/logs/              ← logs do remuxer
-└── relatorio/                     ← relatórios Fase 0
+├── 5_tradutor_de_legenda/             # Fase 5 — SRT direto
+│   ├── tradutor_srt_direto.py
+│   └── logs/
+│
+├── 6-conversor_str_ass/               # Fase 6 — SRT → ASS + FPS
+│   └── conversor_srt_para_ass.py
+│
+├── multiplexar/logs/                  ← logs do remuxer
+└── relatorio/                         ← relatórios Fase 0
 ```
 
-Layout das pastas de vídeo do usuário: [Guia de execução — Layout](guia-de-execucao.md#layout-de-pastas-de-mídia).
+> As fases **3** e **4** não existem no repositório — numeração salta de 2 para 5 por evolução do projeto.
+
+Layout de mídia do usuário: [Guia de execução](guia-de-execucao.md#layout-de-pastas).
 
 ---
 

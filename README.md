@@ -4,7 +4,7 @@
 
   <h1>🌌 Tracker Animes — Pipeline de Tradução & Multiplexação</h1>
 
-  <p><strong>Esteira industrial local (on-premises) para auditar mídia, traduzir legendas ASS com IA e remuxar episódios em PT-BR</strong></p>
+  <p><strong>Esteira industrial local (on-premises) para auditar mídia, traduzir legendas com IA e remuxar episódios e filmes em PT-BR</strong></p>
 
   <p>
     <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -12,6 +12,7 @@
     <img src="https://img.shields.io/badge/LM_Studio-IA_Local-FF6B35?style=for-the-badge&logo=openai&logoColor=white" alt="LM Studio"/>
     <img src="https://img.shields.io/badge/MKVToolNix-Essencial-4B0082?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="MKVToolNix"/>
     <img src="https://img.shields.io/badge/Gemma_4B-LLM-00E5FF?style=for-the-badge&logo=google&logoColor=white" alt="Gemma 4B"/>
+    <img src="https://img.shields.io/badge/SRT-ASS_Converter-6B21A8?style=for-the-badge" alt="SRT Pipeline"/>
   </p>
 
   <p>
@@ -22,43 +23,62 @@
 
 </div>
 
-> **Documentação completa:** pasta [`docs/`](docs/README.md) — guias separados por tema para melhor leitura no GitHub.
+> **Documentação completa:** [`docs/`](docs/README.md) — guias por fase, diagramas e troubleshooting.
 
 ---
 
 ## 🚀 Visão geral
 
-Pipeline em **três etapas** (Python orquestra; **MKVToolNix** manipula vídeo; **LM Studio** traduz em `localhost:1234`):
+Duas esteiras que compartilham a **Fase 2 (remux)**:
 
-| Etapa | Pasta | Script | Função |
-|:---:|:---|:---|:---|
-| **0** | `1_analisador_de_midia/` | `media_analyzer.py` | Auditoria de mídia *(opcional)* |
-| **1** | `2_tradutor_ia_gemma4/` | `sub_extractor.py` | Extrai `.ass` → traduz → `*_PTBR.ass` |
-| **2** | `3_juntar_legendas_filmes/` | `batch_remuxer.py` | Remux → `*_PTBR.mkv` |
+### Esteira MKV — episódios com legenda embutida
 
-| ⚡ Remux ~1,5 s/ep. | 🔒 LLM 100% local | 📺 Legenda PT-BR como faixa padrão |
-|:---:|:---:|:---:|
+| Etapa | Pasta | Script |
+|:---:|:---|:---|
+| **0** | `1_analisador_de_midia/` | `media_analyzer.py` *(opcional)* |
+| **1** | `2_tradutor_ia_gemma4/` | `sub_extractor.py` |
+| **2** | `3_juntar_legendas_filmes/` | `batch_remuxer.py` |
+
+### Esteira SRT — legendas externas (filmes)
+
+| Etapa | Pasta | Script |
+|:---:|:---|:---|
+| **5** | `5_tradutor_de_legenda/` | `tradutor_srt_direto.py` |
+| **6** | `6-conversor_str_ass/` | `conversor_srt_para_ass.py` |
+| **2** | `3_juntar_legendas_filmes/` | `batch_remuxer.py` |
+
+| ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 |
+|:---:|:---:|:---:|:---:|
 
 ---
 
 ## ⚡ Início rápido
 
 ```powershell
-# 1. Ambiente
 cd C:\TRACKER-ANIMES\projeto-tracker-animes-traducao
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+# LM Studio: Gemma 4B na porta 1234
+```
 
-# 2. LM Studio: modelo Gemma 4B na porta 1234
+**Episódios (.mkv + ASS interno):**
 
-# 3. Pipeline (na ordem)
+```powershell
 python .\1_analisador_de_midia\media_analyzer.py    # opcional
 python .\2_tradutor_ia_gemma4\sub_extractor.py
 python .\3_juntar_legendas_filmes\batch_remuxer.py
 ```
 
-Pré-requisitos (MKVToolNix, MediaInfo, LM Studio): **[docs/instalacao.md](docs/instalacao.md)**
+**Filme (SRT externo):**
+
+```powershell
+python .\5_tradutor_de_legenda\tradutor_srt_direto.py
+python .\6-conversor_str_ass\conversor_srt_para_ass.py
+python .\3_juntar_legendas_filmes\batch_remuxer.py
+```
+
+Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira SRT: **[docs/pipeline-srt.md](docs/pipeline-srt.md)**
 
 ---
 
@@ -66,17 +86,14 @@ Pré-requisitos (MKVToolNix, MediaInfo, LM Studio): **[docs/instalacao.md](docs/
 
 | Guia | Descrição |
 |:---|:---|
-| **[📖 Índice completo](docs/README.md)** | Hub de toda a documentação |
-| [Estrutura do repositório](docs/estrutura-repositorio.md) | Pastas, scripts e `docs/` |
-| [Arquitetura](docs/arquitetura.md) | Diagramas e camadas do sistema |
-| [Fase 0 — Analisador](docs/modulo-fase-0.md) | `media_analyzer.py` |
-| [Fase 1 — Tradutor](docs/modulo-fase-1.md) | `sub_extractor.py` + IA |
-| [Fase 2 — Remuxer](docs/modulo-fase-2.md) | `batch_remuxer.py` |
-| [Instalação](docs/instalacao.md) | Checklist SO + venv |
-| [Dependências Python](docs/dependencias-python.md) | `requirements.txt` |
-| [Guia de execução](docs/guia-de-execucao.md) | Comandos e layout de mídia |
-| [Logs e auditoria](docs/logs-e-auditoria.md) | Artefatos de log |
-| [Solução de problemas](docs/solucao-de-problemas.md) | Troubleshooting |
+| **[📖 Índice completo](docs/README.md)** | Hub da documentação |
+| [Pipeline SRT (5→6→2)](docs/pipeline-srt.md) | Filmes e legendas externas |
+| [Arquitetura](docs/arquitetura.md) | Duas esteiras + diagramas |
+| [Fase 0](docs/modulo-fase-0.md) · [1](docs/modulo-fase-1.md) · [2](docs/modulo-fase-2.md) | Esteira MKV |
+| [Fase 5](docs/modulo-fase-5.md) · [6](docs/modulo-fase-6.md) | Esteira SRT |
+| [Instalação](docs/instalacao.md) · [Dependências](docs/dependencias-python.md) | Ambiente |
+| [Guia de execução](docs/guia-de-execucao.md) | Comandos e pastas |
+| [Logs](docs/logs-e-auditoria.md) · [Problemas](docs/solucao-de-problemas.md) | Operação |
 
 ---
 

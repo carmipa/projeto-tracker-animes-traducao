@@ -2,57 +2,90 @@
 
 [← Índice da documentação](README.md) · [README principal](../README.md)
 
-Fluxo determinístico: **análise (opcional) → extração/tradução → multiplexação**.
+O projeto oferece **duas esteiras** independentes que convergem na **Fase 2 (remux)**:
 
-> Diagramas detalhados por script: [Fase 0](modulo-fase-0.md) · [Fase 1](modulo-fase-1.md) · [Fase 2](modulo-fase-2.md)
+| Esteira | Fases | Entrada típica |
+|:---|:---|:---|
+| **MKV (episódios)** | 0 → 1 → 2 | `.mkv` com legenda ASS embutida |
+| **SRT (legendas externas)** | 5 → 6 → 2 | `.srt` separado + `.mkv` do filme |
+
+> Detalhes da esteira SRT: [Pipeline SRT](pipeline-srt.md)
 
 ---
 
-## Visão macro
+## Esteira MKV — visão macro
 
 ```mermaid
 flowchart LR
-    MKV["Pasta de episodios<br/>.mkv"]
+    MKV["Pasta episodios .mkv"]
 
-    MKV --> P0["1_analisador_de_midia<br/>media_analyzer.py"]
+    MKV --> P0["1_analisador_de_midia"]
     P0 -.->|opcional| P1
-    MKV --> P1["2_tradutor_ia_gemma4<br/>sub_extractor.py"]
+    MKV --> P1["2_tradutor_ia_gemma4"]
 
     P0 --> R0["relatorio/*.txt"]
     P1 --> R1["traducao/*_PTBR.ass"]
 
-    MKV --> P2["3_juntar_legendas_filmes<br/>batch_remuxer.py"]
+    MKV --> P2["3_juntar_legendas_filmes"]
     R1 --> P2
     P2 --> R2["mkv_final_ptbr/*_PTBR.mkv"]
 
     style P0 fill:#2d3748,stroke:#00E5FF,color:#fff
     style P1 fill:#4B0082,stroke:#00E5FF,color:#fff
     style P2 fill:#1e4620,stroke:#32CD32,color:#fff
-    style R2 fill:#006400,stroke:#32CD32,color:#fff
 ```
+
+Diagramas por módulo: [Fase 0](modulo-fase-0.md) · [Fase 1](modulo-fase-1.md) · [Fase 2](modulo-fase-2.md)
 
 ---
 
-## Camadas de dependência
+## Esteira SRT — visão macro
+
+```mermaid
+flowchart LR
+    SRT["legenda/*.srt EN"] --> P5["5_tradutor_de_legenda"]
+    P5 --> SRTPT["*_PTBR.srt"]
+    SRTPT --> P6["6-conversor_str_ass"]
+    P6 --> ASS["traducao/*_PTBR.ass"]
+
+    MKV["filme.mkv"] --> P2["3_juntar_legendas_filmes"]
+    ASS --> P2
+    P2 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style P5 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style P6 fill:#6b21a8,stroke:#00E5FF,color:#fff
+    style P2 fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+Diagramas: [Fase 5](modulo-fase-5.md) · [Fase 6](modulo-fase-6.md)
+
+---
+
+## Camadas de dependência (todas as fases)
 
 ```mermaid
 flowchart TB
-    subgraph DEP["Camada de dependencias externas"]
-        MKVT["MKVToolNix<br/>mkvmerge + mkvextract"]
-        LM["LM Studio :1234<br/>Gemma 4B"]
-        MI["MediaInfo DLL<br/>pymediainfo"]
+    subgraph DEP["Dependencias externas"]
+        MKVT["MKVToolNix<br/>Fases 1 e 2"]
+        LM["LM Studio :1234<br/>Fases 1 e 5"]
+        MI["MediaInfo<br/>Fase 0"]
     end
 
-    subgraph PY["Camada Python - orquestracao"]
+    subgraph PY["Scripts Python"]
         S0["media_analyzer.py"]
         S1["sub_extractor.py"]
         S2["batch_remuxer.py"]
+        S5["tradutor_srt_direto.py"]
+        S6["conversor_srt_para_ass.py"]
     end
 
     MI --> S0
     MKVT --> S1
     MKVT --> S2
     LM --> S1
+    LM --> S5
+    S5 --> S6
+    S6 --> S2
 
     style DEP fill:#1a1a2e,stroke:#666,color:#fff
     style PY fill:#2b2b2b,stroke:#00E5FF,color:#fff
@@ -62,27 +95,25 @@ flowchart TB
 
 ## Binários externos (Windows)
 
-O Python **orquestra**; a manipulação de Matroska é feita pelos executáveis do MKVToolNix:
-
-| Executável | Usado em | Caminho padrão |
+| Executável | Fases | Caminho padrão |
 |:---|:---|:---|
-| `mkvmerge.exe` | Identificar tracks (`-J`) e remuxar | `C:\Program Files\MKVToolNix\` |
-| `mkvextract.exe` | Extrair faixa de legenda `.ass` | `C:\Program Files\MKVToolNix\` |
+| `mkvmerge.exe` | 1, 2 | `C:\Program Files\MKVToolNix\` |
+| `mkvextract.exe` | 1 | `C:\Program Files\MKVToolNix\` |
 
-> Instale o [MKVToolNix](https://mkvtoolnix.download/downloads.html). O código da Fase 1 também tenta `Program Files (x86)`.
+[Fases 5 e 6](pipeline-srt.md) **não** usam MKVToolNix.
 
 ---
 
 ## Servidor de IA
 
-| Componente | Papel |
+| Componente | Fases |
 |:---|:---|
-| **[LM Studio](https://lmstudio.ai/)** | Runtime on-premises: HTTP na porta **1234**, Prompt Cache, modelo na VRAM |
-| **Gemma 4B** (`google/gemma-4-e4b`) | Modelo recomendado para ficção científica / mecha |
+| **[LM Studio](https://lmstudio.ai/)** porta **1234** | 1, 5 |
+| **Gemma 4B** | Tradução ASS (Fase 1) e SRT (Fase 5) |
 
-Antes da Fase 1: carregue o modelo → **Start Server** na porta `1234`.
+A **Fase 6** é conversão estrutural + sync FPS — sem IA.
 
-Detalhes de instalação: [Instalação](instalacao.md).
+Instalação: [instalacao.md](instalacao.md)
 
 ---
 

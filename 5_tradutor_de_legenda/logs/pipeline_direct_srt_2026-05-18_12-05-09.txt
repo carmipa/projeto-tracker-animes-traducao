@@ -1,0 +1,114 @@
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO DIRETA SRT - LOG DE AUDITORIA
+================================================================================
+Início   : 2026-05-18 12:05:09
+Python   : 3.14.5
+Logs     : c:\TRACKER-ANIMES\projeto-tracker-animes-traducao\1_analisador_de_midia\5_tradutor_de_legenda\logs
+================================================================================
+
+[12:05:09.649] [INFO    ] Arquivo de Entrada Detectado: C:\TRACKER-ANIMES\animes\md-2\legenda\Macross Delta Zettai Live 2021-WEBRIP-en.srt
+[12:05:09.653] [INFO    ] Validando conexão com a API local...
+[12:05:09.698] [SUCESSO ] LM Studio OK - 2 modelo(s) detectado(s)
+[12:05:50.475] [INFO    ] Tamanho de Lote configurado: 20
+[12:05:50.476] [INFO    ] Arquivo de Saída planejado : C:\TRACKER-ANIMES\animes\md-2\legenda\Macross Delta Zettai Live 2021-WEBRIP_PTBR.srt
+
+[12:05:50.476] [DEBUG   ] Leitura bem-sucedida usando encoding: UTF-8
+[12:05:50.477] [INFO    ] Total de blocos SRT detectados para tradução: 1729
+[12:06:15.500] [DEBUG   ] Lote 1/87 processado com integridade.
+[12:06:40.471] [DEBUG   ] Lote 2/87 processado com integridade.
+[12:07:06.669] [DEBUG   ] Lote 3/87 processado com integridade.
+[12:07:29.199] [DEBUG   ] Lote 4/87 processado com integridade.
+[12:07:50.850] [DEBUG   ] Lote 5/87 processado com integridade.
+[12:08:13.626] [DEBUG   ] Lote 6/87 processado com integridade.
+[12:08:38.339] [DEBUG   ] Lote 7/87 processado com integridade.
+[12:08:59.877] [DEBUG   ] Lote 8/87 processado com integridade.
+[12:09:31.897] [DEBUG   ] Lote 9/87 processado com integridade.
+[12:09:52.159] [DEBUG   ] Lote 10/87 processado com integridade.
+[12:10:15.836] [DEBUG   ] Lote 11/87 processado com integridade.
+[12:10:37.676] [DEBUG   ] Lote 12/87 processado com integridade.
+[12:10:58.388] [DEBUG   ] Lote 13/87 processado com integridade.
+[12:11:24.820] [DEBUG   ] Lote 14/87 processado com integridade.
+[12:11:45.828] [DEBUG   ] Lote 15/87 processado com integridade.
+[12:12:11.311] [DEBUG   ] Lote 16/87 processado com integridade.
+[12:12:36.937] [DEBUG   ] Lote 17/87 processado com integridade.
+[12:13:01.928] [DEBUG   ] Lote 18/87 processado com integridade.
+[12:13:19.769] [DEBUG   ] Lote 19/87 processado com integridade.
+[12:13:40.625] [DEBUG   ] Lote 20/87 processado com integridade.
+[12:14:01.698] [DEBUG   ] Lote 21/87 processado com integridade.
+[12:14:22.224] [DEBUG   ] Lote 22/87 processado com integridade.
+[12:14:48.267] [DEBUG   ] Lote 23/87 processado com integridade.
+[12:15:12.942] [DEBUG   ] Lote 24/87 processado com integridade.
+[12:15:34.601] [DEBUG   ] Lote 25/87 processado com integridade.
+[12:15:57.626] [DEBUG   ] Lote 26/87 processado com integridade.
+[12:16:21.797] [DEBUG   ] Lote 27/87 processado com integridade.
+[12:16:46.674] [DEBUG   ] Lote 28/87 processado com integridade.
+[12:17:10.082] [DEBUG   ] Lote 29/87 processado com integridade.
+[12:17:31.907] [DEBUG   ] Lote 30/87 processado com integridade.
+[12:18:03.603] [DEBUG   ] Lote 31/87 processado com integridade.
+[12:18:28.613] [DEBUG   ] Lote 32/87 processado com integridade.
+[12:18:54.588] [DEBUG   ] Lote 33/87 processado com integridade.
+[12:19:18.960] [DEBUG   ] Lote 34/87 processado com integridade.
+[12:19:41.639] [DEBUG   ] Lote 35/87 processado com integridade.
+[12:20:03.660] [DEBUG   ] Lote 36/87 processado com integridade.
+[12:20:24.722] [DEBUG   ] Lote 37/87 processado com integridade.
+[12:20:50.095] [DEBUG   ] Lote 38/87 processado com integridade.
+[12:21:14.136] [DEBUG   ] Lote 39/87 processado com integridade.
+[12:21:39.966] [DEBUG   ] Lote 40/87 processado com integridade.
+[12:21:59.177] [DEBUG   ] Lote 41/87 processado com integridade.
+[12:22:21.690] [DEBUG   ] Lote 42/87 processado com integridade.
+[12:22:41.853] [DEBUG   ] Lote 43/87 processado com integridade.
+[12:23:04.610] [DEBUG   ] Lote 44/87 processado com integridade.
+[12:23:28.233] [DEBUG   ] Lote 45/87 processado com integridade.
+[12:23:50.194] [DEBUG   ] Lote 46/87 processado com integridade.
+[12:24:14.359] [DEBUG   ] Lote 47/87 processado com integridade.
+[12:24:38.909] [DEBUG   ] Lote 48/87 processado com integridade.
+[12:24:57.781] [DEBUG   ] Lote 49/87 processado com integridade.
+[12:25:19.361] [DEBUG   ] Lote 50/87 processado com integridade.
+[12:25:40.604] [DEBUG   ] Lote 51/87 processado com integridade.
+[12:26:08.029] [DEBUG   ] Lote 52/87 processado com integridade.
+[12:26:27.750] [DEBUG   ] Lote 53/87 processado com integridade.
+[12:26:46.519] [DEBUG   ] Lote 54/87 processado com integridade.
+[12:27:09.927] [DEBUG   ] Lote 55/87 processado com integridade.
+[12:27:34.678] [DEBUG   ] Lote 56/87 processado com integridade.
+[12:28:00.959] [DEBUG   ] Lote 57/87 processado com integridade.
+[12:28:23.592] [DEBUG   ] Lote 58/87 processado com integridade.
+[12:28:43.634] [DEBUG   ] Lote 59/87 processado com integridade.
+[12:29:06.493] [DEBUG   ] Lote 60/87 processado com integridade.
+[12:29:32.202] [DEBUG   ] Lote 61/87 processado com integridade.
+[12:29:54.425] [DEBUG   ] Lote 62/87 processado com integridade.
+[12:30:16.185] [DEBUG   ] Lote 63/87 processado com integridade.
+[12:30:41.312] [DEBUG   ] Lote 64/87 processado com integridade.
+[12:31:05.993] [DEBUG   ] Lote 65/87 processado com integridade.
+[12:31:31.244] [DEBUG   ] Lote 66/87 processado com integridade.
+[12:31:56.324] [DEBUG   ] Lote 67/87 processado com integridade.
+[12:32:19.413] [DEBUG   ] Lote 68/87 processado com integridade.
+[12:32:42.353] [DEBUG   ] Lote 69/87 processado com integridade.
+[12:33:05.560] [DEBUG   ] Lote 70/87 processado com integridade.
+[12:33:30.940] [DEBUG   ] Lote 71/87 processado com integridade.
+[12:33:55.211] [DEBUG   ] Lote 72/87 processado com integridade.
+[12:34:19.939] [DEBUG   ] Lote 73/87 processado com integridade.
+[12:34:42.380] [DEBUG   ] Lote 74/87 processado com integridade.
+[12:35:06.489] [DEBUG   ] Lote 75/87 processado com integridade.
+[12:35:30.697] [DEBUG   ] Lote 76/87 processado com integridade.
+[12:35:51.270] [DEBUG   ] Lote 77/87 processado com integridade.
+[12:36:08.527] [DEBUG   ] Lote 78/87 processado com integridade.
+[12:36:33.819] [DEBUG   ] Lote 79/87 processado com integridade.
+[12:36:52.777] [DEBUG   ] Lote 80/87 processado com integridade.
+[12:37:12.850] [DEBUG   ] Lote 81/87 processado com integridade.
+[12:37:34.075] [DEBUG   ] Lote 82/87 processado com integridade.
+[12:37:56.400] [DEBUG   ] Lote 83/87 processado com integridade.
+[12:38:18.458] [DEBUG   ] Lote 84/87 processado com integridade.
+[12:38:45.534] [DEBUG   ] Lote 85/87 processado com integridade.
+[12:39:08.258] [DEBUG   ] Lote 86/87 processado com integridade.
+[12:39:21.346] [DEBUG   ] Lote 87/87 processado com integridade.
+
+================================================================================
+RELATÓRIO FINAL - OPERAÇÃO DIRETA SRT
+================================================================================
+Blocos Processados : 1729
+Requisições API    : 87
+Linhas Localizadas : 1729
+Falhas Detectadas  : 0
+Encoding de Origem : UTF-8
+Log de Auditoria   : c:\TRACKER-ANIMES\projeto-tracker-animes-traducao\1_analisador_de_midia\5_tradutor_de_legenda\logs\pipeline_direct_srt_2026-05-18_12-05-09.txt
+Destino do Arquivo : C:\TRACKER-ANIMES\animes\md-2\legenda\Macross Delta Zettai Live 2021-WEBRIP_PTBR.srt

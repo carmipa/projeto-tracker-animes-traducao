@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-05-18 12:42:46
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : C:\TRACKER-ANIMES\animes\md-2
+Diretório de Legendas Subs : C:\TRACKER-ANIMES\animes\md-2
+Diretório de Destino Final : C:\TRACKER-ANIMES\animes\md-2\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

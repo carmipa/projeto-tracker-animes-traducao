@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-05-18_12-54-06",
+    "data_hora_inicio": "2026-05-18T12:54:06.716955",
+    "mkv_detectados": 1,
+    "mkv_processados_sucesso": 1,
+    "legendas_pareadas": 1,
+    "erros_infraestrutura": 0,
+    "erros_mkvmerge_runtime": 0,
+    "erros_permissao_io": 0,
+    "erros_inesperados": 0,
+    "bytes_mkv_gerados_total": 5803027347,
+    "arquivos_ignorados": 0,
+    "data_hora_fim": "2026-05-18T12:54:21.136783"
+}

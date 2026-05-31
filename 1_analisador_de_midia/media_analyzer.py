@@ -41,7 +41,7 @@ except ImportError:
 EXTENSOES_VIDEO = ['.mkv', '.mp4', '.avi', '.mov', '.flv', '.wmv', '.webm', '.m4v', '.ts', '.m2ts']
 
 # Pasta de relatorios
-PASTA_RELATORIOS = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'relatorio')
+PASTA_RELATORIOS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'relatorio')
 
 
 def criar_pasta_relatorio():
@@ -600,24 +600,29 @@ def main():
     
     # Inicia o processo de análise de cada arquivo de vídeo listado
     total_arquivos = len(arquivos_analisar)
-    
+    relatorio_consolidado = []
+
     for idx, arquivo in enumerate(arquivos_analisar, 1):
         print(f"\n{Fore.MAGENTA}[{idx}/{total_arquivos}] Analisando...{Style.RESET_ALL}")
-        
-        # Chama a função pesada que utiliza o FFprobe para inspecionar as faixas do arquivo
+
         sucesso, relatorio_linhas = analisar_arquivo_midia(arquivo)
-        
-        # Se a análise funcionou, salva o relatório textual em disco
+
         if sucesso:
-            salvar_relatorio(relatorio_linhas, os.path.basename(arquivo))
-        
-        # Se falhou e era o único arquivo na fila, sai do script com código de erro
+            if total_arquivos == 1:
+                salvar_relatorio(relatorio_linhas, os.path.basename(arquivo))
+            else:
+                relatorio_consolidado.extend(relatorio_linhas)
+                relatorio_consolidado.append("")
+
         if not sucesso and total_arquivos == 1:
             sys.exit(1)
-        
-        # Se ainda houver mais vídeos na fila, pausa e aguarda o usuário apertar Enter para prosseguir
+
         if idx < total_arquivos:
             input(f"{Fore.CYAN}Pressione Enter para analisar o proximo arquivo...{Style.RESET_ALL}")
+
+    if total_arquivos > 1 and relatorio_consolidado:
+        nome_pasta = os.path.basename(os.path.normpath(caminho_usuario))
+        salvar_relatorio(relatorio_consolidado, f"consolidado_{nome_pasta}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,27 @@
+RELATÓRIO DE TRADUÇÃO MULTITHREAD — BATCH TRANSLATOR UNICORN
+Gerado em: 2026-05-28 12:52:30
+================================================================================
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096_PTBR.ass | Diálogos: 404 | Fallbacks: 404
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood_PTBR.ass | Diálogos: 493 | Fallbacks: 493
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam_PTBR.ass | Diálogos: 377 | Fallbacks: 377
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit_PTBR.ass | Diálogos: 558 | Fallbacks: 558
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet_PTBR.ass | Diálogos: 454 | Fallbacks: 454
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask_PTBR.ass | Diálogos: 478 | Fallbacks: 478
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau_PTBR.ass | Diálogos: 450 | Fallbacks: 450
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began_PTBR.ass | Diálogos: 535 | Fallbacks: 535
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution_PTBR.ass | Diálogos: 440 | Fallbacks: 440
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth_PTBR.ass | Diálogos: 434 | Fallbacks: 434
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington_PTBR.ass | Diálogos: 454 | Fallbacks: 454
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War_PTBR.ass | Diálogos: 420 | Fallbacks: 420
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier_PTBR.ass | Diálogos: 431 | Fallbacks: 431
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns_PTBR.ass | Diálogos: 410 | Fallbacks: 410
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space_PTBR.ass | Diálogos: 380 | Fallbacks: 380
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere_PTBR.ass | Diálogos: 471 | Fallbacks: 471
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured_PTBR.ass | Diálogos: 468 | Fallbacks: 468
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle_PTBR.ass | Diálogos: 224 | Fallbacks: 224
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow_PTBR.ass | Diálogos: 360 | Fallbacks: 360
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box_PTBR.ass | Diálogos: 448 | Fallbacks: 448
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End_PTBR.ass | Diálogos: 362 | Fallbacks: 362
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return_PTBR.ass | Diálogos: 429 | Fallbacks: 429
+================================================================================
+TOTAL: 22 arquivos | 9480 diálogos | 9480 fallbacks

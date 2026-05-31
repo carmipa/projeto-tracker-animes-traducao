@@ -1,0 +1,6939 @@
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (468 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2739 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1977 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.40 GiB (408 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.40 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2386 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1611 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 257 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 264 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 241 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.49 GiB (501 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.49 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2932 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2173 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 250 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (371 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2172 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1643 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.39 GiB (404 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.39 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2363 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1837 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 259 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.32 GiB (323 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.32 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  1889 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1361 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 263 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (472 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2761 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2244 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.32 GiB (327 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.32 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  1915 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1385 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.41 GiB (417 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.41 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2441 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1922 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.32 GiB (330 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.32 GiB
+
+Duracao Total
+  23 min 52 s
+
+Bitrate Geral
+  1934 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1409 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.35 GiB (362 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.35 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2116 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1581 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 266 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.45 GiB (456 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.45 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2669 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2155 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 250 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (369 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2160 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1391 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 253 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 259 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 246 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.49 GiB (501 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.49 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2932 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2177 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 249 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 249 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (478 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2800 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2036 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 252 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.33 GiB (342 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.33 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2004 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1472 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 263 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (367 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2146 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1624 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 253 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (486 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2846 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2338 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 247 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (475 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2777 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2267 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 249 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.35 GiB (362 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.35 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2119 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1591 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.54 GiB (558 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.54 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  3264 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2508 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (483 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 38 s
+
+Bitrate Geral
+  2859 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2088 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 250 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (467 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2734 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1977 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.40 GiB (407 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.40 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2381 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1612 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 257 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 264 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 241 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.49 GiB (500 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.49 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2926 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2173 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 250 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (370 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2166 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1643 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.39 GiB (403 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.39 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2358 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1837 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 259 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.31 GiB (322 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.31 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  1886 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1361 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 263 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (471 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2758 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2244 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.32 GiB (327 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.32 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  1912 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1385 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.41 GiB (416 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.41 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2438 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1922 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.32 GiB (330 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.32 GiB
+
+Duracao Total
+  23 min 52 s
+
+Bitrate Geral
+  1931 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1409 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.35 GiB (361 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.35 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2113 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1581 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 266 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.44 GiB (455 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.44 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2664 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2155 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 250 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (368 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2155 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1391 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 253 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 259 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 246 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.49 GiB (500 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.49 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2926 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2177 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 249 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 249 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (477 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2795 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2036 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 252 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.33 GiB (341 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.33 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  1998 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1472 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 263 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (366 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2140 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1624 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 253 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (485 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2841 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2339 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 247 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (474 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2772 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2267 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 249 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.35 GiB (361 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.35 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2113 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1592 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.54 GiB (557 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.54 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  3259 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2508 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return_PTBR.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (483 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 38 s
+
+Bitrate Geral
+  2854 kbps
+
+Aplicacao de Escrita
+  mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2088 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 250 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+  Legenda 3 (Track ID: 7)
+    Idioma: pt
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Português (Gemma 4B)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 3
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (468 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2739 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1977 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.40 GiB (408 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.40 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2386 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1611 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 257 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 264 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 241 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.49 GiB (501 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.49 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2932 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2173 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 250 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (371 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2172 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1643 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.39 GiB (404 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.39 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2363 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1837 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 259 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.32 GiB (323 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.32 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  1889 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1361 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 263 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (472 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2761 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2244 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.32 GiB (327 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.32 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  1915 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1385 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.41 GiB (417 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.41 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2441 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1922 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 255 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.32 GiB (330 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.32 GiB
+
+Duracao Total
+  23 min 52 s
+
+Bitrate Geral
+  1934 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1409 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.35 GiB (362 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+7 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.35 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2116 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1581 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 266 kbps
+    Titulo: [BDMV] English
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 7
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.45 GiB (456 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.45 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2669 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2155 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 250 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (369 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2160 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1391 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 253 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 259 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 246 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.49 GiB (501 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.49 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2932 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2177 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 249 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 249 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (478 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2800 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2036 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 252 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.33 GiB (342 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.33 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2004 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1472 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 263 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (367 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2146 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1624 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 253 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (486 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2846 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2338 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 247 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (475 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2777 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2267 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 249 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.35 GiB (362 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.35 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  2119 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1591 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 260 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 1 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.54 GiB (558 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.54 GiB
+
+Duracao Total
+  23 min 53 s
+
+Bitrate Geral
+  3264 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2508 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 248 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 251 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 245 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (483 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+8 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 38 s
+
+Bitrate Geral
+  2859 kbps
+
+Aplicacao de Escrita
+  Lavf59.27.100
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2088 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 254 kbps
+    Titulo: [BDMV] Japanese
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 256 kbps
+    Titulo: [BDMV] English
+
+  Fluxo 3 (Track ID: 4)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 250 kbps
+    Titulo: [BDMV] Japanese Commentary
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 5)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Dialogue (Mirai-edit)
+
+  Legenda 2 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 8
+    Video(s): 1
+    Audio(s): 3
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================

@@ -1,0 +1,16 @@
+[2026-06-01 18:45:55] ============================================================
+[2026-06-01 18:45:55] INICIO DO PROCESSAMENTO
+[2026-06-01 18:45:55] Origem  : L:\animes\MACROSS\Macross-Delta-br\filme2
+[2026-06-01 18:45:55] Saida   : C:\TRACKER-ANIMES\animes\md-2\decodificado
+[2026-06-01 18:45:55] Arquivos: 1
+[2026-06-01 18:45:55] ============================================================
+[2026-06-01 18:46:03] [ANALISE] [Anime Land] Macross Delta Movie 2 Zettai Live!!! (BDRip 1080p Hi10P DTS-HD) [9A38E078]_PTBR.mkv | h264 | yuv420p10le | 12.52 Mbps
+[2026-06-01 18:46:03]   -> Comprimindo (H.264 Hi10P (yuv420p10le))...
+[2026-06-01 18:48:10] ============================================================
+[2026-06-01 18:48:10] INICIO DO PROCESSAMENTO
+[2026-06-01 18:48:10] Origem  : L:\animes\MACROSS\Macross-Delta-br\filme2
+[2026-06-01 18:48:10] Saida   : C:\TRACKER-ANIMES\animes\md-2\decodificado
+[2026-06-01 18:48:10] Arquivos: 1
+[2026-06-01 18:48:10] ============================================================
+[2026-06-01 18:48:10] [ANALISE] [Anime Land] Macross Delta Movie 2 Zettai Live!!! (BDRip 1080p Hi10P DTS-HD) [9A38E078]_PTBR.mkv | h264 | yuv420p10le | 12.52 Mbps
+[2026-06-01 18:48:10]   -> Comprimindo (H.264 Hi10P (yuv420p10le))...

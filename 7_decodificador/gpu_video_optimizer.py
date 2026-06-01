@@ -62,11 +62,16 @@ def _precisa_comprimir(bitrate, codec, pix_fmt, profile):
 
 
 def comprimir_video(entrada, saida):
-    """Retorna True em sucesso."""
+    """Compressão otimizada via hardware NVIDIA (NVENC)."""
     cmd = [
         "ffmpeg", "-i", entrada,
-        "-c:v", "hevc_amf", "-quality", "balanced",
-        "-pix_fmt", "yuv420p", "-c:a", "copy", "-c:s", "copy",
+        "-c:v", "hevc_nvenc",
+        "-preset", "p4",
+        "-rc", "vbr",
+        "-cq", "23",
+        "-pix_fmt", "yuv420p",
+        "-c:a", "copy",
+        "-c:s", "copy",
         "-y", saida
     ]
     res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)

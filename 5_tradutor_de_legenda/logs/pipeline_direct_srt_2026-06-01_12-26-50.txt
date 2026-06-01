@@ -1,0 +1,120 @@
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO DIRETA SRT - LOG DE AUDITORIA
+================================================================================
+Início   : 2026-06-01 12:26:50
+Python   : 3.14.5
+Logs     : c:\TRACKER-ANIMES\projeto-tracker-animes-traducao\5_tradutor_de_legenda\logs
+================================================================================
+
+[12:26:50.256] [INFO    ] Arquivo de Entrada Detectado: C:\TRACKER-ANIMES\animes\md-1\[YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8].srt
+[12:26:50.259] [INFO    ] Validando conexão com a API local...
+[12:26:50.288] [SUCESSO ] LM Studio OK - 2 modelo(s) detectado(s)
+[12:26:56.739] [INFO    ] Tamanho de Lote configurado: 20
+[12:26:56.740] [INFO    ] Arquivo de Saída planejado : C:\TRACKER-ANIMES\animes\md-1\[YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8]_PTBR.srt
+
+[12:26:56.741] [DEBUG   ] Leitura bem-sucedida usando encoding: UTF-8
+[12:26:56.742] [INFO    ] Total de blocos SRT detectados para tradução: 1855
+[12:27:21.623] [DEBUG   ] Lote 1/93 processado com integridade.
+[12:27:46.597] [DEBUG   ] Lote 2/93 processado com integridade.
+[12:28:09.682] [DEBUG   ] Lote 3/93 processado com integridade.
+[12:28:34.625] [DEBUG   ] Lote 4/93 processado com integridade.
+[12:28:57.156] [DEBUG   ] Lote 5/93 processado com integridade.
+[12:29:21.610] [DEBUG   ] Lote 6/93 processado com integridade.
+[12:29:56.199] [DEBUG   ] Lote 7/93 processado com integridade.
+[12:30:17.075] [DEBUG   ] Lote 8/93 processado com integridade.
+[12:30:38.855] [DEBUG   ] Lote 9/93 processado com integridade.
+[12:31:00.440] [DEBUG   ] Lote 10/93 processado com integridade.
+[12:31:21.361] [DEBUG   ] Lote 11/93 processado com integridade.
+[12:31:43.412] [DEBUG   ] Lote 12/93 processado com integridade.
+[12:32:05.518] [DEBUG   ] Lote 13/93 processado com integridade.
+[12:32:25.799] [DEBUG   ] Lote 14/93 processado com integridade.
+[12:32:53.845] [DEBUG   ] Lote 15/93 processado com integridade.
+[12:33:17.018] [DEBUG   ] Lote 16/93 processado com integridade.
+[12:33:35.764] [DEBUG   ] Lote 17/93 processado com integridade.
+[12:34:00.894] [DEBUG   ] Lote 18/93 processado com integridade.
+[12:34:22.281] [DEBUG   ] Lote 19/93 processado com integridade.
+[12:34:45.624] [DEBUG   ] Lote 20/93 processado com integridade.
+[12:35:12.603] [DEBUG   ] Lote 21/93 processado com integridade.
+[12:35:38.108] [DEBUG   ] Lote 22/93 processado com integridade.
+[12:35:54.789] [DEBUG   ] Lote 23/93 processado com integridade.
+[12:36:19.261] [DEBUG   ] Lote 24/93 processado com integridade.
+[12:36:40.791] [DEBUG   ] Lote 25/93 processado com integridade.
+[12:37:01.200] [DEBUG   ] Lote 26/93 processado com integridade.
+[12:37:26.288] [DEBUG   ] Lote 27/93 processado com integridade.
+[12:37:45.428] [DEBUG   ] Lote 28/93 processado com integridade.
+[12:38:06.324] [DEBUG   ] Lote 29/93 processado com integridade.
+[12:38:31.760] [DEBUG   ] Lote 30/93 processado com integridade.
+[12:38:53.008] [DEBUG   ] Lote 31/93 processado com integridade.
+[12:39:15.034] [DEBUG   ] Lote 32/93 processado com integridade.
+[12:39:38.330] [DEBUG   ] Lote 33/93 processado com integridade.
+[12:40:02.385] [DEBUG   ] Lote 34/93 processado com integridade.
+[12:40:25.554] [DEBUG   ] Lote 35/93 processado com integridade.
+[12:40:45.133] [DEBUG   ] Lote 36/93 processado com integridade.
+[12:41:07.763] [DEBUG   ] Lote 37/93 processado com integridade.
+[12:41:37.008] [DEBUG   ] Lote 38/93 processado com integridade.
+[12:42:01.254] [DEBUG   ] Lote 39/93 processado com integridade.
+[12:42:19.908] [DEBUG   ] Lote 40/93 processado com integridade.
+[12:42:41.831] [DEBUG   ] Lote 41/93 processado com integridade.
+[12:43:14.340] [DEBUG   ] Lote 42/93 processado com integridade.
+[12:43:33.779] [DEBUG   ] Lote 43/93 processado com integridade.
+[12:43:54.538] [DEBUG   ] Lote 44/93 processado com integridade.
+[12:44:12.749] [DEBUG   ] Lote 45/93 processado com integridade.
+[12:44:35.472] [DEBUG   ] Lote 46/93 processado com integridade.
+[12:44:53.472] [DEBUG   ] Lote 47/93 processado com integridade.
+[12:45:11.426] [DEBUG   ] Lote 48/93 processado com integridade.
+[12:45:29.852] [DEBUG   ] Lote 49/93 processado com integridade.
+[12:45:52.663] [DEBUG   ] Lote 50/93 processado com integridade.
+[12:46:16.484] [DEBUG   ] Lote 51/93 processado com integridade.
+[12:46:41.469] [DEBUG   ] Lote 52/93 processado com integridade.
+[12:47:06.524] [DEBUG   ] Lote 53/93 processado com integridade.
+[12:47:31.770] [DEBUG   ] Lote 54/93 processado com integridade.
+[12:47:58.337] [DEBUG   ] Lote 55/93 processado com integridade.
+[12:48:22.148] [DEBUG   ] Lote 56/93 processado com integridade.
+[12:48:46.713] [DEBUG   ] Lote 57/93 processado com integridade.
+[12:49:11.059] [DEBUG   ] Lote 58/93 processado com integridade.
+[12:49:29.516] [DEBUG   ] Lote 59/93 processado com integridade.
+[12:49:51.879] [DEBUG   ] Lote 60/93 processado com integridade.
+[12:50:14.149] [DEBUG   ] Lote 61/93 processado com integridade.
+[12:50:31.971] [DEBUG   ] Lote 62/93 processado com integridade.
+[12:50:54.732] [DEBUG   ] Lote 63/93 processado com integridade.
+[12:51:15.685] [DEBUG   ] Lote 64/93 processado com integridade.
+[12:51:45.402] [DEBUG   ] Lote 65/93 processado com integridade.
+[12:52:06.168] [DEBUG   ] Lote 66/93 processado com integridade.
+[12:52:32.222] [DEBUG   ] Lote 67/93 processado com integridade.
+[12:52:56.386] [DEBUG   ] Lote 68/93 processado com integridade.
+[12:53:22.430] [DEBUG   ] Lote 69/93 processado com integridade.
+[12:53:40.636] [DEBUG   ] Lote 70/93 processado com integridade.
+[12:54:04.219] [DEBUG   ] Lote 71/93 processado com integridade.
+[12:54:27.258] [DEBUG   ] Lote 72/93 processado com integridade.
+[12:54:53.326] [DEBUG   ] Lote 73/93 processado com integridade.
+[12:55:15.953] [DEBUG   ] Lote 74/93 processado com integridade.
+[12:55:37.130] [DEBUG   ] Lote 75/93 processado com integridade.
+[12:55:59.085] [DEBUG   ] Lote 76/93 processado com integridade.
+[12:56:27.896] [DEBUG   ] Lote 77/93 processado com integridade.
+[12:56:53.112] [DEBUG   ] Lote 78/93 processado com integridade.
+[12:57:17.601] [DEBUG   ] Lote 79/93 processado com integridade.
+[12:57:41.791] [DEBUG   ] Lote 80/93 processado com integridade.
+[12:58:05.982] [DEBUG   ] Lote 81/93 processado com integridade.
+[12:58:27.021] [DEBUG   ] Lote 82/93 processado com integridade.
+[12:58:50.540] [DEBUG   ] Lote 83/93 processado com integridade.
+[12:59:10.233] [DEBUG   ] Lote 84/93 processado com integridade.
+[12:59:34.513] [DEBUG   ] Lote 85/93 processado com integridade.
+[12:59:57.603] [DEBUG   ] Lote 86/93 processado com integridade.
+[13:00:21.206] [DEBUG   ] Lote 87/93 processado com integridade.
+[13:00:48.025] [DEBUG   ] Lote 88/93 processado com integridade.
+[13:01:14.729] [DEBUG   ] Lote 89/93 processado com integridade.
+[13:01:37.574] [DEBUG   ] Lote 90/93 processado com integridade.
+[13:02:00.659] [DEBUG   ] Lote 91/93 processado com integridade.
+[13:02:31.038] [DEBUG   ] Lote 92/93 processado com integridade.
+[13:02:49.293] [DEBUG   ] Lote 93/93 processado com integridade.
+
+================================================================================
+RELATÓRIO FINAL - OPERAÇÃO DIRETA SRT
+================================================================================
+Blocos Processados : 1855
+Requisições API    : 93
+Linhas Localizadas : 1855
+Falhas Detectadas  : 0
+Encoding de Origem : UTF-8
+Log de Auditoria   : c:\TRACKER-ANIMES\projeto-tracker-animes-traducao\5_tradutor_de_legenda\logs\pipeline_direct_srt_2026-06-01_12-26-50.txt
+Destino do Arquivo : C:\TRACKER-ANIMES\animes\md-1\[YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8]_PTBR.srt

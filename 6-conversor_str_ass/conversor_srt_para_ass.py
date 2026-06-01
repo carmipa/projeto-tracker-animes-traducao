@@ -21,8 +21,8 @@ from colorama import init, Fore, Style
 init(autoreset=True)
 
 # Cabeçalho rígido padrão para conformidade com a especificação ASS (v4.00+)
-CABEÇALHO_ASS = """[Script Info]
-Title: Macross Delta Zettai Live - Localized PT-BR (Sync Corrected)
+CABEÇALHO_ASS_TEMPLATE = """[Script Info]
+Title: {titulo} - Localized PT-BR
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
@@ -81,35 +81,62 @@ def executar_conversao_industrial():
     print(f"{Fore.CYAN}            CONVERSOR DE PARSING COM AJUSTE DE FPS: SRT ➔ ASS")
     print("=" * 80)
     
-    # FATOR DE ESCALA MATEMÁTICA (25fps -> 23.976fps)
-    # Aplica um freio linear progressivo para esticar o tempo e casar com o Blu-ray
-    FATOR_SINCRO = 1.042709
-    
     # 1. Coleta dinâmica dos caminhos de infraestrutura
-    caminho_padrao_origem = r"C:\TRACKER-ANIMES\animes\md-2\legenda"
+    caminho_padrao_origem = r"C:\TRACKER-ANIMES\projeto-tracker-animes-traducao\5_tradutor_de_legenda"
     pasta_origem = obter_diretorio_operador("Digite a pasta onde está a legenda SRT de origem", caminho_padrao_origem)
     
-    caminho_padrao_saida = r"C:\TRACKER-ANIMES\animes\md-2\traducao"
-    pasta_saida = obter_diretorio_operador("Digite a pasta onde deseja salvar o arquivo ASS convertido", caminho_padrao_saida)
+    pasta_saida = obter_diretorio_operador("Digite a pasta onde deseja salvar o arquivo ASS convertido", pasta_origem)
     
     # 2. Escaneamento automático de arquivos SRT traduzidos pela IA
-    arquivos_srt = [f for f in os.listdir(pasta_origem) if f.lower().endswith('.srt') and '_ptbr' in f.lower()]
+    arquivos_srt = sorted([f for f in os.listdir(pasta_origem) if f.lower().endswith('.srt') and '_ptbr' in f.lower()])
     
     if not arquivos_srt:
         print(f"\n{Fore.RED}[ERRO] Nenhuma legenda traduzida (*_PTBR.srt) localizada na pasta especificada.")
         return
-        
-    arquivo_alvo = os.path.join(pasta_origem, arquivos_srt[0])
-    print(f"\n{Fore.GREEN}[OK] Detectado arquivo traduzido: {arquivos_srt[0]}")
     
-    # Define o nome exato do arquivo baseado no padrão esperado pelo batch_remuxer.py
-    nome_base_filme = "[Anime Land] Macross Delta Movie 2 Zettai Live!!! (BDRip 1080p HEVC QAAC) [CD7620AF]"
-    arquivo_saida_ass = os.path.join(pasta_saida, f"{nome_base_filme}_PTBR.ass")
+    # Seleção de arquivo se houver múltiplos
+    if len(arquivos_srt) == 1:
+        arquivo_selecionado = arquivos_srt[0]
+        print(f"\n{Fore.GREEN}[OK] Detectado arquivo traduzido: {arquivo_selecionado}")
+    else:
+        print(f"\n{Fore.CYAN}Múltiplos arquivos SRT traduzidos localizados:")
+        for idx, arq in enumerate(arquivos_srt, 1):
+            print(f"  {idx}. {arq}")
+        while True:
+            try:
+                num = input(f"\n{Fore.YELLOW}Selecione o número da legenda desejada: {Style.RESET_ALL}").strip()
+                escolha = int(num) - 1
+                if 0 <= escolha < len(arquivos_srt):
+                    arquivo_selecionado = arquivos_srt[escolha]
+                    break
+                print(Fore.RED + "[ERRO] Opção fora do intervalo válido.")
+            except ValueError:
+                print(Fore.RED + "[ERRO] Digite um número inteiro correspondente.")
+
+    arquivo_alvo = os.path.join(pasta_origem, arquivo_selecionado)
+    
+    # Detecção dinâmica do nome base do filme removendo o sufixo _PTBR / _ptbr
+    nome_base_detectado = re.sub(r'[_.-]ptbr\.srt$', '', arquivo_selecionado, flags=re.IGNORECASE)
+    nome_base_detectado = os.path.splitext(nome_base_detectado)[0]
+    
+    # Escolha de fator de escala de sincronismo (FPS)
+    print(f"\n{Fore.CYAN}Configuração de Sincronismo (FPS Scale):")
+    print("  - Digite 1.0 se a legenda já estiver sincronizada (padrão)")
+    print("  - Digite 1.042709 para converter de 25fps para 23.976fps (ex: Macross Delta)")
+    
+    fator_input = input(f"{Fore.YELLOW}Fator de sincronismo [1.0]: {Style.RESET_ALL}").strip()
+    try:
+        FATOR_SINCRO = float(fator_input) if fator_input else 1.0
+    except ValueError:
+        print(Fore.RED + "[AVISO] Entrada inválida. Utilizando fator padrão de 1.0")
+        FATOR_SINCRO = 1.0
+        
+    arquivo_saida_ass = os.path.join(pasta_saida, f"{nome_base_detectado}_PTBR.ass")
     
     # Garante a existência física da pasta de saída no NVMe
     os.makedirs(pasta_saida, exist_ok=True)
     
-    print(f"{Fore.YELLOW}Iniciando a reengenharia com recálculo de Timeframe progressivo...")
+    print(f"\n{Fore.YELLOW}Iniciando conversão de {arquivo_selecionado} com Fator Sincro = {FATOR_SINCRO}...")
     
     with open(arquivo_alvo, 'r', encoding='utf-8') as f:
         conteudo_srt = f.read()
@@ -129,13 +156,13 @@ def executar_conversao_industrial():
         segundos_inicio = converter_tempo_para_segundos(inicio_bruto)
         segundos_fim = converter_tempo_para_segundos(fim_bruto)
         
-        # Passo 2: Multiplica o tempo pelo fator de escala para frear o avanço progressivo
+        # Passo 2: Multiplica o tempo pelo fator de escala
         segundos_inicio_corrigido = segundos_inicio * FATOR_SINCRO
         segundos_fim_corrigido = segundos_fim * FATOR_SINCRO
         
         # Passo 3: Converte os segundos recalculados de volta para a string do protocolo ASS
-        inicio_ass = segundos_para_ass_str = converter_segundos_para_ass(segundos_inicio_corrigido)
-        fim_ass = segundos_para_ass_str = converter_segundos_para_ass(segundos_fim_corrigido)
+        inicio_ass = converter_segundos_para_ass(segundos_inicio_corrigido)
+        fim_ass = converter_segundos_para_ass(segundos_fim_corrigido)
         
         # Sanitização e mapeamento de quebras de linha e tags de itálico para formato ASS
         texto_sanitizado = texto_bruto.strip().replace('\n', r'\N')
@@ -145,14 +172,15 @@ def executar_conversao_industrial():
         eventos_ass.append(linha_dialogo)
         
     # 3. Consolidação final e persistência física de dados
-    conteudo_final_ass = CABEÇALHO_ASS + "\n".join(eventos_ass) + "\n"
+    cabecalho = CABEÇALHO_ASS_TEMPLATE.format(titulo=nome_base_detectado)
+    conteudo_final_ass = cabecalho + "\n".join(eventos_ass) + "\n"
     
     with open(arquivo_saida_ass, 'w', encoding='utf-8') as f:
         f.write(conteudo_final_ass)
         
     print("\n" + "=" * 80)
-    print(f"{Fore.GREEN}[SUCESSO] Recálculo de FPS finalizado com integridade estrita de strings!")
-    print(f"{Fore.GREEN}Novo arquivo ASS sincronizado gerado em: {arquivo_saida_ass}")
+    print(f"{Fore.GREEN}[SUCESSO] Conversão finalizada com sucesso!")
+    print(f"{Fore.GREEN}Novo arquivo ASS gerado em: {arquivo_saida_ass}")
     print("=" * 80)
 
 if __name__ == "__main__":

@@ -11,6 +11,7 @@
     <img src="https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
     <img src="https://img.shields.io/badge/LM_Studio-IA_Local-FF6B35?style=for-the-badge&logo=openai&logoColor=white" alt="LM Studio"/>
     <img src="https://img.shields.io/badge/MKVToolNix-Essencial-4B0082?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="MKVToolNix"/>
+    <img src="https://img.shields.io/badge/Subtitle_Edit-OCR_PGS-2E7D32?style=for-the-badge" alt="Subtitle Edit"/>
     <img src="https://img.shields.io/badge/Gemma_4B-LLM-00E5FF?style=for-the-badge&logo=google&logoColor=white" alt="Gemma 4B"/>
     <img src="https://img.shields.io/badge/SRT-ASS_Converter-6B21A8?style=for-the-badge" alt="SRT Pipeline"/>
   </p>
@@ -18,6 +19,7 @@
   <p>
     <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="Offline"/>
     <img src="https://img.shields.io/badge/Remux-Sem_Re--encode-blue?style=flat-square" alt="Remux"/>
+    <img src="https://img.shields.io/badge/OCR-Tesseract-orange?style=flat-square" alt="Tesseract OCR"/>
     <img src="https://img.shields.io/badge/Logs-Auditáveis-informational?style=flat-square" alt="Logs"/>
   </p>
 
@@ -29,9 +31,9 @@
 
 ## 🚀 Visão geral
 
-Duas esteiras que compartilham a **Fase 2 (remux)**:
+Três esteiras de processamento que compartilham a **Fase 2 (remux)**:
 
-### Esteira MKV — episódios com legenda embutida
+### Esteira MKV — episódios com legenda embutida (.ass)
 
 | Etapa | Pasta | Script |
 |:---:|:---|:---|
@@ -47,8 +49,17 @@ Duas esteiras que compartilham a **Fase 2 (remux)**:
 | **6** | `6-conversor_str_ass/` | `conversor_srt_para_ass.py` |
 | **2** | `3_juntar_legendas_filmes/` | `batch_remuxer.py` |
 
-| ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 |
-|:---:|:---:|:---:|:---:|
+### Esteira PGS — legendas gráficas de Blu-ray (.sup)
+
+| Etapa | Pasta | Script |
+|:---:|:---|:---|
+| **A** | `extrator_legenda_PGS/` | `extrator_pgs.py` *(Extrai .sup de imagens PGS no .mkv)* |
+| **B** | `tradutor_legenda_sup/` | `tradutor_sup.py` *(OCR .sup -> .srt + Tradução IA)* |
+| **C** | `6-conversor_str_ass/` | `conversor_srt_para_ass.py` *(Opcional: converte para .ass)* |
+| **2** | `3_juntar_legendas_filmes/` | `batch_remuxer.py` *(Remuxa no .mkv final)* |
+
+| ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 | 👁️ OCR Automático |
+|:---:|:---:|:---:|:---:|:---:|
 
 ---
 
@@ -75,6 +86,22 @@ python .\3_juntar_legendas_filmes\batch_remuxer.py
 ```powershell
 python .\5_tradutor_de_legenda\tradutor_srt_direto.py
 python .\6-conversor_str_ass\conversor_srt_para_ass.py
+python .\3_juntar_legendas_filmes\batch_remuxer.py
+```
+
+**Legendas PGS/Blu-ray (.sup gráfico interno):**
+
+```powershell
+# 1. Extrai a legenda PGS (.sup) do MKV original
+python .\extrator_legenda_PGS\extrator_pgs.py
+
+# 2. Faz o OCR da legenda .sup para .srt e traduz usando IA local
+python .\tradutor_legenda_sup\tradutor_sup.py
+
+# 3. (Opcional) Converte o SRT traduzido para ASS
+python .\6-conversor_str_ass\conversor_srt_para_ass.py
+
+# 4. Multiplexa a legenda traduzida de volta para o vídeo
 python .\3_juntar_legendas_filmes\batch_remuxer.py
 ```
 

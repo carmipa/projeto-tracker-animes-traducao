@@ -144,7 +144,7 @@ class GerenciadorLogs:
             f"Data/Hora      : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
             f"LM Studio URL  : {lm_url}\n"
             f"Modelo         : Gemma 4B (google/gemma-4-e4b)\n"
-            f"Hardware       : AMD RX 7800 XT 16 GB\n\n"
+            f"Hardware       : RTX 5600 (8 GB VRAM) / Contexto: 8000 / Threads: 2\n\n"
             f"Pasta entrada  : {pasta_entrada}\n"
             f"Track ID       : {track_id}\n"
             f"Pasta saída    : {pasta_saida}\n\n"
@@ -308,7 +308,7 @@ class Pipeline:
         self.modelo_ativo = "local-model"
         self.mkvextract = self._achar_mkvextract()
         self.mkvmerge = self._achar_mkvmerge()
-        self.max_workers = 2  # Limite recomendado para GPU local RX 7800 XT no LM Studio
+        self.max_workers = 2  # Limite recomendado para RTX 5600 (8 GB VRAM) no LM Studio (seguro com contexto de 8000)
         
         self.caminho_cache = os.path.join(
             os.path.dirname(os.path.abspath(__file__)), "traducao_cache_fr.json"

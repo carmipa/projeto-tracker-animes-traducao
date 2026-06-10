@@ -1,14 +1,14 @@
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_Summary_(10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.46 GiB (468 MB)
+Tamanho: 0.64 GiB (658 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-8 faixa(s) detectada(s)
+5 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -21,16 +21,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.46 GiB
+  0.64 GiB
 
 Duracao Total
-  23 min 53 s
+  47 min 33 s
 
 Bitrate Geral
-  2739 kbps
+  1933 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -42,7 +42,7 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 1977 kbps
+    Bitrate: 1778 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
@@ -50,675 +50,42 @@ FLUXOS DE AUDIO
 
   Fluxo 1 (Track ID: 2)
     Idioma: ja
-    Codec/Formato: Opus
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 251 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 254 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 245 kbps
-    Titulo: [BDMV] Japanese Commentary
+    Bitrate: 144 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
 ================================================================================
 
-  Legenda 1 (Track ID: 5)
+  Legenda 1 (Track ID: 3)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 6)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Official Subs
+    Duracao Legenda: 00:47:18.336 (via Metadados)
+    Diferenca Fim: +14.723s (Video - Legenda)
+    Taxa de Drift: 18.578 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14723 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 8
+  Total de Faixas: 5
     Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
+    Audio(s): 1
+    Legenda(s): 1
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood.mkv
-================================================================================
-
-Validacao OK
-Tamanho: 0.40 GiB (408 MB)
-
-Lendo metadados do arquivo...
-Arquivo lido com sucesso
-
-8 faixa(s) detectada(s)
-
-Analisando faixas de midia...
-
-
-================================================================================
-ESTRUTURA GERAL
-================================================================================
-
-Formato do Conteiner
-  Matroska
-
-Tamanho do Arquivo
-  0.40 GiB
-
-Duracao Total
-  23 min 53 s
-
-Bitrate Geral
-  2386 kbps
-
-Aplicacao de Escrita
-  Lavf59.27.100
-
-================================================================================
-FLUXOS DE VIDEO
-================================================================================
-
-  Fluxo 1 (Track ID: 1)
-    Codec: V_MPEGH/ISO/HEVC (HEVC)
-    Resolucao: 1920x1080p
-    Profundidade de Cor: 10 bits
-    Taxa de Quadros (FPS): 23.976 fps
-    Aspect Ratio: 1.778
-    Bitrate: 1611 kbps
-
-================================================================================
-FLUXOS DE AUDIO
-================================================================================
-
-  Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 257 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 264 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 241 kbps
-    Titulo: [BDMV] Japanese Commentary
-
-================================================================================
-FAIXAS DE LEGENDAS
-================================================================================
-
-  Legenda 1 (Track ID: 5)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 6)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
-
-================================================================================
-RESUMO FINAL
-================================================================================
-
-  Total de Faixas: 8
-    Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
-
-================================================================================
-Auditoria finalizada com sucesso!
-================================================================================
-
-================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam.mkv
-================================================================================
-
-Validacao OK
-Tamanho: 0.49 GiB (501 MB)
-
-Lendo metadados do arquivo...
-Arquivo lido com sucesso
-
-8 faixa(s) detectada(s)
-
-Analisando faixas de midia...
-
-
-================================================================================
-ESTRUTURA GERAL
-================================================================================
-
-Formato do Conteiner
-  Matroska
-
-Tamanho do Arquivo
-  0.49 GiB
-
-Duracao Total
-  23 min 53 s
-
-Bitrate Geral
-  2932 kbps
-
-Aplicacao de Escrita
-  Lavf59.27.100
-
-================================================================================
-FLUXOS DE VIDEO
-================================================================================
-
-  Fluxo 1 (Track ID: 1)
-    Codec: V_MPEGH/ISO/HEVC (HEVC)
-    Resolucao: 1920x1080p
-    Profundidade de Cor: 10 bits
-    Taxa de Quadros (FPS): 23.976 fps
-    Aspect Ratio: 1.778
-    Bitrate: 2173 kbps
-
-================================================================================
-FLUXOS DE AUDIO
-================================================================================
-
-  Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 250 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 251 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 245 kbps
-    Titulo: [BDMV] Japanese Commentary
-
-================================================================================
-FAIXAS DE LEGENDAS
-================================================================================
-
-  Legenda 1 (Track ID: 5)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 6)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
-
-================================================================================
-RESUMO FINAL
-================================================================================
-
-  Total de Faixas: 8
-    Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
-
-================================================================================
-Auditoria finalizada com sucesso!
-================================================================================
-
-================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit.mkv
-================================================================================
-
-Validacao OK
-Tamanho: 0.36 GiB (371 MB)
-
-Lendo metadados do arquivo...
-Arquivo lido com sucesso
-
-8 faixa(s) detectada(s)
-
-Analisando faixas de midia...
-
-
-================================================================================
-ESTRUTURA GERAL
-================================================================================
-
-Formato do Conteiner
-  Matroska
-
-Tamanho do Arquivo
-  0.36 GiB
-
-Duracao Total
-  23 min 53 s
-
-Bitrate Geral
-  2172 kbps
-
-Aplicacao de Escrita
-  Lavf59.27.100
-
-================================================================================
-FLUXOS DE VIDEO
-================================================================================
-
-  Fluxo 1 (Track ID: 1)
-    Codec: V_MPEGH/ISO/HEVC (HEVC)
-    Resolucao: 1920x1080p
-    Profundidade de Cor: 10 bits
-    Taxa de Quadros (FPS): 23.976 fps
-    Aspect Ratio: 1.778
-    Bitrate: 1643 kbps
-
-================================================================================
-FLUXOS DE AUDIO
-================================================================================
-
-  Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 256 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 260 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 1 kbps
-    Titulo: [BDMV] Japanese Commentary
-
-================================================================================
-FAIXAS DE LEGENDAS
-================================================================================
-
-  Legenda 1 (Track ID: 5)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 6)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
-
-================================================================================
-RESUMO FINAL
-================================================================================
-
-  Total de Faixas: 8
-    Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
-
-================================================================================
-Auditoria finalizada com sucesso!
-================================================================================
-
-================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet.mkv
-================================================================================
-
-Validacao OK
-Tamanho: 0.39 GiB (404 MB)
-
-Lendo metadados do arquivo...
-Arquivo lido com sucesso
-
-8 faixa(s) detectada(s)
-
-Analisando faixas de midia...
-
-
-================================================================================
-ESTRUTURA GERAL
-================================================================================
-
-Formato do Conteiner
-  Matroska
-
-Tamanho do Arquivo
-  0.39 GiB
-
-Duracao Total
-  23 min 53 s
-
-Bitrate Geral
-  2363 kbps
-
-Aplicacao de Escrita
-  Lavf59.27.100
-
-================================================================================
-FLUXOS DE VIDEO
-================================================================================
-
-  Fluxo 1 (Track ID: 1)
-    Codec: V_MPEGH/ISO/HEVC (HEVC)
-    Resolucao: 1920x1080p
-    Profundidade de Cor: 10 bits
-    Taxa de Quadros (FPS): 23.976 fps
-    Aspect Ratio: 1.778
-    Bitrate: 1837 kbps
-
-================================================================================
-FLUXOS DE AUDIO
-================================================================================
-
-  Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 255 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 259 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 1 kbps
-    Titulo: [BDMV] Japanese Commentary
-
-================================================================================
-FAIXAS DE LEGENDAS
-================================================================================
-
-  Legenda 1 (Track ID: 5)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 6)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
-
-================================================================================
-RESUMO FINAL
-================================================================================
-
-  Total de Faixas: 8
-    Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
-
-================================================================================
-Auditoria finalizada com sucesso!
-================================================================================
-
-================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask.mkv
-================================================================================
-
-Validacao OK
-Tamanho: 0.32 GiB (323 MB)
-
-Lendo metadados do arquivo...
-Arquivo lido com sucesso
-
-7 faixa(s) detectada(s)
-
-Analisando faixas de midia...
-
-
-================================================================================
-ESTRUTURA GERAL
-================================================================================
-
-Formato do Conteiner
-  Matroska
-
-Tamanho do Arquivo
-  0.32 GiB
-
-Duracao Total
-  23 min 53 s
-
-Bitrate Geral
-  1889 kbps
-
-Aplicacao de Escrita
-  Lavf59.27.100
-
-================================================================================
-FLUXOS DE VIDEO
-================================================================================
-
-  Fluxo 1 (Track ID: 1)
-    Codec: V_MPEGH/ISO/HEVC (HEVC)
-    Resolucao: 1920x1080p
-    Profundidade de Cor: 10 bits
-    Taxa de Quadros (FPS): 23.976 fps
-    Aspect Ratio: 1.778
-    Bitrate: 1361 kbps
-
-================================================================================
-FLUXOS DE AUDIO
-================================================================================
-
-  Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 255 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 263 kbps
-    Titulo: [BDMV] English
-
-================================================================================
-FAIXAS DE LEGENDAS
-================================================================================
-
-  Legenda 1 (Track ID: 4)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 5)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
-
-================================================================================
-RESUMO FINAL
-================================================================================
-
-  Total de Faixas: 7
-    Video(s): 1
-    Audio(s): 2
-    Legenda(s): 2
-
-================================================================================
-Auditoria finalizada com sucesso!
-================================================================================
-
-================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau.mkv
-================================================================================
-
-Validacao OK
-Tamanho: 0.46 GiB (472 MB)
-
-Lendo metadados do arquivo...
-Arquivo lido com sucesso
-
-7 faixa(s) detectada(s)
-
-Analisando faixas de midia...
-
-
-================================================================================
-ESTRUTURA GERAL
-================================================================================
-
-Formato do Conteiner
-  Matroska
-
-Tamanho do Arquivo
-  0.46 GiB
-
-Duracao Total
-  23 min 53 s
-
-Bitrate Geral
-  2761 kbps
-
-Aplicacao de Escrita
-  Lavf59.27.100
-
-================================================================================
-FLUXOS DE VIDEO
-================================================================================
-
-  Fluxo 1 (Track ID: 1)
-    Codec: V_MPEGH/ISO/HEVC (HEVC)
-    Resolucao: 1920x1080p
-    Profundidade de Cor: 10 bits
-    Taxa de Quadros (FPS): 23.976 fps
-    Aspect Ratio: 1.778
-    Bitrate: 2244 kbps
-
-================================================================================
-FLUXOS DE AUDIO
-================================================================================
-
-  Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 254 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 254 kbps
-    Titulo: [BDMV] English
-
-================================================================================
-FAIXAS DE LEGENDAS
-================================================================================
-
-  Legenda 1 (Track ID: 4)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 5)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
-
-================================================================================
-RESUMO FINAL
-================================================================================
-
-  Total de Faixas: 7
-    Video(s): 1
-    Audio(s): 2
-    Legenda(s): 2
-
-================================================================================
-Auditoria finalizada com sucesso!
-================================================================================
-
-================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_01_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
@@ -727,7 +94,7 @@ Tamanho: 0.32 GiB (327 MB)
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-7 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -743,13 +110,13 @@ Tamanho do Arquivo
   0.32 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 52 s
 
 Bitrate Geral
-  1915 kbps
+  2000 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -761,27 +128,27 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 1385 kbps
+    Bitrate: 1459 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 260 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 372 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
+    Idioma: ja
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 260 kbps
-    Titulo: [BDMV] English
+    Bitrate: 140 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
@@ -789,42 +156,72 @@ FAIXAS DE LEGENDAS
 
   Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:19.921 (via Metadados)
+    Diferenca Fim: +32.200s (Video - Legenda)
+    Taxa de Drift: 84.482 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 32200 ms)
 
   Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:19.921 (via Metadados)
+    Diferenca Fim: +32.200s (Video - Legenda)
+    Taxa de Drift: 84.482 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 32200 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:22:19.590 (via Metadados)
+    Diferenca Fim: +32.531s (Video - Legenda)
+    Taxa de Drift: 85.351 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 32531 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:19.590 (via Metadados)
+    Diferenca Fim: +32.531s (Video - Legenda)
+    Taxa de Drift: 85.351 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 32531 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 7
+  Total de Faixas: 9
     Video(s): 1
     Audio(s): 2
-    Legenda(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_02_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.41 GiB (417 MB)
+Tamanho: 0.34 GiB (346 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-7 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -837,16 +234,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.41 GiB
+  0.34 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 52 s
 
 Bitrate Geral
-  2441 kbps
+  2118 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -858,27 +255,27 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 1922 kbps
+    Bitrate: 1577 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 255 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 371 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
+    Idioma: ja
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 255 kbps
-    Titulo: [BDMV] English
+    Bitrate: 140 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
@@ -886,42 +283,199 @@ FAIXAS DE LEGENDAS
 
   Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:56.815 (via Metadados)
+    Diferenca Fim: +55.181s (Video - Legenda)
+    Taxa de Drift: 144.790 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 25.000 -> 23.976 fps (Estiramento PAL para NTSC))
 
   Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:31.850 (via Metadados)
+    Diferenca Fim: +20.146s (Video - Legenda)
+    Taxa de Drift: 52.861 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 20146 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:56.770 (via Metadados)
+    Diferenca Fim: +55.226s (Video - Legenda)
+    Taxa de Drift: 144.908 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 25.000 -> 23.976 fps (Estiramento PAL para NTSC))
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:31.770 (via Metadados)
+    Diferenca Fim: +20.226s (Video - Legenda)
+    Taxa de Drift: 53.071 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 20226 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 7
+  Total de Faixas: 9
     Video(s): 1
     Audio(s): 2
-    Legenda(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_03_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.32 GiB (330 MB)
+Tamanho: 0.27 GiB (281 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-7 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.27 GiB
+
+Duracao Total
+  22 min 52 s
+
+Bitrate Geral
+  1719 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1186 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 363 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 136 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:21.883 (via Metadados)
+    Diferenca Fim: +30.238s (Video - Legenda)
+    Taxa de Drift: 79.335 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 30238 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:41.360 (via Metadados)
+    Diferenca Fim: +10.761s (Video - Legenda)
+    Taxa de Drift: 28.233 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10761 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:22:22.050 (via Metadados)
+    Diferenca Fim: +30.071s (Video - Legenda)
+    Taxa de Drift: 78.897 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 30071 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:41.030 (via Metadados)
+    Diferenca Fim: +11.091s (Video - Legenda)
+    Taxa de Drift: 29.099 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 11091 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_04_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.32 GiB (332 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -937,13 +491,13 @@ Tamanho do Arquivo
   0.32 GiB
 
 Duracao Total
-  23 min 52 s
+  22 min 52 s
 
 Bitrate Geral
-  1934 kbps
+  2028 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -955,27 +509,27 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 1409 kbps
+    Bitrate: 1491 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 256 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 367 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
+    Idioma: ja
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 260 kbps
-    Titulo: [BDMV] English
+    Bitrate: 138 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
@@ -983,42 +537,72 @@ FAIXAS DE LEGENDAS
 
   Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:20.964 (via Metadados)
+    Diferenca Fim: +31.115s (Video - Legenda)
+    Taxa de Drift: 81.638 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 31115 ms)
 
   Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:38.232 (via Metadados)
+    Diferenca Fim: +13.847s (Video - Legenda)
+    Taxa de Drift: 36.331 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 13846 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:20:57.800 (via Metadados)
+    Diferenca Fim: +114.279s (Video - Legenda)
+    Taxa de Drift: 299.840 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 114279 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: ja
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:37.900 (via Metadados)
+    Diferenca Fim: +14.179s (Video - Legenda)
+    Taxa de Drift: 37.202 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14178 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 7
+  Total de Faixas: 9
     Video(s): 1
     Audio(s): 2
-    Legenda(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_05_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.35 GiB (362 MB)
+Tamanho: 0.28 GiB (290 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-7 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -1031,16 +615,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.35 GiB
+  0.28 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 51 s
 
 Bitrate Geral
-  2116 kbps
+  1773 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -1052,27 +636,27 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 1581 kbps
+    Bitrate: 1242 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 260 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 365 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
+    Idioma: ja
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 266 kbps
-    Titulo: [BDMV] English
+    Bitrate: 137 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
@@ -1080,42 +664,72 @@ FAIXAS DE LEGENDAS
 
   Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:04.782 (via Metadados)
+    Diferenca Fim: +47.172s (Video - Legenda)
+    Taxa de Drift: 123.779 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 47172 ms)
 
   Legenda 2 (Track ID: 5)
     Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:27.346 (via Metadados)
+    Diferenca Fim: +24.608s (Video - Legenda)
+    Taxa de Drift: 64.571 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 24607 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:22:04.700 (via Metadados)
+    Diferenca Fim: +47.254s (Video - Legenda)
+    Taxa de Drift: 123.994 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 47253 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:26.930 (via Metadados)
+    Diferenca Fim: +25.024s (Video - Legenda)
+    Taxa de Drift: 65.663 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 25023 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 7
+  Total de Faixas: 9
     Video(s): 1
     Audio(s): 2
-    Legenda(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_06_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.45 GiB (456 MB)
+Tamanho: 0.30 GiB (305 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-8 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -1128,16 +742,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.45 GiB
+  0.30 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 52 s
 
 Bitrate Geral
-  2669 kbps
+  1863 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -1149,393 +763,100 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 2155 kbps
+    Bitrate: 1308 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 250 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 384 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 251 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
     Idioma: ja
-    Codec/Formato: Opus
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 1 kbps
-    Titulo: [BDMV] Japanese Commentary
+    Bitrate: 144 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
 ================================================================================
 
-  Legenda 1 (Track ID: 5)
+  Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:41.008 (via Metadados)
+    Diferenca Fim: +71.030s (Video - Legenda)
+    Taxa de Drift: 186.371 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 71029 ms)
 
-  Legenda 2 (Track ID: 6)
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:41.694 (via Metadados)
+    Diferenca Fim: +10.344s (Video - Legenda)
+    Taxa de Drift: 27.141 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10344 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:40.760 (via Metadados)
+    Diferenca Fim: +71.278s (Video - Legenda)
+    Taxa de Drift: 187.022 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 71278 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:41.240 (via Metadados)
+    Diferenca Fim: +10.798s (Video - Legenda)
+    Taxa de Drift: 28.332 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10798 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 8
+  Total de Faixas: 9
     Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
+    Audio(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_07_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.36 GiB (369 MB)
+Tamanho: 0.33 GiB (334 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-8 faixa(s) detectada(s)
-
-Analisando faixas de midia...
-
-
-================================================================================
-ESTRUTURA GERAL
-================================================================================
-
-Formato do Conteiner
-  Matroska
-
-Tamanho do Arquivo
-  0.36 GiB
-
-Duracao Total
-  23 min 53 s
-
-Bitrate Geral
-  2160 kbps
-
-Aplicacao de Escrita
-  Lavf59.27.100
-
-================================================================================
-FLUXOS DE VIDEO
-================================================================================
-
-  Fluxo 1 (Track ID: 1)
-    Codec: V_MPEGH/ISO/HEVC (HEVC)
-    Resolucao: 1920x1080p
-    Profundidade de Cor: 10 bits
-    Taxa de Quadros (FPS): 23.976 fps
-    Aspect Ratio: 1.778
-    Bitrate: 1391 kbps
-
-================================================================================
-FLUXOS DE AUDIO
-================================================================================
-
-  Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 253 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 259 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 246 kbps
-    Titulo: [BDMV] Japanese Commentary
-
-================================================================================
-FAIXAS DE LEGENDAS
-================================================================================
-
-  Legenda 1 (Track ID: 5)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 6)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
-
-================================================================================
-RESUMO FINAL
-================================================================================
-
-  Total de Faixas: 8
-    Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
-
-================================================================================
-Auditoria finalizada com sucesso!
-================================================================================
-
-================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns.mkv
-================================================================================
-
-Validacao OK
-Tamanho: 0.49 GiB (501 MB)
-
-Lendo metadados do arquivo...
-Arquivo lido com sucesso
-
-8 faixa(s) detectada(s)
-
-Analisando faixas de midia...
-
-
-================================================================================
-ESTRUTURA GERAL
-================================================================================
-
-Formato do Conteiner
-  Matroska
-
-Tamanho do Arquivo
-  0.49 GiB
-
-Duracao Total
-  23 min 53 s
-
-Bitrate Geral
-  2932 kbps
-
-Aplicacao de Escrita
-  Lavf59.27.100
-
-================================================================================
-FLUXOS DE VIDEO
-================================================================================
-
-  Fluxo 1 (Track ID: 1)
-    Codec: V_MPEGH/ISO/HEVC (HEVC)
-    Resolucao: 1920x1080p
-    Profundidade de Cor: 10 bits
-    Taxa de Quadros (FPS): 23.976 fps
-    Aspect Ratio: 1.778
-    Bitrate: 2177 kbps
-
-================================================================================
-FLUXOS DE AUDIO
-================================================================================
-
-  Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 249 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 249 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 245 kbps
-    Titulo: [BDMV] Japanese Commentary
-
-================================================================================
-FAIXAS DE LEGENDAS
-================================================================================
-
-  Legenda 1 (Track ID: 5)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 6)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
-
-================================================================================
-RESUMO FINAL
-================================================================================
-
-  Total de Faixas: 8
-    Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
-
-================================================================================
-Auditoria finalizada com sucesso!
-================================================================================
-
-================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space.mkv
-================================================================================
-
-Validacao OK
-Tamanho: 0.47 GiB (478 MB)
-
-Lendo metadados do arquivo...
-Arquivo lido com sucesso
-
-8 faixa(s) detectada(s)
-
-Analisando faixas de midia...
-
-
-================================================================================
-ESTRUTURA GERAL
-================================================================================
-
-Formato do Conteiner
-  Matroska
-
-Tamanho do Arquivo
-  0.47 GiB
-
-Duracao Total
-  23 min 53 s
-
-Bitrate Geral
-  2800 kbps
-
-Aplicacao de Escrita
-  Lavf59.27.100
-
-================================================================================
-FLUXOS DE VIDEO
-================================================================================
-
-  Fluxo 1 (Track ID: 1)
-    Codec: V_MPEGH/ISO/HEVC (HEVC)
-    Resolucao: 1920x1080p
-    Profundidade de Cor: 10 bits
-    Taxa de Quadros (FPS): 23.976 fps
-    Aspect Ratio: 1.778
-    Bitrate: 2036 kbps
-
-================================================================================
-FLUXOS DE AUDIO
-================================================================================
-
-  Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 251 kbps
-    Titulo: [BDMV] Japanese
-
-  Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 252 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 248 kbps
-    Titulo: [BDMV] Japanese Commentary
-
-================================================================================
-FAIXAS DE LEGENDAS
-================================================================================
-
-  Legenda 1 (Track ID: 5)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
-
-  Legenda 2 (Track ID: 6)
-    Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
-
-================================================================================
-RESUMO FINAL
-================================================================================
-
-  Total de Faixas: 8
-    Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
-
-================================================================================
-Auditoria finalizada com sucesso!
-================================================================================
-
-================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere.mkv
-================================================================================
-
-Validacao OK
-Tamanho: 0.33 GiB (342 MB)
-
-Lendo metadados do arquivo...
-Arquivo lido com sucesso
-
-8 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -1551,13 +872,13 @@ Tamanho do Arquivo
   0.33 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 52 s
 
 Bitrate Geral
-  2004 kbps
+  2042 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -1569,78 +890,100 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 1472 kbps
+    Bitrate: 1512 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 256 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 363 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 263 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
     Idioma: ja
-    Codec/Formato: Opus
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 1 kbps
-    Titulo: [BDMV] Japanese Commentary
+    Bitrate: 136 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
 ================================================================================
 
-  Legenda 1 (Track ID: 5)
+  Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:42.695 (via Metadados)
+    Diferenca Fim: +9.426s (Video - Legenda)
+    Taxa de Drift: 24.731 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9426 ms)
 
-  Legenda 2 (Track ID: 6)
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:42.945 (via Metadados)
+    Diferenca Fim: +9.176s (Video - Legenda)
+    Taxa de Drift: 24.075 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9176 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:46.850 (via Metadados)
+    Diferenca Fim: +65.271s (Video - Legenda)
+    Taxa de Drift: 171.250 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 65271 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:42.610 (via Metadados)
+    Diferenca Fim: +9.511s (Video - Legenda)
+    Taxa de Drift: 24.954 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9511 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 8
+  Total de Faixas: 9
     Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
+    Audio(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_08_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.36 GiB (367 MB)
+Tamanho: 0.29 GiB (302 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-8 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -1653,16 +996,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.36 GiB
+  0.29 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 52 s
 
 Bitrate Geral
-  2146 kbps
+  1846 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -1674,78 +1017,100 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 1624 kbps
+    Bitrate: 1304 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 253 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 371 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 256 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
     Idioma: ja
-    Codec/Formato: Opus
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 1 kbps
-    Titulo: [BDMV] Japanese Commentary
+    Bitrate: 140 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
 ================================================================================
 
-  Legenda 1 (Track ID: 5)
+  Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:38.130 (via Metadados)
+    Diferenca Fim: +73.991s (Video - Legenda)
+    Taxa de Drift: 194.128 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 73990 ms)
 
-  Legenda 2 (Track ID: 6)
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:37.606 (via Metadados)
+    Diferenca Fim: +14.515s (Video - Legenda)
+    Taxa de Drift: 38.083 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14515 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:37.830 (via Metadados)
+    Diferenca Fim: +74.291s (Video - Legenda)
+    Taxa de Drift: 194.915 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 74291 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:37.270 (via Metadados)
+    Diferenca Fim: +14.851s (Video - Legenda)
+    Taxa de Drift: 38.964 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14851 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 8
+  Total de Faixas: 9
     Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
+    Audio(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_09_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.47 GiB (486 MB)
+Tamanho: 0.33 GiB (336 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-8 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -1758,16 +1123,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.47 GiB
+  0.33 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 52 s
 
 Bitrate Geral
-  2846 kbps
+  2056 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -1779,78 +1144,100 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 2338 kbps
+    Bitrate: 1520 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 247 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 368 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 248 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
     Idioma: ja
-    Codec/Formato: Opus
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 1 kbps
-    Titulo: [BDMV] Japanese Commentary
+    Bitrate: 139 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
 ================================================================================
 
-  Legenda 1 (Track ID: 5)
+  Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:36.045 (via Metadados)
+    Diferenca Fim: +76.076s (Video - Legenda)
+    Taxa de Drift: 199.599 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 76076 ms)
 
-  Legenda 2 (Track ID: 6)
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:27.471 (via Metadados)
+    Diferenca Fim: +24.650s (Video - Legenda)
+    Taxa de Drift: 64.674 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 24650 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:35.840 (via Metadados)
+    Diferenca Fim: +76.281s (Video - Legenda)
+    Taxa de Drift: 200.137 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 76281 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:27.220 (via Metadados)
+    Diferenca Fim: +24.901s (Video - Legenda)
+    Taxa de Drift: 65.332 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 24901 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 8
+  Total de Faixas: 9
     Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
+    Audio(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_10_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.46 GiB (475 MB)
+Tamanho: 0.32 GiB (324 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-8 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -1863,16 +1250,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.46 GiB
+  0.32 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 52 s
 
 Bitrate Geral
-  2777 kbps
+  1984 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -1884,78 +1271,100 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 2267 kbps
+    Bitrate: 1445 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 248 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 370 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 249 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
     Idioma: ja
-    Codec/Formato: Opus
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 1 kbps
-    Titulo: [BDMV] Japanese Commentary
+    Bitrate: 139 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
 ================================================================================
 
-  Legenda 1 (Track ID: 5)
+  Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:37.046 (via Metadados)
+    Diferenca Fim: +75.075s (Video - Legenda)
+    Taxa de Drift: 196.972 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 75075 ms)
 
-  Legenda 2 (Track ID: 6)
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:39.108 (via Metadados)
+    Diferenca Fim: +13.013s (Video - Legenda)
+    Taxa de Drift: 34.142 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 13013 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:36.790 (via Metadados)
+    Diferenca Fim: +75.331s (Video - Legenda)
+    Taxa de Drift: 197.644 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 75331 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:38.730 (via Metadados)
+    Diferenca Fim: +13.391s (Video - Legenda)
+    Taxa de Drift: 35.134 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 13391 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 8
+  Total de Faixas: 9
     Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
+    Audio(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_11_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.35 GiB (362 MB)
+Tamanho: 0.38 GiB (386 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-8 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -1968,16 +1377,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.35 GiB
+  0.38 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 52 s
 
 Bitrate Geral
-  2119 kbps
+  2360 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -1989,78 +1398,100 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 1591 kbps
+    Bitrate: 1818 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 254 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 370 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 260 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
     Idioma: ja
-    Codec/Formato: Opus
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 1 kbps
-    Titulo: [BDMV] Japanese Commentary
+    Bitrate: 141 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
 ================================================================================
 
-  Legenda 1 (Track ID: 5)
+  Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:15.941 (via Metadados)
+    Diferenca Fim: +96.138s (Video - Legenda)
+    Taxa de Drift: 252.243 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 96137 ms)
 
-  Legenda 2 (Track ID: 6)
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:17.878 (via Metadados)
+    Diferenca Fim: +34.201s (Video - Legenda)
+    Taxa de Drift: 89.735 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 34201 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:14.850 (via Metadados)
+    Diferenca Fim: +97.229s (Video - Legenda)
+    Taxa de Drift: 255.105 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 97229 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:16.610 (via Metadados)
+    Diferenca Fim: +35.469s (Video - Legenda)
+    Taxa de Drift: 93.062 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 35469 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 8
+  Total de Faixas: 9
     Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
+    Audio(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_12_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.54 GiB (558 MB)
+Tamanho: 0.32 GiB (327 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-8 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -2073,16 +1504,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.54 GiB
+  0.32 GiB
 
 Duracao Total
-  23 min 53 s
+  22 min 59 s
 
 Bitrate Geral
-  3264 kbps
+  1987 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -2094,78 +1525,100 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 2508 kbps
+    Bitrate: 1449 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 248 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 370 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 251 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
     Idioma: ja
-    Codec/Formato: Opus
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 245 kbps
-    Titulo: [BDMV] Japanese Commentary
+    Bitrate: 140 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
 ================================================================================
 
-  Legenda 1 (Track ID: 5)
+  Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:14.022 (via Metadados)
+    Diferenca Fim: +105.356s (Video - Legenda)
+    Taxa de Drift: 274.966 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 105356 ms)
 
-  Legenda 2 (Track ID: 6)
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:35.437 (via Metadados)
+    Diferenca Fim: +23.941s (Video - Legenda)
+    Taxa de Drift: 62.483 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 23941 ms)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:13.600 (via Metadados)
+    Diferenca Fim: +105.778s (Video - Legenda)
+    Taxa de Drift: 276.067 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 105778 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:35.020 (via Metadados)
+    Diferenca Fim: +24.358s (Video - Legenda)
+    Taxa de Drift: 63.571 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 24357 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 8
+  Total de Faixas: 9
     Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
+    Audio(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!
 ================================================================================
 
 ================================================================================
-INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return.mkv
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265).mkv
 ================================================================================
 
 Validacao OK
-Tamanho: 0.47 GiB (483 MB)
+Tamanho: 0.25 GiB (257 MB)
 
 Lendo metadados do arquivo...
 Arquivo lido com sucesso
 
-8 faixa(s) detectada(s)
+9 faixa(s) detectada(s)
 
 Analisando faixas de midia...
 
@@ -2178,16 +1631,16 @@ Formato do Conteiner
   Matroska
 
 Tamanho do Arquivo
-  0.47 GiB
+  0.25 GiB
 
 Duracao Total
-  23 min 38 s
+  22 min 52 s
 
 Bitrate Geral
-  2859 kbps
+  1573 kbps
 
 Aplicacao de Escrita
-  Lavf59.27.100
+  mkvmerge v78.0 ('Running') 64-bit
 
 ================================================================================
 FLUXOS DE VIDEO
@@ -2199,62 +1652,1227 @@ FLUXOS DE VIDEO
     Profundidade de Cor: 10 bits
     Taxa de Quadros (FPS): 23.976 fps
     Aspect Ratio: 1.778
-    Bitrate: 2088 kbps
+    Bitrate: 1035 kbps
 
 ================================================================================
 FLUXOS DE AUDIO
 ================================================================================
 
   Fluxo 1 (Track ID: 2)
-    Idioma: ja
-    Codec/Formato: Opus
-    Canais: 2
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 254 kbps
-    Titulo: [BDMV] Japanese
+    Bitrate: 367 kbps
+    Titulo: Surround 5.1
 
   Fluxo 2 (Track ID: 3)
-    Idioma: en
-    Codec/Formato: Opus
-    Canais: 2
-    Taxa de Amostragem: 48.0 kHz
-    Bitrate: 256 kbps
-    Titulo: [BDMV] English
-
-  Fluxo 3 (Track ID: 4)
     Idioma: ja
-    Codec/Formato: Opus
+    Codec/Formato: AAC
     Canais: 2
     Taxa de Amostragem: 48.0 kHz
-    Bitrate: 250 kbps
-    Titulo: [BDMV] Japanese Commentary
+    Bitrate: 137 kbps
+    Titulo: Stereo
 
 ================================================================================
 FAIXAS DE LEGENDAS
 ================================================================================
 
-  Legenda 1 (Track ID: 5)
+  Legenda 1 (Track ID: 4)
     Idioma: en
-    Formato: ASS
-    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
-    Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Dialogue (Mirai-edit)
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:16.127 (via Metadados)
+    Diferenca Fim: +35.952s (Video - Legenda)
+    Taxa de Drift: 94.329 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 35952 ms)
 
-  Legenda 2 (Track ID: 6)
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:48.826 (via Metadados)
+    Diferenca Fim: +3.253s (Video - Legenda)
+    Taxa de Drift: 8.535 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+  Legenda 3 (Track ID: 6)
     Idioma: en
     Formato: ASS
     Tipo: ASS/SSA (Estilizada com cores e posicionamento)
     Codec ID: S_TEXT/ASS
-    Titulo: [gcs8] Sign&Songs (Mirai-edit)
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:22:08.500 (via Metadados)
+    Diferenca Fim: +43.579s (Video - Legenda)
+    Taxa de Drift: 114.341 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 43578 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:48.430 (via Metadados)
+    Diferenca Fim: +3.649s (Video - Legenda)
+    Taxa de Drift: 9.574 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 3648 ms)
 
 ================================================================================
 RESUMO FINAL
 ================================================================================
 
-  Total de Faixas: 8
+  Total de Faixas: 9
     Video(s): 1
-    Audio(s): 3
-    Legenda(s): 2
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_14_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.24 GiB (249 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.24 GiB
+
+Duracao Total
+  22 min 52 s
+
+Bitrate Geral
+  1522 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 985 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 365 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 137 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:20:46.412 (via Metadados)
+    Diferenca Fim: +125.792s (Video - Legenda)
+    Taxa de Drift: 330.017 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 125791 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:47.241 (via Metadados)
+    Diferenca Fim: +4.963s (Video - Legenda)
+    Taxa de Drift: 13.021 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4962 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:20:46.660 (via Metadados)
+    Diferenca Fim: +125.544s (Video - Legenda)
+    Taxa de Drift: 329.367 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 125543 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:47.530 (via Metadados)
+    Diferenca Fim: +4.674s (Video - Legenda)
+    Taxa de Drift: 12.262 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4673 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_15_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.27 GiB (276 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.27 GiB
+
+Duracao Total
+  22 min 51 s
+
+Bitrate Geral
+  1685 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1154 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 362 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 137 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:53.145 (via Metadados)
+    Diferenca Fim: +58.809s (Video - Legenda)
+    Taxa de Drift: 154.315 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 58808 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:47.366 (via Metadados)
+    Diferenca Fim: +4.588s (Video - Legenda)
+    Taxa de Drift: 12.039 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4587 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:53.430 (via Metadados)
+    Diferenca Fim: +58.524s (Video - Legenda)
+    Taxa de Drift: 153.567 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 58523 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:47.410 (via Metadados)
+    Diferenca Fim: +4.544s (Video - Legenda)
+    Taxa de Drift: 11.923 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4543 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_16_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.24 GiB (249 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.24 GiB
+
+Duracao Total
+  22 min 52 s
+
+Bitrate Geral
+  1519 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 980 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 367 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 140 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:32.333 (via Metadados)
+    Diferenca Fim: +79.788s (Video - Legenda)
+    Taxa de Drift: 209.338 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 79788 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:46.741 (via Metadados)
+    Diferenca Fim: +5.380s (Video - Legenda)
+    Taxa de Drift: 14.115 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 5380 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:38.630 (via Metadados)
+    Diferenca Fim: +73.491s (Video - Legenda)
+    Taxa de Drift: 192.817 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 73490 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:46.780 (via Metadados)
+    Diferenca Fim: +5.341s (Video - Legenda)
+    Taxa de Drift: 14.013 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 5341 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_17_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.26 GiB (270 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.26 GiB
+
+Duracao Total
+  22 min 52 s
+
+Bitrate Geral
+  1648 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1112 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 366 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 139 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:43.237 (via Metadados)
+    Diferenca Fim: +8.884s (Video - Legenda)
+    Taxa de Drift: 23.309 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 8884 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:43.237 (via Metadados)
+    Diferenca Fim: +8.884s (Video - Legenda)
+    Taxa de Drift: 23.309 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 8884 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:22:45.280 (via Metadados)
+    Diferenca Fim: +6.841s (Video - Legenda)
+    Taxa de Drift: 17.949 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 6841 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:45.280 (via Metadados)
+    Diferenca Fim: +6.841s (Video - Legenda)
+    Taxa de Drift: 17.949 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 6841 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_18_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.28 GiB (284 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.28 GiB
+
+Duracao Total
+  22 min 52 s
+
+Bitrate Geral
+  1738 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1211 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 360 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 138 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:20:41.490 (via Metadados)
+    Diferenca Fim: +130.631s (Video - Legenda)
+    Taxa de Drift: 342.733 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 130631 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:34.186 (via Metadados)
+    Diferenca Fim: +17.935s (Video - Legenda)
+    Taxa de Drift: 47.056 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 17935 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:20:41.790 (via Metadados)
+    Diferenca Fim: +130.331s (Video - Legenda)
+    Taxa de Drift: 341.946 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 130331 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:34.320 (via Metadados)
+    Diferenca Fim: +17.801s (Video - Legenda)
+    Taxa de Drift: 46.704 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 17801 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_19_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.28 GiB (286 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.28 GiB
+
+Duracao Total
+  22 min 51 s
+
+Bitrate Geral
+  1746 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1205 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 371 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 140 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:19.630 (via Metadados)
+    Diferenca Fim: +32.324s (Video - Legenda)
+    Taxa de Drift: 84.818 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 32323 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:41.694 (via Metadados)
+    Diferenca Fim: +10.260s (Video - Legenda)
+    Taxa de Drift: 26.922 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10259 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:22:12.590 (via Metadados)
+    Diferenca Fim: +39.364s (Video - Legenda)
+    Taxa de Drift: 103.291 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 39364 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:41.910 (via Metadados)
+    Diferenca Fim: +10.044s (Video - Legenda)
+    Taxa de Drift: 26.355 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10043 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_20_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.22 GiB (225 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.22 GiB
+
+Duracao Total
+  22 min 52 s
+
+Bitrate Geral
+  1373 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 847 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 353 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 132 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:07.326 (via Metadados)
+    Diferenca Fim: +44.712s (Video - Legenda)
+    Taxa de Drift: 117.317 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 44711 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:46.991 (via Metadados)
+    Diferenca Fim: +5.047s (Video - Legenda)
+    Taxa de Drift: 13.242 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 5047 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:22:07.660 (via Metadados)
+    Diferenca Fim: +44.378s (Video - Legenda)
+    Taxa de Drift: 116.441 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 44377 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:47.200 (via Metadados)
+    Diferenca Fim: +4.838s (Video - Legenda)
+    Taxa de Drift: 12.694 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4837 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_21_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.30 GiB (306 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.30 GiB
+
+Duracao Total
+  22 min 52 s
+
+Bitrate Geral
+  1868 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1323 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 372 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 144 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:11.479 (via Metadados)
+    Diferenca Fim: +100.767s (Video - Legenda)
+    Taxa de Drift: 264.356 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 100767 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:41.777 (via Metadados)
+    Diferenca Fim: +10.469s (Video - Legenda)
+    Taxa de Drift: 27.465 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10469 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:21:11.840 (via Metadados)
+    Diferenca Fim: +100.406s (Video - Legenda)
+    Taxa de Drift: 263.409 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 100406 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:42.020 (via Metadados)
+    Diferenca Fim: +10.226s (Video - Legenda)
+    Taxa de Drift: 26.827 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10226 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]Guilty Crown_-_22_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.38 GiB (392 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.38 GiB
+
+Duracao Total
+  22 min 52 s
+
+Bitrate Geral
+  2396 kbps
+
+Aplicacao de Escrita
+  mkvmerge v78.0 ('Running') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1856 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 369 kbps
+    Titulo: Surround 5.1
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 144 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:37.564 (via Metadados)
+    Diferenca Fim: +14.515s (Video - Legenda)
+    Taxa de Drift: 38.084 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14514 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:37.564 (via Metadados)
+    Diferenca Fim: +14.515s (Video - Legenda)
+    Taxa de Drift: 38.084 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14514 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(SCY)
+    Duracao Legenda: 00:22:37.360 (via Metadados)
+    Diferenca Fim: +14.719s (Video - Legenda)
+    Taxa de Drift: 38.619 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14719 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(SCY)
+    Duracao Legenda: 00:22:37.360 (via Metadados)
+    Diferenca Fim: +14.719s (Video - Legenda)
+    Taxa de Drift: 38.619 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14719 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
 
 ================================================================================
 Auditoria finalizada com sucesso!

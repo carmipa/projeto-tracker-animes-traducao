@@ -13,6 +13,8 @@ import sys
 import time
 import argparse
 import datetime
+import subprocess
+import json
 
 try:
     from pymediainfo import MediaInfo
@@ -39,6 +41,78 @@ except ImportError:
 
 # Extensoes de video suportadas
 EXTENSOES_VIDEO = ['.mkv', '.mp4', '.avi', '.mov', '.flv', '.wmv', '.webm', '.m4v', '.ts', '.m2ts']
+
+
+def parse_duration_str(dur_str):
+    """Converte string de duracao (HH:MM:SS.mmm) ou segundos em float."""
+    if not dur_str:
+        return None
+    try:
+        dur_str = dur_str.replace(',', '.')
+        partes = dur_str.split(':')
+        if len(partes) == 3:
+            h = float(partes[0])
+            m = float(partes[1])
+            s = float(partes[2])
+            return h * 3600 + m * 60 + s
+        elif len(partes) == 2:
+            m = float(partes[0])
+            s = float(partes[1])
+            return m * 60 + s
+        else:
+            return float(dur_str)
+    except Exception:
+        return None
+
+
+def format_seconds(seconds):
+    """Formata segundos em HH:MM:SS.mmm."""
+    if seconds is None:
+        return "N/A"
+    h = int(seconds // 3600)
+    m = int((seconds % 3600) // 60)
+    s = seconds % 60
+    return f"{h:02d}:{m:02d}:{s:06.3f}"
+
+
+def obter_timestamps_legenda_via_pacotes(caminho_video, index_relativo):
+    """
+    Executa ffprobe nos pacotes do fluxo de legenda especificado para determinar
+    a duracao real baseada no tempo do ultimo pacote.
+    """
+    try:
+        cmd = [
+            "ffprobe", "-v", "quiet", "-select_streams", f"s:{index_relativo}",
+            "-show_entries", "packet=pts_time,duration_time", "-of", "json", str(caminho_video)
+        ]
+        res = subprocess.run(cmd, capture_output=True, text=True)
+        if res.returncode != 0 or not res.stdout.strip():
+            return None, None
+        
+        dados = json.loads(res.stdout)
+        pacotes = dados.get("packets", [])
+        if not pacotes:
+            return None, None
+            
+        first_pts = None
+        last_pts = None
+        
+        for p in pacotes:
+            pts = parse_duration_str(p.get("pts_time"))
+            if pts is not None:
+                first_pts = pts
+                break
+                
+        for p in reversed(pacotes):
+            pts = parse_duration_str(p.get("pts_time"))
+            if pts is not None:
+                dur = parse_duration_str(p.get("duration_time")) or 0.0
+                last_pts = pts + dur
+                break
+                
+        return first_pts, last_pts
+    except Exception:
+        return None, None
 
 # Pasta de relatorios
 PASTA_RELATORIOS = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'relatorio')
@@ -399,6 +473,24 @@ def analisar_arquivo_midia(caminho_arquivo, relatorio_txt=None):
         adicionar_linha("\n  Nenhum fluxo de audio encontrado")
         print(f"\n  {Fore.YELLOW}Nenhum fluxo de audio encontrado{Style.RESET_ALL}")
     
+    # Determinar a duracao do video em segundos para auditoria de sincronia
+    duracao_video_s = None
+    if faixas_video:
+        try:
+            v_track = faixas_video[0]
+            if getattr(v_track, 'duration', None):
+                duracao_video_s = float(v_track.duration) / 1000.0
+        except Exception:
+            pass
+            
+    if not duracao_video_s and faixas_geral:
+        try:
+            g_track = faixas_geral[0]
+            if getattr(g_track, 'duration', None):
+                duracao_video_s = float(g_track.duration) / 1000.0
+        except Exception:
+            pass
+
     # FAIXAS DE LEGENDAS
     
     print("\n" + "=" * 80)
@@ -451,6 +543,72 @@ def analisar_arquivo_midia(caminho_arquivo, relatorio_txt=None):
                 else:
                     adicionar_linha("    Titulo: (Sem titulo)")
                     print(f"    {Fore.CYAN}Titulo:{Style.RESET_ALL} (Sem titulo)")
+
+                # Auditoria de Sincronia de Legenda
+                if duracao_video_s:
+                    duracao_legenda_s = None
+                    duracao_legenda_ms = getattr(track, 'duration', None)
+                    if duracao_legenda_ms:
+                        try:
+                            duracao_legenda_s = float(duracao_legenda_ms) / 1000.0
+                        except Exception:
+                            pass
+
+                    metodo_duracao = "Metadados"
+                    if not duracao_legenda_s or abs(duracao_legenda_s - duracao_video_s) < 0.01:
+                        _, last_pts = obter_timestamps_legenda_via_pacotes(caminho_arquivo, idx - 1)
+                        if last_pts is not None:
+                            duracao_legenda_s = last_pts
+                            metodo_duracao = "Analise de Pacotes (ffprobe)"
+
+                    if duracao_legenda_s:
+                        diferenca_s = duracao_video_s - duracao_legenda_s
+                        diff_abs = abs(diferenca_s)
+                        duracao_horas = duracao_video_s / 3600.0
+                        drift_ratio = diff_abs / duracao_horas if duracao_horas > 0 else 0.0
+
+                        adicionar_linha(f"    Duracao Legenda: {format_seconds(duracao_legenda_s)} (via {metodo_duracao})")
+                        print(f"    {Fore.CYAN}Duracao Legenda:{Style.RESET_ALL} {Fore.WHITE}{format_seconds(duracao_legenda_s)}{Style.RESET_ALL} {Fore.YELLOW}(via {metodo_duracao}){Style.RESET_ALL}")
+                        
+                        adicionar_linha(f"    Diferenca Fim: {diferenca_s:+.3f}s (Video - Legenda)")
+                        print(f"    {Fore.CYAN}Diferenca Fim:{Style.RESET_ALL} {Fore.WHITE}{diferenca_s:+.3f}s{Style.RESET_ALL} (Video - Legenda)")
+                        
+                        adicionar_linha(f"    Taxa de Drift: {drift_ratio:.3f} s/hora")
+                        print(f"    {Fore.CYAN}Taxa de Drift:{Style.RESET_ALL} {Fore.WHITE}{drift_ratio:.3f} s/hora{Style.RESET_ALL}")
+
+                        # Veredito
+                        if duracao_legenda_s < (duracao_video_s * 0.5):
+                            veredicto = "Legenda Parcial Muxed (Sem necessidade de alteracao de sync global)"
+                            cor_ver = Fore.GREEN
+                        elif diff_abs <= 1.5:
+                            veredicto = "Legenda Sincronizada! (Diferenca dentro da margem segura)"
+                            cor_ver = Fore.GREEN
+                        else:
+                            ratio = duracao_video_s / duracao_legenda_s
+                            fps_mismatch = False
+                            fps_destino = ""
+                            ratios_fps = [
+                                (1.042709, "25.000 -> 23.976 fps (Estiramento PAL para NTSC)"),
+                                (0.959040, "23.976 -> 25.000 fps (Estiramento NTSC para PAL)"),
+                                (1.001001, "24.000 -> 23.976 fps"),
+                                (0.999000, "23.976 -> 24.000 fps")
+                            ]
+                            for target_ratio, label in ratios_fps:
+                                if abs(ratio - target_ratio) < 0.0015:
+                                    fps_mismatch = True
+                                    fps_destino = label
+                                    break
+                            
+                            if fps_mismatch:
+                                veredicto = f"Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: {fps_destino})"
+                                cor_ver = Fore.RED
+                            else:
+                                sugerido_ms = int(diferenca_s * 1000)
+                                veredicto = f"Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de {sugerido_ms} ms)"
+                                cor_ver = Fore.YELLOW
+
+                        adicionar_linha(f"    Veredito de Sincronia: {veredicto}")
+                        print(f"    {Fore.CYAN}Veredito de Sincronia:{Style.RESET_ALL} {cor_ver}{veredicto}{Style.RESET_ALL}")
             except Exception as e:
                 adicionar_linha(f"    Aviso - Erro ao processar legenda: {str(e)}")
                 print(f"    {Fore.YELLOW}Aviso - Erro ao processar legenda: {str(e)}{Style.RESET_ALL}")

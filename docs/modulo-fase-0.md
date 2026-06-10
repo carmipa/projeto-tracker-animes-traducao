@@ -13,7 +13,8 @@ Varredura recursiva de `.mkv`, `.mp4`, `.avi`, etc. Gera relatório por arquivo 
 - Container, duração, bitrate geral  
 - Fluxos de vídeo (codec, resolução, FPS)  
 - Fluxos de áudio (idioma, canais)  
-- **Legendas:** distingue `ASS/SSA`, `SRT` e **`PGS` (bitmap — não extraível)**
+- **Legendas:** distingue `ASS/SSA`, `SRT` e **`PGS` (bitmap — não extraível)**  
+- **Auditoria de Sincronia de Legenda:** Compara a duração real das legendas embutidas com o vídeo, calculando a taxa de desvio (Drift Ratio em segundos por hora) e emitindo vereditos claros de compatibilidade de sincronia (Sincronizada, Atraso Constante - Simple Offset, ou Mismatch de FPS - Time Stretch).
 
 > Confirme legenda **texto** (`S_TEXT/ASS`) antes de iniciar a Fase 1.
 

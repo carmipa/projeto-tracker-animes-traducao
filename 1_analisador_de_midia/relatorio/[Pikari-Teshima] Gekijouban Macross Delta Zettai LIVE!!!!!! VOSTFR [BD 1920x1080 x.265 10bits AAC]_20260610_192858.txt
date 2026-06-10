@@ -1,0 +1,85 @@
+================================================================================
+INICIANDO AUDITORIA TECNICA: [Pikari-Teshima] Gekijouban Macross Delta Zettai LIVE!!!!!! VOSTFR [BD 1920x1080 x.265 10bits AAC].mkv
+================================================================================
+
+Validacao OK
+Tamanho: 4.85 GiB (4964 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  4.85 GiB
+
+Duracao Total
+  1 h 49 min
+
+Bitrate Geral
+  6336 kbps
+
+Aplicacao de Escrita
+  mkvmerge v33.1.0 ('Primrose') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 5886 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 444 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr
+    Formato: ASS
+    Tipo: ASS/SSA (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 01:49:07.250 (via Metadados)
+    Diferenca Fim: +25.149s (Video - Legenda)
+    Taxa de Drift: 13.775 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 25149 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================

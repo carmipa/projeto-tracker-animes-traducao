@@ -1,0 +1,96 @@
+================================================================================
+INICIANDO AUDITORIA TECNICA: [Anime Land] Macross Delta Movie 2 Zettai Live!!! (BDRip 1080p Hi10P DTS-HD) [9A38E078].mkv
+================================================================================
+
+Validacao OK
+Tamanho: 10.86 GiB (11120 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+6 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  10.86 GiB
+
+Duracao Total
+  2 h 3 min
+
+Bitrate Geral
+  12559 kbps
+
+Aplicacao de Escrita
+  mkvmerge v70.0.0 ('Caught A Lite Sneeze') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8395 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: DTS
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 4126 kbps
+    Titulo: DTS-HD MA 5.1 (Untouched)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: ja
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: JAPANESE-PGS Sub (Untouched)
+    Duracao Legenda: 02:02:57.078 (via Metadados)
+    Diferenca Fim: +50.676s (Video - Legenda)
+    Taxa de Drift: 24.561 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 50675 ms)
+
+  Legenda 2 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap - Hardsub - Nao extraivel)
+    Codec ID: S_HDMV/PGS
+    Titulo: ENGLISH-PGS Sub (Untouched)
+    Duracao Legenda: 02:03:14.054 (via Metadados)
+    Diferenca Fim: +33.700s (Video - Legenda)
+    Taxa de Drift: 16.333 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 33699 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 6
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 2
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================

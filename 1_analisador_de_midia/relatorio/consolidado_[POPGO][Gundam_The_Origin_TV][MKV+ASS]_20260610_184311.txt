@@ -1,0 +1,1039 @@
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][01][1080p][HEVC][Webrip](E1AED70B).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.33 GiB (339 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.33 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  1897 kbps
+
+Aplicacao de Escrita
+  mkvmerge v32.0.0 ('Astral Progressions') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1767 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][02][1080p][HEVC][Webrip](2CEC8E71).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.39 GiB (401 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.39 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2242 kbps
+
+Aplicacao de Escrita
+  mkvmerge v32.0.0 ('Astral Progressions') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2111 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: Desconhecido
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][03][1080p][HEVC][Webrip](4F2B2BFA).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.40 GiB (414 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.40 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2313 kbps
+
+Aplicacao de Escrita
+  mkvmerge v32.0.0 ('Astral Progressions') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2182 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: Desconhecido
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][04][1080p][HEVC][Webrip](5FE1652B).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (484 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2706 kbps
+
+Aplicacao de Escrita
+  mkvmerge v32.0.0 ('Astral Progressions') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2575 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: Desconhecido
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][05][1080p][HEVC][Webrip](106FCAA0).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (472 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2637 kbps
+
+Aplicacao de Escrita
+  mkvmerge v32.0.0 ('Astral Progressions') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2507 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][06][1080p][HEVC][Webrip](813F24D4).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.39 GiB (396 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.39 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2214 kbps
+
+Aplicacao de Escrita
+  mkvmerge v32.0.0 ('Astral Progressions') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2084 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][07][1080p][HEVC][Webrip](505902AA).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.49 GiB (497 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.49 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2780 kbps
+
+Aplicacao de Escrita
+  mkvmerge v32.0.0 ('Astral Progressions') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2649 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: Desconhecido
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][08][1080p][HEVC][Webrip](6D86D845).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.40 GiB (409 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.40 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2286 kbps
+
+Aplicacao de Escrita
+  mkvmerge v35.0.0 ('All The Love In The World') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2155 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][09][1080p][HEVC][Webrip](4F4DAB13).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (365 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2039 kbps
+
+Aplicacao de Escrita
+  mkvmerge v35.0.0 ('All The Love In The World') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1908 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][10][1080p][HEVC][Webrip](A72FE704).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.36 GiB (370 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.36 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2067 kbps
+
+Aplicacao de Escrita
+  mkvmerge v35.0.0 ('All The Love In The World') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1937 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][11][1080p][HEVC][Webrip](87FCBBD0).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.45 GiB (457 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.45 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  2557 kbps
+
+Aplicacao de Escrita
+  mkvmerge v35.0.0 ('All The Love In The World') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2427 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][12][1080p][HEVC][Webrip](0AE7CEDD).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.34 GiB (351 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.34 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  1961 kbps
+
+Aplicacao de Escrita
+  mkvmerge v35.0.0 ('All The Love In The World') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1831 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][13][1080p][HEVC][Webrip](0C42A212).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.30 GiB (309 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+3 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.30 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  1726 kbps
+
+Aplicacao de Escrita
+  mkvmerge v35.0.0 ('All The Love In The World') 32-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1596 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 44.1 kHz
+    Bitrate: 128 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+    NENHUMA LEGENDA ENCONTRADA
+    - Arquivo eh uma RAW (sem legenda)
+    - Ou a legenda esta com HARDSUB (queimada na imagem)
+    - Verifique o arquivo antes de usar no pipeline
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 3
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 0
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================

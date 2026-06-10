@@ -1,0 +1,15 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO FRANCÊS - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-10 19:52:24
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\2_tradutor_ia_gemma4\logs
+================================================================================
+
+[19:53:26.969] [ERRO    ] Erro de conexão/timeout no LM Studio: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=45)
+[19:53:26.984] [ERRO    ] Erro de conexão/timeout no LM Studio: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=45)
+
+================================================================================
+Execução finalizada: 2026-06-10 19:54:06
+================================================================================

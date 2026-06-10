@@ -510,7 +510,7 @@ class Pipeline:
                 self.API_URL,
                 json=corpo,
                 headers={"Content-Type": "application/json"},
-                timeout=45,
+                timeout=120,
             )
         except Exception as e:
             self.log.erro(f"Erro de conexão/timeout no LM Studio: {e}")

@@ -19,8 +19,23 @@ from tqdm import tqdm
 # Inicializa o Colorama para tratamento de escapes ANSI no terminal do Windows
 init(autoreset=True)
 
-MKVEXTRACT_PATH = r"C:\Program Files\MKVToolNix\mkvextract.exe"
-MKVMERGE_PATH = r"C:\Program Files\MKVToolNix\mkvmerge.exe"
+import shutil
+
+def achar_mkvtoolnix():
+    for folder in [r"C:\Program Files\MKVToolNix", r"C:\Program Files (x86)\MKVToolNix"]:
+        ext_path = os.path.join(folder, "mkvextract.exe")
+        merge_path = os.path.join(folder, "mkvmerge.exe")
+        if os.path.exists(ext_path) and os.path.exists(merge_path):
+            return ext_path, merge_path
+    
+    ext_path = shutil.which("mkvextract")
+    merge_path = shutil.which("mkvmerge")
+    if ext_path and merge_path:
+        return ext_path, merge_path
+        
+    return None, None
+
+MKVEXTRACT_PATH, MKVMERGE_PATH = achar_mkvtoolnix()
 
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
 ARQUIVO_INFO = os.path.join(PASTA_SCRIPT, "info.txt")
@@ -31,14 +46,20 @@ def extrair_legendas_dinamicamente():
     print(f"{Fore.CYAN}         ESTEIRA DE EXTRAÇÃO INTELIGENTE DE SOFTBUBS: MKV ➔ ASS")
     print("=" * 80)
 
-    pasta_videos = r"C:\TRACKER-ANIMES\animes\unicornio\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]\Season 1"
+    if not MKVEXTRACT_PATH or not MKVMERGE_PATH:
+        print(f"{Fore.RED}[ERRO] O binário do mkvextract ou mkvmerge não foi encontrado no sistema.")
+        print(f"{Fore.YELLOW}Por favor, instale o MKVToolNix ou adicione o caminho dele às variáveis do sistema.")
+        return
+
+    # Solicita a pasta de forma interativa
+    pasta_videos = input(f"{Fore.YELLOW}Digite a pasta com os arquivos .mkv: {Style.RESET_ALL}").strip().replace('"', '').replace("'", "")
+    
+    if not os.path.isdir(pasta_videos):
+        print(f"{Fore.RED}[ERRO] O diretório informado não existe: {pasta_videos}")
+        return
+
     pasta_saida_eng = os.path.join(pasta_videos, "legendas_eng")
     os.makedirs(pasta_saida_eng, exist_ok=True)
-
-    if not os.path.exists(MKVEXTRACT_PATH):
-        print(f"{Fore.RED}[ERRO] O binário do mkvextract não foi achado em: {MKVEXTRACT_PATH}")
-        print(f"{Fore.YELLOW}Por favor, altere a variável MKVEXTRACT_PATH com o caminho correto do seu instalador.")
-        return
 
     arquivos_mkv = sorted([f for f in os.listdir(pasta_videos) if f.lower().endswith('.mkv')])
     print(f"{Fore.GREEN}[OK] Localizados {len(arquivos_mkv)} episódios para processamento.")
@@ -62,26 +83,38 @@ def extrair_legendas_dinamicamente():
 
             if resultado.returncode == 0:
                 dados_midia = json.loads(resultado.stdout)
-                # CORREÇÃO: Variável alterada de dados_media para dados_midia para casar com o ponteiro do objeto
+                candidate_tracks = []
                 for track in dados_midia.get('tracks', []):
                     if track.get('type') == 'subtitles':
-                        propriedades = track.get('properties', {})
-                        track_name = propriedades.get('track_name', '')
+                        codec = track.get('codec', '').lower()
+                        # Verifica se é uma faixa de texto ASS (e não imagem PGS/SUP)
+                        if 'ass' in codec or 'substation' in codec or 'text/ass' in codec:
+                            propriedades = track.get('properties', {})
+                            track_name = propriedades.get('track_name', '')
+                            track_id = track.get('id')
+                            candidate_tracks.append((track_id, track_name))
 
-                        if "Dialogue" in track_name or "gcs8" in track_name:
-                            id_legenda_alvo = track.get('id')
-                            track_name_detectado = track_name
-                            print(f"  ↳ {Fore.GREEN}Sucesso! Detectada legenda de diálogo no ID: {id_legenda_alvo} ({track_name})")
-                            break
+                # Busca pela melhor faixa usando palavras-chave prioritárias (Full, Dialogue, etc)
+                for t_id, t_name in candidate_tracks:
+                    if any(k in t_name.lower() for k in ["dialogue", "full", "complete", "legendado", "gcs8"]):
+                        id_legenda_alvo = t_id
+                        track_name_detectado = t_name
+                        print(f"  ↳ {Fore.GREEN}Sucesso! Detectada legenda de diálogo no ID: {id_legenda_alvo} ({track_name_detectado})")
+                        break
+
+                # Se não bateu palavras-chave, mas existem faixas ASS, escolhe a última (geralmente a completa)
+                if id_legenda_alvo is None and candidate_tracks:
+                    id_legenda_alvo, track_name_detectado = candidate_tracks[-1]
+                    print(f"  ↳ {Fore.GREEN}Sucesso (Auto-ASS)! Selecionada faixa ASS no ID: {id_legenda_alvo} ({track_name_detectado})")
 
             if id_legenda_alvo is None:
-                # Fallback estrito mapeado na análise forense dos logs consolidados[cite: 12]
+                # Fallback estrito mapeado na análise forense para outros casos
                 if any(ep in arquivo for ep in ("S01E06", "S01E07", "S01E08", "S01E09", "S01E10", "S01E11")):
                     id_legenda_alvo = 4
-                    print(f"  ↳ {Fore.BLUE}Fallback aplicado (Log Físico): ID 4 forçado.[cite: 12]")
+                    print(f"  ↳ {Fore.BLUE}Fallback aplicado (Log Físico): ID 4 forçado.")
                 else:
                     id_legenda_alvo = 5
-                    print(f"  ↳ {Fore.BLUE}Fallback aplicado (Log Físico): ID 5 forçado.[cite: 12]")
+                    print(f"  ↳ {Fore.BLUE}Fallback aplicado (Log Físico): ID 5 forçado.")
 
             arquivo_saida_ass = os.path.join(pasta_saida_eng, f"{nome_base}_ENG.ass")
 

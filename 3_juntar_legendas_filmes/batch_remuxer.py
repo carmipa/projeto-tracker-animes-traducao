@@ -19,6 +19,7 @@ import logging
 import signal
 import traceback
 import subprocess
+import shutil
 from datetime import datetime
 from tqdm import tqdm
 from colorama import Fore, Style, init
@@ -32,11 +33,14 @@ init(autoreset=True)
 
 class IndustrialRemuxerV2:
     def __init__(self, pasta_videos, pasta_legendas):
-        self.mkvmerge_path = r"C:\Program Files\MKVToolNix\mkvmerge.exe"
+        self.mkvmerge_path = self._achar_mkvmerge()
         self.pasta_raiz = pasta_videos
         self.pasta_legendas = pasta_legendas
         self.pasta_saida = os.path.join(self.pasta_raiz, "mkv_final_ptbr")
-        self.pasta_logs = r"C:\TRACKER-ANIMES\projeto-tracker-animes-traducao\multiplexar\logs"
+        
+        # Pasta de logs dinâmica na raiz do projeto
+        pasta_raiz_projeto = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        self.pasta_logs = os.path.join(pasta_raiz_projeto, "multiplexar", "logs")
 
         self.timestamp_sessao = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
@@ -69,6 +73,21 @@ class IndustrialRemuxerV2:
 
         self.configurar_sistema_logging()
         self.registrar_captura_sinais()
+
+    def _achar_mkvmerge(self):
+        caminhos_padrao = [
+            r"C:\Program Files\MKVToolNix\mkvmerge.exe",
+            r"C:\Program Files (x86)\MKVToolNix\mkvmerge.exe",
+        ]
+        for caminho in caminhos_padrao:
+            if os.path.exists(caminho):
+                return caminho
+        
+        via_path = shutil.which("mkvmerge")
+        if via_path:
+            return via_path
+            
+        return r"C:\Program Files\MKVToolNix\mkvmerge.exe"
 
     def configurar_sistema_logging(self):
         self.logger = logging.getLogger("IndustrialRemuxer")
@@ -352,10 +371,10 @@ def obter_diretorio_operador(mensagem_prompt, padrao_caminho=None):
 if __name__ == "__main__":
     print(f"\n{Fore.CYAN}{'='*80}\n{Fore.CYAN}{'CONFIGURAÇÃO DE DIRETÓRIOS':^80}\n{Fore.CYAN}{'='*80}")
 
-    caminho_padrao_videos = r"C:\TRACKER-ANIMES\animes\unicornio\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]\Season 1"
+    caminho_padrao_videos = r"D:\PROJETOS-OPEN\animes\Guilty Crown"
     pasta_videos = obter_diretorio_operador("Pasta com os vídeos originais (.mkv)", caminho_padrao_videos)
 
-    caminho_padrao_legendas = os.path.join(pasta_videos, "traduzidos")
+    caminho_padrao_legendas = os.path.join(pasta_videos, "traducao")
     pasta_legendas = obter_diretorio_operador("Pasta com as legendas (.ass)", caminho_padrao_legendas)
 
     remuxer = IndustrialRemuxerV2(pasta_videos, pasta_legendas)

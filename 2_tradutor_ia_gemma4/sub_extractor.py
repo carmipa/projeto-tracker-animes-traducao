@@ -26,6 +26,7 @@ import time
 import subprocess
 import requests
 import traceback
+import shutil
 from datetime import datetime
 
 try:
@@ -327,13 +328,13 @@ class Pipeline:
         for caminho in self.MKVEXTRACT_PATHS:
             if os.path.exists(caminho):
                 return caminho
-        return None
+        return shutil.which("mkvextract")
 
     def _achar_mkvmerge(self):
         for caminho in self.MKVMERGE_PATHS:
             if os.path.exists(caminho):
                 return caminho
-        return None
+        return shutil.which("mkvmerge")
 
     def validar(self) -> bool:
         self.log.secao("VALIDAÇÃO DE INFRAESTRUTURA")

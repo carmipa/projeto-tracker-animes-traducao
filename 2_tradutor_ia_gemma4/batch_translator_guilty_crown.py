@@ -1,0 +1,353 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+MÓDULO: batch_translator_guilty_crown.py (Batch Mode v4 - Guilty Crown Edition)
+Otimizado para RTX 5600 8GB VRAM (LM Studio com 2 concorrências max / max precision).
+Traduz em lotes usando threads em paralelo para velocidade máxima sem perda de tags ASS.
+
+Author: Paulo + Antigravity
+Data: Junho 2026
+"""
+
+import os
+import re
+import sys
+import time
+import requests
+from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from tqdm import tqdm
+from colorama import init, Fore, Style
+
+init(autoreset=True)
+
+LM_STUDIO_URL = "http://localhost:1234/v1/chat/completions"
+LM_STUDIO_MODELS_URL = "http://localhost:1234/v1/models"
+MAX_THREADS = 2   # Coincide com as 2 concorrências máximas configuradas no LM Studio para a GPU de 8GB
+BATCH_SIZE = 8    # Linhas por chamada para evitar estouro de tokens e truncamento de respostas
+MODELO_ATIVO = "local-model"
+
+PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
+ARQUIVO_INFO = os.path.join(PASTA_SCRIPT, "info_guilty_crown.txt")
+DEBUG_FILE = os.path.join(PASTA_SCRIPT, "debug_last_failure_gc.txt")
+_debug_salvo = False
+
+SYSTEM_PROMPT = (
+    "Você é um tradutor especialista em animes de ficção científica, mechas e drama pós-apocalíptico.\n"
+    "Sua tarefa é traduzir as linhas de legendas numeradas enviadas do inglês para o português do Brasil (PT-BR).\n"
+    "REGRAS CRÍTICAS:\n"
+    "1. Mantenha os seguintes termos conforme convenção consagrada ou em inglês:\n"
+    "   - 'Void' ou 'Voids' -> manter como 'Void' ou 'Voids'\n"
+    "   - 'Void Genome' -> traduzir como 'Genoma Void'\n"
+    "   - 'Apocalypse Virus' -> traduzir como 'Vírus do Apocalipse'\n"
+    "   - 'Lost Christmas' -> manter como 'Lost Christmas'\n"
+    "   - 'Endlave' ou 'Endlaves' -> manter como 'Endlave' ou 'Endlaves'\n"
+    "   - 'Funeral Parlor' / 'Undertakers' -> traduzir como 'Funerária'\n"
+    "   - 'GHQ' -> manter como 'GHQ'\n"
+    "   - 'Genome' -> traduzir como 'Genoma'\n"
+    "2. Traduza gírias e expressões militares de forma natural e fluida (ex: 'Roger' -> 'Copiado', 'Copy that' -> 'Entendido').\n"
+    "3. Nunca modifique ou remova os marcadores do tipo '[T0]', '[T1]', '[T2]'... Eles representam formatações de legenda e devem retornar EXATAMENTE na mesma posição e formato no texto traduzido.\n"
+    "4. Retorne APENAS as traduções numeradas no mesmo formato (ex: '1. tradução'). Não inclua notas, explicações ou saudações."
+)
+
+
+def verificar_lm_studio():
+    global MODELO_ATIVO
+    print(f"{Fore.CYAN}[CHECK] Verificando LM Studio em {LM_STUDIO_MODELS_URL} ...")
+    try:
+        resposta = requests.get(LM_STUDIO_MODELS_URL, timeout=5)
+        if resposta.status_code == 200:
+            dados = resposta.json()
+            modelos = [m.get("id", "desconhecido") for m in dados.get("data", [])]
+            if modelos:
+                print(f"{Fore.GREEN}[OK] LM Studio online. Modelo(s): {', '.join(modelos)}")
+                # Filtra e escolhe o primeiro modelo de chat
+                modelos_chat = [m for m in modelos if "embed" not in m.lower()]
+                if modelos_chat:
+                    MODELO_ATIVO = modelos_chat[0]
+                else:
+                    MODELO_ATIVO = modelos[0]
+                print(f"{Fore.GREEN}[INFO] Modelo ativo selecionado: {MODELO_ATIVO}")
+            else:
+                print(f"{Fore.YELLOW}[AVISO] LM Studio online mas sem modelo carregado.")
+                sys.exit(1)
+        else:
+            print(f"{Fore.RED}[ERRO] LM Studio HTTP {resposta.status_code}.")
+            sys.exit(1)
+    except requests.exceptions.ConnectionError:
+        print(f"{Fore.RED}[ERRO] LM Studio nao esta rodando em localhost:1234.")
+        sys.exit(1)
+    except requests.exceptions.Timeout:
+        print(f"{Fore.RED}[ERRO] LM Studio timeout (5s).")
+        sys.exit(1)
+
+
+def obter_diretorio_operador(mensagem_prompt, padrao_caminho=None):
+    while True:
+        sufixo_padrao = f" (ENTER = {padrao_caminho})" if padrao_caminho else ""
+        entrada = input(f"{Fore.YELLOW}{mensagem_prompt}{sufixo_padrao}: {Style.RESET_ALL}").strip()
+        entrada = entrada.strip('"').strip("'")
+        if not entrada and padrao_caminho:
+            return padrao_caminho
+        if not entrada:
+            continue
+        if not os.path.isdir(entrada):
+            print(f"{Fore.RED}[ERRO] Diretorio nao existe: {entrada}")
+            continue
+        return entrada
+
+
+def _limpar_markdown(texto):
+    texto = re.sub(r'\*+', '', texto)
+    texto = re.sub(r'_+', '', texto)
+    return texto.strip().strip('"').strip("'")
+
+
+def _parsear_resposta_numerada(conteudo, n_esperado):
+    linhas = []
+    for linha in conteudo.split('\n'):
+        m = re.match(r'^\d+[.)]\s*(.+)', linha.strip())
+        if m:
+            linhas.append(_limpar_markdown(m.group(1)))
+    if len(linhas) >= n_esperado:
+        return linhas[:n_esperado]
+    
+    linhas_raw = [
+        _limpar_markdown(l)
+        for l in conteudo.split('\n')
+        if l.strip() and not re.match(r'^(here|sure|translation|below|ok|claro|aqui)', l.strip(), re.I)
+    ]
+    return list(dict.fromkeys(linhas_raw))[:n_esperado]  # Remove duplicatas consecutivas e corta no esperado
+
+
+def _salvar_debug(input_texto, output_bruto, traducoes_parsed):
+    global _debug_salvo
+    if _debug_salvo:
+        return
+    _debug_salvo = True
+    with open(DEBUG_FILE, "w", encoding="utf-8") as f:
+        f.write("=== INPUT ENVIADO AO MODELO ===\n")
+        f.write(input_texto + "\n\n")
+        f.write("=== RESPOSTA BRUTA DO MODELO ===\n")
+        f.write(output_bruto + "\n\n")
+        f.write(f"=== PARSED ({len(traducoes_parsed)} linhas) ===\n")
+        for i, t in enumerate(traducoes_parsed):
+            f.write(f"  {i+1}. {t}\n")
+    print(f"\n{Fore.YELLOW}[DEBUG] Resposta do modelo salva em: {DEBUG_FILE}")
+
+
+def traduzir_bloco_ia(bloco):
+    resultados_vazios = {}
+    bloco_util = []
+    for item in bloco:
+        idx, meta, texto, tags = item
+        if not texto.strip():
+            resultados_vazios[idx] = (idx, f"{meta}{texto}\n", False)
+        else:
+            bloco_util.append(item)
+
+    if not bloco_util:
+        return list(resultados_vazios.values())
+
+    indices_u = [x[0] for x in bloco_util]
+    metadados_u = [x[1] for x in bloco_util]
+    textos_u = [x[2] for x in bloco_util]
+    tags_u = [x[3] for x in bloco_util]
+
+    texto_numerado = "\n".join(f"{i+1}. {t}" for i, t in enumerate(textos_u))
+
+    payload = {
+        "model": MODELO_ATIVO,
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": f"Traduza estas {len(textos_u)} linhas para PT-BR. Retorne APENAS as traduções numeradas:\n{texto_numerado}"}
+        ],
+        "temperature": 0.1,
+        "max_tokens": 1500
+    }
+
+    max_tentativas = 3
+    tentativa = 0
+
+    while tentativa < max_tentativas:
+        try:
+            resposta = requests.post(LM_STUDIO_URL, json=payload, timeout=120)
+            if resposta.status_code != 200:
+                tentativa += 1
+                if tentativa < max_tentativas:
+                    tempo_espera = tentativa * 5
+                    print(f"\n{Fore.YELLOW}[AVISO] Erro HTTP {resposta.status_code} no bloco {indices_u[0]}-{indices_u[-1]}. Tentativa {tentativa}/{max_tentativas}. Aguardando {tempo_espera}s...")
+                    time.sleep(tempo_espera)
+                    continue
+                else:
+                    _salvar_debug(texto_numerado, f"HTTP {resposta.status_code}\n{resposta.text}", [])
+                    raise Exception(f"HTTP {resposta.status_code} - {resposta.text[:200]}")
+
+            conteudo = resposta.json()['choices'][0]['message']['content'].strip()
+            traducoes = _parsear_resposta_numerada(conteudo, len(textos_u))
+
+            if len(traducoes) < len(textos_u):
+                tentativa += 1
+                if tentativa < max_tentativas:
+                    tempo_espera = tentativa * 3
+                    print(f"\n{Fore.YELLOW}[AVISO] Resposta incompleta ({len(traducoes)}/{len(textos_u)} linhas) no bloco {indices_u[0]}-{indices_u[-1]}. Tentativa {tentativa}/{max_tentativas}. Aguardando {tempo_espera}s...")
+                    time.sleep(tempo_espera)
+                    continue
+                else:
+                    _salvar_debug(texto_numerado, conteudo, traducoes)
+
+            resultados = list(resultados_vazios.values())
+            for i, (idx, meta, texto_orig, tags) in enumerate(zip(indices_u, metadados_u, textos_u, tags_u)):
+                if i < len(traducoes) and traducoes[i] and traducoes[i].lower() != texto_orig.lower():
+                    trad = traducoes[i]
+                    # Recoloca as tags nos marcadores correspondentes [T0], [T1]...
+                    for idx_tag, tag in enumerate(tags):
+                        marcador = f"[T{idx_tag}]"
+                        if marcador in trad:
+                            trad = trad.replace(marcador, tag, 1)
+                        else:
+                            # Fallback tolerante a grafias alteradas pela IA
+                            trad = re.sub(rf'\[?[Tt]{idx_tag}\]?', tag, trad, count=1)
+                    resultados.append((idx, f"{meta}{trad}\n", False))
+                else:
+                    # Se falhou ou retornou o mesmo texto, aplica tag de erro para auditoria
+                    resultados.append((idx, f"{meta}[ERRO_TRADUCAO: {texto_orig}]\n", True))
+            return resultados
+
+        except Exception as e:
+            tentativa += 1
+            if tentativa < max_tentativas:
+                tempo_espera = tentativa * 5
+                print(f"\n{Fore.YELLOW}[AVISO] Exceção no bloco {indices_u[0]}-{indices_u[-1]}: {e}. Tentativa {tentativa}/{max_tentativas}. Aguardando {tempo_espera}s...")
+                time.sleep(tempo_espera)
+            else:
+                print(f"\n{Fore.RED}[FALHA] Bloco idx {indices_u[0]}-{indices_u[-1]} falhou definitivamente após {max_tentativas} tentativas: {e}")
+                _salvar_debug(texto_numerado, str(e), [])
+                resultados = list(resultados_vazios.values())
+                for idx, meta, texto, _ in zip(indices_u, metadados_u, textos_u, tags_u):
+                    resultados.append((idx, f"{meta}[ERRO_TRADUCAO: {texto}]\n", True))
+                return resultados
+
+
+def executar_pipeline_lote():
+    print("=" * 80)
+    print(f"{Fore.CYAN}    ESTEIRA BATCH {BATCH_SIZE}L/CHAMADA | THREADS={MAX_THREADS} | ASS -> ASS PTBR (GUILTY CROWN)")
+    print("=" * 80)
+
+    verificar_lm_studio()
+
+    caminho_padrao_origem = r"D:\PROJETOS-OPEN\animes\Guilty Crown\legendas_eng"
+    pasta_origem = obter_diretorio_operador("Pasta com legendas ENG", caminho_padrao_origem)
+
+    caminho_padrao_saida = r"D:\PROJETOS-OPEN\animes\Guilty Crown\traducao"
+    pasta_saida = obter_diretorio_operador("Pasta de saída PT-BR", caminho_padrao_saida)
+
+    os.makedirs(pasta_saida, exist_ok=True)
+    arquivos_ass = sorted([f for f in os.listdir(pasta_origem) if f.lower().endswith('.ass')])
+
+    if not arquivos_ass:
+        print(f"{Fore.RED}[ERRO] Nenhum .ass em: {pasta_origem}")
+        return
+
+    print(f"{Fore.GREEN}[OK] {len(arquivos_ass)} arquivos carregados | batch={BATCH_SIZE} | threads={MAX_THREADS}")
+
+    linhas_relatorio = [
+        "RELATÓRIO DE TRADUÇÃO BATCH - BATCH TRANSLATOR GUILTY CROWN",
+        f"Gerado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        f"Batch size: {BATCH_SIZE} linhas/chamada | Threads: {MAX_THREADS}",
+        "=" * 80,
+    ]
+    total_fallbacks_geral = 0
+    total_dialogos_geral = 0
+
+    with tqdm(total=len(arquivos_ass), desc="Série Completa", unit="arq", colour="green", ncols=80, position=0) as barra_macro:
+        for idx, arquivo in enumerate(arquivos_ass):
+            caminho_entrada = os.path.join(pasta_origem, arquivo)
+            nome_saida_ptbr = arquivo.replace("_ENG.ass", "_PTBR.ass")
+            caminho_saida = os.path.join(pasta_saida, nome_saida_ptbr)
+
+            barra_macro.set_postfix_str(arquivo[:35])
+            tqdm.write(f"\n{Fore.YELLOW}[{idx+1}/{len(arquivos_ass)}] -> {arquivo}")
+
+            with open(caminho_entrada, 'r', encoding='utf-8', errors='replace') as f:
+                linhas_originais = f.readlines()
+
+            mapa_linhas_finais = [None] * len(linhas_originais)
+            blocos = []
+            bloco_atual = []
+            fallbacks_arquivo = 0
+            total_dialogos = 0
+
+            for i, linha in enumerate(linhas_originais):
+                if linha.startswith("Dialogue:"):
+                    total_dialogos += 1
+                    partes = linha.split(",", 9)
+                    if len(partes) == 10:
+                        metadados = ",".join(partes[:9]) + ","
+                        texto_bruto = partes[9].rstrip("\n")
+                        tags = re.findall(r'\{[^}]+\}', texto_bruto)
+                        # Ignora linhas com excesso de tags (karaokê/efeitos complexos) para evitar estouro de tokens
+                        if len(tags) > 8:
+                            mapa_linhas_finais[i] = linha
+                            continue
+                        # Substitui cada tag por um marcador numérico seguro [T0], [T1]...
+                        texto_limpo = texto_bruto
+                        for idx_tag, tag in enumerate(tags):
+                            texto_limpo = texto_limpo.replace(tag, f"[T{idx_tag}]", 1)
+                        bloco_atual.append((i, metadados, texto_limpo, tags))
+                        if len(bloco_atual) == BATCH_SIZE:
+                            blocos.append(bloco_atual)
+                            bloco_atual = []
+                    else:
+                        mapa_linhas_finais[i] = linha
+                else:
+                    mapa_linhas_finais[i] = linha
+
+            if bloco_atual:
+                blocos.append(bloco_atual)
+
+            total_chamadas = len(blocos)
+            tqdm.write(f"  {Fore.CYAN}Diálogos: {total_dialogos} | Chamadas API: {total_chamadas} (redução {total_dialogos//max(total_chamadas,1)}x)")
+
+            with tqdm(total=total_chamadas, desc=f"  Ep {idx+1:02d} batches", unit="bat", colour="cyan", ncols=80, position=1, leave=False) as barra_micro:
+                with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+                    futuros = {executor.submit(traduzir_bloco_ia, bloco): bloco for bloco in blocos}
+                    for futuro in as_completed(futuros):
+                        for orig_idx, linha_proc, usou_fallback in futuro.result():
+                            mapa_linhas_finais[orig_idx] = linha_proc
+                            if usou_fallback:
+                                fallbacks_arquivo += 1
+                        barra_micro.update(1)
+
+            with open(caminho_saida, 'w', encoding='utf-8') as f:
+                f.writelines(l for l in mapa_linhas_finais if l is not None)
+
+            tqdm.write(f"{Fore.GREEN}  [SALVO] {nome_saida_ptbr} | Chamadas: {total_chamadas} | Fallbacks: {fallbacks_arquivo}")
+            linhas_relatorio.append(
+                f"{nome_saida_ptbr} | Diálogos: {total_dialogos} | Chamadas: {total_chamadas} | Fallbacks: {fallbacks_arquivo}"
+            )
+            total_fallbacks_geral += fallbacks_arquivo
+            total_dialogos_geral += total_dialogos
+            barra_macro.update(1)
+
+    linhas_relatorio.append("=" * 80)
+    linhas_relatorio.append(
+        f"TOTAL: {len(arquivos_ass)} arquivos | {total_dialogos_geral} diálogos | {total_fallbacks_geral} fallbacks"
+    )
+
+    with open(ARQUIVO_INFO, "w", encoding="utf-8") as f:
+        f.write("\n".join(linhas_relatorio) + "\n")
+
+    print("\n" + "=" * 80)
+    print(f"{Fore.GREEN}[SUCESSO] Pipeline batch concluído!")
+    print(f"{Fore.GREEN}Legendas PT-BR em: {pasta_saida}")
+    print(f"{Fore.CYAN}Relatório: {ARQUIVO_INFO}")
+    print("=" * 80)
+
+
+if __name__ == "__main__":
+    try:
+        executar_pipeline_lote()
+    except KeyboardInterrupt:
+        print(f"\n{Fore.YELLOW}[AVISO] Interrompido pelo operador (Ctrl+C).")
+        sys.exit(0)

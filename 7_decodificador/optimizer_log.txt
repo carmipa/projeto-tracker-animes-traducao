@@ -14,3 +14,73 @@
 [2026-06-01 18:48:10] ============================================================
 [2026-06-01 18:48:10] [ANALISE] [Anime Land] Macross Delta Movie 2 Zettai Live!!! (BDRip 1080p Hi10P DTS-HD) [9A38E078]_PTBR.mkv | h264 | yuv420p10le | 12.52 Mbps
 [2026-06-01 18:48:10]   -> Comprimindo (H.264 Hi10P (yuv420p10le))...
+[2026-06-01 19:11:59] ============================================================
+[2026-06-01 19:11:59] INICIO DO PROCESSAMENTO
+[2026-06-01 19:11:59] Origem  : E:\animes\MACROSS\Macross-Delta-br\filme2
+[2026-06-01 19:11:59] Saida   : D:\
+[2026-06-01 19:11:59] Arquivos: 1
+[2026-06-01 19:11:59] ============================================================
+[2026-06-01 19:12:25] [ANALISE] [Anime Land] Macross Delta Movie 2 Zettai Live!!! (BDRip 1080p Hi10P DTS-HD) [9A38E078]_PTBR.mkv | h264 | yuv420p10le | 12.52 Mbps
+[2026-06-01 19:12:25]   -> Comprimindo (H.264 Hi10P (yuv420p10le))...
+[2026-06-01 19:17:44]   -> OK: [Anime Land] Macross Delta Movie 2 Zettai Live!!! (BDRip 1080p Hi10P DTS-HD) [9A38E078]_PTBR.mkv
+[2026-06-01 19:17:44] ============================================================
+[2026-06-01 19:17:44] CONCLUIDO em 0:05:44.904462
+[2026-06-01 19:17:44] ============================================================
+[2026-06-01 19:38:30] ============================================================
+[2026-06-01 19:38:30] INICIO DO PROCESSAMENTO
+[2026-06-01 19:38:30] Origem  : E:\animes\MACROSS\Macross-Delta-br\filme1
+[2026-06-01 19:38:30] Saida   : E:\animes\MACROSS\Macross-Delta-br\filme1\Nova pasta
+[2026-06-01 19:38:30] Arquivos: 1
+[2026-06-01 19:38:30] ============================================================
+[2026-06-01 19:38:30] [ANALISE] [YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8]_PTBR.mkv | h264 | yuv420p10le | 9.80 Mbps
+[2026-06-01 19:38:30]   -> Comprimindo (H.264 Hi10P (yuv420p10le))...
+[2026-06-01 19:43:39]   -> OK: [YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8]_PTBR.mkv
+[2026-06-01 19:43:39] ============================================================
+[2026-06-01 19:43:39] CONCLUIDO em 0:05:08.722292
+[2026-06-01 19:43:39] ============================================================
+[2026-06-01 19:53:28] ============================================================
+[2026-06-01 19:53:28] INICIO DO PROCESSAMENTO
+[2026-06-01 19:53:28] Origem  : E:\animes\MACROSS\Macross-Delta-br\filme1
+[2026-06-01 19:53:28] Saida   : E:\animes\MACROSS\Macross-Delta-br\filme1\Nova pasta
+[2026-06-01 19:53:28] Arquivos: 1
+[2026-06-01 19:53:28] ============================================================
+[2026-06-01 19:53:28] [ANALISE] [YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8]_PTBR.mkv | hevc | yuv420p | 6.40 Mbps
+[2026-06-01 19:53:28]   -> Pulando (bitrate seguro e codec compativel)
+[2026-06-01 19:53:28] ============================================================
+[2026-06-01 19:53:28] CONCLUIDO em 0:00:00.131199
+[2026-06-01 19:53:28] ============================================================
+[2026-06-01 19:54:22] ============================================================
+[2026-06-01 19:54:22] INICIO DO PROCESSAMENTO
+[2026-06-01 19:54:22] Origem  : E:\animes\MACROSS\Macross-Delta-br\filme1
+[2026-06-01 19:54:22] Saida   : E:\animes\MACROSS\Macross-Delta-br\filme1\Nova pasta
+[2026-06-01 19:54:22] Arquivos: 1
+[2026-06-01 19:54:22] ============================================================
+[2026-06-01 19:54:22] [ANALISE] [YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8]_PTBR.mkv | hevc | yuv420p | 6.40 Mbps
+[2026-06-01 19:54:22]   -> Pulando (bitrate seguro e codec compativel)
+[2026-06-01 19:54:22] ============================================================
+[2026-06-01 19:54:22] CONCLUIDO em 0:00:00.068502
+[2026-06-01 19:54:22] ============================================================
+[2026-06-01 19:57:26] ============================================================
+[2026-06-01 19:57:26] INICIO DO PROCESSAMENTO
+[2026-06-01 19:57:26] Origem  : E:\animes\MACROSS\Macross-Delta-br\filme1
+[2026-06-01 19:57:26] Saida   : E:\animes\MACROSS\Macross-Delta-br\filme1\Nova pasta
+[2026-06-01 19:57:26] Arquivos: 1
+[2026-06-01 19:57:26] ============================================================
+[2026-06-01 19:57:26] [ANALISE] [YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8]_PTBR.mkv | hevc | yuv420p | 6.40 Mbps
+[2026-06-01 19:57:26]   -> Comprimindo (Bitrate otimizavel (6.4 Mbps))...
+[2026-06-01 20:02:34]   -> OK: [YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8]_PTBR.mkv
+[2026-06-01 20:02:34] ============================================================
+[2026-06-01 20:02:34] CONCLUIDO em 0:05:08.827351
+[2026-06-01 20:02:34] ============================================================
+[2026-06-01 20:22:21] ============================================================
+[2026-06-01 20:22:21] INICIO DO PROCESSAMENTO
+[2026-06-01 20:22:21] Origem  : E:\animes\MACROSS\Macross-Delta-br\filme2
+[2026-06-01 20:22:21] Saida   : E:\animes\MACROSS\Macross-Delta-br\filme2\Nova pasta
+[2026-06-01 20:22:21] Arquivos: 1
+[2026-06-01 20:22:21] ============================================================
+[2026-06-01 20:22:21] [ANALISE] [Anime Land] Macross Delta Movie 2 Zettai Live!!! (BDRip 1080p Hi10P DTS-HD) [9A38E078]_PTBR.mkv | hevc | yuv420p | 7.93 Mbps
+[2026-06-01 20:22:21]   -> Comprimindo (Bitrate otimizavel (7.9 Mbps))...
+[2026-06-01 20:27:38]   -> OK: [Anime Land] Macross Delta Movie 2 Zettai Live!!! (BDRip 1080p Hi10P DTS-HD) [9A38E078]_PTBR.mkv
+[2026-06-01 20:27:38] ============================================================
+[2026-06-01 20:27:38] CONCLUIDO em 0:05:17.314628
+[2026-06-01 20:27:38] ============================================================

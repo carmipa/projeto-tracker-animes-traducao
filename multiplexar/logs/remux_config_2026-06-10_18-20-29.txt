@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-06-10 18:20:29
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : D:\PROJETOS-OPEN\animes\Guilty Crown\filme_original
+Diretório de Legendas Subs : D:\PROJETOS-OPEN\animes\Guilty Crown\legendas_ptbr_v2
+Diretório de Destino Final : D:\PROJETOS-OPEN\animes\Guilty Crown\filme_original\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

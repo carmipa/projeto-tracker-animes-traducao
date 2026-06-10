@@ -53,28 +53,31 @@ def analisar_video(caminho):
 
 
 def _precisa_comprimir(bitrate, codec, pix_fmt, profile):
-    """Retorna (bool, motivo_str)."""
-    if bitrate > 30:
-        return True, f"bitrate alto ({bitrate:.1f} Mbps)"
+    """Lógica atualizada: Compressão forçada se bitrate > 3 Mbps."""
+    # Se for Hi10P (incompatível), comprime sempre
     if codec == "h264" and ("10" in pix_fmt or "High 10" in profile):
-        return True, f"H.264 Hi10P ({pix_fmt})"
-    return False, "bitrate seguro e codec compativel"
+        return True, "H.264 Hi10P (Incompativel)"
+    
+    # MODO AGRESSIVO: Se bitrate > 3 Mbps, força compressão para economizar espaço
+    if bitrate > 3.0:
+        return True, f"Bitrate otimizavel ({bitrate:.1f} Mbps)"
+        
+    return False, "Bitrate eficiente"
 
 
 def comprimir_video(entrada, saida):
-    """Compressão otimizada via hardware NVIDIA (NVENC)."""
-    cmd = [
+    comando = [
         "ffmpeg", "-i", entrada,
         "-c:v", "hevc_nvenc",
         "-preset", "p4",
-        "-rc", "vbr",
-        "-cq", "23",
-        "-pix_fmt", "yuv420p",
-        "-c:a", "copy",
-        "-c:s", "copy",
+        "-b:v", "2500k",      # Target de 2.5 Mbps
+        "-maxrate", "3000k",
+        "-c:a", "aac",         # CONVERSÃO PARA AAC (Libera ~3GB de espaço)
+        "-b:a", "128k",        # Qualidade excelente para animes
+        "-c:s", "copy",        # Legendas intactas
         "-y", saida
     ]
-    res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    res = subprocess.run(comando, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return res.returncode == 0
 
 

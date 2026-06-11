@@ -1,0 +1,6066 @@
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2 Recaps_-_SP01_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.41 GiB (422 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.41 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  2493 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2285 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 165 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: neoHEVC
+    Duracao Legenda: 00:23:31.500 (via Metadados)
+    Diferenca Fim: +9.587s (Video - Legenda)
+    Taxa de Drift: 24.286 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9586 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - neoHEVC
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2 Recaps_-_SP02_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.53 GiB (544 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.53 GiB
+
+Duracao Total
+  23 min 36 s
+
+Bitrate Geral
+  3222 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 3006 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 173 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: neoHEVC
+    Duracao Legenda: 00:23:19.300 (via Metadados)
+    Diferenca Fim: +16.782s (Video - Legenda)
+    Taxa de Drift: 42.664 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 16782 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - neoHEVC
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED01_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (25 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 32 s
+
+Bitrate Geral
+  2316 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1981 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 300 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:16.580 (via Metadados)
+    Diferenca Fim: +15.429s (Video - Legenda)
+    Taxa de Drift: 603.684 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 15429 ms)
+
+  Legenda 2 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala alt
+    Duracao Legenda: 00:01:13.910 (via Metadados)
+    Diferenca Fim: +18.099s (Video - Legenda)
+    Taxa de Drift: 708.152 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 18099 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 2
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+      [2] Idioma: en | Tipo: ASS | Formato: ASS - koala alt
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED02_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (24 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 32 s
+
+Bitrate Geral
+  2233 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1908 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 299 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:13.830 (via Metadados)
+    Diferenca Fim: +18.179s (Video - Legenda)
+    Taxa de Drift: 711.283 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 18179 ms)
+
+  Legenda 2 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala alt
+    Duracao Legenda: 00:01:13.950 (via Metadados)
+    Diferenca Fim: +18.059s (Video - Legenda)
+    Taxa de Drift: 706.587 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 18058 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 2
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+      [2] Idioma: en | Tipo: ASS | Formato: ASS - koala alt
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED03_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (17 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 32 s
+
+Bitrate Geral
+  1576 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1258 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 299 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:13.830 (via Metadados)
+    Diferenca Fim: +18.179s (Video - Legenda)
+    Taxa de Drift: 711.283 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 18179 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED04_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (20 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  1823 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1505 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 300 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:13.830 (via Metadados)
+    Diferenca Fim: +18.137s (Video - Legenda)
+    Taxa de Drift: 709.963 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 18137 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED05_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (19 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 41 s
+
+Bitrate Geral
+  1542 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1227 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 288 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:29.130 (via Metadados)
+    Diferenca Fim: +12.639s (Video - Legenda)
+    Taxa de Drift: 447.095 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 12639 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED06_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (24 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 43 s
+
+Bitrate Geral
+  1963 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1637 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 302 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:34.350 (via Metadados)
+    Diferenca Fim: +9.129s (Video - Legenda)
+    Taxa de Drift: 317.595 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9129 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED07_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.04 GiB (36 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.04 GiB
+
+Duracao Total
+  1 min 32 s
+
+Bitrate Geral
+  3311 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2994 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 300 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:13.830 (via Metadados)
+    Diferenca Fim: +18.179s (Video - Legenda)
+    Taxa de Drift: 711.283 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 18179 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED08_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.03 GiB (33 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.03 GiB
+
+Duracao Total
+  2 min 42 s
+
+Bitrate Geral
+  1721 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1466 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 238 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:02:32.940 (via Metadados)
+    Diferenca Fim: +9.764s (Video - Legenda)
+    Taxa de Drift: 216.039 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9764 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED09_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (24 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 32 s
+
+Bitrate Geral
+  2160 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1842 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 299 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:13.830 (via Metadados)
+    Diferenca Fim: +18.179s (Video - Legenda)
+    Taxa de Drift: 711.283 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 18179 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED10_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (17 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 32 s
+
+Bitrate Geral
+  1513 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1208 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 278 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:17.910 (via Metadados)
+    Diferenca Fim: +14.349s (Video - Legenda)
+    Taxa de Drift: 559.906 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14349 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED11_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (25 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 38 s
+
+Bitrate Geral
+  2110 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1781 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 288 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:34.060 (via Metadados)
+    Diferenca Fim: +4.622s (Video - Legenda)
+    Taxa de Drift: 168.614 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4622 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED12_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.03 GiB (27 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.03 GiB
+
+Duracao Total
+  1 min 35 s
+
+Bitrate Geral
+  2388 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2012 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 271 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:28.840 (via Metadados)
+    Diferenca Fim: +6.839s (Video - Legenda)
+    Taxa de Drift: 257.323 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 6838 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCED13_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.07 GiB (76 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.07 GiB
+
+Duracao Total
+  4 min 13 s
+
+Bitrate Geral
+  2499 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2202 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 277 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:04:09.210 (via Metadados)
+    Diferenca Fim: +4.752s (Video - Legenda)
+    Taxa de Drift: 67.361 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4751 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_NCOP_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.05 GiB (51 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.05 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  4730 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 4287 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 288 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:22.460 (via Metadados)
+    Diferenca Fim: +8.631s (Video - Legenda)
+    Taxa de Drift: 341.105 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 8631 ms)
+
+  Legenda 2 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala alt
+    Duracao Legenda: 00:01:22.460 (via Metadados)
+    Diferenca Fim: +8.631s (Video - Legenda)
+    Taxa de Drift: 341.105 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 8631 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 2
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+      [2] Idioma: en | Tipo: ASS | Formato: ASS - koala alt
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.33 GiB (336 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.33 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  1982 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1635 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 165 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 144 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:14:33.956 (via Metadados)
+    Diferenca Fim: +547.131s (Video - Legenda)
+    Taxa de Drift: 1386.032 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 547131 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:32.452 (via Metadados)
+    Diferenca Fim: +8.635s (Video - Legenda)
+    Taxa de Drift: 21.875 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 8634 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:22:35.310 (via Metadados)
+    Diferenca Fim: +65.777s (Video - Legenda)
+    Taxa de Drift: 166.631 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 65777 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:32.030 (via Metadados)
+    Diferenca Fim: +9.057s (Video - Legenda)
+    Taxa de Drift: 22.944 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9057 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.29 GiB (299 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.29 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  1762 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1397 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 173 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 154 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:19:35.966 (via Metadados)
+    Diferenca Fim: +245.121s (Video - Legenda)
+    Taxa de Drift: 620.958 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 245121 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:08.410 (via Metadados)
+    Diferenca Fim: +92.677s (Video - Legenda)
+    Taxa de Drift: 234.776 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 92676 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:23:22.280 (via Metadados)
+    Diferenca Fim: +18.807s (Video - Legenda)
+    Taxa de Drift: 47.643 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 18807 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:32.490 (via Metadados)
+    Diferenca Fim: +8.597s (Video - Legenda)
+    Taxa de Drift: 21.779 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 8596 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.37 GiB (381 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.37 GiB
+
+Duracao Total
+  23 min 49 s
+
+Bitrate Geral
+  2236 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1873 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 175 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 153 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:11:41.576 (via Metadados)
+    Diferenca Fim: +727.519s (Video - Legenda)
+    Taxa de Drift: 1832.676 s/hora
+    Veredito de Sincronia: Legenda Parcial Muxed (Sem necessidade de alteracao de sync global)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:00.486 (via Metadados)
+    Diferenca Fim: +108.609s (Video - Legenda)
+    Taxa de Drift: 273.594 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 108608 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:23:22.280 (via Metadados)
+    Diferenca Fim: +26.815s (Video - Legenda)
+    Taxa de Drift: 67.549 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 26815 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:32.620 (via Metadados)
+    Diferenca Fim: +16.475s (Video - Legenda)
+    Taxa de Drift: 41.502 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 16475 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.27 GiB (277 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.27 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  1634 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1287 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 163 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 144 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:08:05.568 (via Metadados)
+    Diferenca Fim: +935.519s (Video - Legenda)
+    Taxa de Drift: 2369.924 s/hora
+    Veredito de Sincronia: Legenda Parcial Muxed (Sem necessidade de alteracao de sync global)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:38.375 (via Metadados)
+    Diferenca Fim: +2.712s (Video - Legenda)
+    Taxa de Drift: 6.870 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:23:27.930 (via Metadados)
+    Diferenca Fim: +13.157s (Video - Legenda)
+    Taxa de Drift: 33.330 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 13156 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:38.020 (via Metadados)
+    Diferenca Fim: +3.067s (Video - Legenda)
+    Taxa de Drift: 7.770 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.59 GiB (601 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.59 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  3545 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 3143 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 196 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 172 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:12:50.937 (via Metadados)
+    Diferenca Fim: +650.150s (Video - Legenda)
+    Taxa de Drift: 1647.007 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 650150 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:28.991 (via Metadados)
+    Diferenca Fim: +12.096s (Video - Legenda)
+    Taxa de Drift: 30.642 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 12096 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:21:57.280 (via Metadados)
+    Diferenca Fim: +103.807s (Video - Legenda)
+    Taxa de Drift: 262.971 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 103807 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:28.530 (via Metadados)
+    Diferenca Fim: +12.557s (Video - Legenda)
+    Taxa de Drift: 31.810 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 12557 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.33 GiB (333 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.33 GiB
+
+Duracao Total
+  23 min 49 s
+
+Bitrate Geral
+  1955 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1597 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 172 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 148 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:21:09.477 (via Metadados)
+    Diferenca Fim: +159.618s (Video - Legenda)
+    Taxa de Drift: 402.090 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 159617 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:21:12.980 (via Metadados)
+    Diferenca Fim: +156.115s (Video - Legenda)
+    Taxa de Drift: 393.266 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 156115 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:22:34.310 (via Metadados)
+    Diferenca Fim: +74.785s (Video - Legenda)
+    Taxa de Drift: 188.389 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 74785 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:22:37.390 (via Metadados)
+    Diferenca Fim: +71.705s (Video - Legenda)
+    Taxa de Drift: 180.630 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 71704 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.27 GiB (274 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.27 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  1618 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1236 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 183 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 159 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:17:52.280 (via Metadados)
+    Diferenca Fim: +348.807s (Video - Legenda)
+    Taxa de Drift: 883.623 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 348807 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:37.750 (via Metadados)
+    Diferenca Fim: +3.337s (Video - Legenda)
+    Taxa de Drift: 8.454 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:17:52.280 (via Metadados)
+    Diferenca Fim: +348.807s (Video - Legenda)
+    Taxa de Drift: 883.623 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 348807 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:37.120 (via Metadados)
+    Diferenca Fim: +3.967s (Video - Legenda)
+    Taxa de Drift: 10.049 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 3967 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.49 GiB (500 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.49 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  2950 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2548 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 173 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:01:21.831 (via Metadados)
+    Diferenca Fim: +1339.256s (Video - Legenda)
+    Taxa de Drift: 3392.700 s/hora
+    Veredito de Sincronia: Legenda Parcial Muxed (Sem necessidade de alteracao de sync global)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:31.326 (via Metadados)
+    Diferenca Fim: +9.761s (Video - Legenda)
+    Taxa de Drift: 24.727 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9760 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:21:28.250 (via Metadados)
+    Diferenca Fim: +132.837s (Video - Legenda)
+    Taxa de Drift: 336.512 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 132837 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:30.740 (via Metadados)
+    Diferenca Fim: +10.347s (Video - Legenda)
+    Taxa de Drift: 26.212 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10346 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.29 GiB (299 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.29 GiB
+
+Duracao Total
+  23 min 49 s
+
+Bitrate Geral
+  1755 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1401 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 169 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 144 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:22:33.060 (via Metadados)
+    Diferenca Fim: +76.035s (Video - Legenda)
+    Taxa de Drift: 191.538 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 76035 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:34.497 (via Metadados)
+    Diferenca Fim: +14.598s (Video - Legenda)
+    Taxa de Drift: 36.773 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 14597 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:22:33.100 (via Metadados)
+    Diferenca Fim: +75.995s (Video - Legenda)
+    Taxa de Drift: 191.437 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 75995 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:34.080 (via Metadados)
+    Diferenca Fim: +15.015s (Video - Legenda)
+    Taxa de Drift: 37.824 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 15015 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.62 GiB (633 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.62 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  3735 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 3330 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 200 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 176 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:00:07.757 (via Metadados)
+    Diferenca Fim: +1413.330s (Video - Legenda)
+    Taxa de Drift: 3580.349 s/hora
+    Veredito de Sincronia: Legenda Parcial Muxed (Sem necessidade de alteracao de sync global)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:37.707 (via Metadados)
+    Diferenca Fim: +3.380s (Video - Legenda)
+    Taxa de Drift: 8.562 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:23:27.410 (via Metadados)
+    Diferenca Fim: +13.677s (Video - Legenda)
+    Taxa de Drift: 34.648 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 13676 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:37.250 (via Metadados)
+    Diferenca Fim: +3.837s (Video - Legenda)
+    Taxa de Drift: 9.720 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 3836 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.48 GiB (493 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.48 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  2908 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2541 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 176 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 156 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:03:37.593 (via Metadados)
+    Diferenca Fim: +1203.494s (Video - Legenda)
+    Taxa de Drift: 3048.778 s/hora
+    Veredito de Sincronia: Legenda Parcial Muxed (Sem necessidade de alteracao de sync global)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:22:08.202 (via Metadados)
+    Diferenca Fim: +92.885s (Video - Legenda)
+    Taxa de Drift: 235.303 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 92884 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:10:22.460 (via Metadados)
+    Diferenca Fim: +798.627s (Video - Legenda)
+    Taxa de Drift: 2023.139 s/hora
+    Veredito de Sincronia: Legenda Parcial Muxed (Sem necessidade de alteracao de sync global)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:32.410 (via Metadados)
+    Diferenca Fim: +8.677s (Video - Legenda)
+    Taxa de Drift: 21.981 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 8676 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.34 GiB (348 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+11 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.34 GiB
+
+Duracao Total
+  23 min 49 s
+
+Bitrate Geral
+  2041 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1688 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 173 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 152 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:18:27.482 (via Metadados)
+    Diferenca Fim: +321.613s (Video - Legenda)
+    Taxa de Drift: 810.168 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 321613 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:26.155 (via Metadados)
+    Diferenca Fim: +22.940s (Video - Legenda)
+    Taxa de Drift: 57.788 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 22940 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:18:27.570 (via Metadados)
+    Diferenca Fim: +321.525s (Video - Legenda)
+    Taxa de Drift: 809.946 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 321525 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:25.570 (via Metadados)
+    Diferenca Fim: +23.525s (Video - Legenda)
+    Taxa de Drift: 59.261 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 23525 ms)
+
+  Legenda 5 (Track ID: 8)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala with insert song)
+    Duracao Legenda: 00:23:32.580 (via Metadados)
+    Diferenca Fim: +16.515s (Video - Legenda)
+    Taxa de Drift: 41.603 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 16515 ms)
+
+  Legenda 6 (Track ID: 9)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala with insert song)
+    Duracao Legenda: 00:23:32.580 (via Metadados)
+    Diferenca Fim: +16.515s (Video - Legenda)
+    Taxa de Drift: 41.603 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 16515 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 11
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 6
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+      [5] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala with insert song)
+      [6] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala with insert song)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86 Special Edition Senya ni Akaku Hinageshi no Saku_-_SP_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (477 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  2818 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2638 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 167 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: neoHEVC
+    Duracao Legenda: 00:23:39.250 (via Metadados)
+    Diferenca Fim: +1.837s (Video - Legenda)
+    Taxa de Drift: 4.654 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - neoHEVC
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED01_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.03 GiB (27 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.03 GiB
+
+Duracao Total
+  1 min 32 s
+
+Bitrate Geral
+  2463 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2127 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 308 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:14.540 (via Metadados)
+    Diferenca Fim: +17.511s (Video - Legenda)
+    Taxa de Drift: 684.833 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 17510 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED02_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.03 GiB (35 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.03 GiB
+
+Duracao Total
+  1 min 40 s
+
+Bitrate Geral
+  2930 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2578 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 318 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:35.760 (via Metadados)
+    Diferenca Fim: +5.049s (Video - Legenda)
+    Taxa de Drift: 180.305 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 5048 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED03_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.01 GiB (14 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.01 GiB
+
+Duracao Total
+  1 min 53 s
+
+Bitrate Geral
+  1027 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 674 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 315 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:47.190 (via Metadados)
+    Diferenca Fim: +6.048s (Video - Legenda)
+    Taxa de Drift: 192.275 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 6048 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED04_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (20 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 57 s
+
+Bitrate Geral
+  1414 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1113 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 271 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:50.150 (via Metadados)
+    Diferenca Fim: +7.218s (Video - Legenda)
+    Taxa de Drift: 221.396 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 7217 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED05_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (16 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 34 s
+
+Bitrate Geral
+  1413 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1052 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 317 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:29.170 (via Metadados)
+    Diferenca Fim: +5.133s (Video - Legenda)
+    Taxa de Drift: 195.951 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 5132 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED06_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (25 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  2242 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1908 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 305 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:14.530 (via Metadados)
+    Diferenca Fim: +17.437s (Video - Legenda)
+    Taxa de Drift: 682.562 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 17436 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED07_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (17 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 29 s
+
+Bitrate Geral
+  1580 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1208 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 334 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:18.040 (via Metadados)
+    Diferenca Fim: +10.966s (Video - Legenda)
+    Taxa de Drift: 443.539 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10965 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED08_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.06 GiB (61 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.06 GiB
+
+Duracao Total
+  3 min 26 s
+
+Bitrate Geral
+  2479 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2181 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 288 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:13.530 (via Metadados)
+    Diferenca Fim: +133.135s (Video - Legenda)
+    Taxa de Drift: 2319.145 s/hora
+    Veredito de Sincronia: Legenda Parcial Muxed (Sem necessidade de alteracao de sync global)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED09_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.02 GiB (20 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.02 GiB
+
+Duracao Total
+  1 min 33 s
+
+Bitrate Geral
+  1744 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1423 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 288 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:24.210 (via Metadados)
+    Diferenca Fim: +9.676s (Video - Legenda)
+    Taxa de Drift: 371.020 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9676 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCED10_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.05 GiB (49 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.05 GiB
+
+Duracao Total
+  4 min 11 s
+
+Bitrate Geral
+  1626 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1280 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 319 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:04:06.420 (via Metadados)
+    Diferenca Fim: +5.373s (Video - Legenda)
+    Taxa de Drift: 76.820 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 5373 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCOP01_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.09 GiB (97 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.09 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  8890 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8526 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 329 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:07.190 (via Metadados)
+    Diferenca Fim: +23.901s (Video - Legenda)
+    Taxa de Drift: 944.589 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 23900 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCOP02_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.09 GiB (96 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.09 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  8872 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8509 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 329 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:07.190 (via Metadados)
+    Diferenca Fim: +23.901s (Video - Legenda)
+    Taxa de Drift: 944.589 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 23900 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCOP03_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.09 GiB (97 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.09 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  8913 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8549 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 329 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:07.190 (via Metadados)
+    Diferenca Fim: +23.901s (Video - Legenda)
+    Taxa de Drift: 944.589 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 23900 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCOP04_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.09 GiB (97 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.09 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  8897 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8533 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 329 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:07.190 (via Metadados)
+    Diferenca Fim: +23.901s (Video - Legenda)
+    Taxa de Drift: 944.589 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 23900 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCOP05_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.09 GiB (97 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.09 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  8924 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8560 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 329 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:07.190 (via Metadados)
+    Diferenca Fim: +23.901s (Video - Legenda)
+    Taxa de Drift: 944.589 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 23900 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCOP06_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.09 GiB (97 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.09 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  8898 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8534 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 329 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:07.190 (via Metadados)
+    Diferenca Fim: +23.901s (Video - Legenda)
+    Taxa de Drift: 944.589 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 23900 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_NCOP07_(10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.09 GiB (97 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+4 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.09 GiB
+
+Duracao Total
+  1 min 31 s
+
+Bitrate Geral
+  8903 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8539 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 329 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: koala
+    Duracao Legenda: 00:01:07.190 (via Metadados)
+    Diferenca Fim: +23.901s (Video - Legenda)
+    Taxa de Drift: 944.589 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 23900 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 4
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - koala
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_01_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.44 GiB (447 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.44 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  2641 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2285 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 171 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 151 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:16:48.716 (via Metadados)
+    Diferenca Fim: +412.371s (Video - Legenda)
+    Taxa de Drift: 1044.648 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 412371 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:31.952 (via Metadados)
+    Diferenca Fim: +9.135s (Video - Legenda)
+    Taxa de Drift: 23.141 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9134 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:21:38.300 (via Metadados)
+    Diferenca Fim: +122.787s (Video - Legenda)
+    Taxa de Drift: 311.053 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 122787 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:31.530 (via Metadados)
+    Diferenca Fim: +9.557s (Video - Legenda)
+    Taxa de Drift: 24.210 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9557 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_02_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.46 GiB (470 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.46 GiB
+
+Duracao Total
+  23 min 49 s
+
+Bitrate Geral
+  2760 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2373 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 166 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:19:25.873 (via Metadados)
+    Diferenca Fim: +263.222s (Video - Legenda)
+    Taxa de Drift: 663.076 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 263222 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:37.708 (via Metadados)
+    Diferenca Fim: +11.387s (Video - Legenda)
+    Taxa de Drift: 28.685 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 11386 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:19:25.880 (via Metadados)
+    Diferenca Fim: +263.215s (Video - Legenda)
+    Taxa de Drift: 663.059 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 263214 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:37.200 (via Metadados)
+    Diferenca Fim: +11.895s (Video - Legenda)
+    Taxa de Drift: 29.964 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 11894 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_03_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.40 GiB (412 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.40 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  2434 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2080 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 166 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 149 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:16:20.480 (via Metadados)
+    Diferenca Fim: +440.607s (Video - Legenda)
+    Taxa de Drift: 1116.177 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 440607 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:32.869 (via Metadados)
+    Diferenca Fim: +8.218s (Video - Legenda)
+    Taxa de Drift: 20.818 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 8218 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:21:03.470 (via Metadados)
+    Diferenca Fim: +157.617s (Video - Legenda)
+    Taxa de Drift: 399.287 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 157616 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:32.500 (via Metadados)
+    Diferenca Fim: +8.587s (Video - Legenda)
+    Taxa de Drift: 21.753 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 8586 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_04_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.34 GiB (344 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.34 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  2030 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1662 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 176 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 156 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:13:23.344 (via Metadados)
+    Diferenca Fim: +617.743s (Video - Legenda)
+    Taxa de Drift: 1564.911 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 617742 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:36.999 (via Metadados)
+    Diferenca Fim: +4.088s (Video - Legenda)
+    Taxa de Drift: 10.356 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4087 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:19:06.190 (via Metadados)
+    Diferenca Fim: +274.897s (Video - Legenda)
+    Taxa de Drift: 696.389 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 274896 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:36.250 (via Metadados)
+    Diferenca Fim: +4.837s (Video - Legenda)
+    Taxa de Drift: 12.253 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4836 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_05_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.41 GiB (416 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.41 GiB
+
+Duracao Total
+  23 min 49 s
+
+Bitrate Geral
+  2440 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2081 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 174 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 154 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:13:32.770 (via Metadados)
+    Diferenca Fim: +616.325s (Video - Legenda)
+    Taxa de Drift: 1552.570 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 616325 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:37.458 (via Metadados)
+    Diferenca Fim: +11.637s (Video - Legenda)
+    Taxa de Drift: 29.314 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 11636 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:23:07.330 (via Metadados)
+    Diferenca Fim: +41.765s (Video - Legenda)
+    Taxa de Drift: 105.209 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 41765 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:36.870 (via Metadados)
+    Diferenca Fim: +12.225s (Video - Legenda)
+    Taxa de Drift: 30.796 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 12225 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_06_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.42 GiB (428 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.42 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  2529 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2163 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 176 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 154 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:17:25.169 (via Metadados)
+    Diferenca Fim: +375.918s (Video - Legenda)
+    Taxa de Drift: 952.303 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 375917 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:38.959 (via Metadados)
+    Diferenca Fim: +2.128s (Video - Legenda)
+    Taxa de Drift: 5.391 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:23:31.850 (via Metadados)
+    Diferenca Fim: +9.237s (Video - Legenda)
+    Taxa de Drift: 23.400 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 9237 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:38.480 (via Metadados)
+    Diferenca Fim: +2.607s (Video - Legenda)
+    Taxa de Drift: 6.604 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_07_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.41 GiB (422 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.41 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  2490 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2129 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 172 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 155 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:23:13.351 (via Metadados)
+    Diferenca Fim: +27.736s (Video - Legenda)
+    Taxa de Drift: 70.263 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 27735 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:36.541 (via Metadados)
+    Diferenca Fim: +4.546s (Video - Legenda)
+    Taxa de Drift: 11.516 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4546 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:23:13.350 (via Metadados)
+    Diferenca Fim: +27.737s (Video - Legenda)
+    Taxa de Drift: 70.265 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 27737 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:36.130 (via Metadados)
+    Diferenca Fim: +4.957s (Video - Legenda)
+    Taxa de Drift: 12.557 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 4956 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_08_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.37 GiB (382 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.37 GiB
+
+Duracao Total
+  23 min 49 s
+
+Bitrate Geral
+  2241 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 1863 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 183 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 161 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:17:54.323 (via Metadados)
+    Diferenca Fim: +354.772s (Video - Legenda)
+    Taxa de Drift: 893.698 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 354771 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:37.666 (via Metadados)
+    Diferenca Fim: +11.429s (Video - Legenda)
+    Taxa de Drift: 28.791 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 11429 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:21:30.880 (via Metadados)
+    Diferenca Fim: +138.215s (Video - Legenda)
+    Taxa de Drift: 348.174 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 138214 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:37.330 (via Metadados)
+    Diferenca Fim: +11.765s (Video - Legenda)
+    Taxa de Drift: 29.637 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 11765 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_09_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.56 GiB (574 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+9 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.56 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  3388 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2984 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 200 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 177 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:12:56.525 (via Metadados)
+    Diferenca Fim: +644.562s (Video - Legenda)
+    Taxa de Drift: 1632.851 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 644562 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:38.000 (via Metadados)
+    Diferenca Fim: +3.087s (Video - Legenda)
+    Taxa de Drift: 7.820 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:12:56.530 (via Metadados)
+    Diferenca Fim: +644.557s (Video - Legenda)
+    Taxa de Drift: 1632.838 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 644557 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:37.500 (via Metadados)
+    Diferenca Fim: +3.587s (Video - Legenda)
+    Taxa de Drift: 9.087 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 3586 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 9
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 4
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_10_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.54 GiB (555 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+11 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.54 GiB
+
+Duracao Total
+  23 min 41 s
+
+Bitrate Geral
+  3276 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2880 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 168 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:19:43.307 (via Metadados)
+    Diferenca Fim: +237.780s (Video - Legenda)
+    Taxa de Drift: 602.361 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 237779 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:19:53.692 (via Metadados)
+    Diferenca Fim: +227.395s (Video - Legenda)
+    Taxa de Drift: 576.053 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 227394 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:21:12.440 (via Metadados)
+    Diferenca Fim: +148.647s (Video - Legenda)
+    Taxa de Drift: 376.563 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 148646 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:21:22.490 (via Metadados)
+    Diferenca Fim: +138.597s (Video - Legenda)
+    Taxa de Drift: 351.104 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 138596 ms)
+
+  Legenda 5 (Track ID: 8)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala with insert song)
+    Duracao Legenda: 00:21:12.440 (via Metadados)
+    Diferenca Fim: +148.647s (Video - Legenda)
+    Taxa de Drift: 376.563 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 148646 ms)
+
+  Legenda 6 (Track ID: 9)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Sub(koala with insert song)
+    Duracao Legenda: 00:21:22.490 (via Metadados)
+    Diferenca Fim: +138.597s (Video - Legenda)
+    Taxa de Drift: 351.104 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 138596 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 11
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 6
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+      [5] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala with insert song)
+      [6] Idioma: en | Tipo: ASS | Formato: ASS - Full Sub(koala with insert song)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: [DB]86_-_11_(Dual Audio_10bit_BD1080p_x265).mkv
+================================================================================
+
+Validacao OK
+Tamanho: 0.47 GiB (483 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+10 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  0.47 GiB
+
+Duracao Total
+  23 min 44 s
+
+Bitrate Geral
+  2847 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2454 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: en
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Stereo
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: ja
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 169 kbps
+    Titulo: Stereo
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Signs and Songs(Official Subs)
+    Duracao Legenda: 00:14:15.688 (via Metadados)
+    Diferenca Fim: +568.402s (Video - Legenda)
+    Taxa de Drift: 1436.881 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 568401 ms)
+
+  Legenda 2 (Track ID: 5)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: Full Subs (Official Subs)
+    Duracao Legenda: 00:23:12.767 (via Metadados)
+    Diferenca Fim: +31.323s (Video - Legenda)
+    Taxa de Drift: 79.182 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 31322 ms)
+
+  Legenda 3 (Track ID: 6)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Signs and Songs(koala)
+    Duracao Legenda: 00:14:15.690 (via Metadados)
+    Diferenca Fim: +568.400s (Video - Legenda)
+    Taxa de Drift: 1436.875 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 568399 ms)
+
+  Legenda 4 (Track ID: 7)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala)
+    Duracao Legenda: 00:23:12.180 (via Metadados)
+    Diferenca Fim: +31.910s (Video - Legenda)
+    Taxa de Drift: 80.666 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 31909 ms)
+
+  Legenda 5 (Track ID: 8)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Full Subs(koala with insert song)
+    Duracao Legenda: 00:23:27.150 (via Metadados)
+    Diferenca Fim: +16.940s (Video - Legenda)
+    Taxa de Drift: 42.823 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 16939 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 10
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 5
+      [1] Idioma: en | Tipo: PGS | Formato: PGS - Signs and Songs(Official Subs)
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - Full Subs (Official Subs)
+      [3] Idioma: en | Tipo: ASS | Formato: ASS - Signs and Songs(koala)
+      [4] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala)
+      [5] Idioma: en | Tipo: ASS | Formato: ASS - Full Subs(koala with insert song)
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================

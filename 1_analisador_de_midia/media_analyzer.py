@@ -75,6 +75,38 @@ def format_seconds(seconds):
     return f"{h:02d}:{m:02d}:{s:06.3f}"
 
 
+def classificar_legenda(codec_id, formato):
+    """
+    Classifica uma faixa de legenda a partir do codec_id/formato reportado pelo MediaInfo.
+    Retorna (descricao_completa, sigla_curta, cor) onde a sigla curta (SRT, ASS, SSA,
+    PGS, VOBSUB, DVB, WEBVTT, MOV_TEXT, HARDSUB) eh usada no resumo final para
+    identificacao rapida do tipo/formato de cada legenda.
+    """
+    codec_upper = (codec_id or '').upper()
+    formato_upper = (formato or '').upper()
+
+    if 'ASS' in codec_upper or formato_upper == 'ASS':
+        return 'ASS (Estilizada com cores e posicionamento)', 'ASS', Fore.YELLOW
+    if 'SSA' in codec_upper or formato_upper == 'SSA':
+        return 'SSA (Estilizada - SubStation Alpha)', 'SSA', Fore.YELLOW
+    if 'PGS' in codec_upper or 'HDMV' in codec_upper or 'PGS' in formato_upper:
+        return 'PGS (Bitmap/Hardsub - Nao extraivel para texto)', 'PGS', Fore.RED
+    if 'VOBSUB' in codec_upper or 'VOBSUB' in formato_upper:
+        return 'VobSub (Bitmap DVD - Nao extraivel para texto)', 'VOBSUB', Fore.RED
+    if 'DVBSUB' in codec_upper or 'DVB' in formato_upper:
+        return 'DVB Subtitle (Bitmap - Nao extraivel para texto)', 'DVB', Fore.RED
+    if 'WEBVTT' in codec_upper or 'VTT' in codec_upper or 'WEBVTT' in formato_upper:
+        return 'WebVTT (Texto simples com timing web)', 'WEBVTT', Fore.GREEN
+    if 'UTF8' in codec_upper or 'SUBRIP' in codec_upper or 'SRT' in formato_upper or formato_upper == 'UTF-8':
+        return 'SRT/SubRip (Simples - Recomendado para traducao)', 'SRT', Fore.GREEN
+    if 'TX3G' in codec_upper or 'MOV_TEXT' in codec_upper or 'TIMED TEXT' in formato_upper:
+        return 'MOV_TEXT/TX3G (Legenda de texto MP4)', 'MOV_TEXT', Fore.GREEN
+    if codec_upper == 'IN_SCREEN':
+        return 'Hardsub (Queimada na tela - Nao extraivel)', 'HARDSUB', Fore.RED
+
+    return 'Desconhecido', 'DESCONHECIDO', Fore.WHITE
+
+
 def obter_timestamps_legenda_via_pacotes(caminho_video, index_relativo):
     """
     Executa ffprobe nos pacotes do fluxo de legenda especificado para determinar
@@ -276,6 +308,7 @@ def analisar_arquivo_midia(caminho_arquivo, relatorio_txt=None):
     faixas_video = []
     faixas_audio = []
     faixas_legendas = []
+    info_legendas = []
     
     try:
         with tqdm(total=total_tracks, desc="Analise", bar_format='{l_bar}{bar}| {n_fmt}/{total_fmt}', ncols=80) as pbar:
@@ -515,34 +548,29 @@ def analisar_arquivo_midia(caminho_arquivo, relatorio_txt=None):
                 print(f"    {Fore.CYAN}Formato:{Style.RESET_ALL} {Fore.WHITE}{formato}{Style.RESET_ALL}")
                 
                 codec_id = track.codec_id if track.codec_id else 'N/A'
-                
-                if codec_id == 'S_TEXT/ASS' or codec_id == 'S_TEXT/SSA':
-                    tipo = 'ASS/SSA (Estilizada com cores e posicionamento)'
-                    cor_tipo = Fore.YELLOW
-                elif codec_id == 'S_TEXT/UTF8' or codec_id == 'S_TEXT/SUBRIP' or 'SRT' in formato.upper():
-                    tipo = 'SRT/SubRip (Simples - Recomendado para traducao)'
-                    cor_tipo = Fore.GREEN
-                elif codec_id and 'PGS' in codec_id.upper():
-                    tipo = 'PGS (Bitmap - Hardsub - Nao extraivel)'
-                    cor_tipo = Fore.RED
-                elif codec_id == 'In_Screen':
-                    tipo = 'Hardsub (Queimada na tela - Nao extraivel)'
-                    cor_tipo = Fore.RED
-                else:
-                    tipo = 'Desconhecido'
-                    cor_tipo = Fore.WHITE
-                
+
+                tipo, tipo_curto, cor_tipo = classificar_legenda(codec_id, formato)
+
                 adicionar_linha(f"    Tipo: {tipo}")
                 print(f"    {Fore.CYAN}Tipo:{Style.RESET_ALL} {cor_tipo}{tipo}{Style.RESET_ALL}")
                 adicionar_linha(f"    Codec ID: {codec_id}")
                 print(f"    {Fore.CYAN}Codec ID:{Style.RESET_ALL} {Fore.WHITE}{codec_id}{Style.RESET_ALL}")
-                
+
                 if track.title:
                     adicionar_linha(f"    Titulo: {track.title}")
                     print(f"    {Fore.CYAN}Titulo:{Style.RESET_ALL} {Fore.WHITE}{track.title}{Style.RESET_ALL}")
                 else:
                     adicionar_linha("    Titulo: (Sem titulo)")
                     print(f"    {Fore.CYAN}Titulo:{Style.RESET_ALL} (Sem titulo)")
+
+                info_legendas.append({
+                    'idx': idx,
+                    'idioma': idioma,
+                    'formato': formato,
+                    'tipo_curto': tipo_curto,
+                    'cor': cor_tipo,
+                    'titulo': track.title if track.title else None,
+                })
 
                 # Auditoria de Sincronia de Legenda
                 if duracao_video_s:
@@ -639,7 +667,15 @@ def analisar_arquivo_midia(caminho_arquivo, relatorio_txt=None):
     print(f"    {Fore.LIGHTGREEN_EX}Audio(s):{Style.RESET_ALL} {Fore.WHITE}{len(faixas_audio)}{Style.RESET_ALL}")
     adicionar_linha(f"    Legenda(s): {len(faixas_legendas)}")
     print(f"    {Fore.LIGHTYELLOW_EX}Legenda(s):{Style.RESET_ALL} {Fore.WHITE}{len(faixas_legendas)}{Style.RESET_ALL}")
-    
+
+    for info in info_legendas:
+        titulo_str = f" - {info['titulo']}" if info['titulo'] else ""
+        linha = f"      [{info['idx']}] Idioma: {info['idioma']} | Tipo: {info['tipo_curto']} | Formato: {info['formato']}{titulo_str}"
+        adicionar_linha(linha)
+        print(f"      [{info['idx']}] {Fore.CYAN}Idioma:{Style.RESET_ALL} {Fore.WHITE}{info['idioma']}{Style.RESET_ALL} | "
+              f"{Fore.CYAN}Tipo:{Style.RESET_ALL} {info['cor']}{info['tipo_curto']}{Style.RESET_ALL} | "
+              f"{Fore.CYAN}Formato:{Style.RESET_ALL} {Fore.WHITE}{info['formato']}{Style.RESET_ALL}{titulo_str}")
+
     print("\n" + "=" * 80)
     adicionar_linha("\n" + "=" * 80)
     adicionar_linha("Auditoria finalizada com sucesso!")
@@ -774,9 +810,6 @@ def main():
 
         if not sucesso and total_arquivos == 1:
             sys.exit(1)
-
-        if idx < total_arquivos:
-            input(f"{Fore.CYAN}Pressione Enter para analisar o proximo arquivo...{Style.RESET_ALL}")
 
     if total_arquivos > 1 and relatorio_consolidado:
         nome_pasta = os.path.basename(os.path.normpath(caminho_usuario))

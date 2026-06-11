@@ -23,28 +23,35 @@ projeto-tracker-animes-traducao/
 │   ├── solucao-de-problemas.md
 │   └── estrutura-repositorio.md
 │
-├── 1_analisador_de_midia/             # Fase 0
-│   └── media_analyzer.py
+├── 1_analisador_de_midia/             # Fase 0 — Análise e Auditoria de Mídia
+│   ├── media_analyzer.py
+│   └── extractor_inteligente/         # Módulo original de extração de legendas
 │
-├── 2_tradutor_ia_gemma4/              # Fase 1 — MKV + ASS
-│   ├── sub_extractor.py
-│   └── logs/
+├── 2_extrator_legenda/                # Fase 1 — Extração de Legendas (ASS, SRT, PGS)
+│   ├── extrator_inteligente_ass.py
+│   ├── extrator_inteligente_srt.py
+│   └── extrator_inteligente_pgs.py
 │
-├── 3_juntar_legendas_filmes/          # Fase 2 — remux (ambas esteiras)
-│   └── batch_remuxer.py
-│
-├── 5_tradutor_de_legenda/             # Fase 5 — SRT direto
-│   ├── tradutor_srt_direto.py
-│   └── logs/
-│
-├── 6-conversor_str_ass/               # Fase 6 — SRT → ASS + FPS
+├── 3-conversor_str_ass/               # Fase 6 — Conversor SRT → ASS + FPS
 │   └── conversor_srt_para_ass.py
 │
-├── multiplexar/logs/                  ← logs do remuxer
-└── relatorio/                         ← relatórios Fase 0
+├── 4_tradutor_ia_gemma4/              # Fase 1 / 5 — Tradução via LLM Local (Gemma)
+│   ├── sub_extractor.py
+│   ├── batch_translator_guilty_crown.py
+│   ├── cura_legendas_tag.py
+│   └── 5_tradutor_de_legenda/         # Tradução Direta de SRT Externo
+│       └── tradutor_srt_direto.py
+│
+├── 5_juntar_legendas_filmes/          # Fase 2 — Remux (MKVMerge)
+│   └── batch_remuxer.py
+│
+├── 6_sincronizacao_legenda/           # Fase Auxiliar — Sincronia de legendas
+│   └── subtitle_stretcher.py
+│
+└── 7_decodificador/                   # Decodificação e pós-processamento
 ```
 
-> As fases **3** e **4** não existem no repositório — numeração salta de 2 para 5 por evolução do projeto.
+> As pastas estão numeradas de **1 a 7** sequencialmente para fins de ordenação no explorador de arquivos do sistema.
 
 Layout de mídia do usuário: [Guia de execução](guia-de-execucao.md#layout-de-pastas).
 

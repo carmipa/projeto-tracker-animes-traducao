@@ -22,7 +22,7 @@ Esteira para **filmes** ou releases com legenda **SRT separada** do vídeo — s
 flowchart LR
     SRT["legenda/*.srt EN"] --> P5["5_tradutor_de_legenda<br/>tradutor_srt_direto.py"]
     P5 --> SRTPT["legenda/*_PTBR.srt"]
-    SRTPT --> P6["6-conversor_str_ass<br/>conversor_srt_para_ass.py"]
+    SRTPT --> P6["3-conversor_str_ass<br/>conversor_srt_para_ass.py"]
     P6 --> ASS["traducao/*_PTBR.ass"]
     MKV["filme.mkv"] --> P2["3_juntar_legendas_filmes<br/>batch_remuxer.py"]
     ASS --> P2
@@ -41,7 +41,7 @@ flowchart LR
 # Pré-requisito: LM Studio na porta 1234 (Fase 5)
 
 python .\5_tradutor_de_legenda\tradutor_srt_direto.py
-python .\6-conversor_str_ass\conversor_srt_para_ass.py
+python .\3-conversor_str_ass\conversor_srt_para_ass.py
 python .\3_juntar_legendas_filmes\batch_remuxer.py
 ```
 

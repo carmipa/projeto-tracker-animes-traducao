@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-06-11 12:56:36
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : D:\PROJETOS-OPEN\animes\reconquista\reconsquista-1
+Diretório de Legendas Subs : D:\PROJETOS-OPEN\animes\reconquista\reconsquista-1\ass_ptbr
+Diretório de Destino Final : D:\PROJETOS-OPEN\animes\reconquista\reconsquista-1\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

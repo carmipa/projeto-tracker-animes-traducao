@@ -34,7 +34,7 @@
 | Fase | Documento | Script |
 |:---:|:---|:---|
 | 5 | [Tradutor SRT direto](modulo-fase-5.md) | `5_tradutor_de_legenda/tradutor_srt_direto.py` |
-| 6 | [Conversor SRT→ASS](modulo-fase-6.md) | `6-conversor_str_ass/conversor_srt_para_ass.py` |
+| 6 | [Conversor SRT→ASS](modulo-fase-6.md) | `3-conversor_str_ass/conversor_srt_para_ass.py` |
 | 2 | [Remuxer](modulo-fase-2.md) | *(mesmo da esteira MKV)* |
 
 ---

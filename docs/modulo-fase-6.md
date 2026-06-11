@@ -1,10 +1,10 @@
 # 📐 Módulo — Fase 6 (Conversor SRT → ASS)
 
-[← Índice](README.md) · [`6-conversor_str_ass/conversor_srt_para_ass.py`](../6-conversor_str_ass/conversor_srt_para_ass.py)
+[← Índice](README.md) · [`3-conversor_str_ass/conversor_srt_para_ass.py`](../3-conversor_str_ass/conversor_srt_para_ass.py)
 
 Converte legendas **SRT traduzidas** (`*_PTBR.srt`) para o formato **ASS** estruturado, com **correção matemática de sincronismo** de frame rate.
 
-> A pasta no repositório chama-se `6-conversor_str_ass` (grafia do projeto). O script é `conversor_srt_para_ass.py`.
+> A pasta no repositório chama-se `3-conversor_str_ass` (grafia do projeto). O script é `conversor_srt_para_ass.py`.
 
 ---
 
@@ -76,7 +76,7 @@ flowchart TB
 ## Comando
 
 ```powershell
-python .\6-conversor_str_ass\conversor_srt_para_ass.py
+python .\3-conversor_str_ass\conversor_srt_para_ass.py
 ```
 
 | Prompt | Padrão no script (editável) |

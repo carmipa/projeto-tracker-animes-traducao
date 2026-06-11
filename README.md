@@ -46,7 +46,7 @@ Três esteiras de processamento que compartilham a **Fase 2 (remux)**:
 | Etapa | Pasta | Script |
 |:---:|:---|:---|
 | **5** | `5_tradutor_de_legenda/` | `tradutor_srt_direto.py` |
-| **6** | `6-conversor_str_ass/` | `conversor_srt_para_ass.py` |
+| **6** | `3-conversor_str_ass/` | `conversor_srt_para_ass.py` |
 | **2** | `3_juntar_legendas_filmes/` | `batch_remuxer.py` |
 
 ### Esteira PGS — legendas gráficas de Blu-ray (.sup)
@@ -55,7 +55,7 @@ Três esteiras de processamento que compartilham a **Fase 2 (remux)**:
 |:---:|:---|:---|
 | **A** | `extrator_legenda_PGS/` | `extrator_pgs.py` *(Extrai .sup de imagens PGS no .mkv)* |
 | **B** | `tradutor_legenda_sup/` | `tradutor_sup.py` *(OCR .sup -> .srt + Tradução IA)* |
-| **C** | `6-conversor_str_ass/` | `conversor_srt_para_ass.py` *(Opcional: converte para .ass)* |
+| **C** | `3-conversor_str_ass/` | `conversor_srt_para_ass.py` *(Opcional: converte para .ass)* |
 | **2** | `3_juntar_legendas_filmes/` | `batch_remuxer.py` *(Remuxa no .mkv final)* |
 
 | ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 | 👁️ OCR Automático |
@@ -85,7 +85,7 @@ python .\3_juntar_legendas_filmes\batch_remuxer.py
 
 ```powershell
 python .\5_tradutor_de_legenda\tradutor_srt_direto.py
-python .\6-conversor_str_ass\conversor_srt_para_ass.py
+python .\3-conversor_str_ass\conversor_srt_para_ass.py
 python .\3_juntar_legendas_filmes\batch_remuxer.py
 ```
 
@@ -99,7 +99,7 @@ python .\extrator_legenda_PGS\extrator_pgs.py
 python .\tradutor_legenda_sup\tradutor_sup.py
 
 # 3. (Opcional) Converte o SRT traduzido para ASS
-python .\6-conversor_str_ass\conversor_srt_para_ass.py
+python .\3-conversor_str_ass\conversor_srt_para_ass.py
 
 # 4. Multiplexa a legenda traduzida de volta para o vídeo
 python .\3_juntar_legendas_filmes\batch_remuxer.py

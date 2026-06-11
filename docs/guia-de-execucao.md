@@ -68,7 +68,7 @@ python .\5_tradutor_de_legenda\tradutor_srt_direto.py
 ### Fase 6 — Conversão SRT → ASS + sync FPS
 
 ```powershell
-python .\6-conversor_str_ass\conversor_srt_para_ass.py
+python .\3-conversor_str_ass\conversor_srt_para_ass.py
 ```
 
 | Prompt | Padrão no script |

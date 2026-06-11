@@ -21,12 +21,12 @@ flowchart LR
 
     MKV --> P0["1_analisador_de_midia"]
     P0 -.->|opcional| P1
-    MKV --> P1["2_tradutor_ia_gemma4"]
+    MKV --> P1["4_tradutor_ia_gemma4"]
 
     P0 --> R0["relatorio/*.txt"]
     P1 --> R1["traducao/*_PTBR.ass"]
 
-    MKV --> P2["3_juntar_legendas_filmes"]
+    MKV --> P2["5_juntar_legendas_filmes"]
     R1 --> P2
     P2 --> R2["mkv_final_ptbr/*_PTBR.mkv"]
 
@@ -45,10 +45,10 @@ Diagramas por módulo: [Fase 0](modulo-fase-0.md) · [Fase 1](modulo-fase-1.md) 
 flowchart LR
     SRT["legenda/*.srt EN"] --> P5["5_tradutor_de_legenda"]
     P5 --> SRTPT["*_PTBR.srt"]
-    SRTPT --> P6["6-conversor_str_ass"]
+    SRTPT --> P6["3-conversor_str_ass"]
     P6 --> ASS["traducao/*_PTBR.ass"]
 
-    MKV["filme.mkv"] --> P2["3_juntar_legendas_filmes"]
+    MKV["filme.mkv"] --> P2["5_juntar_legendas_filmes"]
     ASS --> P2
     P2 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
 

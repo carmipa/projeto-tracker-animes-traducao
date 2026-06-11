@@ -1,3 +1,6 @@
 RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE SRT
 ================================================================================
-[EG]Gundam_G_no_Reconguista_Movie_I_[1080p_HEVC_Opus].mkv | Track ID: 2 | Nome: English SRT | Saída: [EG]Gundam_G_no_Reconguista_Movie_I_[1080p_HEVC_Opus]_ENG.srt
+[EG]Gundam_G_no_Reconguista_Movie_III_[1080p_HEVC_Opus].mkv | Track ID: 2 | Nome: English SRT | Saída: [EG]Gundam_G_no_Reconguista_Movie_III_[1080p_HEVC_Opus]_ENG.srt
+[EG]Gundam_G_no_Reconguista_Movie_II_[1080p_HEVC_Opus].mkv | Track ID: 2 | Nome: English SRT | Saída: [EG]Gundam_G_no_Reconguista_Movie_II_[1080p_HEVC_Opus]_ENG.srt
+[EG]Gundam_G_no_Reconguista_Movie_IV_[1080p_HEVC_Opus].mkv | Track ID: 2 | Nome: English SRT | Saída: [EG]Gundam_G_no_Reconguista_Movie_IV_[1080p_HEVC_Opus]_ENG.srt
+[EG]Gundam_G_no_Reconguista_Movie_V_[1080p_HEVC_Opus].mkv | Track ID: 2 | Nome: English SRT | Saída: [EG]Gundam_G_no_Reconguista_Movie_V_[1080p_HEVC_Opus]_ENG.srt

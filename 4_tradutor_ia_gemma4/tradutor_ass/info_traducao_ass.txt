@@ -1,0 +1,7 @@
+RELATÓRIO DE TRADUÇÃO BATCH - BATCH TRANSLATOR ASS
+Gerado em: 2026-06-11 11:05:49
+Batch size: 8 linhas/chamada | Threads: 2
+================================================================================
+[EG]Gundam_G_no_Reconguista_Movie_I_[1080p_HEVC_Opus]_PTBR.ass | Diálogos: 1474 | Chamadas: 185 | Fallbacks: 44
+================================================================================
+TOTAL: 1 arquivos | 1474 diálogos | 44 fallbacks

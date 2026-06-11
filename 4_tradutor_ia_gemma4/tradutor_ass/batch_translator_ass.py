@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-MÓDULO: batch_translator_guilty_crown.py (Batch Mode v4 - Guilty Crown Edition)
+MÓDULO: batch_translator_ass.py (Batch Mode v4 - ASS Translation Edition)
 Otimizado para RTX 5600 8GB VRAM (LM Studio com 2 concorrências max / max precision).
 Traduz em lotes usando threads em paralelo para velocidade máxima sem perda de tags ASS.
 
@@ -28,25 +28,17 @@ BATCH_SIZE = 8    # Linhas por chamada para evitar estouro de tokens e truncamen
 MODELO_ATIVO = "local-model"
 
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
-ARQUIVO_INFO = os.path.join(PASTA_SCRIPT, "info_guilty_crown.txt")
-DEBUG_FILE = os.path.join(PASTA_SCRIPT, "debug_last_failure_gc.txt")
+ARQUIVO_INFO = os.path.join(PASTA_SCRIPT, "info_traducao_ass.txt")
+DEBUG_FILE = os.path.join(PASTA_SCRIPT, "debug_last_failure_ass.txt")
 _debug_salvo = False
 
 SYSTEM_PROMPT = (
-    "Você é um tradutor especialista em animes de ficção científica, mechas e drama pós-apocalíptico.\n"
-    "Sua tarefa é traduzir as linhas de legendas numeradas enviadas do inglês para o português do Brasil (PT-BR).\n"
+    "Você é um tradutor especialista em animes de ficção científica, robôs gigantes (mechas) e aventura espacial.\n"
+    "Sua tarefa é traduzir as linhas de legendas numeradas enviadas do inglês para o português do Brasil (PT-BR) de forma fluida e natural.\n"
     "REGRAS CRÍTICAS:\n"
-    "1. Mantenha os seguintes termos conforme convenção consagrada ou em inglês:\n"
-    "   - 'Void' ou 'Voids' -> manter como 'Void' ou 'Voids'\n"
-    "   - 'Void Genome' -> traduzir como 'Genoma Void'\n"
-    "   - 'Apocalypse Virus' -> traduzir como 'Vírus do Apocalipse'\n"
-    "   - 'Lost Christmas' -> manter como 'Lost Christmas'\n"
-    "   - 'Endlave' ou 'Endlaves' -> manter como 'Endlave' ou 'Endlaves'\n"
-    "   - 'Funeral Parlor' / 'Undertakers' -> traduzir como 'Funerária'\n"
-    "   - 'GHQ' -> manter como 'GHQ'\n"
-    "   - 'Genome' -> traduzir como 'Genoma'\n"
-    "2. Traduza gírias e expressões militares de forma natural e fluida (ex: 'Roger' -> 'Copiado', 'Copy that' -> 'Entendido').\n"
-    "3. Nunca modifique ou remova os marcadores do tipo '[T0]', '[T1]', '[T2]'... Eles representam formatações de legenda e devem retornar EXATAMENTE na mesma posição e formato no texto traduzido.\n"
+    "1. Mantenha a coerência terminológica de Gundam (ex: 'Photon Battery' -> 'Bateria de Fótons', 'Regild Century' -> 'Século Regild', 'Capital Territory' -> 'Território da Capital', 'Capital Guard' -> 'Guarda da Capital'). Nomes de robôs mechas/Mobile Suits devem permanecer em inglês (ex: G-Self, G-Arcane, G-Lucifer).\n"
+    "2. Traduza gírias e expressões militares de forma natural (ex: 'Roger' -> 'Copiado', 'Copy that' -> 'Entendido').\n"
+    "3. Nunca modifique ou remova marcadores de formatação como '[T0]', '[T1]', '[T2]'... Eles representam tags da legenda e devem retornar EXATAMENTE na mesma posição e formato no texto traduzido.\n"
     "4. Retorne APENAS as traduções numeradas no mesmo formato (ex: '1. tradução'). Não inclua notas, explicações ou saudações."
 )
 
@@ -231,15 +223,15 @@ def traduzir_bloco_ia(bloco):
 
 def executar_pipeline_lote():
     print("=" * 80)
-    print(f"{Fore.CYAN}    ESTEIRA BATCH {BATCH_SIZE}L/CHAMADA | THREADS={MAX_THREADS} | ASS -> ASS PTBR (GUILTY CROWN)")
+    print(f"{Fore.CYAN}    ESTEIRA BATCH {BATCH_SIZE}L/CHAMADA | THREADS={MAX_THREADS} | ASS -> ASS PTBR (GUNDAM EDITION)")
     print("=" * 80)
 
     verificar_lm_studio()
 
-    caminho_padrao_origem = r"D:\PROJETOS-OPEN\animes\Guilty Crown\legendas_eng"
-    pasta_origem = obter_diretorio_operador("Pasta com legendas ENG", caminho_padrao_origem)
+    caminho_padrao_origem = r"D:\PROJETOS-OPEN\animes\reconquista\reconsquista-1"
+    pasta_origem = obter_diretorio_operador("Pasta com legendas ENG (.ass)", caminho_padrao_origem)
 
-    caminho_padrao_saida = r"D:\PROJETOS-OPEN\animes\Guilty Crown\traducao"
+    caminho_padrao_saida = r"D:\PROJETOS-OPEN\animes\reconquista\reconsquista-1\traducao"
     pasta_saida = obter_diretorio_operador("Pasta de saída PT-BR", caminho_padrao_saida)
 
     os.makedirs(pasta_saida, exist_ok=True)
@@ -252,7 +244,7 @@ def executar_pipeline_lote():
     print(f"{Fore.GREEN}[OK] {len(arquivos_ass)} arquivos carregados | batch={BATCH_SIZE} | threads={MAX_THREADS}")
 
     linhas_relatorio = [
-        "RELATÓRIO DE TRADUÇÃO BATCH - BATCH TRANSLATOR GUILTY CROWN",
+        "RELATÓRIO DE TRADUÇÃO BATCH - BATCH TRANSLATOR ASS",
         f"Gerado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         f"Batch size: {BATCH_SIZE} linhas/chamada | Threads: {MAX_THREADS}",
         "=" * 80,

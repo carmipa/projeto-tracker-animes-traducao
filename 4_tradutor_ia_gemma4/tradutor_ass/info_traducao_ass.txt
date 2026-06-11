@@ -1,7 +1,10 @@
 RELATÓRIO DE TRADUÇÃO BATCH - BATCH TRANSLATOR ASS
-Gerado em: 2026-06-11 11:05:49
+Gerado em: 2026-06-11 13:03:16
 Batch size: 8 linhas/chamada | Threads: 2
 ================================================================================
-[EG]Gundam_G_no_Reconguista_Movie_I_[1080p_HEVC_Opus]_PTBR.ass | Diálogos: 1474 | Chamadas: 185 | Fallbacks: 44
+[EG]Gundam_G_no_Reconguista_Movie_III_[1080p_HEVC_Opus]_PTBR.ass | Diálogos: 1791 | Chamadas: 224 | Fallbacks: 35
+[EG]Gundam_G_no_Reconguista_Movie_II_[1080p_HEVC_Opus]_PTBR.ass | Diálogos: 1414 | Chamadas: 177 | Fallbacks: 23
+[EG]Gundam_G_no_Reconguista_Movie_IV_[1080p_HEVC_Opus]_PTBR.ass | Diálogos: 1755 | Chamadas: 220 | Fallbacks: 32
+[EG]Gundam_G_no_Reconguista_Movie_V_[1080p_HEVC_Opus]_PTBR.ass | Diálogos: 1638 | Chamadas: 205 | Fallbacks: 40
 ================================================================================
-TOTAL: 1 arquivos | 1474 diálogos | 44 fallbacks
+TOTAL: 4 arquivos | 6598 diálogos | 130 fallbacks

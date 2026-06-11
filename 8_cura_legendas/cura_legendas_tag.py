@@ -43,18 +43,29 @@ def obter_diretorio_saida(mensagem_prompt, padrao_caminho=None):
 
 
 def curar_arquivos():
-    print("=" * 80)
-    print(f"{Fore.CYAN}       SCRIPT DE CURA DE TAGS OFFLINE (REMEDY TAGS) — GUILTY CROWN")
+    print(f"{Fore.CYAN}       SCRIPT DE CURA DE TAGS OFFLINE (REMEDY TAGS)")
     print("=" * 80)
 
     # 1. Obter pastas
-    caminho_padrao_traduzidos = r"D:\PROJETOS-OPEN\animes\Guilty Crown\traducao"
+    caminho_padrao_traduzidos = (
+        r"D:\PROJETOS-OPEN\animes"
+        r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+        r"\Season 1\traduzidos"
+    )
     pasta_traduzidos = obter_diretorio("Pasta com as legendas traduzidas (com erro de 'TAG')", caminho_padrao_traduzidos)
 
-    caminho_padrao_originais = r"D:\PROJETOS-OPEN\animes\Guilty Crown\legendas_eng"
+    caminho_padrao_originais = (
+        r"D:\PROJETOS-OPEN\animes"
+        r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+        r"\Season 1\legendas_eng"
+    )
     pasta_originais = obter_diretorio("Pasta com as legendas originais em inglês (ENG)", caminho_padrao_originais)
 
-    caminho_padrao_saida = r"D:\PROJETOS-OPEN\animes\Guilty Crown\traducao_curada"
+    caminho_padrao_saida = (
+        r"D:\PROJETOS-OPEN\animes"
+        r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+        r"\Season 1\traducao_curada"
+    )
     pasta_saida = obter_diretorio_saida("Pasta onde deseja salvar as legendas corrigidas", caminho_padrao_saida)
 
     os.makedirs(pasta_saida, exist_ok=True)

@@ -1,6 +1,24 @@
-RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE SRT
+RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE
 ================================================================================
-[EG]Gundam_G_no_Reconguista_Movie_III_[1080p_HEVC_Opus].mkv | Track ID: 2 | Nome: English SRT | Saída: [EG]Gundam_G_no_Reconguista_Movie_III_[1080p_HEVC_Opus]_ENG.srt
-[EG]Gundam_G_no_Reconguista_Movie_II_[1080p_HEVC_Opus].mkv | Track ID: 2 | Nome: English SRT | Saída: [EG]Gundam_G_no_Reconguista_Movie_II_[1080p_HEVC_Opus]_ENG.srt
-[EG]Gundam_G_no_Reconguista_Movie_IV_[1080p_HEVC_Opus].mkv | Track ID: 2 | Nome: English SRT | Saída: [EG]Gundam_G_no_Reconguista_Movie_IV_[1080p_HEVC_Opus]_ENG.srt
-[EG]Gundam_G_no_Reconguista_Movie_V_[1080p_HEVC_Opus].mkv | Track ID: 2 | Nome: English SRT | Saída: [EG]Gundam_G_no_Reconguista_Movie_V_[1080p_HEVC_Opus]_ENG.srt
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask.mkv | Track ID: 3 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau.mkv | Track ID: 3 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began.mkv | Track ID: 3 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution.mkv | Track ID: 3 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth.mkv | Track ID: 3 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington.mkv | Track ID: 3 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End_ENG.ass
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return.mkv | Track ID: 4 | Nome: [gcs8] Dialogue (Mirai-edit) | Formato: ASS | Saída: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return_ENG.ass

@@ -35,13 +35,41 @@ _debug_salvo = False  # salva apenas o primeiro batch falho para analise
 
 SYSTEM_PROMPT = (
     "You are an expert subtitler for Japanese anime, specializing in the Gundam Universal Century timeline.\n"
-    "Translate the following numbered subtitle lines from English to Brazilian Portuguese (PT-BR).\n"
+    "Translate the following numbered subtitle lines into Brazilian Portuguese (PT-BR).\n"
+    "The final output must be entirely in Brazilian Portuguese, except for protected Gundam terms, character names, faction names, ship names, model names, and subtitle tags.\n\n"
+
     "CRITICAL RULES:\n"
-    "1. Keep intact: 'Psychoframe', 'Mobile Suit', 'Gundam', 'Newtype', 'Zeon', 'Neo Zeon', "
-    "'Vist Foundation', 'Londo Bell', 'Anaheim Electronics', 'Federation'.\n"
-    "2. Translate idioms naturally ('Roger' -> 'Copiado', 'Party' -> 'Grupo').\n"
-    "3. Do NOT modify ASS tags in curly braces (e.g., {\\an8}, {\\i1}, {\\i0}).\n"
-    "4. Return ONLY the numbered translations in the same format. No notes, no explanations."
+    "1. Keep the exact same numbering, order, and line structure.\n"
+    "2. Return ONLY the numbered translated lines. Do not add notes, explanations, headers, markdown, or comments.\n"
+    "3. Never merge, split, reorder, remove, or duplicate numbered lines.\n"
+    "4. Keep intact all subtitle markers and tags exactly as received, such as '[T0]', '[T1]', '[T2]', '{\\an8}', '<i>', '</i>'. They must stay in the same position and format.\n\n"
+
+    "PROTECTED GUNDAM TERMS — DO NOT TRANSLATE:\n"
+    "Psychoframe, Psycho-Frame, Mobile Suit, Gundam, Newtype, Zeon, Neo Zeon, Vist Foundation, "
+    "Londo Bell, Anaheim Electronics, Federation, Laplace Box, Minovsky, Universal Century, "
+    "Sleeves, Unicorn, Banshee, Nahel Argama, Rewloola, Industrial 7, Magallanica.\n\n"
+
+    "STYLE RULES FOR PT-BR SUBTITLES:\n"
+    "1. Use natural Brazilian Portuguese suitable for anime subtitles.\n"
+    "2. Avoid literal English phrasing.\n"
+    "3. Keep sentences concise and readable.\n"
+    "4. Preserve the serious military, political, and dramatic tone of Gundam Unicorn.\n"
+    "5. Do not use exaggerated Brazilian slang unless the original line is clearly casual or comic.\n"
+    "6. Translate idioms by meaning, not word-for-word.\n\n"
+
+    "MILITARY / RADIO TRANSLATION GUIDANCE:\n"
+    "'Roger' -> 'Copiado'; "
+    "'Copy that' -> 'Entendido' or 'Copiado'; "
+    "'Stand by' -> 'Aguarde'; "
+    "'Enemy unit' -> 'Unidade inimiga'; "
+    "'Target locked' -> 'Alvo travado'; "
+    "'Launch' -> 'Lançar' or 'Decolar', depending on context; "
+    "'Sortie' -> 'Saída para combate' or 'Partida', depending on context.\n\n"
+
+    "CONTEXT RULES:\n"
+    "1. Translate 'party' according to context. It can mean 'grupo', 'equipe', 'esquadrão', 'comitiva', 'parte' or 'festa'. Do not always translate it as 'grupo'.\n"
+    "2. Preserve character names, ship names, Mobile Suit model names, factions, places, and operation names exactly as written unless there is a well-known PT-BR equivalent.\n"
+    "3. If a line is ambiguous, choose the translation that best fits the Gundam Universal Century context.\n"
 )
 
 
@@ -102,7 +130,7 @@ def _parsear_resposta_numerada(conteudo, n_esperado):
     """Extrai N linhas de uma resposta numerada do modelo."""
     linhas = []
     for linha in conteudo.split('\n'):
-        m = re.match(r'^\d+[.)]\s*(.+)', linha.strip())
+        m = re.match(r'^\d+(?:\.|\)| -|:)\s*(.+)', linha.strip())
         if m:
             linhas.append(_limpar_markdown(m.group(1)))
     if len(linhas) >= n_esperado:
@@ -202,8 +230,14 @@ def traduzir_bloco_ia(bloco):
             for i, (idx, meta, texto_orig, tags) in enumerate(zip(indices_u, metadados_u, textos_u, tags_u)):
                 if i < len(traducoes) and traducoes[i] and traducoes[i].lower() != texto_orig.lower():
                     trad = traducoes[i]
-                    for tag in tags:
-                        trad = trad.replace('___TAG___', tag, 1)
+                    # Recoloca as tags nos marcadores correspondentes [T0], [T1]...
+                    for idx_tag, tag in enumerate(tags):
+                        marcador = f"[T{idx_tag}]"
+                        if marcador in trad:
+                            trad = trad.replace(marcador, tag, 1)
+                        else:
+                            # Fallback tolerante a grafias alteradas pela IA
+                            trad = re.sub(rf'\[?[Tt]{idx_tag}\]?', tag, trad, count=1)
                     resultados.append((idx, f"{meta}{trad}\n", False))
                 else:
                     resultados.append((idx, f"{meta}[ERRO_TRADUCAO: {texto_orig}]\n", True))
@@ -232,14 +266,14 @@ def executar_pipeline_lote():
     verificar_lm_studio()
 
     caminho_padrao_origem = (
-        r"C:\TRACKER-ANIMES\animes\unicornio"
+        r"D:\PROJETOS-OPEN\animes"
         r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
         r"\Season 1\legendas_eng"
     )
     pasta_origem = obter_diretorio_operador("Pasta com legendas ENG", caminho_padrao_origem)
 
     caminho_padrao_saida = (
-        r"C:\TRACKER-ANIMES\animes\unicornio"
+        r"D:\PROJETOS-OPEN\animes"
         r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
         r"\Season 1\traduzidos"
     )
@@ -266,13 +300,16 @@ def executar_pipeline_lote():
     with tqdm(total=len(arquivos_ass), desc="Temporada Completa", unit="arq", colour="green", ncols=80, position=0) as barra_macro:
         for idx, arquivo in enumerate(arquivos_ass):
             caminho_entrada = os.path.join(pasta_origem, arquivo)
-            nome_saida_ptbr = arquivo.replace("_ENG.ass", "_PTBR.ass")
+            if arquivo.lower().endswith('_eng.ass'):
+                nome_saida_ptbr = re.sub(r'_eng\.ass$', '_PTBR.ass', arquivo, flags=re.IGNORECASE)
+            else:
+                nome_saida_ptbr = os.path.splitext(arquivo)[0] + "_PTBR.ass"
             caminho_saida = os.path.join(pasta_saida, nome_saida_ptbr)
 
             barra_macro.set_postfix_str(arquivo[:35])
             tqdm.write(f"\n{Fore.YELLOW}[{idx+1}/{len(arquivos_ass)}] -> {arquivo}")
 
-            with open(caminho_entrada, 'r', encoding='utf-8') as f:
+            with open(caminho_entrada, 'r', encoding='utf-8', errors='replace') as f:
                 linhas_originais = f.readlines()
 
             mapa_linhas_finais: list[str | None] = [None] * len(linhas_originais)
@@ -289,7 +326,14 @@ def executar_pipeline_lote():
                         metadados = ",".join(partes[:9]) + ","
                         texto_bruto = partes[9].rstrip("\n")
                         tags = re.findall(r'\{[^}]+\}', texto_bruto)
-                        texto_limpo = re.sub(r'\{[^}]+\}', '___TAG___', texto_bruto)
+                        # Ignora linhas com excesso de tags (karaokê/efeitos complexos) para evitar estouro de tokens
+                        if len(tags) > 8:
+                            mapa_linhas_finais[i] = linha
+                            continue
+                        # Substitui cada tag por um marcador numérico seguro [T0], [T1]...
+                        texto_limpo = texto_bruto
+                        for idx_tag, tag in enumerate(tags):
+                            texto_limpo = texto_limpo.replace(tag, f"[T{idx_tag}]", 1)
                         bloco_atual.append((i, metadados, texto_limpo, tags))
                         if len(bloco_atual) == BATCH_SIZE:
                             blocos.append(bloco_atual)

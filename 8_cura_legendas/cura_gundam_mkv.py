@@ -139,11 +139,19 @@ def executar_remux_gundam():
         return
 
     # 1. Obter Pastas
-    caminho_padrao_videos = r"E:\animes\GUNDAM\GUNDAM UC\UC 0096 - UNICORN\COmpleto"
+    caminho_padrao_videos = (
+        r"D:\PROJETOS-OPEN\animes"
+        r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+        r"\Season 1"
+    )
     pasta_videos = obter_diretorio_obrigatorio("Pasta com os MKVs finais do Gundam (com erro)", caminho_padrao_videos)
 
-    caminho_padrao_eng = r"C:\TRACKER-ANIMES\animes\unicornio\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]\Season 1\legendas_eng"
-    # Se a pasta padrão do drive C: não existir, tenta nula
+    caminho_padrao_eng = (
+        r"D:\PROJETOS-OPEN\animes"
+        r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+        r"\Season 1\legendas_eng"
+    )
+    # Se a pasta padrão não existir, tenta nula
     if not os.path.exists(caminho_padrao_eng):
         caminho_padrao_eng = None
     pasta_originais_eng = obter_diretorio_opcional("Pasta com legendas originais ENG (ENTER para CURA CEGA sem inglês)", caminho_padrao_eng)

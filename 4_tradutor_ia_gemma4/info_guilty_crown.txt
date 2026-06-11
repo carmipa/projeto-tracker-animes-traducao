@@ -1,0 +1,7 @@
+RELATÓRIO DE TRADUÇÃO BATCH - BATCH TRANSLATOR GUILTY CROWN
+Gerado em: 2026-06-10 17:54:33
+Batch size: 8 linhas/chamada | Threads: 2
+================================================================================
+[DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass | Diálogos: 392 | Chamadas: 45 | Fallbacks: 8
+================================================================================
+TOTAL: 1 arquivos | 392 diálogos | 8 fallbacks

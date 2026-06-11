@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-06-10_19-54-48",
+  "data_hora": "2026-06-10T20:51:44.130590",
+  "stats": {
+    "mkv_total": 1,
+    "extraidos": 1,
+    "traduzidos": 1,
+    "erros_extracao": 0,
+    "erros_traducao": 0,
+    "requisicoes": 252,
+    "cache_hits": 0,
+    "linhas_traduzidas": 1947,
+    "encodings_detectados": {
+      "utf-8-sig": 1
+    },
+    "tempo_total_segundos": 3392.117909669876
+  }
+}

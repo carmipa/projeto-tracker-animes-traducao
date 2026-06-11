@@ -1,0 +1,20 @@
+
+================================================================================
+CONFIGURAÇÃO DA EXECUÇÃO
+================================================================================
+
+Data/Hora      : 2026-06-10 19:52:40
+
+LM Studio URL  : http://127.0.0.1:1234
+Modelo         : Gemma 4B (google/gemma-4-e4b)
+Hardware       : AMD RX 7800 XT 16 GB
+
+Pasta entrada  : D:\PROJETOS-OPEN\animes\Macross Delta Movie 2 Zettai
+Track ID       : Automático (mkvmerge)
+Pasta saída    : D:\PROJETOS-OPEN\animes\Macross Delta Movie 2 Zettai\traducao
+
+Logs:
+  Pipeline : pipeline_fr_2026-06-10_19-52-24.txt
+  Erros    : erros_fr_2026-06-10_19-52-24.txt
+  Stats    : stats_fr_2026-06-10_19-52-24.json
+  Config   : config_fr_2026-06-10_19-52-24.txt

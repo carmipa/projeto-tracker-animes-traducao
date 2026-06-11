@@ -1,0 +1,27 @@
+=== INPUT ENVIADO AO MODELO ===
+1. Syam participated in the terror attack\Nat the inception of the Universal Century,
+2. and turned the Universal Century charter\Nthat he obtained, into Laplace's Box,
+3. using it to\Nmanipulate the Earth Federation government,
+4. creating the present status quo.
+5. "In the future, should the emergence of a\Nnew space-adapted human race be confirmed,
+6. the Earth Federation shall give\Npriority to involving them
+7. in the administration of the government."
+8. - A new human race...\N- Newtypes?
+
+=== RESPOSTA BRUTA DO MODELO ===
+1. Syam participou do ataque terrorista\nno início do Século Universal,
+2. e transformou a carta do Século Universal\nque obteve, na Caixa de Laplace,
+3. usando-a para\nmanipular o governo da Earth Federation,
+4. criando o status quo atual.
+5. "No futuro, caso o surgimento de uma\nnova raça humana adaptada ao espaço seja confirmado,
+6. a Earth Federation dará\nprioridade em envolvê-los\na administração do governo."
+7. - Uma nova raça humana...\n- Newtypes?
+
+=== PARSED (7 linhas) ===
+  1. 1. Syam participou do ataque terrorista\nno início do Século Universal,
+  2. 2. e transformou a carta do Século Universal\nque obteve, na Caixa de Laplace,
+  3. 3. usando-a para\nmanipular o governo da Earth Federation,
+  4. 4. criando o status quo atual.
+  5. 5. "No futuro, caso o surgimento de uma\nnova raça humana adaptada ao espaço seja confirmado,
+  6. 6. a Earth Federation dará\nprioridade em envolvê-los\na administração do governo.
+  7. 7. - Uma nova raça humana...\n- Newtypes?

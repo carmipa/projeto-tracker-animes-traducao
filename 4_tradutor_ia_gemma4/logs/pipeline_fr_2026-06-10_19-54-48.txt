@@ -1,0 +1,89 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO FRANCÊS - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-10 19:54:48
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\2_tradutor_ia_gemma4\logs
+================================================================================
+
+
+================================================================================
+          PIPELINE INDUSTRIAL UNIFICADO — VERSÃO FRANCÊS (FR -> PT-BR)          
+================================================================================
+
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[19:54:48.928] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[19:54:48.931] [SUCESSO ] LM Studio OK — 2 modelo(s)
+[19:54:48.932] [INFO    ] Usando modelo: google/gemma-4-e4b
+[19:54:48.932] [DEBUG   ] Verificando MKVToolNix...
+[19:54:48.932] [SUCESSO ] MKVToolNix OK: C:\Program Files\MKVToolNix\mkvextract.exe
+[19:54:48.932] [SUCESSO ] ✓ Infraestrutura validada!
+
+================================================================================
+                                     INPUTS                                     
+================================================================================
+
+[19:55:12.010] [INFO    ] Pasta: D:\PROJETOS-OPEN\animes\Macross Delta Movie 2 Zettai
+[19:55:12.011] [INFO    ] Encontrados 1 arquivo(s) .mkv
+[19:55:12.011] [INFO    ] Saída: D:\PROJETOS-OPEN\animes\Macross Delta Movie 2 Zettai\traducao
+[19:55:12.012] [DEBUG   ] Config salvo: config_fr_2026-06-10_19-54-48.txt
+
+================================================================================
+                                 PROCESSAMENTO                                  
+================================================================================
+
+[19:55:12.012] [INFO    ] [1/1] [Pikari-Teshima] Gekijouban Macross Delta Zettai LIVE!!!!!! VOSTFR [BD 1920x1080 x.265 10bits AAC].mkv
+[19:55:12.068] [DEBUG   ] Track ID francês detectado: 2 (idioma: fre)
+[19:55:12.068] [DEBUG   ] mkvextract track=2 → [Pikari-Teshima] Gekijouban Macross Delta Zettai LIVE!!!!!! VOSTFR [BD 1920x1080 x.265 10bits AAC]_extracted.ass
+[19:55:13.342] [SUCESSO ] Extraído: 208,211 bytes
+[19:55:13.342] [DEBUG   ] Detectando encoding: [Pikari-Teshima] Gekijouban Macross Delta Zettai LIVE!!!!!! VOSTFR [BD 1920x1080 x.265 10bits AAC]_extracted.ass
+[19:55:13.343] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[19:55:13.343] [DEBUG   ] Arquivo lido: 2018 linhas (encoding: utf-8-sig)
+[19:55:13.348] [DEBUG   ] Diálogos identificados: 1947 (Lixo binário pulado: 0)
+[19:55:13.348] [INFO    ] Cache Hits: 0 | Misses (A traduzir): 1947
+[19:55:13.348] [DEBUG   ] Processando 244 lotes concorrentes (Max Threads: 2)...
+[20:12:14.517] [AVISO   ] Falha na tradução em lote (Resultado incompleto: 7/8 linhas traduzidas). Iniciando fallback resiliente linha a linha...
+[20:51:44.129] [SUCESSO ] Salvo: [Pikari-Teshima] Gekijouban Macross Delta Zettai LIVE!!!!!! VOSTFR [BD 1920x1080 x.265 10bits AAC]_PTBR.ass
+[20:51:44.130] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m56m 32s[32m] [Tempo decorrido acumulado: [36m56m 32s[32m]
+[20:51:44.130] [DEBUG   ] Arquivo temporário removido
+
+================================================================================
+                                RELATÓRIO FINAL                                 
+================================================================================
+
+[20:51:44.131] [DEBUG   ] Stats salvo: stats_fr_2026-06-10_19-54-48.json
+
+================================================================================
+RELATÓRIO FINAL
+================================================================================
+
+Tempo total de execução : 56m 32s
+Arquivos .mkv           : 1
+Extraídos               : 1
+Traduzidos              : 1
+Erros extração          : 0
+Erros tradução          : 0
+Requisições API         : 252
+Cache hits              : 0
+Linhas traduzidas       : 1947
+
+Encodings detectados:
+  utf-8-sig: 1 arquivo(s)
+
+Arquivos de log:
+  📁  d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\2_tradutor_ia_gemma4\logs
+  📄  pipeline_fr_2026-06-10_19-54-48.txt
+  ⚠️   erros_fr_2026-06-10_19-54-48.txt
+  📊  stats_fr_2026-06-10_19-54-48.json
+  ⚙️   config_fr_2026-06-10_19-54-48.txt
+
+Legendas salvas em: D:\PROJETOS-OPEN\animes\Macross Delta Movie 2 Zettai\traducao
+
+================================================================================
+Execução finalizada: 2026-06-10 20:51:44
+================================================================================

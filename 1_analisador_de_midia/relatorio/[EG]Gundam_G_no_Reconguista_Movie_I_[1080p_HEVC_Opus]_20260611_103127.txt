@@ -1,0 +1,98 @@
+================================================================================
+INICIANDO AUDITORIA TECNICA: [EG]Gundam_G_no_Reconguista_Movie_I_[1080p_HEVC_Opus].mkv
+================================================================================
+
+Validacao OK
+Tamanho: 4.09 GiB (4193 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  4.09 GiB
+
+Duracao Total
+  1 h 34 min
+
+Bitrate Geral
+  6172 kbps
+
+Aplicacao de Escrita
+  mkvmerge v73.0.0 ('25 or 6 to 4') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEGH/ISO/HEVC (HEVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 5987 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 3
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 171 kbps
+    Titulo: Japanese 2.1
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: en
+    Formato: UTF-8
+    Tipo: SRT/SubRip (Simples - Recomendado para traducao)
+    Codec ID: S_TEXT/UTF8
+    Titulo: English SRT
+    Duracao Legenda: 01:34:28.204 (via Metadados)
+    Diferenca Fim: +30.489s (Video - Legenda)
+    Taxa de Drift: 19.261 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 30489 ms)
+
+  Legenda 2 (Track ID: 4)
+    Idioma: en
+    Formato: PGS
+    Tipo: PGS (Bitmap/Hardsub - Nao extraivel para texto)
+    Codec ID: S_HDMV/PGS
+    Titulo: English PGS
+    Duracao Legenda: 01:34:28.204 (via Metadados)
+    Diferenca Fim: +30.489s (Video - Legenda)
+    Taxa de Drift: 19.261 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 30489 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 2
+      [1] Idioma: en | Tipo: SRT | Formato: UTF-8 - English SRT
+      [2] Idioma: en | Tipo: PGS | Formato: PGS - English PGS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================

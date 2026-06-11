@@ -1,20 +1,22 @@
-# 📐 Módulo — Fase 1 (Tradutor)
+# 📐 Módulo — Fase 1 (Analisador de Mídia)
 
-[← Índice](README.md) · [`2_tradutor_ia_gemma4/sub_extractor.py`](../2_tradutor_ia_gemma4/sub_extractor.py)
+[← Índice](README.md) · [`1_analisador_de_midia/media_analyzer.py`](../1_analisador_de_midia/media_analyzer.py)
+
+**Opcional**, mas recomendado antes de qualquer tradução.
 
 ---
 
-## Recursos
+## Função
 
-| Recurso | Detalhe |
-|:---|:---|
-| **Autodetecção de track** | `mkvmerge -J` → faixa `subtitles` com `S_TEXT/ASS` |
-| **Encoding resiliente** | `utf-8` → `utf-8-sig` → `cp1252` → `latin-1` → `iso-8859-1` → bypass |
-| **Regex industrial** | `^(Dialogue:\s*[^,]*(?:,[^,]*){8},)(.*)$` |
-| **Filtro de bloat** | Linhas &gt; 2000 caracteres (fontes Base64) |
-| **Tradução em lote** | 20 diálogos por requisição HTTP |
-| **Cache em memória** | Evita retraduzir lotes idênticos |
-| **Saída** | `{pasta}/traducao/{nome}_PTBR.ass` |
+Varredura recursiva de `.mkv`, `.mp4`, `.avi`, etc. Gera relatório por arquivo em `relatorio/` com:
+
+- Container, duração, bitrate geral
+- Fluxos de vídeo (codec, resolução, FPS)
+- Fluxos de áudio (idioma, canais)
+- **Legendas:** distingue `ASS/SSA`, `SRT` e **`PGS` (bitmap — não extraível diretamente)**
+- **Auditoria de Sincronia de Legenda:** Compara a duração real das legendas embutidas com o vídeo, calculando a taxa de desvio (Drift Ratio em segundos por hora) e emitindo vereditos claros de compatibilidade de sincronia (Sincronizada, Atraso Constante - Simple Offset, ou Mismatch de FPS - Time Stretch).
+
+> Confirme legenda **texto** (`S_TEXT/ASS` ou `S_TEXT/UTF8`) antes de iniciar a **Fase 2** ou **Fase 4**. Se o veredito indicar `PGS`, siga para a [Esteira C — PGS](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap).
 
 ---
 
@@ -22,63 +24,39 @@
 
 ```mermaid
 flowchart TB
-    START([main]) --> LOG[GerenciadorLogs<br/>4 arquivos de auditoria]
-    LOG --> VAL[validar<br/>LM Studio + MKVToolNix]
+    START([main]) --> ARG{Caminho via<br/>argumento?}
 
-    VAL -->|Falha| ABORT([Aborta])
-    VAL -->|OK| PASTA[input pasta dos .mkv]
-    PASTA --> LISTA[Lista mkv ordenados]
-    LISTA --> LOOP{Para cada episodio}
+    ARG -->|Sim| PATH[Normaliza caminho]
+    ARG -->|Nao| INPUT[input interativo]
 
-    LOOP --> TRACK[mkvmerge -J<br/>descobrir track ASS]
-    TRACK -->|Sem ASS| SKIP[Pula episodio]
-    TRACK -->|OK| EXT[mkvextract tracks<br/>_extracted.ass]
+    PATH --> TIPO{Tipo do caminho}
+    INPUT --> TIPO
 
-    EXT --> READ[ler_arquivo_com_encoding]
-    READ --> REGEX[Regex Dialogue<br/>filtro Base64]
+    TIPO -->|Pasta| WALK[os.walk recursivo<br/>filtra extensoes de video]
+    TIPO -->|Arquivo| FILA[Lista com 1 arquivo]
 
-    REGEX --> LOTE[Lotes de 20 linhas]
-    LOTE --> API[POST /v1/chat/completions]
-    API --> REBUILD[Reconstroi linhas ASS]
-    REBUILD --> SAVE[traducao/nome_PTBR.ass]
-    SAVE --> CLEAN[Remove _extracted.ass]
-    CLEAN --> MORE{Mais episodios?}
-    MORE -->|Sim| LOOP
-    MORE -->|Nao| STATS[stats.json + relatorio final]
-    STATS --> END([Fim])
+    WALK --> FILA
+    FILA --> LOOP{Para cada video}
 
-    SKIP --> MORE
+    LOOP --> VAL[Valida existencia<br/>permissao e tamanho]
+    VAL --> PARSE[MediaInfo.parse<br/>barra tqdm]
 
-    style API fill:#4B0082,stroke:#00E5FF,color:#fff
-    style SAVE fill:#1a1a2e,stroke:#00E5FF,color:#fff
-    style ABORT fill:#5c1010,stroke:#ff4444,color:#fff
-```
+    PARSE --> CLASS[Classifica faixas<br/>General Video Audio Text]
+    CLASS --> LEG{Codec da legenda}
 
----
+    LEG -->|S_TEXT/ASS ou SSA| OK[Compativel com Fases 2 e 4]
+    LEG -->|SRT UTF8| SRT[Texto simples]
+    LEG -->|PGS ou In_Screen| BLOCK[Bitmap - use Fase 2 PGS]
 
-## Sequência (API local)
+    CLASS --> REL[Monta relatorio texto]
+    REL --> SAVE[Salva relatorio/nome_timestamp.txt]
+    SAVE --> NEXT{Mais arquivos?}
+    NEXT -->|Sim| LOOP
+    NEXT -->|Nao| END([Fim])
 
-```mermaid
-sequenceDiagram
-    participant U as Usuario
-    participant P as sub_extractor.py
-    participant M as MKVToolNix
-    participant L as LM Studio :1234
-
-    U->>P: Informa pasta dos .mkv
-    P->>L: GET /v1/models
-    L-->>P: Modelo Gemma carregado
-    loop Cada episodio .mkv
-        P->>M: mkvmerge -J identifica track
-        P->>M: mkvextract extrai .ass
-        P->>P: Regex + filtros de encoding
-        loop Lotes de 20 dialogos
-            P->>L: POST /v1/chat/completions
-            L-->>P: Texto PT-BR indexado
-        end
-        P->>P: Salva traducao/nome_PTBR.ass
-    end
-    P-->>U: Logs em 2_tradutor_ia_gemma4/logs/
+    style OK fill:#1e4620,stroke:#32CD32,color:#fff
+    style BLOCK fill:#5c1010,stroke:#ff4444,color:#fff
+    style PARSE fill:#2d3748,stroke:#00E5FF,color:#fff
 ```
 
 ---
@@ -87,10 +65,10 @@ sequenceDiagram
 
 | Entrada | Saída | Dependências |
 |:---|:---|:---|
-| Pasta com `.mkv` | `traducao/*_PTBR.ass` | MKVToolNix, LM Studio, `requests`, `colorama`, `tqdm` |
+| Pasta ou arquivo de vídeo | `relatorio/*.txt` | `pymediainfo`, `colorama`, `tqdm`, MediaInfo |
 
-Logs: [Logs e auditoria](logs-e-auditoria.md)
+Comando: [Guia de execução — Fase 1](guia-de-execucao.md#fase-1--analisador-de-mídia-opcional)
 
 ---
 
-[← Fase 0](modulo-fase-0.md) · [Próximo: Fase 2 →](modulo-fase-2.md)
+[Próximo: Fase 2 — Extração de Legendas →](modulo-fase-2.md)

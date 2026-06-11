@@ -1,18 +1,8 @@
-# 📐 Módulo — Fase 5 (Tradutor SRT direto)
+# 📐 Módulo — Fase 5 (Remuxer / Multiplexação)
 
-[← Índice](README.md) · [`5_tradutor_de_legenda/tradutor_srt_direto.py`](../5_tradutor_de_legenda/tradutor_srt_direto.py)
+[← Índice](README.md) · [`5_juntar_legendas_filmes/batch_remuxer.py`](../5_juntar_legendas_filmes/batch_remuxer.py)
 
-**Esteira alternativa** para legendas **SRT externas** (não embutidas no `.mkv`). Ideal para filmes, releases com legenda separada ou quando a Fase 1 não se aplica.
-
----
-
-## Função
-
-| Entrada | Processamento | Saída |
-|:---|:---|:---|
-| Arquivo ou pasta com `.srt` em inglês | Tradução em lote via **LM Studio** (Gemma 4B) | `*_PTBR.srt` na mesma pasta |
-
-**Não usa MKVToolNix** — apenas leitura de texto, HTTP local e gravação UTF-8.
+Etapa final, comum a **todas as esteiras**: junta o vídeo original com a legenda traduzida em um novo `.mkv`, sem re-encode.
 
 ---
 
@@ -20,12 +10,11 @@
 
 | Recurso | Detalhe |
 |:---|:---|
-| **Auto-detecção** | 1 `.srt` na pasta → seleciona automaticamente; vários → menu numérico |
-| **Encoding resiliente** | `utf-8` → `utf-8-sig` → `cp1252` → `latin-1` → `iso-8859-1` |
-| **Lotes configuráveis** | Padrão 20 blocos SRT por requisição (ENTER mantém; ou digite outro valor) |
-| **Prompt especializado** | Termos Macross (Fold, Valkyrie, etc.) + letras com `♪` |
-| **Nome de saída** | Substitui sufixos `-en`, `english` por `_PTBR.srt` |
-| **Logs** | `5_tradutor_de_legenda/logs/pipeline_direct_srt_*.txt` |
+| **Pareamento estrito** | `{base}.mkv` ↔ `traducao/{base}_PTBR.ass` |
+| **Sem re-encode** | Apenas remux — I/O intensivo em NVMe (~1,5 s/ep.) |
+| **Metadados** | `--language 0:por`, `--track-name "0:Português (Gemma 4B)"`, `--default-track 0:yes` |
+| **Resiliência** | `Ctrl+C` salva estatísticas parciais em JSON |
+| **Saída** | `{pasta}/mkv_final_ptbr/{base}_PTBR.mkv` |
 
 ---
 
@@ -33,50 +22,62 @@
 
 ```mermaid
 flowchart TB
-    START([main]) --> INPUT[Pasta ou arquivo .srt]
-    INPUT --> LOG[configurar_logs]
-    LOG --> VAL[validar_lm_studio :1234]
+    START([__main__]) --> IN1[input pasta .mkv]
+    IN1 --> IN2[input pasta .ass]
+    IN2 --> INIT[IndustrialRemuxerV2<br/>cria mkv_final_ptbr]
 
-    VAL -->|Falha| ABORT([sys.exit 1])
-    VAL -->|OK| BATCH[obter_batch_size padrao 20]
+    INIT --> CFG[remux_config timestamp.txt]
+    CFG --> VAL[validar_infraestrutura<br/>mkvmerge --version]
 
-    BATCH --> READ[ler_srt_com_encoding]
-    READ --> SPLIT[split blocos SRT por linha dupla]
-    SPLIT --> LOOP[Lotes com tqdm]
+    VAL -->|Falha| EXIT([sys.exit 1])
+    VAL -->|OK| FILA[construir_fila_processamento]
 
-    LOOP --> API[POST /v1/chat/completions<br/>temperature 0.3]
-    API -->|Erro| ABORT
-    API -->|OK| LOOP
+    FILA -->|Vazia| WARN[Nenhum par encontrado]
+    FILA -->|OK| LOOP{Para cada par}
 
-    LOOP --> SAVE[Grava _PTBR.srt UTF-8]
-    SAVE --> REL[Relatorio no log]
-    REL --> END([Fim])
+    LOOP --> CMD[subprocess mkvmerge]
+    CMD --> META[language por + default-track]
+    META --> OK[Sucesso + bytes no stats]
+    OK --> LOOP
 
-    style API fill:#4B0082,stroke:#00E5FF,color:#fff
-    style SAVE fill:#1a1a2e,stroke:#00E5FF,color:#fff
-    style ABORT fill:#5c1010,stroke:#ff4444,color:#fff
+    CMD -->|Erro| ERR[remux_erros.txt]
+    ERR --> LOOP
+
+    LOOP --> REL[remux_stats.json]
+
+    CTRL[Ctrl+C] -.-> PARCIAL[Salva stats parciais JSON]
+
+    style OK fill:#1e4620,stroke:#32CD32,color:#fff
+    style EXIT fill:#5c1010,stroke:#ff4444,color:#fff
+    style CMD fill:#2d3748,stroke:#00E5FF,color:#fff
 ```
 
 ---
 
-## Sequência (API)
+## Entrada / saída (remux)
 
 ```mermaid
-sequenceDiagram
-    participant U as Usuario
-    participant T as tradutor_srt_direto.py
-    participant L as LM Studio :1234
-
-    U->>T: Caminho pasta ou .srt
-    T->>L: GET /v1/models
-    L-->>T: Modelo ativo
-    U->>T: Tamanho do lote opcional
-  loop Cada lote de blocos SRT
-        T->>L: POST /v1/chat/completions
-        L-->>T: Blocos traduzidos PT-BR
+flowchart LR
+    subgraph ENTRADA["Entradas"]
+        V["episodio.mkv"]
+        S["episodio_PTBR.ass"]
     end
-    T->>T: Salva nome_PTBR.srt
-    T-->>U: Log em 5_tradutor_de_legenda/logs/
+
+    subgraph REMUX["batch_remuxer.py"]
+        P["Pareamento estrito"]
+        M["mkvmerge.exe"]
+    end
+
+    subgraph SAIDA["Saida"]
+        O["mkv_final_ptbr/episodio_PTBR.mkv"]
+    end
+
+    V --> P
+    S --> P
+    P --> M
+    M --> O
+
+    style REMUX fill:#1e4620,stroke:#32CD32,color:#fff
 ```
 
 ---
@@ -84,20 +85,26 @@ sequenceDiagram
 ## Comando
 
 ```powershell
-python .\5_tradutor_de_legenda\tradutor_srt_direto.py
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 ```
 
-| Prompt interativo | Exemplo |
+| Prompt | Exemplo |
 |:---|:---|
-| Caminho da pasta ou arquivo | `C:\TRACKER-ANIMES\animes\md-2\legenda` |
-| Tamanho do lote | ENTER = 20 |
+| Pasta `.mkv` | `C:\TRACKER-ANIMES\animes\Macross Delta` |
+| Pasta `.ass` | `...\Macross Delta\traducao` |
 
 ---
 
-## Próximo passo
+## Entradas e saídas
 
-Após gerar o `*_PTBR.srt`, use a **[Fase 6](modulo-fase-6.md)** para converter em ASS com correção de FPS, e depois a **[Fase 2](modulo-fase-2.md)** para remuxar no `.mkv`.
+| Entrada | Saída | Dependências |
+|:---|:---|:---|
+| Pasta `.mkv` + pasta `traducao/*.ass` | `mkv_final_ptbr/*_PTBR.mkv` | `mkvmerge.exe`, `colorama`, `tqdm` |
+
+Logs: [Logs e auditoria](logs-e-auditoria.md)
 
 ---
 
-[← Pipeline SRT](pipeline-srt.md) · [Fase 6 →](modulo-fase-6.md)
+[← Fase 4](modulo-fase-4.md) · [← Fase 3](modulo-fase-3.md) · [Guia de execução](guia-de-execucao.md)
+
+> Etapa final de **todas as esteiras** — veja [Arquitetura](arquitetura.md) e [Pipeline SRT](pipeline-srt.md).

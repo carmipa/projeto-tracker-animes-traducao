@@ -1,93 +1,117 @@
-# 📐 Módulo — Fase 2 (Remuxer)
+# 📐 Módulo — Fase 2 (Extração de Legendas)
 
-[← Índice](README.md) · [`3_juntar_legendas_filmes/batch_remuxer.py`](../3_juntar_legendas_filmes/batch_remuxer.py)
+[← Índice](README.md) · [`2_extrator_legenda/`](../2_extrator_legenda/)
 
----
+Extrai a faixa de legenda original de um `.mkv` **sem traduzir** — útil para revisar a legenda antes de enviar para a IA (Fase 4), para a esteira de legendas **PGS/Blu-ray** ou para alimentar tradutores em lote (`tradutor_ass`, `tradutor_gundam_unicornio`).
 
-## Recursos
-
-| Recurso | Detalhe |
-|:---|:---|
-| **Pareamento estrito** | `{base}.mkv` ↔ `traducao/{base}_PTBR.ass` |
-| **Sem re-encode** | Apenas remux — I/O intensivo em NVMe (~1,5 s/ep.) |
-| **Metadados** | `--language 0:por`, `--track-name "0:Português (Gemma 4B)"`, `--default-track 0:yes` |
-| **Resiliência** | `Ctrl+C` salva estatísticas parciais em JSON |
-| **Saída** | `{pasta}/mkv_final_ptbr/{base}_PTBR.mkv` |
+> Se a legenda for **ASS/SRT** e você quiser ir direto para a tradução, a **Fase 4** (`sub_extractor.py` / `script_tradutor_fr.py`) já faz extração + tradução em um único passo — esta fase é opcional para esses casos.
 
 ---
 
-## Diagrama de fluxo
+## Scripts
+
+| Script | Faixa extraída | Saída | Uso típico |
+|:---|:---|:---|:---|
+| [`extrator_inteligente_ass.py`](../2_extrator_legenda/extrator_inteligente_ass.py) | `S_TEXT/ASS` (texto) | `legendas_eng/{nome}_ENG.ass` | Pré-extração para tradutores em lote (Fase 4) |
+| [`extrator_inteligente_srt.py`](../2_extrator_legenda/extrator_inteligente_srt.py) | `S_TEXT/UTF8` (SRT) | `legendas_eng/{nome}_ENG.srt` | Extrai legenda SRT embutida no MKV |
+| [`extrator_inteligente_pgs.py`](../2_extrator_legenda/extrator_inteligente_pgs.py) | `S_HDMV/PGS` (bitmap) | `extraidos_sup/{nome}_Track{id}_{lang}.sup` | Extrai legenda gráfica para OCR externo (Esteira PGS) |
+
+Todos os três usam **MKVToolNix** (`mkvmerge -J` para identificar a track + `mkvextract tracks` para extrair) e gravam um log de auditoria por execução.
+
+---
+
+## Diagrama de fluxo (comum aos três extratores)
 
 ```mermaid
 flowchart TB
-    START([__main__]) --> IN1[input pasta .mkv]
-    IN1 --> IN2[input pasta .ass]
-    IN2 --> INIT[IndustrialRemuxerV2<br/>cria mkv_final_ptbr]
+    START([main]) --> SEL[Seleciona pasta/arquivo<br/>input ou seletor de arquivos]
+    SEL --> SCAN[Lista .mkv recursivamente]
+    SCAN --> LOOP{Para cada .mkv}
 
-    INIT --> CFG[remux_config timestamp.txt]
-    CFG --> VAL[validar_infraestrutura<br/>mkvmerge --version]
+    LOOP --> JSON[mkvmerge -J<br/>identifica tracks]
+    JSON --> FILTRO{Codec da legenda}
 
-    VAL -->|Falha| EXIT([sys.exit 1])
-    VAL -->|OK| FILA[construir_fila_processamento]
+    FILTRO -->|ASS extractor: S_TEXT/ASS, SSA| MATCH_ASS[Track compativel]
+    FILTRO -->|SRT extractor: S_TEXT/UTF8| MATCH_SRT[Track compativel]
+    FILTRO -->|PGS extractor: S_HDMV/PGS| MATCH_PGS[Track compativel]
 
-    FILA -->|Vazia| WARN[Nenhum par encontrado]
-    FILA -->|OK| LOOP{Para cada par}
+    FILTRO -->|Nenhuma compativel| FALLBACK[Fallback: track ID fixo<br/>ou keyword dialogue/full/english]
+    FALLBACK --> MATCH_ASS
+    FALLBACK --> MATCH_SRT
 
-    LOOP --> CMD[subprocess mkvmerge]
-    CMD --> META[language por + default-track]
-    META --> OK[Sucesso + bytes no stats]
-    OK --> LOOP
+    MATCH_ASS --> EXTRACT[mkvextract tracks<br/>id:saida]
+    MATCH_SRT --> EXTRACT
+    MATCH_PGS --> EXTRACT
 
-    CMD -->|Erro| ERR[remux_erros.txt]
-    ERR --> LOOP
+    EXTRACT --> SAVE[Grava arquivo extraido<br/>legendas_eng/ ou extraidos_sup/]
+    SAVE --> LOG[Atualiza log de auditoria<br/>info.txt ou log/extracao_pgs_*.log]
+    LOG --> NEXT{Mais arquivos?}
+    NEXT -->|Sim| LOOP
+    NEXT -->|Nao| END([Fim])
 
-    LOOP --> REL[remux_stats.json]
-
-    CTRL[Ctrl+C] -.-> PARCIAL[Salva stats parciais JSON]
-
-    style OK fill:#1e4620,stroke:#32CD32,color:#fff
-    style EXIT fill:#5c1010,stroke:#ff4444,color:#fff
-    style CMD fill:#2d3748,stroke:#00E5FF,color:#fff
+    style EXTRACT fill:#2d3748,stroke:#00E5FF,color:#fff
+    style SAVE fill:#1e4620,stroke:#32CD32,color:#fff
+    style FALLBACK fill:#5c1010,stroke:#ff4444,color:#fff
 ```
 
 ---
 
-## Entrada / saída (remux)
+## `extrator_inteligente_ass.py`
 
-```mermaid
-flowchart LR
-    subgraph ENTRADA["Entradas"]
-        V["episodio.mkv"]
-        S["episodio_PTBR.ass"]
-    end
+| Item | Detalhe |
+|:---|:---|
+| Entrada | Pasta com `.mkv` (prompt interativo) |
+| Detecção | `mkvmerge -J` → track `S_TEXT/ASS`/`SSA`; fallback para IDs fixos `4`/`5` (séries Gundam Unicorn) ou palavras-chave `dialogue`, `full`, `english` |
+| Saída | `legendas_eng/{nome}_ENG.ass` |
+| Log | `info.txt` (episódio, Track ID, nome da track, formato detectado, arquivo gerado) |
+| Dependências | MKVToolNix, `colorama`, `tqdm` |
 
-    subgraph REMUX["batch_remuxer.py"]
-        P["Pareamento estrito"]
-        M["mkvmerge.exe"]
-    end
+---
 
-    subgraph SAIDA["Saida"]
-        O["mkv_final_ptbr/episodio_PTBR.mkv"]
-    end
+## `extrator_inteligente_srt.py`
 
-    V --> P
-    S --> P
-    P --> M
-    M --> O
+| Item | Detalhe |
+|:---|:---|
+| Entrada | Pasta com `.mkv` (prompt interativo) |
+| Detecção | `mkvmerge -J` → track `S_TEXT/UTF8`; fallback ID `2` |
+| Saída | `legendas_eng/{nome}_ENG.srt` |
+| Log | `info.txt` (mesmo formato do extrator ASS) |
+| Dependências | MKVToolNix, `colorama`, `tqdm` |
 
-    style REMUX fill:#1e4620,stroke:#32CD32,color:#fff
+---
+
+## `extrator_inteligente_pgs.py`
+
+| Item | Detalhe |
+|:---|:---|
+| Entrada | Caminho manual, seletor de arquivo ou seletor de pasta (3 opções no menu); aceita arrastar-e-soltar como argumento |
+| Detecção | `mkvmerge -J` → track `S_HDMV/PGS` |
+| Saída | `extraidos_sup/{nome}_Track{id}_{idioma}.sup` |
+| Log | `log/extracao_pgs_AAAAMMDD_HHMMSS.log` (timestamp, nível, mensagem) |
+| Dependências | MKVToolNix, `colorama`, `tqdm`, `winreg` (Windows) |
+
+> O `.sup` gerado é um **bitmap** — não há texto extraível diretamente. Use uma ferramenta de OCR externa (ex.: **Subtitle Edit** com **Tesseract**) para gerar um `.srt`, depois siga para a **[Fase 3 — Conversor SRT → ASS](modulo-fase-3.md)**. Veja [Esteira C](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap).
+
+---
+
+## Comandos
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\2_extrator_legenda\extrator_inteligente_srt.py"
+python ".\2_extrator_legenda\extrator_inteligente_pgs.py"
 ```
 
 ---
 
-## Entradas e saídas
+## Próximo passo
 
-| Entrada | Saída | Dependências |
-|:---|:---|:---|
-| Pasta `.mkv` + pasta `traducao/*.ass` | `mkv_final_ptbr/*_PTBR.mkv` | `mkvmerge.exe`, `colorama`, `tqdm` |
+| Legenda extraída | Próxima fase |
+|:---|:---|
+| `legendas_eng/*_ENG.ass` | [Fase 4 — Tradução em lote (`tradutor_ass`, `tradutor_gundam_unicornio`)](modulo-fase-4.md) |
+| `legendas_eng/*_ENG.srt` | Traduza com [Fase 4 — `tradutor_srt_direto.py`](modulo-fase-4.md#4---tradutor_srt_diretopy-srt-externo) e depois [Fase 3](modulo-fase-3.md) |
+| `extraidos_sup/*.sup` | OCR externo → `.srt` → [Fase 4](modulo-fase-4.md) → [Fase 3](modulo-fase-3.md) |
 
 ---
 
-[← Fase 1](modulo-fase-1.md) · [← Fase 6](modulo-fase-6.md) · [Guia de execução](guia-de-execucao.md)
-
-> Também usado ao final da [esteira SRT (5→6→2)](pipeline-srt.md).
+[← Fase 1](modulo-fase-1.md) · [Próximo: Fase 4 →](modulo-fase-4.md)

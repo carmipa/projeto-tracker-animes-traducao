@@ -139,7 +139,9 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 
 ---
 
-## 📚 Documentação (`docs/`)
+## 📑 Índice da documentação
+
+### Guias gerais
 
 | Guia | Descrição |
 |:---|:---|
@@ -147,10 +149,35 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | [Arquitetura](docs/arquitetura.md) | 8 fases + diagramas de todas as esteiras (A–F) |
 | [Estrutura do repositório](docs/estrutura-repositorio.md) | Árvore de pastas e pastas legadas |
 | [Pipeline SRT (Esteira B)](docs/pipeline-srt.md) | Filmes e legendas externas |
-| [Fases 1–8](docs/README.md#-módulos-por-fase) | Documentação de cada módulo |
-| [Instalação](docs/instalacao.md) · [Dependências](docs/dependencias-python.md) | Ambiente |
+| [Instalação](docs/instalacao.md) | Checklist SO, venv, LM Studio, MKVToolNix, FFmpeg |
+| [Dependências Python](docs/dependencias-python.md) | `requirements.txt` por fase |
 | [Guia de execução](docs/guia-de-execucao.md) | Comandos por esteira e layout de pastas |
-| [Logs](docs/logs-e-auditoria.md) · [Problemas](docs/solucao-de-problemas.md) | Operação e troubleshooting |
+| [Logs e auditoria](docs/logs-e-auditoria.md) | Artefatos de log por fase |
+| [Solução de problemas](docs/solucao-de-problemas.md) | Troubleshooting por esteira |
+
+### Módulos por fase
+
+| Fase | Documento | Pasta / script principal |
+|:---:|:---|:---|
+| 1 | [Analisador de mídia](docs/modulo-fase-1.md) | `1_analisador_de_midia/media_analyzer.py` |
+| 2 | [Extração de legendas](docs/modulo-fase-2.md) | `2_extrator_legenda/` (ASS, SRT, PGS) |
+| 3 | [Conversor SRT → ASS](docs/modulo-fase-3.md) | `3-conversor_str_ass/conversor_srt_para_ass.py` |
+| 4 | [Tradução IA (LM Studio/Gemma)](docs/modulo-fase-4.md) | `4_tradutor_ia_gemma4/` (5 variantes) |
+| 5 | [Remuxer](docs/modulo-fase-5.md) | `5_juntar_legendas_filmes/batch_remuxer.py` |
+| 6 | [Sincronização de legendas](docs/modulo-fase-6.md) | `6_sincronizacao_legenda/` |
+| 7 | [Otimização de vídeo (GPU)](docs/modulo-fase-7.md) | `7_decodificador/gpu_video_optimizer.py` |
+| 8 | [Cura de legendas](docs/modulo-fase-8.md) | `8_cura_legendas/` |
+
+### Esteiras (fluxos completos)
+
+| Esteira | Fases | Cenário | Documento |
+|:---:|:---|:---|:---|
+| **A** | 4 → 5 | Episódio MKV, ASS embutido (inglês) | [Arquitetura](docs/arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) |
+| **B** | 4 → 3 → 5 | Filme com SRT externo (inglês) | [Pipeline SRT](docs/pipeline-srt.md) |
+| **C** | 2 → OCR externo → 3 → 5 | Legenda PGS (Blu-ray bitmap) | [Arquitetura](docs/arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) |
+| **D** | 4 → 5 | Episódio MKV, ASS embutido (francês) | [Arquitetura](docs/arquitetura.md#esteira-d--tradução-francês--pt-br-multi-thread) |
+| **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](docs/arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista) |
+| **F** | 2 → 4 → 8 → 5 | Gundam Unicorn (especializada) | [Arquitetura](docs/arquitetura.md#esteira-f--gundam-unicorn-especializada) |
 
 ---
 

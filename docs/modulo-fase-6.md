@@ -2,6 +2,8 @@
 
 [← Índice](README.md) · [`6_sincronizacao_legenda/`](../6_sincronizacao_legenda/)
 
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · **6** · [7](modulo-fase-7.md) · [8](modulo-fase-8.md)
+
 Conjunto de **utilitários auxiliares** para diagnosticar e corrigir dessincronia entre vídeo e legenda. Pode ser usado **antes** (auditoria) ou **depois** (correção fina) de qualquer esteira, normalmente quando a **Fase 1** reporta um veredito diferente de "Sincronizada".
 
 ---

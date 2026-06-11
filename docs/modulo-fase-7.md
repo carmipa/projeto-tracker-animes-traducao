@@ -2,6 +2,8 @@
 
 [← Índice](README.md) · [`7_decodificador/gpu_video_optimizer.py`](../7_decodificador/gpu_video_optimizer.py)
 
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · **7** · [8](modulo-fase-8.md)
+
 **Opcional / pós-processamento.** Reduz o tamanho de arquivos `.mkv` finais recomprimindo o vídeo em **HEVC (H.265)** via aceleração de GPU (NVENC), sem afetar as legendas já remuxadas.
 
 ---

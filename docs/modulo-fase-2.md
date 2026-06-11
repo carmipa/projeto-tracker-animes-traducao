@@ -2,6 +2,8 @@
 
 [← Índice](README.md) · [`2_extrator_legenda/`](../2_extrator_legenda/)
 
+**Fases:** [1](modulo-fase-1.md) · **2** · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md)
+
 Extrai a faixa de legenda original de um `.mkv` **sem traduzir** — útil para revisar a legenda antes de enviar para a IA (Fase 4), para a esteira de legendas **PGS/Blu-ray** ou para alimentar tradutores em lote (`tradutor_ass`, `tradutor_gundam_unicornio`).
 
 > Se a legenda for **ASS/SRT** e você quiser ir direto para a tradução, a **Fase 4** (`sub_extractor.py` / `script_tradutor_fr.py`) já faz extração + tradução em um único passo — esta fase é opcional para esses casos.

@@ -1,0 +1,63 @@
+[16:20:53.970] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-12_16-20-53.txt
+[16:20:53.970] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[16:20:54.079] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[16:20:54.080] [DEBUG   ] Validando caminhos de diretórios locais...
+[16:20:54.080] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[16:20:54.080] [DEBUG   ] Escaneando diretório: D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]
+[16:20:54.080] [INFO    ] Encontrados 13 arquivos de vídeo com extensão .mkv.
+[16:20:54.080] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][01][1080p][HEVC][Webrip](E1AED70B).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][01][1080p][HEVC][Webrip](E1AED70B)_PTBR.ass
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][02][1080p][HEVC][Webrip](2CEC8E71).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][02][1080p][HEVC][Webrip](2CEC8E71)_PTBR.ass
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][03][1080p][HEVC][Webrip](4F2B2BFA).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][03][1080p][HEVC][Webrip](4F2B2BFA)_PTBR.ass
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][04][1080p][HEVC][Webrip](5FE1652B).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][04][1080p][HEVC][Webrip](5FE1652B)_PTBR.ass
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][05][1080p][HEVC][Webrip](106FCAA0).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][05][1080p][HEVC][Webrip](106FCAA0)_PTBR.ass
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][06][1080p][HEVC][Webrip](813F24D4).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][06][1080p][HEVC][Webrip](813F24D4)_PTBR.ass
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][07][1080p][HEVC][Webrip](505902AA).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][07][1080p][HEVC][Webrip](505902AA)_PTBR.ass
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][08][1080p][HEVC][Webrip](6D86D845).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][08][1080p][HEVC][Webrip](6D86D845)_PTBR.ass
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][09][1080p][HEVC][Webrip](4F4DAB13).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][09][1080p][HEVC][Webrip](4F4DAB13)_PTBR.ass
+[16:20:54.081] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][10][1080p][HEVC][Webrip](A72FE704).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][10][1080p][HEVC][Webrip](A72FE704)_PTBR.ass
+[16:20:54.082] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][11][1080p][HEVC][Webrip](87FCBBD0).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][11][1080p][HEVC][Webrip](87FCBBD0)_PTBR.ass
+[16:20:54.082] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][12][1080p][HEVC][Webrip](0AE7CEDD).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][12][1080p][HEVC][Webrip](0AE7CEDD)_PTBR.ass
+[16:20:54.082] [DEBUG   ]   Pareado com sucesso: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][13][1080p][HEVC][Webrip](0C42A212).mkv -> [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][13][1080p][HEVC][Webrip](0C42A212)_PTBR.ass
+[16:20:54.082] [INFO    ] Esteira trancada. Processando 13 episódios em lote via mkvmerge.
+[16:20:54.092] [INFO    ] [1/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][01][1080p][HEVC][Webrip](E1AED70B).mkv
+[16:20:54.092] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:20:54.869] [INFO    ] SUCESSO:   Concluido (0.331 GB) em 0.78s! Legenda adicionada.
+[16:20:54.870] [INFO    ] [2/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][02][1080p][HEVC][Webrip](2CEC8E71).mkv
+[16:20:54.870] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:20:55.696] [INFO    ] SUCESSO:   Concluido (0.392 GB) em 0.83s! Legenda adicionada.
+[16:20:55.696] [INFO    ] [3/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][03][1080p][HEVC][Webrip](4F2B2BFA).mkv
+[16:20:55.697] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:20:56.576] [INFO    ] SUCESSO:   Concluido (0.404 GB) em 0.88s! Legenda adicionada.
+[16:20:56.577] [INFO    ] [4/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][04][1080p][HEVC][Webrip](5FE1652B).mkv
+[16:20:56.577] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:20:57.587] [INFO    ] SUCESSO:   Concluido (0.473 GB) em 1.01s! Legenda adicionada.
+[16:20:57.588] [INFO    ] [5/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][05][1080p][HEVC][Webrip](106FCAA0).mkv
+[16:20:57.588] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:20:58.557] [INFO    ] SUCESSO:   Concluido (0.461 GB) em 0.97s! Legenda adicionada.
+[16:20:58.558] [INFO    ] [6/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][06][1080p][HEVC][Webrip](813F24D4).mkv
+[16:20:58.558] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:20:59.459] [INFO    ] SUCESSO:   Concluido (0.387 GB) em 0.90s! Legenda adicionada.
+[16:20:59.460] [INFO    ] [7/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][07][1080p][HEVC][Webrip](505902AA).mkv
+[16:20:59.460] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:21:00.505] [INFO    ] SUCESSO:   Concluido (0.485 GB) em 1.04s! Legenda adicionada.
+[16:21:00.505] [INFO    ] [8/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][08][1080p][HEVC][Webrip](6D86D845).mkv
+[16:21:00.505] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:21:01.409] [INFO    ] SUCESSO:   Concluido (0.399 GB) em 0.90s! Legenda adicionada.
+[16:21:01.410] [INFO    ] [9/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][09][1080p][HEVC][Webrip](4F4DAB13).mkv
+[16:21:01.410] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:21:02.209] [INFO    ] SUCESSO:   Concluido (0.356 GB) em 0.80s! Legenda adicionada.
+[16:21:02.209] [INFO    ] [10/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][10][1080p][HEVC][Webrip](A72FE704).mkv
+[16:21:02.209] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:21:03.050] [INFO    ] SUCESSO:   Concluido (0.361 GB) em 0.84s! Legenda adicionada.
+[16:21:03.051] [INFO    ] [11/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][11][1080p][HEVC][Webrip](87FCBBD0).mkv
+[16:21:03.051] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:21:04.010] [INFO    ] SUCESSO:   Concluido (0.447 GB) em 0.96s! Legenda adicionada.
+[16:21:04.010] [INFO    ] [12/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][12][1080p][HEVC][Webrip](0AE7CEDD).mkv
+[16:21:04.010] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:21:04.806] [INFO    ] SUCESSO:   Concluido (0.343 GB) em 0.80s! Legenda adicionada.
+[16:21:04.806] [INFO    ] [13/13] Multiplexando container Matroska: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][13][1080p][HEVC][Webrip](0C42A212).mkv
+[16:21:04.806] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[16:21:05.571] [INFO    ] SUCESSO:   Concluido (0.301 GB) em 0.76s! Legenda adicionada.
+[16:21:05.572] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-12_16-20-53.json
+[16:21:05.573] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

@@ -88,7 +88,9 @@ SYSTEM_PROMPT = (
     "- 鲁姆战役 ➔ Batalha de Loum\n"
     "- 红色彗星 ➔ Cometa Vermelho\n"
     "- 白色基地 ➔ White Base\n"
-    "- 路西法 ➔ Lucifer\n\n"
+    "- 路西法 ➔ Lucifer\n"
+    "- 库姆朗 ➔ Kumlang\n"
+    "- 接舷码头 ➔ doca de acoplamento\n\n"
     "- 演讲 / 演讲稿 ➔ discurso / texto do discurso, nunca palestra em contexto político\n"
     "- 各各他 ➔ Gólgota\n"
     "- 十字架 ➔ cruz\n"
@@ -138,7 +140,7 @@ SUBSTITUICOES_POS_PROCESSAMENTO = [
 ]
 
 PADRAO_PREAMBULO_LLM = re.compile(
-    r"^(aqui está|aqui estão|claro, vou|claro, aqui|segue a tradução|segue a resposta|abaixo estão|abaixo segue|a tradução é|as traduções são|espero que|espero ajudar|vou traduzir|esta é a)",
+    r"^(aqui está|esta é|segue|abaixo|claro, vou)\s+(a\s+)?(tradu[çc][aã]o|resposta|legenda)",
     re.I,
 )
 

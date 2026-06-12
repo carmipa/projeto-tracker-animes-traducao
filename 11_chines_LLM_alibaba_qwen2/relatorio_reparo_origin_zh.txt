@@ -1,0 +1,7 @@
+RELATORIO DE REPARO LOCAL - GUNDAM THE ORIGIN ZH
+Gerado em: 2026-06-12 13:53:21
+Modelo: qwen2.5-7b-instruct
+================================================================================
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][09][1080p][HEVC][Webrip](4F4DAB13)_PTBR.ass | Erros: 1 | Reparados: 1 | Falhas: 0
+================================================================================
+TOTAL: 1 erros | 1 reparados | 0 falhas | Tempo: 9s

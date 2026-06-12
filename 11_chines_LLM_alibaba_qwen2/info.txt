@@ -1,0 +1,20 @@
+RELATORIO DE TRADUCAO BATCH - GUNDAM THE ORIGIN ZH -> PTBR
+Gerado em: 2026-06-12 12:24:20
+Modelo: qwen2.5-7b-instruct
+Batch size: 8 | Threads: 2
+================================================================================
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][01][1080p][HEVC][Webrip](E1AED70B)_PTBR.ass | Diálogos: 422 | Cache Hits: 414 | Chamadas: 1 | Fallbacks: 0 | Tempo: 0s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][02][1080p][HEVC][Webrip](2CEC8E71)_PTBR.ass | Diálogos: 417 | Cache Hits: 398 | Chamadas: 3 | Fallbacks: 1 | Tempo: 16s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][03][1080p][HEVC][Webrip](4F2B2BFA)_PTBR.ass | Diálogos: 353 | Cache Hits: 349 | Chamadas: 1 | Fallbacks: 0 | Tempo: 0s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][04][1080p][HEVC][Webrip](5FE1652B)_PTBR.ass | Diálogos: 386 | Cache Hits: 99 | Chamadas: 36 | Fallbacks: 0 | Tempo: 2m 45s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][05][1080p][HEVC][Webrip](106FCAA0)_PTBR.ass | Diálogos: 348 | Cache Hits: 13 | Chamadas: 42 | Fallbacks: 4 | Tempo: 3m 45s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][06][1080p][HEVC][Webrip](813F24D4)_PTBR.ass | Diálogos: 348 | Cache Hits: 29 | Chamadas: 40 | Fallbacks: 4 | Tempo: 13m 37s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][07][1080p][HEVC][Webrip](505902AA)_PTBR.ass | Diálogos: 285 | Cache Hits: 28 | Chamadas: 33 | Fallbacks: 1 | Tempo: 2m 36s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][08][1080p][HEVC][Webrip](6D86D845)_PTBR.ass | Diálogos: 340 | Cache Hits: 28 | Chamadas: 39 | Fallbacks: 3 | Tempo: 3m 44s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][09][1080p][HEVC][Webrip](4F4DAB13)_PTBR.ass | Diálogos: 352 | Cache Hits: 7 | Chamadas: 44 | Fallbacks: 3 | Tempo: 4m 15s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][10][1080p][HEVC][Webrip](A72FE704)_PTBR.ass | Diálogos: 330 | Cache Hits: 53 | Chamadas: 35 | Fallbacks: 1 | Tempo: 2m 55s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][11][1080p][HEVC][Webrip](87FCBBD0)_PTBR.ass | Diálogos: 360 | Cache Hits: 53 | Chamadas: 39 | Fallbacks: 7 | Tempo: 3m 56s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][12][1080p][HEVC][Webrip](0AE7CEDD)_PTBR.ass | Diálogos: 361 | Cache Hits: 43 | Chamadas: 40 | Fallbacks: 0 | Tempo: 3m 22s
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][13][1080p][HEVC][Webrip](0C42A212)_PTBR.ass | Diálogos: 345 | Cache Hits: 28 | Chamadas: 40 | Fallbacks: 3 | Tempo: 3m 37s
+================================================================================
+TOTAL: 13 arquivos | 4647 diálogos | 1542 cache hits | 27 fallbacks | Tempo total: 44m 52s

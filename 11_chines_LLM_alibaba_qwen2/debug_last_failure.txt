@@ -1,0 +1,8 @@
+=== INPUT ENVIADO AO MODELO ===
+1. 这里太吵
+
+=== RESPOSTA BRUTA DO MODELO ===
+1. Aqui está muito barulhento.
+
+=== PARSED (1 linhas) ===
+  1. Aqui está muito barulhento.

@@ -371,10 +371,20 @@ def obter_diretorio_operador(mensagem_prompt, padrao_caminho=None):
 if __name__ == "__main__":
     print(f"\n{Fore.CYAN}{'='*80}\n{Fore.CYAN}{'CONFIGURAÇÃO DE DIRETÓRIOS':^80}\n{Fore.CYAN}{'='*80}")
 
-    caminho_padrao_videos = r"D:\PROJETOS-OPEN\animes\Guilty Crown"
+    caminho_padrao_videos = (
+        r"D:\PROJETOS-OPEN\animes"
+        r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+        r"\Season 1"
+    )
     pasta_videos = obter_diretorio_operador("Pasta com os vídeos originais (.mkv)", caminho_padrao_videos)
 
-    caminho_padrao_legendas = os.path.join(pasta_videos, "traducao")
+    # Tenta detectar qual subpasta de tradução existe na pasta selecionada
+    caminho_padrao_legendas = os.path.join(pasta_videos, "legendas_ptbr")
+    if not os.path.exists(caminho_padrao_legendas):
+        caminho_padrao_legendas = os.path.join(pasta_videos, "traduzidos")
+    if not os.path.exists(caminho_padrao_legendas):
+        caminho_padrao_legendas = os.path.join(pasta_videos, "traducao")
+
     pasta_legendas = obter_diretorio_operador("Pasta com as legendas (.ass)", caminho_padrao_legendas)
 
     remuxer = IndustrialRemuxerV2(pasta_videos, pasta_legendas)

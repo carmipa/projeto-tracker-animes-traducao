@@ -237,7 +237,7 @@ def traduzir_bloco_ia(bloco):
                             trad = trad.replace(marcador, tag, 1)
                         else:
                             # Fallback tolerante a grafias alteradas pela IA
-                            trad = re.sub(rf'\[?[Tt]{idx_tag}\]?', tag, trad, count=1)
+                            trad = re.sub(rf'\[?[Tt]{idx_tag}\]?', lambda m: tag, trad, count=1)
                     resultados.append((idx, f"{meta}{trad}\n", False))
                 else:
                     resultados.append((idx, f"{meta}[ERRO_TRADUCAO: {texto_orig}]\n", True))

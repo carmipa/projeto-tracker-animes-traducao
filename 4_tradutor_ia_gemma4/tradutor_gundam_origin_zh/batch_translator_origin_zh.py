@@ -19,6 +19,7 @@ import re
 import sys
 import json
 import time
+import argparse
 import requests
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -32,6 +33,7 @@ LM_STUDIO_MODELS_URL = "http://localhost:1234/v1/models"
 MAX_THREADS = 2   # Threads paralelas no LM Studio
 BATCH_SIZE = 8    # Diálogos por lote de tradução
 MODELO_ATIVO = "local-model"
+MAX_TAGS_POR_LINHA = 24
 
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
 ARQUIVO_INFO = os.path.join(PASTA_SCRIPT, "info.txt")
@@ -50,11 +52,13 @@ SYSTEM_PROMPT = (
     "2. Responda APENAS com as linhas traduzidas numeradas. Não adicione observações, explicações, introduções ou comentários.\n"
     "3. Nunca mescle, divida, reordene, remova ou duplique as linhas numeradas.\n"
     "4. Mantenha intactos todos os marcadores e tags de legenda exatamente como recebidos, como '[T0]', '[T1]', '[T2]', '{\\an8}', '<i>', '</i>', etc. Eles devem permanecer na mesma posição.\n"
-    "5. Converta a pontuação chinesa de largura total (como '，', '。', '！', '？', '“', '”') para a pontuação ocidental correspondente (',', '.', '!', '?', '\"', '\"').\n\n"
+    "5. Converta a pontuação chinesa de largura total (como '，', '。', '！', '？', '“', '”') para a pontuação ocidental correspondente (',', '.', '!', '?', '\"', '\"').\n"
+    "6. A saída final não pode conter caracteres chineses. Se houver créditos/fansub, traduza o sentido para PT-BR e preserve URLs/nomes romanizados.\n\n"
     
     "GLOSSÁRIO DE GUNDAM ORIGIN (MANTENHA OS NOMES OFICIAIS EM INGLÊS/PORTUGUÊS):\n"
     "Use a tradução correta para estes termos em chinês:\n"
     "- 联邦 (Liánbāng) ou 地球联邦 ➔ Federação da Terra (ou apenas Federação)\n"
+    "- 地球圈 ➔ Esfera Terrestre, nunca 'Terra Sfera'\n"
     "- 吉翁 (Jíwēng) ou 吉翁公国 ➔ Zeon (ou Principado de Zeon)\n"
     "- 戴肯 (Dàikěn) / 吉翁·兹姆·戴肯 ➔ Deikun / Zeon Zum Deikun\n"
     "- 阿斯特莱雅 (Āsītèláiyǎ) ➔ Astraia Tor Deikun\n"
@@ -83,11 +87,57 @@ SYSTEM_PROMPT = (
     "- 红色彗星 ➔ Cometa Vermelho\n"
     "- 白色基地 ➔ White Base\n"
     "- 路西法 ➔ Lucifer\n\n"
+    "- 演讲 / 演讲稿 ➔ discurso / texto do discurso, nunca palestra em contexto político\n"
+    "- 各各他 ➔ Gólgota\n"
+    "- 十字架 ➔ cruz\n"
+    "- 盖亚 ➔ Gaia\n\n"
     
     "DIRETRIZES DE ESTILO PARA LEGENDAS EM PT-BR:\n"
     "1. Evite traduções literais. Adapte para que soe natural em português brasileiro falado.\n"
     "2. Mantenha o tom sério, político e dramático de ficção científica militar do anime.\n"
     "3. Se uma linha for ambígua, use o contexto político e militar de Gundam.\n"
+)
+
+MAPA_PONTUACAO_CHINESA = str.maketrans({
+    "，": ",",
+    "。": ".",
+    "！": "!",
+    "？": "?",
+    "：": ":",
+    "；": ";",
+    "“": '"',
+    "”": '"',
+    "‘": "'",
+    "’": "'",
+    "（": "(",
+    "）": ")",
+    "…": "...",
+})
+
+PADRAO_CJK = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+
+SUBSTITUICOES_POS_PROCESSAMENTO = [
+    (re.compile(r"\bTerra Sfera\b", re.I), "Esfera Terrestre"),
+    (re.compile(r"\bEssa palestra\b"), "Esse discurso"),
+    (re.compile(r"\bessa palestra\b"), "esse discurso"),
+    (re.compile(r"\bA palestra\b"), "O discurso"),
+    (re.compile(r"\ba palestra\b"), "o discurso"),
+    (re.compile(r"\bpalestra\b", re.I), "discurso"),
+    (re.compile(r"\bGogltha\b", re.I), "Gólgota"),
+    (re.compile(r"\bGolgotha\b", re.I), "Gólgota"),
+    (re.compile(r"\bpregão de Gólgota\b", re.I), "lugar de execução do Gólgota"),
+    (re.compile(r"\bcruzamento\b", re.I), "cruz"),
+    (re.compile(r"\bao Federação\b", re.I), "à Federação"),
+    (re.compile(r"\bdo Federação\b", re.I), "da Federação"),
+    (re.compile(r"\bA Terra Federação\b", re.I), "A Federação da Terra"),
+    (re.compile(r"\bComputador Shinjico\b", re.I), "Shinjico"),
+    (re.compile(r"\bTurma do Conto\b", re.I), "Grupo de Legendas Manyuu"),
+    (re.compile(r"\bmorrendo em extinção\b", re.I), "até serem exterminados"),
+]
+
+PADRAO_PREAMBULO_LLM = re.compile(
+    r"^(aqui|claro|tradu[çc][aã]o|abaixo|ok|segue|segunda|resposta|espero|vou traduzir|as tradu[çc][oõ]es)",
+    re.I,
 )
 
 
@@ -100,8 +150,33 @@ def carregar_cache():
     if os.path.exists(CAMINHO_CACHE):
         try:
             with open(CAMINHO_CACHE, 'r', encoding='utf-8') as f:
-                CACHE = json.load(f)
-            print(f"{Fore.GREEN}[CACHE] Carregado {len(CACHE)} traduções do disco.")
+                dados = json.load(f)
+            if not isinstance(dados, dict):
+                raise ValueError("cache nao e um objeto JSON")
+
+            cache_limpo = {}
+            entradas_removidas = 0
+            entradas_corrigidas = 0
+            for original, traducao in dados.items():
+                if not isinstance(original, str) or not isinstance(traducao, str):
+                    entradas_removidas += 1
+                    continue
+                traducao_corrigida = post_processar_traducao(traducao)
+                if not validar_traducao(original, traducao_corrigida):
+                    entradas_removidas += 1
+                    continue
+                if traducao_corrigida != traducao:
+                    entradas_corrigidas += 1
+                cache_limpo[original] = traducao_corrigida
+
+            CACHE = cache_limpo
+            print(f"{Fore.GREEN}[CACHE] Carregado {len(CACHE)} traduções válidas do disco.")
+            if entradas_removidas or entradas_corrigidas:
+                print(
+                    f"{Fore.YELLOW}[CACHE] Saneamento: {entradas_corrigidas} corrigidas, "
+                    f"{entradas_removidas} removidas."
+                )
+                salvar_cache()
         except Exception as e:
             print(f"{Fore.YELLOW}[CACHE] Erro ao carregar cache, iniciando vazio: {e}")
             CACHE = {}
@@ -111,10 +186,41 @@ def carregar_cache():
 
 def salvar_cache():
     try:
-        with open(CAMINHO_CACHE, 'w', encoding='utf-8') as f:
+        caminho_tmp = CAMINHO_CACHE + ".tmp"
+        with open(caminho_tmp, 'w', encoding='utf-8') as f:
             json.dump(CACHE, f, indent=2, ensure_ascii=False)
+        os.replace(caminho_tmp, CAMINHO_CACHE)
     except Exception as e:
         print(f"{Fore.RED}[CACHE] Erro ao salvar cache em disco: {e}")
+
+
+def post_processar_traducao(texto: str) -> str:
+    """Normaliza pontuação e corrige erros recorrentes observados no cache."""
+    if not texto:
+        return ""
+
+    texto = texto.translate(MAPA_PONTUACAO_CHINESA)
+    texto = re.sub(r"\s+([,.!?;:])", r"\1", texto)
+    texto = re.sub(r"([¿¡])\s+", r"\1", texto)
+    texto = re.sub(r"[ \t]{2,}", " ", texto)
+
+    for padrao, substituto in SUBSTITUICOES_POS_PROCESSAMENTO:
+        texto = padrao.sub(substituto, texto)
+
+    return texto.strip()
+
+
+def validar_traducao(original: str, traducao: str) -> bool:
+    """Evita cachear/usar saídas alucinadas, vazias ou ainda em chinês."""
+    if not traducao or "[ERRO_TRADUCAO" in traducao:
+        return False
+    if PADRAO_CJK.search(traducao):
+        return False
+    if PADRAO_PREAMBULO_LLM.search(traducao.strip()):
+        return False
+    if len(traducao) > max(220, len(original) * 8):
+        return False
+    return True
 
 
 # ============================================================================
@@ -166,6 +272,20 @@ def obter_diretorio_operador(mensagem_prompt, padrao_caminho=None):
         return entrada
 
 
+def ler_arquivo_legenda(caminho):
+    """Lê ASS chinês com fallback de encoding sem abortar o lote."""
+    encodings = ("utf-8-sig", "utf-8", "gb18030", "big5", "cp936")
+    for encoding in encodings:
+        try:
+            with open(caminho, 'r', encoding=encoding) as f:
+                return f.readlines(), encoding
+        except UnicodeDecodeError:
+            continue
+
+    with open(caminho, 'r', encoding='utf-8', errors='replace') as f:
+        return f.readlines(), "utf-8-replace"
+
+
 # ============================================================================
 # PROCESSAMENTO DE MASCARAMENTO & PARSE
 # ============================================================================
@@ -188,9 +308,12 @@ def restaurar_tags(texto_traduzido: str, tags: list):
             trad = trad.replace(marcador, tag, 1)
         else:
             # Fallback tolerante para variações de escrita de tag geradas pelo LLM
-            trad = re.sub(rf'\[?[Tt]\s*{idx_tag}\]?', tag, trad, count=1)
+            trad = re.sub(rf'\[?[Tt]\s*{idx_tag}\]?', lambda _m: tag, trad, count=1)
     # Remove quaisquer marcadores extras [T...] que foram alucinados pelo LLM
     trad = re.sub(r'\[[Tt]\s*\d+\]', '', trad)
+    for tag in tags:
+        if tag not in trad:
+            trad = f"{tag}{trad}"
     return trad
 
 
@@ -198,7 +321,8 @@ def _limpar_markdown(texto):
     """Remove formatações indesejadas que a IA possa introduzir no texto."""
     texto = re.sub(r'\*+', '', texto)   # remove ** e *
     texto = re.sub(r'_+', '', texto)    # remove __ e _
-    return texto.strip().strip('"').strip("'")
+    texto = texto.strip().strip('"').strip("'")
+    return post_processar_traducao(texto)
 
 
 def _parsear_resposta_numerada(conteudo, n_esperado):
@@ -216,7 +340,7 @@ def _parsear_resposta_numerada(conteudo, n_esperado):
     linhas_raw = [
         _limpar_markdown(l)
         for l in conteudo.split('\n')
-        if l.strip() and not re.match(r'^(aqui|claro|tradução|abaixo|ok|segue|segunda|resposta|espero|espero que|voilà)', l.strip(), re.I)
+        if l.strip() and not PADRAO_PREAMBULO_LLM.match(l.strip())
     ]
     return linhas_raw[:n_esperado]
 
@@ -276,7 +400,16 @@ def traduzir_lote(lote_textos: list, tentativa=1) -> dict:
                 traducoes[ultimo_idx] = "\n".join(linhas_limpas_ultimo).strip()
 
         # Retorna o dicionário com índice local -> texto traduzido
-        return {i: t for i, t in enumerate(traducoes) if t}
+        resultado = {}
+        for i, (original, traducao) in enumerate(zip(lote_textos, traducoes)):
+            traducao = post_processar_traducao(traducao)
+            if validar_traducao(original, traducao):
+                resultado[i] = traducao
+
+        if len(resultado) < len(lote_textos):
+            _salvar_debug(texto_numerado, conteudo, traducoes)
+
+        return resultado
     except Exception as e:
         if tentativa < 2:
             time.sleep(2 * tentativa)
@@ -303,7 +436,7 @@ def traduzir_lote_resiliente(lote_textos: list) -> dict:
             for tentativa in range(1, 4):
                 try:
                     res_indiv = traduzir_lote([texto])
-                    if 0 in res_indiv:
+                    if 0 in res_indiv and validar_traducao(texto, res_indiv[0]):
                         resultado_resiliente[idx_local] = res_indiv[0]
                         sucesso_linha = True
                         break
@@ -379,36 +512,67 @@ def formatar_tempo(segundos):
     return f"{s}s"
 
 
-def executar_pipeline_lote():
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Traduz legendas .chs.ass de Gundam The Origin para PT-BR via LM Studio."
+    )
+    parser.add_argument("--entrada", help="Pasta com arquivos .chs.ass")
+    parser.add_argument("--saida", help="Pasta de saída para arquivos *_PTBR.ass")
+    parser.add_argument(
+        "--padrao",
+        default=".chs.ass",
+        help="Sufixo de legenda a processar (default: .chs.ass). Use .cht.ass para chinês tradicional.",
+    )
+    parser.add_argument("--threads", type=int, default=MAX_THREADS, help="Threads paralelas de chamada ao LM Studio")
+    parser.add_argument("--batch-size", type=int, default=BATCH_SIZE, help="Quantidade de diálogos por chamada")
+    parser.add_argument(
+        "--limpar-cache",
+        action="store_true",
+        help="Descarta o cache atual antes de traduzir. Útil quando o glossário/prompt foi corrigido.",
+    )
+    return parser.parse_args()
+
+
+def executar_pipeline_lote(args=None):
+    global MAX_THREADS, BATCH_SIZE, CACHE
+    args = args or parse_args()
+    MAX_THREADS = max(1, args.threads)
+    BATCH_SIZE = max(1, args.batch_size)
+
     print("=" * 80)
     print(f"{Fore.CYAN}    TRADUTOR GUNDAM THE ORIGIN ZH | BATCH {BATCH_SIZE}L/CHAMADA | THREADS={MAX_THREADS} | CACHE")
     print("=" * 80)
 
     verificar_lm_studio()
     carregar_cache()
+    if args.limpar_cache:
+        CACHE = {}
+        salvar_cache()
+        print(f"{Fore.YELLOW}[CACHE] Cache limpo por solicitação do operador.")
 
     caminho_padrao_origem = (
         r"D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]"
         r"\[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][1080p][Webrip][ASS][CHS_CHT]"
     )
-    pasta_origem = obter_diretorio_operador("Pasta com legendas CHS.ass", caminho_padrao_origem)
+    pasta_origem = args.entrada or obter_diretorio_operador("Pasta com legendas CHS.ass", caminho_padrao_origem)
 
     caminho_padrao_saida = (
         r"D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]"
         r"\legendas_ptbr"
     )
-    pasta_saida = obter_diretorio_operador("Pasta de saida PT-BR", caminho_padrao_saida)
+    pasta_saida = args.saida or obter_diretorio_operador("Pasta de saida PT-BR", caminho_padrao_saida)
 
     os.makedirs(pasta_saida, exist_ok=True)
     
     # Filtra os arquivos em chinês simplificado
-    arquivos_ass = sorted([f for f in os.listdir(pasta_origem) if f.lower().endswith('.chs.ass')])
+    sufixo_legenda = args.padrao.lower()
+    arquivos_ass = sorted([f for f in os.listdir(pasta_origem) if f.lower().endswith(sufixo_legenda)])
 
     if not arquivos_ass:
-        print(f"{Fore.RED}[ERRO] Nenhum arquivo .chs.ass encontrado em: {pasta_origem}")
+        print(f"{Fore.RED}[ERRO] Nenhum arquivo *{args.padrao} encontrado em: {pasta_origem}")
         return
 
-    print(f"{Fore.GREEN}[OK] {len(arquivos_ass)} arquivo(s) .chs.ass localizado(s). Concorrência: {MAX_THREADS} threads.")
+    print(f"{Fore.GREEN}[OK] {len(arquivos_ass)} arquivo(s) *{args.padrao} localizado(s). Concorrência: {MAX_THREADS} threads.")
 
     linhas_relatorio = [
         "RELATORIO DE TRADUCAO BATCH - GUNDAM THE ORIGIN ZH -> PTBR",
@@ -430,15 +594,15 @@ def executar_pipeline_lote():
             tempo_inicio_arquivo = time.time()
             caminho_entrada = os.path.join(pasta_origem, arquivo)
             
-            # Renomeia o sufixo .chs.ass para _PTBR.ass
-            nome_saida_ptbr = re.sub(r'\.chs\.ass$', '_PTBR.ass', arquivo, flags=re.IGNORECASE)
+            # Renomeia o sufixo da legenda chinesa para _PTBR.ass
+            nome_saida_ptbr = re.sub(re.escape(args.padrao) + r'$', '_PTBR.ass', arquivo, flags=re.IGNORECASE)
             caminho_saida = os.path.join(pasta_saida, nome_saida_ptbr)
 
             barra_macro.set_postfix_str(arquivo[:35])
             tqdm.write(f"\n{Fore.YELLOW}[{idx_arq+1}/{len(arquivos_ass)}] -> {arquivo}")
 
-            with open(caminho_entrada, 'r', encoding='utf-8', errors='replace') as f:
-                linhas_originais = f.readlines()
+            linhas_originais, encoding_detectado = ler_arquivo_legenda(caminho_entrada)
+            tqdm.write(f"  {Fore.CYAN}Encoding: {encoding_detectado}")
 
             pat = re.compile(r"^(Dialogue:\s*[^,]*(?:,[^,]*){8},)(.*)$")
 
@@ -465,14 +629,14 @@ def executar_pipeline_lote():
                         texto_masc, tags = mascarar_tags(texto_bruto)
                         
                         # Ignora linhas com excesso de tags para evitar quebra de tokens no LLM
-                        if len(tags) > 8:
+                        if len(tags) > MAX_TAGS_POR_LINHA:
                             mapa_linhas_finais[i] = linha
                             continue
                         
                         # Consulta no cache persistente
-                        if texto_masc in CACHE:
+                        if texto_masc in CACHE and validar_traducao(texto_masc, CACHE[texto_masc]):
                             cache_hits_arquivo += 1
-                            trad_cached = CACHE[texto_masc]
+                            trad_cached = post_processar_traducao(CACHE[texto_masc])
                             # Restaura as tags exclusivas desta linha no texto recuperado do cache
                             trad_final = restaurar_tags(trad_cached, tags)
                             mapa_linhas_finais[i] = f"{metadados}{trad_final}\n"
@@ -524,7 +688,8 @@ def executar_pipeline_lote():
                                         original_masc, _ = mascarar_tags(original_txt)
                                         traduzido_masc, _ = mascarar_tags(traduzido_txt)
                                         
-                                        if original_masc and traduzido_masc and "[ERRO_TRADUCAO" not in traduzido_masc:
+                                        traduzido_masc = post_processar_traducao(traduzido_masc)
+                                        if original_masc and validar_traducao(original_masc, traduzido_masc):
                                             CACHE[original_masc] = traduzido_masc
                                             
                             except Exception as e:

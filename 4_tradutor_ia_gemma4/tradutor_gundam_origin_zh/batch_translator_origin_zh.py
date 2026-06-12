@@ -237,7 +237,7 @@ def validar_traducao(original: str, traducao: str) -> bool:
 # INFRA & DIRETÓRIOS
 # ============================================================================
 
-def verificar_lm_studio():
+def verificar_lm_studio(modelo_forcado=None):
     global MODELO_ATIVO
     print(f"{Fore.CYAN}[CHECK] Verificando LM Studio em {LM_STUDIO_MODELS_URL} ...")
     try:
@@ -247,12 +247,19 @@ def verificar_lm_studio():
             modelos = [m.get("id", "desconhecido") for m in dados.get("data", [])]
             if modelos:
                 print(f"{Fore.GREEN}[OK] LM Studio online. Modelo(s): {', '.join(modelos)}")
-                modelos_chat = [m for m in modelos if "embed" not in m.lower()]
-                if modelos_chat:
-                    MODELO_ATIVO = modelos_chat[0]
+                if modelo_forcado:
+                    if modelo_forcado not in modelos:
+                        print(
+                            f"{Fore.RED}[ERRO] Modelo '{modelo_forcado}' nao esta carregado no LM Studio. "
+                            f"Disponiveis: {', '.join(modelos)}"
+                        )
+                        sys.exit(1)
+                    MODELO_ATIVO = modelo_forcado
+                    print(f"{Fore.GREEN}[INFO] Modelo fixado pelo operador: {MODELO_ATIVO}")
                 else:
-                    MODELO_ATIVO = modelos[0]
-                print(f"{Fore.GREEN}[INFO] Modelo ativo selecionado: {MODELO_ATIVO}")
+                    modelos_chat = [m for m in modelos if "embed" not in m.lower()]
+                    MODELO_ATIVO = modelos_chat[0] if modelos_chat else modelos[0]
+                    print(f"{Fore.GREEN}[INFO] Modelo ativo selecionado: {MODELO_ATIVO}")
             else:
                 print(f"{Fore.YELLOW}[AVISO] LM Studio online mas sem modelo carregado.")
                 sys.exit(1)
@@ -438,34 +445,43 @@ def traduzir_lote(lote_textos: list, tentativa=1) -> dict:
 def traduzir_lote_resiliente(lote_textos: list) -> dict:
     """
     Traduz o lote de diálogos. Caso ocorra erro de API ou corte nas linhas,
-    inicia automaticamente o fallback traduzindo linha por linha.
+    aproveita as traduções válidas já recebidas e retraduz individualmente
+    apenas as linhas que faltaram.
     """
     try:
         resultado = traduzir_lote(lote_textos)
-        if len(resultado) == len(lote_textos):
-            return resultado
-        raise RuntimeError(f"Tradução retornou apenas {len(resultado)}/{len(lote_textos)} linhas.")
     except Exception as e:
-        # Fallback individual linha a linha
         print(f"\n{Fore.YELLOW}[AVISO] Lote falhou ({e}). Iniciando fallback resiliente linha a linha...")
-        resultado_resiliente = {}
-        for idx_local, texto in enumerate(lote_textos):
-            sucesso_linha = False
-            for tentativa in range(1, 4):
-                try:
-                    res_indiv = traduzir_lote([texto])
-                    if 0 in res_indiv and validar_traducao(texto, res_indiv[0]):
-                        resultado_resiliente[idx_local] = res_indiv[0]
-                        sucesso_linha = True
-                        break
-                except Exception:
-                    time.sleep(1)
-            
-            if not sucesso_linha:
-                print(f"{Fore.RED}[FALHA] Não foi possível traduzir linha: '{texto[:35]}...'")
-                resultado_resiliente[idx_local] = f"[ERRO_TRADUCAO: {texto}]"
-        
-        return resultado_resiliente
+        resultado = {}
+
+    indices_faltantes = [i for i in range(len(lote_textos)) if i not in resultado]
+    if not indices_faltantes:
+        return resultado
+
+    if resultado:
+        print(
+            f"\n{Fore.YELLOW}[AVISO] Lote retornou {len(resultado)}/{len(lote_textos)} linhas. "
+            f"Retraduzindo individualmente {len(indices_faltantes)} linha(s) faltante(s)..."
+        )
+
+    for idx_local in indices_faltantes:
+        texto = lote_textos[idx_local]
+        sucesso_linha = False
+        for tentativa in range(1, 4):
+            try:
+                res_indiv = traduzir_lote([texto])
+                if 0 in res_indiv and validar_traducao(texto, res_indiv[0]):
+                    resultado[idx_local] = res_indiv[0]
+                    sucesso_linha = True
+                    break
+            except Exception:
+                time.sleep(1)
+
+        if not sucesso_linha:
+            print(f"{Fore.RED}[FALHA] Não foi possível traduzir linha: '{texto[:35]}...'")
+            resultado[idx_local] = f"[ERRO_TRADUCAO: {texto}]"
+
+    return resultado
 
 
 # ============================================================================
@@ -541,6 +557,10 @@ def parse_args():
         default=".chs.ass",
         help="Sufixo de legenda a processar (default: .chs.ass). Use .cht.ass para chinês tradicional.",
     )
+    parser.add_argument(
+        "--modelo",
+        help="Forca o uso deste modelo (id exato do LM Studio), em vez da seleção automática.",
+    )
     parser.add_argument("--threads", type=int, default=MAX_THREADS, help="Threads paralelas de chamada ao LM Studio")
     parser.add_argument("--batch-size", type=int, default=BATCH_SIZE, help="Quantidade de diálogos por chamada")
     parser.add_argument(
@@ -561,7 +581,7 @@ def executar_pipeline_lote(args=None):
     print(f"{Fore.CYAN}    TRADUTOR GUNDAM THE ORIGIN ZH | BATCH {BATCH_SIZE}L/CHAMADA | THREADS={MAX_THREADS} | CACHE")
     print("=" * 80)
 
-    verificar_lm_studio()
+    verificar_lm_studio(args.modelo)
     carregar_cache()
     if args.limpar_cache:
         with CACHE_LOCK:

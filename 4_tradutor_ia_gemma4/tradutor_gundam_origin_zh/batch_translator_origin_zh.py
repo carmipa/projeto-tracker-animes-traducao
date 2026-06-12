@@ -618,7 +618,8 @@ def executar_pipeline_lote(args=None):
             caminho_saida = os.path.join(pasta_saida, nome_saida_ptbr)
 
             barra_macro.set_postfix_str(arquivo[:35])
-            tqdm.write(f"\n{Fore.YELLOW}[{idx_arq+1}/{len(arquivos_ass)}] -> {arquivo}")
+            tqdm.write(f"\n{Fore.YELLOW}[{idx_arq+1}/{len(arquivos_ass)}] -> Lendo arquivo:")
+            tqdm.write(f"  {Fore.CYAN}Origem: {caminho_entrada}")
 
             linhas_originais, encoding_detectado = ler_arquivo_legenda(caminho_entrada)
             tqdm.write(f"  {Fore.CYAN}Encoding: {encoding_detectado}")
@@ -754,9 +755,15 @@ def executar_pipeline_lote(args=None):
             fmt_tempo_arq = formatar_tempo(duracao_arquivo)
             fmt_tempo_acum = formatar_tempo(tempo_acumulado)
 
+            # Estimativa de tempo restante para a temporada (ETA macro)
+            arquivos_restantes = len(arquivos_ass) - (idx_arq + 1)
+            tempo_restante_est = (tempo_acumulado / (idx_arq + 1)) * arquivos_restantes
+            fmt_tempo_restante = formatar_tempo(tempo_restante_est)
+
             tqdm.write(
-                f"{Fore.GREEN}  [CONCLUÍDO] {nome_saida_ptbr} | Cache Hits: {cache_hits_arquivo} | "
-                f"Fallbacks: {fallbacks_arquivo} | Tempo: {Fore.YELLOW}{fmt_tempo_arq}{Fore.GREEN} (Acumulado: {Fore.CYAN}{fmt_tempo_acum}{Fore.GREEN})"
+                f"{Fore.GREEN}  [CONCLUÍDO] Salvo em: {caminho_saida}\n"
+                f"  {Fore.GREEN}Métricas: Cache Hits: {cache_hits_arquivo} | Fallbacks: {fallbacks_arquivo}\n"
+                f"  {Fore.GREEN}Duração: {Fore.YELLOW}{fmt_tempo_arq}{Fore.GREEN} | Acumulado: {Fore.CYAN}{fmt_tempo_acum}{Fore.GREEN} | Tempo Restante Estimado: {Fore.MAGENTA}{fmt_tempo_restante}{Fore.GREEN}"
             )
             
             linhas_relatorio.append(

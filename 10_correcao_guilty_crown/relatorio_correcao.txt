@@ -1,0 +1,29 @@
+RELATÓRIO DE CORREÇÃO DE LEGENDAS - GUILTY CROWN
+Gerado em: 2026-06-12 04:47:24
+Pasta Origem: E:\animes\GUILTY CROWN\1080p\legendas_eng
+Pasta Destino: E:\animes\GUILTY CROWN\1080p\legendas_ptbr
+================================================================================
+[DB]Guilty Crown_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 5
+[DB]Guilty Crown_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 5
+[DB]Guilty Crown_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 18
+[DB]Guilty Crown_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 11
+[DB]Guilty Crown_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 6
+[DB]Guilty Crown_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 13
+[DB]Guilty Crown_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 11
+[DB]Guilty Crown_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 14
+[DB]Guilty Crown_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 16
+[DB]Guilty Crown_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 18
+[DB]Guilty Crown_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 26
+[DB]Guilty Crown_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 20
+[DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 8
+[DB]Guilty Crown_-_14_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_14_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 8
+[DB]Guilty Crown_-_15_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_15_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 18
+[DB]Guilty Crown_-_16_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_16_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 7
+[DB]Guilty Crown_-_17_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_17_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 16
+[DB]Guilty Crown_-_18_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_18_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 20
+[DB]Guilty Crown_-_19_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_19_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 12
+[DB]Guilty Crown_-_20_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_20_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 4
+[DB]Guilty Crown_-_21_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_21_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 8
+[DB]Guilty Crown_-_22_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass -> [DB]Guilty Crown_-_22_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Correções: 27
+================================================================================
+TOTAL GERAL: 22 arquivos processados | 8040 linhas lidas | 291 correções aplicadas | Tempo: 0.06s

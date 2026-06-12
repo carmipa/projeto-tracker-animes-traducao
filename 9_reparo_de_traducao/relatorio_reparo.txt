@@ -1,0 +1,27 @@
+RELATORIO DE REPARO DE TRADUCAO - REPARA_ERROS_TRADUCAO
+Gerado em: 2026-06-12 00:01:27
+================================================================================
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096_PTBR.ass | Falhas encontradas: 24 | Reparados: 24 | Falhas persistentes: 0 | Tempo: 6m 13s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood_PTBR.ass | Falhas encontradas: 38 | Reparados: 36 | Falhas persistentes: 2 | Tempo: 11m 04s | Linhas com falha: 31, 288
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam_PTBR.ass | Falhas encontradas: 45 | Reparados: 44 | Falhas persistentes: 1 | Tempo: 10m 26s | Linhas com falha: 31
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit_PTBR.ass | Falhas encontradas: 36 | Reparados: 35 | Falhas persistentes: 1 | Tempo: 8m 59s | Linhas com falha: 216
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet_PTBR.ass | Falhas encontradas: 34 | Reparados: 33 | Falhas persistentes: 1 | Tempo: 9m 03s | Linhas com falha: 216
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask_PTBR.ass | Falhas encontradas: 27 | Reparados: 27 | Falhas persistentes: 0 | Tempo: 6m 23s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau_PTBR.ass | Falhas encontradas: 44 | Reparados: 44 | Falhas persistentes: 0 | Tempo: 11m 25s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began_PTBR.ass | Falhas encontradas: 30 | Reparados: 29 | Falhas persistentes: 1 | Tempo: 8m 32s | Linhas com falha: 216
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution_PTBR.ass | Falhas encontradas: 50 | Reparados: 49 | Falhas persistentes: 1 | Tempo: 13m 14s | Linhas com falha: 185
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth_PTBR.ass | Falhas encontradas: 25 | Reparados: 25 | Falhas persistentes: 0 | Tempo: 7m 05s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington_PTBR.ass | Falhas encontradas: 29 | Reparados: 28 | Falhas persistentes: 1 | Tempo: 7m 39s | Linhas com falha: 216
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War_PTBR.ass | Falhas encontradas: 41 | Reparados: 39 | Falhas persistentes: 2 | Tempo: 11m 17s | Linhas com falha: 216, 424
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier_PTBR.ass | Falhas encontradas: 22 | Reparados: 22 | Falhas persistentes: 0 | Tempo: 5m 45s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns_PTBR.ass | Falhas encontradas: 25 | Reparados: 24 | Falhas persistentes: 1 | Tempo: 6m 47s | Linhas com falha: 435
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space_PTBR.ass | Falhas encontradas: 34 | Reparados: 33 | Falhas persistentes: 1 | Tempo: 8m 22s | Linhas com falha: 210
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere_PTBR.ass | Falhas encontradas: 22 | Reparados: 22 | Falhas persistentes: 0 | Tempo: 6m 03s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured_PTBR.ass | Falhas encontradas: 39 | Reparados: 39 | Falhas persistentes: 0 | Tempo: 9m 16s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle_PTBR.ass | Falhas encontradas: 3 | Reparados: 3 | Falhas persistentes: 0 | Tempo: 29s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow_PTBR.ass | Falhas encontradas: 29 | Reparados: 29 | Falhas persistentes: 0 | Tempo: 7m 08s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box_PTBR.ass | Falhas encontradas: 29 | Reparados: 28 | Falhas persistentes: 1 | Tempo: 7m 35s | Linhas com falha: 237
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End_PTBR.ass | Falhas encontradas: 23 | Reparados: 23 | Falhas persistentes: 0 | Tempo: 4m 49s
+Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return_PTBR.ass | Falhas encontradas: 49 | Reparados: 48 | Falhas persistentes: 1 | Tempo: 11m 25s | Linhas com falha: 233
+================================================================================
+TOTAL: 698 falha(s) | 684 reparada(s) | 14 persistente(s) | Tempo total: 2h 59m 10s

@@ -1,0 +1,28 @@
+RELATÓRIO DE CORREÇÃO DE CORES/TAGS EM MÚSICAS - GUILTY CROWN
+Gerado em: 2026-06-12 04:51:55
+Pasta Processada: E:\animes\GUILTY CROWN\1080p\legendas_ptbr
+================================================================================
+[DB]Guilty Crown_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 7 | Cores Lidas: 36 | Tags Cured: 0
+[DB]Guilty Crown_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 24 | Tags Cured: 4
+[DB]Guilty Crown_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 7 | Cores Lidas: 27 | Tags Cured: 15
+[DB]Guilty Crown_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 48 | Tags Cured: 11
+[DB]Guilty Crown_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 24 | Tags Cured: 2
+[DB]Guilty Crown_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 27 | Tags Cured: 14
+[DB]Guilty Crown_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 24 | Tags Cured: 8
+[DB]Guilty Crown_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 24 | Tags Cured: 0
+[DB]Guilty Crown_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 24 | Tags Cured: 4
+[DB]Guilty Crown_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 24 | Tags Cured: 4
+[DB]Guilty Crown_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 29 | Tags Cured: 10
+[DB]Guilty Crown_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 24 | Tags Cured: 4
+[DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 4 | Cores Lidas: 63 | Tags Cured: 2
+[DB]Guilty Crown_-_14_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 97 | Tags Cured: 39
+[DB]Guilty Crown_-_15_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 80 | Tags Cured: 23
+[DB]Guilty Crown_-_16_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 98 | Tags Cured: 31
+[DB]Guilty Crown_-_17_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 97 | Tags Cured: 13
+[DB]Guilty Crown_-_18_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 97 | Tags Cured: 28
+[DB]Guilty Crown_-_19_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 80 | Tags Cured: 20
+[DB]Guilty Crown_-_20_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 97 | Tags Cured: 25
+[DB]Guilty Crown_-_21_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 97 | Tags Cured: 22
+[DB]Guilty Crown_-_22_(Dual Audio_10bit_BD1080p_x265)_PTBR_PTBR.ass | Estilos: 6 | Cores Lidas: 29 | Tags Cured: 3
+================================================================================
+TOTAL GERAL: 22 arquivos processados | 114 estilos redefinidos | 1170 linhas de cores limpas | 282 resíduos de TAG removidos | Tempo: 0.09s

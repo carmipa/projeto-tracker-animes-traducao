@@ -1,0 +1,99 @@
+[04:39:06.527] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-12_04-39-06.txt
+[04:39:06.530] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[04:39:06.628] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[04:39:06.629] [DEBUG   ] Validando caminhos de diretórios locais...
+[04:39:06.629] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[04:39:06.629] [DEBUG   ] Escaneando diretório: D:\PROJETOS-OPEN\animes\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]\Season 1
+[04:39:06.629] [INFO    ] Encontrados 22 arquivos de vídeo com extensão .mkv.
+[04:39:06.629] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[04:39:06.630] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096_PTBR.ass
+[04:39:06.630] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood_PTBR.ass
+[04:39:06.630] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam_PTBR.ass
+[04:39:06.630] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit_PTBR.ass
+[04:39:06.630] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet_PTBR.ass
+[04:39:06.630] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask_PTBR.ass
+[04:39:06.631] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau_PTBR.ass
+[04:39:06.631] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began_PTBR.ass
+[04:39:06.631] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution_PTBR.ass
+[04:39:06.631] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth_PTBR.ass
+[04:39:06.631] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington_PTBR.ass
+[04:39:06.631] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War_PTBR.ass
+[04:39:06.631] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier_PTBR.ass
+[04:39:06.631] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns_PTBR.ass
+[04:39:06.632] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space_PTBR.ass
+[04:39:06.632] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere_PTBR.ass
+[04:39:06.632] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured_PTBR.ass
+[04:39:06.632] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle_PTBR.ass
+[04:39:06.632] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow_PTBR.ass
+[04:39:06.632] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box_PTBR.ass
+[04:39:06.633] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End_PTBR.ass
+[04:39:06.633] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return.mkv -> Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return_PTBR.ass
+[04:39:06.633] [INFO    ] Esteira trancada. Processando 22 episódios em lote via mkvmerge.
+[04:39:06.690] [INFO    ] [1/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096.mkv
+[04:39:06.690] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:07.900] [INFO    ] SUCESSO:   Concluido (0.456 GB) em 1.21s! Legenda adicionada.
+[04:39:07.901] [INFO    ] [2/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood.mkv
+[04:39:07.901] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:09.000] [INFO    ] SUCESSO:   Concluido (0.397 GB) em 1.10s! Legenda adicionada.
+[04:39:09.000] [INFO    ] [3/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam.mkv
+[04:39:09.000] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:10.225] [INFO    ] SUCESSO:   Concluido (0.488 GB) em 1.23s! Legenda adicionada.
+[04:39:10.226] [INFO    ] [4/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit.mkv
+[04:39:10.226] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:11.257] [INFO    ] SUCESSO:   Concluido (0.361 GB) em 1.03s! Legenda adicionada.
+[04:39:11.257] [INFO    ] [5/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet.mkv
+[04:39:11.257] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:12.349] [INFO    ] SUCESSO:   Concluido (0.393 GB) em 1.09s! Legenda adicionada.
+[04:39:12.349] [INFO    ] [6/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask.mkv
+[04:39:12.349] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:13.250] [INFO    ] SUCESSO:   Concluido (0.315 GB) em 0.90s! Legenda adicionada.
+[04:39:13.250] [INFO    ] [7/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau.mkv
+[04:39:13.250] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:14.328] [INFO    ] SUCESSO:   Concluido (0.460 GB) em 1.08s! Legenda adicionada.
+[04:39:14.328] [INFO    ] [8/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began.mkv
+[04:39:14.328] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:15.200] [INFO    ] SUCESSO:   Concluido (0.319 GB) em 0.87s! Legenda adicionada.
+[04:39:15.201] [INFO    ] [9/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution.mkv
+[04:39:15.201] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:16.226] [INFO    ] SUCESSO:   Concluido (0.407 GB) em 1.02s! Legenda adicionada.
+[04:39:16.226] [INFO    ] [10/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth.mkv
+[04:39:16.226] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:17.134] [INFO    ] SUCESSO:   Concluido (0.322 GB) em 0.91s! Legenda adicionada.
+[04:39:17.135] [INFO    ] [11/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington.mkv
+[04:39:17.135] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:18.075] [INFO    ] SUCESSO:   Concluido (0.352 GB) em 0.94s! Legenda adicionada.
+[04:39:18.075] [INFO    ] [12/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War.mkv
+[04:39:18.075] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:19.240] [INFO    ] SUCESSO:   Concluido (0.444 GB) em 1.17s! Legenda adicionada.
+[04:39:19.241] [INFO    ] [13/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier.mkv
+[04:39:19.241] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:20.326] [INFO    ] SUCESSO:   Concluido (0.359 GB) em 1.09s! Legenda adicionada.
+[04:39:20.327] [INFO    ] [14/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns.mkv
+[04:39:20.327] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:21.627] [INFO    ] SUCESSO:   Concluido (0.488 GB) em 1.30s! Legenda adicionada.
+[04:39:21.628] [INFO    ] [15/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space.mkv
+[04:39:21.628] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:22.810] [INFO    ] SUCESSO:   Concluido (0.466 GB) em 1.18s! Legenda adicionada.
+[04:39:22.811] [INFO    ] [16/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere.mkv
+[04:39:22.811] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:23.812] [INFO    ] SUCESSO:   Concluido (0.333 GB) em 1.00s! Legenda adicionada.
+[04:39:23.812] [INFO    ] [17/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured.mkv
+[04:39:23.812] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:24.831] [INFO    ] SUCESSO:   Concluido (0.357 GB) em 1.02s! Legenda adicionada.
+[04:39:24.832] [INFO    ] [18/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle.mkv
+[04:39:24.832] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:25.992] [INFO    ] SUCESSO:   Concluido (0.474 GB) em 1.16s! Legenda adicionada.
+[04:39:25.992] [INFO    ] [19/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow.mkv
+[04:39:25.992] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:27.370] [INFO    ] SUCESSO:   Concluido (0.462 GB) em 1.38s! Legenda adicionada.
+[04:39:27.371] [INFO    ] [20/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box.mkv
+[04:39:27.371] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:28.495] [INFO    ] SUCESSO:   Concluido (0.353 GB) em 1.12s! Legenda adicionada.
+[04:39:28.495] [INFO    ] [21/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End.mkv
+[04:39:28.495] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:30.141] [INFO    ] SUCESSO:   Concluido (0.544 GB) em 1.65s! Legenda adicionada.
+[04:39:30.142] [INFO    ] [22/22] Multiplexando container Matroska: Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return.mkv
+[04:39:30.142] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[04:39:31.474] [INFO    ] SUCESSO:   Concluido (0.471 GB) em 1.33s! Legenda adicionada.
+[04:39:31.475] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-12_04-39-06.json
+[04:39:31.476] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

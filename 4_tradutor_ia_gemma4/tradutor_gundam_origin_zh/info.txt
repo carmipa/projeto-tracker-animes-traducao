@@ -1,0 +1,8 @@
+RELATORIO DE TRADUCAO BATCH - GUNDAM THE ORIGIN ZH -> PTBR
+Gerado em: 2026-06-12 11:37:24
+Modelo: qwen2.5-7b-instruct
+Batch size: 8 | Threads: 2
+================================================================================
+[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][01][1080p][HEVC][Webrip](E1AED70B)_PTBR.ass | Diálogos: 422 | Cache Hits: 414 | Chamadas: 1 | Fallbacks: 0 | Tempo: 0s
+================================================================================
+TOTAL: 1 arquivos | 422 diálogos | 414 cache hits | 0 fallbacks | Tempo total: 0s

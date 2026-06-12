@@ -138,7 +138,7 @@ SUBSTITUICOES_POS_PROCESSAMENTO = [
 ]
 
 PADRAO_PREAMBULO_LLM = re.compile(
-    r"^(aqui|claro|tradu[çc][aã]o|abaixo|ok|segue|segunda|resposta|espero|vou traduzir|as tradu[çc][oõ]es)",
+    r"^(aqui está|aqui estão|claro, vou|claro, aqui|segue a tradução|segue a resposta|abaixo estão|abaixo segue|a tradução é|as traduções são|espero que|espero ajudar|vou traduzir|esta é a)",
     re.I,
 )
 
@@ -258,7 +258,12 @@ def verificar_lm_studio(modelo_forcado=None):
                     print(f"{Fore.GREEN}[INFO] Modelo fixado pelo operador: {MODELO_ATIVO}")
                 else:
                     modelos_chat = [m for m in modelos if "embed" not in m.lower()]
-                    MODELO_ATIVO = modelos_chat[0] if modelos_chat else modelos[0]
+                    # Prioritiza modelos Instruct gerais em detrimento de modelos Coder
+                    modelos_instruct = [m for m in modelos_chat if "instruct" in m.lower() and "coder" not in m.lower()]
+                    if modelos_instruct:
+                        MODELO_ATIVO = modelos_instruct[0]
+                    else:
+                        MODELO_ATIVO = modelos_chat[0] if modelos_chat else modelos[0]
                     print(f"{Fore.GREEN}[INFO] Modelo ativo selecionado: {MODELO_ATIVO}")
             else:
                 print(f"{Fore.YELLOW}[AVISO] LM Studio online mas sem modelo carregado.")

@@ -20,6 +20,7 @@ import sys
 import json
 import time
 import argparse
+import threading
 import requests
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -41,6 +42,7 @@ DEBUG_FILE = os.path.join(PASTA_SCRIPT, "debug_last_failure.txt")
 CAMINHO_CACHE = os.path.join(PASTA_SCRIPT, "traducao_cache_origin_zh.json")
 
 CACHE = {}
+CACHE_LOCK = threading.Lock()
 _debug_salvo = False
 
 SYSTEM_PROMPT = (
@@ -186,12 +188,20 @@ def carregar_cache():
 
 def salvar_cache():
     try:
+        with CACHE_LOCK:
+            snapshot = dict(CACHE)
         caminho_tmp = CAMINHO_CACHE + ".tmp"
         with open(caminho_tmp, 'w', encoding='utf-8') as f:
-            json.dump(CACHE, f, indent=2, ensure_ascii=False)
+            json.dump(snapshot, f, indent=2, ensure_ascii=False)
         os.replace(caminho_tmp, CAMINHO_CACHE)
     except Exception as e:
         print(f"{Fore.RED}[CACHE] Erro ao salvar cache em disco: {e}")
+
+
+def atualizar_cache(original_masc: str, traduzido_masc: str):
+    """Atualiza o cache em memória com lock (seguro para ThreadPoolExecutor)."""
+    with CACHE_LOCK:
+        CACHE[original_masc] = traduzido_masc
 
 
 def post_processar_traducao(texto: str) -> str:
@@ -300,21 +310,29 @@ def mascarar_tags(texto_bruto: str):
 
 
 def restaurar_tags(texto_traduzido: str, tags: list):
-    """Reinsere as tags originais no lugar dos placeholders e remove alucinações."""
+    """Reinsere as tags originais no lugar dos placeholders, remove alucinações
+    e garante tags duplicadas perdidas (ex.: dois {\\i1} na mesma linha)."""
     trad = texto_traduzido
     for idx_tag, tag in enumerate(tags):
         marcador = f"[T{idx_tag}]"
         if marcador in trad:
             trad = trad.replace(marcador, tag, 1)
-        else:
-            # Fallback tolerante para variações de escrita de tag geradas pelo LLM
-            trad = re.sub(rf'\[?[Tt]\s*{idx_tag}\]?', lambda _m: tag, trad, count=1)
+            continue
+
+        nova_traducao = re.sub(rf'\[?[Tt]\s*{idx_tag}\]?', lambda _m: tag, trad, count=1)
+        if nova_traducao != trad:
+            trad = nova_traducao
+        elif trad.count(tag) < tags.count(tag):
+            trad = tag + trad
+
     # Remove quaisquer marcadores extras [T...] que foram alucinados pelo LLM
     trad = re.sub(r'\[[Tt]\s*\d+\]', '', trad)
-    for tag in tags:
-        if tag not in trad:
-            trad = f"{tag}{trad}"
     return trad
+
+
+def montar_linha_erro_traducao(meta: str, texto_masc: str) -> str:
+    """Monta linha ASS com marcador de falha, preservando metadados do diálogo."""
+    return f"{meta}[ERRO_TRADUCAO: {texto_masc}]\n"
 
 
 def _limpar_markdown(texto):
@@ -546,7 +564,8 @@ def executar_pipeline_lote(args=None):
     verificar_lm_studio()
     carregar_cache()
     if args.limpar_cache:
-        CACHE = {}
+        with CACHE_LOCK:
+            CACHE.clear()
         salvar_cache()
         print(f"{Fore.YELLOW}[CACHE] Cache limpo por solicitação do operador.")
 
@@ -616,6 +635,7 @@ def executar_pipeline_lote(args=None):
             total_dialogos = 0
             cache_hits_arquivo = 0
             fallbacks_arquivo = 0
+            linhas_puladas_tags = 0
 
             for i, linha in enumerate(linhas_originais):
                 if linha.startswith("Dialogue:"):
@@ -630,6 +650,7 @@ def executar_pipeline_lote(args=None):
                         
                         # Ignora linhas com excesso de tags para evitar quebra de tokens no LLM
                         if len(tags) > MAX_TAGS_POR_LINHA:
+                            linhas_puladas_tags += 1
                             mapa_linhas_finais[i] = linha
                             continue
                         
@@ -656,6 +677,11 @@ def executar_pipeline_lote(args=None):
 
             total_chamadas = len(blocos_ia)
             tqdm.write(f"  {Fore.CYAN}Diálogos: {total_dialogos} | Cache Hits: {cache_hits_arquivo} | Chamadas API: {total_chamadas}")
+            if linhas_puladas_tags:
+                tqdm.write(
+                    f"  {Fore.YELLOW}[AVISO] {linhas_puladas_tags} linha(s) com mais de {MAX_TAGS_POR_LINHA} tags "
+                    f"ASS mantidas em CHS (nao traduzidas)."
+                )
 
             # Se existirem novos blocos a traduzir
             if blocos_ia:
@@ -674,31 +700,49 @@ def executar_pipeline_lote(args=None):
                                     mapa_linhas_finais[orig_idx] = linha_proc
                                     if usou_fallback:
                                         fallbacks_arquivo += 1
-                                    
-                                    # Salva o texto traduzido de forma limpa no cache em disco
-                                    # Mapeia o texto mascarado de entrada com o texto mascarado retornado
-                                    # Recuperamos a linha original
+
                                     m_orig = pat.match(linhas_originais[orig_idx].strip())
                                     m_proc = pat.match(linha_proc.strip())
                                     if m_orig and m_proc and not usou_fallback:
                                         original_txt = m_orig.group(2).strip()
                                         traduzido_txt = m_proc.group(2).strip()
-                                        
-                                        # Recria o texto limpo para o cache
+
                                         original_masc, _ = mascarar_tags(original_txt)
                                         traduzido_masc, _ = mascarar_tags(traduzido_txt)
-                                        
+
                                         traduzido_masc = post_processar_traducao(traduzido_masc)
                                         if original_masc and validar_traducao(original_masc, traduzido_masc):
-                                            CACHE[original_masc] = traduzido_masc
-                                            
+                                            atualizar_cache(original_masc, traduzido_masc)
+
+                                for orig_idx, meta, texto_masc, _tags in orig_bloco:
+                                    if mapa_linhas_finais[orig_idx] is None:
+                                        mapa_linhas_finais[orig_idx] = montar_linha_erro_traducao(meta, texto_masc)
+                                        fallbacks_arquivo += 1
+                                        tqdm.write(
+                                            f"  {Fore.RED}-> Linha {orig_idx + 1}: lote incompleto, marcada como ERRO_TRADUCAO."
+                                        )
+
                             except Exception as e:
-                                print(f"\n{Fore.RED}[ERRO] Erro crítico no lote de futuros: {e}")
+                                tqdm.write(f"\n{Fore.RED}[ERRO] Erro crítico no lote de futuros: {e}")
+                                for orig_idx, meta, texto_masc, _tags in orig_bloco:
+                                    if mapa_linhas_finais[orig_idx] is None:
+                                        mapa_linhas_finais[orig_idx] = montar_linha_erro_traducao(meta, texto_masc)
+                                        fallbacks_arquivo += 1
                             barra_micro.update(1)
 
-            # Grava a legenda final gerada em UTF-8
+            for i, linha in enumerate(mapa_linhas_finais):
+                if linha is None:
+                    partes = linhas_originais[i].split(",", 9)
+                    if len(partes) == 10 and linhas_originais[i].startswith("Dialogue:"):
+                        meta = ",".join(partes[:9]) + ","
+                        texto_masc, _ = mascarar_tags(partes[9].rstrip("\n"))
+                        mapa_linhas_finais[i] = montar_linha_erro_traducao(meta, texto_masc)
+                        fallbacks_arquivo += 1
+                    else:
+                        mapa_linhas_finais[i] = linhas_originais[i]
+
             with open(caminho_saida, 'w', encoding='utf-8') as f:
-                f.writelines(l for l in mapa_linhas_finais if l is not None)
+                f.writelines(mapa_linhas_finais)
 
             # Grava o cache atualizado no disco a cada arquivo processado
             salvar_cache()
@@ -749,5 +793,6 @@ if __name__ == "__main__":
     try:
         executar_pipeline_lote()
     except KeyboardInterrupt:
-        print(f"\n{Fore.YELLOW}[AVISO] Operação cancelada pelo operador (Ctrl+C).")
+        salvar_cache()
+        print(f"\n{Fore.YELLOW}[AVISO] Operacao cancelada (Ctrl+C). Cache parcial salvo em disco.")
         sys.exit(0)

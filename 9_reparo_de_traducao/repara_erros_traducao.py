@@ -14,6 +14,7 @@ import os
 import re
 import sys
 import time
+import argparse
 import requests
 from datetime import datetime
 from tqdm import tqdm
@@ -25,40 +26,78 @@ LM_STUDIO_URL = "http://localhost:1234/v1/chat/completions"
 LM_STUDIO_MODELS_URL = "http://localhost:1234/v1/models"
 MODELO_ATIVO = "local-model"
 
-# Importa o SYSTEM_PROMPT do batch_translator_unicorn
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
+PASTA_RAIZ = os.path.dirname(PASTA_SCRIPT)
+PASTA_UNICORN = os.path.join(PASTA_RAIZ, "4_tradutor_ia_gemma4", "tradutor_gundam_unicornio")
+PASTA_ORIGIN_ZH = os.path.join(PASTA_RAIZ, "4_tradutor_ia_gemma4", "tradutor_gundam_origin_zh")
 RELATORIO_FILE = os.path.join(PASTA_SCRIPT, "relatorio_reparo.txt")
-sys.path.append(os.path.join(os.path.dirname(PASTA_SCRIPT), "4_tradutor_ia_gemma4", "tradutor_gundam_unicornio"))
-try:
-    from batch_translator_unicorn import SYSTEM_PROMPT
-except ImportError:
-    # Fallback caso não encontre
-    SYSTEM_PROMPT = (
-        "You are an expert subtitler for Japanese anime, specializing in the Gundam Universal Century timeline.\n"
-        "Translate the following numbered subtitle lines into Brazilian Portuguese (PT-BR).\n"
-        "The final output must be entirely in Brazilian Portuguese, except for protected Gundam terms, character names, faction names, ship names, model names, and subtitle tags.\n"
-    )
 
-# Adapta o prompt do lote para tradução avulsa (evitando conflito com a instrução de raciocínio e numeração)
-SYSTEM_PROMPT_REPARO = SYSTEM_PROMPT
-if "numbered subtitle lines" in SYSTEM_PROMPT_REPARO or "CRITICAL RULES" in SYSTEM_PROMPT_REPARO:
-    SYSTEM_PROMPT_REPARO = SYSTEM_PROMPT_REPARO.replace(
-        "Translate the following numbered subtitle lines into Brazilian Portuguese (PT-BR).",
-        "Translate the subtitle line into Brazilian Portuguese (PT-BR)."
+SUFIXOS_ORIGEM = {
+    "eng": ("_ENG.ass",),
+    "zh": (".chs.ass", ".cht.ass"),
+}
+
+PADRAO_CJK = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+MODO_REPARO = "eng"
+SYSTEM_PROMPT_REPARO = ""
+
+
+def adaptar_prompt_reparo(system_prompt: str) -> str:
+    prompt = system_prompt
+    if "numbered subtitle lines" in prompt or "linhas de legenda numeradas" in prompt or "CRITICAL RULES" in prompt or "REGRAS CRÍTICAS" in prompt:
+        prompt = prompt.replace(
+            "Translate the following numbered subtitle lines into Brazilian Portuguese (PT-BR).",
+            "Translate the subtitle line into Brazilian Portuguese (PT-BR)."
+        )
+        prompt = prompt.replace(
+            "Traduza as linhas de legenda numeradas fornecidas do Chinês Simplificado (CHS) para o Português do Brasil (PT-BR) de forma fluida e natural.",
+            "Traduza a linha de legenda fornecida do Chinês Simplificado (CHS) para o Português do Brasil (PT-BR) de forma fluida e natural."
+        )
+        prompt = prompt.replace(
+            "Return ONLY the numbered translated lines. Do not add notes, explanations, headers, markdown, or comments.",
+            ""
+        )
+        prompt = prompt.replace(
+            "2. Responda APENAS com as linhas traduzidas numeradas. Não adicione observações, explicações, introduções ou comentários.",
+            "2. Responda APENAS com a tradução final em PT-BR, sem observações ou comentários."
+        )
+        prompt = prompt.replace(
+            "Keep the exact same numbering, order, and line structure.",
+            ""
+        )
+        prompt = prompt.replace(
+            "1. Mantenha exatamente a mesma numeração, ordem e estrutura de linhas (ex: '1. tradução', '2. tradução').",
+            ""
+        )
+        prompt = prompt.replace(
+            "Never merge, split, reorder, remove, or duplicate numbered lines.",
+            ""
+        )
+        prompt = prompt.replace(
+            "3. Nunca mescle, divida, reordene, remova ou duplique as linhas numeradas.",
+            ""
+        )
+        prompt = re.sub(r'\n{3,}', '\n\n', prompt).strip()
+    return prompt
+
+
+def carregar_prompt_reparo(modo: str) -> str:
+    fallback = (
+        "You are an expert subtitler for Japanese anime, specializing in the Gundam Universal Century timeline.\n"
+        "Translate the subtitle line into Brazilian Portuguese (PT-BR).\n"
     )
-    SYSTEM_PROMPT_REPARO = SYSTEM_PROMPT_REPARO.replace(
-        "Return ONLY the numbered translated lines. Do not add notes, explanations, headers, markdown, or comments.",
-        ""
-    )
-    SYSTEM_PROMPT_REPARO = SYSTEM_PROMPT_REPARO.replace(
-        "Keep the exact same numbering, order, and line structure.",
-        ""
-    )
-    SYSTEM_PROMPT_REPARO = SYSTEM_PROMPT_REPARO.replace(
-        "Never merge, split, reorder, remove, or duplicate numbered lines.",
-        ""
-    )
-    SYSTEM_PROMPT_REPARO = re.sub(r'\n{3,}', '\n\n', SYSTEM_PROMPT_REPARO).strip()
+    pasta = PASTA_ORIGIN_ZH if modo == "zh" else PASTA_UNICORN
+    modulo = "batch_translator_origin_zh" if modo == "zh" else "batch_translator_unicorn"
+    if pasta not in sys.path:
+        sys.path.insert(0, pasta)
+    try:
+        mod = __import__(modulo, fromlist=["SYSTEM_PROMPT"])
+        return adaptar_prompt_reparo(getattr(mod, "SYSTEM_PROMPT", fallback))
+    except ImportError:
+        return adaptar_prompt_reparo(fallback)
+    finally:
+        if sys.path and sys.path[0] == pasta:
+            sys.path.pop(0)
 
 
 def formatar_duracao(segundos):
@@ -124,22 +163,92 @@ def extrair_traducao_final(conteudo):
     return re.sub(r'\*+|_+', '', conteudo).strip().strip('"').strip("'")
 
 
-def traduzir_linha_avulsa(texto_eng):
+def processar_traducao_reparada(texto_orig: str, traducao: str, modo: str):
+    """Pós-processamento e validação específicos por idioma de origem."""
+    if modo == "zh":
+        if PASTA_ORIGIN_ZH not in sys.path:
+            sys.path.insert(0, PASTA_ORIGIN_ZH)
+        try:
+            from batch_translator_origin_zh import post_processar_traducao, validar_traducao
+            traducao = post_processar_traducao(traducao)
+            if not validar_traducao(texto_orig, traducao):
+                return None
+        finally:
+            if sys.path and sys.path[0] == PASTA_ORIGIN_ZH:
+                sys.path.pop(0)
+    elif PADRAO_CJK.search(traducao):
+        return None
+    return traducao
+
+
+def ler_arquivo_legenda(caminho: str, modo: str):
+    if modo == "zh":
+        for encoding in ("utf-8-sig", "utf-8", "gb18030", "big5", "cp936"):
+            try:
+                with open(caminho, "r", encoding=encoding) as f:
+                    return f.readlines()
+            except UnicodeDecodeError:
+                continue
+    with open(caminho, "r", encoding="utf-8", errors="replace") as f:
+        return f.readlines()
+
+
+def resolver_arquivo_original(arquivo_ptbr: str, pasta_originais: str, modo: str):
+    if not arquivo_ptbr.lower().endswith("_ptbr.ass"):
+        return None, None
+    stem = arquivo_ptbr[:-9]
+    for sufixo in SUFIXOS_ORIGEM[modo]:
+        nome = stem + sufixo
+        caminho = os.path.join(pasta_originais, nome)
+        if os.path.exists(caminho):
+            return caminho, nome
+    return None, None
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Repara linhas [ERRO_TRADUCAO: ...] em legendas *_PTBR.ass via LM Studio."
+    )
+    parser.add_argument("pasta_originais", nargs="?", help="Pasta das legendas de origem")
+    parser.add_argument("pasta_traduzidos", nargs="?", help="Pasta das legendas *_PTBR.ass")
+    parser.add_argument(
+        "--modo",
+        choices=("eng", "zh"),
+        default="eng",
+        help="eng: origem _ENG.ass (Unicorn) | zh: origem .chs/.cht.ass (Gundam The Origin)",
+    )
+    return parser.parse_args()
+
+
+def traduzir_linha_avulsa(texto_orig, modo: str = "eng"):
     """Traduz uma única linha com batch size = 1, permitindo que o modelo
     raciocine (chain-of-thought) antes de dar a resposta final. Util para
     linhas que ja falharam na traducao automatica em lote."""
+    if modo == "zh":
+        instrucao_user = (
+            "This Chinese (CHS/CHT) subtitle line failed automatic translation before and needs careful attention. "
+            "Think step by step about the best Brazilian Portuguese (PT-BR) translation, considering "
+            "Gundam The Origin / Universal Century context, tone, protected terms, and the glossary. "
+            "The final output must NOT contain Chinese characters.\n\n"
+            f"Line: {texto_orig}\n\n"
+            "After your reasoning, output the final translation on its own line in this exact format "
+            "(nothing else after it):\nFINAL: <your PT-BR translation>"
+        )
+    else:
+        instrucao_user = (
+            "This subtitle line failed automatic translation before and needs careful attention. "
+            "Think step by step about the best Brazilian Portuguese (PT-BR) translation, considering "
+            "the Gundam Universal Century context, tone, and protected terms. Then give your final answer.\n\n"
+            f"Line: {texto_orig}\n\n"
+            "After your reasoning, output the final translation on its own line in this exact format "
+            "(nothing else after it):\nFINAL: <your PT-BR translation>"
+        )
+
     payload = {
         "model": MODELO_ATIVO,
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT_REPARO},
-            {"role": "user", "content": (
-                "This subtitle line failed automatic translation before and needs careful attention. "
-                "Think step by step about the best Brazilian Portuguese (PT-BR) translation, considering "
-                "the Gundam Universal Century context, tone, and protected terms. Then give your final answer.\n\n"
-                f"Line: {texto_eng}\n\n"
-                "After your reasoning, output the final translation on its own line in this exact format "
-                "(nothing else after it):\nFINAL: <your PT-BR translation>"
-            )}
+            {"role": "user", "content": instrucao_user}
         ],
         "temperature": 0.2,
         "max_tokens": 3000
@@ -152,11 +261,12 @@ def traduzir_linha_avulsa(texto_eng):
             if resposta.status_code == 200:
                 conteudo_bruto = resposta.json()['choices'][0]['message']['content'].strip()
                 conteudo = extrair_traducao_final(conteudo_bruto)
+                conteudo = processar_traducao_reparada(texto_orig, conteudo, modo)
                 if conteudo:
-                    identico = conteudo.strip().lower() == texto_eng.strip().lower()
+                    identico = conteudo.strip().lower() == texto_orig.strip().lower()
                     # Frases longas identicas ao original indicam falha real de traducao;
                     # nomes/interjeicoes curtas (ja' identicas em PT-BR) sao aceitas.
-                    if not identico or len(texto_eng.strip()) <= 15:
+                    if not identico or len(texto_orig.strip()) <= 15:
                         return conteudo
             time.sleep(2)
         except Exception as e:
@@ -186,16 +296,32 @@ def restaurar_tags(traducao, tags):
 
 
 def executar_reparo():
+    global SYSTEM_PROMPT_REPARO, MODO_REPARO
+
+    args = parse_args()
+    MODO_REPARO = args.modo
+    SYSTEM_PROMPT_REPARO = carregar_prompt_reparo(args.modo)
+
     print("=" * 80)
-    print(f"{Fore.CYAN}    SCRIPT DE REPARO DE FALHAS DE TRADUÇÃO (HEAL TRANSLATION ERRORS)")
+    modo_label = "ENG -> PT-BR" if args.modo == "eng" else "CHS/CHT -> PT-BR (Gundam The Origin)"
+    print(f"{Fore.CYAN}    SCRIPT DE REPARO DE FALHAS DE TRADUÇÃO ({modo_label})")
     print("=" * 80)
 
     if not verificar_lm_studio():
         return
 
-    if len(sys.argv) >= 3:
-        pasta_originais = sys.argv[1]
-        pasta_traduzidos = sys.argv[2]
+    if args.pasta_originais and args.pasta_traduzidos:
+        pasta_originais = args.pasta_originais
+        pasta_traduzidos = args.pasta_traduzidos
+    elif args.modo == "zh":
+        pasta_originais = (
+            r"D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]"
+            r"\[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][1080p][Webrip][ASS][CHS_CHT]"
+        )
+        pasta_traduzidos = (
+            r"D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]"
+            r"\legendas_ptbr"
+        )
     else:
         pasta_originais = (
             r"D:\PROJETOS-OPEN\animes"
@@ -219,27 +345,29 @@ def executar_reparo():
         return
 
     # ---- Pre-scan: localiza todas as falhas reparaveis antes de comecar ----
-    trabalho = []  # (arquivo, caminho_pt, linhas_pt, linhas_eng, indices_para_reparar)
+    trabalho = []  # (arquivo, caminho_pt, linhas_pt, linhas_orig, indices_para_reparar)
     total_erros_geral = 0
 
     print(f"{Fore.CYAN}[SCAN] Procurando falhas de tradução em {len(arquivos_ptbr)} arquivo(s)...")
     for arquivo in arquivos_ptbr:
         caminho_pt = os.path.join(pasta_traduzidos, arquivo)
-        nome_eng = arquivo.replace("_PTBR.ass", "_ENG.ass")
-        caminho_eng = os.path.join(pasta_originais, nome_eng)
+        caminho_orig, nome_orig = resolver_arquivo_original(arquivo, pasta_originais, args.modo)
 
-        if not os.path.exists(caminho_eng):
-            print(f"{Fore.YELLOW}[AVISO] Pulando {arquivo} (Legenda original correspondente não encontrada).")
+        if not caminho_orig:
+            print(
+                f"{Fore.YELLOW}[AVISO] Pulando {arquivo} "
+                f"(legenda original não encontrada; tentou: {', '.join(SUFIXOS_ORIGEM[args.modo])})."
+            )
             continue
 
-        with open(caminho_pt, 'r', encoding='utf-8', errors='replace') as f:
-            linhas_pt = f.readlines()
+        linhas_pt = ler_arquivo_legenda(caminho_pt, "eng")
+        linhas_orig = ler_arquivo_legenda(caminho_orig, args.modo)
 
-        with open(caminho_eng, 'r', encoding='utf-8', errors='replace') as f:
-            linhas_eng = f.readlines()
-
-        if len(linhas_pt) != len(linhas_eng):
-            print(f"{Fore.RED}[ERRO] {arquivo} possui desalinhamento físico de linhas com o original ({len(linhas_pt)} vs {len(linhas_eng)}). Pulando.")
+        if len(linhas_pt) != len(linhas_orig):
+            print(
+                f"{Fore.RED}[ERRO] {arquivo} possui desalinhamento físico de linhas com {nome_orig} "
+                f"({len(linhas_pt)} vs {len(linhas_orig)}). Pulando."
+            )
             continue
 
         indices = [
@@ -248,7 +376,7 @@ def executar_reparo():
         ]
 
         if indices:
-            trabalho.append((arquivo, caminho_pt, linhas_pt, linhas_eng, indices))
+            trabalho.append((arquivo, caminho_pt, linhas_pt, linhas_orig, indices))
             total_erros_geral += len(indices)
 
     if total_erros_geral == 0:
@@ -262,7 +390,7 @@ def executar_reparo():
     inicio_total = time.time()
 
     linhas_relatorio = [
-        "RELATORIO DE REPARO DE TRADUCAO - REPARA_ERROS_TRADUCAO",
+        f"RELATORIO DE REPARO DE TRADUCAO - REPARA_ERROS_TRADUCAO ({modo_label})",
         f"Gerado em: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         "=" * 80,
     ]
@@ -272,7 +400,7 @@ def executar_reparo():
     abortado = False
 
     with tqdm(total=total_erros_geral, desc="Reparo Geral", unit="linha", colour="green", ncols=100, position=0) as barra:
-        for idx, (arquivo, caminho_pt, linhas_pt, linhas_eng, indices) in enumerate(trabalho, 1):
+        for idx, (arquivo, caminho_pt, linhas_pt, linhas_orig, indices) in enumerate(trabalho, 1):
             inicio_arquivo = time.time()
             linhas_corrigidas = list(linhas_pt)
             reparos_no_arquivo = 0
@@ -284,12 +412,12 @@ def executar_reparo():
 
             for i in indices:
                 linha_pt = linhas_pt[i]
-                linha_eng = linhas_eng[i]
+                linha_orig = linhas_orig[i]
 
                 partes_pt = linha_pt.split(",", 9)
-                partes_eng = linha_eng.split(",", 9)
+                partes_orig = linha_orig.split(",", 9)
 
-                if len(partes_pt) != 10 or len(partes_eng) != 10:
+                if len(partes_pt) != 10 or len(partes_orig) != 10:
                     tqdm.write(f"  {Fore.YELLOW}-> Linha {i+1}: estrutura inesperada, pulando.")
                     falhas_no_arquivo += 1
                     linhas_falhas_persistentes.append(i + 1)
@@ -297,18 +425,18 @@ def executar_reparo():
                     continue
 
                 metadados = ",".join(partes_pt[:9]) + ","
-                texto_original = partes_eng[9].rstrip("\n")
+                texto_original = partes_orig[9].rstrip("\n")
 
-                # Extrai tags e gera placeholders
                 tags = re.findall(r'\{[^}]+\}', texto_original)
 
                 texto_limpo = texto_original
                 for idx_tag, tag in enumerate(tags):
                     texto_limpo = texto_limpo.replace(tag, f"[T{idx_tag}]", 1)
 
-                tqdm.write(f"  -> Reparando linha {i+1} [ENG: {texto_limpo[:45]}...]")
+                rotulo = "CHS" if args.modo == "zh" else "ENG"
+                tqdm.write(f"  -> Reparando linha {i+1} [{rotulo}: {texto_limpo[:45]}...]")
 
-                traducao = traduzir_linha_avulsa(texto_limpo)
+                traducao = traduzir_linha_avulsa(texto_limpo, args.modo)
 
                 if traducao:
                     traducao = restaurar_tags(traducao, tags)

@@ -28,24 +28,24 @@
 
 ```mermaid
 flowchart TB
-    A0([traducao\*_PTBR.ass com<br/>'Dialogue: ... [ERRO_TRADUCAO: texto]']) --> SCAN[Pre-scan: localiza linhas Dialogue<br/>com '[ERRO_TRADUCAO:' em todos os arquivos]
+    A0(["traducao/*_PTBR.ass com\nDialogue contendo ERRO_TRADUCAO: texto"]) --> SCAN["Pre-scan: localiza linhas Dialogue\ncom marcador ERRO_TRADUCAO em todos os arquivos"]
 
-    SCAN --> MASK[Extrai tags ASS '{...}' da linha ENG<br/>e substitui por placeholders T0, T1...]
-    MASK --> R9["repara_erros_traducao.py<br/>LM Studio, batch=1, chain-of-thought"]
+    SCAN --> MASK["Extrai tags ASS da linha ENG\ne substitui por placeholders T0, T1..."]
+    MASK --> R9["repara_erros_traducao.py\nLM Studio, batch=1, chain-of-thought"]
 
-    R9 --> OK{Traducao FINAL<br/>obtida?}
-    OK -->|Sim| RESTORE[Restaura tags ASS nos placeholders Tn]
-    RESTORE --> SAVE[Grava de volta em traducao*_PTBR.ass<br/>na mesma linha/posicao]
+    R9 --> OK{"Traducao FINAL\nobtida?"}
+    OK -->|Sim| RESTORE["Restaura tags ASS nos placeholders Tn"]
+    RESTORE --> SAVE["Grava de volta em traducao/*_PTBR.ass\nna mesma linha/posicao"]
 
-    OK -->|Nao, 3 tentativas falham| PERSIST[Linha permanece '[ERRO_TRADUCAO:...]'<br/>conta para falhas persistentes]
-    PERSIST -.->|5 falhas consecutivas| ABORT[ABORTADO: possivel LM Studio offline]
+    OK -->|Nao, 3 tentativas falham| PERSIST["Linha permanece com ERRO_TRADUCAO\nconta para falhas persistentes"]
+    PERSIST -.->|5 falhas consecutivas| ABORT["ABORTADO: possivel LM Studio offline"]
 
-    PERSIST --> L9["limpa_erros_residuais.py<br/>(sem IA, offline)"]
-    L9 --> RESTORE2[Extrai texto ENG original + tags<br/>e grava direto no lugar do marcador]
+    PERSIST --> L9["limpa_erros_residuais.py\nsem IA, offline"]
+    L9 --> RESTORE2["Extrai texto ENG original + tags\ne grava direto no lugar do marcador"]
     RESTORE2 --> SAVE
 
-    SAVE --> REL[relatorio_reparo.txt]
-    SAVE --> NEXT[Fase 5 - Remux]
+    SAVE --> REL["relatorio_reparo.txt"]
+    SAVE --> NEXT["Fase 5 - Remux"]
 
     style R9 fill:#4B0082,stroke:#00E5FF,color:#fff
     style L9 fill:#2d3748,stroke:#00E5FF,color:#fff

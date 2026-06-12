@@ -262,7 +262,7 @@ flowchart LR
     MKV["episodios/*.mkv\n(Guilty Crown)"] --> F2["Fase 2\nextrator_inteligente_ass.py"]
     F2 --> ENG["legendas_eng/*_ENG.ass"]
     ENG --> F4["Fase 4\nbatch_translator_ass.py\n(ou variante)"]
-    F4 --> PTERR["legendas_eng/*_ENG.ass\ncom [ERRO_TRADUCAO:...]"]
+    F4 --> PTERR["legendas_eng/*_ENG.ass\ncom marcador ERRO_TRADUCAO"]
     PTERR --> F10A["Fase 10a\ncorrigir_guilty_crown.py"]
     F10A --> PT["legendas_ptbr/*_PTBR.ass"]
     PT --> F10B["Fase 10b\ncorrigir_cores_musicas.py"]

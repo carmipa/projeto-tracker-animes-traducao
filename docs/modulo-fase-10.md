@@ -29,29 +29,29 @@
 
 ```mermaid
 flowchart TB
-    A0([legendas_eng\*.ass<br/>traduzido com 'ERRO_TRADUCAO']) --> P1[corrigir_guilty_crown.py<br/>prompt: pasta origem / pasta destino]
+    A0(["legendas_eng/*.ass\ntraduzido com marcador ERRO_TRADUCAO"]) --> P1["corrigir_guilty_crown.py\nprompt: pasta origem / pasta destino"]
 
-    P1 --> SCAN[Para cada Dialogue:<br/>regex '\\[ERRO_TRADUCAO:\\s*(.*?)\\s*\\]']
-    SCAN --> REPL[Substitui o marcador<br/>pelo grupo capturado]
-    REPL --> RENAME[Renomeia '_ENG.ass' -> '_PTBR.ass']
-    RENAME --> OUT1[legendas_ptbr\*_PTBR.ass<br/>+ relatorio_correcao.txt]
+    P1 --> SCAN["Para cada Dialogue:\nregex captura o texto dentro do marcador ERRO_TRADUCAO"]
+    SCAN --> REPL["Substitui o marcador\npelo texto capturado"]
+    REPL --> RENAME["Renomeia arquivos de _ENG.ass para _PTBR.ass"]
+    RENAME --> OUT1["legendas_ptbr/*_PTBR.ass\n+ relatorio_correcao.txt"]
 
-    OUT1 --> P2[corrigir_cores_musicas.py<br/>prompt: pasta legendas_ptbr]
-    P2 --> STYLE{Linha 'Style:'<br/>comeca com OP/ED?}
-    STYLE -->|Sim| FIXSTYLE[PrimaryColour = branco<br/>OutlineColour = preto]
-    STYLE -->|Nao| KEEP1[mantem estilo]
+    OUT1 --> P2["corrigir_cores_musicas.py\nprompt: pasta legendas_ptbr"]
+    P2 --> STYLE{"Linha Style comeca\ncom OP ou ED?"}
+    STYLE -->|Sim| FIXSTYLE["PrimaryColour = branco\nOutlineColour = preto"]
+    STYLE -->|Nao| KEEP1["mantem estilo"]
 
-    P2 --> DLG{Dialogue/Comment<br/>com estilo OP/ED?}
-    DLG -->|Sim| CLEANTAG[remove residuo 'TAG'<br/>fora de chaves]
-    CLEANTAG --> FIXCOLOR[normaliza '\\c'/'\\1c' -> branco<br/>'\\3c' -> preto]
-    DLG -->|Nao| KEEP2[mantem linha]
+    P2 --> DLG{"Dialogue ou Comment\ncom estilo OP/ED?"}
+    DLG -->|Sim| CLEANTAG["remove residuo da palavra TAG\nfora das tags ASS"]
+    CLEANTAG --> FIXCOLOR["normaliza tags de cor ASS:\nc e 1c para branco, 3c para preto"]
+    DLG -->|Nao| KEEP2["mantem linha"]
 
-    FIXSTYLE --> OUT2[legendas_ptbr\*.ass atualizado<br/>+ relatorio_cores_musicas.txt]
+    FIXSTYLE --> OUT2["legendas_ptbr/*.ass atualizado\n+ relatorio_cores_musicas.txt"]
     FIXCOLOR --> OUT2
     KEEP1 --> OUT2
     KEEP2 --> OUT2
 
-    OUT2 --> NEXT[Fase 5 - Remux]
+    OUT2 --> NEXT["Fase 5 - Remux"]
 
     style P1 fill:#4B0082,stroke:#00E5FF,color:#fff
     style P2 fill:#4B0082,stroke:#00E5FF,color:#fff

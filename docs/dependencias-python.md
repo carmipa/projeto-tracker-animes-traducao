@@ -2,6 +2,11 @@
 
 [← Índice](README.md) · [Arquivo `requirements.txt`](../requirements.txt)
 
+<p>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+"/>
+  <img src="https://img.shields.io/badge/Fases-1_a_10-blueviolet?style=flat-square" alt="Fases 1-10"/>
+</p>
+
 Versões fixadas para reprodutibilidade no Windows.
 
 ---
@@ -10,9 +15,9 @@ Versões fixadas para reprodutibilidade no Windows.
 
 | Pacote | Versão | Usado em | Fase | Função |
 |:---|:---:|:---|:---:|:---|
-| **`colorama`** | 0.4.6 | Praticamente todos os scripts | 1–8 | Cores ANSI no terminal |
-| **`tqdm`** | 4.67.3 | Praticamente todos os scripts | 1–5, 7 | Barras de progresso |
-| **`requests`** | 2.34.2 | Scripts de tradução (`4_tradutor_ia_gemma4/`) | 4 | HTTP para LM Studio |
+| **`colorama`** | 0.4.6 | Praticamente todos os scripts | 1–10 | Cores ANSI no terminal |
+| **`tqdm`** | 4.67.3 | Praticamente todos os scripts | 1–5, 7, 9, 10 | Barras de progresso |
+| **`requests`** | 2.34.2 | Scripts de tradução (`4_tradutor_ia_gemma4/`) + `repara_erros_traducao.py` | 4, 9 | HTTP para LM Studio |
 | **`pymediainfo`** | 7.0.1 | `media_analyzer.py` | 1 | Metadados via DLL MediaInfo |
 
 > **MediaInfo (SO):** necessário além do pacote pip. [Download MediaInfo](https://mediaarea.net/en/MediaInfo/Download).
@@ -97,6 +102,17 @@ flowchart LR
     subgraph F8["Fase 8"]
         C8[colorama]
         MKVT8[MKVToolNix]
+    end
+
+    subgraph F9["Fase 9"]
+        REQ9[requests]
+        C9[colorama]
+        T9[tqdm]
+    end
+
+    subgraph F10["Fase 10"]
+        C10[colorama]
+        T10[tqdm]
     end
 ```
 

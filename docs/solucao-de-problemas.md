@@ -2,6 +2,11 @@
 
 [← Índice](README.md) · [Logs](logs-e-auditoria.md)
 
+<p>
+  <img src="https://img.shields.io/badge/Esteiras-A_a_G-9146FF?style=flat-square" alt="Esteiras A-G"/>
+  <img src="https://img.shields.io/badge/Troubleshooting-Geral_%2B_por_esteira-informational?style=flat-square" alt="Troubleshooting"/>
+</p>
+
 ---
 
 ## Geral (todas as esteiras)
@@ -58,6 +63,19 @@
 
 ---
 
+## Fases 9/10 — Reparo de tradução e Esteira G (Guilty Crown)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| Linhas `[ERRO_TRADUCAO: ...]` em `traducao\*_PTBR.ass` | Fase 4 não conseguiu traduzir aquela linha dentro do lote | Rode [Fase 9](modulo-fase-9.md#repara_erros_traducaopy) (`repara_erros_traducao.py`, requer LM Studio) |
+| `[ABORTADO] 5 falhas consecutivas` (Fase 9) | LM Studio offline/instável durante o reparo | Verifique LM Studio na porta 1234 e rode novamente — arquivos já reparados são preservados |
+| Marcador `[ERRO_TRADUCAO:]` persiste após `repara_erros_traducao.py` | Termo protegido/nome próprio cuja tradução correta é igual ao inglês | Rode `limpa_erros_residuais.py` (sem IA) para restaurar o texto original com as tags |
+| `desalinhamento físico de linhas com o original` (Fase 9) | `.ass` traduzido tem nº de linhas diferente do `.ass` original (`_ENG.ass`) | Garanta que a Fase 4 não removeu/duplicou linhas; reextraia com [Fase 2](modulo-fase-2.md) se necessário |
+| Texto `TAG` nas letras de OP/ED (Guilty Crown) ou cores ilegíveis | Resíduo de mascaramento da Fase 4 + estilo `OP`/`ED` original | Rode [Fase 10](modulo-fase-10.md) (`corrigir_cores_musicas.py`) |
+| `corrigir_guilty_crown.py` não encontra `.ass` | Pasta de origem informada no prompt está errada | Confirme o caminho (padrão `E:\animes\GUILTY CROWN\1080p\legendas_eng`) |
+
+---
+
 ## Fase 6 — Sincronização
 
 | Sintoma | Causa provável | Ação |
@@ -88,6 +106,9 @@
 | Legenda **ASS embutida** (francês) | D | 4 → 5 |
 | Lote ASS pré-extraído (Gundam Reconguista) | E | 2 → 4 → 5 |
 | Gundam Unicorn (especializada) | F | 2 → 4 → 8 → 5 |
+| Guilty Crown (correção de nomes e cores) | G | 2 → 4 → 10 → 5 |
+
+Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 4, aplique a [Fase 9](modulo-fase-9.md) (via IA) ou [Fase 10](modulo-fase-10.md) (offline) antes da Fase 5.
 
 [Arquitetura](arquitetura.md) · [Pipeline SRT](pipeline-srt.md)
 
@@ -100,9 +121,10 @@
 | Orquestração | Python 3.10+ | Todas |
 | Container/Remux | MKVToolNix | 2, 4, 5, 8 |
 | Metadados | pymediainfo + MediaInfo | 1 |
-| Tradução IA | LM Studio + Gemma 4B | 4 |
+| Tradução IA | LM Studio + Gemma 4B | 4, 9 |
 | Conversão legenda | SRT → ASS + sync FPS | 3 |
 | Sincronização/Otimização | FFmpeg/FFprobe (NVENC) | 6, 7 |
+| Reparo pós-tradução | Regex + restauração de tags ASS (9 com IA, 10 offline) | 9, 10 |
 | Terminal | colorama + tqdm | Todas |
 
 ---

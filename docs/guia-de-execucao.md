@@ -2,7 +2,11 @@
 
 [← Índice](README.md) · [Instalação](instalacao.md) · [Arquitetura](arquitetura.md)
 
-Comandos por esteira (A–F), na ordem de execução. Pré-requisitos detalhados em [instalacao.md](instalacao.md).
+<p>
+  <img src="https://img.shields.io/badge/Esteiras-A_a_G-9146FF?style=flat-square" alt="Esteiras A-G"/>
+</p>
+
+Comandos por esteira (A–G), na ordem de execução. Pré-requisitos detalhados em [instalacao.md](instalacao.md).
 
 ---
 
@@ -111,6 +115,44 @@ python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 
 ---
 
+## Esteira G — Guilty Crown (correção de nomes e cores) — Fases 2 → 4 → 10 → 5
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\4_tradutor_ia_gemma4\tradutor_ass\batch_translator_ass.py"   # ou variante adequada
+python ".\10_correcao_guilty_crown\corrigir_guilty_crown.py"           # remove [ERRO_TRADUCAO:]
+python ".\10_correcao_guilty_crown\corrigir_cores_musicas.py"          # cores/tags OP-ED
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+| Prompt | Exemplo |
+|:---|:---|
+| Pasta com legendas + erros (`corrigir_guilty_crown.py`) | `E:\animes\GUILTY CROWN\1080p\legendas_eng` |
+| Pasta de saída corrigida (`corrigir_guilty_crown.py`) | `E:\animes\GUILTY CROWN\1080p\legendas_ptbr` |
+| Pasta com legendas PT-BR (`corrigir_cores_musicas.py`) | `E:\animes\GUILTY CROWN\1080p\legendas_ptbr` |
+
+[Fase 2](modulo-fase-2.md) · [Fase 4](modulo-fase-4.md) · [Fase 10](modulo-fase-10.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas)
+
+---
+
+## Pós-processamento — Reparo de `[ERRO_TRADUCAO:]` (Fases 9 e 10, opcionais)
+
+Quando a **Fase 4** deixa marcadores `[ERRO_TRADUCAO: <texto>]` em `traducao\*_PTBR.ass`, rode **antes** da Fase 5:
+
+```powershell
+# Fase 9 — reparo via IA (requer LM Studio na porta 1234)
+python ".\9_reparo_de_traducao\repara_erros_traducao.py" "<legendas_eng>" "<legendas_ptbr>"
+python ".\9_reparo_de_traducao\limpa_erros_residuais.py" "<legendas_eng>" "<legendas_ptbr>"   # falhas persistentes (sem IA)
+
+# Fase 10 — correção 100% offline (especializada para Guilty Crown)
+python ".\10_correcao_guilty_crown\corrigir_guilty_crown.py"
+python ".\10_correcao_guilty_crown\corrigir_cores_musicas.py"
+```
+
+[Fase 9](modulo-fase-9.md) · [Fase 10](modulo-fase-10.md)
+
+---
+
 ## Fases auxiliares (pós-remux, opcionais)
 
 ```powershell
@@ -179,7 +221,22 @@ C:\TRACKER-ANIMES\animes\Gundam Reconguista\
 │   └── episodio_01_PTBR.ass
 ├── traducao_curada\        ← Fase 8 (apenas Esteira F, se necessário)
 │   └── episodio_01_PTBR.ass
+├── legendas_ptbr\          ← Fase 9 (opcional, reparo [ERRO_TRADUCAO:] via IA)
+│   └── episodio_01_PTBR.ass
 └── mkv_final_ptbr\         ← Fase 5
+    └── episodio_01_PTBR.mkv
+```
+
+### Esteira G — Guilty Crown
+
+```text
+E:\animes\GUILTY CROWN\1080p\
+├── episodio_01.mkv
+├── legendas_eng\            ← Fase 2 + saída da Fase 4 (com [ERRO_TRADUCAO:])
+│   └── episodio_01_ENG.ass
+├── legendas_ptbr\           ← Fase 10a (corrigir_guilty_crown.py) e Fase 10b (cores OP/ED)
+│   └── episodio_01_PTBR.ass
+└── mkv_final_ptbr\          ← Fase 5
     └── episodio_01_PTBR.mkv
 ```
 

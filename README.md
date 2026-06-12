@@ -18,7 +18,8 @@
   <p>
     <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="Offline"/>
     <img src="https://img.shields.io/badge/Remux-Sem_Re--encode-blue?style=flat-square" alt="Remux"/>
-    <img src="https://img.shields.io/badge/8_Fases-1_a_8-blueviolet?style=flat-square" alt="8 Fases"/>
+    <img src="https://img.shields.io/badge/10_Fases-1_a_10-blueviolet?style=flat-square" alt="10 Fases"/>
+    <img src="https://img.shields.io/badge/Esteiras-A_a_G-9146FF?style=flat-square" alt="Esteiras A-G"/>
     <img src="https://img.shields.io/badge/Logs-Auditáveis-informational?style=flat-square" alt="Logs"/>
   </p>
 
@@ -30,7 +31,7 @@
 
 ## 🚀 Visão geral
 
-O projeto é organizado em **8 fases numeradas** (pastas `1_` a `8_`). Cada **esteira** (fluxo de trabalho) usa um subconjunto dessas fases, conforme o formato de origem da legenda (ASS embutido, SRT externo, PGS bitmap) e o idioma de origem (inglês, francês).
+O projeto é organizado em **10 fases numeradas** (pastas `1_` a `10_`). Cada **esteira** (fluxo de trabalho) usa um subconjunto dessas fases, conforme o formato de origem da legenda (ASS embutido, SRT externo, PGS bitmap), o idioma de origem (inglês, francês) e eventuais reparos pós-tradução específicos da série.
 
 | Fase | Pasta | Função |
 |:---:|:---|:---|
@@ -42,6 +43,8 @@ O projeto é organizado em **8 fases numeradas** (pastas `1_` a `8_`). Cada **es
 | 6 | `6_sincronizacao_legenda/` | Auxiliar: audita/corrige dessincronia |
 | 7 | `7_decodificador/` | Auxiliar: recomprime vídeo (HEVC/NVENC) |
 | 8 | `8_cura_legendas/` | Auxiliar: repara corrupção de tags PT-BR |
+| 9 | `9_reparo_de_traducao/` | 🩹 Reparo: retraduz `[ERRO_TRADUCAO: ...]` via IA (batch=1) |
+| 10 | `10_correcao_guilty_crown/` | 🎵 Correção offline de `[ERRO_TRADUCAO:]` e cores/tags de músicas OP/ED |
 
 ### Diagrama geral
 
@@ -61,6 +64,9 @@ flowchart LR
 
     E2 --> E4["Fase 4\nbatch_translator_ass.py\nou batch_translator_unicorn.py"]
     E4 -.->|se TAG corrompido| F8["Fase 8\nCura de legendas"]
+    E4 -.->|se ERRO_TRADUCAO| F9["Fase 9\nReparo via IA avulso"]
+    D4 -.->|se ERRO_TRADUCAO| F9
+    E4 -.->|Guilty Crown| F10["Fase 10\nCorrecao offline GC"]
 
     A4 --> F5["Fase 5\nbatch_remuxer.py"]
     D4 --> F5
@@ -68,6 +74,8 @@ flowchart LR
     C3 --> F5
     E4 --> F5
     F8 --> F5
+    F9 --> F5
+    F10 --> F5
 
     F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
     OUT -.->|opcional| F6["Fase 6\nSincronizacao"]
@@ -77,6 +85,8 @@ flowchart LR
     style F5 fill:#1e4620,stroke:#32CD32,color:#fff
     style OUT fill:#1e4620,stroke:#32CD32,color:#fff
     style F8 fill:#5c1010,stroke:#ff4444,color:#fff
+    style F9 fill:#5c1010,stroke:#ff4444,color:#fff
+    style F10 fill:#5c1010,stroke:#ff4444,color:#fff
     style OCR fill:#5c1010,stroke:#ff4444,color:#fff
 ```
 
@@ -92,9 +102,10 @@ Diagramas detalhados de cada esteira: [docs/arquitetura.md](docs/arquitetura.md)
 | **D** | 4 → 5 | Episódio MKV, ASS embutido (francês), multi-thread |
 | **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) |
 | **F** | 2 → 4 → 8 → 5 | Gundam Unicorn (especializada, com cura de legendas) |
+| **G** | 2 → 4 → 10 → 5 | Guilty Crown (correção de nomes e cores de músicas) |
 
-| ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 | 🎮 Otimização NVENC |
-|:---:|:---:|:---:|:---:|:---:|
+| ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 | 🎮 Otimização NVENC | 🩹 Reparo `[ERRO_TRADUCAO:]` |
+|:---:|:---:|:---:|:---:|:---:|:---:|
 
 ---
 
@@ -133,7 +144,7 @@ python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
 python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 ```
 
-Demais esteiras (D, E, F) e fases auxiliares (6, 7, 8): [Guia de execução](docs/guia-de-execucao.md).
+Demais esteiras (D, E, F, G) e fases auxiliares/reparos (6, 7, 8, 9, 10): [Guia de execução](docs/guia-de-execucao.md).
 
 Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detalhada: **[docs/pipeline-srt.md](docs/pipeline-srt.md)**
 
@@ -146,7 +157,7 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | Guia | Descrição |
 |:---|:---|
 | **[📖 Índice completo](docs/README.md)** | Hub da documentação |
-| [Arquitetura](docs/arquitetura.md) | 8 fases + diagramas de todas as esteiras (A–F) |
+| [Arquitetura](docs/arquitetura.md) | 10 fases + diagramas de todas as esteiras (A–G) |
 | [Estrutura do repositório](docs/estrutura-repositorio.md) | Árvore de pastas e pastas legadas |
 | [Pipeline SRT (Esteira B)](docs/pipeline-srt.md) | Filmes e legendas externas |
 | [Instalação](docs/instalacao.md) | Checklist SO, venv, LM Studio, MKVToolNix, FFmpeg |
@@ -167,6 +178,8 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | 6 | [Sincronização de legendas](docs/modulo-fase-6.md) | `6_sincronizacao_legenda/` |
 | 7 | [Otimização de vídeo (GPU)](docs/modulo-fase-7.md) | `7_decodificador/gpu_video_optimizer.py` |
 | 8 | [Cura de legendas](docs/modulo-fase-8.md) | `8_cura_legendas/` |
+| 9 | [Reparo de tradução](docs/modulo-fase-9.md) | `9_reparo_de_traducao/` |
+| 10 | [Correção Guilty Crown](docs/modulo-fase-10.md) | `10_correcao_guilty_crown/` |
 
 ### Esteiras (fluxos completos)
 
@@ -178,6 +191,7 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | **D** | 4 → 5 | Episódio MKV, ASS embutido (francês) | [Arquitetura](docs/arquitetura.md#esteira-d--tradução-francês--pt-br-multi-thread) |
 | **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](docs/arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista) |
 | **F** | 2 → 4 → 8 → 5 | Gundam Unicorn (especializada) | [Arquitetura](docs/arquitetura.md#esteira-f--gundam-unicorn-especializada) |
+| **G** | 2 → 4 → 10 → 5 | Guilty Crown (correção de nomes e cores) | [Arquitetura](docs/arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
 
 ---
 

@@ -14,7 +14,7 @@ projeto-tracker-animes-traducao/
 │   ├── arquitetura.md                     ← visão geral + diagramas de todas as esteiras
 │   ├── estrutura-repositorio.md           ← este arquivo
 │   ├── pipeline-srt.md                    ← Esteira B (filme / SRT externo)
-│   ├── modulo-fase-1.md … modulo-fase-8.md
+│   ├── modulo-fase-1.md … modulo-fase-10.md
 │   ├── instalacao.md
 │   ├── dependencias-python.md
 │   ├── guia-de-execucao.md
@@ -64,11 +64,22 @@ projeto-tracker-animes-traducao/
 │   ├── cura_gundam_mkv.py                 # repara TAG corrompido em .mkv remuxado
 │   └── cura_legendas_tag.py               # repara TAG via casamento ENG/PTBR -> traducao_curada/
 │
+├── 9_reparo_de_traducao/                  # Fase 9 — Reparo de falhas [ERRO_TRADUCAO:] via IA
+│   ├── repara_erros_traducao.py           # retraduz avulso (batch=1) via LM Studio
+│   ├── limpa_erros_residuais.py           # limpeza offline (sem IA) dos resíduos
+│   └── relatorio_reparo.txt               # relatório da última execução
+│
+├── 10_correcao_guilty_crown/              # Fase 10 — Correção offline (Guilty Crown)
+│   ├── corrigir_guilty_crown.py           # remove [ERRO_TRADUCAO:] -> legendas_ptbr/*_PTBR.ass
+│   ├── corrigir_cores_musicas.py          # corrige cores/tags de músicas (OP/ED)
+│   ├── relatorio_correcao.txt             # relatório de corrigir_guilty_crown.py
+│   └── relatorio_cores_musicas.txt        # relatório de corrigir_cores_musicas.py
+│
 └── multiplexar/
     └── logs/                              # logs de saída de batch_remuxer.py (Fase 5)
 ```
 
-> As pastas estão numeradas de **1 a 8** seguindo a ordem das fases descritas em [Arquitetura](arquitetura.md), o que também facilita a ordenação no explorador de arquivos do sistema.
+> As pastas estão numeradas de **1 a 10** seguindo a ordem das fases descritas em [Arquitetura](arquitetura.md), o que também facilita a ordenação no explorador de arquivos do sistema.
 
 ---
 
@@ -92,14 +103,17 @@ O pipeline opera sobre pastas de animes/filmes que ficam **fora** do repositóri
 ```text
 C:\TRACKER-ANIMES\animes\<titulo>\
 ├── episodio_01.mkv
-├── legendas_eng\          ← saída da Fase 2
+├── legendas_eng\          ← saída da Fase 2 (também usada como entrada das Fases 9/10)
 ├── legenda\                ← entrada/saída SRT (Esteira B/C)
 ├── extraidos_sup\          ← saída da Fase 2 (PGS)
 ├── traducao\                ← saída das Fases 3 e 4 (*_PTBR.ass)
 ├── traducao_curada\         ← saída da Fase 8
+├── legendas_ptbr\           ← saída das Fases 9/10 (*_PTBR.ass corrigido)
 ├── mkv_final_ptbr\          ← saída da Fase 5
 └── otimizados\              ← saída da Fase 7
 ```
+
+> **Fases 9 e 10** operam sobre `legendas_eng\*_ENG.ass` (original) + `legendas_ptbr\*_PTBR.ass` (traduzido com `[ERRO_TRADUCAO:]`), sobrescrevendo este último em-place. Convenção usada nos pipelines do Gundam Unicorn (Esteira F) e Guilty Crown (Esteira G).
 
 Layout detalhado por esteira: [Guia de execução](guia-de-execucao.md#layout-de-pastas).
 

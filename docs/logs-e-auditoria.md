@@ -2,6 +2,11 @@
 
 [← Índice](README.md) · [Guia de execução](guia-de-execucao.md)
 
+<p>
+  <img src="https://img.shields.io/badge/Fases-1_a_10-blueviolet?style=flat-square" alt="Fases 1-10"/>
+  <img src="https://img.shields.io/badge/Auditoria-Logs_%2B_Relatórios-informational?style=flat-square" alt="Auditoria"/>
+</p>
+
 ---
 
 ## Fase 1 — Analisador de mídia (`media_analyzer.py`)
@@ -89,6 +94,24 @@ Quatro artefatos em `multiplexar/logs/`:
 
 ---
 
+## Fase 9 — Reparo de tradução
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `repara_erros_traducao.py` | `9_reparo_de_traducao/` | `relatorio_reparo.txt` — falhas encontradas/reparadas/persistentes por arquivo, linhas com falha, tempo total |
+| `limpa_erros_residuais.py` | `9_reparo_de_traducao/` | Apenas console (sem relatório próprio) |
+
+---
+
+## Fase 10 — Correção Guilty Crown
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `corrigir_guilty_crown.py` | `10_correcao_guilty_crown/` | `relatorio_correcao.txt` — arquivo de origem/destino e correções `[ERRO_TRADUCAO:]` aplicadas |
+| `corrigir_cores_musicas.py` | `10_correcao_guilty_crown/` | `relatorio_cores_musicas.txt` — estilos OP/ED redefinidos, linhas com cor corrigida, resíduos `TAG` removidos |
+
+---
+
 ## Níveis no console (colorama)
 
 | Tag | Cor | Significado |
@@ -98,7 +121,7 @@ Quatro artefatos em `multiplexar/logs/`:
 | `[AVISO]` | 🟡 Amarelo | Situação recuperável |
 | `[ERRO]` | 🔴 Vermelho | Falha ou aborto |
 
-Esses níveis aparecem em praticamente todos os scripts (Fases 1–8).
+Esses níveis aparecem em praticamente todos os scripts (Fases 1–10).
 
 ---
 

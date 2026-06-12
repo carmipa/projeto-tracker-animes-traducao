@@ -109,7 +109,7 @@ def extrair_traducao_final(conteudo):
     conteudo = re.sub(r'<think(?:ing)?>.*', '', conteudo, flags=re.DOTALL | re.IGNORECASE).strip()
 
     # Procura o marcador da resposta final
-    m = re.search(r'FINAL\s*:\s*(.+)', conteudo, flags=re.IGNORECASE | re.DOTALL)
+    m = re.search(r'FINAL\s*:\s*(.+?)(?:\n|$)', conteudo, flags=re.IGNORECASE)
     if m:
         conteudo = m.group(1).strip()
     else:
@@ -152,10 +152,15 @@ def traduzir_linha_avulsa(texto_eng):
             if resposta.status_code == 200:
                 conteudo_bruto = resposta.json()['choices'][0]['message']['content'].strip()
                 conteudo = extrair_traducao_final(conteudo_bruto)
-                if conteudo and conteudo.lower() != texto_eng.lower():
-                    return conteudo
+                if conteudo:
+                    identico = conteudo.strip().lower() == texto_eng.strip().lower()
+                    # Frases longas identicas ao original indicam falha real de traducao;
+                    # nomes/interjeicoes curtas (ja' identicas em PT-BR) sao aceitas.
+                    if not identico or len(texto_eng.strip()) <= 15:
+                        return conteudo
             time.sleep(2)
-        except Exception:
+        except Exception as e:
+            tqdm.write(f"     {Fore.YELLOW}Erro na tentativa {tentativa}/{max_tentativas}: {e}")
             time.sleep(3)
     return None
 
@@ -188,16 +193,20 @@ def executar_reparo():
     if not verificar_lm_studio():
         return
 
-    pasta_originais = (
-        r"D:\PROJETOS-OPEN\animes"
-        r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
-        r"\Season 1\legendas_eng"
-    )
-    pasta_traduzidos = (
-        r"D:\PROJETOS-OPEN\animes"
-        r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
-        r"\Season 1\legendas_ptbr"
-    )
+    if len(sys.argv) >= 3:
+        pasta_originais = sys.argv[1]
+        pasta_traduzidos = sys.argv[2]
+    else:
+        pasta_originais = (
+            r"D:\PROJETOS-OPEN\animes"
+            r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+            r"\Season 1\legendas_eng"
+        )
+        pasta_traduzidos = (
+            r"D:\PROJETOS-OPEN\animes"
+            r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+            r"\Season 1\legendas_ptbr"
+        )
 
     if not os.path.exists(pasta_originais) or not os.path.exists(pasta_traduzidos):
         print(f"{Fore.RED}[ERRO] Pastas de legendas não encontradas.")
@@ -258,12 +267,17 @@ def executar_reparo():
         "=" * 80,
     ]
 
+    LIMITE_FALHAS_CONSECUTIVAS = 5
+    falhas_consecutivas = 0
+    abortado = False
+
     with tqdm(total=total_erros_geral, desc="Reparo Geral", unit="linha", colour="green", ncols=100, position=0) as barra:
         for idx, (arquivo, caminho_pt, linhas_pt, linhas_eng, indices) in enumerate(trabalho, 1):
             inicio_arquivo = time.time()
             linhas_corrigidas = list(linhas_pt)
             reparos_no_arquivo = 0
             falhas_no_arquivo = 0
+            linhas_falhas_persistentes = []
 
             barra.set_postfix_str(arquivo[:30])
             tqdm.write(f"\n[{idx}/{len(trabalho)}] Analisando: {arquivo} ({len(indices)} falha(s) encontrada(s))")
@@ -278,6 +292,7 @@ def executar_reparo():
                 if len(partes_pt) != 10 or len(partes_eng) != 10:
                     tqdm.write(f"  {Fore.YELLOW}-> Linha {i+1}: estrutura inesperada, pulando.")
                     falhas_no_arquivo += 1
+                    linhas_falhas_persistentes.append(i + 1)
                     barra.update(1)
                     continue
 
@@ -299,12 +314,23 @@ def executar_reparo():
                     traducao = restaurar_tags(traducao, tags)
                     linhas_corrigidas[i] = f"{metadados}{traducao}\n"
                     reparos_no_arquivo += 1
+                    falhas_consecutivas = 0
                     tqdm.write(f"     {Fore.GREEN}OK: {traducao[:45]}...")
                 else:
                     falhas_no_arquivo += 1
+                    linhas_falhas_persistentes.append(i + 1)
+                    falhas_consecutivas += 1
                     tqdm.write(f"     {Fore.RED}FALHA (mantido fallback)")
+                    if falhas_consecutivas >= LIMITE_FALHAS_CONSECUTIVAS:
+                        tqdm.write(
+                            f"\n{Fore.RED}[ABORTADO] {falhas_consecutivas} falhas consecutivas. "
+                            f"LM Studio pode estar offline/instavel. Interrompendo reparo."
+                        )
+                        abortado = True
 
                 barra.update(1)
+                if abortado:
+                    break
 
             tempo_arquivo = time.time() - inicio_arquivo
 
@@ -315,15 +341,26 @@ def executar_reparo():
             else:
                 tqdm.write(f"  {Fore.BLUE}[OK] Nenhuma correção aplicada em {arquivo} | Falhas: {falhas_no_arquivo} | Tempo: {formatar_duracao(tempo_arquivo)}")
 
+            info_linhas = f" | Linhas com falha: {', '.join(map(str, linhas_falhas_persistentes))}" if linhas_falhas_persistentes else ""
             linhas_relatorio.append(
                 f"{arquivo} | Falhas encontradas: {len(indices)} | Reparados: {reparos_no_arquivo} | "
-                f"Falhas persistentes: {falhas_no_arquivo} | Tempo: {formatar_duracao(tempo_arquivo)}"
+                f"Falhas persistentes: {falhas_no_arquivo} | Tempo: {formatar_duracao(tempo_arquivo)}{info_linhas}"
             )
 
             total_reparado_geral += reparos_no_arquivo
             total_falhas_geral += falhas_no_arquivo
 
+            if abortado:
+                break
+
     tempo_total = time.time() - inicio_total
+
+    if abortado:
+        linhas_relatorio.append("=" * 80)
+        linhas_relatorio.append(
+            f"[ABORTADO] Execucao interrompida apos {LIMITE_FALHAS_CONSECUTIVAS} falhas consecutivas "
+            f"(possivel queda do LM Studio). Arquivos restantes nao foram processados."
+        )
 
     linhas_relatorio.append("=" * 80)
     linhas_relatorio.append(
@@ -335,7 +372,10 @@ def executar_reparo():
         f.write("\n".join(linhas_relatorio) + "\n")
 
     print("\n" + "=" * 80)
-    print(f"{Fore.GREEN}[CONCLUÍDO] Reparo de tradução finalizado!")
+    if abortado:
+        print(f"{Fore.RED}[ABORTADO] Reparo interrompido por falhas consecutivas no LM Studio.")
+    else:
+        print(f"{Fore.GREEN}[CONCLUÍDO] Reparo de tradução finalizado!")
     print(f"{Fore.GREEN}Falhas encontradas: {total_erros_geral} | Reparadas: {total_reparado_geral} | Persistentes: {total_falhas_geral}")
     print(f"{Fore.CYAN}Tempo total: {formatar_duracao(tempo_total)}")
     print(f"{Fore.CYAN}Relatório: {RELATORIO_FILE}")

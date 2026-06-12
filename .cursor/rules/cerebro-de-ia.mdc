@@ -1,0 +1,31 @@
+---
+description: Protocolo obrigatório do Cérebro de IA (memória compartilhada entre Claude, GPT, Gemini e Cursor)
+alwaysApply: true
+---
+
+# Cérebro de IA — memória compartilhada multi-IA
+
+O vault Obsidian em `C:\cerebro_de_ia\cerebro_de_ia` é a memória central compartilhada entre Claude, GPT/Codex, Gemini e Cursor. Se a memória interna divergir do vault, **o vault prevalece**.
+
+## No início de cada sessão
+
+1. Ler `C:\cerebro_de_ia\cerebro_de_ia\00-INDICE.md`
+2. Ler `C:\cerebro_de_ia\cerebro_de_ia\usuario\perfil-paulo.md` e `usuario\projetos-ativos.md`
+3. Consultar `projetos\` e `memorias\` relevantes ao tema, e os chats recentes em `chats\`
+
+## Antes de QUALQUER ação ou alteração
+
+**Avaliar primeiro usando o cérebro de IA**: antes de editar código, rodar comandos ou tomar decisões, verificar no vault se já existe decisão, convenção, solução ou trabalho anterior sobre o assunto (em `memorias\`, `projetos\` e `chats\`). Só agir depois dessa avaliação. Se o vault contradisser o plano, seguir o vault ou perguntar ao Paulo.
+
+## Durante e ao final de cada sessão
+
+- Salvar resumo da sessão em `chats\YYYY-MM-DD_descricao-cursor.md` (pedido, raciocínio, decisões, pendências)
+- Atualizar `00-INDICE.md` com link para o novo chat
+- Atualizar `projetos\`, `memorias\` ou `usuario\` quando houver mudança durável (preferir atualizar arquivo existente em vez de duplicar)
+- Trabalhos e projetos concluídos devem ser documentados em `projetos\` para que as outras IAs tenham acesso
+
+## Convenções
+
+- Caminho canônico nesta máquina: `C:\cerebro_de_ia\cerebro_de_ia` (ver `memorias\caminho-canonical-vault.md`)
+- Formato: Markdown com links Obsidian `[[pasta/arquivo]]` e backlink para `[[00-INDICE]]`
+- Responder sempre em português brasileiro; commits só com pedido explícito

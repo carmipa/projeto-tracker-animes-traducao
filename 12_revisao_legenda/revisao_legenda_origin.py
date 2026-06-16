@@ -33,14 +33,13 @@ if sys.version_info >= (3, 7):
     except Exception:
         pass
 
-# Caminhos padrão do projeto
+# Caminhos relativos ao script (usados apenas como sugestão quando existem)
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
 PASTA_RAIZ = os.path.dirname(PASTA_SCRIPT)
-CAMINHO_CACHE_PADRAO = os.path.join(PASTA_RAIZ, "11_chines_LLM_alibaba_qwen2", "traducao_cache_origin_zh.json")
-
-# Caminhos padrão das legendas e vídeos do usuário
-PASTA_ANIME_PADRAO = r"D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]\mkv_final_ptbr"
-PASTA_LEGENDA_PADRAO = os.path.join(PASTA_ANIME_PADRAO, "legendas_ptbr")
+_CACHE_SUGERIDO = os.path.join(PASTA_RAIZ, "11_chines_LLM_alibaba_qwen2", "traducao_cache_origin_zh.json")
+CAMINHO_CACHE_PADRAO = _CACHE_SUGERIDO if os.path.isfile(_CACHE_SUGERIDO) else None
+PASTA_LEGENDA_PADRAO = None
+PASTA_ANIME_PADRAO = None
 
 # Dicionário de correções exatas do Cache (de CHS para o PT-BR oficial)
 CORRECOES_CACHE_ESTRITAS = {
@@ -109,6 +108,41 @@ CORRECOES_CACHE_ESTRITAS = {
     "我在您和卡斯帕尔少爷逃出慕佐时": "Quando você e o Sr. Casval escaparam de Munzo"
 }
 
+# Bug 01 — Padrões de metadados/créditos parasitas de grupos de fansub
+PADROES_METADADOS_FANSUB = [
+    re.compile(r"(?i)traduz(?:ido|ção|ao)\s+por"),
+    re.compile(r"(?i)dedicad[oa]\s+a\b"),
+    re.compile(r"(?i)\bagradecimento"),
+    re.compile(r"(?i)\bfansub\b"),
+    re.compile(r"(?i)créditos?\s+da\s+(?:tradução|traducao)"),
+    re.compile(r"(?i)subtitles?\s+by\b"),
+    re.compile(r"(?i)translated?\s+by\b"),
+    re.compile(r"(?i)\bin memoriam\b"),
+    re.compile(r"(?i)\bencoded?\s+by\b"),
+    re.compile(r"(?i)\b(?:raw|qc|timer|editor)\s+by\b"),
+    re.compile(r"(?i)produ[çc][aã]o\s+das\s+legendas"),
+    re.compile(r"(?i)\bdublagem\s+d[ao]\b"),
+    re.compile(r"(?i)bbs\.popgo\.org"),
+    re.compile(r"(?i)https?://"),
+    re.compile(r"(?i)^legendas:\s+\w"),
+    re.compile(r"(?i)\bYW7\b"),
+    re.compile(r"(?i)\bSHINJICO\b"),
+    re.compile(r"(?i)Crystal\s+Computer\s+Fairy\s+Tale"),
+    re.compile(r"(?i)Tri\s+(?:Yw7|Yamato)\s+Shinjico"),
+]
+
+
+def limpar_tags_ass(texto):
+    """Remove todas as tags ASS {\\...} do texto para análise do conteúdo puro."""
+    return re.sub(r'\{[^}]*\}', '', texto)
+
+
+def eh_metadado_fansub(texto_dialogo):
+    """Retorna True se o texto contém créditos/dedicatórias de fansub."""
+    texto_puro = limpar_tags_ass(texto_dialogo)
+    return any(p.search(texto_puro) for p in PADROES_METADADOS_FANSUB)
+
+
 def achar_mkvtoolnix():
     for folder in [r"C:\Program Files\MKVToolNix", r"C:\Program Files (x86)\MKVToolNix"]:
         ext_path = os.path.join(folder, "mkvextract.exe")
@@ -125,16 +159,45 @@ MKVEXTRACT_PATH, MKVMERGE_PATH = achar_mkvtoolnix()
 
 def obter_diretorio_obrigatorio(mensagem_prompt, padrao_caminho=None):
     while True:
-        sufixo_padrao = f" (ENTER = {padrao_caminho})" if padrao_caminho else ""
-        entrada = input(f"{Fore.YELLOW}{mensagem_prompt}{sufixo_padrao}: {Style.RESET_ALL}").strip()
+        sufixo_padrao = f"\n  (ENTER = {padrao_caminho})" if padrao_caminho else ""
+        entrada = input(f"{Fore.YELLOW}{mensagem_prompt}{sufixo_padrao}\n> {Style.RESET_ALL}").strip()
         entrada = entrada.strip('"').strip("'")
         if not entrada and padrao_caminho:
             return padrao_caminho
         if not entrada:
             continue
         if not os.path.isdir(entrada):
-            print(f"{Fore.RED}[ERRO] Diretorio nao existe: {entrada}")
+            print(f"{Fore.RED}[ERRO] Diretório não existe: {entrada}")
             continue
+        return entrada
+
+
+def obter_arquivo_obrigatorio(mensagem_prompt, padrao_caminho=None):
+    while True:
+        sufixo_padrao = f"\n  (ENTER = {padrao_caminho})" if padrao_caminho else ""
+        entrada = input(f"{Fore.YELLOW}{mensagem_prompt}{sufixo_padrao}\n> {Style.RESET_ALL}").strip()
+        entrada = entrada.strip('"').strip("'")
+        if not entrada and padrao_caminho:
+            return padrao_caminho
+        if not entrada:
+            continue
+        if not os.path.isfile(entrada):
+            print(f"{Fore.RED}[ERRO] Arquivo não encontrado: {entrada}")
+            continue
+        return entrada
+
+
+def obter_pasta_saida(mensagem_prompt, padrao_caminho=None):
+    """Pede uma pasta de saída; cria-a se não existir."""
+    while True:
+        sufixo_padrao = f"\n  (ENTER = {padrao_caminho})" if padrao_caminho else ""
+        entrada = input(f"{Fore.YELLOW}{mensagem_prompt}{sufixo_padrao}\n> {Style.RESET_ALL}").strip()
+        entrada = entrada.strip('"').strip("'")
+        if not entrada and padrao_caminho:
+            entrada = padrao_caminho
+        if not entrada:
+            continue
+        os.makedirs(entrada, exist_ok=True)
         return entrada
 
 
@@ -213,15 +276,106 @@ def aplicar_correcao_linha_ass(texto_dialogo):
     # Guerra de Um Ano
     texto_dialogo = re.sub(r"\bGuerra (?:de|dos|do)?\s?(?:Cem|100) Anos\b", "Guerra de Um Ano", texto_dialogo, flags=re.I)
     texto_dialogo = re.sub(r"\bGuerra do Ano Um\b", "Guerra de Um Ano", texto_dialogo, flags=re.I)
-    
+
     # Lúcifer (nome do gato com acento)
-    # Evita duplicar acentuação no Lúcifer
     texto_dialogo = re.sub(r"\bL[uú]cifer\b", "Lúcifer", texto_dialogo)
     texto_dialogo = re.sub(r"\bL[uú]cifero\b", "Lúcifer", texto_dialogo)
-    
+
     # Principado de Zeon
     texto_dialogo = re.sub(r"\bPrincipado de Dion\b", "Principado de Zeon", texto_dialogo, flags=re.I)
-    
+
+    # --- CORREÇÕES DE LORE — análise completa EPs 01-13 ---
+
+    # Munzo (colônia Side 3) — múltiplas grafias incorretas do pipeline
+    texto_dialogo = re.sub(r"\bMu\s+Zuo\b", "Munzo", texto_dialogo, flags=re.I)
+    texto_dialogo = re.sub(r"\bMucho\b(?=\s+tamb[eé]m|\s+tem|\s+tinha|\s+também)", "Munzo", texto_dialogo, flags=re.I)
+    texto_dialogo = re.sub(r"\bMuzeo\b", "Munzo", texto_dialogo, flags=re.I)
+    texto_dialogo = re.sub(r"\b(?<!\w)Muzo\b", "Munzo", texto_dialogo, flags=re.I)
+    texto_dialogo = re.sub(r"\bZamyam\b", "Munzo", texto_dialogo, flags=re.I)
+    texto_dialogo = re.sub(r"\bSIDE\s*3\s+Mu[Zz][oa-z]+\b", "SIDE 3 Munzo", texto_dialogo, flags=re.I)
+
+    # "Lobo Vermelho" → "Cometa Vermelho" (apelido do Char Aznable)
+    texto_dialogo = re.sub(r"\bLobo\s+Vermelho\b", "Cometa Vermelho", texto_dialogo, flags=re.I)
+
+    # "Satélite Colonizante Preto" → "Colônia Texas" (Texas Colony, Side 5 Bunch 30)
+    texto_dialogo = re.sub(r"\bSat[eé]lite\s+Colonizante\s+Preto\b", "Colônia Texas", texto_dialogo, flags=re.I)
+
+    # "Karlma" → "Garma" (Garma Zabi, filho de Degwin)
+    texto_dialogo = re.sub(r"\bKarlma\b", "Garma", texto_dialogo, flags=re.I)
+
+    # "Tim Ray" → "Tem Ray" (pai do Amuro, engenheiro-chefe)
+    texto_dialogo = re.sub(r"\bTim\s+Ray\b", "Tem Ray", texto_dialogo, flags=re.I)
+
+    # Parentesco: "filho do diretor de desenvolvimento Amuro Ray" → "Tem Ray"
+    texto_dialogo = re.sub(
+        r"\bfilho\s+do\s+diretor\s+de\s+desenvolvimento\s+Amuro\s+Ray\b",
+        "filho do diretor de desenvolvimento Tem Ray",
+        texto_dialogo, flags=re.I
+    )
+
+    # "Mobil Suit" → "Mobile Suit" (erro ortográfico do pipeline)
+    texto_dialogo = re.sub(r"\bMobil\s+Suit\b", "Mobile Suit", texto_dialogo, flags=re.I)
+
+    # "escuadrão" (espanhol) → "esquadrão" (português)
+    texto_dialogo = re.sub(r"\bescuadr[aã]o\b", "esquadrão", texto_dialogo, flags=re.I)
+
+    # "muelle de atracag" (espanhol) → "cais de atracagem"
+    texto_dialogo = re.sub(r"\bmuelle\s+de\s+atracag[ae]m?\b", "cais de atracagem", texto_dialogo, flags=re.I)
+    texto_dialogo = re.sub(r"\bmuelle\b", "cais", texto_dialogo, flags=re.I)
+
+    # "roda de repuesto" (espanhol) → "roda sobressalente"
+    texto_dialogo = re.sub(r"\broda\s+de\s+repuesto\b", "roda sobressalente", texto_dialogo, flags=re.I)
+
+    # "flagship" isolado → "nave capitânia"
+    texto_dialogo = re.sub(r"\bflagship\b", "nave capitânia", texto_dialogo, flags=re.I)
+
+    # EP13: Char saindo em "RX-78" (errado — Char pilota Zaku, não o Gundam da Federação)
+    texto_dialogo = re.sub(
+        r"(?i)(vou\s+sair\s+em\s+um)\s+RX-78\b",
+        r"\1 Zaku",
+        texto_dialogo
+    )
+
+    # Operação British (nome oficial) — "Britânia" ou "Britannia" como nome da operação
+    texto_dialogo = re.sub(
+        r"\bOpera[çc][aã]o\s+Brit[aâ]ni[ao]\b",
+        "Operação British",
+        texto_dialogo, flags=re.I
+    )
+
+    # --- BUG 02 — Discurso de Tem Ray na Anaheim: Zaku → RX-78 / Gundam ---
+    # Tem Ray (pai do Amuro) gritava sobre o Projeto V / RX-78, nunca sobre o Zaku inimigo
+    texto_dialogo = re.sub(
+        r"\b(estou|estamos|vamos|vou|criando|construindo|desenvolvendo|projetando|fazendo)\b([^.!?]*?)\bZaku\b",
+        lambda m: m.group(0).replace("Zaku", "RX-78"),
+        texto_dialogo, flags=re.I
+    )
+    texto_dialogo = re.sub(r"\bProject[o]?\s+V[^a-zA-Z].*?Zaku\b",
+                           lambda m: m.group(0).replace("Zaku", "Gundam"),
+                           texto_dialogo, flags=re.I)
+
+    # --- BUG 03 — Guarda: loop de repetição "Amuro Ray, do Amuro Ray..." e parentesco errado ---
+    # Remove repetições gaguejadas como "do Amuro Ray, do Amuro Ray, do Amuro Ray"
+    texto_dialogo = re.sub(
+        r"((?:do|de)\s+Amuro\s+Ray)(?:[,\s]+(?:do|de)\s+Amuro\s+Ray)+",
+        r"\1", texto_dialogo, flags=re.I
+    )
+    # Corrige parentesco: Amuro é o filho, o pai é Tem Ray (ou "Dr. Ray" / "engenheiro Ray")
+    texto_dialogo = re.sub(r"\bfilho\s+d[eo]\s+Amuro\s+Ray\b", "filho do Dr. Tem Ray", texto_dialogo, flags=re.I)
+    texto_dialogo = re.sub(r"\bfilho\s+d[eo]\s+Amuro\b", "filho do Dr. Tem Ray", texto_dialogo, flags=re.I)
+
+    # --- BUG 04 — Área restrita: "Segurança" solto/descontextualizado ---
+    texto_dialogo = re.sub(r"\binvadir\s+a\s+segurança\b", "invadir o setor de segurança", texto_dialogo, flags=re.I)
+    texto_dialogo = re.sub(r"\bzona\s+de\s+segurança\b", "área restrita", texto_dialogo, flags=re.I)
+    texto_dialogo = re.sub(r"\bviolando\s+a\s+segurança\b", "violando o perímetro de segurança", texto_dialogo, flags=re.I)
+    # "Segurança!" sozinho no início da fala (guardas gritando o local) → "Área restrita!"
+    texto_dialogo = re.sub(r"^((?:\{[^}]*\})*)Segurança!$", r"\1Área restrita!", texto_dialogo)
+
+    # --- BUG 05 — Numeração de plano militar vazando em diálogos seguintes ---
+    # Remove prefixos numéricos de lista ("5. ", "6. ") que a IA alucinon após enumerar fases do ataque
+    # Só remove se o número for >= 5 (1–4 podem ser partes legítimas do plano)
+    texto_dialogo = re.sub(r"^((?:\{[^}]*\})*)([5-9]|[1-9]\d+)\.\s+", r"\1", texto_dialogo)
+
     # Retorna o texto corrigido e se houve modificação
     return texto_dialogo, texto_dialogo != original
 
@@ -303,12 +457,19 @@ def corrigir_arquivos_ass(pasta_legendas):
                 if len(partes) == 10:
                     metadados = ",".join(partes[:9]) + ","
                     texto_dialogo = partes[9].rstrip("\n")
-                    
+
+                    # Bug 01 — Remover metadados/créditos de fansub
+                    if eh_metadado_fansub(texto_dialogo):
+                        modificacoes_no_arquivo += 1
+                        print(f"  ↳ [{arquivo} L{num_linha}] {Fore.MAGENTA}METADADO FANSUB REMOVIDO: {Style.RESET_ALL}{texto_dialogo[:100]}")
+                        linha = f"{metadados}\n"
+                        linhas_corrigidas.append(linha)
+                        continue
+
                     texto_novo, modificado = aplicar_correcao_linha_ass(texto_dialogo)
                     if modificado:
                         modificacoes_no_arquivo += 1
                         linha = f"{metadados}{texto_novo}\n"
-                        # Printar a modificação de forma legível
                         print(f"  ↳ [{arquivo} L{num_linha}] Correção:")
                         print(f"      Antes: {Fore.RED}{texto_dialogo}")
                         print(f"      Depois: {Fore.GREEN}{texto_novo}")
@@ -328,13 +489,69 @@ def corrigir_arquivos_ass(pasta_legendas):
     return True
 
 
-def remuxar_legendas_mkv(pasta_mkv, pasta_legendas):
+def detectar_linhas_sem_traducao(pasta_legendas):
+    """Varre os .ass e reporta linhas que parecem não ter sido traduzidas para PT-BR."""
+    print(f"\n{Fore.CYAN}--- AUDITORIA: LINHAS SEM TRADUÇÃO ---")
+
+    RE_CHINES = re.compile(r'[一-鿿㐀-䶿]')
+    RE_JAPONES = re.compile(r'[぀-ヿㇰ-ㇿ]')
+    RE_ERRO_PIPELINE = re.compile(r'\[ERRO_TRADUCAO[_:]', re.I)
+    # Linha que parece inglês: >70% de palavras puramente ASCII alfabéticas sem diacríticos PT
+    RE_APENAS_ASCII_ALFA = re.compile(r"^[A-Za-z\s'\",.!?;:\-–—()]+$")
+
+    arquivos_ass = sorted([f for f in os.listdir(pasta_legendas) if f.lower().endswith('.ass')])
+    relatorio = []
+
+    for arquivo in arquivos_ass:
+        caminho_file = os.path.join(pasta_legendas, arquivo)
+        linhas, _ = ler_arquivo_legenda(caminho_file)
+        for num_linha, linha in enumerate(linhas, 1):
+            if not linha.startswith("Dialogue:"):
+                continue
+            partes = linha.split(",", 9)
+            if len(partes) != 10:
+                continue
+            texto = partes[9].rstrip("\n")
+            puro = limpar_tags_ass(texto).strip()
+            if not puro:
+                continue
+
+            motivo = None
+            if RE_CHINES.search(puro):
+                motivo = "CHS"
+            elif RE_JAPONES.search(puro):
+                motivo = "JPN"
+            elif RE_ERRO_PIPELINE.search(puro):
+                motivo = "ERRO_PIPELINE"
+            elif RE_APENAS_ASCII_ALFA.match(puro) and len(puro) > 6:
+                motivo = "INGLÊS?"
+
+            if motivo:
+                entrada = f"  [{arquivo} L{num_linha}] ({motivo}) {puro[:120]}"
+                relatorio.append(entrada)
+
+    if relatorio:
+        print(f"{Fore.YELLOW}[ATENÇÃO] {len(relatorio)} linhas suspeitas encontradas:")
+        for r in relatorio:
+            print(r)
+        caminho_relatorio = os.path.join(pasta_legendas, "_relatorio_sem_traducao.txt")
+        with open(caminho_relatorio, 'w', encoding='utf-8') as f:
+            f.write("\n".join(relatorio))
+        print(f"\n{Fore.GREEN}[OK] Relatório salvo em: {caminho_relatorio}")
+    else:
+        print(f"{Fore.GREEN}[OK] Nenhuma linha sem tradução detectada.")
+
+    return relatorio
+
+
+def remuxar_legendas_mkv(pasta_mkv, pasta_legendas, pasta_saida=None):
     print(f"\n{Fore.CYAN}--- RE-MULTIPLEXAÇÃO DOS MKVs ---")
     if not MKVMERGE_PATH:
         print(f"{Fore.RED}[ERRO] mkvmerge não encontrado no sistema. Remuxing abortado.")
         return False
-        
-    pasta_saida = os.path.join(pasta_mkv, "corrigidos")
+
+    if not pasta_saida:
+        pasta_saida = os.path.join(pasta_mkv, "corrigidos")
     os.makedirs(pasta_saida, exist_ok=True)
     
     arquivos_mkv = sorted([f for f in os.listdir(pasta_mkv) if f.lower().endswith('.mkv')])
@@ -388,7 +605,7 @@ def remuxar_legendas_mkv(pasta_mkv, pasta_legendas):
             "--no-subtitles",       # Descarta a legenda anterior com erro
             caminho_mkv,            # Vídeo/Áudio originais
             "--language", "0:por",
-            "--track-name", "0:Português (Revisada - Lúcifer & Um Ano)",
+            "--track-name", "0:Português (Revisada - Lore+EP08)",
             "--default-track", "0:yes",
             caminho_legenda         # Nova legenda corrigida
         ]
@@ -405,29 +622,85 @@ def remuxar_legendas_mkv(pasta_mkv, pasta_legendas):
 
 def main():
     print("=" * 80)
-    print(f"{Fore.CYAN}       STEWARDESS DE REVISÃO E COMPLIANCE DE LORE: GUNDAM ORIGIN")
+    print(f"{Fore.CYAN}   REVISÃO E COMPLIANCE DE LORE: GUNDAM ORIGIN — CONFIGURAÇÃO DE CAMINHOS")
     print("=" * 80)
-    
-    # 1. Carregar e corrigir o cache de tradução
-    caminho_cache = obter_diretorio_obrigatorio("Caminho completo do cache de tradução JSON", CAMINHO_CACHE_PADRAO)
-    if not os.path.isfile(caminho_cache):
-        # Caso o usuário passe apenas a pasta
-        caminho_cache = os.path.join(caminho_cache, "traducao_cache_origin_zh.json")
-        
-    corrigir_cache_traducao(caminho_cache)
-    
-    # 2. Corrigir os arquivos de legenda .ass já extraídos
-    pasta_legendas = obter_diretorio_obrigatorio("Pasta com arquivos de legenda .ass extraídos", PASTA_LEGENDA_PADRAO)
-    corrigir_arquivos_ass(pasta_legendas)
-    
-    # 3. Perguntar se deseja remuxar
+    print(f"{Fore.WHITE}Cole os caminhos entre aspas ou sem aspas. ENTER aceita o valor sugerido (se houver).")
+    print()
+
+    # ── CONFIGURAÇÃO ────────────────────────────────────────────────────────────
+    print(f"{Fore.CYAN}[1/4] CACHE DE TRADUÇÃO JSON")
+    print("      (arquivo traducao_cache_origin_zh.json gerado pelo pipeline ZH)")
+    print(f"      Digite 'pular' para não corrigir o cache.")
+    caminho_cache = None
+    if CAMINHO_CACHE_PADRAO:
+        resp = input(f"{Fore.YELLOW}Caminho do cache JSON\n  (ENTER = {CAMINHO_CACHE_PADRAO})\n> {Style.RESET_ALL}").strip().strip('"').strip("'")
+        if not resp:
+            caminho_cache = CAMINHO_CACHE_PADRAO
+        elif resp.lower() != 'pular':
+            caminho_cache = resp
+    else:
+        resp = input(f"{Fore.YELLOW}Caminho do cache JSON (ou 'pular')\n> {Style.RESET_ALL}").strip().strip('"').strip("'")
+        if resp.lower() != 'pular' and resp:
+            caminho_cache = resp
+
+    print()
+    print(f"{Fore.CYAN}[2/4] PASTA COM AS LEGENDAS .ASS (PT-BR já traduzidas)")
+    pasta_legendas = obter_diretorio_obrigatorio(
+        "Pasta com os arquivos .ass", PASTA_LEGENDA_PADRAO
+    )
+
+    print()
+    print(f"{Fore.CYAN}[3/4] PASTA COM OS ARQUIVOS .MKV ORIGINAIS (necessária apenas para remuxar)")
+    print("      Digite 'pular' para não remuxar agora.")
+    resp_mkv = input(f"{Fore.YELLOW}Pasta dos MKVs originais (ou 'pular')\n> {Style.RESET_ALL}").strip().strip('"').strip("'")
+    pasta_mkv = None if (not resp_mkv or resp_mkv.lower() == 'pular') else resp_mkv
+
+    pasta_saida_mkv = None
+    if pasta_mkv and os.path.isdir(pasta_mkv):
+        print()
+        print(f"{Fore.CYAN}[4/4] PASTA DE SAÍDA PARA OS MKVs CORRIGIDOS")
+        padrao_saida = os.path.join(pasta_mkv, "corrigidos")
+        pasta_saida_mkv = obter_pasta_saida(
+            "Pasta de saída dos MKVs corrigidos", padrao_saida
+        )
+    elif pasta_mkv:
+        print(f"{Fore.RED}[AVISO] Pasta de MKVs não encontrada: {pasta_mkv}. Remux será pulado.")
+        pasta_mkv = None
+
+    # ── RESUMO ──────────────────────────────────────────────────────────────────
     print("\n" + "=" * 80)
-    opcao = input(f"{Fore.YELLOW}Deseja remuxar as legendas corrigidas nos arquivos .mkv originais? (s/n): {Style.RESET_ALL}").strip().lower()
-    
-    if opcao == 's':
-        pasta_mkv = obter_diretorio_obrigatorio("Pasta com os arquivos .mkv originais", PASTA_ANIME_PADRAO)
-        remuxar_legendas_mkv(pasta_mkv, pasta_legendas)
-        
+    print(f"{Fore.CYAN}CONFIGURAÇÃO CONFIRMADA:")
+    print(f"  Cache JSON  : {caminho_cache or '(pulado)'}")
+    print(f"  Legendas    : {pasta_legendas}")
+    print(f"  MKVs        : {pasta_mkv or '(pulado)'}")
+    print(f"  Saída MKVs  : {pasta_saida_mkv or '(pulado)'}")
+    print("=" * 80)
+    confirma = input(f"{Fore.YELLOW}Confirma e inicia o processamento? (s/n): {Style.RESET_ALL}").strip().lower()
+    if confirma != 's':
+        print(f"{Fore.YELLOW}[CANCELADO] Nenhuma alteração foi feita.")
+        return
+
+    # ── EXECUÇÃO ─────────────────────────────────────────────────────────────────
+    # 1. Corrigir cache
+    if caminho_cache:
+        if os.path.isfile(caminho_cache):
+            corrigir_cache_traducao(caminho_cache)
+        else:
+            print(f"{Fore.RED}[ERRO] Cache não encontrado: {caminho_cache}. Pulando correção do cache.")
+
+    # 2. Corrigir arquivos .ass
+    corrigir_arquivos_ass(pasta_legendas)
+
+    # 3. Auditoria de linhas sem tradução
+    print("\n" + "=" * 80)
+    opcao_auditoria = input(f"{Fore.YELLOW}Auditar linhas sem tradução (chinês/inglês/erros)? (s/n): {Style.RESET_ALL}").strip().lower()
+    if opcao_auditoria == 's':
+        detectar_linhas_sem_traducao(pasta_legendas)
+
+    # 4. Remuxar
+    if pasta_mkv:
+        remuxar_legendas_mkv(pasta_mkv, pasta_legendas, pasta_saida_mkv)
+
     print("\n" + "=" * 80)
     print(f"{Fore.GREEN}[FIM] Processo concluído! Obrigado por manter a integridade da Universal Century!")
     print("=" * 80)

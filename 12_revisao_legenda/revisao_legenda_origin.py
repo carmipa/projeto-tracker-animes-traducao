@@ -345,6 +345,8 @@ def aplicar_correcao_linha_ass(texto_dialogo):
 
     # --- BUG 02 — Discurso de Tem Ray na Anaheim: Zaku → RX-78 / Gundam ---
     # Tem Ray (pai do Amuro) gritava sobre o Projeto V / RX-78, nunca sobre o Zaku inimigo
+    # Caso específico: "Código: Zaku." aparece quando Tem Ray revela o RX-78 — deve ser "Gundam"
+    texto_dialogo = re.sub(r"\bC[oó]digo\s*:\s*Zaku\b", "Código: Gundam", texto_dialogo, flags=re.I)
     texto_dialogo = re.sub(
         r"\b(estou|estamos|vamos|vou|criando|construindo|desenvolvendo|projetando|fazendo)\b([^.!?]*?)\bZaku\b",
         lambda m: m.group(0).replace("Zaku", "RX-78"),
@@ -496,8 +498,22 @@ def detectar_linhas_sem_traducao(pasta_legendas):
     RE_CHINES = re.compile(r'[一-鿿㐀-䶿]')
     RE_JAPONES = re.compile(r'[぀-ヿㇰ-ㇿ]')
     RE_ERRO_PIPELINE = re.compile(r'\[ERRO_TRADUCAO[_:]', re.I)
-    # Linha que parece inglês: >70% de palavras puramente ASCII alfabéticas sem diacríticos PT
-    RE_APENAS_ASCII_ALFA = re.compile(r"^[A-Za-z\s'\",.!?;:\-–—()]+$")
+    # Apenas ASCII sem acentos — candidata a inglês (mínimo 20 chars para evitar ruído)
+    RE_APENAS_ASCII_ALFA = re.compile(r"^[A-Za-z\s'\",.!?;:\-–—()0-9]+$")
+    # Palavras funcionais do português que descartam falso-positivo de "inglês"
+    PALAVRAS_PT = re.compile(
+        r"\b(não|você|sim|uma|uns|mas|por|com|que|para|como|quando|ainda|"
+        r"isso|este|esta|esse|essa|aqui|ali|também|só|já|muito|bem|então|"
+        r"porque|porém|assim|agora|sempre|nunca|nada|tudo|todos|todas|"
+        r"nosso|nossa|seu|sua|seus|suas|meu|minha|meus|minhas|ele|ela|"
+        r"eles|elas|nos|vos|lhe|lhes|foi|era|são|está|estão|tem|têm|"
+        r"vou|vamos|vem|vim|fui|fez|vai|dei|deu|dão|dizer|fazer|ver|"
+        r"sou|somos|seria|seria|seria|pelo|pela|pelos|pelas|neste|nessa|"
+        r"naquele|naquela|disso|disto|daquilo|mesmo|próprio|outra|outro|"
+        r"senhor|senhora|tenente|coronel|almirante|capitão|major|general|"
+        r"navio|frota|batalha|guerra|exército|soldado|piloto|colônia)\b",
+        re.I
+    )
 
     arquivos_ass = sorted([f for f in os.listdir(pasta_legendas) if f.lower().endswith('.ass')])
     relatorio = []
@@ -523,8 +539,9 @@ def detectar_linhas_sem_traducao(pasta_legendas):
                 motivo = "JPN"
             elif RE_ERRO_PIPELINE.search(puro):
                 motivo = "ERRO_PIPELINE"
-            elif RE_APENAS_ASCII_ALFA.match(puro) and len(puro) > 6:
-                motivo = "INGLÊS?"
+            # Detecção de inglês desativada: PT-BR sem acentos é indistinguível de EN por regex
+            # elif RE_APENAS_ASCII_ALFA.match(puro) and len(puro) > 20 and not PALAVRAS_PT.search(puro):
+            #     motivo = "INGLÊS?"
 
             if motivo:
                 entrada = f"  [{arquivo} L{num_linha}] ({motivo}) {puro[:120]}"

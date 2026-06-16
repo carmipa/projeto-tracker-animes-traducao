@@ -1,24 +1,13 @@
 RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE
 ================================================================================
-[DB]Guilty Crown_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_14_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_14_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_15_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_15_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_16_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_16_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_17_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_17_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_18_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_18_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_19_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_19_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_20_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_20_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_21_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_21_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]Guilty Crown_-_22_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]Guilty Crown_-_22_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[DB]86_-_01_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_01_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_02_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_02_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_03_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_03_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_04_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_04_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_05_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_05_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_06_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_06_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_07_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_07_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_08_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_08_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_09_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_09_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_10_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_10_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86_-_11_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86_-_11_(Dual Audio_10bit_BD1080p_x265)_ENG.ass

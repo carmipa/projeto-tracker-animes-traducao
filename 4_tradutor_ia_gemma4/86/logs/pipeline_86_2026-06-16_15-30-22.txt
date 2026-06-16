@@ -1,0 +1,30 @@
+
+================================================================================
+PIPELINE DE TRADUÇÃO DE 86 (EN -> PT-BR) - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-16 15:30:22
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_tradutor_ia_gemma4\86\logs
+================================================================================
+
+
+================================================================================
+            PIPELINE INDUSTRIAL UNIFICADO — VERSÃO 86 (EN -> PT-BR)             
+================================================================================
+
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[15:30:22.187] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[15:30:22.216] [SUCESSO ] LM Studio OK — 4 modelo(s)
+[15:30:22.216] [INFO    ] Usando modelo: google/gemma-4-e4b
+[15:30:22.216] [DEBUG   ] Verificando MKVToolNix...
+[15:30:22.216] [SUCESSO ] MKVToolNix OK: C:\Program Files\MKVToolNix\mkvextract.exe
+[15:30:22.216] [SUCESSO ] ✓ Infraestrutura validada!
+[15:30:22.216] [ERRO    ] Erro crítico no pipeline: 'charmap' codec can't encode character '\u2713' in position 26: character maps to <undefined>
+
+================================================================================
+Execução finalizada: 2026-06-16 15:30:22
+================================================================================

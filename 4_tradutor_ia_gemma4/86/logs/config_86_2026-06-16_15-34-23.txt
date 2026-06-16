@@ -1,0 +1,19 @@
+
+================================================================================
+CONFIGURAÇÃO DA EXECUÇÃO
+================================================================================
+
+Data/Hora      : 2026-06-16 15:34:33
+
+LM Studio URL  : http://127.0.0.1:1234
+Modelo         : google/gemma-4-e4b
+
+Pasta entrada  : C:\animes\86\86 Part1\anime\legendas_eng
+Track ID       : ASS Direto
+Pasta saída    : C:\animes\86\86 Part1\anime\legendas_eng\traducao
+
+Logs:
+  Pipeline : pipeline_86_2026-06-16_15-34-23.txt
+  Erros    : erros_86_2026-06-16_15-34-23.txt
+  Stats    : stats_86_2026-06-16_15-34-23.json
+  Config   : config_86_2026-06-16_15-34-23.txt

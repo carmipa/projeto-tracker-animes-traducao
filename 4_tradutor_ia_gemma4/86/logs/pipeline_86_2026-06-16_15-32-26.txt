@@ -1,0 +1,54 @@
+
+================================================================================
+PIPELINE DE TRADUÇÃO DE 86 (EN -> PT-BR) - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-16 15:32:26
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_tradutor_ia_gemma4\86\logs
+================================================================================
+
+
+================================================================================
+            PIPELINE INDUSTRIAL UNIFICADO — VERSÃO 86 (EN -> PT-BR)             
+================================================================================
+
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[15:32:26.460] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[15:32:26.464] [SUCESSO ] LM Studio OK — 4 modelo(s)
+[15:32:26.464] [INFO    ] Usando modelo: google/gemma-4-e4b
+[15:32:26.464] [DEBUG   ] Verificando MKVToolNix...
+[15:32:26.464] [SUCESSO ] MKVToolNix OK: C:\Program Files\MKVToolNix\mkvextract.exe
+[15:32:26.464] [SUCESSO ] [OK] Infraestrutura validada!
+
+================================================================================
+                                     INPUTS                                     
+================================================================================
+
+[15:33:13.686] [INFO    ] Pasta: C:\animes\86\86 Part1\anime
+[15:33:13.687] [INFO    ] Encontrados 11 arquivo(s) .mkv
+[15:33:13.687] [INFO    ] Saída: C:\animes\86\86 Part1\anime\traducao
+[15:33:13.688] [DEBUG   ] Config salvo: config_86_2026-06-16_15-32-26.txt
+
+================================================================================
+                                 PROCESSAMENTO                                  
+================================================================================
+
+[15:33:13.688] [INFO    ] [1/11] [DB]86_-_01_(Dual Audio_10bit_BD1080p_x265).mkv
+[15:33:13.735] [DEBUG   ] Track ID inglês detectado: 5 (idioma: eng)
+[15:33:13.735] [DEBUG   ] mkvextract track=5 → [DB]86_-_01_(Dual Audio_10bit_BD1080p_x265)_extracted.ass
+[15:33:13.939] [SUCESSO ] Extraído: 251,238 bytes
+[15:33:13.939] [DEBUG   ] Detectando encoding: [DB]86_-_01_(Dual Audio_10bit_BD1080p_x265)_extracted.ass
+[15:33:13.940] [SUCESSO ] Encoding detectado: UTF-8
+[15:33:13.940] [DEBUG   ] Arquivo lido: 1494 linhas (encoding: utf-8)
+[15:33:13.944] [DEBUG   ] Diálogos identificados: 1377 (Lixo binário pulado: 0)
+[15:33:13.944] [INFO    ] Cache Hits: 0 | Misses (A traduzir): 1377
+[15:33:13.945] [DEBUG   ] Processando 173 lotes concorrentes (Max Threads: 2)...
+[15:34:03.120] [AVISO   ] Pipeline interrompido pelo usuário (Ctrl+C)
+
+================================================================================
+Execução finalizada: 2026-06-16 15:34:03
+================================================================================

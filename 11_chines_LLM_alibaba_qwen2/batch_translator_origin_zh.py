@@ -88,7 +88,9 @@ SYSTEM_PROMPT = (
     "- 鲁姆战役 ➔ Batalha de Loum\n"
     "- 红色彗星 ➔ Cometa Vermelho\n"
     "- 白色基地 ➔ White Base\n"
-    "- 路西法 ➔ Lucifer\n"
+    "- 路西法 ➔ Lúcifer\n"
+    "- 一年战争 ➔ Guerra de Um Ano\n"
+    "- 大德金号 ➔ Grande Degwin\n"
     "- 库姆朗 ➔ Kumlang\n"
     "- 接舷码头 ➔ doca de acoplamento\n\n"
     "- 演讲 / 演讲稿 ➔ discurso / texto do discurso, nunca palestra em contexto político\n"
@@ -137,6 +139,11 @@ SUBSTITUICOES_POS_PROCESSAMENTO = [
     (re.compile(r"\bComputador Shinjico\b", re.I), "Shinjico"),
     (re.compile(r"\bTurma do Conto\b", re.I), "Grupo de Legendas Manyuu"),
     (re.compile(r"\bmorrendo em extinção\b", re.I), "até serem exterminados"),
+    (re.compile(r"\bGuerra (?:de|dos|do)?\s?(?:Cem|100) Anos\b", re.I), "Guerra de Um Ano"),
+    (re.compile(r"\bGuerra do Ano Um\b", re.I), "Guerra de Um Ano"),
+    (re.compile(r"\bPrincipado de Dion\b", re.I), "Principado de Zeon"),
+    (re.compile(r"\bLucifero\b", re.I), "Lúcifer"),
+    (re.compile(r"\bLucifer\b", re.I), "Lúcifer"),
 ]
 
 PADRAO_PREAMBULO_LLM = re.compile(

@@ -1,0 +1,31 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO FRANCÊS - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-17 09:44:57
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\logs
+================================================================================
+
+
+================================================================================
+          PIPELINE INDUSTRIAL UNIFICADO — VERSÃO FRANCÊS (FR -> PT-BR)          
+================================================================================
+
+[09:44:57.874] [INFO    ] Cache em disco carregado: 319 traduções disponíveis.
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[09:44:57.878] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[09:44:57.892] [SUCESSO ] LM Studio OK — 5 modelo(s)
+[09:44:57.892] [INFO    ] Usando modelo: mistralai/mistral-nemo-instruct-2407
+[09:44:57.892] [DEBUG   ] Verificando MKVToolNix (opcional)...
+[09:44:57.893] [SUCESSO ] MKVToolNix detectado: C:\Program Files\MKVToolNix\mkvextract.exe
+[09:44:57.893] [SUCESSO ] ✓ Infraestrutura validada!
+
+================================================================================
+                                     INPUTS                                     
+================================================================================
+

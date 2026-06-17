@@ -1,0 +1,1285 @@
+
+================================================================================
+EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+================================================================================
+
+[0] [OK]
+  FR: J’ai enfin terminé !
+  PT: Finalmente terminei!
+------------------------------------------------------------
+[1] [OK]
+  FR: C’est le brouillon\Ndu discours de demain !
+  PT: Este é o rascunho\Ndo discurso de amanhã!
+------------------------------------------------------------
+[2] [OK]
+  FR: Veux-tu le lire, Astraia ?
+  PT: Queres lê-lo, Astraia?
+------------------------------------------------------------
+[3] [OK]
+  FR: Parle moins fort.\NTu vas réveiller les enfants.
+  PT: Fala mais baixo.\NTu vais acordar as crianças.
+------------------------------------------------------------
+[4] [OK]
+  FR: Non !
+  PT: Não!
+------------------------------------------------------------
+[5] [OK]
+  FR: Ce n’est pas bon !
+  PT: Isto não é bom!
+------------------------------------------------------------
+[6] [OK]
+  FR: On croirait que je réclame\Nune plus grande autonomie.
+  PT: Parece que eu estou pedindo\Na uma maior autonomia.
+------------------------------------------------------------
+[7] [OK]
+  FR: Mais ce n’est pas ça !
+  PT: Mas isso não é disso!
+------------------------------------------------------------
+[8] [OK]
+  FR: C’est une déclaration de guerre\Naux citoyens du Cercle terrestre !
+  PT: É uma declaração de guerra\Naos cidadãos da Esfera Terrestre!
+------------------------------------------------------------
+[9] [OK]
+  FR: Pourquoi ne puis-je l’exprimer\Nen ces termes ?
+  PT: Por que não posso expressar\Nesses termos?
+------------------------------------------------------------
+[10] [OK]
+  FR: Tu es épuisé.\NTu devrais aller te reposer.
+  PT: Você está cansado.\NTalvez devesse ir descansar.
+------------------------------------------------------------
+[11] [OK]
+  FR: Va t’allonger un peu.
+  PT: Vá deitar um pouco.
+------------------------------------------------------------
+[12] [OK]
+  FR: Tu veux que je dorme ?
+  PT: Você quer que eu durma?
+------------------------------------------------------------
+[13] [OK]
+  FR: Mais si je dors, comment tirerai-je\Nmes disciples de leur léthargie ?
+  PT: Mas se eu dormir, como tirarei\Nmeus discípulos da sua letargia?
+------------------------------------------------------------
+[14] [OK]
+  FR: Astraia…
+  PT: Astraia...
+------------------------------------------------------------
+[15] [OK]
+  FR: Réalises-tu que demain,\Nje serai traîné jusqu’au Golgotha ?
+  PT: Você percebe que amanhã,\Nterei arrastado até o Golgotha?
+------------------------------------------------------------
+[16] [OK]
+  FR: Je devrai m’adresser au monde entier\Ndepuis ma croix
+  PT: Eu deverei me dirigir ao mundo inteiro\NDa minha cruz
+------------------------------------------------------------
+[17] [OK]
+  FR: et leur dire\Nque les pécheurs qui ont souillé Gaïa
+  PT: e lhes dizer\Nque os pecadores que macularam Gaia
+------------------------------------------------------------
+[18] [OK]
+  FR: périront incessamment par le feu !
+  PT: perecerão incessantemente pelo fogo!
+------------------------------------------------------------
+[19] [OK]
+  FR: Tu dois te reposer.\NNe serait-ce qu’un peu !
+  PT: Você deve descansar.\NNão importa por pouco tempo!
+------------------------------------------------------------
+[20] [OK]
+  FR: Qui c’est ?\NC’est toi, papa ?
+  PT: Quem é esse?\NC é você, pai?
+------------------------------------------------------------
+[21] [OK]
+  FR: J’ai sommeil.
+  PT: Estou com sono.
+------------------------------------------------------------
+[22] [OK]
+  FR: Ta barbe me pique…
+  PT: Sua barba me pinica...
+------------------------------------------------------------
+[23] [OK]
+  FR: Bonne nuit, papa…
+  PT: Boa noite, pai...
+------------------------------------------------------------
+[24] [OK]
+  FR: Bonne nuit, Artesia.
+  PT: Boa noite, Artesia.
+------------------------------------------------------------
+[25] [OK]
+  FR: Bonne nuit, douce enfant.
+  PT: Boa noite, doce criança.
+------------------------------------------------------------
+[26] [OK]
+  FR: Bonne nuit…
+  PT: Boa noite...
+------------------------------------------------------------
+[27] [OK]
+  FR: {\fad(1000,1200)}ÉPISODE 1\N{\fs22}LE FILS DE ZEON
+  PT: {\fad(1000,1200)}EPISODE 1\N{\fs22}O FILHO DE ZEON
+------------------------------------------------------------
+[28] [OK]
+  FR: Le discours du président Zeon Zum Daikun\Nest sur le point de commencer.
+  PT: O discurso do presidente Zeon Zum Deikun\nest prestes a começar.
+------------------------------------------------------------
+[29] [OK]
+  FR: Va-t-il se prononcer pour l’indépendance\Nvis-à-vis de la Fédération ?
+  PT: Ele vai se pronunciar pela independência\naverso a Federação?
+------------------------------------------------------------
+[30] [OK]
+  FR: Les yeux du monde\Nsont rivés sur lui.
+  PT: Os olhos do mundo\ntêm sua atenção nele.
+------------------------------------------------------------
+[31] [OK]
+  FR: Papa est malade ?
+  PT: Papai está doente?
+------------------------------------------------------------
+[32] [OK]
+  FR: Ne t’inquiète pas, Artesia.\NCe n’est sûrement pas grave.
+  PT: Não se preocupe, Artesia.\NCertamente não é nada grave.
+------------------------------------------------------------
+[33] [OK]
+  FR: Non !
+  PT: Não!
+------------------------------------------------------------
+[34] [OK]
+  FR: On veut voir le président !
+  PT: Queremos ver o presidente!
+------------------------------------------------------------
+[35] [OK]
+  FR: Que lui est-il arrivé ?
+  PT: O que lhe aconteceu?
+------------------------------------------------------------
+[36] [OK]
+  FR: À bas la tyrannie de la Fédération !
+  PT: Abaixo a tirania da Federação!
+------------------------------------------------------------
+[37] [OK]
+  FR: Vous ignorez nos souffrances !
+  PT: Vocês ignoram nossas dores!
+------------------------------------------------------------
+[38] [OK]
+  FR: On veut écouter son discours !
+  PT: Queremos ouvir seu discurso!
+------------------------------------------------------------
+[39] [OK]
+  FR: À nous l’indépendance !
+  PT: Pelo nosso independence!
+------------------------------------------------------------
+[40] [OK]
+  FR: Le président a eu\Nune crise cardiaque.
+  PT: O presidente teve\num ataque cardíaco.
+------------------------------------------------------------
+[41] [OK]
+  FR: Nous avons tout fait pour le sauver.\NHélas…
+  PT: Fizemos tudo para salvá-lo.\NHélas...
+------------------------------------------------------------
+[42] [OK]
+  FR: Dans son dernier souffle,
+  PT: Em seu último suspiro,
+------------------------------------------------------------
+[43] [OK]
+  FR: il m’a demandé de prendre soin\Nde vous et de vos enfants.
+  PT: ele me pediu para cuidar de você e de seus filhos.
+------------------------------------------------------------
+[44] [OK]
+  FR: Vous pouvez compter sur moi.
+  PT: Pode contar comigo.
+------------------------------------------------------------
+[45] [OK]
+  FR: J’étais son plus ancien compagnon.
+  PT: Eu era seu companheiro mais antigo.
+------------------------------------------------------------
+[46] [OK]
+  FR: Je mettrai tout en œuvre\Npour soutenir votre famille.
+  PT: Farei o possível\Npara apoiar sua família.
+------------------------------------------------------------
+[47] [OK]
+  FR: Vous n’êtes pas sérieux ?
+  PT: Você não está falando sério?
+------------------------------------------------------------
+[48] [OK]
+  FR: Si !\NEt c’est même presque certain !
+  PT: Sim! E é quase certo!
+------------------------------------------------------------
+[49] [OK]
+  FR: La manifestation tourne à l’émeute.
+  PT: A manifestação virou tumulto.
+------------------------------------------------------------
+[50] [OK]
+  FR: Comment est-ce possible\Nalors que sa mort est demeurée secrète ?
+  PT: Como isso é possível?\NQuando sua morte permaneceu secreta?
+------------------------------------------------------------
+[51] [OK]
+  FR: Quelqu’un a vendu la mèche.
+  PT: Alguém entregou o jogo.
+------------------------------------------------------------
+[52] [OK]
+  FR: C’est certainement le fait de Sasro,\Nson 2e fils.
+  PT: Certamente foi Sasro,\Nseu segundo filho.
+------------------------------------------------------------
+[53] [OK]
+  FR: Degwin cherchait à écarter Daikun\Ndepuis un certain temps.
+  PT: Degwin procurava afastar Deikun\Nhá algum tempo.
+------------------------------------------------------------
+[54] [OK]
+  FR: Il l’a fait empoisonner !
+  PT: Ele mandou envenená-lo!
+------------------------------------------------------------
+[55] [OK]
+  FR: M. Ral… Évitez de dire cela\Nen présence des enfants.
+  PT: Sr. Ral... Evite dizer isso\Nna presença das crianças.
+------------------------------------------------------------
+[56] [OK]
+  FR: Au contraire !\NIls ont le droit de savoir !
+  PT: Pelo contrário! Eles têm o direito de saber!
+------------------------------------------------------------
+[57] [OK]
+  FR: Votre père a été assassiné\Npar ces ordures de la famille Zabi !
+  PT: Seu pai foi assassinado pelos desgraçados da família Zabi!
+------------------------------------------------------------
+[58] [OK]
+  FR: Vous devez agir avec prudence.
+  PT: Você deve agir com prudência.
+------------------------------------------------------------
+[59] [OK]
+  FR: Je vous propose de venir chez moi.
+  PT: Eu lhe convido para ir à minha casa.
+------------------------------------------------------------
+[60] [OK]
+  FR: Entre !
+  PT: Entre!
+------------------------------------------------------------
+[61] [OK]
+  FR: Voici mon fils, Ramba Ral.
+  PT: Este é meu filho, Ramba Ral.
+------------------------------------------------------------
+[62] [OK]
+  FR: Il va vous y emmener\Net vous servira de garde du corps.
+  PT: Ele vai levá-lo até lá e servirá como sua guarda-costas.
+------------------------------------------------------------
+[63] [OK]
+  FR: Je suis très honoré\Nde servir la famille Daikun !
+  PT: Estou muito honrado em servir a família Deikun!
+------------------------------------------------------------
+[64] [OK]
+  FR: Arrêtez-vous !
+  PT: Pare!
+------------------------------------------------------------
+[65] [OK]
+  FR: Libérez le passage !
+  PT: Liberem o passageiro!
+------------------------------------------------------------
+[66] [OK]
+  FR: Bien !\NPrends la prochaine déviation à gauche.
+  PT: Muito bem!\NTome a próxima saída à esquerda.
+------------------------------------------------------------
+[67] [OK]
+  FR: Il y en a jusqu’ici ?
+  PT: Quantos há até aqui?
+------------------------------------------------------------
+[68] [OK]
+  FR: – Ils se prennent pour qui ?\N– Qu’ils essaient !
+  PT: – Eles se acham quem?\N– Que tentem!
+------------------------------------------------------------
+[69] [OK]
+  FR: Valets à la solde du pouvoir !
+  PT: Lacaios ao serviço do poder!
+------------------------------------------------------------
+[70] [OK]
+  FR: Laissez-nous passer !
+  PT: Deixem-nos passar!
+------------------------------------------------------------
+[71] [OK]
+  FR: Allez ! Fichez-moi le camp !
+  PT: Vamos! Fora daqui!
+------------------------------------------------------------
+[72] [OK]
+  FR: – Hé ! T’as vu la caisse ?\N– C’est qui, dedans ?
+  PT: – Ei! Viste o carro?\N– Quem é que tá dentro dele?
+------------------------------------------------------------
+[73] [OK]
+  FR: C’est qui ?
+  PT: Quem é esse?
+------------------------------------------------------------
+[74] [OK]
+  FR: – La famille Daikun !\N– Y a Astraia !
+  PT: É a família Deikun!\NY tem Astraia!
+------------------------------------------------------------
+[75] [OK]
+  FR: Bande de…\NJe vais finir par tirer pour de vrai !
+  PT: Que droga...\NNão vou aguentar mais, vou mesmo atirar de verdade!
+------------------------------------------------------------
+[76] [OK]
+  FR: Vous m’avez l’air en difficulté,\Ncapitaine Ramba Ral !
+  PT: Você parece estar em dificuldade,\nCapitão Ramba Ral!
+------------------------------------------------------------
+[77] [OK]
+  FR: Kycilia Zabi…
+  PT: Kycilia Zabi...
+------------------------------------------------------------
+[78] [OK]
+  FR: Laissez-moi vous aider.\NVous ne me devrez rien.
+  PT: Deixe-me ajudar.\NVocê não me deve nada.
+------------------------------------------------------------
+[79] [OK]
+  FR: Vous êtes Kycilia, pas vrai ?
+  PT: É você, Kycilia, certo?
+------------------------------------------------------------
+[80] [OK]
+  FR: Oui. Vous n’avez rien ?
+  PT: Sim. Você não tem nada?
+------------------------------------------------------------
+[81] [OK]
+  FR: Non, je vous remercie.
+  PT: Não, obrigado.
+------------------------------------------------------------
+[82] [OK]
+  FR: Votre attitude\Nétait très courageuse.
+  PT: Sua atitude\Nera muito corajosa.
+------------------------------------------------------------
+[83] [OK]
+  FR: Pour une femme, voulez-vous dire ?
+  PT: Você quer dizer para uma mulher?
+------------------------------------------------------------
+[84] [OK]
+  FR: C’est une tradition chez les Zabi.
+  PT: Isso é uma tradição na família Zabi.
+------------------------------------------------------------
+[85] [OK]
+  FR: C’est risible, non ?
+  PT: É ridículo, não é?
+------------------------------------------------------------
+[86] [OK]
+  FR: Et tu les as laissés partir ?
+  PT: E você os deixou partir?
+------------------------------------------------------------
+[87] [OK]
+  FR: Oui.
+  PT: Sim.
+------------------------------------------------------------
+[88] [OK]
+  FR: Chercher à disputer leur garde\Nà Ramba Ral aurait été stérile.
+  PT: Buscar uma disputa com sua guarda teria sido estéril para Ramba Ral.
+------------------------------------------------------------
+[89] [OK]
+  FR: Comment as-tu pu laisser filer\Nles orphelins de Daikun ?
+  PT: Como você pôde deixar escapar os órfãos de Deikun?
+------------------------------------------------------------
+[90] [OK]
+  FR: Imbécile !
+  PT: Idiota!
+------------------------------------------------------------
+[91] [OK]
+  FR: Sasro ! Y a pas de quoi la gifler !
+  PT: Sasro! Não há necessidade de bater nela!
+------------------------------------------------------------
+[92] [OK]
+  FR: Toi, ferme-la !
+  PT: Cale a boca, seu!
+------------------------------------------------------------
+[93] [OK]
+  FR: On a réussi à manipuler l’opinion\Npour qu’elle pense que Daikun
+  PT: Conseguimos manipular a opinião pública para fazer com que pensem que Deikun
+------------------------------------------------------------
+[94] [OK]
+  FR: a été assassiné par la Fédération.
+  PT: foi assassinado pela Federação.
+------------------------------------------------------------
+[95] [OK]
+  FR: Elle s’est laissé duper\Npar ce vieillard.
+  PT: Ela se deixou enganar por aquele velho.
+------------------------------------------------------------
+[96] [OK]
+  FR: Il va falloir s’en débarrasser.
+  PT: Teremos que nos livrar disso.
+------------------------------------------------------------
+[97] [OK]
+  FR: Je parle du vieillard, bien sûr.
+  PT: Estou falando do velho, claro.
+------------------------------------------------------------
+[98] [OK]
+  FR: Que veux-tu dire ?
+  PT: O que você quer dizer?
+------------------------------------------------------------
+[99] [OK]
+  FR: Réglons nos comptes\Navec la famille Ral.
+  PT: Vamos acertar as contas\Ncom a família Ral.
+------------------------------------------------------------
+[100] [OK]
+  FR: Une fois pour toutes.
+  PT: Uma vez por todas.
+------------------------------------------------------------
+[101] [OK]
+  FR: Le dirigeant de Munzo,\NZeon Zum Daikun,
+  PT: O líder de Munzo,\NZeon Zum Deikun,
+------------------------------------------------------------
+[102] [OK]
+  FR: était un grand homme\Net l’incarnation de notre idéal.
+  PT: era um grande homem\Net o personificava nosso ideal.
+------------------------------------------------------------
+[103] [OK]
+  FR: Le président\Ndu Parlement de Munzo
+  PT: O presidente\NDo Parlamento de Munzo
+------------------------------------------------------------
+[104] [OK]
+  FR: était également l’initiateur\Nde la libération des Spacenoïdes.
+  PT: Era também o iniciador da libertação dos Spacenoids.
+------------------------------------------------------------
+[105] [OK]
+  FR: Mais à présent,\Nlaissons donc son esprit
+  PT: Mas agora, deixemos seu espírito
+------------------------------------------------------------
+[106] [OK]
+  FR: monter au ciel\Nafin qu’il veille sur nous.
+  PT: subir ao céu para que ele nos proteja.
+------------------------------------------------------------
+[107] [OK]
+  FR: Puisse son âme reposer en paix
+  PT: Que sua alma descanse em paz
+------------------------------------------------------------
+[108] [OK]
+  FR: et soutenir à jamais notre cause.
+  PT: e apoie para sempre nossa causa.
+------------------------------------------------------------
+[109] [OK]
+  FR: Que son idéal devienne éternel.
+  PT: Que seu ideal se torne eterno.
+------------------------------------------------------------
+[110] [OK]
+  FR: Même si son corps de chair\Nn’est plus,
+  PT: Mesmo que seu corpo de carne não esteja mais,
+------------------------------------------------------------
+[111] [OK]
+  FR: puisse-t-il éclairer la voie\Nsur laquelle nous cheminons.
+  PT: possa ele iluminar o caminho por onde caminhamos.
+------------------------------------------------------------
+[112] [OK]
+  FR: Sieg Zeon !
+  PT: Sieg Zeon!
+------------------------------------------------------------
+[113] [OK]
+  FR: Sasro…\NJe trouve que tu exagères.
+  PT: Sasro... \NJe ache que tu exagères.
+------------------------------------------------------------
+[114] [OK]
+  FR: Quoi donc ?\NAh, tu parles de Kycilia ?
+  PT: Quoi donc? \NAh, tu parles de Kycilia?
+------------------------------------------------------------
+[115] [OK]
+  FR: Oui.\NTu n’avais pas besoin de la gifler.
+  PT: Oui. \NTu n'avais pas besoin de la gifler.
+------------------------------------------------------------
+[116] [OK]
+  FR: Elle méritait bien pire !
+  PT: Elle méritait bien pire!
+------------------------------------------------------------
+[117] [OK]
+  FR: Elle se montre\Nde plus en plus insolente.
+  PT: Elle se montre \Nde plus en plus insolente.
+------------------------------------------------------------
+[118] [OK]
+  FR: C’est pas faux…
+  PT: Isso não é falso...
+------------------------------------------------------------
+[119] [OK]
+  FR: Mais entre frères et sœur,\Non pourrait…
+  PT: Mais entre frères et sœur, \Non pourrait-on...
+------------------------------------------------------------
+[120] [OK]
+  FR: Dozle !
+  PT: Dozle!
+------------------------------------------------------------
+[121] [OK]
+  FR: Écoute, la lutte politique\Nva se transformer en lutte à mort.
+  PT: Escute, a luta política\Nestá prestes a se tornar uma luta até a morte.
+------------------------------------------------------------
+[122] [OK]
+  FR: Or, ton attitude est…
+  PT: Mas, sua atitude é...
+------------------------------------------------------------
+[123] [OK]
+  FR: Kycilia !\NLa voiture de Dozle et Sasro vient de…
+  PT: Kycilia! O carro de Dozle e Sasro acabou de...
+------------------------------------------------------------
+[124] [OK]
+  FR: Garma !
+  PT: Garma!
+------------------------------------------------------------
+[125] [OK]
+  FR: Garde ton sang-froid\Nen toutes circonstances !
+  PT: Mantenha sua calma\Nem todas as circunstâncias!
+------------------------------------------------------------
+[126] [OK]
+  FR: C’est indigne d’un fils Zabi !
+  PT: Isso não é digno de um filho Zabi!
+------------------------------------------------------------
+[127] [OK]
+  FR: Des extincteurs ! Vite !
+  PT: Apagueiros! Rápido!
+------------------------------------------------------------
+[128] [OK]
+  FR: Nom de Dieu !\NSasro y est resté !
+  PT: Meu Deus!\NSasro ainda está aí!
+------------------------------------------------------------
+[129] [OK]
+  FR: Qui a fait ça ?
+  PT: Quem fez isso?
+------------------------------------------------------------
+[130] [OK]
+  FR: C’est qui, qui a fait ça ?
+  PT: Quem é que fez isso?
+------------------------------------------------------------
+[131] [OK]
+  FR: Une voiture du cortège funèbre\Nde feu Zeon Zum Daikun a explosé.
+  PT: Um carro do cortejo fúnebre\Ndo falecido Zeon Zum Deikun explodiu.
+------------------------------------------------------------
+[132] [OK]
+  FR: Sasro Zabi a été tué sur le coup,
+  PT: Sasro Zabi morreu na hora,
+------------------------------------------------------------
+[133] [OK]
+  FR: mais son frère Dozle qui l’accompagnait\Na été miraculeusement épargné.
+  PT: mas seu irmão Dozle, que o acompanhava,\Na foi miraculosamente poupado.
+------------------------------------------------------------
+[134] [OK]
+  FR: Ce sont des calomnies !
+  PT: São calúnias!
+------------------------------------------------------------
+[135] [OK]
+  FR: Ils sont à la botte des Zabi !
+  PT: Eles são marionetes dos Zabi!
+------------------------------------------------------------
+[136] [OK]
+  FR: C’est encore un coup de Degwin !
+  PT: É outro golpe de Degwin!
+------------------------------------------------------------
+[137] [OK]
+  FR: Il a tué son fils pour détourner\Nl’attention de l’assassinat de Daikun
+  PT: Ele matou seu filho para desviar a atenção do assassinato de Deikun
+------------------------------------------------------------
+[138] [OK]
+  FR: et nous faire porter le chapeau !
+  PT: e nos fazer levar a culpa!
+------------------------------------------------------------
+[139] [OK]
+  FR: Est-ce vraiment le cas, père ?
+  PT: Isso é mesmo verdade, pai?
+------------------------------------------------------------
+[140] [OK]
+  FR: Ramba ?\NDouterais-tu de moi, toi aussi ?
+  PT: Ramba?\NDuvida de mim, você também?
+------------------------------------------------------------
+[141] [OK]
+  FR: Non, loin de là.
+  PT: Não, longe disso.
+------------------------------------------------------------
+[142] [OK]
+  FR: Mais ce mobile justifie-t-il\Nle meurtre de son fils ?
+  PT: Mas esse motivo justifica o assassinato de seu filho?
+------------------------------------------------------------
+[143] [OK]
+  FR: Sasro était un sale type,
+  PT: Sasro era um tipo nojento
+------------------------------------------------------------
+[144] [OK]
+  FR: mais il était efficace\Net très utile à sa famille.
+  PT: Mas ele era eficaz\Ne muito útil à sua família.
+------------------------------------------------------------
+[145] [OK]
+  FR: M. Ramba ?
+  PT: Sr. Ramba?
+------------------------------------------------------------
+[146] [OK]
+  FR: Mme Astraia vous demande.
+  PT: Sra. Astraia quer vê-lo.
+------------------------------------------------------------
+[147] [OK]
+  FR: J’arrive tout de suite.
+  PT: Estou indo agora mesmo.
+------------------------------------------------------------
+[148] [OK]
+  FR: T’as osé kidnapper\Nla famille de Daikun !
+  PT: Você ousou sequestrar\Na família de Deikun!
+------------------------------------------------------------
+[149] [OK]
+  FR: Daikun aurait honte de toi !\NEspèce de traître !
+  PT: Deikun ficaria envergonhado de você!\NEspécie de traidor!
+------------------------------------------------------------
+[150] [OK]
+  FR: Capitaine Ral, au rapport.
+  PT: Capitão Ral, apresentando-se.
+------------------------------------------------------------
+[151] [OK]
+  FR: J’entre.
+  PT: Estou entrando.
+------------------------------------------------------------
+[152] [OK]
+  FR: Oui, oui, je sais.
+  PT: Sim, sim, eu sei.
+------------------------------------------------------------
+[153] [OK]
+  FR: Tu veux rentrer chez toi, c’est ça ?\NJe comprends.
+  PT: Você quer ir para casa, não é?\NEu entendo.
+------------------------------------------------------------
+[154] [OK]
+  FR: Mais sois encore un peu patiente.
+  PT: Mas seja um pouco mais paciente ainda.
+------------------------------------------------------------
+[155] [OK]
+  FR: Il ne s’agit pas de cela.\NCe qui la préoccupe, c’est…
+  PT: Não se trata disso.\NAquilo que a preocupa é...
+------------------------------------------------------------
+[156] [OK]
+  FR: C’est Lucifer qui est tout seul.
+  PT: É Lucifer quem está sozinho.
+------------------------------------------------------------
+[157] [OK]
+  FR: Je suis inquiète.
+  PT: Estou preocupada.
+------------------------------------------------------------
+[158] [OK]
+  FR: Lucifer ?
+  PT: Lucifer?
+------------------------------------------------------------
+[159] [OK]
+  FR: C’est…
+  PT: É...
+------------------------------------------------------------
+[160] [OK]
+  FR: un chat ?
+  PT: um gato?
+------------------------------------------------------------
+[161] [OK]
+  FR: Lucifer n’aime pas la solitude.
+  PT: Lucífer não gosta de ficar sozinho.
+------------------------------------------------------------
+[162] [OK]
+  FR: Il a besoin de moi pour s’endormir,
+  PT: Ele precisa de mim para dormir,
+------------------------------------------------------------
+[163] [OK]
+  FR: et même que je l’aide\Npour faire ses besoins.
+  PT: e até mesmo eu o ajudo\Na fazer suas necessidades.
+------------------------------------------------------------
+[164] [OK]
+  FR: C’est entendu !
+  PT: Entendido!
+------------------------------------------------------------
+[165] [OK]
+  FR: Tu peux compter sur moi\Npour te ramener le petit Lucifer !
+  PT: Pode contar comigo\NPara te trazer o pequeno Lucifer!
+------------------------------------------------------------
+[166] [OK]
+  FR: C’est vrai ?
+  PT: É verdade?
+------------------------------------------------------------
+[167] [OK]
+  FR: Oui !
+  PT: Sim!
+------------------------------------------------------------
+[168] [OK]
+  FR: Je te le promets !
+  PT: Eu lhe prometo!
+------------------------------------------------------------
+[169] [OK]
+  FR: Sache que rien n’est impossible\Npour Ramba Ral !
+  PT: Saiba que nada é impossível\Npara Ramba Ral!
+------------------------------------------------------------
+[170] [OK]
+  FR: Je vous adore !
+  PT: Eu te adoro!
+------------------------------------------------------------
+[171] [OK]
+  FR: On a pour mission\Nde ramener Lucifer !
+  PT: Nossa missão é\Ntrazer de volta o Lucifer!
+------------------------------------------------------------
+[172] [OK]
+  FR: – Lucifer ?\N– C’est qui ?
+  PT: O Lucifer?\NNão é quem?
+------------------------------------------------------------
+[173] [OK]
+  FR: – Votre nom, sous-lieutenant ?\N– Donovan Matglos !
+  PT: - Qual é seu nome, subtenente?\N- Donovan Matglos!
+------------------------------------------------------------
+[174] [OK]
+  FR: Bien !
+  PT: Muito bem!
+------------------------------------------------------------
+[175] [OK]
+  FR: Suivez-moi avec une escouade !
+  PT: Siga-me com uma esquadra!
+------------------------------------------------------------
+[176] [OK]
+  FR: Oh, mon Dieu !
+  PT: Oh, meu Deus!
+------------------------------------------------------------
+[177] [OK]
+  FR: J’ai oublié de lui dire\Nque Lucifer griffe les inconnus !
+  PT: Me esqueci de lhe dizer\nque o Lucifer marca os desconhecidos!
+------------------------------------------------------------
+[178] [OK]
+  FR: À bas les traîtres !
+  PT: Fora com os traidores!
+------------------------------------------------------------
+[179] [OK]
+  FR: Éliminons la famille Ral !
+  PT: Eliminemos a família Ral!
+------------------------------------------------------------
+[180] [OK]
+  FR: Vive Degwin Zabi !
+  PT: Viva Degwin Zabi!
+------------------------------------------------------------
+[181] [OK]
+  FR: À mort la famille Ral !
+  PT: Morte à família Ral!
+------------------------------------------------------------
+[182] [OK]
+  FR: – Bravo !\N– Ça, c’était pour Sasro !
+  PT: – Bravo!\N– Isso foi por Sasro!
+------------------------------------------------------------
+[183] [OK]
+  FR: Notre victoire sur les Ral\Nest sans appel.
+  PT: Nossa vitória sobre os Ral\né incontestável.
+------------------------------------------------------------
+[184] [OK]
+  FR: La ville est en état de siège.
+  PT: A cidade está sob cerco.
+------------------------------------------------------------
+[185] [OK]
+  FR: Attiser le feu ne suffit pas.
+  PT: Atiçar o fogo não basta.
+------------------------------------------------------------
+[186] [OK]
+  FR: Il faut également\Nsavoir calmer le jeu.
+  PT: Também é preciso saber acalmar os ânimos.
+------------------------------------------------------------
+[187] [OK]
+  FR: La foule scande votre nom,\Nvoyons !
+  PT: A multidão grita seu nome,\Nmandemos!
+------------------------------------------------------------
+[188] [OK]
+  FR: Il suffit !
+  PT: Basta!
+------------------------------------------------------------
+[189] [OK]
+  FR: Ne donnons pas à la Fédération\Nle prétexte qu’elle recherche.
+  PT: Não vamos dar à Federação\No pretexto que ela busca.
+------------------------------------------------------------
+[190] [OK]
+  FR: Gihren ! Père !\NJe vous cherchais !
+  PT: Gihren! Pai!\NEstava procurando por você!
+------------------------------------------------------------
+[191] [OK]
+  FR: Assister à la fin de la famille Ral\Nme met du baume au cœur !
+  PT: Assistir ao fim da família Ral\Nme deixa satisfeito!
+------------------------------------------------------------
+[192] [OK]
+  FR: Dozle,\Ntu es remis de tes blessures ?
+  PT: Dozle,\Nvocê está bem?\n\n
+------------------------------------------------------------
+[193] [OK]
+  FR: Non, mais je ne tenais plus\Nen place !
+  PT: Não, mas eu não aguento mais!\n\n
+------------------------------------------------------------
+[194] [OK]
+  FR: J’ai hâte de venger la mort de Sasro\Nde mes propres mains.
+  PT: Estou ansioso para vingar a morte de Sasro\nde minhas próprias mãos.\n\n
+------------------------------------------------------------
+[195] [OK]
+  FR: Oui, mais une proie acculée\Npeut se transformer en prédateur.
+  PT: Sim, mas uma presa acuada\npode se transformar em predador.\n\n
+------------------------------------------------------------
+[196] [OK]
+  FR: Jimba Ral est déjà un homme mort,\Nc’est certain.
+  PT: Jimba Ral já é um homem morto,\nisso é certo.\n\n
+------------------------------------------------------------
+[197] [OK]
+  FR: Mais il y a son fils, Ramba Ral.
+  PT: Mas há seu filho, Ramba Ral.\n\n
+------------------------------------------------------------
+[198] [OK]
+  FR: Ce jeune officier des Forces de défense\Nde Munzo est très populaire.
+  PT: Esse jovem oficial das Forças de Defesa\nde Munzo é muito popular.\n\n
+------------------------------------------------------------
+[199] [OK]
+  FR: Apprends à faire preuve\Nde plus de finesse, Gihren.
+  PT: Aprenda a ser mais sutil, Gihren.
+------------------------------------------------------------
+[200] [OK]
+  FR: Ramba Ral est très compétent.
+  PT: Ramba Ral é muito competente.
+------------------------------------------------------------
+[201] [OK]
+  FR: S’il n’était pas un Ral,\Nje l’aurais voulu comme subordonné.
+  PT: Se ele não fosse um Ral,\nEu o teria querido como subordinado.
+------------------------------------------------------------
+[202] [OK]
+  FR: Laissez-lui une échappatoire.
+  PT: Deixe-lhe uma saída.
+------------------------------------------------------------
+[203] [OK]
+  FR: C’est le privilège des vainqueurs\Nque de faire preuve de magnanimité.
+  PT: Isso é privilégio dos vencedores\nDe mostrar magnanimidade.
+------------------------------------------------------------
+[204] [OK]
+  FR: Daikun et Jimba Ral\Nappartiennent désormais au passé.
+  PT: Deikun e Jimba Ral\nAgora pertencem ao passado.
+------------------------------------------------------------
+[205] [OK]
+  FR: À présent, c’est à la famille Zabi\Nqu’il revient d’écrire l’histoire.
+  PT: Agora, cabe à família Zabi\NEscrever a história.
+------------------------------------------------------------
+[206] [OK]
+  FR: Tu crois que c’est le moment,\Nvieillard ?
+  PT: Você acha que é o momento,\nVelho?
+------------------------------------------------------------
+[207] [OK]
+  FR: N’entrez pas !
+  PT: Não entre!
+------------------------------------------------------------
+[208] [OK]
+  FR: L’établissement est complet !
+  PT: O estabelecimento está completo!
+------------------------------------------------------------
+[209] [OK]
+  FR: C’est vous, capitaine ?
+  PT: É você, capitão?
+------------------------------------------------------------
+[210] [OK]
+  FR: Parlez plus bas, sous-lieutenant,\Neuh… Tachi, je crois ?
+  PT: Fale mais baixo, segundo-tenente,\Neuh... Tachi, não é?
+------------------------------------------------------------
+[211] [OK]
+  FR: Soldat le jour\Net videur de boîte la nuit, hein ?
+  PT: Soldado durante o dia\nVigia à noite, hein?
+------------------------------------------------------------
+[212] [OK]
+  FR: Vous vous méprenez !
+  PT: Você está enganado!
+------------------------------------------------------------
+[213] [OK]
+  FR: Les rues ne sont pas sûres ce soir,\Nalors je fais du bénévolat.
+  PT: As ruas não são seguras hoje,\NEntão eu faço trabalho voluntário.
+------------------------------------------------------------
+[214] [OK]
+  FR: Bienvenue, capitaine !
+  PT: Bem-vindo, capitão!
+------------------------------------------------------------
+[215] [OK]
+  FR: Clamp, le costard de barman\Nte va de mieux en mieux !
+  PT: Clamp, o terno de barman\Nficou cada vez melhor!
+------------------------------------------------------------
+[216] [OK]
+  FR: Ça te dirait pas\Nde retourner sous les drapeaux ?
+  PT: Não gostaria\Nde voltar ao serviço militar?
+------------------------------------------------------------
+[217] [OK]
+  FR: Et cirer les pompes de la Fédération ?\NNon, merci.
+  PT: E polir as botas da Federação?\NNão, obrigado.
+------------------------------------------------------------
+[218] [OK]
+  FR: Par contre,
+  PT: Bem,
+------------------------------------------------------------
+[219] [OK]
+  FR: si c’est pour servir avec vous,\Nc’est quand vous voulez.
+  PT: se for para servir com você,\Nestou pronto quando quiser.
+------------------------------------------------------------
+[220] [OK]
+  FR: Hamon ! Un client pour toi !
+  PT: Hamon! Um cliente para você!
+------------------------------------------------------------
+[221] [OK]
+  FR: Allons derrière.
+  PT: Vamos para trás.
+------------------------------------------------------------
+[222] [OK]
+  FR: Que personne ne nous dérange.
+  PT: Que ninguém nos incomode.
+------------------------------------------------------------
+[223] [OK]
+  FR: Ça, c’est du maquillage !
+  PT: Isso é maquiagem!
+------------------------------------------------------------
+[224] [OK]
+  FR: Il t’en reste.
+  PT: Ainda tem algum.
+------------------------------------------------------------
+[225] [OK]
+  FR: C’est pas du maquillage.
+  PT: Não é maquiagem.
+------------------------------------------------------------
+[226] [OK]
+  FR: J’ai été griffé\Npar une peste nommée Lucifer.
+  PT: Fui arranhado\Npor uma peste chamada Lucifer.
+------------------------------------------------------------
+[227] [OK]
+  FR: Tu aimes jouer avec le feu.
+  PT: Você gosta de brincar com o fogo.
+------------------------------------------------------------
+[228] [OK]
+  FR: Quel genre de garce était-ce ?
+  PT: Que tipo de vagabunda era ela?
+------------------------------------------------------------
+[229] [OK]
+  FR: Un félin au poil noir…
+  PT: Um felino de pelo negro...
+------------------------------------------------------------
+[230] [OK]
+  FR: qui est très vif !
+  PT: que é muito vivo!
+------------------------------------------------------------
+[231] [OK]
+  FR: Hamon,\Nj’ai encore un service à te demander.
+  PT: Hamon,\Nainda tenho um serviço a lhe pedir.
+------------------------------------------------------------
+[232] [OK]
+  FR: J’aimerais envoyer\Nquelqu’un sur Terre.
+  PT: Eu gostaria de enviar\Nalguém para a Terra.
+------------------------------------------------------------
+[233] [OK]
+  FR: Ton père, Jimba Ral ?
+  PT: Seu pai, Jimba Ral?
+------------------------------------------------------------
+[234] [OK]
+  FR: Tu es très perspicace.
+  PT: Você é muito perspicaz.
+------------------------------------------------------------
+[235] [OK]
+  FR: Sa vie est constamment menacée\Ndepuis la mort de Sasro.
+  PT: Sua vida está constantemente ameaçada\NDepois da morte de Sasro.
+------------------------------------------------------------
+[236] [OK]
+  FR: Je ne vais pas attendre\Nque les Zabi lui mettent la main dessus.
+  PT: Não vou esperar\NAté os Zabi colocarem as mãos nele.
+------------------------------------------------------------
+[237] [OK]
+  FR: Et toi ?
+  PT: E você?
+------------------------------------------------------------
+[238] [OK]
+  FR: Je me démerderai.
+  PT: Eu me virarei.
+------------------------------------------------------------
+[239] [OK]
+  FR: J’ai assez de pugnacité\Npour survivre sous leur régime.
+  PT: Tenho bastante determinação\NPara sobreviver sob o seu regime.
+------------------------------------------------------------
+[240] [OK]
+  FR: Ton père ira seul sur Terre ?
+  PT: Seu pai vai sozinho para a Terra?
+------------------------------------------------------------
+[241] [OK]
+  FR: Justement !
+  PT: exactly!
+------------------------------------------------------------
+[242] [OK]
+  FR: Des gens encore plus « sensibles »\Npourraient l’accompagner.
+  PT: Há pessoas ainda mais "sensíveis"\nque poderiam acompanhá-lo.
+------------------------------------------------------------
+[243] [OK]
+  FR: Voyons voir… J’ai des contacts\Nauprès des autorités portuaires.
+  PT: Vamos ver... Tenho contatos\ncom as autoridades portuárias.
+------------------------------------------------------------
+[244] [OK]
+  FR: Ça doit être faisable.
+  PT: Deve ser possível.
+------------------------------------------------------------
+[245] [OK]
+  FR: Tu es formidable !
+  PT: You're amazing!
+------------------------------------------------------------
+[246] [OK]
+  FR: Il est encore là,\Nce sous-lieutenant ?
+  PT: Ele ainda está lá,\naquele sub-tenente?
+------------------------------------------------------------
+[247] [OK]
+  FR: Tu ne devrais pas trop jouer\Navec ce genre de freluquet.
+  PT: Não deves brincar muito\naquele tipo de idiota.
+------------------------------------------------------------
+[248] [OK]
+  FR: Leur destin aurait-il été différent\Nsans avoir eu Daikun pour père ?
+  PT: Seria o destino deles diferente\nsem terem tido Deikun como pai?
+------------------------------------------------------------
+[249] [OK]
+  FR: Halte-là !
+  PT: Alto!
+------------------------------------------------------------
+[250] [OK]
+  FR: N’approchez pas\Nou nous ouvrons le feu !
+  PT: Não se aproximem\nou abriremos fogo!
+------------------------------------------------------------
+[251] [OK]
+  FR: Je suis Kycilia Zabi,\Nchef des Forces de sécurité.
+  PT: Eu sou Kycilia Zabi,\nchefe das Forças de Segurança.
+------------------------------------------------------------
+[252] [OK]
+  FR: Je viens pour une affaire cruciale !
+  PT: Eu vim por um assunto crucial!
+------------------------------------------------------------
+[253] [OK]
+  FR: C’est inutile !\NM. Ral refuse de recevoir les Zabi !
+  PT: É inútil!\NM. Ral recusa-se a receber os Zabi!
+------------------------------------------------------------
+[254] [OK]
+  FR: C’est parfait !
+  PT: Perfeito!
+------------------------------------------------------------
+[255] [OK]
+  FR: Ce n’est pas lui\Nque je suis venue voir !
+  PT: Não é ele\nque eu vim ver!
+------------------------------------------------------------
+[256] [OK]
+  FR: Je représente Degwin Zabi,\Nle nouveau président,
+  PT: Eu represento Degwin Zabi,\No novo presidente,
+------------------------------------------------------------
+[257] [OK]
+  FR: et je suis venue parler\Nà Casval Rem Daikun.
+  PT: e vim falar\Ncom Casval Rem Deikun.
+------------------------------------------------------------
+[258] [OK]
+  FR: Bande d’imbéciles !
+  PT: Bando de idiotas!
+------------------------------------------------------------
+[259] [OK]
+  FR: Où est Ramba ?\NQuoi ? Il est allé boire en ville ?
+  PT: Onde está Ramba?\NO quê? Ele foi beber na cidade?
+------------------------------------------------------------
+[260] [OK]
+  FR: C’est bien le moment !
+  PT: Que timing!
+------------------------------------------------------------
+[261] [OK]
+  FR: Quel vaurien ! Quel fils indigne !
+  PT: Que canalha! Que filho indigno!
+------------------------------------------------------------
+[262] [OK]
+  FR: J’accepte de la rencontrer.
+  PT: Aceito encontrá-lo.
+------------------------------------------------------------
+[263] [OK]
+  FR: J’ai déjà croisé Kycilia.
+  PT: Já cruzei com Kycilia.
+------------------------------------------------------------
+[264] [OK]
+  FR: Elle a un fort tempérament.
+  PT: Ela tem um forte temperamento.
+------------------------------------------------------------
+[265] [OK]
+  FR: Je crois toutefois pouvoir tenir tête\Nà l’un des assassins de mon père.
+  PT: No entanto, eu acredito que posso enfrentar\Num dos assassinos do meu pai.
+------------------------------------------------------------
+[266] [OK]
+  FR: Je suis navrée de te déranger\Ndurant ton sommeil.
+  PT: Lamento incomodar você\Ndurante seu sono.
+------------------------------------------------------------
+[267] [OK]
+  FR: Mais ce que j’ai à te dire\Nest important.
+  PT: Mas o que tenho a lhe dizer\Né importante.
+------------------------------------------------------------
+[268] [OK]
+  FR: Juste entre toi et moi.
+  PT: Entre nós dois.
+------------------------------------------------------------
+[269] [OK]
+  FR: La ville est à feu et à sang.
+  PT: A cidade está em chamas.
+------------------------------------------------------------
+[270] [OK]
+  FR: Il y a beaucoup\Nde morts et de blessés.
+  PT: Há muitos\Nmortos e feridos.
+------------------------------------------------------------
+[271] [OK]
+  FR: Sais-tu comment\Non en est arrivé là ?
+  PT: Você sabe como\Nchegou a isso?
+------------------------------------------------------------
+[272] [OK]
+  FR: Cela n’a-t-il pas commencé
+  PT: Não começou tudo isso
+------------------------------------------------------------
+[273] [OK]
+  FR: parce que les Zabi\Nont assassiné mon père ?
+  PT: porque os Zabi\Nmataram meu pai?
+------------------------------------------------------------
+[274] [OK]
+  FR: Qui t’a enseigné une telle chose ?
+  PT: Quem te ensinou uma coisa dessas?
+------------------------------------------------------------
+[275] [OK]
+  FR: Ta mère ? Non, j’en doute.
+  PT: Sua mãe? Não, duvido.
+------------------------------------------------------------
+[276] [OK]
+  FR: C’est Jimba Ral\Nqui t’a mis ça en tête !
+  PT: Foi Jimba Ral\Nque colocou essa ideia na sua cabeça!
+------------------------------------------------------------
+[277] [OK]
+  FR: Kycilia…
+  PT: Kycilia...
+------------------------------------------------------------
+[278] [OK]
+  FR: Je croyais que vous étiez venue\Ndiscuter avec moi.
+  PT: Eu pensei que você tinha vindo\NDiscutir comigo.
+------------------------------------------------------------
+[279] [OK]
+  FR: Si c’est pour me faire la leçon\Ncomme à un gamin,
+  PT: Se é para me dar uma lição\Ncomo se eu fosse uma criança,
+------------------------------------------------------------
+[280] [OK]
+  FR: repartez donc !
+  PT: Partam então!
+------------------------------------------------------------
+[281] [OK]
+  FR: Je retourne dans ma chambre.
+  PT: Eu volto para meu quarto.
+------------------------------------------------------------
+[282] [OK]
+  FR: Soit ! Je m’excuse.
+  PT: Tudo bem! Peço desculpas.
+------------------------------------------------------------
+[283] [OK]
+  FR: Revenons à nos moutons.\NJ’ai une proposition à te faire.
+  PT: Voltemos ao assunto.\NI tenho uma proposta a lhe fazer.
+------------------------------------------------------------
+[284] [OK]
+  FR: Allez-y.
+  PT: Vá em frente.
+------------------------------------------------------------
+[285] [OK]
+  FR: Vous avez votre propre demeure.
+  PT: Você tem sua própria casa.
+------------------------------------------------------------
+[286] [OK]
+  FR: Une demeure réservée\Nà la famille Daikun.
+  PT: Uma casa reservada\Nà família Deikun.
+------------------------------------------------------------
+[287] [OK]
+  FR: Si vous acceptez d’y retourner\Ntous les trois,
+  PT: Se aceitarem voltar\NTodos os três,
+------------------------------------------------------------
+[288] [OK]
+  FR: nous renoncerons à venger Sasro
+  PT: renunciaremos a vingar Sasro
+------------------------------------------------------------
+[289] [OK]
+  FR: et nous rétablirons l’ordre en ville.
+  PT: e restauraremos a ordem na cidade.
+------------------------------------------------------------
+[290] [OK]
+  FR: Non ! C’est hors de question !\NC’est un piège, c’est évident !
+  PT: Não! De jeito nenhum!\NClearamente, é uma armadilha!
+------------------------------------------------------------
+[291] [OK]
+  FR: S’ils s’en vont tous les trois,\Nnous serons tous tués !
+  PT: Se eles forem embora os três,\Ntodos nós seremos mortos!
+------------------------------------------------------------
+[292] [OK]
+  FR: Laissez-moi entrer !
+  PT: Me deixe entrar!
+------------------------------------------------------------
+[293] [OK]
+  FR: J’accepte de rentrer chez moi\Nsi vous tenez votre promesse.
+  PT: Aceito voltar para casa\NSomente se você cumprir sua promessa.
+------------------------------------------------------------
+[294] [OK]
+  FR: Toutefois…
+  PT: No entanto...
+------------------------------------------------------------
+[295] [OK]
+  FR: Toutefois ?
+  PT: No entanto?
+------------------------------------------------------------
+[296] [OK]
+  FR: Vous renoncez à venger Sasro, soit.
+  PT: Você renuncia a vingar Sasro, muito bem.
+------------------------------------------------------------
+[297] [OK]
+  FR: Mais qu’en est-il\Nde l’assassinat de mon père ?
+  PT: Mas e quanto ao assassinato de meu pai?
+------------------------------------------------------------
+[298] [OK]
+  FR: Vous croyez\Nque je vais passer l’éponge ?
+  PT: Você acha que eu vou perdoar isso?
+------------------------------------------------------------
+[299] [OK]
+  FR: Tu es obstiné !
+  PT: Você é teimoso!
+------------------------------------------------------------
+[300] [OK]
+  FR: J’entends des bruits !
+  PT: Estou ouvindo barulhos!
+------------------------------------------------------------
+[301] [OK]
+  FR: Casval est en danger !\NOuvrez la porte !
+  PT: Casval está em perigo! Abra a porta!
+------------------------------------------------------------
+[302] [OK]
+  FR: Pourquoi n’as-tu pas crié ?
+  PT: Por que você não gritou?
+------------------------------------------------------------
+[303] [OK]
+  FR: Vas-y !\NHurle et appelle à l’aide.
+  PT: Vá em frente!\NHgrite e peça socorro.
+------------------------------------------------------------
+[304] [OK]
+  FR: Tu n’as donc pas peur de moi ?
+  PT: Você não tem medo de mim?
+------------------------------------------------------------
+[305] [OK]
+  FR: Si tu crois que personne\Nn’osera porter la main sur toi,
+  PT: Se você acha que ninguém\Nousa se atrever a colocar as mãos em você,
+------------------------------------------------------------
+[306] [OK]
+  FR: tu te trompes, jeune Casval.
+  PT: está enganado, jovem Casval.
+------------------------------------------------------------
+[307] [OK]
+  FR: Qu’en dis-tu ?\NJ’ai le pouvoir de faire ça.
+  PT: O que me diz?\NI tenho o poder de fazer isso.
+------------------------------------------------------------
+[308] [OK]
+  FR: Je peux même te faire inculper\Net te jeter en prison.
+  PT: Posso até mesmo fazer você ser acusado\Ne jogar na prisão.
+------------------------------------------------------------
+[309] [OK]
+  FR: Tu as peur, hein ?
+  PT: Você tem medo, não é?
+------------------------------------------------------------
+[310] [OK]
+  FR: Avoue que tu as peur !
+  PT: Admita que você tem medo!
+------------------------------------------------------------
+[311] [OK]
+  FR: Je n’ai pas peur.
+  PT: Eu não tenho medo.
+------------------------------------------------------------
+[312] [OK]
+  FR: Je suis le fils de Daikun.
+  PT: Eu sou filho de Deikun.
+------------------------------------------------------------
+[313] [OK]
+  FR: Personne n’a le droit\Nde me faire ça !
+  PT: Ninguém tem o direito\Nde fazer isso comigo!
+------------------------------------------------------------
+[314] [OK]
+  FR: C’est Degwin Zabi qui gouverne le pays,\Nà présent.
+  PT: É Degwin Zabi quem governa o país,\NAgora.
+------------------------------------------------------------
+[315] [OK]
+  FR: J’ai le droit de te menotter\Ns’il me l’ordonne.
+  PT: Tenho o direito\Nde te algemar\NSenhor, se ele me ordenar.
+------------------------------------------------------------
+[316] [OK]
+  FR: Je suis le fils de Zeon Zum Daikun !
+  PT: Eu sou filho de Zeon Zum Deikun!
+------------------------------------------------------------
+[317] [OK]
+  FR: Quand je serai grand,\NDegwin et vous serez sous mes ordres !
+  PT: Quando eu crescer,\NDegwin e você estarão sob minhas ordens!
+------------------------------------------------------------
+[318] [OK]
+  FR: C’est Casval Rem Daikun\Nqui vous l’ordonne !
+  PT: É Casval Rem Deikun\Nquem lhe ordena isso!
+------------------------------------------------------------
+[319] [OK]
+  FR: Ôtez-moi ces menottes !
+  PT: Tirem-me essas algemas!
+------------------------------------------------------------

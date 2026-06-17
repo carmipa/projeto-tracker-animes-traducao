@@ -101,7 +101,11 @@ class GerenciadorLogs:
             self.f_erros.flush()
 
         cor = self.CORES.get(nivel, Fore.WHITE)
-        print(f"{cor}{linha}{Style.RESET_ALL}")
+        try:
+            import tqdm
+            tqdm.tqdm.write(f"{cor}{linha}{Style.RESET_ALL}")
+        except Exception:
+            print(f"{cor}{linha}{Style.RESET_ALL}")
 
     def secao(self, titulo: str):
         bloco = f"\n{'='*80}\n{titulo.center(80)}\n{'='*80}\n"
@@ -267,7 +271,7 @@ PADRAO_RESIDUO_FRANCES = re.compile(
 )
 
 PADRAO_PREAMBULO_LLM = re.compile(
-    r"^(aqui est[áa]|esta [ée]|segue|abaixo est[áa]|abaixo seguem|claro,?\s+vou|espero que|voil[àa])\b",
+    r"^(aqui est[áa]|esta [ée] a tradu|segue|abaixo est[áa]|abaixo seguem|claro,?\s+vou|espero que|voil[àa])\b",
     re.IGNORECASE,
 )
 
@@ -1065,6 +1069,9 @@ EXEMPLOS DE FORMATO:
                                         if validar_traducao(original_masc, v):
                                             self.cache[original_masc] = v
                                             self.stats['linhas_traduzidas'] += 1
+                                            # Exibe dinamicamente o que está sendo traduzido
+                                            from tqdm import tqdm
+                                            tqdm.write(f"{Fore.CYAN}[FR]{Style.RESET_ALL} {original_masc[:50]}... -> {Fore.GREEN}[PT]{Style.RESET_ALL} {v}")
                                         
                                         trad_final = self.restaurar_tags(v, lista_tags[idx_dialogo])
                                         mapa_dialogos_finais[idx_dialogo] = trad_final

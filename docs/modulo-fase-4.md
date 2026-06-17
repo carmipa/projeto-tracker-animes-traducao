@@ -1,10 +1,12 @@
-# 📐 Módulo — Fase 4 (Tradução IA — LM Studio / Gemma)
+# 🤖 Módulo — Fase 4 (Tradução IA — LM Studio / Gemma)
 
 [← Índice](README.md) · [`4_tradutor_ia_gemma4/`](../4_tradutor_ia_gemma4/)
 
-**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · **4** · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md)
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · **4** · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
 
-Núcleo do projeto: traduz legendas para **PT-BR** usando um LLM local servido pelo **LM Studio** (`http://127.0.0.1:1234`). A pasta concentra **5 variantes**, cada uma especializada em um cenário (idioma de origem, formato, glossário de anime).
+Núcleo do projeto: traduz legendas para **PT-BR** usando um LLM local servido pelo **LM Studio** (`http://127.0.0.1:1234`, modelo Gemma 4B). A pasta concentra **6 variantes**, cada uma um pipeline "tudo em um" (extrai do `.mkv` **e** traduz) ou um tradutor de lote especializado em um título/cenário específico.
+
+> ⚠️ **Correção de documentação:** os nomes genéricos `sub_extractor.py` e `script_tradutor_fr.py` (citados em versões antigas desta documentação e em alguns guias) **não existem mais na raiz** de `4_tradutor_ia_gemma4/`. O projeto evoluiu para **um script dedicado por título**, cada um em sua própria subpasta, com glossário, cache e caminhos padrão próprios. A tabela abaixo reflete a estrutura real.
 
 ---
 
@@ -12,54 +14,64 @@ Núcleo do projeto: traduz legendas para **PT-BR** usando um LLM local servido p
 
 | # | Script | Entrada | Saída | Idioma origem | Glossário/série |
 |:---:|:---|:---|:---|:---|:---|
-| 1 | [`sub_extractor.py`](../4_tradutor_ia_gemma4/sub_extractor.py) | Pasta `.mkv` (extrai ASS) | `traducao/{nome}_PTBR.ass` | Inglês | Genérico |
-| 2 | [`script_tradutor_fr.py`](../4_tradutor_ia_gemma4/script_tradutor_fr.py) | Pasta `.mkv` (extrai ASS) | `traducao/{nome}_PTBR.ass` | Francês | Macross Delta |
-| 3 | [`tradutor_ass/batch_translator_ass.py`](../4_tradutor_ia_gemma4/tradutor_ass/batch_translator_ass.py) | `legendas_eng/*_ENG.ass` (Fase 2) | `{nome}_PTBR.ass` + `info_traducao_ass.txt` | Inglês | Gundam Reconguista |
-| 4 | [`tradutor_gundam_unicornio/batch_translator_unicorn.py`](../4_tradutor_ia_gemma4/tradutor_gundam_unicornio/batch_translator_unicorn.py) | `*_ENG.ass` (Fase 2) | `{nome}_PTBR.ass` + `info.txt` | Inglês | Gundam Unicorn (UC) |
-| 5 | [`5_tradutor_de_legenda/tradutor_srt_direto.py`](../4_tradutor_ia_gemma4/5_tradutor_de_legenda/tradutor_srt_direto.py) | `.srt` externo (arquivo/pasta) | `*_PTBR.srt` | Inglês | Macross |
+| 1 | [`86/sub_extractor.py`](../4_tradutor_ia_gemma4/86/sub_extractor.py) | Pasta `.mkv` (extrai ASS) | `traducao/{nome}_PTBR.ass` | Inglês | Eighty-Six (86) |
+| 2 | [`frances_para_ptbr/macross_deslta.py`](../4_tradutor_ia_gemma4/frances_para_ptbr/macross_deslta.py) | Pasta `.mkv` (extrai ASS) | `traducao/{nome}_PTBR.ass` | Francês | Macross Delta |
+| 3 | [`frances_para_ptbr/script_tradutor_fr_gundam_origin.py`](../4_tradutor_ia_gemma4/frances_para_ptbr/script_tradutor_fr_gundam_origin.py) | Pasta `.mkv` (extrai ASS, release `SUBFRENCH`) | `traducao/{nome}_PTBR.ass` | Francês | Gundam The Origin / Universal Century |
+| 4 | [`tradutor_ass/batch_translator_ass.py`](../4_tradutor_ia_gemma4/tradutor_ass/batch_translator_ass.py) | `legendas_eng/*_ENG.ass` (Fase 2) | `{nome}_PTBR.ass` + `info_traducao_ass.txt` | Inglês | Gundam Reconguista |
+| 5 | [`tradutor_gundam_unicornio/batch_translator_unicorn.py`](../4_tradutor_ia_gemma4/tradutor_gundam_unicornio/batch_translator_unicorn.py) | `*_ENG.ass` (Fase 2) | `{nome}_PTBR.ass` + `info.txt` | Inglês | Gundam Unicorn (UC) |
+| 6 | [`5_tradutor_de_legenda/tradutor_srt_direto.py`](../4_tradutor_ia_gemma4/5_tradutor_de_legenda/tradutor_srt_direto.py) | `.srt` externo (arquivo/pasta) | `*_PTBR.srt` | Inglês | Macross (filmes) |
 
 Todos compartilham: validação `GET /v1/models` no LM Studio antes de iniciar, encoding resiliente (`utf-8` → `utf-8-sig` → `cp1252` → `latin-1` → `iso-8859-1`), `colorama` + `tqdm` para feedback, e tradução em **lotes** via `POST /v1/chat/completions`.
 
+> Para a variante chinesa (CHS, Qwen2.5) de Gundam Origin, veja a **[Fase 11](modulo-fase-11.md)** — pasta separada (`11_chines_LLM_alibaba_qwen2/`) por usar outro modelo/LM Studio.
+
 ---
 
-## 1 — `sub_extractor.py` (pipeline completo MKV → PT-BR ASS)
+## 1 — `86/sub_extractor.py` (Eighty-Six, inglês → PT-BR)
 
-Pipeline "tudo em um": extrai a faixa ASS do `.mkv` via MKVToolNix **e** traduz, sem passar pela Fase 2.
+Pipeline "tudo em um": extrai a faixa ASS do `.mkv` via MKVToolNix **e** traduz, sem passar pela Fase 2. Especializado para a série **Eighty-Six (86)** — cache, logs e glossário próprios.
 
 | Recurso | Detalhe |
 |:---|:---|
 | Autodetecção de track | `mkvmerge -J` → faixa `subtitles` com `S_TEXT/ASS` |
-| Regex industrial | `^(Dialogue:\s*[^,]*(?:,[^,]*){8},)(.*)$` |
-| Filtro de bloat | Linhas > 2000 caracteres (fontes Base64) |
-| Tradução em lote | 20 diálogos por requisição HTTP, `temperature=0.7`, `max_tokens=2000` |
-| Cache em memória | Evita retraduzir lotes idênticos |
+| Glossário | "Eighty-Six"/"86", "Eighty-Sixers", codinomes (ex.: "Undertaker" = codinome do Shin) mantidos como no original |
+| Paralelismo | `ThreadPoolExecutor`, `max_workers = 2` |
+| Tradução em lote | `temperature = 0.1` |
+| Cache persistente | `traducao_cache_86.json` (na pasta `86/`) |
+| Logs | `pipeline_86_*.txt`, `erros_86_*.txt`, `stats_86_*.json`, `config_86_*.txt` em `4_tradutor_ia_gemma4/86/logs/` |
 | Saída | `{pasta}/traducao/{nome}_PTBR.ass` |
 
 ```mermaid
 flowchart TB
-    START([main]) --> LOG[GerenciadorLogs<br/>4 arquivos de auditoria]
+    START([main]) --> LOG[GerenciadorLogs<br/>4 arquivos de auditoria 86]
     LOG --> VAL[validar<br/>LM Studio + MKVToolNix]
 
     VAL -->|Falha| ABORT([Aborta])
-    VAL -->|OK| PASTA[input pasta dos .mkv]
-    PASTA --> LISTA[Lista mkv ordenados]
-    LISTA --> LOOP{Para cada episodio}
+    VAL -->|OK| CACHE[Carrega traducao_cache_86.json]
+    CACHE --> PASTA[input pasta dos .mkv]
+    PASTA --> LOOP{Para cada episodio}
 
     LOOP --> TRACK[mkvmerge -J<br/>descobrir track ASS]
     TRACK -->|Sem ASS| SKIP[Pula episodio]
     TRACK -->|OK| EXT[mkvextract tracks<br/>_extracted.ass]
 
     EXT --> READ[ler_arquivo_com_encoding]
-    READ --> REGEX[Regex Dialogue<br/>filtro Base64]
+    READ --> MASK[Mascara tags ASS -> T0..Tn]
+    MASK --> LOTE[Lotes de dialogos]
+    LOTE --> POOL[ThreadPoolExecutor max 2]
+    POOL --> API[POST /v1/chat/completions<br/>temperature 0.1]
+    API --> CHK{Em cache?}
+    CHK -->|Sim| HIT[Usa cache]
+    CHK -->|Nao| CALL[Chama LM Studio]
+    CALL --> SAVECACHE[Grava traducao_cache_86.json]
 
-    REGEX --> LOTE[Lotes de 20 linhas]
-    LOTE --> API[POST /v1/chat/completions]
-    API --> REBUILD[Reconstroi linhas ASS]
-    REBUILD --> SAVE[traducao/nome_PTBR.ass]
+    HIT --> UNMASK[Restaura tags]
+    SAVECACHE --> UNMASK
+    UNMASK --> SAVE[traducao/nome_PTBR.ass]
     SAVE --> CLEAN[Remove _extracted.ass]
     CLEAN --> MORE{Mais episodios?}
     MORE -->|Sim| LOOP
-    MORE -->|Nao| STATS[stats.json + relatorio final]
+    MORE -->|Nao| STATS[stats_86.json + relatorio final]
     STATS --> END([Fim])
 
     SKIP --> MORE
@@ -69,48 +81,27 @@ flowchart TB
     style ABORT fill:#5c1010,stroke:#ff4444,color:#fff
 ```
 
-```mermaid
-sequenceDiagram
-    participant U as Usuario
-    participant P as sub_extractor.py
-    participant M as MKVToolNix
-    participant L as LM Studio :1234
-
-    U->>P: Informa pasta dos .mkv
-    P->>L: GET /v1/models
-    L-->>P: Modelo Gemma carregado
-    loop Cada episodio .mkv
-        P->>M: mkvmerge -J identifica track
-        P->>M: mkvextract extrai .ass
-        P->>P: Regex + filtros de encoding
-        loop Lotes de 20 dialogos
-            P->>L: POST /v1/chat/completions
-            L-->>P: Texto PT-BR indexado
-        end
-        P->>P: Salva traducao/nome_PTBR.ass
-    end
-    P-->>U: Logs em 4_tradutor_ia_gemma4/logs/
-```
-
 **Comando:**
 
 ```powershell
-python ".\4_tradutor_ia_gemma4\sub_extractor.py"
+python ".\4_tradutor_ia_gemma4\86\sub_extractor.py"
 ```
+
+> Falhas residuais (ex.: placeholder `[T0]` não restaurado) são tratadas posteriormente pela **[Fase 12](modulo-fase-12.md)** (`revisao_86.py`), que também remultiplexa o `.mkv` final.
 
 ---
 
-## 2 — `script_tradutor_fr.py` (Francês → PT-BR, multi-thread)
+## 2 — `frances_para_ptbr/macross_deslta.py` (Macross Delta, francês → PT-BR)
 
-Mesma base do `sub_extractor.py`, mas otimizado para legendas em **francês**, com cache persistente em disco e processamento paralelo.
+Mesma base do item 1, otimizado para legendas em **francês**, com cache persistente em disco e processamento paralelo. Glossário da série **Macross Delta**.
 
 | Recurso | Detalhe |
 |:---|:---|
 | Detecção de track | Prioriza faixa com `lang` = `fre`/`fra`/`fr` |
 | Glossário | Termos de Macross Delta (ex.: *Chanteuse des Étoiles* → "Cantora das Estrelas", *Chevalier Aérien* → "Cavaleiro Aéreo") |
-| Paralelismo | `ThreadPoolExecutor`, máx. 2 threads (RTX 5600 8GB, contexto 8000 tokens) |
-| Lote | 8 diálogos por requisição, `temperature=0.1` (alta fidelidade) |
-| Cache persistente | `traducao_cache_fr.json` — evita retraduzir entre execuções |
+| Paralelismo | `ThreadPoolExecutor`, `max_workers = 2` (RTX 5600 8GB, contexto 8000 tokens) |
+| Tradução em lote | `temperature = 0.1` (alta fidelidade) |
+| Cache persistente | `traducao_cache_fr.json` (na pasta `frances_para_ptbr/`) — evita retraduzir entre execuções |
 | Preservação de tags | Máscaras `[T0]`, `[T1]`... restauradas após tradução |
 | Saída | `{pasta}/traducao/{nome}_PTBR.ass` |
 
@@ -128,7 +119,7 @@ flowchart TB
 
     EXT --> READ[ler_arquivo_com_encoding]
     READ --> MASK[Mascara tags ASS -> T0..Tn]
-    MASK --> LOTE[Lotes de 8 linhas]
+    MASK --> LOTE[Lotes de dialogos]
 
     LOTE --> POOL[ThreadPoolExecutor<br/>max 2 threads]
     POOL --> API[POST /v1/chat/completions<br/>temperature 0.1]
@@ -157,14 +148,41 @@ flowchart TB
 **Comando:**
 
 ```powershell
-python ".\4_tradutor_ia_gemma4\script_tradutor_fr.py"
+python ".\4_tradutor_ia_gemma4\frances_para_ptbr\macross_deslta.py"
 ```
 
 Logs: `pipeline_fr_*.txt`, `erros_fr_*.txt`, `config_fr_*.txt`, `stats_fr_*.json` em `4_tradutor_ia_gemma4/logs/`.
 
 ---
 
-## 3 — `tradutor_ass/batch_translator_ass.py` (lote para ASS já extraído)
+## 3 — `frances_para_ptbr/script_tradutor_fr_gundam_origin.py` (Gundam The Origin, francês → PT-BR)
+
+Mesma arquitetura do item 2 (pipeline francês completo, multi-thread, cache persistente), mas com **glossário próprio de Gundam/Universal Century** — usada quando a legenda disponível é a faixa francesa do release `SUBFRENCH` (em vez da legenda chinesa tratada na [Fase 11](modulo-fase-11.md)).
+
+| Recurso | Detalhe |
+|:---|:---|
+| Detecção de track | Prioriza faixa com `lang` = `fre`/`fra`/`fr` |
+| Glossário | Universal Century completo: Federação Terrestre, Principado de Zeon, família Zabi (Degwin, Gihren, Sasro, Dozle, Kycilia, Garma), família Deikun (grafia francesa "Daikun" normalizada para "Deikun"), Char Aznable, Ramba Ral |
+| Correções de grafia | Normaliza "Daikun" (grafia do release francês) para a grafia oficial UC "Deikun" em todos os nomes da família |
+| Validação anti-resíduo | Rejeita traduções vazias, alucinadas ou que mantenham resíduo de francês não traduzido |
+| Paralelismo | `ThreadPoolExecutor`, `max_workers = 2` (RTX 5600 8GB) |
+| Tradução em lote | `temperature = 0.2` |
+| Cache persistente | `traducao_cache_fr.json` (própria instância, na pasta `frances_para_ptbr/`) |
+| Saída | `{pasta}/traducao/{nome}_PTBR.ass` |
+
+> Fluxo idêntico ao diagrama do item 2 (extrai → mascara tags → lotes → API → cache → restaura tags), trocando apenas glossário, prompt de validação e o caminho padrão de mídia.
+
+**Comando:**
+
+```powershell
+python ".\4_tradutor_ia_gemma4\frances_para_ptbr\script_tradutor_fr_gundam_origin.py"
+```
+
+> Erros de lore que sobrevivam à tradução podem ser corrigidos manualmente ou via **[Fase 12](modulo-fase-12.md)** (adapte `revisao_legenda_origin.py`, que hoje cobre a variante chinesa).
+
+---
+
+## 4 — `tradutor_ass/batch_translator_ass.py` (lote para ASS já extraído)
 
 Traduz arquivos `*_ENG.ass` **já extraídos** (Fase 2), agrupando diálogos para reduzir drasticamente o número de chamadas HTTP (~400 → ~40 por episódio).
 
@@ -222,9 +240,9 @@ python ".\4_tradutor_ia_gemma4\tradutor_ass\batch_translator_ass.py"
 
 ---
 
-## 4 — `tradutor_gundam_unicornio/batch_translator_unicorn.py` (Gundam Unicorn)
+## 5 — `tradutor_gundam_unicornio/batch_translator_unicorn.py` (Gundam Unicorn)
 
-Variante especializada para a série **Gundam Unicorn**, mesma arquitetura do item 3 com glossário próprio.
+Variante especializada para a série **Gundam Unicorn**, mesma arquitetura do item 4 com glossário próprio.
 
 | Recurso | Detalhe |
 |:---|:---|
@@ -236,7 +254,7 @@ Variante especializada para a série **Gundam Unicorn**, mesma arquitetura do it
 | Fallback | Retradução linha a linha se a resposta vier incompleta |
 | Saída | `{pasta_saida}/{nome}_PTBR.ass` + `info.txt` (estatísticas: diálogos, chamadas, fallbacks) |
 
-> Fluxo idêntico ao diagrama do item 3 (lote → API → parse → restauração de tags), trocando apenas o glossário e os caminhos padrão.
+> Fluxo idêntico ao diagrama do item 4 (lote → API → parse → restauração de tags), trocando apenas o glossário e os caminhos padrão.
 
 **Comando:**
 
@@ -244,11 +262,11 @@ Variante especializada para a série **Gundam Unicorn**, mesma arquitetura do it
 python ".\4_tradutor_ia_gemma4\tradutor_gundam_unicornio\batch_translator_unicorn.py"
 ```
 
-> Se a saída apresentar a string `TAG` corrompendo o texto traduzido, use a **[Fase 8 — Cura de Legendas](modulo-fase-8.md)** (`cura_gundam_mkv.py`) antes do remux.
+> Se a saída apresentar a string `TAG` corrompendo o texto traduzido, use a **[Fase 8 — Cura de Legendas](modulo-fase-8.md)** (`cura_gundam_mkv.py`) antes do remux. Diálogos/letras com erro de lore residual: **[Fase 12](modulo-fase-12.md)** (`revisao_legenda_gundam_unicornio.py`).
 
 ---
 
-## 5 — `tradutor_srt_direto.py` (SRT externo)
+## 6 — `tradutor_srt_direto.py` (SRT externo)
 
 Tradução **direta SRT → SRT**, sem MKVToolNix — usada na **[Esteira B (Pipeline SRT)](pipeline-srt.md)** para filmes/legendas externas.
 
@@ -321,11 +339,12 @@ python ".\4_tradutor_ia_gemma4\5_tradutor_de_legenda\tradutor_srt_direto.py"
 
 | Saída gerada | Próxima fase |
 |:---|:---|
-| `traducao/*_PTBR.ass` (itens 1–4) | [Fase 5 — Remuxer](modulo-fase-5.md) |
-| `*_PTBR.srt` (item 5) | [Fase 3 — Conversor SRT → ASS](modulo-fase-3.md) → [Fase 5](modulo-fase-5.md) |
+| `traducao/*_PTBR.ass` (itens 1–3) | [Fase 5 — Remuxer](modulo-fase-5.md) (ou [Fase 12](modulo-fase-12.md) antes, se houver erro de lore conhecido) |
+| `{nome}_PTBR.ass` (itens 4–5) | [Fase 8](modulo-fase-8.md) se houver `TAG` corrompido, senão [Fase 5](modulo-fase-5.md) |
+| `*_PTBR.srt` (item 6) | [Fase 3 — Conversor SRT → ASS](modulo-fase-3.md) → [Fase 5](modulo-fase-5.md) |
 
 Logs detalhados: [Logs e auditoria](logs-e-auditoria.md)
 
 ---
 
-[← Fase 2](modulo-fase-2.md) · [Próximo: Fase 5 →](modulo-fase-5.md) · [Pipeline SRT](pipeline-srt.md)
+[← Fase 2](modulo-fase-2.md) · [Próximo: Fase 5 →](modulo-fase-5.md) · [Pipeline SRT](pipeline-srt.md) · [Fase 11 (chinês)](modulo-fase-11.md)

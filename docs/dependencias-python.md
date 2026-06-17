@@ -4,7 +4,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+"/>
-  <img src="https://img.shields.io/badge/Fases-1_a_10-blueviolet?style=flat-square" alt="Fases 1-10"/>
+  <img src="https://img.shields.io/badge/Fases-1_a_12-blueviolet?style=flat-square" alt="Fases 1-12"/>
 </p>
 
 Versões fixadas para reprodutibilidade no Windows.
@@ -15,9 +15,9 @@ Versões fixadas para reprodutibilidade no Windows.
 
 | Pacote | Versão | Usado em | Fase | Função |
 |:---|:---:|:---|:---:|:---|
-| **`colorama`** | 0.4.6 | Praticamente todos os scripts | 1–10 | Cores ANSI no terminal |
-| **`tqdm`** | 4.67.3 | Praticamente todos os scripts | 1–5, 7, 9, 10 | Barras de progresso |
-| **`requests`** | 2.34.2 | Scripts de tradução (`4_tradutor_ia_gemma4/`) + `repara_erros_traducao.py` | 4, 9 | HTTP para LM Studio |
+| **`colorama`** | 0.4.6 | Praticamente todos os scripts | 1–12 | Cores ANSI no terminal |
+| **`tqdm`** | 4.67.3 | Praticamente todos os scripts | 1–5, 7, 9, 10, 11 | Barras de progresso |
+| **`requests`** | 2.34.2 | Scripts de tradução (`4_tradutor_ia_gemma4/`) + reparos via IA | 4, 9, 11 | HTTP para LM Studio |
 | **`pymediainfo`** | 7.0.1 | `media_analyzer.py` | 1 | Metadados via DLL MediaInfo |
 
 > **MediaInfo (SO):** necessário além do pacote pip. [Download MediaInfo](https://mediaarea.net/en/MediaInfo/Download).
@@ -113,6 +113,17 @@ flowchart LR
     subgraph F10["Fase 10"]
         C10[colorama]
         T10[tqdm]
+    end
+
+    subgraph F11["Fase 11"]
+        REQ11[requests]
+        C11[colorama]
+        T11[tqdm]
+    end
+
+    subgraph F12["Fase 12"]
+        C12[colorama]
+        MKVT12[MKVToolNix opcional]
     end
 ```
 

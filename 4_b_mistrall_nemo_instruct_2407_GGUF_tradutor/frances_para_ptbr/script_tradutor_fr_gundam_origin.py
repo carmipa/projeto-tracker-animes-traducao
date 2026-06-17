@@ -267,7 +267,7 @@ PADRAO_RESIDUO_FRANCES = re.compile(
 )
 
 PADRAO_PREAMBULO_LLM = re.compile(
-    r"^(aqui est[áa]|esta [ée]|segue|abaixo|claro,?\s+vou|espero que|voil[àa])\b",
+    r"^(aqui est[áa]|esta [ée]|segue|abaixo est[áa]|abaixo seguem|claro,?\s+vou|espero que|voil[àa])\b",
     re.IGNORECASE,
 )
 
@@ -378,7 +378,7 @@ REGRAS ABSOLUTAS DE SAÍDA:
 3. Preserve marcadores de formatação como [T0], [T1], [T2] exatamente no mesmo ponto lógico da frase. Nunca apague, renumere ou traduza esses marcadores.
 4. Preserve quebras e escapes de legenda como \\N, \\n, \\h exatamente como aparecem. Nunca transforme \\N em quebra de linha real.
 5. Preserve nomes próprios, siglas, códigos de modelo, nomes de naves e nomes de mobile suits, salvo tradução obrigatória no glossário.
-6. Se uma linha for grito, ordem curta, transmissão de rádio ou frase incompleta, traduza como fala natural, sem completar com informações inventadas.
+6. Se a linha for grito, ordem corta, transmissão de rádio ou frase incompleta, traduza como fala natural, sem completar com informações inventadas.
 7. Se a linha tiver duas falas separadas por \\N, cada uma iniciada por um travessão (–), mantenha exatamente os dois travessões — é a convenção francesa para diálogo de dois interlocutores na mesma legenda (ex.: "– fala 1\\N– fala 2").
 
 DIREÇÃO DE ESTILO:
@@ -543,7 +543,7 @@ TERMOS POLÍTICOS E DE LORE:
 - Dictature -> ditadura
 - Purge -> expurgo
 - Assemblée nationale -> Assembleia Nacional
-- Gouvernement fédéral -> governo federal
+- Gouvernement federal -> governo federal
 - Nationalisme -> nacionalismo
 - Contolism / Contolisme -> Contolismo
 - Deikunism / Deikunisme -> Deikunismo
@@ -828,11 +828,11 @@ EXEMPLOS DE FORMATO:
             "model": self.modelo_ativo,
             "messages": [
                 {"role": "system", "content": self.PROMPT_SISTEMA},
-                {"role": "user",   "content": f"Traduza do francês para PT-BR mantendo exatamente os índices, marcadores [Tn] e escapes de legenda. Responda somente com as linhas traduzidas:\n{payload}"},
+                {"role": "user",   "content": f"Instrução: Traduza cada uma das seguintes {len(linhas)} linhas do francês para o Português do Brasil (PT-BR).\n\nRegras:\n1. Você deve retornar exatamente as {len(linhas)} linhas traduzidas.\n2. Mantenha os índices originais no início de cada linha (ex: [0], [1], [2], etc.) exatamente como fornecidos.\n3. Mantenha os marcadores [Tn] e escapes de legenda (\\N, \\n) nos seus devidos lugares.\n4. Não adicione nenhuma introdução, nota, explicação ou conclusão. Responda apenas com as linhas traduzidas no formato solicitado.\n\nLinhas para traduzir:\n{payload}"},
             ],
             "temperature": 0.2,
             "top_p": 0.9,
-            "max_tokens":  800,
+            "max_tokens": 400,
         }
 
         self.stats['requisicoes'] += 1
@@ -871,8 +871,11 @@ EXEMPLOS DE FORMATO:
             if idx < 0 or idx >= len(linhas):
                 continue
             texto_limpo = self.limpar_saida_traducao(texto)
-            if texto_limpo and validar_traducao(linhas[idx], texto_limpo):
-                traduzidas[idx] = texto_limpo
+            if texto_limpo:
+                if validar_traducao(linhas[idx], texto_limpo):
+                    traduzidas[idx] = texto_limpo
+                else:
+                    self.log.debug(f"VALIDAÇÃO REJEITOU idx {idx}: Original='{linhas[idx]}' | Traduzido='{texto_limpo}'")
 
         # Fallback simples se o regex falhar por completo e o número de linhas bater
         if not traduzidas:
@@ -897,6 +900,7 @@ EXEMPLOS DE FORMATO:
                 traduzidas[ultimo_idx] = self.limpar_saida_traducao("\n".join(linhas_limpas_ultimo))
 
         if not traduzidas:
+            self.log.erro(f"RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):\n{bruto}\n")
             raise RuntimeError("Impossível extrair traduções da resposta do LLM")
 
         return traduzidas
@@ -910,7 +914,7 @@ EXEMPLOS DE FORMATO:
         try:
             resultado = self._traduzir_lote(lote_textos)
         except Exception as e:
-            self.log.aviso(f"Falha na tradução em lote ({e}). Iniciando fallback resiliente linha a linha...")
+            self.log.erro(f"Falha na tradução em lote ({e}). Iniciando fallback resiliente linha a linha...")
             resultado = {}
 
         indices_faltantes = [i for i in range(len(lote_textos)) if i not in resultado]
@@ -1082,6 +1086,21 @@ EXEMPLOS DE FORMATO:
             # Salva o arquivo final
             with open(saida_path, 'w', encoding='utf-8') as f:
                 f.writelines(linhas)
+
+            # Grava no log de traduções detalhadas para auditoria lado a lado
+            log_detalhado_caminho = os.path.join(self.log.pasta_logs, f"traducoes_detalhadas_fr_{self.log.ts}.txt")
+            try:
+                with open(log_detalhado_caminho, 'a', encoding='utf-8') as f_det:
+                    f_det.write(f"\n{'='*80}\nEPISÓDIO: {os.path.basename(ass_path)}\n{'='*80}\n\n")
+                    for idx_dialogo, original in enumerate(textos_brutos):
+                        traduzido = mapa_dialogos_finais[idx_dialogo]
+                        status = "OK" if traduzido is not None else "MANTIDO ORIGINAL"
+                        f_det.write(f"[{idx_dialogo}] [{status}]\n")
+                        f_det.write(f"  FR: {original}\n")
+                        f_det.write(f"  PT: {traduzido if traduzido is not None else '[Sem alteração]'}\n")
+                        f_det.write("-" * 60 + "\n")
+            except Exception as e_log:
+                self.log.aviso(f"Erro ao salvar log detalhado de traduções: {e_log}")
 
             self.log.sucesso(f"Salvo: {os.path.basename(saida_path)}")
             self.stats['traduzidos'] += 1

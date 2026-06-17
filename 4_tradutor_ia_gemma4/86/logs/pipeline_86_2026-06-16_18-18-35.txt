@@ -1,0 +1,185 @@
+
+================================================================================
+PIPELINE DE TRADUÇÃO DE 86 (EN -> PT-BR) - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-16 18:18:35
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_tradutor_ia_gemma4\86\logs
+================================================================================
+
+
+================================================================================
+            PIPELINE INDUSTRIAL UNIFICADO — VERSÃO 86 (EN -> PT-BR)             
+================================================================================
+
+[18:18:35.765] [INFO    ] Cache em disco carregado: 3568 traduções disponíveis.
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[18:18:35.765] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[18:18:35.792] [SUCESSO ] LM Studio OK — 4 modelo(s)
+[18:18:35.792] [INFO    ] Usando modelo: google/gemma-4-e4b
+[18:18:35.792] [DEBUG   ] Verificando MKVToolNix...
+[18:18:35.793] [SUCESSO ] MKVToolNix OK: C:\Program Files\MKVToolNix\mkvextract.exe
+[18:18:35.793] [SUCESSO ] [OK] Infraestrutura validada!
+
+================================================================================
+                                     INPUTS                                     
+================================================================================
+
+[18:18:42.196] [INFO    ] Pasta: C:\animes\86\86 Part 2\anime\legendas_eng
+[18:18:42.197] [INFO    ] Modo: Tradução Direta de Legendas (.ass) — 12 arquivos localizados
+[18:18:42.197] [INFO    ] Saída: C:\animes\86\86 Part 2\anime\legendas_eng\traducao
+[18:18:42.197] [DEBUG   ] Config salvo: config_86_2026-06-16_18-18-35.txt
+
+================================================================================
+                                 PROCESSAMENTO                                  
+================================================================================
+
+[18:18:42.198] [INFO    ] [1/12] [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[18:18:42.198] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[18:18:42.199] [SUCESSO ] Encoding detectado: UTF-8
+[18:18:42.199] [DEBUG   ] Arquivo lido: 4635 linhas (encoding: utf-8)
+[18:18:42.210] [DEBUG   ] Diálogos identificados: 3885 (Lixo binário pulado: 0)
+[18:18:42.212] [INFO    ] Cache Hits: 2329 | Misses (A traduzir): 1556
+[18:18:42.212] [DEBUG   ] Processando 195 lotes concorrentes (Max Threads: 2)...
+[18:51:09.910] [SUCESSO ] Salvo: [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[18:51:09.911] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m32m 27s[32m] [Tempo decorrido acumulado: [36m32m 27s[32m]
+[18:51:09.911] [INFO    ] [2/12] [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[18:51:09.911] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[18:51:09.912] [SUCESSO ] Encoding detectado: UTF-8
+[18:51:09.912] [DEBUG   ] Arquivo lido: 5265 linhas (encoding: utf-8)
+[18:51:09.929] [DEBUG   ] Diálogos identificados: 4492 (Lixo binário pulado: 0)
+[18:51:09.932] [INFO    ] Cache Hits: 6439 | Misses (A traduzir): 382
+[18:51:09.933] [DEBUG   ] Processando 48 lotes concorrentes (Max Threads: 2)...
+[19:01:52.494] [SUCESSO ] Salvo: [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[19:01:52.495] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m10m 42s[32m] [Tempo decorrido acumulado: [36m43m 10s[32m]
+[19:01:52.495] [INFO    ] [3/12] [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:01:52.495] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:01:52.497] [SUCESSO ] Encoding detectado: UTF-8
+[19:01:52.497] [DEBUG   ] Arquivo lido: 5291 linhas (encoding: utf-8)
+[19:01:52.514] [DEBUG   ] Diálogos identificados: 4487 (Lixo binário pulado: 0)
+[19:01:52.516] [INFO    ] Cache Hits: 10637 | Misses (A traduzir): 289
+[19:01:52.516] [DEBUG   ] Processando 37 lotes concorrentes (Max Threads: 2)...
+[19:10:39.952] [SUCESSO ] Salvo: [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[19:10:39.953] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m8m 47s[32m] [Tempo decorrido acumulado: [36m51m 57s[32m]
+[19:10:39.953] [INFO    ] [4/12] [DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:10:39.953] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:10:39.954] [SUCESSO ] Encoding detectado: UTF-8
+[19:10:39.954] [DEBUG   ] Arquivo lido: 5354 linhas (encoding: utf-8)
+[19:10:39.971] [DEBUG   ] Diálogos identificados: 4492 (Lixo binário pulado: 0)
+[19:10:39.973] [INFO    ] Cache Hits: 14804 | Misses (A traduzir): 325
+[19:10:39.973] [DEBUG   ] Processando 41 lotes concorrentes (Max Threads: 2)...
+[19:21:02.208] [SUCESSO ] Salvo: [DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[19:21:02.209] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m10m 22s[32m] [Tempo decorrido acumulado: [36m62m 20s[32m]
+[19:21:02.209] [INFO    ] [5/12] [DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:21:02.210] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:21:02.212] [SUCESSO ] Encoding detectado: UTF-8
+[19:21:02.212] [DEBUG   ] Arquivo lido: 5164 linhas (encoding: utf-8)
+[19:21:02.229] [DEBUG   ] Diálogos identificados: 4402 (Lixo binário pulado: 0)
+[19:21:02.231] [INFO    ] Cache Hits: 18975 | Misses (A traduzir): 231
+[19:21:02.231] [DEBUG   ] Processando 29 lotes concorrentes (Max Threads: 2)...
+[19:26:29.095] [AVISO   ] Falha na tradução em lote (Resultado incompleto: 7/8 linhas traduzidas). Iniciando fallback resiliente linha a linha...
+[19:28:25.216] [SUCESSO ] Salvo: [DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[19:28:25.217] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m7m 23s[32m] [Tempo decorrido acumulado: [36m69m 43s[32m]
+[19:28:25.217] [INFO    ] [6/12] [DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:28:25.217] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:28:25.232] [SUCESSO ] Encoding detectado: UTF-8
+[19:28:25.232] [DEBUG   ] Arquivo lido: 5383 linhas (encoding: utf-8)
+[19:28:25.249] [DEBUG   ] Diálogos identificados: 4469 (Lixo binário pulado: 0)
+[19:28:25.252] [INFO    ] Cache Hits: 23156 | Misses (A traduzir): 288
+[19:28:25.252] [DEBUG   ] Processando 36 lotes concorrentes (Max Threads: 2)...
+[19:37:30.609] [SUCESSO ] Salvo: [DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[19:37:30.610] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m9m 5s[32m] [Tempo decorrido acumulado: [36m78m 48s[32m]
+[19:37:30.610] [INFO    ] [7/12] [DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:37:30.610] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:37:30.612] [SUCESSO ] Encoding detectado: UTF-8
+[19:37:30.612] [DEBUG   ] Arquivo lido: 4629 linhas (encoding: utf-8)
+[19:37:30.626] [DEBUG   ] Diálogos identificados: 3921 (Lixo binário pulado: 0)
+[19:37:30.629] [INFO    ] Cache Hits: 26772 | Misses (A traduzir): 305
+[19:37:30.630] [DEBUG   ] Processando 39 lotes concorrentes (Max Threads: 2)...
+[19:46:42.555] [SUCESSO ] Salvo: [DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[19:46:42.556] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m9m 11s[32m] [Tempo decorrido acumulado: [36m88m 0s[32m]
+[19:46:42.556] [INFO    ] [8/12] [DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:46:42.556] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:46:42.558] [SUCESSO ] Encoding detectado: UTF-8
+[19:46:42.558] [DEBUG   ] Arquivo lido: 5236 linhas (encoding: utf-8)
+[19:46:42.575] [DEBUG   ] Diálogos identificados: 4446 (Lixo binário pulado: 0)
+[19:46:42.578] [INFO    ] Cache Hits: 30951 | Misses (A traduzir): 267
+[19:46:42.578] [DEBUG   ] Processando 34 lotes concorrentes (Max Threads: 2)...
+[19:54:54.884] [SUCESSO ] Salvo: [DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[19:54:54.884] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m8m 12s[32m] [Tempo decorrido acumulado: [36m96m 12s[32m]
+[19:54:54.884] [INFO    ] [9/12] [DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:54:54.884] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[19:54:54.886] [SUCESSO ] Encoding detectado: UTF-8
+[19:54:54.886] [DEBUG   ] Arquivo lido: 4645 linhas (encoding: utf-8)
+[19:54:54.901] [DEBUG   ] Diálogos identificados: 3902 (Lixo binário pulado: 0)
+[19:54:54.903] [INFO    ] Cache Hits: 34555 | Misses (A traduzir): 298
+[19:54:54.903] [DEBUG   ] Processando 38 lotes concorrentes (Max Threads: 2)...
+[20:04:26.625] [SUCESSO ] Salvo: [DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[20:04:26.626] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m9m 31s[32m] [Tempo decorrido acumulado: [36m105m 44s[32m]
+[20:04:26.626] [INFO    ] [10/12] [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[20:04:26.626] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[20:04:26.630] [SUCESSO ] Encoding detectado: UTF-8
+[20:04:26.630] [DEBUG   ] Arquivo lido: 5147 linhas (encoding: utf-8)
+[20:04:26.647] [DEBUG   ] Diálogos identificados: 4392 (Lixo binário pulado: 0)
+[20:04:26.650] [INFO    ] Cache Hits: 38762 | Misses (A traduzir): 185
+[20:04:26.650] [DEBUG   ] Processando 24 lotes concorrentes (Max Threads: 2)...
+[20:09:19.559] [SUCESSO ] Salvo: [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[20:09:19.560] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m4m 52s[32m] [Tempo decorrido acumulado: [36m110m 37s[32m]
+[20:09:19.560] [INFO    ] [11/12] [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[20:09:19.560] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[20:09:19.562] [SUCESSO ] Encoding detectado: UTF-8
+[20:09:19.562] [DEBUG   ] Arquivo lido: 4815 linhas (encoding: utf-8)
+[20:09:19.578] [DEBUG   ] Diálogos identificados: 3890 (Lixo binário pulado: 0)
+[20:09:19.581] [INFO    ] Cache Hits: 42390 | Misses (A traduzir): 262
+[20:09:19.582] [DEBUG   ] Processando 33 lotes concorrentes (Max Threads: 2)...
+[20:17:09.359] [SUCESSO ] Salvo: [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[20:17:09.361] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m7m 49s[32m] [Tempo decorrido acumulado: [36m118m 27s[32m]
+[20:17:09.361] [INFO    ] [12/12] [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[20:17:09.361] [DEBUG   ] Detectando encoding: [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[20:17:09.362] [SUCESSO ] Encoding detectado: UTF-8
+[20:17:09.362] [DEBUG   ] Arquivo lido: 721 linhas (encoding: utf-8)
+[20:17:09.363] [DEBUG   ] Diálogos identificados: 303 (Lixo binário pulado: 0)
+[20:17:09.363] [INFO    ] Cache Hits: 42430 | Misses (A traduzir): 263
+[20:17:09.363] [DEBUG   ] Processando 33 lotes concorrentes (Max Threads: 2)...
+[20:25:02.335] [SUCESSO ] Salvo: [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR.ass
+[20:25:02.336] [SUCESSO ] [OK] Episódio concluído com sucesso! [Tempo do arquivo: [33m7m 52s[32m] [Tempo decorrido acumulado: [36m126m 20s[32m]
+
+================================================================================
+                                RELATÓRIO FINAL                                 
+================================================================================
+
+[20:25:02.336] [DEBUG   ] Stats salvo: stats_86_2026-06-16_18-18-35.json
+
+================================================================================
+RELATÓRIO FINAL
+================================================================================
+
+Tempo total de execução : 126m 20s
+Arquivos .mkv           : 12
+Extraídos               : 0
+Traduzidos              : 12
+Erros extração          : 0
+Erros tradução          : 0
+Requisições API         : 595
+Cache hits              : 42430
+Linhas traduzidas       : 4651
+
+Encodings detectados:
+  utf-8: 12 arquivo(s)
+
+Arquivos de log:
+  [DIR]  d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_tradutor_ia_gemma4\86\logs
+  [FILE]  pipeline_86_2026-06-16_18-18-35.txt
+  [AVISO]   erros_86_2026-06-16_18-18-35.txt
+  [STATS]  stats_86_2026-06-16_18-18-35.json
+  [CONFIG]   config_86_2026-06-16_18-18-35.txt
+
+Legendas salvas em: C:\animes\86\86 Part 2\anime\legendas_eng\traducao
+
+================================================================================
+Execução finalizada: 2026-06-16 20:25:02
+================================================================================

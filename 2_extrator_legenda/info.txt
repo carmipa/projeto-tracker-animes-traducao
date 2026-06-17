@@ -1,3 +1,14 @@
 RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE
 ================================================================================
-[YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8].mkv | Track ID: 2 | Nome: YameteTomete | Formato: ASS | Saída: [YameteTomete] Gekijouban Macross Delta - Gekijou no Walküre (1920x1080 BD FLAC) [14A82BE8]_ENG.ass
+[DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+[DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_ENG.ass

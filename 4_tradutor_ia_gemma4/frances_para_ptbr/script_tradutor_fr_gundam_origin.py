@@ -676,6 +676,17 @@ EXEMPLOS DE FORMATO:
                 trad = re.sub(rf'\[?[Tt]\s*{idx_tag}\]?', tag, trad, count=1)
         return trad
 
+    def limpar_saida_traducao(self, texto: str) -> str:
+        """Corrige deslizes comuns do LLM sem alterar o sentido da tradução."""
+        texto = texto.strip()
+        texto = re.sub(r"^\s*[-–•]\s*", "", texto)
+        texto = re.sub(r"\[\s*[Tt]\s*(\d+)\s*\]", r"[T\1]", texto)
+        texto = re.sub(r"\\\s*([Nnh])", r"\\\1", texto)
+        texto = texto.replace("/N", r"\N").replace("/n", r"\n")
+        texto = texto.replace("\r\n", "\n").replace("\r", "\n")
+        texto = re.sub(r"\s*\n+\s*", r"\\N", texto)
+        return texto
+
     # ── tradução ──────────────────────────────────────────────────────────────
 
     def _traduzir_lote(self, linhas: list, tentativa=1) -> dict:
@@ -686,10 +697,11 @@ EXEMPLOS DE FORMATO:
             "model": self.modelo_ativo,
             "messages": [
                 {"role": "system", "content": self.PROMPT_SISTEMA},
-                {"role": "user",   "content": f"Traduza:\n{payload}"},
+                {"role": "user",   "content": f"Traduza do francês para PT-BR mantendo exatamente os índices, marcadores [Tn] e escapes de legenda. Responda somente com as linhas traduzidas:\n{payload}"},
             ],
-            "temperature": 0.1,  # Estrito para tradução fiel de Lorentz/Glossário
-            "max_tokens":  2000,
+            "temperature": 0.2,
+            "top_p": 0.9,
+            "max_tokens":  3000,
         }
 
         self.stats['requisicoes'] += 1
@@ -720,15 +732,19 @@ EXEMPLOS DE FORMATO:
         # Parse dos índices
         traduzidas = {}
         for idx_str, texto in re.findall(r"\[(\d+)\]\s*(.*?)(?=\[\d+\]|$)", bruto, re.DOTALL):
-            texto_limpo = texto.strip()
+            idx = int(idx_str)
+            if idx < 0 or idx >= len(linhas):
+                continue
+            texto_limpo = self.limpar_saida_traducao(texto)
             if texto_limpo:
-                traduzidas[int(idx_str)] = texto_limpo
+                traduzidas[idx] = texto_limpo
 
         # Fallback simples se o regex falhar por completo e o número de linhas bater
         if not traduzidas:
             linhas_bruto = bruto.splitlines()
             for i, linha in enumerate(linhas_bruto[:len(linhas)]):
                 linha_limpa = re.sub(r"^\[?\d+\]?[.)\s-]*", "", linha.strip()).strip()
+                linha_limpa = self.limpar_saida_traducao(linha_limpa)
                 if linha_limpa:
                     traduzidas[i] = linha_limpa
 
@@ -743,7 +759,7 @@ EXEMPLOS DE FORMATO:
                     if re.search(r"^(espero|aqui está|aqui esta|se precisar|traduzido|espero que|bonne chance|voilà)", l.strip(), re.IGNORECASE):
                         break
                     linhas_limpas_ultimo.append(l)
-                traduzidas[ultimo_idx] = "\n".join(linhas_limpas_ultimo).strip()
+                traduzidas[ultimo_idx] = self.limpar_saida_traducao("\n".join(linhas_limpas_ultimo))
 
         if not traduzidas:
             raise RuntimeError("Impossível extrair traduções da resposta do LLM")

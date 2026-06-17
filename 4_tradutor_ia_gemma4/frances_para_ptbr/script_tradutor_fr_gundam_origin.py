@@ -172,10 +172,8 @@ class GerenciadorLogs:
         corpo = (
             f"\n{'='*80}\nRELATÓRIO FINAL\n{'='*80}\n\n"
             f"Tempo total de execução : {tempo_total_formatado}\n"
-            f"Arquivos .mkv           : {stats.get('mkv_total', 0)}\n"
-            f"Extraídos               : {stats.get('extraidos', 0)}\n"
+            f"Arquivos .ass           : {stats.get('ass_total', 0)}\n"
             f"Traduzidos              : {stats.get('traduzidos', 0)}\n"
-            f"Erros extração          : {stats.get('erros_extracao', 0)}\n"
             f"Erros tradução          : {stats.get('erros_traducao', 0)}\n"
             f"Requisições API         : {stats.get('requisicoes', 0)}\n"
             f"Cache hits              : {stats.get('cache_hits', 0)}\n"
@@ -611,10 +609,8 @@ EXEMPLOS DE FORMATO:
         self._carregar_cache()
 
         self.stats = {
-            'mkv_total':          0,
-            'extraidos':          0,
+            'ass_total':          0,
             'traduzidos':         0,
-            'erros_extracao':     0,
             'erros_traducao':     0,
             'requisicoes':        0,
             'cache_hits':         0,
@@ -702,13 +698,12 @@ EXEMPLOS DE FORMATO:
             self.log.erro(f"Erro ao contatar LM Studio: {e}")
             return False
 
-        # mkvextract e mkvmerge
-        self.log.debug("Verificando MKVToolNix...")
+        # mkvextract e mkvmerge (opcionais, não mais necessários para extração direta)
+        self.log.debug("Verificando MKVToolNix (opcional)...")
         if self.mkvextract and self.mkvmerge:
-            self.log.sucesso(f"MKVToolNix OK: {self.mkvextract}")
+            self.log.sucesso(f"MKVToolNix detectado: {self.mkvextract}")
         else:
-            self.log.erro("mkvextract.exe ou mkvmerge.exe não encontrados")
-            return False
+            self.log.info("MKVToolNix não encontrado (opcional, não necessário para tradução direta de .ass)")
 
         self.log.sucesso("✓ Infraestrutura validada!")
         return True
@@ -837,7 +832,7 @@ EXEMPLOS DE FORMATO:
             ],
             "temperature": 0.2,
             "top_p": 0.9,
-            "max_tokens":  3000,
+            "max_tokens":  800,
         }
 
         self.stats['requisicoes'] += 1
@@ -857,7 +852,11 @@ EXEMPLOS DE FORMATO:
             raise RuntimeError("LM Studio sem conexão estável")
 
         if r.status_code != 200:
-            self.log.erro(f"Status HTTP {r.status_code}")
+            try:
+                detalhe = r.json()
+            except:
+                detalhe = r.text
+            self.log.erro(f"Status HTTP {r.status_code} - Detalhe: {detalhe}")
             if tentativa < 2:
                 time.sleep(2 * tentativa)
                 return self._traduzir_lote(linhas, tentativa + 1)
@@ -1122,55 +1121,49 @@ def main():
         # ── inputs ────────────────────────────────────────────────────────────
         log.secao("INPUTS")
 
-        pasta = input(f"{Fore.CYAN}Pasta com os .mkv: {Style.RESET_ALL}").strip('" ')
+        pasta = input(f"{Fore.CYAN}Pasta com os arquivos .ass: {Style.RESET_ALL}").strip('" ')
         log.info(f"Pasta: {pasta}")
 
         if not os.path.isdir(pasta):
             log.erro(f"Pasta não existe: {pasta}")
             return
 
-        mkv_files = sorted(f for f in os.listdir(pasta) if f.lower().endswith('.mkv'))
-        log.info(f"Encontrados {len(mkv_files)} arquivo(s) .mkv")
-        if not mkv_files:
-            log.erro("Nenhum .mkv encontrado")
+        ass_files = sorted(f for f in os.listdir(pasta) if f.lower().endswith('.ass'))
+        log.info(f"Encontrados {len(ass_files)} arquivo(s) .ass")
+        if not ass_files:
+            log.erro("Nenhum arquivo .ass encontrado")
             return
 
         pasta_saida = os.path.join(pasta, "traducao")
         os.makedirs(pasta_saida, exist_ok=True)
         log.info(f"Saída: {pasta_saida}")
 
-        log.salvar_config(pipe.LM_URL, pasta, "Automático (mkvmerge)", pasta_saida)
+        log.salvar_config(pipe.LM_URL, pasta, "Não aplicável (arquivos .ass diretos)", pasta_saida)
 
         # ── temporizador de precisão inicial ─────────────────────────────────
         tempo_inicio_global = time.time()
 
         # ── processamento ─────────────────────────────────────────────────────
         log.secao("PROCESSAMENTO")
-        pipe.stats['mkv_total'] = len(mkv_files)
+        pipe.stats['ass_total'] = len(ass_files)
 
-        for idx, nome_mkv in enumerate(mkv_files, 1):
+        for idx, nome_ass in enumerate(ass_files, 1):
             tempo_inicio_arquivo = time.time()
-            log.info(f"[{idx}/{len(mkv_files)}] {nome_mkv}")
+            log.info(f"{Fore.YELLOW}{Style.BRIGHT}► [{idx}/{len(ass_files)}] TRADUZINDO EPISÓDIO: {nome_ass}{Style.RESET_ALL}")
 
-            mkv_path = os.path.join(pasta, nome_mkv)
+            ass_path = os.path.join(pasta, nome_ass)
 
-            # 0. Descobrir Track ID
-            track_id = pipe.descobrir_track_id_ass(mkv_path)
-            if track_id == -1:
-                log.erro("Pulando episódio por não encontrar track .ass válido")
-                continue
+            # 1. Tradução
+            nome_base = os.path.splitext(nome_ass)[0]
+            # Remove sufixos comuns de idioma antes de adicionar _PTBR
+            for sufixo in ['_ENG', '_FR', '_FRENCH', '_SUBFRENCH']:
+                if nome_base.upper().endswith(sufixo):
+                    nome_base = nome_base[:-len(sufixo)]
+                    break
 
-            # 1. Extração
-            ass_temp = pipe.extrair_legenda(mkv_path, track_id)
-            if not ass_temp:
-                log.erro("Falha na extração — pulando episódio")
-                continue
-
-            # 2. Tradução
-            nome_base = os.path.splitext(nome_mkv)[0]
             ass_final = os.path.join(pasta_saida, f"{nome_base}_PTBR.ass")
 
-            if pipe.processar_legenda(ass_temp, ass_final):
+            if pipe.processar_legenda(ass_path, ass_final):
                 tempo_fim_arquivo = time.time()
                 decorrido_arquivo = tempo_fim_arquivo - tempo_inicio_arquivo
                 decorrido_total_acumulado = tempo_fim_arquivo - tempo_inicio_global
@@ -1185,13 +1178,6 @@ def main():
                 )
             else:
                 log.erro("✗ Falha na tradução")
-
-            # 3. Limpeza
-            try:
-                os.remove(ass_temp)
-                log.debug("Arquivo temporário removido")
-            except Exception as e:
-                log.aviso(f"Não conseguiu remover temporário: {e}")
 
         # ── temporizador final ───────────────────────────────────────────────
         tempo_total = time.time() - tempo_inicio_global

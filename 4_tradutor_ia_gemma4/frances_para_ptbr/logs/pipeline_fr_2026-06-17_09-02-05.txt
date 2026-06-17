@@ -1,0 +1,30 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO FRANCÊS - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-17 09:02:05
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_tradutor_ia_gemma4\frances_para_ptbr\logs
+================================================================================
+
+
+================================================================================
+          PIPELINE INDUSTRIAL UNIFICADO — VERSÃO FRANCÊS (FR -> PT-BR)          
+================================================================================
+
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[09:02:05.249] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[09:02:05.278] [SUCESSO ] LM Studio OK — 4 modelo(s)
+[09:02:05.278] [INFO    ] Usando modelo: google/gemma-4-e4b
+[09:02:05.278] [DEBUG   ] Verificando MKVToolNix (opcional)...
+[09:02:05.278] [SUCESSO ] MKVToolNix detectado: C:\Program Files\MKVToolNix\mkvextract.exe
+[09:02:05.278] [SUCESSO ] ✓ Infraestrutura validada!
+
+================================================================================
+                                     INPUTS                                     
+================================================================================
+

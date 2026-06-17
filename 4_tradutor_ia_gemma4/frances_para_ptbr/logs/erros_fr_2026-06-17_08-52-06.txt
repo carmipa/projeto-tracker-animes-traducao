@@ -1,0 +1,15 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO FRANCÊS - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-17 08:52:06
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_tradutor_ia_gemma4\frances_para_ptbr\logs
+================================================================================
+
+[08:52:08.958] [ERRO    ] LM Studio não responde — verifique se está rodando na porta 1234
+[08:52:08.958] [ERRO    ] Validação falhou — abortando
+
+================================================================================
+Execução finalizada: 2026-06-17 08:52:08
+================================================================================

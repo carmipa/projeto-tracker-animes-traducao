@@ -1,0 +1,54 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO FRANCÊS - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-17 08:55:57
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_tradutor_ia_gemma4\frances_para_ptbr\logs
+================================================================================
+
+
+================================================================================
+          PIPELINE INDUSTRIAL UNIFICADO — VERSÃO FRANCÊS (FR -> PT-BR)          
+================================================================================
+
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[08:55:57.157] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[08:55:57.164] [SUCESSO ] LM Studio OK — 4 modelo(s)
+[08:55:57.164] [INFO    ] Usando modelo: google/gemma-4-e4b
+[08:55:57.164] [DEBUG   ] Verificando MKVToolNix (opcional)...
+[08:55:57.164] [SUCESSO ] MKVToolNix detectado: C:\Program Files\MKVToolNix\mkvextract.exe
+[08:55:57.164] [SUCESSO ] ✓ Infraestrutura validada!
+
+================================================================================
+                                     INPUTS                                     
+================================================================================
+
+[08:56:11.324] [INFO    ] Pasta: C:\animes\Mobile Suit Gundam The Origin Advent of the Red Comet S01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws\legendas_fr
+[08:56:11.324] [INFO    ] Encontrados 13 arquivo(s) .ass
+[08:56:11.325] [INFO    ] Saída: C:\animes\Mobile Suit Gundam The Origin Advent of the Red Comet S01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws\legendas_fr\traducao
+[08:56:11.325] [DEBUG   ] Config salvo: config_fr_2026-06-17_08-55-57.txt
+
+================================================================================
+                                 PROCESSAMENTO                                  
+================================================================================
+
+[08:56:11.326] [INFO    ] [1/13] Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[08:56:11.326] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[08:56:11.329] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[08:56:11.329] [DEBUG   ] Arquivo lido: 343 linhas (encoding: utf-8-sig)
+[08:56:11.332] [DEBUG   ] Diálogos identificados: 320 (Lixo binário pulado: 0)
+[08:56:11.332] [INFO    ] Cache Hits: 0 | Misses (A traduzir): 320
+[08:56:11.332] [DEBUG   ] Processando 40 lotes concorrentes (Max Threads: 2)...
+[08:57:10.783] [ERRO    ] Status HTTP 400
+[08:57:10.785] [ERRO    ] Status HTTP 400
+[08:58:09.138] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[08:58:14.739] [AVISO   ] Pipeline interrompido pelo usuário (Ctrl+C)
+
+================================================================================
+Execução finalizada: 2026-06-17 08:58:14
+================================================================================

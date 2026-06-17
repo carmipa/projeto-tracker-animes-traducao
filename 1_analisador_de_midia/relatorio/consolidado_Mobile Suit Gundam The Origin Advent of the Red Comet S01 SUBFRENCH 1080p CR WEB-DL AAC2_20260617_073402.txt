@@ -1,0 +1,1130 @@
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1462 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8175 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:44.940 (via Metadados)
+    Diferenca Fim: +15.102s (Video - Legenda)
+    Taxa de Drift: 36.244 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 15101 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E02 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1462 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8174 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:54.700 (via Metadados)
+    Diferenca Fim: +5.342s (Video - Legenda)
+    Taxa de Drift: 12.820 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 5341 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E03 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1464 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8188 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:48.530 (via Metadados)
+    Diferenca Fim: +11.512s (Video - Legenda)
+    Taxa de Drift: 27.628 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 11511 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E04 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1461 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8171 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:58.210 (via Metadados)
+    Diferenca Fim: +1.832s (Video - Legenda)
+    Taxa de Drift: 4.397 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E05 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1462 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8176 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:56.710 (via Metadados)
+    Diferenca Fim: +3.332s (Video - Legenda)
+    Taxa de Drift: 7.997 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E06 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1460 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8164 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:48.020 (via Metadados)
+    Diferenca Fim: +12.022s (Video - Legenda)
+    Taxa de Drift: 28.852 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 12021 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E07 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1460 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8163 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:47.140 (via Metadados)
+    Diferenca Fim: +12.902s (Video - Legenda)
+    Taxa de Drift: 30.964 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 12901 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E08 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1464 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8186 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:58.550 (via Metadados)
+    Diferenca Fim: +1.492s (Video - Legenda)
+    Taxa de Drift: 3.581 s/hora
+    Veredito de Sincronia: Legenda Sincronizada! (Diferenca dentro da margem segura)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E09 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1464 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8187 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:57.980 (via Metadados)
+    Diferenca Fim: +2.062s (Video - Legenda)
+    Taxa de Drift: 4.949 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E10 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1464 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8187 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:57.220 (via Metadados)
+    Diferenca Fim: +2.822s (Video - Legenda)
+    Taxa de Drift: 6.773 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E11 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1465 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8191 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:49.340 (via Metadados)
+    Diferenca Fim: +10.702s (Video - Legenda)
+    Taxa de Drift: 25.684 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 10701 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E12 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1464 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 0 s
+
+Bitrate Geral
+  8185 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:53.980 (via Metadados)
+    Diferenca Fim: +6.062s (Video - Legenda)
+    Taxa de Drift: 14.548 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 6061 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================
+
+================================================================================
+INICIANDO AUDITORIA TECNICA: Mobile Suit Gundam The Origin Advent of the Red Comet S01E13 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.43 GiB (1460 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+5 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.43 GiB
+
+Duracao Total
+  25 min 1 s
+
+Bitrate Geral
+  8157 kbps
+
+Aplicacao de Escrita
+  keykitten v3.0.0 ('meow meow') / mkvmerge v98.0 ('Chonks') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_MPEG4/ISO/AVC (AVC)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 8 bits
+    Taxa de Quadros (FPS): 23.976 fps
+    Aspect Ratio: 1.778
+    Bitrate: 8000 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja-JP
+    Codec/Formato: AAC
+    Canais: 2
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 192 kbps
+    Titulo: Japan
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 3)
+    Idioma: fr-FR
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: (Sem titulo)
+    Duracao Legenda: 00:24:58.540 (via Metadados)
+    Diferenca Fim: +1.502s (Video - Legenda)
+    Taxa de Drift: 3.605 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Necessita Estiramento de Tempo! (FPS Mismatch: 24.000 -> 23.976 fps)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 5
+    Video(s): 1
+    Audio(s): 1
+    Legenda(s): 1
+      [1] Idioma: fr-FR | Tipo: ASS | Formato: ASS
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================

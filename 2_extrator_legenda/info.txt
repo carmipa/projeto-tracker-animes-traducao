@@ -1,5 +1,6 @@
 RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE
 ================================================================================
+<<<<<<< HEAD
 [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
 [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
 [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
@@ -12,3 +13,18 @@ RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE
 [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
 [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
 [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265).mkv | Track ID: 6 | Nome: Full Subs(koala) | Formato: ASS | Saída: [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_ENG.ass
+=======
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E02 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E02 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E03 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E03 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E04 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E04 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E05 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E05 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E06 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E06 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E07 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E07 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E08 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E08 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E09 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E09 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E10 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E10 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E11 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E11 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E12 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E12 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+Mobile Suit Gundam The Origin Advent of the Red Comet S01E13 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv | Track ID: 2 | Nome:  | Formato: ASS | Saída: Mobile Suit Gundam The Origin Advent of the Red Comet S01E13 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+>>>>>>> 833a5e387dbade47f69c170a1a49a22d631f49a6

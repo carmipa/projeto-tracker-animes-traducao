@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-06-16 23:05:28
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : C:\TRACKER-ANIMES\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet
+Diretório de Legendas Subs : C:\TRACKER-ANIMES\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet\legendas_eng
+Diretório de Destino Final : C:\TRACKER-ANIMES\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

@@ -1,0 +1,23 @@
+[23:05:28.818] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-16_23-05-28.txt
+[23:05:28.818] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[23:05:28.858] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[23:05:28.858] [DEBUG   ] Validando caminhos de diretórios locais...
+[23:05:28.859] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[23:05:28.859] [DEBUG   ] Escaneando diretório: C:\TRACKER-ANIMES\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet
+[23:05:28.863] [INFO    ] Encontrados 13 arquivos de vídeo com extensão .mkv.
+[23:05:28.863] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[23:05:28.863] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][01][1080p][HEVC][Webrip](E1AED70B)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][01][1080p][HEVC][Webrip](E1AED70B)_PTBR_PTBR.ass)
+[23:05:28.864] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][02][1080p][HEVC][Webrip](2CEC8E71)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][02][1080p][HEVC][Webrip](2CEC8E71)_PTBR_PTBR.ass)
+[23:05:28.864] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][03][1080p][HEVC][Webrip](4F2B2BFA)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][03][1080p][HEVC][Webrip](4F2B2BFA)_PTBR_PTBR.ass)
+[23:05:28.864] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][04][1080p][HEVC][Webrip](5FE1652B)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][04][1080p][HEVC][Webrip](5FE1652B)_PTBR_PTBR.ass)
+[23:05:28.864] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][05][1080p][HEVC][Webrip](106FCAA0)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][05][1080p][HEVC][Webrip](106FCAA0)_PTBR_PTBR.ass)
+[23:05:28.864] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][06][1080p][HEVC][Webrip](813F24D4)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][06][1080p][HEVC][Webrip](813F24D4)_PTBR_PTBR.ass)
+[23:05:28.865] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][07][1080p][HEVC][Webrip](505902AA)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][07][1080p][HEVC][Webrip](505902AA)_PTBR_PTBR.ass)
+[23:05:28.865] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][08][1080p][HEVC][Webrip](6D86D845)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][08][1080p][HEVC][Webrip](6D86D845)_PTBR_PTBR.ass)
+[23:05:28.865] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][09][1080p][HEVC][Webrip](4F4DAB13)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][09][1080p][HEVC][Webrip](4F4DAB13)_PTBR_PTBR.ass)
+[23:05:28.865] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][10][1080p][HEVC][Webrip](A72FE704)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][10][1080p][HEVC][Webrip](A72FE704)_PTBR_PTBR.ass)
+[23:05:28.865] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][11][1080p][HEVC][Webrip](87FCBBD0)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][11][1080p][HEVC][Webrip](87FCBBD0)_PTBR_PTBR.ass)
+[23:05:28.866] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][12][1080p][HEVC][Webrip](0AE7CEDD)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][12][1080p][HEVC][Webrip](0AE7CEDD)_PTBR_PTBR.ass)
+[23:05:28.866] [WARNING ]   Legenda ausente para: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][13][1080p][HEVC][Webrip](0C42A212)_PTBR.mkv (esperado: [POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][13][1080p][HEVC][Webrip](0C42A212)_PTBR_PTBR.ass)
+[23:05:28.866] [WARNING ] A fila de processamento está vazia. Nenhuma ação será tomada.
+[23:05:28.867] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-16_23-05-28.json

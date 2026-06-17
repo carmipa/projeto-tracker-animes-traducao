@@ -269,7 +269,7 @@ PADRAO_RESIDUO_FRANCES = re.compile(
 )
 
 PADRAO_PREAMBULO_LLM = re.compile(
-    r"^(aqui est[áa]|esta [ée] a tradu|segue|abaixo est[áa]|abaixo seguem|claro,?\s+vou|espero que|voil[àa])\b",
+    r"^(esta [ée] a tradu|segue|abaixo est[áa]|abaixo seguem|claro,?\s+vou|voil[àa])\b",
     re.IGNORECASE,
 )
 
@@ -699,7 +699,7 @@ EXEMPLOS DE FORMATO:
                 trad = trad.replace(marcador, tag, 1)
             else:
                 # Fallback tolerante a pequenas alterações de espaçamento ou case feitas pelo LLM
-                trad = re.sub(rf'\[?[Tt]\s*{idx_tag}\]?', tag, trad, count=1)
+                trad = re.sub(rf'\[?[Tt]\s*{idx_tag}\]?', lambda m: tag, trad, count=1)
         return trad
 
     def limpar_saida_traducao(self, texto: str) -> str:

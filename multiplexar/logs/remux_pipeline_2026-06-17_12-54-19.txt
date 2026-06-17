@@ -1,0 +1,63 @@
+[12:54:19.518] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-17_12-54-19.txt
+[12:54:19.518] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[12:54:19.550] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[12:54:19.550] [DEBUG   ] Validando caminhos de diretórios locais...
+[12:54:19.550] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[12:54:19.555] [DEBUG   ] Escaneando diretório: C:\animes\Mobile Suit Gundam The Origin Advent of the Red Comet S01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws
+[12:54:19.555] [INFO    ] Encontrados 13 arquivos de vídeo com extensão .mkv.
+[12:54:19.556] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[12:54:19.556] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.556] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E02 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E02 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.556] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E03 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E03 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.556] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E04 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E04 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.556] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E05 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E05 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.556] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E06 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E06 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.557] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E07 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E07 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.557] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E08 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E08 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.557] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E09 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E09 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.557] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E10 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E10 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.557] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E11 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E11 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.558] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E12 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E12 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.558] [DEBUG   ]   Pareado com sucesso: Mobile Suit Gundam The Origin Advent of the Red Comet S01E13 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv -> Mobile Suit Gundam The Origin Advent of the Red Comet S01E13 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[12:54:19.558] [INFO    ] Esteira trancada. Processando 13 episódios em lote via mkvmerge.
+[12:54:19.569] [INFO    ] [1/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:19.569] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:21.596] [INFO    ] SUCESSO:   Concluido (1.428 GB) em 2.03s! Legenda adicionada.
+[12:54:21.596] [INFO    ] [2/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E02 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:21.596] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:24.069] [INFO    ] SUCESSO:   Concluido (1.427 GB) em 2.47s! Legenda adicionada.
+[12:54:24.069] [INFO    ] [3/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E03 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:24.069] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:26.298] [INFO    ] SUCESSO:   Concluido (1.430 GB) em 2.23s! Legenda adicionada.
+[12:54:26.298] [INFO    ] [4/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E04 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:26.298] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:28.618] [INFO    ] SUCESSO:   Concluido (1.427 GB) em 2.32s! Legenda adicionada.
+[12:54:28.618] [INFO    ] [5/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E05 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:28.618] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:30.805] [INFO    ] SUCESSO:   Concluido (1.428 GB) em 2.19s! Legenda adicionada.
+[12:54:30.805] [INFO    ] [6/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E06 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:30.805] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:33.074] [INFO    ] SUCESSO:   Concluido (1.426 GB) em 2.27s! Legenda adicionada.
+[12:54:33.074] [INFO    ] [7/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E07 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:33.075] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:35.274] [INFO    ] SUCESSO:   Concluido (1.426 GB) em 2.20s! Legenda adicionada.
+[12:54:35.274] [INFO    ] [8/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E08 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:35.275] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:37.547] [INFO    ] SUCESSO:   Concluido (1.430 GB) em 2.27s! Legenda adicionada.
+[12:54:37.548] [INFO    ] [9/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E09 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:37.548] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:39.810] [INFO    ] SUCESSO:   Concluido (1.430 GB) em 2.26s! Legenda adicionada.
+[12:54:39.811] [INFO    ] [10/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E10 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:39.811] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:42.074] [INFO    ] SUCESSO:   Concluido (1.430 GB) em 2.26s! Legenda adicionada.
+[12:54:42.074] [INFO    ] [11/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E11 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:42.075] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:44.339] [INFO    ] SUCESSO:   Concluido (1.430 GB) em 2.26s! Legenda adicionada.
+[12:54:44.339] [INFO    ] [12/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E12 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:44.339] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:46.470] [INFO    ] SUCESSO:   Concluido (1.429 GB) em 2.13s! Legenda adicionada.
+[12:54:46.470] [INFO    ] [13/13] Multiplexando container Matroska: Mobile Suit Gundam The Origin Advent of the Red Comet S01E13 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws.mkv
+[12:54:46.470] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[12:54:48.623] [INFO    ] SUCESSO:   Concluido (1.426 GB) em 2.15s! Legenda adicionada.
+[12:54:48.623] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-17_12-54-19.json
+[12:54:48.624] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

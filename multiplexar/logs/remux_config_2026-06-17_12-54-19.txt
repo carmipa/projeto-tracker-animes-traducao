@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-06-17 12:54:19
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : C:\animes\Mobile Suit Gundam The Origin Advent of the Red Comet S01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws
+Diretório de Legendas Subs : C:\animes\Mobile Suit Gundam The Origin Advent of the Red Comet S01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws\legendas_fr\traducao
+Diretório de Destino Final : C:\animes\Mobile Suit Gundam The Origin Advent of the Red Comet S01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

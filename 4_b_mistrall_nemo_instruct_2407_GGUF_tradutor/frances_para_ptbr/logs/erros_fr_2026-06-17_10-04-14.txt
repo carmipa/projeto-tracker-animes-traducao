@@ -1,9 +1,0 @@
-
-================================================================================
-PIPELINE INDUSTRIAL DE TRADUÇÃO FRANCÊS - LOG DE AUDITORIA
-================================================================================
-Início    : 2026-06-17 10:04:14
-Python    : 3.14.3
-Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\logs
-================================================================================
-

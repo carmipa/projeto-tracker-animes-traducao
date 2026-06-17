@@ -1,0 +1,276 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO FRANCÊS - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-17 10:04:14
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\logs
+================================================================================
+
+
+================================================================================
+          PIPELINE INDUSTRIAL UNIFICADO — VERSÃO FRANCÊS (FR -> PT-BR)          
+================================================================================
+
+[10:04:14.947] [INFO    ] Cache em disco carregado: 319 traduções disponíveis.
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[10:04:14.953] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[10:04:14.956] [SUCESSO ] LM Studio OK — 5 modelo(s)
+[10:04:14.956] [INFO    ] Usando modelo: mistralai/mistral-nemo-instruct-2407
+[10:04:14.956] [SUCESSO ] ✓ Infraestrutura validada!
+
+================================================================================
+                                     INPUTS                                     
+================================================================================
+
+[10:04:27.306] [INFO    ] Pasta: C:\animes\Mobile Suit Gundam The Origin Advent of the Red Comet S01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws\legendas_fr
+[10:04:27.307] [INFO    ] Encontrados 13 arquivo(s) .ass
+[10:04:27.307] [INFO    ] Saída: C:\animes\Mobile Suit Gundam The Origin Advent of the Red Comet S01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws\legendas_fr\traducao
+[10:04:27.323] [DEBUG   ] Config salvo: config_fr_2026-06-17_10-04-14.txt
+
+================================================================================
+                                 PROCESSAMENTO                                  
+================================================================================
+
+[10:04:27.324] [INFO    ] [33m[1m► [1/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:04:27.324] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:04:27.324] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:04:27.324] [DEBUG   ] Arquivo lido: 343 linhas (encoding: utf-8-sig)
+[10:04:27.325] [DEBUG   ] Diálogos identificados: 320 (Lixo binário pulado: 0)
+[10:04:27.327] [INFO    ] Cache Hits: 320 | Misses (A traduzir): 0
+[10:04:27.329] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:04:27.329] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m0s[32m] [Tempo decorrido acumulado: [36m0s[32m]
+[10:04:27.329] [INFO    ] [33m[1m► [2/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E02 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:04:27.329] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E02 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:04:27.329] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:04:27.329] [DEBUG   ] Arquivo lido: 339 linhas (encoding: utf-8-sig)
+[10:04:27.330] [DEBUG   ] Diálogos identificados: 315 (Lixo binário pulado: 0)
+[10:04:27.330] [INFO    ] Cache Hits: 321 | Misses (A traduzir): 314
+[10:04:27.330] [DEBUG   ] Processando 40 lotes concorrentes (Max Threads: 2)...
+[10:05:19.109] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:06:45.163] [AVISO   ] Lote retornou 6/8 linhas válidas. Retraduzindo individualmente 2 linha(s) faltante(s)...
+[10:06:51.960] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E02 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:06:51.960] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 24s[32m] [Tempo decorrido acumulado: [36m2m 24s[32m]
+[10:06:51.960] [INFO    ] [33m[1m► [3/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E03 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:06:51.961] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E03 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:06:51.961] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:06:51.961] [DEBUG   ] Arquivo lido: 317 linhas (encoding: utf-8-sig)
+[10:06:51.963] [DEBUG   ] Diálogos identificados: 291 (Lixo binário pulado: 0)
+[10:06:51.963] [INFO    ] Cache Hits: 326 | Misses (A traduzir): 286
+[10:06:51.963] [DEBUG   ] Processando 36 lotes concorrentes (Max Threads: 2)...
+[10:07:46.055] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:08:52.032] [DEBUG   ] VALIDAÇÃO REJEITOU idx 3: Original='Adjudant Ortega, êtes-vous prêt ?' | Traduzido='Adjudant Ortega, êtes-vous prêt?'
+[10:08:52.033] [DEBUG   ] VALIDAÇÃO REJEITOU idx 7: Original='C’est le Mobile Worker 01.' | Traduzido='C’est le Mobile Worker 01.'
+[10:09:04.061] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E03 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:09:04.061] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 12s[32m] [Tempo decorrido acumulado: [36m4m 36s[32m]
+[10:09:04.061] [INFO    ] [33m[1m► [4/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E04 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:09:04.061] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E04 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:09:04.064] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:09:04.064] [DEBUG   ] Arquivo lido: 334 linhas (encoding: utf-8-sig)
+[10:09:04.065] [DEBUG   ] Diálogos identificados: 310 (Lixo binário pulado: 0)
+[10:09:04.065] [INFO    ] Cache Hits: 332 | Misses (A traduzir): 304
+[10:09:04.065] [DEBUG   ] Processando 38 lotes concorrentes (Max Threads: 2)...
+[10:09:13.104] [DEBUG   ] VALIDAÇÃO REJEITOU idx 1: Original='Mme Roselucia est donc décédée.' | Traduzido='Portanto, Madame Roselucia faleceu.'
+[10:09:13.117] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:09:57.069] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='En voilà,\Nun courageux petit cow-boy !' | Traduzido='En voilà,\Nun courageux petit cow-boy!'
+[10:09:57.070] [DEBUG   ] VALIDAÇÃO REJEITOU idx 4: Original='Vous avez croisé mon père ?' | Traduzido='Vous avez croisé mon père?'
+[10:09:57.071] [DEBUG   ] VALIDAÇÃO REJEITOU idx 5: Original='Il ne vous a pas dit qu’il avait un fils\Ndu même âge que ton frère ?' | Traduzido='Il ne vous a pas dit qu'il avait un fils\Ndu même âge que ton frère?'
+[10:09:57.071] [DEBUG   ] VALIDAÇÃO REJEITOU idx 6: Original='C’est le sosie de mon frère…' | Traduzido='C'est le sosie de mon frère...'
+[10:09:57.073] [AVISO   ] Lote retornou 4/8 linhas válidas. Retraduzindo individualmente 4 linha(s) faltante(s)...
+[10:10:05.015] [DEBUG   ] VALIDAÇÃO REJEITOU idx 3: Original='Voilà mon frère !' | Traduzido='Aqui está meu irmão!'
+[10:10:05.017] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:11:04.494] [DEBUG   ] VALIDAÇÃO REJEITOU idx 3: Original='Voici ma lettre d’admission !' | Traduzido='Aqui está minha carta de admissão!'
+[10:11:04.495] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:11:08.508] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='Voici ma lettre d’admission !' | Traduzido='Aqui está minha carta de admissão!'
+[10:11:08.509] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Aqui está minha carta de admissão!
+
+[10:11:10.492] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='Voici ma lettre d’admission !' | Traduzido='Aqui está minha carta de admissão!'
+[10:11:10.494] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Aqui está minha carta de admissão!
+
+[10:11:12.547] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='Voici ma lettre d’admission !' | Traduzido='Aqui está minha carta de admissão!'
+[10:11:12.548] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Aqui está minha carta de admissão!
+
+[10:11:13.550] [ERRO    ] Falha definitiva ao traduzir linha: 'Voici ma lettre d’admission !...'
+[10:11:41.458] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E04 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:11:41.458] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 37s[32m] [Tempo decorrido acumulado: [36m7m 14s[32m]
+[10:11:41.458] [INFO    ] [33m[1m► [5/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E05 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:11:41.458] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E05 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:11:41.471] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:11:41.471] [DEBUG   ] Arquivo lido: 328 linhas (encoding: utf-8-sig)
+[10:11:41.472] [DEBUG   ] Diálogos identificados: 301 (Lixo binário pulado: 0)
+[10:11:41.472] [INFO    ] Cache Hits: 336 | Misses (A traduzir): 297
+[10:11:41.472] [DEBUG   ] Processando 38 lotes concorrentes (Max Threads: 2)...
+[10:13:20.973] [AVISO   ] Lote retornou 6/8 linhas válidas. Retraduzindo individualmente 2 linha(s) faltante(s)...
+[10:14:09.002] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E05 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:14:09.002] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 27s[32m] [Tempo decorrido acumulado: [36m9m 41s[32m]
+[10:14:09.003] [INFO    ] [33m[1m► [6/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E06 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:14:09.003] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E06 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:14:09.003] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:14:09.004] [DEBUG   ] Arquivo lido: 320 linhas (encoding: utf-8-sig)
+[10:14:09.005] [DEBUG   ] Diálogos identificados: 297 (Lixo binário pulado: 0)
+[10:14:09.005] [INFO    ] Cache Hits: 352 | Misses (A traduzir): 281
+[10:14:09.005] [DEBUG   ] Processando 36 lotes concorrentes (Max Threads: 2)...
+[10:15:02.520] [DEBUG   ] VALIDAÇÃO REJEITOU idx 1: Original='Monsieur ! Mon colonel !' | Traduzido='Monsieur! Mon colonel!'
+[10:15:02.522] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:16:18.216] [DEBUG   ] VALIDAÇÃO REJEITOU idx 1: Original='Accepteriez-vous de devenir\Nla mère de mes enfants ?' | Traduzido='Accepteriez-vous de devenir\Nla mère de mes enfants?'
+[10:16:18.217] [DEBUG   ] VALIDAÇÃO REJEITOU idx 3: Original='C’est tout\Nce qu’on a le droit de prendre ?' | Traduzido='C’est tout\Nce qu’on a le droit de prendre?'
+[10:16:18.217] [DEBUG   ] VALIDAÇÃO REJEITOU idx 4: Original='Vous allez nous le payer cher !\NVous allez voir !' | Traduzido='Vous allez nous le payer cher!\NVous allez voir!'
+[10:16:18.218] [DEBUG   ] VALIDAÇÃO REJEITOU idx 7: Original='Papa, c’est quoi ça ?' | Traduzido='Papa, c'est quoi ça?'
+[10:16:18.219] [AVISO   ] Lote retornou 4/8 linhas válidas. Retraduzindo individualmente 4 linha(s) faltante(s)...
+[10:16:26.945] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E06 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:16:26.945] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 17s[32m] [Tempo decorrido acumulado: [36m11m 59s[32m]
+[10:16:26.945] [INFO    ] [33m[1m► [7/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E07 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:16:26.945] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E07 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:16:26.958] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:16:26.958] [DEBUG   ] Arquivo lido: 280 linhas (encoding: utf-8-sig)
+[10:16:26.959] [DEBUG   ] Diálogos identificados: 253 (Lixo binário pulado: 0)
+[10:16:26.959] [INFO    ] Cache Hits: 368 | Misses (A traduzir): 237
+[10:16:26.959] [DEBUG   ] Processando 30 lotes concorrentes (Max Threads: 2)...
+[10:17:15.802] [AVISO   ] Lote retornou 6/8 linhas válidas. Retraduzindo individualmente 2 linha(s) faltante(s)...
+[10:17:39.855] [DEBUG   ] VALIDAÇÃO REJEITOU idx 1: Original='Vous avez raison,' | Traduzido='Vous avez raison,'
+[10:17:39.856] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:18:09.934] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='C’est donc ça,\Nle crépuscule lunaire ?' | Traduzido='C'est donc ça,\Nle crépuscule lunaire?'
+[10:18:09.935] [DEBUG   ] VALIDAÇÃO REJEITOU idx 1: Original='Eh ! C’est bien toi,\Nle mec en rouge ?' | Traduzido='Eh! C'est bien toi,\Nle mec en rouge?'
+[10:18:09.936] [DEBUG   ] VALIDAÇÃO REJEITOU idx 2: Original='T’es pas au point de rendez-vous !\NPourquoi ta balise est éteinte ?' | Traduzido='T'es pas au point de rendez-vous!\NPourquoi ta balise est éteinte?'
+[10:18:09.937] [DEBUG   ] VALIDAÇÃO REJEITOU idx 7: Original='En outre, vous avez bien fini\Npar me retrouver sans elle, non ?' | Traduzido='En outre, vous avez bien fini\Npar me retrouver sans elle, non?'
+[10:18:09.937] [AVISO   ] Lote retornou 4/8 linhas válidas. Retraduzindo individualmente 4 linha(s) faltante(s)...
+[10:18:27.127] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E07 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:18:27.127] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 0s[32m] [Tempo decorrido acumulado: [36m13m 59s[32m]
+[10:18:27.127] [INFO    ] [33m[1m► [8/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E08 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:18:27.128] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E08 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:18:27.139] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:18:27.139] [DEBUG   ] Arquivo lido: 339 linhas (encoding: utf-8-sig)
+[10:18:27.140] [DEBUG   ] Diálogos identificados: 312 (Lixo binário pulado: 0)
+[10:18:27.141] [INFO    ] Cache Hits: 376 | Misses (A traduzir): 304
+[10:18:27.141] [DEBUG   ] Processando 38 lotes concorrentes (Max Threads: 2)...
+[10:19:35.446] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:20:14.005] [AVISO   ] Lote retornou 6/8 linhas válidas. Retraduzindo individualmente 2 linha(s) faltante(s)...
+[10:20:23.099] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:20:47.927] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E08 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:20:47.927] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 20s[32m] [Tempo decorrido acumulado: [36m16m 20s[32m]
+[10:20:47.928] [INFO    ] [33m[1m► [9/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E09 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:20:47.928] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E09 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:20:47.928] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:20:47.929] [DEBUG   ] Arquivo lido: 330 linhas (encoding: utf-8-sig)
+[10:20:47.929] [DEBUG   ] Diálogos identificados: 304 (Lixo binário pulado: 0)
+[10:20:47.930] [INFO    ] Cache Hits: 384 | Misses (A traduzir): 296
+[10:20:47.930] [DEBUG   ] Processando 37 lotes concorrentes (Max Threads: 2)...
+[10:21:19.520] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:21:53.644] [DEBUG   ] VALIDAÇÃO REJEITOU idx 7: Original='J’espère que c’était ça.' | Traduzido='Espero que fosse isso.'
+[10:21:53.645] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:21:54.738] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='J’espère que c’était ça.' | Traduzido='Espero que isso tenha sido suficiente.'
+[10:21:54.739] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que isso tenha sido suficiente.
+
+[10:21:59.007] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='J’espère que c’était ça.' | Traduzido='Espero que fosse isso.'
+[10:21:59.008] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que fosse isso.
+
+[10:22:00.855] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='J’espère que c’était ça.' | Traduzido='Espero que isso tenha sido suficiente.'
+[10:22:00.856] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que isso tenha sido suficiente.
+
+[10:22:01.857] [ERRO    ] Falha definitiva ao traduzir linha: 'J’espère que c’était ça....'
+[10:22:12.393] [AVISO   ] Lote retornou 6/8 linhas válidas. Retraduzindo individualmente 2 linha(s) faltante(s)...
+[10:23:22.700] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E09 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:23:22.700] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 34s[32m] [Tempo decorrido acumulado: [36m18m 55s[32m]
+[10:23:22.700] [INFO    ] [33m[1m► [10/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E10 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:23:22.701] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E10 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:23:22.701] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:23:22.701] [DEBUG   ] Arquivo lido: 274 linhas (encoding: utf-8-sig)
+[10:23:22.702] [DEBUG   ] Diálogos identificados: 244 (Lixo binário pulado: 0)
+[10:23:22.702] [INFO    ] Cache Hits: 397 | Misses (A traduzir): 231
+[10:23:22.702] [DEBUG   ] Processando 29 lotes concorrentes (Max Threads: 2)...
+[10:23:39.089] [DEBUG   ] VALIDAÇÃO REJEITOU idx 1: Original='J’espère que nous nous reverrons.' | Traduzido='Espero que nos reencontremos.'
+[10:23:39.090] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:23:40.438] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='J’espère que nous nous reverrons.' | Traduzido='Espero que nos reencontremos.'
+[10:23:40.440] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que nos reencontremos.
+
+[10:23:42.334] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='J’espère que nous nous reverrons.' | Traduzido='Espero que nos reencontremos.'
+[10:23:42.335] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que nos reencontremos.
+
+[10:23:44.290] [DEBUG   ] VALIDAÇÃO REJEITOU idx 0: Original='J’espère que nous nous reverrons.' | Traduzido='Espero que nos reencontremos.'
+[10:23:44.291] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que nos reencontremos.
+
+[10:23:45.292] [ERRO    ] Falha definitiva ao traduzir linha: 'J’espère que nous nous reverrons....'
+[10:24:18.255] [DEBUG   ] VALIDAÇÃO REJEITOU idx 5: Original='« Aux commandes d’un MS rouge… »' | Traduzido='"Aux commandes d'un MS rouge..."'
+[10:24:18.256] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:24:19.517] [ERRO    ] Erro ao processar lote 12: bad escape \i at position 1
+[10:25:24.838] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E10 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:25:24.838] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 2s[32m] [Tempo decorrido acumulado: [36m20m 57s[32m]
+[10:25:24.838] [INFO    ] [33m[1m► [11/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E11 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:25:24.838] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E11 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:25:24.839] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:25:24.839] [DEBUG   ] Arquivo lido: 308 linhas (encoding: utf-8-sig)
+[10:25:24.840] [DEBUG   ] Diálogos identificados: 281 (Lixo binário pulado: 0)
+[10:25:24.840] [INFO    ] Cache Hits: 410 | Misses (A traduzir): 268
+[10:25:24.841] [DEBUG   ] Processando 34 lotes concorrentes (Max Threads: 2)...
+[10:26:01.288] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:27:38.186] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E11 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:27:38.186] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 13s[32m] [Tempo decorrido acumulado: [36m23m 10s[32m]
+[10:27:38.186] [INFO    ] [33m[1m► [12/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E12 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:27:38.186] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E12 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:27:38.186] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:27:38.187] [DEBUG   ] Arquivo lido: 323 linhas (encoding: utf-8-sig)
+[10:27:38.187] [DEBUG   ] Diálogos identificados: 299 (Lixo binário pulado: 0)
+[10:27:38.188] [INFO    ] Cache Hits: 426 | Misses (A traduzir): 283
+[10:27:38.188] [DEBUG   ] Processando 36 lotes concorrentes (Max Threads: 2)...
+[10:28:30.547] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:29:57.841] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E12 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:29:57.842] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 19s[32m] [Tempo decorrido acumulado: [36m25m 30s[32m]
+[10:29:57.842] [INFO    ] [33m[1m► [13/13] TRADUZINDO EPISÓDIO: Mobile Suit Gundam The Origin Advent of the Red Comet S01E13 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass[0m
+[10:29:57.842] [DEBUG   ] Detectando encoding: Mobile Suit Gundam The Origin Advent of the Red Comet S01E13 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_ENG.ass
+[10:29:57.843] [SUCESSO ] Encoding detectado: UTF-8-SIG
+[10:29:57.843] [DEBUG   ] Arquivo lido: 309 linhas (encoding: utf-8-sig)
+[10:29:57.844] [DEBUG   ] Diálogos identificados: 272 (Lixo binário pulado: 0)
+[10:29:57.844] [INFO    ] Cache Hits: 434 | Misses (A traduzir): 264
+[10:29:57.844] [DEBUG   ] Processando 33 lotes concorrentes (Max Threads: 2)...
+[10:30:23.476] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:30:33.322] [DEBUG   ] VALIDAÇÃO REJEITOU idx 4: Original='Ce n’est pas si mal.' | Traduzido='Ce n'est pas si mal.'
+[10:30:33.323] [AVISO   ] Lote retornou 7/8 linhas válidas. Retraduzindo individualmente 1 linha(s) faltante(s)...
+[10:32:09.755] [SUCESSO ] Salvo: Mobile Suit Gundam The Origin Advent of the Red Comet S01E13 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws_PTBR.ass
+[10:32:09.755] [SUCESSO ] ✓ Episódio concluído com sucesso! [Tempo do arquivo: [33m2m 11s[32m] [Tempo decorrido acumulado: [36m27m 42s[32m]
+
+================================================================================
+                                RELATÓRIO FINAL                                 
+================================================================================
+
+[10:32:09.772] [DEBUG   ] Stats salvo: stats_fr_2026-06-17_10-04-14.json
+
+================================================================================
+RELATÓRIO FINAL
+================================================================================
+
+Tempo total de execução : 27m 42s
+Arquivos .ass           : 13
+Traduzidos              : 13
+Erros tradução          : 0
+Requisições API         : 470
+Cache hits              : 434
+Linhas traduzidas       : 3360
+
+Encodings detectados:
+  utf-8-sig: 13 arquivo(s)
+
+Arquivos de log:
+  📁  d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\logs
+  📄  pipeline_fr_2026-06-17_10-04-14.txt
+  ⚠️   erros_fr_2026-06-17_10-04-14.txt
+  📊  stats_fr_2026-06-17_10-04-14.json
+  ⚙️   config_fr_2026-06-17_10-04-14.txt
+
+Legendas salvas em: C:\animes\Mobile Suit Gundam The Origin Advent of the Red Comet S01 SUBFRENCH 1080p CR WEB-DL AAC2.0 x264-Tsundere-Raws\legendas_fr\traducao
+
+================================================================================
+Execução finalizada: 2026-06-17 10:32:09
+================================================================================

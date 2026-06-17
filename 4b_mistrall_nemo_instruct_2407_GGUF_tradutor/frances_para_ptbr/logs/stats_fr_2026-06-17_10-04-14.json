@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-06-17_10-04-14",
+  "data_hora": "2026-06-17T10:32:09.755546",
+  "stats": {
+    "ass_total": 13,
+    "traduzidos": 13,
+    "erros_traducao": 0,
+    "requisicoes": 470,
+    "cache_hits": 434,
+    "linhas_traduzidas": 3360,
+    "encodings_detectados": {
+      "utf-8-sig": 13
+    },
+    "tempo_total_segundos": 1662.4312996864319
+  }
+}

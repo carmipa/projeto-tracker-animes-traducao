@@ -1,0 +1,44 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO FRANCÊS - LOG DE AUDITORIA
+================================================================================
+Início    : 2026-06-17 10:04:14
+Python    : 3.14.3
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\logs
+================================================================================
+
+[10:11:08.509] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Aqui está minha carta de admissão!
+
+[10:11:10.494] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Aqui está minha carta de admissão!
+
+[10:11:12.548] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Aqui está minha carta de admissão!
+
+[10:11:13.550] [ERRO    ] Falha definitiva ao traduzir linha: 'Voici ma lettre d’admission !...'
+[10:21:54.739] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que isso tenha sido suficiente.
+
+[10:21:59.008] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que fosse isso.
+
+[10:22:00.856] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que isso tenha sido suficiente.
+
+[10:22:01.857] [ERRO    ] Falha definitiva ao traduzir linha: 'J’espère que c’était ça....'
+[10:23:40.440] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que nos reencontremos.
+
+[10:23:42.335] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que nos reencontremos.
+
+[10:23:44.291] [ERRO    ] RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO):
+[0] Espero que nos reencontremos.
+
+[10:23:45.292] [ERRO    ] Falha definitiva ao traduzir linha: 'J’espère que nous nous reverrons....'
+[10:24:19.517] [ERRO    ] Erro ao processar lote 12: bad escape \i at position 1
+
+================================================================================
+Execução finalizada: 2026-06-17 10:32:09
+================================================================================

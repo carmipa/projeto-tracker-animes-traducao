@@ -255,6 +255,107 @@ def ler_arquivo_com_encoding(caminho: str, log: GerenciadorLogs):
 
 
 # ============================================================================
+# VALIDAÇÃO ANTI-ALUCINAÇÃO E CORREÇÕES DE LORE (GUNDAM THE ORIGIN / UC)
+# ============================================================================
+
+# Indício de que o LLM devolveu o francês original sem traduzir (equivalente
+# ao filtro de ideogramas CJK usado no pipeline chinês: aqui usamos palavras
+# funcionais francesas sem equivalente ambíguo em PT-BR).
+PADRAO_RESIDUO_FRANCES = re.compile(
+    r"\b(vous|avec|[êe]tre|êtes|été|leur|cette|alors|où|très|pour|dans|sans|"
+    r"toujours|voilà|monsieur|madame|qu['’]il|qu['’]elle|c['’]est|n['’]est|"
+    r"n['’]a|d['’]un|d['’]une)\b",
+    re.IGNORECASE,
+)
+
+PADRAO_PREAMBULO_LLM = re.compile(
+    r"^(aqui est[áa]|esta [ée]|segue|abaixo|claro,?\s+vou|espero que|voil[àa])\b",
+    re.IGNORECASE,
+)
+
+# Correções de lore válidas para qualquer idioma de origem (fatos do enredo
+# de Gundam The Origin / Universal Century), portadas do pipeline ZH que já
+# passou por revisão completa dos episódios 01-13.
+SUBSTITUICOES_POS_PROCESSAMENTO = [
+    (re.compile(r"\bGuerra (?:de|dos|do)?\s?(?:Cem|100) Anos\b", re.I), "Guerra de Um Ano"),
+    (re.compile(r"\bGuerra do Ano Um\b", re.I), "Guerra de Um Ano"),
+    (re.compile(r"\bPrincipado de Dion\b", re.I), "Principado de Zeon"),
+    (re.compile(r"\bMobil Suit\b", re.I), "Mobile Suit"),
+    (re.compile(r"\bTim Ray\b", re.I), "Tem Ray"),
+    (re.compile(r"\bL[uú]cifero\b", re.I), "Lúcifer"),
+    # Char Aznable pilota Zaku; nunca o RX-78/Gundam, que é da Federação.
+    (re.compile(r"(?i)(vou\s+sair\s+em\s+um)\s+RX-78\b"), r"\1 Zaku"),
+    # Esta fonte francesa (CR) grafa a família como "Daikun" nos 13 episódios;
+    # a grafia oficial da Universal Century é "Deikun". O nome passa pela IA
+    # sem tradução (é nome próprio), então a saída ainda traz "Daikun" — corrige aqui.
+    (re.compile(r"\bDAIKUN\b"), "DEIKUN"),
+    (re.compile(r"\bDaikun\b"), "Deikun"),
+    (re.compile(r"\bdaikun\b"), "deikun"),
+    # "Cercle terrestre" tende a ser traduzido literalmente; o termo canônico é "Esfera Terrestre".
+    (re.compile(r"\bC[íi]rculo (?:Terrestre|da Terra)\b", re.I), "Esfera Terrestre"),
+]
+
+# Confusão documentada no pipeline ZH (revisao_legenda_origin.py): "Lucifer"
+# (o gato de Astraia) sendo traduzido como "Gólgota" (o monte da crucificação,
+# citado no discurso de Zeon Zum Deikun) ou vice-versa. Os dois termos aparecem
+# no mesmo episódio (EP01) e são fonéticamente/contextualmente fáceis de confundir.
+PADRAO_LUCIFER = re.compile(r"\bL[uú]cifer\b", re.IGNORECASE)
+PADRAO_GOLGOTA_FR = re.compile(r"\bGolgotha\b", re.IGNORECASE)
+PADRAO_GOLGOTA_PT = re.compile(r"\bG[óo]lgota\b", re.IGNORECASE)
+
+
+def validar_traducao(original: str, traducao: str) -> bool:
+    """Rejeita saídas vazias, alucinadas, com resíduo de francês ou com
+    preâmbulo conversacional do LLM — evita poluir o cache persistente."""
+    if not traducao or "[ERRO_TRADUCAO" in traducao:
+        return False
+    if PADRAO_RESIDUO_FRANCES.search(traducao):
+        return False
+    if PADRAO_PREAMBULO_LLM.match(traducao.strip()):
+        return False
+    if len(traducao) > max(220, len(original) * 8):
+        return False
+    # Bloqueia a troca cruzada Lucifer (gato) <-> Golgotha/Gólgota (local bíblico)
+    if PADRAO_LUCIFER.search(original) and not PADRAO_GOLGOTA_FR.search(original):
+        if PADRAO_GOLGOTA_PT.search(traducao) and not PADRAO_LUCIFER.search(traducao):
+            return False
+    if PADRAO_GOLGOTA_FR.search(original) and not PADRAO_LUCIFER.search(original):
+        if PADRAO_LUCIFER.search(traducao) and not PADRAO_GOLGOTA_PT.search(traducao):
+            return False
+    return True
+
+
+# Créditos oficiais da Crunchyroll que aparecem como linha de "Dialogue:" em
+# todos os 13 episódios (ex.: "Adaptation : Jun-Ichi Takeda"). Não é fala do
+# anime — traduz-se só o rótulo, sem gastar uma chamada de LLM no nome próprio.
+PADRAO_CREDITO_OFICIAL = re.compile(
+    r"^((?:\s*\[T\d+\]\s*|\s*\{.*?\}\s*)*)(Adaptation|Traduction|Sous-titrage|Rel[eé]cture|Encodage|Rep[ée]rage)\s*:\s*(?=\S)",
+    re.IGNORECASE,
+)
+
+ROTULOS_CREDITO_PT = {
+    "adaptation": "Adaptação",
+    "traduction": "Tradução",
+    "sous-titrage": "Legendagem",
+    "relecture": "Revisão",
+    "relécture": "Revisão",
+    "encodage": "Codificação",
+    "repérage": "Sincronização",
+    "reperage": "Sincronização",
+}
+
+
+def traduzir_rotulo_credito(texto: str) -> str:
+    """Traduz apenas o rótulo de um crédito oficial ('Adaptation : Nome'),
+    preservando o nome próprio intacto e sem chamar o LLM."""
+    def _sub(m):
+        prefixo = m.group(1)
+        rotulo_pt = ROTULOS_CREDITO_PT.get(m.group(2).lower(), m.group(2))
+        return f"{prefixo}{rotulo_pt} : "
+    return PADRAO_CREDITO_OFICIAL.sub(_sub, texto, count=1)
+
+
+# ============================================================================
 # PIPELINE PRINCIPAL
 # ============================================================================
 
@@ -280,6 +381,7 @@ REGRAS ABSOLUTAS DE SAÍDA:
 4. Preserve quebras e escapes de legenda como \\N, \\n, \\h exatamente como aparecem. Nunca transforme \\N em quebra de linha real.
 5. Preserve nomes próprios, siglas, códigos de modelo, nomes de naves e nomes de mobile suits, salvo tradução obrigatória no glossário.
 6. Se uma linha for grito, ordem curta, transmissão de rádio ou frase incompleta, traduza como fala natural, sem completar com informações inventadas.
+7. Se a linha tiver duas falas separadas por \\N, cada uma iniciada por um travessão (–), mantenha exatamente os dois travessões — é a convenção francesa para diálogo de dois interlocutores na mesma legenda (ex.: "– fala 1\\N– fala 2").
 
 DIREÇÃO DE ESTILO:
 - Use PT-BR natural, sem literalismo francês. Prefira "Você está bem?" a "Tu vais bem?", "Vamos!" a "Partamos!", quando o contexto for casual.
@@ -310,6 +412,7 @@ GLOSSÁRIO PRINCIPAL DE GUNDAM / UNIVERSAL CENTURY:
 - Fédéraux / les Feds -> Federais
 - Spacenoids / habitants de l'espace -> Spacenoids / habitantes do espaço
 - Earthnoids / Terriens -> Earthnoids / terráqueos
+- Cercle terrestre / cercle terrestre -> Esfera Terrestre (NUNCA "Círculo Terrestre" ou "Círculo da Terra")
 - Universal Century / U.C. / UC / Siècle Universel -> Século Universal / U.C.
 - One Year War / Guerre d'Un An -> Guerra de Um Ano
 - Battle of Loum / Bataille de Loum -> Batalha de Loum
@@ -333,6 +436,7 @@ GLOSSÁRIO PRINCIPAL DE GUNDAM / UNIVERSAL CENTURY:
 - Roger / Copy that / Bien reçu -> Copiado! / Entendido!
 
 PERSONAGENS E FAMÍLIAS:
+- Daikun -> Deikun (esta legenda em francês grafa a família como "Daikun"; a grafia oficial UC é sempre "Deikun" — aplique em todos os nomes: Zeon Zum Deikun, Casval Rem Deikun, Artesia Som Deikun, etc.)
 - Char Aznable -> Char Aznable
 - Casval Rem Deikun -> Casval Rem Deikun
 - Édouard Mass / Edward Mass -> Édouard Mass
@@ -453,6 +557,8 @@ CUIDADOS DE TRADUÇÃO FRANCÊS -> PT-BR:
 - "Mon père" -> "meu pai", não "meu senhor".
 - "Votre Excellence" -> "Vossa Excelência" em discurso formal; "senhor" se a legenda precisar ser curta.
 - "Monsieur" -> "senhor" ou manter como tratamento natural pelo contexto.
+- "M." (abreviação de Monsieur antes de um nome, ex.: "M. Ral") -> "Sr." ou "senhor", conforme o contexto.
+- "Mme" (abreviação de Madame antes de um nome) -> "Sra." ou "senhora", conforme o contexto.
 - "Mademoiselle" -> "senhorita", mas use o nome se soar mais natural.
 - "On y va" -> "Vamos" / "Vamos nessa", conforme o tom.
 - "Ça suffit" -> "Já chega".
@@ -522,8 +628,28 @@ EXEMPLOS DE FORMATO:
         if os.path.exists(self.caminho_cache):
             try:
                 with open(self.caminho_cache, 'r', encoding='utf-8') as f:
-                    self.cache = json.load(f)
+                    dados = json.load(f)
+
+                cache_limpo = {}
+                removidas = 0
+                corrigidas = 0
+                for original, traducao in dados.items():
+                    if not isinstance(original, str) or not isinstance(traducao, str):
+                        removidas += 1
+                        continue
+                    traducao_corrigida = self.limpar_saida_traducao(traducao)
+                    if not validar_traducao(original, traducao_corrigida):
+                        removidas += 1
+                        continue
+                    if traducao_corrigida != traducao:
+                        corrigidas += 1
+                    cache_limpo[original] = traducao_corrigida
+
+                self.cache = cache_limpo
                 self.log.info(f"Cache em disco carregado: {len(self.cache)} traduções disponíveis.")
+                if removidas or corrigidas:
+                    self.log.aviso(f"Saneamento do cache: {corrigidas} corrigida(s), {removidas} removida(s).")
+                    self._salvar_cache()
             except Exception as e:
                 self.log.aviso(f"Erro ao carregar cache do disco, iniciando vazio: {e}")
                 self.cache = {}
@@ -532,8 +658,10 @@ EXEMPLOS DE FORMATO:
 
     def _salvar_cache(self):
         try:
-            with open(self.caminho_cache, 'w', encoding='utf-8') as f:
+            caminho_tmp = self.caminho_cache + ".tmp"
+            with open(caminho_tmp, 'w', encoding='utf-8') as f:
                 json.dump(self.cache, f, indent=2, ensure_ascii=False)
+            os.replace(caminho_tmp, self.caminho_cache)
         except Exception as e:
             self.log.aviso(f"Erro ao salvar cache em disco: {e}")
 
@@ -679,12 +807,20 @@ EXEMPLOS DE FORMATO:
     def limpar_saida_traducao(self, texto: str) -> str:
         """Corrige deslizes comuns do LLM sem alterar o sentido da tradução."""
         texto = texto.strip()
-        texto = re.sub(r"^\s*[-–•]\s*", "", texto)
+        # Não remove o travessão inicial se a linha tiver duas falas separadas
+        # por \N, cada uma iniciada por travessão (convenção do estilo
+        # "TiretsDefault" para diálogo de dois interlocutores). Só remove
+        # quando é claramente um bullet point que o LLM adicionou por engano.
+        if not re.search(r"\\[Nn]\s*[-–]", texto):
+            texto = re.sub(r"^\s*[-–•]\s*", "", texto)
         texto = re.sub(r"\[\s*[Tt]\s*(\d+)\s*\]", r"[T\1]", texto)
         texto = re.sub(r"\\\s*([Nnh])", r"\\\1", texto)
         texto = texto.replace("/N", r"\N").replace("/n", r"\n")
         texto = texto.replace("\r\n", "\n").replace("\r", "\n")
         texto = re.sub(r"\s*\n+\s*", r"\\N", texto)
+        texto = re.sub(r"\s+([!?:;,.])", r"\1", texto)
+        for padrao, substituto in SUBSTITUICOES_POS_PROCESSAMENTO:
+            texto = padrao.sub(substituto, texto)
         return texto
 
     # ── tradução ──────────────────────────────────────────────────────────────
@@ -736,7 +872,7 @@ EXEMPLOS DE FORMATO:
             if idx < 0 or idx >= len(linhas):
                 continue
             texto_limpo = self.limpar_saida_traducao(texto)
-            if texto_limpo:
+            if texto_limpo and validar_traducao(linhas[idx], texto_limpo):
                 traduzidas[idx] = texto_limpo
 
         # Fallback simples se o regex falhar por completo e o número de linhas bater
@@ -745,7 +881,7 @@ EXEMPLOS DE FORMATO:
             for i, linha in enumerate(linhas_bruto[:len(linhas)]):
                 linha_limpa = re.sub(r"^\[?\d+\]?[.)\s-]*", "", linha.strip()).strip()
                 linha_limpa = self.limpar_saida_traducao(linha_limpa)
-                if linha_limpa:
+                if linha_limpa and validar_traducao(linhas[i], linha_limpa):
                     traduzidas[i] = linha_limpa
 
         # Limpeza contra conversas adicionais no final
@@ -768,35 +904,44 @@ EXEMPLOS DE FORMATO:
 
     def traduzir_lote_resiliente(self, lote_textos: list) -> dict:
         """
-        Tenta traduzir o lote de textos. Se falhar, faz o fallback traduzindo 
-        linha por linha para garantir resiliência máxima.
+        Tenta traduzir o lote de textos. Se faltar ou falhar alguma linha,
+        preserva as traduções já válidas e retraduz individualmente apenas
+        as linhas que faltaram (evita pagar de novo pelo lote inteiro).
         """
         try:
             resultado = self._traduzir_lote(lote_textos)
-            if len(resultado) == len(lote_textos):
-                return resultado
-            raise RuntimeError(f"Resultado incompleto: {len(resultado)}/{len(lote_textos)} linhas traduzidas")
         except Exception as e:
             self.log.aviso(f"Falha na tradução em lote ({e}). Iniciando fallback resiliente linha a linha...")
-            
-            resultado_final = {}
-            for idx, texto in enumerate(lote_textos):
-                sucesso_linha = False
-                for tentativa in range(1, 4):
-                    try:
-                        res_indiv = self._traduzir_lote([texto])
-                        if 0 in res_indiv:
-                            resultado_final[idx] = res_indiv[0]
-                            sucesso_linha = True
-                            break
-                    except Exception:
-                        time.sleep(1)
-                
-                if not sucesso_linha:
-                    self.log.erro(f"Falha definitiva ao traduzir linha: '{texto[:40]}...'")
-                    resultado_final[idx] = f"[ERRO_TRADUCAO: {texto}]"
-            
-            return resultado_final
+            resultado = {}
+
+        indices_faltantes = [i for i in range(len(lote_textos)) if i not in resultado]
+        if not indices_faltantes:
+            return resultado
+
+        if resultado:
+            self.log.aviso(
+                f"Lote retornou {len(resultado)}/{len(lote_textos)} linhas válidas. "
+                f"Retraduzindo individualmente {len(indices_faltantes)} linha(s) faltante(s)..."
+            )
+
+        for idx in indices_faltantes:
+            texto = lote_textos[idx]
+            sucesso_linha = False
+            for tentativa in range(1, 4):
+                try:
+                    res_indiv = self._traduzir_lote([texto])
+                    if 0 in res_indiv:
+                        resultado[idx] = res_indiv[0]
+                        sucesso_linha = True
+                        break
+                except Exception:
+                    time.sleep(1)
+
+            if not sucesso_linha:
+                self.log.erro(f"Falha definitiva ao traduzir linha: '{texto[:40]}...'")
+                resultado[idx] = f"[ERRO_TRADUCAO: {texto}]"
+
+        return resultado
 
     # ── processamento do .ass ─────────────────────────────────────────────────
 
@@ -840,6 +985,12 @@ EXEMPLOS DE FORMATO:
                 if not txt_sem_tags or len(txt_sem_tags) < 1:
                     continue
 
+                # Crédito oficial da Crunchyroll (ex.: "Adaptation : Jun-Ichi Takeda").
+                # Traduz só o rótulo sem gastar uma chamada de LLM no nome próprio.
+                if PADRAO_CREDITO_OFICIAL.match(txt):
+                    linhas[i] = f"{prefixo}{traduzir_rotulo_credito(txt)}\n"
+                    continue
+
                 # Ignora lixo binário
                 if any(tag in txt for tag in [r'\font', r'\image', '0x', '\x00']):
                     puladas_binario += 1
@@ -865,7 +1016,7 @@ EXEMPLOS DE FORMATO:
             textos_para_traduzir = []
 
             for idx_dialogo, texto_masc in enumerate(textos_mascarados):
-                if texto_masc in self.cache:
+                if texto_masc in self.cache and validar_traducao(texto_masc, self.cache[texto_masc]):
                     # Hit de cache!
                     self.stats['cache_hits'] += 1
                     trad_masc = self.cache[texto_masc]
@@ -907,8 +1058,8 @@ EXEMPLOS DE FORMATO:
                                         idx_dialogo = indices_para_traduzir[idx_global_para_traduzir]
                                         original_masc = textos_para_traduzir[idx_global_para_traduzir]
                                         
-                                        # Salva no cache apenas se não for marcador de erro
-                                        if "[ERRO_TRADUCAO" not in v:
+                                        # Salva no cache apenas se a tradução passar pela validação
+                                        if validar_traducao(original_masc, v):
                                             self.cache[original_masc] = v
                                             self.stats['linhas_traduzidas'] += 1
                                         

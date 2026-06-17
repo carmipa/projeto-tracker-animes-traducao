@@ -7,3 +7,23 @@ Python    : 3.14.3
 Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\logs
 ================================================================================
 
+[09:47:35.442] [ERRO    ] Processamento falhou: cannot access local variable 'tqdm' where it is not associated with a value
+
+================================================================================
+TRACEBACK COMPLETO
+================================================================================
+Contexto : processar_legenda()
+
+Traceback (most recent call last):
+  File "d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\script_tradutor_fr_gundam_origin.py", line 1056, in processar_legenda
+    with tqdm(total=len(lotes), desc="  Traduzindo", unit="lote", leave=False) as pbar:
+         ^^^^
+UnboundLocalError: cannot access local variable 'tqdm' where it is not associated with a value
+
+--------------------------------------------------------------------------------
+
+[09:47:35.447] [ERRO    ] ✗ Falha na tradução
+
+================================================================================
+Execução finalizada: 2026-06-17 09:48:14
+================================================================================

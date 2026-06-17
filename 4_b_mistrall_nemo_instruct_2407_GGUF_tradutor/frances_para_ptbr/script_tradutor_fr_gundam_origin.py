@@ -14,10 +14,8 @@ import sys
 import re
 import json
 import time
-import subprocess
 import requests
 import traceback
-import shutil
 from datetime import datetime
 
 try:
@@ -590,21 +588,10 @@ EXEMPLOS DE FORMATO:
 """)
 
 
-    MKVEXTRACT_PATHS = [
-        r"C:\Program Files\MKVToolNix\mkvextract.exe",
-        r"C:\Program Files (x86)\MKVToolNix\mkvextract.exe",
-    ]
-    MKVMERGE_PATHS = [
-        r"C:\Program Files\MKVToolNix\mkvmerge.exe",
-        r"C:\Program Files (x86)\MKVToolNix\mkvmerge.exe",
-    ]
-
     def __init__(self, log: GerenciadorLogs):
         self.log   = log
         self.cache = {}
         self.modelo_ativo = "local-model"
-        self.mkvextract = self._achar_mkvextract()
-        self.mkvmerge = self._achar_mkvmerge()
         self.max_workers = 2  # Limite recomendado para RTX 5600 (8 GB VRAM) no LM Studio (seguro com contexto de 8000)
         
         self.caminho_cache = os.path.join(
@@ -667,18 +654,6 @@ EXEMPLOS DE FORMATO:
 
     # ── infra ─────────────────────────────────────────────────────────────────
 
-    def _achar_mkvextract(self):
-        for caminho in self.MKVEXTRACT_PATHS:
-            if os.path.exists(caminho):
-                return caminho
-        return shutil.which("mkvextract")
-
-    def _achar_mkvmerge(self):
-        for caminho in self.MKVMERGE_PATHS:
-            if os.path.exists(caminho):
-                return caminho
-        return shutil.which("mkvmerge")
-
     def validar(self) -> bool:
         self.log.secao("VALIDAÇÃO DE INFRAESTRUTURA")
 
@@ -702,84 +677,8 @@ EXEMPLOS DE FORMATO:
             self.log.erro(f"Erro ao contatar LM Studio: {e}")
             return False
 
-        # mkvextract e mkvmerge (opcionais, não mais necessários para extração direta)
-        self.log.debug("Verificando MKVToolNix (opcional)...")
-        if self.mkvextract and self.mkvmerge:
-            self.log.sucesso(f"MKVToolNix detectado: {self.mkvextract}")
-        else:
-            self.log.info("MKVToolNix não encontrado (opcional, não necessário para tradução direta de .ass)")
-
         self.log.sucesso("✓ Infraestrutura validada!")
         return True
-
-    # ── extração ──────────────────────────────────────────────────────────────
-
-    def descobrir_track_id_ass(self, mkv_path: str) -> int:
-        """Usa o mkvmerge para descobrir qual é o ID da faixa de texto ASS em francês."""
-        try:
-            cmd = [self.mkvmerge, "-J", mkv_path]
-            res = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=15)
-            if res.returncode != 0:
-                self.log.erro(f"mkvmerge retornou código {res.returncode}")
-                return -1
-
-            info = json.loads(res.stdout)
-            faixas_ass = []
-            for track in info.get("tracks", []):
-                if track.get("type") == "subtitles":
-                    props = track.get("properties", {})
-                    codec_id = props.get("codec_id", "")
-                    # Aceita SubStationAlpha ou ASS genérico
-                    if "S_TEXT/ASS" in codec_id or "ASS" in track.get("codec", "").upper():
-                        faixas_ass.append((track.get("id"), props.get("language", "und").lower()))
-
-            if not faixas_ass:
-                self.log.erro("Nenhuma faixa de legenda texto (.ass) encontrada no MKV.")
-                return -1
-
-            # Prioriza faixa em francês
-            for track_id, idioma in faixas_ass:
-                if idioma in ("fre", "fra", "fr"):
-                    self.log.debug(f"Track ID francês detectado: {track_id} (idioma: {idioma})")
-                    return track_id
-
-            track_id, idioma = faixas_ass[0]
-            self.log.aviso(f"Nenhuma faixa .ass em francês — usando track {track_id} (idioma: {idioma})")
-            return track_id
-
-        except Exception as e:
-            self.log.erro(f"Falha ao identificar o Track ID: {e}")
-            return -1
-
-    def extrair_legenda(self, mkv_path: str, track_id: int):
-        """Extrai a faixa de legenda do MKV."""
-        nome = os.path.basename(mkv_path)
-        base = os.path.splitext(nome)[0]
-        ass  = os.path.join(os.path.dirname(mkv_path), f"{base}_extracted.ass")
-
-        try:
-            cmd = [self.mkvextract, mkv_path, "tracks", f"{track_id}:{ass}"]
-            self.log.debug(f"mkvextract track={track_id} → {os.path.basename(ass)}")
-            res = subprocess.run(cmd, capture_output=True, timeout=60, text=True, encoding='utf-8', errors='replace')
-
-            if res.returncode != 0:
-                self.log.erro(f"mkvextract retornou código {res.returncode}")
-                self.stats['erros_extracao'] += 1
-                return None
-
-            if not os.path.exists(ass):
-                self.log.erro("Arquivo .ass não foi criado")
-                self.stats['erros_extracao'] += 1
-                return None
-
-            self.log.sucesso(f"Extraído: {os.path.getsize(ass):,} bytes")
-            self.stats['extraidos'] += 1
-            return ass
-
-        except Exception as e:
-            self.log.erro(f"Exceção na extração: {e}")
-            self.stats['erros_extracao'] += 1
-            return None
 
     # ── tags ASS ──────────────────────────────────────────────────────────────
 
@@ -1070,7 +969,6 @@ EXEMPLOS DE FORMATO:
                                             self.cache[original_masc] = v
                                             self.stats['linhas_traduzidas'] += 1
                                             # Exibe dinamicamente o que está sendo traduzido
-                                            from tqdm import tqdm
                                             tqdm.write(f"{Fore.CYAN}[FR]{Style.RESET_ALL} {original_masc[:50]}... -> {Fore.GREEN}[PT]{Style.RESET_ALL} {v}")
                                         
                                         trad_final = self.restaurar_tags(v, lista_tags[idx_dialogo])

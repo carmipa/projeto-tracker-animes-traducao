@@ -1,0 +1,94 @@
+================================================================================
+INICIANDO AUDITORIA TECNICA: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S00E02 -  [BD][1080p][AV1][OPUS][Dual Audio].mkv
+================================================================================
+
+Validacao OK
+Tamanho: 1.93 GiB (1972 MB)
+
+Lendo metadados do arquivo...
+Arquivo lido com sucesso
+
+6 faixa(s) detectada(s)
+
+Analisando faixas de midia...
+
+
+================================================================================
+ESTRUTURA GERAL
+================================================================================
+
+Formato do Conteiner
+  Matroska
+
+Tamanho do Arquivo
+  1.93 GiB
+
+Duracao Total
+  1 h 49 min
+
+Bitrate Geral
+  2526 kbps
+
+Aplicacao de Escrita
+  mkvmerge v82.0 ('I'm The President') 64-bit
+
+================================================================================
+FLUXOS DE VIDEO
+================================================================================
+
+  Fluxo 1 (Track ID: 1)
+    Codec: V_AV1 (AV1)
+    Resolucao: 1920x1080p
+    Profundidade de Cor: 10 bits
+    Taxa de Quadros (FPS): 24.000 fps
+    Aspect Ratio: 1.778
+    Bitrate: 2057 kbps
+
+================================================================================
+FLUXOS DE AUDIO
+================================================================================
+
+  Fluxo 1 (Track ID: 2)
+    Idioma: ja
+    Codec/Formato: Opus
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 233 kbps
+    Titulo: (Sem titulo)
+
+  Fluxo 2 (Track ID: 3)
+    Idioma: en
+    Codec/Formato: Opus
+    Canais: 6
+    Taxa de Amostragem: 48.0 kHz
+    Bitrate: 234 kbps
+    Titulo: (Sem titulo)
+
+================================================================================
+FAIXAS DE LEGENDAS
+================================================================================
+
+  Legenda 1 (Track ID: 4)
+    Idioma: en
+    Formato: ASS
+    Tipo: ASS (Estilizada com cores e posicionamento)
+    Codec ID: S_TEXT/ASS
+    Titulo: Dialogue
+    Duracao Legenda: 01:42:41.960 (via Metadados)
+    Diferenca Fim: +384.998s (Video - Legenda)
+    Taxa de Drift: 211.700 s/hora
+    Veredito de Sincronia: Legenda Desalinhada - Possivel atraso constante! (Sugestao: Offset de 384997 ms)
+
+================================================================================
+RESUMO FINAL
+================================================================================
+
+  Total de Faixas: 6
+    Video(s): 1
+    Audio(s): 2
+    Legenda(s): 1
+      [1] Idioma: en | Tipo: ASS | Formato: ASS - Dialogue
+
+================================================================================
+Auditoria finalizada com sucesso!
+================================================================================

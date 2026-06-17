@@ -3,7 +3,7 @@
 [← Índice](README.md) · [Guia de execução](guia-de-execucao.md)
 
 <p>
-  <img src="https://img.shields.io/badge/Fases-1_a_10-blueviolet?style=flat-square" alt="Fases 1-10"/>
+  <img src="https://img.shields.io/badge/Fases-1_a_12-blueviolet?style=flat-square" alt="Fases 1-12"/>
   <img src="https://img.shields.io/badge/Auditoria-Logs_%2B_Relatórios-informational?style=flat-square" alt="Auditoria"/>
 </p>
 
@@ -28,18 +28,31 @@
 
 ## Fase 4 — Tradução IA (LM Studio/Gemma)
 
-### `sub_extractor.py` e `script_tradutor_fr.py`
+### `86/sub_extractor.py` (Eighty-Six)
+
+Quatro artefatos por execução em `4_tradutor_ia_gemma4/86/logs/`:
+
+| Arquivo | Conteúdo |
+|:---|:---|
+| `pipeline_86_*.txt` | Fluxo completo da execução |
+| `config_86_*.txt` | Snapshot de infraestrutura (binários, modelo, pastas) |
+| `erros_86_*.txt` | Erros e stack traces |
+| `stats_86_*.json` | Telemetria: encodings detectados, cache, requisições |
+
+Persiste também `4_tradutor_ia_gemma4/86/traducao_cache_86.json` (cache de traduções entre execuções).
+
+### `frances_para_ptbr/macross_deslta.py` e `frances_para_ptbr/script_tradutor_fr_gundam_origin.py`
 
 Quatro artefatos por execução em `4_tradutor_ia_gemma4/logs/`:
 
 | Arquivo | Conteúdo |
 |:---|:---|
-| `pipeline_*.txt` (ou `pipeline_fr_*.txt`) | Fluxo completo da execução |
-| `config_*.txt` (ou `config_fr_*.txt`) | Snapshot de infraestrutura (binários, modelo, pastas) |
-| `erros_*.txt` (ou `erros_fr_*.txt`) | Erros e stack traces |
-| `stats_*.json` (ou `stats_fr_*.json`) | Telemetria: encodings detectados, cache, requisições |
+| `pipeline_fr_*.txt` | Fluxo completo da execução |
+| `config_fr_*.txt` | Snapshot de infraestrutura (binários, modelo, pastas) |
+| `erros_fr_*.txt` | Erros e stack traces |
+| `stats_fr_*.json` | Telemetria: encodings detectados, cache, requisições |
 
-`script_tradutor_fr.py` também persiste `traducao_cache_fr.json` (cache de traduções entre execuções).
+Cada script persiste sua própria instância de `traducao_cache_fr.json` na pasta `frances_para_ptbr/` (cache de traduções entre execuções).
 
 ### `tradutor_srt_direto.py`
 
@@ -112,6 +125,27 @@ Quatro artefatos em `multiplexar/logs/`:
 
 ---
 
+## Fase 11 — Tradução chinês (Qwen2.5, Gundam Origin)
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `batch_translator_origin_zh.py` | `11_chines_LLM_alibaba_qwen2/` | `info.txt` — métricas por arquivo (diálogos, cache hits, chamadas, fallbacks, tempo); `debug_last_failure.txt` na primeira falha de lote |
+| `repara_erros_origin_zh.py` | `11_chines_LLM_alibaba_qwen2/` | `relatorio_reparo_origin_zh.txt` |
+| `test_reparo.py` (dev/debug) | `11_chines_LLM_alibaba_qwen2/` | `debug_test.txt` (recriado a cada execução) |
+
+Ambos os scripts de tradução persistem `traducao_cache_origin_zh.json` (+ backup `.json.bak`).
+
+---
+
+## Fase 12 — Revisão final por título
+
+| Script | Local | Saída |
+|:---|:---|:---|
+| `revisao_legenda_origin.py` | `12_revisao_legenda/` | Atualiza `traducao_cache_origin_zh.json`; opcional `_relatorio_sem_traducao.txt` (auditoria de resíduos) |
+| `revisao_guild_crown.py` / `revisao_legenda_gundam_unicornio.py` / `revisao_legenda_macross_delta.py` / `micross_delta_filme2.py` / `revisao_86.py` | `12_revisao_legenda/` | Apenas console (`colorama`); `.mkv` corrigido em `corrigidos/` quando o remux é confirmado |
+
+---
+
 ## Níveis no console (colorama)
 
 | Tag | Cor | Significado |
@@ -121,7 +155,7 @@ Quatro artefatos em `multiplexar/logs/`:
 | `[AVISO]` | 🟡 Amarelo | Situação recuperável |
 | `[ERRO]` | 🔴 Vermelho | Falha ou aborto |
 
-Esses níveis aparecem em praticamente todos os scripts (Fases 1–10).
+Esses níveis aparecem em praticamente todos os scripts (Fases 1–12).
 
 ---
 

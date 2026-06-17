@@ -2,7 +2,7 @@
 
 [← Índice](README.md) · [`2_extrator_legenda/`](../2_extrator_legenda/)
 
-**Fases:** [1](modulo-fase-1.md) · **2** · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md)
+**Fases:** [1](modulo-fase-1.md) · **2** · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
 
 Extrai a faixa de legenda original de um `.mkv` **sem traduzir** — útil para revisar a legenda antes de enviar para a IA (Fase 4), para a esteira de legendas **PGS/Blu-ray** ou para alimentar tradutores em lote (`tradutor_ass`, `tradutor_gundam_unicornio`).
 
@@ -106,12 +106,22 @@ python ".\2_extrator_legenda\extrator_inteligente_pgs.py"
 
 ---
 
+## Utilitário — `extrator_texto_bruto/extrator_texto_bruto.py`
+
+Ferramenta auxiliar (fora do fluxo principal) que percorre uma pasta de `.mkv`, lê a legenda já gerada pelo `extrator_inteligente_ass.py` e salva, na mesma pasta do vídeo, um `texto_bruto_extraido_{nome}.txt` com cada linha de diálogo **numerada**. Útil para revisar rapidamente todo o roteiro de um episódio/filme (ex.: para montar os glossários e correções de lore usados nas Fases 4, 11 e 12) sem abrir o `.ass` em um editor de legendas.
+
+```powershell
+python ".\2_extrator_legenda\extrator_texto_bruto\extrator_texto_bruto.py" -p "<pasta_videos>"
+```
+
+---
+
 ## Próximo passo
 
 | Legenda extraída | Próxima fase |
 |:---|:---|
 | `legendas_eng/*_ENG.ass` | [Fase 4 — Tradução em lote (`tradutor_ass`, `tradutor_gundam_unicornio`)](modulo-fase-4.md) |
-| `legendas_eng/*_ENG.srt` | Traduza com [Fase 4 — `tradutor_srt_direto.py`](modulo-fase-4.md#4---tradutor_srt_diretopy-srt-externo) e depois [Fase 3](modulo-fase-3.md) |
+| `legendas_eng/*_ENG.srt` | Traduza com [Fase 4 — `tradutor_srt_direto.py`](modulo-fase-4.md#6--tradutor_srt_diretopy-srt-externo) e depois [Fase 3](modulo-fase-3.md) |
 | `extraidos_sup/*.sup` | OCR externo → `.srt` → [Fase 4](modulo-fase-4.md) → [Fase 3](modulo-fase-3.md) |
 
 ---

@@ -2,7 +2,7 @@
 
 [← Índice](README.md) · [`1_analisador_de_midia/media_analyzer.py`](../1_analisador_de_midia/media_analyzer.py)
 
-**Fases:** **1** · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md)
+**Fases:** **1** · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
 
 **Opcional**, mas recomendado antes de qualquer tradução.
 

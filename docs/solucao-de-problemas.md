@@ -3,7 +3,7 @@
 [← Índice](README.md) · [Logs](logs-e-auditoria.md)
 
 <p>
-  <img src="https://img.shields.io/badge/Esteiras-A_a_G-9146FF?style=flat-square" alt="Esteiras A-G"/>
+  <img src="https://img.shields.io/badge/Esteiras-A_a_I-9146FF?style=flat-square" alt="Esteiras A-I"/>
   <img src="https://img.shields.io/badge/Troubleshooting-Geral_%2B_por_esteira-informational?style=flat-square" alt="Troubleshooting"/>
 </p>
 
@@ -63,6 +63,37 @@
 
 ---
 
+## Esteira H — Gundam Origin, legenda chinesa (Fases 2 → 11 → [12] → 5)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `validar_traducao()` rejeita a saída (texto ainda com CJK) | Qwen2.5 não está carregado no LM Studio (Gemma respondeu em vez dele) | Confira o modelo ativo em `GET /v1/models`; carregue `qwen2.5-7b-instruct` |
+| Tradução muito lenta ou travando | `MAX_THREADS = 2` é o limite seguro para 8GB VRAM | Reduza `--batch-size` ou rode com `--threads 1` se a GPU tiver pouca VRAM livre |
+| Linhas `[ERRO_TRADUCAO: ...]` persistem após `repara_erros_origin_zh.py` | Termo protegido/nome próprio sem tradução válida em PT-BR | Corrija manualmente ou adicione a regra em [Fase 12](modulo-fase-12.md#revisao_legenda_originpy-gundam-the-origin) (`revisao_legenda_origin.py`) |
+| Erro de lore conhecido (ex.: "Guerra de cem anos", "Gólgota"/"Lucifer") sobrevive à tradução | Falha recorrente do modelo para esses termos específicos | Rode [Fase 12](modulo-fase-12.md) — já corrige esses casos e atualiza o cache |
+| `test_reparo.py` não reflete o comportamento do pipeline real | Script é um utilitário de depuração isolado (3 linhas fixas) | Use apenas para validar rapidamente prompt/modelo; não é parte do pipeline regular |
+
+---
+
+## Esteira I — Gundam Origin, legenda francesa SUBFRENCH (Fase 4 → 5)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| Nomes da família Deikun aparecem como "Daikun" | Grafia do release francês não normalizada | O script já normaliza via regex; se persistir, verifique se está usando `script_tradutor_fr_gundam_origin.py` e não `macross_deslta.py` |
+| Track francesa não detectada | Faixa `lang` diferente de `fre`/`fra`/`fr` no release | Ajuste a lista de prioridade em `script_tradutor_fr_gundam_origin.py` ou use a [Esteira H](#esteira-h--gundam-origin-legenda-chinesa-fases-2--11--12--5) (legenda chinesa) como alternativa |
+
+---
+
+## Fase 12 — Revisão final por título (todas as esteiras com QA)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| Script não encontra a pasta de legendas | `PASTA_ANIME`/`PASTA_LEGENDA` no topo do script apontam para a árvore de mídia do autor (`E:\animes\...`, `D:\PROJETOS-OPEN\...`, `C:\animes\...`) | Edite essas constantes no script para o caminho real do seu título |
+| `mkvmerge não encontrado. Remuxing abortado` | MKVToolNix ausente ou fora do PATH | Instale MKVToolNix ou responda `n` ao prompt de remux para apenas corrigir a legenda |
+| Correção não copia para um título diferente | Cada script tem a lista de patches (regex/dicionário) hardcoded para um título específico | Copie o script mais próximo (mesmo idioma/Esteira) e adapte os patches — não reaproveite entre séries diferentes sem revisar |
+
+---
+
 ## Fases 9/10 — Reparo de tradução e Esteira G (Guilty Crown)
 
 | Sintoma | Causa provável | Ação |
@@ -103,12 +134,14 @@
 | Legenda **ASS embutida** (inglês) | A | 4 → 5 |
 | Legenda **SRT externa** (inglês) | B | 4 → 3 → 5 |
 | Legenda **PGS** (Blu-ray bitmap) | C | 2 → OCR → 3 → 5 |
-| Legenda **ASS embutida** (francês) | D | 4 → 5 |
+| Legenda **ASS embutida** (francês, Macross Delta) | D | 4 → [12] → 5 |
 | Lote ASS pré-extraído (Gundam Reconguista) | E | 2 → 4 → 5 |
-| Gundam Unicorn (especializada) | F | 2 → 4 → 8 → 5 |
-| Guilty Crown (correção de nomes e cores) | G | 2 → 4 → 10 → 5 |
+| Gundam Unicorn (especializada) | F | 2 → 4 → 8 → [12] → 5 |
+| Guilty Crown (correção de nomes e cores) | G | 2 → 4 → 10 → [12] → 5 |
+| Gundam Origin, legenda **chinesa** (Qwen2.5) | H | 2 → 11 → [12] → 5 |
+| Gundam Origin, legenda **francesa** (SUBFRENCH) | I | 4 → 5 |
 
-Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 4, aplique a [Fase 9](modulo-fase-9.md) (via IA) ou [Fase 10](modulo-fase-10.md) (offline) antes da Fase 5.
+Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 4/11, aplique a [Fase 9](modulo-fase-9.md) (via IA/Gemma), [Fase 10](modulo-fase-10.md) (offline) ou [Fase 11 — reparo](modulo-fase-11.md#repara_erros_origin_zhpy) (via IA/Qwen2.5) antes da Fase 5. Erros de lore residuais: [Fase 12](modulo-fase-12.md).
 
 [Arquitetura](arquitetura.md) · [Pipeline SRT](pipeline-srt.md)
 
@@ -119,12 +152,14 @@ Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 4, aplique a [F
 | Camada | Tecnologia | Fases |
 |:---|:---|:---|
 | Orquestração | Python 3.10+ | Todas |
-| Container/Remux | MKVToolNix | 2, 4, 5, 8 |
+| Container/Remux | MKVToolNix | 2, 4, 5, 8, 12 (opcional) |
 | Metadados | pymediainfo + MediaInfo | 1 |
 | Tradução IA | LM Studio + Gemma 4B | 4, 9 |
+| Tradução IA (chinês) | LM Studio + Qwen2.5-7B-Instruct | 11 |
 | Conversão legenda | SRT → ASS + sync FPS | 3 |
 | Sincronização/Otimização | FFmpeg/FFprobe (NVENC) | 6, 7 |
-| Reparo pós-tradução | Regex + restauração de tags ASS (9 com IA, 10 offline) | 9, 10 |
+| Reparo pós-tradução | Regex + restauração de tags ASS (9/11 com IA, 10 offline) | 9, 10, 11 |
+| Revisão final por título | Regex/dicionário hardcoded por série + remux opcional | 12 |
 | Terminal | colorama + tqdm | Todas |
 
 ---

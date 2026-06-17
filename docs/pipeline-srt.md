@@ -11,7 +11,9 @@ Esteira para **filmes** ou releases com legenda **SRT separada** do vídeo — s
 | Situação | Esteira recomendada |
 |:---|:---|
 | Episódios `.mkv` com legenda **ASS embutida** (inglês) | [Esteira A](arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) — Fases 4 → 5 |
-| Episódios `.mkv` com legenda **ASS embutida** (francês) | [Esteira D](arquitetura.md#esteira-d--tradução-francês--pt-br-multi-thread) — Fase 4 → 5 |
+| Episódios `.mkv` com legenda **ASS embutida** (francês, Macross Delta) | [Esteira D](arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread) — Fase 4 → [12] → 5 |
+| Episódios `.mkv` com legenda **ASS embutida** (francês, Gundam Origin) | [Esteira I](arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench) — Fase 4 → 5 |
+| Episódios `.mkv` com legenda **ASS chinesa** (Gundam Origin, Qwen2.5) | [Esteira H](arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25) — Fases 2 → 11 → [12] → 5 |
 | Legenda **SRT externa** (inglês) + `.mkv` | **Esteira B** (este guia) — Fases 4 → 3 → 5 |
 | Legenda **PGS** (bitmap, Blu-ray) | [Esteira C](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) — Fases 2 → OCR → 3 → 5 |
 | Só auditar o vídeo antes | [Fase 1](modulo-fase-1.md) (opcional) |
@@ -72,7 +74,7 @@ C:\TRACKER-ANIMES\animes\md-2\
 
 | Fase | Documentação |
 |:---:|:---|
-| 4 | [modulo-fase-4.md — item 5 (`tradutor_srt_direto.py`)](modulo-fase-4.md#5--tradutor_srt_diretopy-srt-externo) |
+| 4 | [modulo-fase-4.md — item 6 (`tradutor_srt_direto.py`)](modulo-fase-4.md#6--tradutor_srt_diretopy-srt-externo) |
 | 3 | [modulo-fase-3.md](modulo-fase-3.md) |
 | 5 | [modulo-fase-5.md](modulo-fase-5.md) |
 

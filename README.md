@@ -4,7 +4,7 @@
 
   <h1>🌌 Tracker Animes — Pipeline de Tradução & Multiplexação</h1>
 
-  <p><strong>Esteira industrial local (on-premises) para auditar mídia, extrair, traduzir, sincronizar, curar e remuxar legendas de animes e filmes em PT-BR</strong></p>
+  <p><strong>Esteira industrial local (on-premises) para auditar mídia, extrair, traduzir, sincronizar, curar, revisar e remuxar legendas de animes e filmes em PT-BR</strong></p>
 
   <p>
     <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -13,13 +13,14 @@
     <img src="https://img.shields.io/badge/MKVToolNix-Essencial-4B0082?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="MKVToolNix"/>
     <img src="https://img.shields.io/badge/FFmpeg-NVENC_HEVC-2E7D32?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg NVENC"/>
     <img src="https://img.shields.io/badge/Gemma_4B-LLM-00E5FF?style=for-the-badge&logo=google&logoColor=white" alt="Gemma 4B"/>
+    <img src="https://img.shields.io/badge/Qwen2.5--7B-Alibaba-FF6A00?style=for-the-badge&logo=alibabadotcom&logoColor=white" alt="Qwen2.5-7B"/>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="Offline"/>
     <img src="https://img.shields.io/badge/Remux-Sem_Re--encode-blue?style=flat-square" alt="Remux"/>
-    <img src="https://img.shields.io/badge/10_Fases-1_a_10-blueviolet?style=flat-square" alt="10 Fases"/>
-    <img src="https://img.shields.io/badge/Esteiras-A_a_G-9146FF?style=flat-square" alt="Esteiras A-G"/>
+    <img src="https://img.shields.io/badge/12_Fases-1_a_12-blueviolet?style=flat-square" alt="12 Fases"/>
+    <img src="https://img.shields.io/badge/Esteiras-A_a_I-9146FF?style=flat-square" alt="Esteiras A-I"/>
     <img src="https://img.shields.io/badge/Logs-Auditáveis-informational?style=flat-square" alt="Logs"/>
   </p>
 
@@ -31,20 +32,22 @@
 
 ## 🚀 Visão geral
 
-O projeto é organizado em **10 fases numeradas** (pastas `1_` a `10_`). Cada **esteira** (fluxo de trabalho) usa um subconjunto dessas fases, conforme o formato de origem da legenda (ASS embutido, SRT externo, PGS bitmap), o idioma de origem (inglês, francês) e eventuais reparos pós-tradução específicos da série.
+O projeto é organizado em **12 fases numeradas** (pastas `1_` a `12_`). Cada **esteira** (fluxo de trabalho) usa um subconjunto dessas fases, conforme o formato de origem da legenda (ASS embutido, SRT externo, PGS bitmap, ASS chinês), o idioma de origem (inglês, francês, chinês simplificado) e eventuais reparos/revisões pós-tradução específicos do título.
 
 | Fase | Pasta | Função |
 |:---:|:---|:---|
 | 1 | `1_analisador_de_midia/` | Audita mídia: codecs, faixas, sincronia *(opcional)* |
 | 2 | `2_extrator_legenda/` | Extrai legenda original (ASS/SRT/PGS) do `.mkv` |
 | 3 | `3-conversor_str_ass/` | Converte `*_PTBR.srt` → `*_PTBR.ass` com sync de FPS |
-| 4 | `4_tradutor_ia_gemma4/` | Tradução via LM Studio + Gemma (5 variantes) |
+| 4 | `4_tradutor_ia_gemma4/` | Tradução via LM Studio + Gemma (6 variantes, 1 por título) |
 | 5 | `5_juntar_legendas_filmes/` | Remux: junta vídeo + legenda PT-BR (sem re-encode) |
 | 6 | `6_sincronizacao_legenda/` | Auxiliar: audita/corrige dessincronia |
 | 7 | `7_decodificador/` | Auxiliar: recomprime vídeo (HEVC/NVENC) |
 | 8 | `8_cura_legendas/` | Auxiliar: repara corrupção de tags PT-BR |
-| 9 | `9_reparo_de_traducao/` | 🩹 Reparo: retraduz `[ERRO_TRADUCAO: ...]` via IA (batch=1) |
+| 9 | `9_reparo_de_traducao/` | 🩹 Reparo: retraduz `[ERRO_TRADUCAO: ...]` via IA/Gemma (batch=1) |
 | 10 | `10_correcao_guilty_crown/` | 🎵 Correção offline de `[ERRO_TRADUCAO:]` e cores/tags de músicas OP/ED |
+| 11 | `11_chines_LLM_alibaba_qwen2/` | 🐉 Tradução chinês simplificado → PT-BR via Qwen2.5-7B-Instruct |
+| 12 | `12_revisao_legenda/` | 🔬 Revisão/correção final por título (lore, resíduos, remux) |
 
 ### Diagrama geral
 
@@ -52,8 +55,10 @@ O projeto é organizado em **10 fases numeradas** (pastas `1_` a `10_`). Cada **
 flowchart LR
     MKV["Video .mkv"] --> F1["Fase 1\nAnalisador"]
 
-    F1 -->|ASS embutido EN| A4["Fase 4\nsub_extractor.py"]
-    F1 -->|ASS embutido FR| D4["Fase 4\nscript_tradutor_fr.py"]
+    F1 -->|ASS embutido EN, 86| A4["Fase 4\n86/sub_extractor.py"]
+    F1 -->|ASS embutido FR, Macross Delta| D4["Fase 4\nmacross_deslta.py"]
+    F1 -->|ASS embutido FR, Gundam Origin| I4["Fase 4\nscript_tradutor_fr_gundam_origin.py"]
+    F1 -->|ASS chines CHS, Gundam Origin| H11["Fase 11\nbatch_translator_origin_zh.py"]
     F1 -->|SRT externo| B4["Fase 4\ntradutor_srt_direto.py"]
     F1 -->|PGS bitmap| C2["Fase 2\nextrator_inteligente_pgs.py"]
     F1 -->|ASS para lote| E2["Fase 2\nextrator_inteligente_ass.py"]
@@ -67,12 +72,18 @@ flowchart LR
     E4 -.->|se ERRO_TRADUCAO| F9["Fase 9\nReparo via IA avulso"]
     D4 -.->|se ERRO_TRADUCAO| F9
     E4 -.->|Guilty Crown| F10["Fase 10\nCorrecao offline GC"]
+    H11 -.->|se ERRO_TRADUCAO| H9["Fase 11\nrepara_erros_origin_zh.py"]
 
-    A4 --> F5["Fase 5\nbatch_remuxer.py"]
-    D4 --> F5
+    A4 --> F12{{"Fase 12 (opcional)\nrevisao por titulo"}}
+    D4 --> F12
+    I4 --> F12
+    E4 --> F12
+    H11 --> F12
+    H9 --> F12
+
+    F12 --> F5["Fase 5\nbatch_remuxer.py"]
     B3 --> F5
     C3 --> F5
-    E4 --> F5
     F8 --> F5
     F9 --> F5
     F10 --> F5
@@ -87,6 +98,9 @@ flowchart LR
     style F8 fill:#5c1010,stroke:#ff4444,color:#fff
     style F9 fill:#5c1010,stroke:#ff4444,color:#fff
     style F10 fill:#5c1010,stroke:#ff4444,color:#fff
+    style H9 fill:#5c1010,stroke:#ff4444,color:#fff
+    style H11 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F12 fill:#2d3748,stroke:#00E5FF,color:#fff
     style OCR fill:#5c1010,stroke:#ff4444,color:#fff
 ```
 
@@ -96,16 +110,18 @@ Diagramas detalhados de cada esteira: [docs/arquitetura.md](docs/arquitetura.md)
 
 | Esteira | Fases | Cenário |
 |:---:|:---|:---|
-| **A** | 4 → 5 | Episódio MKV, ASS embutido (inglês) |
-| **B** | 4 → 3 → 5 | Filme com SRT externo (inglês) |
+| **A** | 4 → [12] → 5 | Eighty-Six, ASS embutido (inglês) |
+| **B** | 4 → 3 → 5 | Filme com SRT externo (inglês, Macross) |
 | **C** | 2 → OCR externo → 3 → 5 | Legenda PGS (Blu-ray bitmap) |
-| **D** | 4 → 5 | Episódio MKV, ASS embutido (francês), multi-thread |
+| **D** | 4 → [12] → 5 | Macross Delta, ASS embutido (francês), multi-thread |
 | **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) |
-| **F** | 2 → 4 → 8 → 5 | Gundam Unicorn (especializada, com cura de legendas) |
-| **G** | 2 → 4 → 10 → 5 | Guilty Crown (correção de nomes e cores de músicas) |
+| **F** | 2 → 4 → 8 → [12] → 5 | Gundam Unicorn (especializada, com cura de legendas) |
+| **G** | 2 → 4 → 10 → [12] → 5 | Guilty Crown (correção de nomes e cores de músicas) |
+| **H** | 2 → 11 → [12] → 5 | Gundam Origin, legenda chinesa (CHS, Qwen2.5) |
+| **I** | 4 → 5 | Gundam Origin, legenda francesa (SUBFRENCH) |
 
-| ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 | 🎮 Otimização NVENC | 🩹 Reparo `[ERRO_TRADUCAO:]` |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+| ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 | 🎮 Otimização NVENC | 🩹 Reparo `[ERRO_TRADUCAO:]` | 🔬 QA por título |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 ---
 
@@ -116,14 +132,14 @@ cd C:\TRACKER-ANIMES\projeto-tracker-animes-traducao
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-# LM Studio: Gemma 4B na porta 1234
+# LM Studio: Gemma 4B (Fases 4, 9) na porta 1234 — troque para Qwen2.5-7B-Instruct para a Fase 11
 ```
 
-**Esteira A — Episódios MKV (ASS embutido EN):**
+**Esteira A — Eighty-Six, episódios MKV (ASS embutido EN):**
 
 ```powershell
 python ".\1_analisador_de_midia\media_analyzer.py"   # opcional
-python ".\4_tradutor_ia_gemma4\sub_extractor.py"
+python ".\4_tradutor_ia_gemma4\86\sub_extractor.py"
 python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 ```
 
@@ -144,7 +160,15 @@ python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
 python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 ```
 
-Demais esteiras (D, E, F, G) e fases auxiliares/reparos (6, 7, 8, 9, 10): [Guia de execução](docs/guia-de-execucao.md).
+**Esteira H — Gundam Origin, legenda chinesa (Qwen2.5):**
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\11_chines_LLM_alibaba_qwen2\batch_translator_origin_zh.py" --entrada "<pasta_chs_ass>" --saida "<pasta_saida>"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+Demais esteiras (D, E, F, G, I) e fases auxiliares/reparos (6, 7, 8, 9, 10, 11, 12): [Guia de execução](docs/guia-de-execucao.md).
 
 Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detalhada: **[docs/pipeline-srt.md](docs/pipeline-srt.md)**
 
@@ -157,7 +181,7 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | Guia | Descrição |
 |:---|:---|
 | **[📖 Índice completo](docs/README.md)** | Hub da documentação |
-| [Arquitetura](docs/arquitetura.md) | 10 fases + diagramas de todas as esteiras (A–G) |
+| [Arquitetura](docs/arquitetura.md) | 12 fases + diagramas de todas as esteiras (A–I) |
 | [Estrutura do repositório](docs/estrutura-repositorio.md) | Árvore de pastas e pastas legadas |
 | [Pipeline SRT (Esteira B)](docs/pipeline-srt.md) | Filmes e legendas externas |
 | [Instalação](docs/instalacao.md) | Checklist SO, venv, LM Studio, MKVToolNix, FFmpeg |
@@ -173,25 +197,29 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | 1 | [Analisador de mídia](docs/modulo-fase-1.md) | `1_analisador_de_midia/media_analyzer.py` |
 | 2 | [Extração de legendas](docs/modulo-fase-2.md) | `2_extrator_legenda/` (ASS, SRT, PGS) |
 | 3 | [Conversor SRT → ASS](docs/modulo-fase-3.md) | `3-conversor_str_ass/conversor_srt_para_ass.py` |
-| 4 | [Tradução IA (LM Studio/Gemma)](docs/modulo-fase-4.md) | `4_tradutor_ia_gemma4/` (5 variantes) |
+| 4 | [Tradução IA (LM Studio/Gemma)](docs/modulo-fase-4.md) | `4_tradutor_ia_gemma4/` (6 variantes, 1 por título) |
 | 5 | [Remuxer](docs/modulo-fase-5.md) | `5_juntar_legendas_filmes/batch_remuxer.py` |
 | 6 | [Sincronização de legendas](docs/modulo-fase-6.md) | `6_sincronizacao_legenda/` |
 | 7 | [Otimização de vídeo (GPU)](docs/modulo-fase-7.md) | `7_decodificador/gpu_video_optimizer.py` |
 | 8 | [Cura de legendas](docs/modulo-fase-8.md) | `8_cura_legendas/` |
 | 9 | [Reparo de tradução](docs/modulo-fase-9.md) | `9_reparo_de_traducao/` |
 | 10 | [Correção Guilty Crown](docs/modulo-fase-10.md) | `10_correcao_guilty_crown/` |
+| 11 | [Tradução chinês (Qwen2.5)](docs/modulo-fase-11.md) | `11_chines_LLM_alibaba_qwen2/` |
+| 12 | [Revisão final por título](docs/modulo-fase-12.md) | `12_revisao_legenda/` |
 
 ### Esteiras (fluxos completos)
 
 | Esteira | Fases | Cenário | Documento |
 |:---:|:---|:---|:---|
-| **A** | 4 → 5 | Episódio MKV, ASS embutido (inglês) | [Arquitetura](docs/arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) |
+| **A** | 4 → [12] → 5 | Eighty-Six, ASS embutido (inglês) | [Arquitetura](docs/arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) |
 | **B** | 4 → 3 → 5 | Filme com SRT externo (inglês) | [Pipeline SRT](docs/pipeline-srt.md) |
 | **C** | 2 → OCR externo → 3 → 5 | Legenda PGS (Blu-ray bitmap) | [Arquitetura](docs/arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) |
-| **D** | 4 → 5 | Episódio MKV, ASS embutido (francês) | [Arquitetura](docs/arquitetura.md#esteira-d--tradução-francês--pt-br-multi-thread) |
+| **D** | 4 → [12] → 5 | Macross Delta, ASS embutido (francês) | [Arquitetura](docs/arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread) |
 | **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](docs/arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista) |
-| **F** | 2 → 4 → 8 → 5 | Gundam Unicorn (especializada) | [Arquitetura](docs/arquitetura.md#esteira-f--gundam-unicorn-especializada) |
-| **G** | 2 → 4 → 10 → 5 | Guilty Crown (correção de nomes e cores) | [Arquitetura](docs/arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
+| **F** | 2 → 4 → 8 → [12] → 5 | Gundam Unicorn (especializada) | [Arquitetura](docs/arquitetura.md#esteira-f--gundam-unicorn-especializada) |
+| **G** | 2 → 4 → 10 → [12] → 5 | Guilty Crown (correção de nomes e cores) | [Arquitetura](docs/arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
+| **H** | 2 → 11 → [12] → 5 | Gundam Origin, legenda chinesa (CHS, Qwen2.5) | [Arquitetura](docs/arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25) |
+| **I** | 4 → 5 | Gundam Origin, legenda francesa (SUBFRENCH) | [Arquitetura](docs/arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench) |
 
 ---
 

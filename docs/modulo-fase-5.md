@@ -2,7 +2,7 @@
 
 [← Índice](README.md) · [`5_juntar_legendas_filmes/batch_remuxer.py`](../5_juntar_legendas_filmes/batch_remuxer.py)
 
-**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · **5** · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md)
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · **5** · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
 
 Etapa final, comum a **todas as esteiras**: junta o vídeo original com a legenda traduzida em um novo `.mkv`, sem re-encode.
 

@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Especializado-Gundam_The_Origin-9146FF?style=flat-square" alt="Gundam The Origin"/>
 </p>
 
-**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · **11** · [12](modulo-fase-12.md)
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [4-B](modulo-fase-4b.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · **11** · [12](modulo-fase-12.md)
 
 Variante de tradução em lote dedicada à legenda **chinesa simplificada (`.chs.ass`)** do fansub **POPGO** de *Mobile Suit Gundam: The Origin — Advent of the Red Comet*, usando o modelo **Qwen2.5-7B-Instruct** (Alibaba) via LM Studio — em vez do Gemma 4B usado na [Fase 4](modulo-fase-4.md). Compõe a **[Esteira H](arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25)**.
 

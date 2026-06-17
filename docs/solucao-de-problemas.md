@@ -20,13 +20,13 @@
 
 ---
 
-## Esteira A/D — Episódios MKV (Fases 4 → 5)
+## Esteira A/D — Episódios MKV (Fases 4 / 4-B → 5)
 
 | Sintoma | Causa provável | Ação |
 |:---|:---|:---|
 | `Nenhuma faixa S_TEXT/ASS encontrada` | Legenda é PGS (bitmap) ou hardsub | Use [Esteira C](#esteira-c--pgs-fases-2--ocr--3--5) ou audite com [Fase 1](modulo-fase-1.md) |
 | Episódio ignorado no remux (Fase 5) | Nome do `.ass` não casa com o `.mkv` | Garanta `{base}_PTBR.ass` em `traducao\` com o mesmo nome base do vídeo |
-| Tradução muito lenta (Esteira D) | Multi-thread limitado a 2 | Esperado — `script_tradutor_fr.py` usa `ThreadPoolExecutor(max_workers=2)` |
+| Tradução muito lenta (Esteira D) | Multi-thread limitado a 2 | Esperado — `macross_deslta.py`/`script_tradutor_fr_gundam_origin.py` usam `ThreadPoolExecutor(max_workers=2)` |
 
 ---
 
@@ -60,6 +60,19 @@
 | Tags `\N`, `{\i1}` etc. quebradas após tradução | Falha no mascaramento `[T0]`/`[T1]` ou `___TAG___` | Rode [Fase 8](modulo-fase-8.md) (`cura_legendas_tag.py` ou `cura_gundam_mkv.py`) |
 | Texto "TAG" literal aparecendo no MKV final (Gundam) | Corrupção conhecida do `batch_translator_unicorn.py` | `cura_gundam_mkv.py` — modo perfect-match (com `*_ENG.ass`) ou regex cego |
 | Retry constante / poucas respostas da IA | Lote (`batch`) grande demais para o contexto do modelo | Reduza o tamanho do lote no script (`batch_translator_ass.py` / `_unicorn.py`) |
+
+---
+
+## Fase 4-B — Mistral Nemo (francês)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `config_fr_*.txt` mostra "Modelo: Gemma 4B (google/gemma-4-e4b)" mas a tradução está correta | **Bug cosmético conhecido** — o rótulo do relatório está hardcoded e não foi atualizado na migração para Mistral Nemo | Ignore o rótulo; confira o modelo real na linha `Usando modelo: ...` do `pipeline_fr_*.txt` |
+| Qualidade de tradução ruim/inconsistente em francês | Gemma 4B ainda carregado no LM Studio, em vez do Mistral Nemo | Carregue `mistralai/mistral-nemo-instruct-2407` (ou equivalente GGUF) no LM Studio antes de rodar os scripts de `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/` |
+| `VALIDAÇÃO REJEITOU idx N` no log (`script_tradutor_fr_gundam_origin.py`) | A tradução do LLM para aquela linha falhou a validação anti-resíduo/anti-alucinação | Normal em baixo volume — o fallback linha a linha tenta de novo; se persistir, revise o glossário/prompt para o termo específico |
+| `RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO)` no log de erros | Nenhuma linha do lote pôde ser extraída/validada | Verifique se o modelo carregado é realmente o Mistral Nemo (não outro modelo incompatível com o formato de prompt indexado `[0]`, `[1]`...) |
+| `macross_deslta.py` com qualidade inferior ao esperado | Esse script **não recebeu** os ajustes de prompt feitos em `script_tradutor_fr_gundam_origin.py` durante a migração (continua com o prompt original) | Replique manualmente os ajustes — ver [Fase 4-B](modulo-fase-4b.md#ajustes-feitos-em-script_tradutor_fr_gundam_originpy-durante-a-migração) |
+| Pasta `4_tradutor_ia_gemma4/frances_para_ptbr/` aparece vazia | Esperado — os scripts foram **movidos** para `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/` em 2026-06-17 | Use o novo caminho; a pasta antiga é só resíduo (`__pycache__`) |
 
 ---
 
@@ -134,14 +147,14 @@
 | Legenda **ASS embutida** (inglês) | A | 4 → 5 |
 | Legenda **SRT externa** (inglês) | B | 4 → 3 → 5 |
 | Legenda **PGS** (Blu-ray bitmap) | C | 2 → OCR → 3 → 5 |
-| Legenda **ASS embutida** (francês, Macross Delta) | D | 4 → [12] → 5 |
+| Legenda **ASS embutida** (francês, Macross Delta) | D | 4-B → [12] → 5 |
 | Lote ASS pré-extraído (Gundam Reconguista) | E | 2 → 4 → 5 |
 | Gundam Unicorn (especializada) | F | 2 → 4 → 8 → [12] → 5 |
 | Guilty Crown (correção de nomes e cores) | G | 2 → 4 → 10 → [12] → 5 |
 | Gundam Origin, legenda **chinesa** (Qwen2.5) | H | 2 → 11 → [12] → 5 |
-| Gundam Origin, legenda **francesa** (SUBFRENCH) | I | 4 → 5 |
+| Gundam Origin, legenda **francesa** (SUBFRENCH) | I | 4-B → 5 |
 
-Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 4/11, aplique a [Fase 9](modulo-fase-9.md) (via IA/Gemma), [Fase 10](modulo-fase-10.md) (offline) ou [Fase 11 — reparo](modulo-fase-11.md#repara_erros_origin_zhpy) (via IA/Qwen2.5) antes da Fase 5. Erros de lore residuais: [Fase 12](modulo-fase-12.md).
+Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 4/4-B/11, aplique a [Fase 9](modulo-fase-9.md) (via IA/Gemma), [Fase 10](modulo-fase-10.md) (offline) ou [Fase 11 — reparo](modulo-fase-11.md#repara_erros_origin_zhpy) (via IA/Qwen2.5) antes da Fase 5. Erros de lore residuais: [Fase 12](modulo-fase-12.md).
 
 [Arquitetura](arquitetura.md) · [Pipeline SRT](pipeline-srt.md)
 
@@ -152,9 +165,10 @@ Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 4/11, aplique a
 | Camada | Tecnologia | Fases |
 |:---|:---|:---|
 | Orquestração | Python 3.10+ | Todas |
-| Container/Remux | MKVToolNix | 2, 4, 5, 8, 12 (opcional) |
+| Container/Remux | MKVToolNix | 2, 4, 4-B, 5, 8, 12 (opcional) |
 | Metadados | pymediainfo + MediaInfo | 1 |
-| Tradução IA | LM Studio + Gemma 4B | 4, 9 |
+| Tradução IA (inglês) | LM Studio + Gemma 4B | 4, 9 |
+| Tradução IA (francês) | LM Studio + Mistral Nemo Instruct 2407 | 4-B |
 | Tradução IA (chinês) | LM Studio + Qwen2.5-7B-Instruct | 11 |
 | Conversão legenda | SRT → ASS + sync FPS | 3 |
 | Sincronização/Otimização | FFmpeg/FFprobe (NVENC) | 6, 7 |

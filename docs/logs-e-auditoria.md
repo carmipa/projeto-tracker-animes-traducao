@@ -41,16 +41,21 @@ Quatro artefatos por execução em `4_tradutor_ia_gemma4/86/logs/`:
 
 Persiste também `4_tradutor_ia_gemma4/86/traducao_cache_86.json` (cache de traduções entre execuções).
 
+---
+
+## Fase 4-B — Tradução IA (LM Studio/Mistral Nemo, francês)
+
 ### `frances_para_ptbr/macross_deslta.py` e `frances_para_ptbr/script_tradutor_fr_gundam_origin.py`
 
-Quatro artefatos por execução em `4_tradutor_ia_gemma4/logs/`:
+Quatro artefatos por execução em `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/logs/`:
 
 | Arquivo | Conteúdo |
 |:---|:---|
-| `pipeline_fr_*.txt` | Fluxo completo da execução |
-| `config_fr_*.txt` | Snapshot de infraestrutura (binários, modelo, pastas) |
+| `pipeline_fr_*.txt` | Fluxo completo da execução — inclui a linha `Usando modelo: <id>` com o modelo real detectado via `/v1/models` (ex.: `mistralai/mistral-nemo-instruct-2407`) |
+| `config_fr_*.txt` | Snapshot de infraestrutura (binários, pastas) — ⚠️ o rótulo "Modelo" neste arquivo está hardcoded como "Gemma 4B" em ambos os scripts, mesmo após a migração; não reflete o modelo real (ver [Solução de problemas](solucao-de-problemas.md#fase-4-b--mistral-nemo-francês)) |
 | `erros_fr_*.txt` | Erros e stack traces |
 | `stats_fr_*.json` | Telemetria: encodings detectados, cache, requisições |
+| `traducoes_detalhadas_fr_*.txt` | **Apenas em `script_tradutor_fr_gundam_origin.py`** — auditoria lado a lado: linha original em francês + tradução PT-BR (ou "MANTIDO ORIGINAL"), por diálogo, por episódio |
 
 Cada script persiste sua própria instância de `traducao_cache_fr.json` na pasta `frances_para_ptbr/` (cache de traduções entre execuções).
 

@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Remux-Opcional-blue?style=flat-square" alt="Remux opcional"/>
 </p>
 
-**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · **12**
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [4-B](modulo-fase-4b.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · **12**
 
 **QA final, 100% offline, um script por título.** Depois que uma série/filme passou pela esteira de tradução correspondente, os erros que **sobrevivem** (lore incorreto, resíduos do idioma de origem, alucinações da IA, tags corrompidas) são corrigidos por um script dedicado **por título**, que opera direto sobre a legenda `.ass` final e, opcionalmente, **remultiplexa** o `.mkv` corrigido para uma pasta `corrigidos/`.
 

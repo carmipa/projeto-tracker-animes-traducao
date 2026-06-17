@@ -42,9 +42,7 @@ projeto-tracker-animes-traducao/
 │   ├── 86/
 │   │   ├── sub_extractor.py               # MKV (EN) -> traducao/*_PTBR.ass — Eighty-Six
 │   │   └── traducao_cache_86.json
-│   ├── frances_para_ptbr/
-│   │   ├── macross_deslta.py              # MKV (FR) -> traducao/*_PTBR.ass — Macross Delta
-│   │   └── script_tradutor_fr_gundam_origin.py  # MKV (FR, SUBFRENCH) -> traducao/*_PTBR.ass — Gundam Origin
+│   ├── frances_para_ptbr/                 # residuo: apenas __pycache__ (scripts mudaram para 4_b_.../frances_para_ptbr/)
 │   ├── logs/                              # logs (pipeline_fr_*, erros_fr_*, config_fr_*, stats_fr_*)
 │   ├── tradutor_ass/
 │   │   └── batch_translator_ass.py        # *_ENG.ass -> *_PTBR.ass (lote, Gundam Reconguista)
@@ -53,6 +51,12 @@ projeto-tracker-animes-traducao/
 │   └── 5_tradutor_de_legenda/
 │       ├── tradutor_srt_direto.py         # *.srt (EN) -> *_PTBR.srt — Macross (filmes)
 │       └── logs/
+│
+├── 4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/   # Fase 4-B — variante Mistral Nemo (francês), ver Fase 4
+│   └── frances_para_ptbr/
+│       ├── macross_deslta.py              # MKV (FR) -> traducao/*_PTBR.ass — Macross Delta (movido de 4_tradutor_ia_gemma4/, sem alterações)
+│       ├── script_tradutor_fr_gundam_origin.py  # MKV (FR, SUBFRENCH) -> traducao/*_PTBR.ass — Gundam Origin (movido + ajustes de prompt p/ Mistral Nemo)
+│       └── logs/                          # pipeline_fr_*, erros_fr_*, config_fr_*, stats_fr_*, traducoes_detalhadas_fr_*
 │
 ├── 5_juntar_legendas_filmes/              # Fase 5 — Remux (MKVMerge)
 │   └── batch_remuxer.py                   # .mkv + traducao/*.ass -> mkv_final_ptbr/*_PTBR.mkv
@@ -117,10 +121,14 @@ Versões anteriores desta documentação (e do README) citavam `4_tradutor_ia_ge
 | Script citado nas versões antigas | Caminho real atual | Título |
 |:---|:---|:---|
 | `4_tradutor_ia_gemma4/sub_extractor.py` | `4_tradutor_ia_gemma4/86/sub_extractor.py` | Eighty-Six |
-| `4_tradutor_ia_gemma4/script_tradutor_fr.py` | `4_tradutor_ia_gemma4/frances_para_ptbr/macross_deslta.py` | Macross Delta |
-| *(não existia)* | `4_tradutor_ia_gemma4/frances_para_ptbr/script_tradutor_fr_gundam_origin.py` | Gundam The Origin (francês) |
+| `4_tradutor_ia_gemma4/script_tradutor_fr.py` | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/macross_deslta.py` | Macross Delta |
+| *(não existia)* | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/script_tradutor_fr_gundam_origin.py` | Gundam The Origin (francês) |
 
-Veja a tabela completa e atualizada em [Fase 4](modulo-fase-4.md).
+Veja a tabela completa e atualizada em [Fase 4](modulo-fase-4.md) e [Fase 4-B](modulo-fase-4b.md).
+
+### Segunda migração (2026-06-17): francês saiu da Fase 4 (Gemma) para a Fase 4-B (Mistral Nemo)
+
+Os dois scripts em francês ficaram pouco tempo em `4_tradutor_ia_gemma4/frances_para_ptbr/` antes de serem movidos de novo, agora para `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/`, junto com a troca do modelo de IA de **Gemma 4B** para **Mistral Nemo Instruct 2407 (GGUF)** — qualidade de tradução muito superior para o par francês→português. Detalhes: [Fase 4-B](modulo-fase-4b.md).
 
 ---
 
@@ -135,6 +143,7 @@ Restos de reorganizações anteriores do projeto. Mantidas apenas por compatibil
 | `8_sincronizacao_legenda/` | `__pycache__/`, `auditor_sicronia/` | `6_sincronizacao_legenda/` |
 | `extrator_legenda_PGS/` | `__pycache__/`, `log/` | `2_extrator_legenda/extrator_inteligente_pgs.py` |
 | `2_extrator_legenda/por_tipo/` | apenas `info.txt` residual | `2_extrator_legenda/info.txt` |
+| `4_tradutor_ia_gemma4/frances_para_ptbr/` | apenas `__pycache__/` | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/` |
 | `_tmp_test_srt/` | `.chs.ass` de teste + saída avulsa | testes manuais da Fase 11 — pode ser apagada |
 
 ---

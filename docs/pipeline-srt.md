@@ -74,7 +74,7 @@ C:\TRACKER-ANIMES\animes\md-2\
 
 | Fase | Documentação |
 |:---:|:---|
-| 4 | [modulo-fase-4.md — item 6 (`tradutor_srt_direto.py`)](modulo-fase-4.md#6--tradutor_srt_diretopy-srt-externo) |
+| 4 | [modulo-fase-4.md — item 4 (`tradutor_srt_direto.py`)](modulo-fase-4.md#4--tradutor_srt_diretopy-srt-externo) |
 | 3 | [modulo-fase-3.md](modulo-fase-3.md) |
 | 5 | [modulo-fase-5.md](modulo-fase-5.md) |
 

@@ -2,11 +2,13 @@
 
 [← Índice](README.md) · [`4_tradutor_ia_gemma4/`](../4_tradutor_ia_gemma4/)
 
-**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · **4** · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · **4** · [4-B](modulo-fase-4b.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
 
-Núcleo do projeto: traduz legendas para **PT-BR** usando um LLM local servido pelo **LM Studio** (`http://127.0.0.1:1234`, modelo Gemma 4B). A pasta concentra **6 variantes**, cada uma um pipeline "tudo em um" (extrai do `.mkv` **e** traduz) ou um tradutor de lote especializado em um título/cenário específico.
+Núcleo do projeto: traduz legendas para **PT-BR** usando um LLM local servido pelo **LM Studio** (`http://127.0.0.1:1234`, modelo Gemma 4B). A pasta concentra **4 variantes**, cada uma um pipeline "tudo em um" (extrai do `.mkv` **e** traduz) ou um tradutor de lote especializado em um título/cenário específico.
 
 > ⚠️ **Correção de documentação:** os nomes genéricos `sub_extractor.py` e `script_tradutor_fr.py` (citados em versões antigas desta documentação e em alguns guias) **não existem mais na raiz** de `4_tradutor_ia_gemma4/`. O projeto evoluiu para **um script dedicado por título**, cada um em sua própria subpasta, com glossário, cache e caminhos padrão próprios. A tabela abaixo reflete a estrutura real.
+>
+> Em 2026-06-17, os dois tradutores de **francês** (Macross Delta e Gundam The Origin) foram **movidos para fora desta pasta**, para `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/` — ver **[Fase 4-B](modulo-fase-4b.md)**. A pasta `frances_para_ptbr/` aqui dentro de `4_tradutor_ia_gemma4/` ficou como resíduo (`__pycache__` apenas), igual às demais pastas legadas.
 
 ---
 
@@ -15,15 +17,13 @@ Núcleo do projeto: traduz legendas para **PT-BR** usando um LLM local servido p
 | # | Script | Entrada | Saída | Idioma origem | Glossário/série |
 |:---:|:---|:---|:---|:---|:---|
 | 1 | [`86/sub_extractor.py`](../4_tradutor_ia_gemma4/86/sub_extractor.py) | Pasta `.mkv` (extrai ASS) | `traducao/{nome}_PTBR.ass` | Inglês | Eighty-Six (86) |
-| 2 | [`frances_para_ptbr/macross_deslta.py`](../4_tradutor_ia_gemma4/frances_para_ptbr/macross_deslta.py) | Pasta `.mkv` (extrai ASS) | `traducao/{nome}_PTBR.ass` | Francês | Macross Delta |
-| 3 | [`frances_para_ptbr/script_tradutor_fr_gundam_origin.py`](../4_tradutor_ia_gemma4/frances_para_ptbr/script_tradutor_fr_gundam_origin.py) | Pasta `.mkv` (extrai ASS, release `SUBFRENCH`) | `traducao/{nome}_PTBR.ass` | Francês | Gundam The Origin / Universal Century |
-| 4 | [`tradutor_ass/batch_translator_ass.py`](../4_tradutor_ia_gemma4/tradutor_ass/batch_translator_ass.py) | `legendas_eng/*_ENG.ass` (Fase 2) | `{nome}_PTBR.ass` + `info_traducao_ass.txt` | Inglês | Gundam Reconguista |
-| 5 | [`tradutor_gundam_unicornio/batch_translator_unicorn.py`](../4_tradutor_ia_gemma4/tradutor_gundam_unicornio/batch_translator_unicorn.py) | `*_ENG.ass` (Fase 2) | `{nome}_PTBR.ass` + `info.txt` | Inglês | Gundam Unicorn (UC) |
-| 6 | [`5_tradutor_de_legenda/tradutor_srt_direto.py`](../4_tradutor_ia_gemma4/5_tradutor_de_legenda/tradutor_srt_direto.py) | `.srt` externo (arquivo/pasta) | `*_PTBR.srt` | Inglês | Macross (filmes) |
+| 2 | [`tradutor_ass/batch_translator_ass.py`](../4_tradutor_ia_gemma4/tradutor_ass/batch_translator_ass.py) | `legendas_eng/*_ENG.ass` (Fase 2) | `{nome}_PTBR.ass` + `info_traducao_ass.txt` | Inglês | Gundam Reconguista |
+| 3 | [`tradutor_gundam_unicornio/batch_translator_unicorn.py`](../4_tradutor_ia_gemma4/tradutor_gundam_unicornio/batch_translator_unicorn.py) | `*_ENG.ass` (Fase 2) | `{nome}_PTBR.ass` + `info.txt` | Inglês | Gundam Unicorn (UC) |
+| 4 | [`5_tradutor_de_legenda/tradutor_srt_direto.py`](../4_tradutor_ia_gemma4/5_tradutor_de_legenda/tradutor_srt_direto.py) | `.srt` externo (arquivo/pasta) | `*_PTBR.srt` | Inglês | Macross (filmes) |
 
 Todos compartilham: validação `GET /v1/models` no LM Studio antes de iniciar, encoding resiliente (`utf-8` → `utf-8-sig` → `cp1252` → `latin-1` → `iso-8859-1`), `colorama` + `tqdm` para feedback, e tradução em **lotes** via `POST /v1/chat/completions`.
 
-> Para a variante chinesa (CHS, Qwen2.5) de Gundam Origin, veja a **[Fase 11](modulo-fase-11.md)** — pasta separada (`11_chines_LLM_alibaba_qwen2/`) por usar outro modelo/LM Studio.
+> Para as variantes em **francês** (Macross Delta, Gundam Origin), veja a **[Fase 4-B](modulo-fase-4b.md)** — migradas para o modelo **Mistral Nemo Instruct 2407 (GGUF)**. Para a variante **chinesa** (CHS, Qwen2.5) de Gundam Origin, veja a **[Fase 11](modulo-fase-11.md)** — pasta separada (`11_chines_LLM_alibaba_qwen2/`) por usar outro modelo/LM Studio.
 
 ---
 
@@ -91,98 +91,7 @@ python ".\4_tradutor_ia_gemma4\86\sub_extractor.py"
 
 ---
 
-## 2 — `frances_para_ptbr/macross_deslta.py` (Macross Delta, francês → PT-BR)
-
-Mesma base do item 1, otimizado para legendas em **francês**, com cache persistente em disco e processamento paralelo. Glossário da série **Macross Delta**.
-
-| Recurso | Detalhe |
-|:---|:---|
-| Detecção de track | Prioriza faixa com `lang` = `fre`/`fra`/`fr` |
-| Glossário | Termos de Macross Delta (ex.: *Chanteuse des Étoiles* → "Cantora das Estrelas", *Chevalier Aérien* → "Cavaleiro Aéreo") |
-| Paralelismo | `ThreadPoolExecutor`, `max_workers = 2` (RTX 5600 8GB, contexto 8000 tokens) |
-| Tradução em lote | `temperature = 0.1` (alta fidelidade) |
-| Cache persistente | `traducao_cache_fr.json` (na pasta `frances_para_ptbr/`) — evita retraduzir entre execuções |
-| Preservação de tags | Máscaras `[T0]`, `[T1]`... restauradas após tradução |
-| Saída | `{pasta}/traducao/{nome}_PTBR.ass` |
-
-```mermaid
-flowchart TB
-    START([main]) --> VAL[Valida LM Studio + MKVToolNix]
-    VAL -->|Falha| ABORT([Aborta])
-    VAL -->|OK| CACHE[Carrega traducao_cache_fr.json]
-    CACHE --> PASTA[input pasta dos .mkv]
-    PASTA --> LOOP{Para cada episodio}
-
-    LOOP --> TRACK[mkvmerge -J<br/>track lang=fre/fra/fr]
-    TRACK -->|Sem FR| SKIP[Pula episodio]
-    TRACK -->|OK| EXT[mkvextract -> _extracted.ass]
-
-    EXT --> READ[ler_arquivo_com_encoding]
-    READ --> MASK[Mascara tags ASS -> T0..Tn]
-    MASK --> LOTE[Lotes de dialogos]
-
-    LOTE --> POOL[ThreadPoolExecutor<br/>max 2 threads]
-    POOL --> API[POST /v1/chat/completions<br/>temperature 0.1]
-    API --> CHK{Em cache?}
-    CHK -->|Sim| HIT[Usa cache]
-    CHK -->|Nao| CALL[Chama LM Studio]
-    CALL --> SAVECACHE[Grava no cache]
-
-    HIT --> UNMASK[Restaura tags T0..Tn]
-    SAVECACHE --> UNMASK
-    UNMASK --> REBUILD[Reconstroi linhas ASS]
-    REBUILD --> SAVE[traducao/nome_PTBR.ass]
-    SAVE --> MORE{Mais episodios?}
-    MORE -->|Sim| LOOP
-    MORE -->|Nao| STATS[stats_fr.json + relatorio]
-    STATS --> END([Fim])
-
-    SKIP --> MORE
-
-    style API fill:#4B0082,stroke:#00E5FF,color:#fff
-    style SAVE fill:#1a1a2e,stroke:#00E5FF,color:#fff
-    style ABORT fill:#5c1010,stroke:#ff4444,color:#fff
-    style POOL fill:#2d3748,stroke:#00E5FF,color:#fff
-```
-
-**Comando:**
-
-```powershell
-python ".\4_tradutor_ia_gemma4\frances_para_ptbr\macross_deslta.py"
-```
-
-Logs: `pipeline_fr_*.txt`, `erros_fr_*.txt`, `config_fr_*.txt`, `stats_fr_*.json` em `4_tradutor_ia_gemma4/logs/`.
-
----
-
-## 3 — `frances_para_ptbr/script_tradutor_fr_gundam_origin.py` (Gundam The Origin, francês → PT-BR)
-
-Mesma arquitetura do item 2 (pipeline francês completo, multi-thread, cache persistente), mas com **glossário próprio de Gundam/Universal Century** — usada quando a legenda disponível é a faixa francesa do release `SUBFRENCH` (em vez da legenda chinesa tratada na [Fase 11](modulo-fase-11.md)).
-
-| Recurso | Detalhe |
-|:---|:---|
-| Detecção de track | Prioriza faixa com `lang` = `fre`/`fra`/`fr` |
-| Glossário | Universal Century completo: Federação Terrestre, Principado de Zeon, família Zabi (Degwin, Gihren, Sasro, Dozle, Kycilia, Garma), família Deikun (grafia francesa "Daikun" normalizada para "Deikun"), Char Aznable, Ramba Ral |
-| Correções de grafia | Normaliza "Daikun" (grafia do release francês) para a grafia oficial UC "Deikun" em todos os nomes da família |
-| Validação anti-resíduo | Rejeita traduções vazias, alucinadas ou que mantenham resíduo de francês não traduzido |
-| Paralelismo | `ThreadPoolExecutor`, `max_workers = 2` (RTX 5600 8GB) |
-| Tradução em lote | `temperature = 0.2` |
-| Cache persistente | `traducao_cache_fr.json` (própria instância, na pasta `frances_para_ptbr/`) |
-| Saída | `{pasta}/traducao/{nome}_PTBR.ass` |
-
-> Fluxo idêntico ao diagrama do item 2 (extrai → mascara tags → lotes → API → cache → restaura tags), trocando apenas glossário, prompt de validação e o caminho padrão de mídia.
-
-**Comando:**
-
-```powershell
-python ".\4_tradutor_ia_gemma4\frances_para_ptbr\script_tradutor_fr_gundam_origin.py"
-```
-
-> Erros de lore que sobrevivam à tradução podem ser corrigidos manualmente ou via **[Fase 12](modulo-fase-12.md)** (adapte `revisao_legenda_origin.py`, que hoje cobre a variante chinesa).
-
----
-
-## 4 — `tradutor_ass/batch_translator_ass.py` (lote para ASS já extraído)
+## 2 — `tradutor_ass/batch_translator_ass.py` (lote para ASS já extraído)
 
 Traduz arquivos `*_ENG.ass` **já extraídos** (Fase 2), agrupando diálogos para reduzir drasticamente o número de chamadas HTTP (~400 → ~40 por episódio).
 
@@ -240,7 +149,7 @@ python ".\4_tradutor_ia_gemma4\tradutor_ass\batch_translator_ass.py"
 
 ---
 
-## 5 — `tradutor_gundam_unicornio/batch_translator_unicorn.py` (Gundam Unicorn)
+## 3 — `tradutor_gundam_unicornio/batch_translator_unicorn.py` (Gundam Unicorn)
 
 Variante especializada para a série **Gundam Unicorn**, mesma arquitetura do item 4 com glossário próprio.
 
@@ -266,7 +175,7 @@ python ".\4_tradutor_ia_gemma4\tradutor_gundam_unicornio\batch_translator_unicor
 
 ---
 
-## 6 — `tradutor_srt_direto.py` (SRT externo)
+## 4 — `tradutor_srt_direto.py` (SRT externo)
 
 Tradução **direta SRT → SRT**, sem MKVToolNix — usada na **[Esteira B (Pipeline SRT)](pipeline-srt.md)** para filmes/legendas externas.
 
@@ -339,9 +248,9 @@ python ".\4_tradutor_ia_gemma4\5_tradutor_de_legenda\tradutor_srt_direto.py"
 
 | Saída gerada | Próxima fase |
 |:---|:---|
-| `traducao/*_PTBR.ass` (itens 1–3) | [Fase 5 — Remuxer](modulo-fase-5.md) (ou [Fase 12](modulo-fase-12.md) antes, se houver erro de lore conhecido) |
-| `{nome}_PTBR.ass` (itens 4–5) | [Fase 8](modulo-fase-8.md) se houver `TAG` corrompido, senão [Fase 5](modulo-fase-5.md) |
-| `*_PTBR.srt` (item 6) | [Fase 3 — Conversor SRT → ASS](modulo-fase-3.md) → [Fase 5](modulo-fase-5.md) |
+| `traducao/*_PTBR.ass` (item 1) | [Fase 5 — Remuxer](modulo-fase-5.md) (ou [Fase 12](modulo-fase-12.md) antes, se houver erro de lore conhecido) |
+| `{nome}_PTBR.ass` (itens 2–3) | [Fase 8](modulo-fase-8.md) se houver `TAG` corrompido, senão [Fase 5](modulo-fase-5.md) |
+| `*_PTBR.srt` (item 4) | [Fase 3 — Conversor SRT → ASS](modulo-fase-3.md) → [Fase 5](modulo-fase-5.md) |
 
 Logs detalhados: [Logs e auditoria](logs-e-auditoria.md)
 

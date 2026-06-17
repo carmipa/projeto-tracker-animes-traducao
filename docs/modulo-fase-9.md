@@ -9,9 +9,9 @@
   <img src="https://img.shields.io/badge/Offline-parcial-success?style=flat-square" alt="Offline parcial"/>
 </p>
 
-**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · **9** · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [4-B](modulo-fase-4b.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · **9** · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
 
-**Reparo pontual.** Corrige falhas do tipo `[ERRO_TRADUCAO: <texto original>]` deixadas pelos tradutores em lote da **[Fase 4](modulo-fase-4.md)** (`batch_translator_ass.py`, `batch_translator_unicorn.py`, `script_tradutor_fr.py`) quando o modelo não conseguiu traduzir uma linha específica dentro do lote.
+**Reparo pontual.** Corrige falhas do tipo `[ERRO_TRADUCAO: <texto original>]` deixadas pelos tradutores em lote da **[Fase 4](modulo-fase-4.md)** (`batch_translator_ass.py`, `batch_translator_unicorn.py`, `86/sub_extractor.py`) ou da **[Fase 4-B](modulo-fase-4b.md)** (`macross_deslta.py`, `script_tradutor_fr_gundam_origin.py`) quando o modelo não conseguiu traduzir uma linha específica dentro do lote.
 
 ---
 

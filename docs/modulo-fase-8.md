@@ -2,7 +2,7 @@
 
 [← Índice](README.md) · [`8_cura_legendas/`](../8_cura_legendas/)
 
-**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · **8** · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [4-B](modulo-fase-4b.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · **8** · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
 
 **Reparo pontual.** Corrige o defeito conhecido de corrupção de tags (texto literal `TAG` aparecendo nas falas) que pode ocorrer nas traduções em lote da **[Fase 4](modulo-fase-4.md)** (`tradutor_ass`, `tradutor_gundam_unicornio`), especialmente em séries Gundam.
 

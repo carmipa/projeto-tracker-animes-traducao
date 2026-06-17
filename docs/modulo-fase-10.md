@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Especializado-Guilty_Crown-9146FF?style=flat-square" alt="Guilty Crown"/>
 </p>
 
-**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · **10** · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
+**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [4-B](modulo-fase-4b.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · **10** · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
 
 **Especialização por série.** Pós-processamento **100% offline** (sem LM Studio) das legendas traduzidas de *Guilty Crown* (Esteira G): remove marcadores `[ERRO_TRADUCAO: ...]` residuais e ajusta cores/tags das músicas (OP/ED).
 

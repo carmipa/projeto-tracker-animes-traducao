@@ -13,6 +13,7 @@
     <img src="https://img.shields.io/badge/MKVToolNix-Essencial-4B0082?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="MKVToolNix"/>
     <img src="https://img.shields.io/badge/FFmpeg-NVENC_HEVC-2E7D32?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg NVENC"/>
     <img src="https://img.shields.io/badge/Gemma_4B-LLM-00E5FF?style=for-the-badge&logo=google&logoColor=white" alt="Gemma 4B"/>
+    <img src="https://img.shields.io/badge/Mistral_Nemo_2407-GGUF-FF7000?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral Nemo 2407"/>
     <img src="https://img.shields.io/badge/Qwen2.5--7B-Alibaba-FF6A00?style=for-the-badge&logo=alibabadotcom&logoColor=white" alt="Qwen2.5-7B"/>
   </p>
 
@@ -39,7 +40,8 @@ O projeto é organizado em **12 fases numeradas** (pastas `1_` a `12_`). Cada **
 | 1 | `1_analisador_de_midia/` | Audita mídia: codecs, faixas, sincronia *(opcional)* |
 | 2 | `2_extrator_legenda/` | Extrai legenda original (ASS/SRT/PGS) do `.mkv` |
 | 3 | `3-conversor_str_ass/` | Converte `*_PTBR.srt` → `*_PTBR.ass` com sync de FPS |
-| 4 | `4_tradutor_ia_gemma4/` | Tradução via LM Studio + Gemma (6 variantes, 1 por título) |
+| 4 | `4_tradutor_ia_gemma4/` | Tradução via LM Studio + Gemma 4B (4 variantes, inglês) |
+| 4-B | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/` | 🇫🇷 Tradução via LM Studio + Mistral Nemo 2407 (2 variantes, francês) |
 | 5 | `5_juntar_legendas_filmes/` | Remux: junta vídeo + legenda PT-BR (sem re-encode) |
 | 6 | `6_sincronizacao_legenda/` | Auxiliar: audita/corrige dessincronia |
 | 7 | `7_decodificador/` | Auxiliar: recomprime vídeo (HEVC/NVENC) |
@@ -56,8 +58,8 @@ flowchart LR
     MKV["Video .mkv"] --> F1["Fase 1\nAnalisador"]
 
     F1 -->|ASS embutido EN, 86| A4["Fase 4\n86/sub_extractor.py"]
-    F1 -->|ASS embutido FR, Macross Delta| D4["Fase 4\nmacross_deslta.py"]
-    F1 -->|ASS embutido FR, Gundam Origin| I4["Fase 4\nscript_tradutor_fr_gundam_origin.py"]
+    F1 -->|ASS embutido FR, Macross Delta| D4["Fase 4-B\nmacross_deslta.py\nMistral Nemo 2407"]
+    F1 -->|ASS embutido FR, Gundam Origin| I4["Fase 4-B\nscript_tradutor_fr_gundam_origin.py\nMistral Nemo 2407"]
     F1 -->|ASS chines CHS, Gundam Origin| H11["Fase 11\nbatch_translator_origin_zh.py"]
     F1 -->|SRT externo| B4["Fase 4\ntradutor_srt_direto.py"]
     F1 -->|PGS bitmap| C2["Fase 2\nextrator_inteligente_pgs.py"]
@@ -100,6 +102,8 @@ flowchart LR
     style F10 fill:#5c1010,stroke:#ff4444,color:#fff
     style H9 fill:#5c1010,stroke:#ff4444,color:#fff
     style H11 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style D4 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style I4 fill:#4B0082,stroke:#00E5FF,color:#fff
     style F12 fill:#2d3748,stroke:#00E5FF,color:#fff
     style OCR fill:#5c1010,stroke:#ff4444,color:#fff
 ```
@@ -113,12 +117,12 @@ Diagramas detalhados de cada esteira: [docs/arquitetura.md](docs/arquitetura.md)
 | **A** | 4 → [12] → 5 | Eighty-Six, ASS embutido (inglês) |
 | **B** | 4 → 3 → 5 | Filme com SRT externo (inglês, Macross) |
 | **C** | 2 → OCR externo → 3 → 5 | Legenda PGS (Blu-ray bitmap) |
-| **D** | 4 → [12] → 5 | Macross Delta, ASS embutido (francês), multi-thread |
+| **D** | 4-B → [12] → 5 | Macross Delta, ASS embutido (francês, Mistral Nemo), multi-thread |
 | **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) |
 | **F** | 2 → 4 → 8 → [12] → 5 | Gundam Unicorn (especializada, com cura de legendas) |
 | **G** | 2 → 4 → 10 → [12] → 5 | Guilty Crown (correção de nomes e cores de músicas) |
 | **H** | 2 → 11 → [12] → 5 | Gundam Origin, legenda chinesa (CHS, Qwen2.5) |
-| **I** | 4 → 5 | Gundam Origin, legenda francesa (SUBFRENCH) |
+| **I** | 4-B → 5 | Gundam Origin, legenda francesa (SUBFRENCH, Mistral Nemo) |
 
 | ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 | 🎮 Otimização NVENC | 🩹 Reparo `[ERRO_TRADUCAO:]` | 🔬 QA por título |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -132,7 +136,8 @@ cd C:\TRACKER-ANIMES\projeto-tracker-animes-traducao
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-# LM Studio: Gemma 4B (Fases 4, 9) na porta 1234 — troque para Qwen2.5-7B-Instruct para a Fase 11
+# LM Studio na porta 1234 — troque o modelo conforme a fase:
+#   Gemma 4B (Fases 4, 9) | Mistral Nemo Instruct 2407 GGUF (Fase 4-B) | Qwen2.5-7B-Instruct (Fase 11)
 ```
 
 **Esteira A — Eighty-Six, episódios MKV (ASS embutido EN):**
@@ -168,7 +173,14 @@ python ".\11_chines_LLM_alibaba_qwen2\batch_translator_origin_zh.py" --entrada "
 python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 ```
 
-Demais esteiras (D, E, F, G, I) e fases auxiliares/reparos (6, 7, 8, 9, 10, 11, 12): [Guia de execução](docs/guia-de-execucao.md).
+**Esteira D — Macross Delta (legenda francesa, Mistral Nemo):**
+
+```powershell
+python ".\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\macross_deslta.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+Demais esteiras (E, F, G, I) e fases auxiliares/reparos (4-B, 6, 7, 8, 9, 10, 11, 12): [Guia de execução](docs/guia-de-execucao.md).
 
 Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detalhada: **[docs/pipeline-srt.md](docs/pipeline-srt.md)**
 
@@ -197,7 +209,8 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | 1 | [Analisador de mídia](docs/modulo-fase-1.md) | `1_analisador_de_midia/media_analyzer.py` |
 | 2 | [Extração de legendas](docs/modulo-fase-2.md) | `2_extrator_legenda/` (ASS, SRT, PGS) |
 | 3 | [Conversor SRT → ASS](docs/modulo-fase-3.md) | `3-conversor_str_ass/conversor_srt_para_ass.py` |
-| 4 | [Tradução IA (LM Studio/Gemma)](docs/modulo-fase-4.md) | `4_tradutor_ia_gemma4/` (6 variantes, 1 por título) |
+| 4 | [Tradução IA (LM Studio/Gemma)](docs/modulo-fase-4.md) | `4_tradutor_ia_gemma4/` (4 variantes, inglês, 1 por título) |
+| 4-B | [Tradução IA (LM Studio/Mistral Nemo)](docs/modulo-fase-4b.md) | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/` (2 variantes, francês) |
 | 5 | [Remuxer](docs/modulo-fase-5.md) | `5_juntar_legendas_filmes/batch_remuxer.py` |
 | 6 | [Sincronização de legendas](docs/modulo-fase-6.md) | `6_sincronizacao_legenda/` |
 | 7 | [Otimização de vídeo (GPU)](docs/modulo-fase-7.md) | `7_decodificador/gpu_video_optimizer.py` |
@@ -214,12 +227,12 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | **A** | 4 → [12] → 5 | Eighty-Six, ASS embutido (inglês) | [Arquitetura](docs/arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) |
 | **B** | 4 → 3 → 5 | Filme com SRT externo (inglês) | [Pipeline SRT](docs/pipeline-srt.md) |
 | **C** | 2 → OCR externo → 3 → 5 | Legenda PGS (Blu-ray bitmap) | [Arquitetura](docs/arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) |
-| **D** | 4 → [12] → 5 | Macross Delta, ASS embutido (francês) | [Arquitetura](docs/arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread) |
+| **D** | 4-B → [12] → 5 | Macross Delta, ASS embutido (francês, Mistral Nemo) | [Arquitetura](docs/arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread) |
 | **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](docs/arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista) |
 | **F** | 2 → 4 → 8 → [12] → 5 | Gundam Unicorn (especializada) | [Arquitetura](docs/arquitetura.md#esteira-f--gundam-unicorn-especializada) |
 | **G** | 2 → 4 → 10 → [12] → 5 | Guilty Crown (correção de nomes e cores) | [Arquitetura](docs/arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
 | **H** | 2 → 11 → [12] → 5 | Gundam Origin, legenda chinesa (CHS, Qwen2.5) | [Arquitetura](docs/arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25) |
-| **I** | 4 → 5 | Gundam Origin, legenda francesa (SUBFRENCH) | [Arquitetura](docs/arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench) |
+| **I** | 4-B → 5 | Gundam Origin, legenda francesa (SUBFRENCH, Mistral Nemo) | [Arquitetura](docs/arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench) |
 
 ---
 

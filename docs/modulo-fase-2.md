@@ -2,11 +2,11 @@
 
 [← Índice](README.md) · [`2_extrator_legenda/`](../2_extrator_legenda/)
 
-**Fases:** [1](modulo-fase-1.md) · **2** · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
+**Fases:** [1](modulo-fase-1.md) · **2** · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [4-B](modulo-fase-4b.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · [10](modulo-fase-10.md) · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
 
 Extrai a faixa de legenda original de um `.mkv` **sem traduzir** — útil para revisar a legenda antes de enviar para a IA (Fase 4), para a esteira de legendas **PGS/Blu-ray** ou para alimentar tradutores em lote (`tradutor_ass`, `tradutor_gundam_unicornio`).
 
-> Se a legenda for **ASS/SRT** e você quiser ir direto para a tradução, a **Fase 4** (`sub_extractor.py` / `script_tradutor_fr.py`) já faz extração + tradução em um único passo — esta fase é opcional para esses casos.
+> Se a legenda for **ASS/SRT** e você quiser ir direto para a tradução, a **[Fase 4](modulo-fase-4.md)** (`86/sub_extractor.py`) ou a **[Fase 4-B](modulo-fase-4b.md)** (`macross_deslta.py`, `script_tradutor_fr_gundam_origin.py`) já fazem extração + tradução em um único passo — esta fase é opcional para esses casos.
 
 ---
 
@@ -121,7 +121,7 @@ python ".\2_extrator_legenda\extrator_texto_bruto\extrator_texto_bruto.py" -p "<
 | Legenda extraída | Próxima fase |
 |:---|:---|
 | `legendas_eng/*_ENG.ass` | [Fase 4 — Tradução em lote (`tradutor_ass`, `tradutor_gundam_unicornio`)](modulo-fase-4.md) |
-| `legendas_eng/*_ENG.srt` | Traduza com [Fase 4 — `tradutor_srt_direto.py`](modulo-fase-4.md#6--tradutor_srt_diretopy-srt-externo) e depois [Fase 3](modulo-fase-3.md) |
+| `legendas_eng/*_ENG.srt` | Traduza com [Fase 4 — `tradutor_srt_direto.py`](modulo-fase-4.md#4--tradutor_srt_diretopy-srt-externo) e depois [Fase 3](modulo-fase-3.md) |
 | `extraidos_sup/*.sup` | OCR externo → `.srt` → [Fase 4](modulo-fase-4.md) → [Fase 3](modulo-fase-3.md) |
 
 ---

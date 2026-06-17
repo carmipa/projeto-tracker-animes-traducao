@@ -17,7 +17,7 @@ Versões fixadas para reprodutibilidade no Windows.
 |:---|:---:|:---|:---:|:---|
 | **`colorama`** | 0.4.6 | Praticamente todos os scripts | 1–12 | Cores ANSI no terminal |
 | **`tqdm`** | 4.67.3 | Praticamente todos os scripts | 1–5, 7, 9, 10, 11 | Barras de progresso |
-| **`requests`** | 2.34.2 | Scripts de tradução (`4_tradutor_ia_gemma4/`) + reparos via IA | 4, 9, 11 | HTTP para LM Studio |
+| **`requests`** | 2.34.2 | Scripts de tradução (`4_tradutor_ia_gemma4/`, `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/`) + reparos via IA | 4, 4-B, 9, 11 | HTTP para LM Studio |
 | **`pymediainfo`** | 7.0.1 | `media_analyzer.py` | 1 | Metadados via DLL MediaInfo |
 
 > **MediaInfo (SO):** necessário além do pacote pip. [Download MediaInfo](https://mediaarea.net/en/MediaInfo/Download).
@@ -79,6 +79,13 @@ flowchart LR
         C4[colorama]
         T4[tqdm]
         MKVT4[MKVToolNix]
+    end
+
+    subgraph F4B["Fase 4-B"]
+        REQ4B[requests]
+        C4B[colorama]
+        T4B[tqdm]
+        MKVT4B[MKVToolNix]
     end
 
     subgraph F5["Fase 5"]

@@ -59,7 +59,7 @@ python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 | Pasta saída ASS (Fase 3) | `...\md-2\traducao` |
 | Pasta `.mkv` / pasta `.ass` (Fase 5) | `...\md-2` / `...\md-2\traducao` |
 
-[Fase 4 (item 6)](modulo-fase-4.md#6--tradutor_srt_diretopy-srt-externo) · [Fase 3](modulo-fase-3.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-b--filme-com-srt-externo-inglês)
+[Fase 4 (item 4)](modulo-fase-4.md#4--tradutor_srt_diretopy-srt-externo) · [Fase 3](modulo-fase-3.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-b--filme-com-srt-externo-inglês)
 
 ---
 
@@ -78,32 +78,32 @@ python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 
 ---
 
-## Esteira D — Macross Delta, MKV (ASS embutido, francês) — Fase 4 → [12] → 5
+## Esteira D — Macross Delta, MKV (ASS embutido, francês) — Fase 4-B → [12] → 5
 
 ```powershell
-# Pré-requisito: LM Studio na porta 1234 (Gemma 4B)
-python ".\4_tradutor_ia_gemma4\frances_para_ptbr\macross_deslta.py"
+# Pré-requisito: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\macross_deslta.py"
 python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 python ".\12_revisao_legenda\revisao_legenda_macross_delta.py"   # opcional, lore + tags ASS
 ```
 
 Multi-thread (2 threads), glossário e cache persistente (`traducao_cache_fr.json`). Filme avulso (Macross Delta — Filme 2): mesmos passos, revisão final com `12_revisao_legenda\micross_delta_filme2.py`.
 
-[Fase 4 (item 2)](modulo-fase-4.md) · [Fase 5](modulo-fase-5.md) · [Fase 12](modulo-fase-12.md) · [Diagrama](arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread)
+[Fase 4-B](modulo-fase-4b.md) · [Fase 5](modulo-fase-5.md) · [Fase 12](modulo-fase-12.md) · [Diagrama](arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread)
 
 ---
 
-## Esteira I — Gundam Origin, MKV (ASS embutido, francês — SUBFRENCH) — Fase 4 → 5
+## Esteira I — Gundam Origin, MKV (ASS embutido, francês — SUBFRENCH) — Fase 4-B → 5
 
 ```powershell
-# Pré-requisito: LM Studio na porta 1234 (Gemma 4B)
-python ".\4_tradutor_ia_gemma4\frances_para_ptbr\script_tradutor_fr_gundam_origin.py"
+# Pré-requisito: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\script_tradutor_fr_gundam_origin.py"
 python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 ```
 
-Rota alternativa para Gundam Origin quando o release disponível tem legenda francesa embutida em vez da chinesa (Esteira H). Mesmo glossário Universal Century usado na Fase 4 — item 5/6.
+Rota alternativa para Gundam Origin quando o release disponível tem legenda francesa embutida em vez da chinesa (Esteira H). Mesmo glossário Universal Century usado na Esteira F/E, adaptado para francês.
 
-[Fase 4 (item 3)](modulo-fase-4.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench)
+[Fase 4-B](modulo-fase-4b.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench)
 
 ---
 
@@ -115,7 +115,7 @@ python ".\4_tradutor_ia_gemma4\tradutor_ass\batch_translator_ass.py"
 python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 ```
 
-[Fase 2](modulo-fase-2.md) · [Fase 4 (item 3)](modulo-fase-4.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista)
+[Fase 2](modulo-fase-2.md) · [Fase 4 (item 2)](modulo-fase-4.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista)
 
 ---
 
@@ -129,7 +129,7 @@ python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 python ".\12_revisao_legenda\revisao_legenda_gundam_unicornio.py"   # opcional, ep.1 + letras OP/ED + remux
 ```
 
-[Fase 2](modulo-fase-2.md) · [Fase 4 (item 4)](modulo-fase-4.md) · [Fase 8](modulo-fase-8.md) · [Fase 12](modulo-fase-12.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-f--gundam-unicorn-especializada)
+[Fase 2](modulo-fase-2.md) · [Fase 4 (item 3)](modulo-fase-4.md) · [Fase 8](modulo-fase-8.md) · [Fase 12](modulo-fase-12.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-f--gundam-unicorn-especializada)
 
 ---
 

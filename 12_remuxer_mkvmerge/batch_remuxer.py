@@ -210,10 +210,29 @@ class IndustrialRemuxerV2:
                 caminho_mkv_completo = os.path.join(self.pasta_raiz, mkv)
                 nome_base = os.path.splitext(mkv)[0]
 
-                # Remove o sufixo _ENG adicionado na extração caso exista para casar o nome base original do arquivo
-                nome_limpo_legenda = nome_base.replace("_ENG", "")
-                legenda_nome_esperado = f"{nome_limpo_legenda}_PTBR.ass"
-                caminho_legenda_completo = os.path.join(self.pasta_legendas, legenda_nome_esperado)
+                # Identifica variantes de sufixos de legendas comuns no ecossistema
+                nome_limpo_legenda = nome_base.replace("_PTBR", "").replace("_ENG", "")
+                
+                tentativas = [
+                    f"{nome_limpo_legenda}_PTBR_ENG.ass",
+                    f"{nome_limpo_legenda}_PTBR_PTBR.ass",
+                    f"{nome_limpo_legenda}_PTBR.ass",
+                    f"{nome_base}.ass",
+                    f"{nome_base}_ENG.ass",
+                    f"{nome_base}_PTBR.ass"
+                ]
+                
+                caminho_legenda_completo = None
+                for tentativa in tentativas:
+                    caminho = os.path.join(self.pasta_legendas, tentativa)
+                    if os.path.exists(caminho):
+                        caminho_legenda_completo = caminho
+                        legenda_nome_esperado = tentativa
+                        break
+                        
+                if not caminho_legenda_completo:
+                    legenda_nome_esperado = f"{nome_limpo_legenda}_PTBR.ass"
+                    caminho_legenda_completo = os.path.join(self.pasta_legendas, legenda_nome_esperado)
 
                 caminho_saida_final = os.path.join(self.pasta_saida, f"{nome_limpo_legenda}_PTBR.mkv")
 

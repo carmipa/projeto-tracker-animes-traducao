@@ -49,8 +49,8 @@ if sys.version_info >= (3, 7):
         pass
 
 # Caminhos padrão (podem ser ajustados conforme o projeto)
-PASTA_LEGENDA_PADRAO = None
-PASTA_ANIME_PADRAO = None
+PASTA_LEGENDA_PADRAO = r"C:\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet\legendas_ptbr"
+PASTA_ANIME_PADRAO = r"C:\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet"
 
 # Bug 01 — Padrões de metadados/créditos parasitas de fansub
 PADROES_METADADOS_FANSUB = [
@@ -320,7 +320,8 @@ def detectar_linhas_sem_traducao(pasta_legendas):
 
     RE_FRANCES = re.compile(
         r"\b(vous|avec|[êe]tre|êtes|été|est|sont|leur|cette|alors|où|très|pour|dans|sans|toujours|"
-        r"voilà|monsieur|madame|qu['’]il|qu['’]elle|c['’]est|n['’]est|n['’]a|d['’]un|d['’]une)\b",
+        r"voilà|monsieur|madame|qu['’]il|qu['’]elle|c['’]est|n['’]est|n['’]a|d['’]un|d['’]une|"
+        r"cet|ceci|cela|besoin|soins|enfant|enfants|qui|une|elle|elles|un\s+MS|rouge)\b",
         re.I
     )
     RE_ERRO_PIPELINE = re.compile(r'\[ERRO_TRADUCAO[_:]', re.I)
@@ -446,41 +447,74 @@ def remuxar_legendas_mkv(pasta_mkv, pasta_legendas, pasta_saida=None):
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Revisão e remuxing de legendas (Francês -> PT-BR) - Gundam Origin")
+    parser.add_argument("--legendas", default=PASTA_LEGENDA_PADRAO, help="Pasta com as legendas .ass")
+    parser.add_argument("--mkv", default=None, help="Pasta com os MKVs originais (ou 'pular')")
+    parser.add_argument("--saida", default=None, help="Pasta de saída dos vídeos finais com legenda")
+    parser.add_argument("--sim", action="store_true", help="Pular confirmação interativa")
+    parser.add_argument("--auditar", action="store_true", help="Auditar linhas sem tradução por padrão")
+    args, unknown = parser.parse_known_args()
+
+    usando_cli = len(sys.argv) > 1
+
     print(f"{Fore.MAGENTA}================================================================================")
     print("      REVISÃO E REMUXING DE LEGENDAS (FRANCÊS -> PT-BR) - GUNDAM ORIGIN")
     print(f"================================================================================{Style.RESET_ALL}\n")
 
-    print(f"{Fore.CYAN}[1/2] PASTA COM AS LEGENDAS .ASS (PT-BR já traduzidas do Francês)")
-    pasta_legendas = obter_diretorio_obrigatorio(
-        "Pasta com os arquivos .ass", PASTA_LEGENDA_PADRAO
-    )
-
-    print()
-    print(f"{Fore.CYAN}[2/2] PASTA COM OS ARQUIVOS .MKV ORIGINAIS (necessária para embutir as legendas)")
-    print("      Digite 'pular' para não embutir as legendas nos MKVs agora.")
-    resp_mkv = input(f"{Fore.YELLOW}Pasta dos MKVs originais (ou 'pular')\n> {Style.RESET_ALL}").strip().strip('"').strip("'")
-    pasta_mkv = None if (not resp_mkv or resp_mkv.lower() == 'pular') else resp_mkv
-
-    pasta_saida_mkv = None
-    if pasta_mkv and os.path.isdir(pasta_mkv):
-        print()
-        print(f"{Fore.CYAN}[EXTRA] PASTA DE SAÍDA PARA OS MKVs FINALIZADOS")
-        padrao_saida = os.path.join(pasta_mkv, "corrigidos")
-        pasta_saida_mkv = obter_pasta_saida(
-            "Pasta de saída dos vídeos finais com legenda", padrao_saida
+    if usando_cli or args.sim:
+        pasta_legendas = args.legendas
+        if not pasta_legendas:
+            pasta_legendas = PASTA_LEGENDA_PADRAO
+        if not pasta_legendas or not os.path.isdir(pasta_legendas):
+            print(f"{Fore.RED}[ERRO] Pasta de legendas inválida ou não informada: {pasta_legendas}")
+            sys.exit(1)
+            
+        pasta_mkv = args.mkv
+        if pasta_mkv and pasta_mkv.lower() == 'pular':
+            pasta_mkv = None
+            
+        pasta_saida_mkv = args.saida
+        if pasta_mkv and not pasta_saida_mkv:
+            pasta_saida_mkv = os.path.join(pasta_mkv, "corrigidos")
+            
+        opcao_auditoria = 's' if args.auditar else 'n'
+        confirma = 's' if args.sim else 'n'
+    else:
+        # Fluxo interativo antigo
+        print(f"{Fore.CYAN}[1/2] PASTA COM AS LEGENDAS .ASS (PT-BR já traduzidas do Francês)")
+        pasta_legendas = obter_diretorio_obrigatorio(
+            "Pasta com os arquivos .ass", PASTA_LEGENDA_PADRAO
         )
-    elif pasta_mkv:
-        print(f"{Fore.RED}[AVISO] Pasta de vídeos MKV não encontrada: {pasta_mkv}. Remuxing será pulado.")
-        pasta_mkv = None
 
-    # ── RESUMO ──────────────────────────────────────────────────────────────────
-    print("\n" + "=" * 80)
-    print(f"{Fore.CYAN}CONFIGURAÇÃO CONFIRMADA:")
-    print(f"  Legendas    : {pasta_legendas}")
-    print(f"  MKVs        : {pasta_mkv or '(pulado)'}")
-    print(f"  Saída MKVs  : {pasta_saida_mkv or '(pulado)'}")
-    print("=" * 80)
-    confirma = input(f"{Fore.YELLOW}Confirma e inicia o processamento? (s/n): {Style.RESET_ALL}").strip().lower()
+        print()
+        print(f"{Fore.CYAN}[2/2] PASTA COM OS ARQUIVOS .MKV ORIGINAIS (necessária para embutir as legendas)")
+        print("      Digite 'pular' para não embutir as legendas nos MKVs agora.")
+        resp_mkv = input(f"{Fore.YELLOW}Pasta dos MKVs originais (ou 'pular')\n> {Style.RESET_ALL}").strip().strip('"').strip("'")
+        pasta_mkv = None if (not resp_mkv or resp_mkv.lower() == 'pular') else resp_mkv
+
+        pasta_saida_mkv = None
+        if pasta_mkv and os.path.isdir(pasta_mkv):
+            print()
+            print(f"{Fore.CYAN}[EXTRA] PASTA DE SAÍDA PARA OS MKVs FINALIZADOS")
+            padrao_saida = os.path.join(pasta_mkv, "corrigidos")
+            pasta_saida_mkv = obter_pasta_saida(
+                "Pasta de saída dos vídeos finais com legenda", padrao_saida
+            )
+        elif pasta_mkv:
+            print(f"{Fore.RED}[AVISO] Pasta de vídeos MKV não encontrada: {pasta_mkv}. Remuxing será pulado.")
+            pasta_mkv = None
+            
+        # ── RESUMO ──────────────────────────────────────────────────────────────────
+        print("\n" + "=" * 80)
+        print(f"{Fore.CYAN}CONFIGURAÇÃO CONFIRMADA:")
+        print(f"  Legendas    : {pasta_legendas}")
+        print(f"  MKVs        : {pasta_mkv or '(pulado)'}")
+        print(f"  Saída MKVs  : {pasta_saida_mkv or '(pulado)'}")
+        print("=" * 80)
+        confirma = input(f"{Fore.YELLOW}Confirma e inicia o processamento? (s/n): {Style.RESET_ALL}").strip().lower()
+        opcao_auditoria = None
+
     if confirma != 's':
         print(f"{Fore.YELLOW}[CANCELADO] Nenhuma alteração foi feita.")
         return
@@ -490,8 +524,10 @@ def main():
     corrigir_arquivos_ass(pasta_legendas)
 
     # 2. Auditoria de linhas sem tradução ou com resíduo francês
-    print("\n" + "=" * 80)
-    opcao_auditoria = input(f"{Fore.YELLOW}Auditar linhas por palavras em francês esquecidas? (s/n): {Style.RESET_ALL}").strip().lower()
+    if opcao_auditoria is None:
+        print("\n" + "=" * 80)
+        opcao_auditoria = input(f"{Fore.YELLOW}Auditar linhas por palavras em francês esquecidas? (s/n): {Style.RESET_ALL}").strip().lower()
+    
     if opcao_auditoria == 's':
         detectar_linhas_sem_traducao(pasta_legendas)
 

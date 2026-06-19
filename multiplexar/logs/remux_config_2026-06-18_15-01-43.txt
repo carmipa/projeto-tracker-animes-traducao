@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-06-18 15:01:43
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : C:\animes\Sidonia no Kishi (Knights of Sidonia)\Season 1
+Diretório de Legendas Subs : C:\animes\Sidonia no Kishi (Knights of Sidonia)\Season 1\legendas_ptbr
+Diretório de Destino Final : C:\animes\Sidonia no Kishi (Knights of Sidonia)\Season 1\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

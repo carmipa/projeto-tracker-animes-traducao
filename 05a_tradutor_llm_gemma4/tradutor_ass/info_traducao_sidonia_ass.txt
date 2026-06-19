@@ -1,0 +1,17 @@
+RELATÓRIO DE TRADUÇÃO BATCH - BATCH TRANSLATOR ASS
+Gerado em: 2026-06-17 17:33:58
+Batch size: 8 linhas/chamada | Threads: 2
+================================================================================
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E01 - Commencement [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 2696 | Chamadas: 295 | Fallbacks: 394
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E03 - Glory [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 1439 | Chamadas: 148 | Fallbacks: 64
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E04 - Sacrifices [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 1019 | Chamadas: 96 | Fallbacks: 71
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E05 - Adrift [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 1627 | Chamadas: 173 | Fallbacks: 86
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E06 - Salutations [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 2835 | Chamadas: 319 | Fallbacks: 405
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E07 - Resolve [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 1816 | Chamadas: 184 | Fallbacks: 301
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E08 - Immortality [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 1708 | Chamadas: 149 | Fallbacks: 52
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E09 - Empathy [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 3607 | Chamadas: 421 | Fallbacks: 72
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E10 - Decisions [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 1899 | Chamadas: 208 | Fallbacks: 238
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E11 - Collision [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 760 | Chamadas: 65 | Fallbacks: 26
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S01E12 - Home [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.ass | Diálogos: 1150 | Chamadas: 138 | Fallbacks: 144
+================================================================================
+TOTAL: 11 arquivos | 20556 diálogos | 1853 fallbacks

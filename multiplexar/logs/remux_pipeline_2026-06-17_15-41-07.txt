@@ -1,0 +1,15 @@
+[15:41:07.753] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-17_15-41-07.txt
+[15:41:07.754] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[15:41:08.232] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[15:41:08.233] [DEBUG   ] Validando caminhos de diretórios locais...
+[15:41:08.248] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[15:41:08.249] [DEBUG   ] Escaneando diretório: D:\Sidonia no Kishi (Knights of Sidonia)\Movie
+[15:41:08.249] [INFO    ] Encontrados 1 arquivos de vídeo com extensão .mkv.
+[15:41:08.249] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[15:41:08.250] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S00E02 -  [BD][1080p][AV1][OPUS][Dual Audio].mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S00E02 -  [BD][1080p][AV1][OPUS][Dual Audio]_PTBR.ass
+[15:41:08.250] [INFO    ] Esteira trancada. Processando 1 episódios em lote via mkvmerge.
+[15:41:08.261] [INFO    ] [1/1] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S00E02 -  [BD][1080p][AV1][OPUS][Dual Audio].mkv
+[15:41:08.261] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[15:41:12.434] [INFO    ] SUCESSO:   Concluido (1.926 GB) em 4.17s! Legenda adicionada.
+[15:41:12.435] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-17_15-41-07.json
+[15:41:12.436] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

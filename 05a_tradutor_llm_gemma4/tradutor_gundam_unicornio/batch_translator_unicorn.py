@@ -14,6 +14,7 @@ import os
 import re
 import sys
 import time
+import logging
 import requests
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -22,6 +23,8 @@ from colorama import init, Fore, Style
 
 init(autoreset=True)
 
+LARANJA_LM_OFFLINE = "\033[38;5;208m"  # ANSI 256 cores (via colorama) - destaca quedas do LM Studio das demais mensagens
+
 LM_STUDIO_URL = "http://localhost:1234/v1/chat/completions"
 LM_STUDIO_MODELS_URL = "http://localhost:1234/v1/models"
 MAX_THREADS = 2   # threads paralelos (reduzido de 4 para 2 para dar mais memoria de contexto por slot)
@@ -29,9 +32,24 @@ BATCH_SIZE = 8   # Reduzido para 8 linhas por chamada para evitar estouro de tok
 MODELO_ATIVO = "local-model"  # Selecionado dinamicamente no barramento local
 
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
-ARQUIVO_INFO = os.path.join(PASTA_SCRIPT, "info.txt")
-DEBUG_FILE = os.path.join(PASTA_SCRIPT, "debug_last_failure.txt")
+ARQUIVO_INFO = None   # Definido dentro da pasta de saída em executar_pipeline_lote()
+DEBUG_FILE = None     # Definido dentro da pasta de saída em executar_pipeline_lote()
 _debug_salvo = False  # salva apenas o primeiro batch falho para analise
+
+logger = logging.getLogger("unicorn_translator")
+logger.setLevel(logging.DEBUG)
+
+
+def _configurar_logger(pasta_saida, timestamp_execucao):
+    """Liga um FileHandler dentro da pasta de saída para registrar, com detalhe, cada
+    chamada à API (erros HTTP, quedas de conexão, tokens/s, fallbacks). Não duplica no console."""
+    caminho_log = os.path.join(pasta_saida, f"log_traducao_unicorn_{timestamp_execucao}.log")
+    handler = logging.FileHandler(caminho_log, encoding="utf-8")
+    handler.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S"))
+    logger.handlers.clear()
+    logger.addHandler(handler)
+    logger.propagate = False
+    return caminho_log
 
 SYSTEM_PROMPT = (
     "You are an expert subtitler for Japanese anime, specializing in the Gundam Universal Century timeline.\n"
@@ -135,11 +153,10 @@ def _parsear_resposta_numerada(conteudo, n_esperado):
             linhas.append(_limpar_markdown(m.group(1)))
     if len(linhas) >= n_esperado:
         return linhas[:n_esperado]
-    # fallback: linhas brutas nao-vazias sem preamble do modelo
     linhas_raw = [
         _limpar_markdown(l)
         for l in conteudo.split('\n')
-        if l.strip() and not re.match(r'^(here|sure|translation|below|ok)', l.strip(), re.I)
+        if l.strip() and not re.match(r'^(here|sure|translation|below|ok|claro|aqui|esta |segue|abaixo)', l.strip(), re.I)
     ]
     return linhas_raw[:n_esperado]
 
@@ -160,7 +177,7 @@ def _salvar_debug(input_texto, output_bruto, traducoes_parsed):
     print(f"\n{Fore.YELLOW}[DEBUG] Resposta do modelo salva em: {DEBUG_FILE}")
 
 
-def traduzir_bloco_ia(bloco):
+def traduzir_bloco_ia(bloco, nome_arquivo="?"):
     """
     Traduz um bloco de linhas em uma unica chamada de API.
     bloco = list of (index, metadados, texto_limpo, tags_encontradas)
@@ -193,16 +210,21 @@ def traduzir_bloco_ia(bloco):
             {"role": "user", "content": f"Translate these {len(textos_u)} lines to PT-BR. Return ONLY numbered translations:\n{texto_numerado}"}
         ],
         "temperature": 0.1,
-        "max_tokens": 4000 # Espaco suficiente para o raciocinio e para as 10 linhas traduzidas
+        "max_tokens": 800 # Espaco suficiente para as 8 linhas traduzidas
     }
 
     max_tentativas = 3
     tentativa = 0
+    tentativas_offline = 0
+    max_tentativas_offline = 4  # LM Studio caído pode levar bem mais que 15s para religar o modelo na VRAM
 
     while tentativa < max_tentativas:
         try:
+            t_inicio = time.perf_counter()
             resposta = requests.post(LM_STUDIO_URL, json=payload, timeout=120)
+            elapsed = time.perf_counter() - t_inicio
             if resposta.status_code != 200:
+                logger.error(f"[{nome_arquivo}] Bloco {indices_u[0]}-{indices_u[-1]} | HTTP {resposta.status_code} em {elapsed:.1f}s | corpo: {resposta.text[:300]}")
                 tentativa += 1
                 if tentativa < max_tentativas:
                     tempo_espera = tentativa * 5
@@ -213,10 +235,17 @@ def traduzir_bloco_ia(bloco):
                     _salvar_debug(texto_numerado, f"HTTP {resposta.status_code}\n{resposta.text}", [])
                     raise Exception(f"HTTP {resposta.status_code} - {resposta.text[:200]}")
 
-            conteudo = resposta.json()['choices'][0]['message']['content'].strip()
+            dados_resposta = resposta.json()
+            conteudo = dados_resposta['choices'][0]['message']['content'].strip()
             traducoes = _parsear_resposta_numerada(conteudo, len(textos_u))
 
+            usage = dados_resposta.get('usage', {})
+            tokens_resp = usage.get('completion_tokens')
+            tok_s = f"{tokens_resp / elapsed:.1f} tok/s" if tokens_resp and elapsed > 0 else "N/D"
+            logger.info(f"[{nome_arquivo}] Bloco {indices_u[0]}-{indices_u[-1]} | {len(textos_u)} linhas | {elapsed:.1f}s | {tokens_resp or '?'} tokens | {tok_s} | tentativa {tentativa + 1}")
+
             if len(traducoes) < len(textos_u):
+                logger.warning(f"[{nome_arquivo}] Bloco {indices_u[0]}-{indices_u[-1]} | resposta incompleta: {len(traducoes)}/{len(textos_u)} linhas parseadas | conteúdo bruto: {conteudo[:300]!r}")
                 tentativa += 1
                 if tentativa < max_tentativas:
                     tempo_espera = tentativa * 3
@@ -243,8 +272,30 @@ def traduzir_bloco_ia(bloco):
                     resultados.append((idx, f"{meta}[ERRO_TRADUCAO: {texto_orig}]\n", True))
             return resultados
 
+        except requests.exceptions.ConnectionError as e:
+            # Causa real observada em debug_last_failure (Sidonia): o processo do LM Studio
+            # caiu/recarregou o modelo (estouro de VRAM ou reinício manual) e a porta para de
+            # responder por um tempo. Isso NÃO é um erro HTTP 400 - a conexão é recusada no
+            # nível de socket. Por isso usamos um backoff bem maior aqui do que nos outros
+            # erros: religar o modelo na GPU pode levar bem mais que os 5-15s do backoff padrão.
+            tentativas_offline += 1
+            if tentativas_offline < max_tentativas_offline:
+                tempo_espera = tentativas_offline * 20
+                logger.error(f"[{nome_arquivo}] Bloco {indices_u[0]}-{indices_u[-1]} | LM Studio OFFLINE (conexão recusada) | tentativa offline {tentativas_offline}/{max_tentativas_offline} | aguardando {tempo_espera}s")
+                print(f"\n{LARANJA_LM_OFFLINE}[LM STUDIO OFFLINE] Conexão recusada no bloco {indices_u[0]}-{indices_u[-1]}. O servidor pode estar reiniciando/recarregando o modelo na VRAM. Tentativa {tentativas_offline}/{max_tentativas_offline}. Aguardando {tempo_espera}s...")
+                time.sleep(tempo_espera)
+            else:
+                logger.error(f"[{nome_arquivo}] Bloco {indices_u[0]}-{indices_u[-1]} | LM Studio permaneceu OFFLINE após {max_tentativas_offline} tentativas | {e}")
+                print(f"\n{Fore.RED}[FALHA] LM Studio não voltou a responder no bloco {indices_u[0]}-{indices_u[-1]} após {max_tentativas_offline} tentativas: {e}")
+                _salvar_debug(texto_numerado, str(e), [])
+                resultados = list(resultados_vazios.values())
+                for idx, meta, texto, _ in zip(indices_u, metadados_u, textos_u, tags_u):
+                    resultados.append((idx, f"{meta}[ERRO_TRADUCAO: {texto}]\n", True))
+                return resultados
+
         except Exception as e:
             tentativa += 1
+            logger.error(f"[{nome_arquivo}] Bloco {indices_u[0]}-{indices_u[-1]} | exceção: {e!r} | tentativa {tentativa}/{max_tentativas}")
             if tentativa < max_tentativas:
                 tempo_espera = tentativa * 5
                 print(f"\n{Fore.YELLOW}[AVISO] Excecao no bloco {indices_u[0]}-{indices_u[-1]}: {e}. Tentativa {tentativa}/{max_tentativas}. Aguardando {tempo_espera}s...")
@@ -286,7 +337,15 @@ def executar_pipeline_lote():
         print(f"{Fore.RED}[ERRO] Nenhum .ass em: {pasta_origem}")
         return
 
+    global ARQUIVO_INFO, DEBUG_FILE
+    timestamp_execucao = datetime.now().strftime('%Y%m%d_%H%M%S')
+    ARQUIVO_INFO = os.path.join(pasta_saida, "info.txt")
+    DEBUG_FILE = os.path.join(pasta_saida, "debug_last_failure.txt")
+    caminho_log = _configurar_logger(pasta_saida, timestamp_execucao)
+    logger.info(f"=== INÍCIO DA EXECUÇÃO | modelo={MODELO_ATIVO} | batch={BATCH_SIZE} | threads={MAX_THREADS} | origem={pasta_origem} | saida={pasta_saida} ===")
+
     print(f"{Fore.GREEN}[OK] {len(arquivos_ass)} arquivos carregados | batch={BATCH_SIZE} | threads={MAX_THREADS}")
+    print(f"{Fore.CYAN}[LOG] Detalhes de cada chamada (erros, quedas de conexão, tokens/s) em: {caminho_log}")
 
     linhas_relatorio = [
         "RELATORIO DE TRADUCAO BATCH - BATCH TRANSLATOR UNICORN",
@@ -296,6 +355,7 @@ def executar_pipeline_lote():
     ]
     total_fallbacks_geral = 0
     total_dialogos_geral = 0
+    t_execucao_inicio = time.perf_counter()
 
     with tqdm(total=len(arquivos_ass), desc="Temporada Completa", unit="arq", colour="green", ncols=80, position=0) as barra_macro:
         for idx, arquivo in enumerate(arquivos_ass):
@@ -348,10 +408,11 @@ def executar_pipeline_lote():
 
             total_chamadas = len(blocos)
             tqdm.write(f"  {Fore.CYAN}Dialogos: {total_dialogos} | Chamadas API: {total_chamadas} (reducao {total_dialogos//max(total_chamadas,1)}x)")
+            t_episodio_inicio = time.perf_counter()
 
             with tqdm(total=total_chamadas, desc=f"  Ep {idx+1:02d} batches", unit="bat", colour="cyan", ncols=80, position=1, leave=False) as barra_micro:
                 with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-                    futuros = {executor.submit(traduzir_bloco_ia, bloco): bloco for bloco in blocos}
+                    futuros = {executor.submit(traduzir_bloco_ia, bloco, arquivo): bloco for bloco in blocos}
                     for futuro in as_completed(futuros):
                         for orig_idx, linha_proc, usou_fallback in futuro.result():
                             mapa_linhas_finais[orig_idx] = linha_proc
@@ -362,26 +423,32 @@ def executar_pipeline_lote():
             with open(caminho_saida, 'w', encoding='utf-8') as f:
                 f.writelines(l for l in mapa_linhas_finais if l is not None)
 
-            tqdm.write(f"{Fore.GREEN}  [SALVO] {nome_saida_ptbr} | Chamadas: {total_chamadas} | Fallbacks: {fallbacks_arquivo}")
+            elapsed_episodio = time.perf_counter() - t_episodio_inicio
+            tqdm.write(f"{Fore.GREEN}  [SALVO] {nome_saida_ptbr} | Chamadas: {total_chamadas} | Fallbacks: {fallbacks_arquivo} | Tempo: {elapsed_episodio:.1f}s")
+            logger.info(f"[{arquivo}] concluído | diálogos={total_dialogos} | chamadas={total_chamadas} | fallbacks={fallbacks_arquivo} ({fallbacks_arquivo/max(total_dialogos,1)*100:.1f}%) | tempo={elapsed_episodio:.1f}s")
             linhas_relatorio.append(
-                f"{nome_saida_ptbr} | Dialogos: {total_dialogos} | Chamadas: {total_chamadas} | Fallbacks: {fallbacks_arquivo}"
+                f"{nome_saida_ptbr} | Dialogos: {total_dialogos} | Chamadas: {total_chamadas} | Fallbacks: {fallbacks_arquivo} | Tempo: {elapsed_episodio:.1f}s"
             )
             total_fallbacks_geral += fallbacks_arquivo
             total_dialogos_geral += total_dialogos
             barra_macro.update(1)
 
+    elapsed_total = time.perf_counter() - t_execucao_inicio
     linhas_relatorio.append("=" * 80)
     linhas_relatorio.append(
-        f"TOTAL: {len(arquivos_ass)} arquivos | {total_dialogos_geral} dialogos | {total_fallbacks_geral} fallbacks"
+        f"TOTAL: {len(arquivos_ass)} arquivos | {total_dialogos_geral} dialogos | {total_fallbacks_geral} fallbacks | Tempo total: {elapsed_total/60:.1f}min"
     )
 
     with open(ARQUIVO_INFO, "w", encoding="utf-8") as f:
         f.write("\n".join(linhas_relatorio) + "\n")
 
+    logger.info(f"=== FIM DA EXECUÇÃO | {len(arquivos_ass)} arquivos | {total_dialogos_geral} diálogos | {total_fallbacks_geral} fallbacks | {elapsed_total/60:.1f}min ===")
+
     print("\n" + "=" * 80)
-    print(f"{Fore.GREEN}[SUCESSO] Pipeline batch concluido!")
+    print(f"{Fore.GREEN}[SUCESSO] Pipeline batch concluido em {elapsed_total/60:.1f}min!")
     print(f"{Fore.GREEN}Legendas PT-BR em: {pasta_saida}")
     print(f"{Fore.CYAN}Relatorio: {ARQUIVO_INFO}")
+    print(f"{Fore.CYAN}Log detalhado: {caminho_log}")
     print("=" * 80)
 
 

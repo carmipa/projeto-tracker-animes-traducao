@@ -1,0 +1,14 @@
+=== INPUT ENVIADO AO MODELO ===
+1. [T0]Gravity Hall
+2. [T0]Gravity \NHall
+3. [T0]Gravity \NHall
+4. [T0]Gravity Hall
+5. [T0]Gravity \NHall
+6. [T0]Gravity \NHall
+7. [T0]Gravity Hall
+8. [T0]Gravity \NHall
+
+=== RESPOSTA BRUTA DO MODELO ===
+HTTPConnectionPool(host='localhost', port=1234): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=1234): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente"))
+
+=== PARSED (0 linhas) ===

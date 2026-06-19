@@ -1,0 +1,24 @@
+='+'= AUDITORIA DE ERRO: 2026-06-19 08:58:26 ='+'=
+Contexto: CalledProcessError no arquivo: [Cleo]Macross_Delta_-_23_(10bit_BD1080p_x265)_PTBR.mkv
+Log Stdout:
+mkvmerge v99.0 ('Buka') 64-bit
+Erro: O tipo de arquivo 'E:\animes\MACROSS\Macross-Delta-br\macross_delta\legendas_eng\[Cleo]Macross_Delta_-_23_(10bit_BD1080p_x265)_PTBR_ENG.ass' nÃ£o pode ser reconhecido.
+
+Traceback Computacional:
+Log Stderr:
+
+
+Traceback (most recent call last):
+  File "d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\12_remuxer_mkvmerge\batch_remuxer.py", line 299, in executar_operacao_remux
+    resultado = subprocess.run(
+        comando_mkvmerge,
+    ...<3 lines>...
+        check=True
+    )
+  File "C:\Users\Paulo\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\Program Files\\MKVToolNix\\mkvmerge.exe', '-o', 'E:\\animes\\MACROSS\\Macross-Delta-br\\macross_delta\\mkv_final_ptbr\\[Cleo]Macross_Delta_-_23_(10bit_BD1080p_x265)_PTBR.mkv', '--no-subtitles', 'E:\\animes\\MACROSS\\Macross-Delta-br\\macross_delta\\[Cleo]Macross_Delta_-_23_(10bit_BD1080p_x265)_PTBR.mkv', '--language', '0:por', '--track-name', '0:Português (Gemma 4B)', '--default-track', '0:yes', 'E:\\animes\\MACROSS\\Macross-Delta-br\\macross_delta\\legendas_eng\\[Cleo]Macross_Delta_-_23_(10bit_BD1080p_x265)_PTBR_ENG.ass']' returned non-zero exit status 2.
+
+================================================================================
+

@@ -1,0 +1,99 @@
+[09:10:08.156] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-19_09-10-08.txt
+[09:10:08.156] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[09:10:08.187] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[09:10:08.187] [DEBUG   ] Validando caminhos de diretórios locais...
+[09:10:08.191] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[09:10:08.206] [DEBUG   ] Escaneando diretório: E:\animes\GUILTY CROWN\1080p
+[09:10:08.207] [INFO    ] Encontrados 22 arquivos de vídeo com extensão .mkv.
+[09:10:08.207] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[09:10:08.208] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.209] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.210] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.211] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.213] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.214] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.215] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.216] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.218] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.219] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.220] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.222] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.223] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.224] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_14_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_14_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.226] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_15_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_15_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.227] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_16_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_16_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.228] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_17_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_17_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.229] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_18_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_18_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.231] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_19_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_19_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.232] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_20_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_20_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.233] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_21_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_21_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.235] [DEBUG   ]   Pareado com sucesso: [DB]Guilty Crown_-_22_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]Guilty Crown_-_22_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[09:10:08.235] [INFO    ] Esteira trancada. Processando 22 episódios em lote via mkvmerge.
+[09:10:08.245] [INFO    ] [1/22] Multiplexando container Matroska: [DB]Guilty Crown_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:08.245] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:09.830] [INFO    ] SUCESSO:   Concluido (0.318 GB) em 1.58s! Legenda adicionada.
+[09:10:09.831] [INFO    ] [2/22] Multiplexando container Matroska: [DB]Guilty Crown_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:09.831] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:11.501] [INFO    ] SUCESSO:   Concluido (0.336 GB) em 1.67s! Legenda adicionada.
+[09:10:11.501] [INFO    ] [3/22] Multiplexando container Matroska: [DB]Guilty Crown_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:11.501] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:12.950] [INFO    ] SUCESSO:   Concluido (0.272 GB) em 1.45s! Legenda adicionada.
+[09:10:12.950] [INFO    ] [4/22] Multiplexando container Matroska: [DB]Guilty Crown_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:12.950] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:14.594] [INFO    ] SUCESSO:   Concluido (0.322 GB) em 1.64s! Legenda adicionada.
+[09:10:14.595] [INFO    ] [5/22] Multiplexando container Matroska: [DB]Guilty Crown_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:14.595] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:16.056] [INFO    ] SUCESSO:   Concluido (0.281 GB) em 1.46s! Legenda adicionada.
+[09:10:16.056] [INFO    ] [6/22] Multiplexando container Matroska: [DB]Guilty Crown_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:16.056] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:17.596] [INFO    ] SUCESSO:   Concluido (0.296 GB) em 1.54s! Legenda adicionada.
+[09:10:17.597] [INFO    ] [7/22] Multiplexando container Matroska: [DB]Guilty Crown_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:17.597] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:19.417] [INFO    ] SUCESSO:   Concluido (0.324 GB) em 1.82s! Legenda adicionada.
+[09:10:19.418] [INFO    ] [8/22] Multiplexando container Matroska: [DB]Guilty Crown_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:19.418] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:20.947] [INFO    ] SUCESSO:   Concluido (0.293 GB) em 1.53s! Legenda adicionada.
+[09:10:20.948] [INFO    ] [9/22] Multiplexando container Matroska: [DB]Guilty Crown_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:20.948] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:22.588] [INFO    ] SUCESSO:   Concluido (0.327 GB) em 1.64s! Legenda adicionada.
+[09:10:22.588] [INFO    ] [10/22] Multiplexando container Matroska: [DB]Guilty Crown_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:22.588] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:24.314] [INFO    ] SUCESSO:   Concluido (0.315 GB) em 1.72s! Legenda adicionada.
+[09:10:24.314] [INFO    ] [11/22] Multiplexando container Matroska: [DB]Guilty Crown_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:24.314] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:26.155] [INFO    ] SUCESSO:   Concluido (0.375 GB) em 1.84s! Legenda adicionada.
+[09:10:26.155] [INFO    ] [12/22] Multiplexando container Matroska: [DB]Guilty Crown_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:26.155] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:27.759] [INFO    ] SUCESSO:   Concluido (0.317 GB) em 1.60s! Legenda adicionada.
+[09:10:27.759] [INFO    ] [13/22] Multiplexando container Matroska: [DB]Guilty Crown_-_13_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:27.759] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:29.101] [INFO    ] SUCESSO:   Concluido (0.249 GB) em 1.34s! Legenda adicionada.
+[09:10:29.101] [INFO    ] [14/22] Multiplexando container Matroska: [DB]Guilty Crown_-_14_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:29.101] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:30.447] [INFO    ] SUCESSO:   Concluido (0.240 GB) em 1.34s! Legenda adicionada.
+[09:10:30.447] [INFO    ] [15/22] Multiplexando container Matroska: [DB]Guilty Crown_-_15_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:30.447] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:32.090] [INFO    ] SUCESSO:   Concluido (0.267 GB) em 1.64s! Legenda adicionada.
+[09:10:32.090] [INFO    ] [16/22] Multiplexando container Matroska: [DB]Guilty Crown_-_16_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:32.091] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:33.407] [INFO    ] SUCESSO:   Concluido (0.240 GB) em 1.32s! Legenda adicionada.
+[09:10:33.408] [INFO    ] [17/22] Multiplexando container Matroska: [DB]Guilty Crown_-_17_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:33.408] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:34.962] [INFO    ] SUCESSO:   Concluido (0.261 GB) em 1.55s! Legenda adicionada.
+[09:10:34.962] [INFO    ] [18/22] Multiplexando container Matroska: [DB]Guilty Crown_-_18_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:34.963] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:36.421] [INFO    ] SUCESSO:   Concluido (0.276 GB) em 1.46s! Legenda adicionada.
+[09:10:36.421] [INFO    ] [19/22] Multiplexando container Matroska: [DB]Guilty Crown_-_19_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:36.421] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:42.545] [INFO    ] SUCESSO:   Concluido (0.277 GB) em 6.12s! Legenda adicionada.
+[09:10:42.545] [INFO    ] [20/22] Multiplexando container Matroska: [DB]Guilty Crown_-_20_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:42.545] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:48.188] [INFO    ] SUCESSO:   Concluido (0.217 GB) em 5.64s! Legenda adicionada.
+[09:10:48.188] [INFO    ] [21/22] Multiplexando container Matroska: [DB]Guilty Crown_-_21_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:48.188] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:10:54.195] [INFO    ] SUCESSO:   Concluido (0.297 GB) em 6.01s! Legenda adicionada.
+[09:10:54.195] [INFO    ] [22/22] Multiplexando container Matroska: [DB]Guilty Crown_-_22_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[09:10:54.195] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:11:04.510] [INFO    ] SUCESSO:   Concluido (0.381 GB) em 10.31s! Legenda adicionada.
+[09:11:04.526] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-19_09-10-08.json
+[09:11:04.526] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

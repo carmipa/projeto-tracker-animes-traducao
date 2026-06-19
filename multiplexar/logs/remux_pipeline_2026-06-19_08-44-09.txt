@@ -1,0 +1,10 @@
+[08:44:09.638] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-19_08-44-09.txt
+[08:44:09.639] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[08:44:09.743] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[08:44:09.743] [DEBUG   ] Validando caminhos de diretórios locais...
+[08:44:09.744] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[08:44:09.759] [DEBUG   ] Escaneando diretório: C:\cerebro_de_ia
+[08:44:09.759] [INFO    ] Encontrados 0 arquivos de vídeo com extensão .mkv.
+[08:44:09.760] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[08:44:09.760] [WARNING ] A fila de processamento está vazia. Nenhuma ação será tomada.
+[08:44:09.760] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-19_08-44-09.json

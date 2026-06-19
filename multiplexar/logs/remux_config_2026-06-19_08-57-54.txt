@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-06-19 08:57:54
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : E:\animes\MACROSS\Macross-Delta-br\macross_delta
+Diretório de Legendas Subs : E:\animes\MACROSS\Macross-Delta-br\macross_delta\legendas_eng
+Diretório de Destino Final : E:\animes\MACROSS\Macross-Delta-br\macross_delta\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

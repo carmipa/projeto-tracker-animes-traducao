@@ -131,7 +131,7 @@ def aplicar_correcao_linha_ass(texto_dialogo):
     # 1. Correções estritas de frases completas (ou quase completas) do gato
     if "Gólgota não está sendo cuidado" in texto_dialogo:
         texto_dialogo = texto_dialogo.replace("Gólgota não está sendo cuidado", "O Lúcifer está sem ninguém para cuidar dele")
-    elif "Gólgota?" in texto_dialogo:
+    elif re.sub(r'\{[^}]*\}', '', texto_dialogo).strip() == "Gólgota?":
         texto_dialogo = texto_dialogo.replace("Gólgota?", "Lúcifer?")
     elif "Executar a Operação Gólgota" in texto_dialogo:
         texto_dialogo = texto_dialogo.replace("Executar a Operação Gólgota", "Executar a operação de resgate do Lúcifer")

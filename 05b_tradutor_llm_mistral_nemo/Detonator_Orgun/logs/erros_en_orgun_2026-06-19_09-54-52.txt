@@ -1,0 +1,30 @@
+
+================================================================================
+PIPELINE INDUSTRIAL MISTRAL INGLÊS - DETONATOR ORGUN
+================================================================================
+Início    : 2026-06-19 09:54:52
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Detonator_Orgun\logs
+================================================================================
+
+
+================================================================================
+TRACEBACK COMPLETO
+================================================================================
+Contexto : Falha global no pipeline de Orgun
+
+Traceback (most recent call last):
+  File "d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Detonator_Orgun\script_tradutor_en_detonator_orgun.py", line 431, in <module>
+    pipeline.rodar_pasta(pasta_entrada, pasta_saida)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Detonator_Orgun\script_tradutor_en_detonator_orgun.py", line 416, in rodar_pasta
+    self.processar_arquivo(arq, caminho_saida)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Detonator_Orgun\script_tradutor_en_detonator_orgun.py", line 374, in processar_arquivo
+    traducoes = self._traduzir_lote(lote_atual)
+  File "d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Detonator_Orgun\script_tradutor_en_detonator_orgun.py", line 317, in _traduzir_lote
+    if validar_traducao(linhas[idx], texto_limpo):
+                        ~~~~~~^^^^^
+IndexError: list index out of range
+
+--------------------------------------------------------------------------------
+

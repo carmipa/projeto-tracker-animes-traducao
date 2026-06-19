@@ -1,0 +1,31 @@
+
+================================================================================
+PIPELINE INDUSTRIAL MISTRAL INGLÊS - DETONATOR ORGUN
+================================================================================
+Início    : 2026-06-19 09:57:36
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Detonator_Orgun\logs
+================================================================================
+
+[09:57:36.809] [INFO    ] Cache carregado: 89 traduções.
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[09:57:36.815] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[09:57:36.818] [SUCESSO ] LM Studio OK — 5 modelo(s)
+[09:57:36.818] [INFO    ] Usando modelo: mistralai/mistral-nemo-instruct-2407
+[09:57:36.818] [SUCESSO ] ✓ Infraestrutura validada!
+
+================================================================================
+                             PROCESSAMENTO EM LOTE                              
+================================================================================
+
+[09:57:36.820] [INFO    ] Processando: [Exiled-Destiny]_Detonator_Orgun_Ep01_(B0BE1BC7)_ENG.srt
+[10:02:23.633] [SUCESSO ] Arquivo salvo: E:\animes\DETONATOR ORGUN\legendas_ptbr\[Exiled-Destiny]_Detonator_Orgun_Ep01_(B0BE1BC7)_PTBR.srt
+[10:02:23.633] [INFO    ] Processando: [Exiled-Destiny]_Detonator_Orgun_Ep02_(2795B742)_ENG.srt
+[10:07:33.575] [SUCESSO ] Arquivo salvo: E:\animes\DETONATOR ORGUN\legendas_ptbr\[Exiled-Destiny]_Detonator_Orgun_Ep02_(2795B742)_PTBR.srt
+[10:07:33.575] [INFO    ] Processando: [Exiled-Destiny]_Detonator_Orgun_Ep03_(8A29689E)_ENG.srt
+[10:14:47.142] [SUCESSO ] Arquivo salvo: E:\animes\DETONATOR ORGUN\legendas_ptbr\[Exiled-Destiny]_Detonator_Orgun_Ep03_(8A29689E)_PTBR.srt
+[10:14:47.146] [DEBUG   ] Stats salvo: stats_en_orgun_2026-06-19_09-57-36.json
+[10:14:47.147] [INFO    ] Finalizado. Traduzidos: 2111, Erros: 163

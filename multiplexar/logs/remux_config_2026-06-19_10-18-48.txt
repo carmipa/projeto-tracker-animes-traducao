@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-06-19 10:18:48
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : E:\animes\DETONATOR ORGUN
+Diretório de Legendas Subs : E:\animes\DETONATOR ORGUN\legendas_ptbr
+Diretório de Destino Final : E:\animes\DETONATOR ORGUN\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

@@ -1,0 +1,8 @@
+
+================================================================================
+PIPELINE INDUSTRIAL MISTRAL INGLÊS - DETONATOR ORGUN
+================================================================================
+Início    : 2026-06-19 09:57:36
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Detonator_Orgun\logs
+================================================================================
+

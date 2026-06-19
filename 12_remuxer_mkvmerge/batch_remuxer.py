@@ -219,7 +219,13 @@ class IndustrialRemuxerV2:
                     f"{nome_limpo_legenda}_PTBR.ass",
                     f"{nome_base}.ass",
                     f"{nome_base}_ENG.ass",
-                    f"{nome_base}_PTBR.ass"
+                    f"{nome_base}_PTBR.ass",
+                    f"{nome_limpo_legenda}_PTBR_ENG.srt",
+                    f"{nome_limpo_legenda}_PTBR_PTBR.srt",
+                    f"{nome_limpo_legenda}_PTBR.srt",
+                    f"{nome_base}.srt",
+                    f"{nome_base}_ENG.srt",
+                    f"{nome_base}_PTBR.srt"
                 ]
                 
                 caminho_legenda_completo = None
@@ -404,7 +410,7 @@ if __name__ == "__main__":
     if not os.path.exists(caminho_padrao_legendas):
         caminho_padrao_legendas = os.path.join(pasta_videos, "traducao")
 
-    pasta_legendas = obter_diretorio_operador("Pasta com as legendas (.ass)", caminho_padrao_legendas)
+    pasta_legendas = obter_diretorio_operador("Pasta com as legendas (.ass ou .srt)", caminho_padrao_legendas)
 
     remuxer = IndustrialRemuxerV2(pasta_videos, pasta_legendas)
     remuxer.executar_operacao_remux()

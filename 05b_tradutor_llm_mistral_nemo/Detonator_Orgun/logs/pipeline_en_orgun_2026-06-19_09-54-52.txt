@@ -1,0 +1,23 @@
+
+================================================================================
+PIPELINE INDUSTRIAL MISTRAL INGLÊS - DETONATOR ORGUN
+================================================================================
+Início    : 2026-06-19 09:54:52
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Detonator_Orgun\logs
+================================================================================
+
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[09:54:52.486] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[09:54:52.508] [SUCESSO ] LM Studio OK — 5 modelo(s)
+[09:54:52.508] [INFO    ] Usando modelo: mistralai/mistral-nemo-instruct-2407
+[09:54:52.508] [SUCESSO ] ✓ Infraestrutura validada!
+
+================================================================================
+                             PROCESSAMENTO EM LOTE                              
+================================================================================
+
+[09:54:52.523] [INFO    ] Processando: [Exiled-Destiny]_Detonator_Orgun_Ep01_(B0BE1BC7)_ENG.srt

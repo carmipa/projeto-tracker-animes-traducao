@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-06-19_09-57-36",
+  "data_hora": "2026-06-19T10:14:47.143400",
+  "stats": {
+    "total_arquivos": 3,
+    "traduzidos": 0,
+    "cache_hits": 161,
+    "linhas_traduzidas": 2111,
+    "erros_traducao": 163
+  }
+}

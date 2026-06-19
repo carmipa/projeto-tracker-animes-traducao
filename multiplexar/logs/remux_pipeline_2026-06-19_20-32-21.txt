@@ -1,0 +1,172 @@
+[20:32:21.413] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-19_20-32-21.txt
+[20:32:21.413] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[20:32:21.459] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[20:32:21.459] [DEBUG   ] Validando caminhos de diretórios locais...
+[20:32:21.459] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[20:32:21.460] [DEBUG   ] Escaneando diretório: C:\animes\[Joseki] Mobile Suit Z Gundam COMPLETE (1985)(BD AV1 1080p Opus)[Sub Eng][v2]
+[20:32:21.460] [INFO    ] Encontrados 50 arquivos de vídeo com extensão .mkv.
+[20:32:21.460] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[20:32:21.460] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E01.mkv -> Mobile.Suit.Z.Gundam.S01E01_PTBR.ass
+[20:32:21.460] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E02.mkv -> Mobile.Suit.Z.Gundam.S01E02_PTBR.ass
+[20:32:21.460] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E03.mkv -> Mobile.Suit.Z.Gundam.S01E03_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E04.mkv -> Mobile.Suit.Z.Gundam.S01E04_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E05.mkv -> Mobile.Suit.Z.Gundam.S01E05_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E06.mkv -> Mobile.Suit.Z.Gundam.S01E06_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E07.mkv -> Mobile.Suit.Z.Gundam.S01E07_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E08.mkv -> Mobile.Suit.Z.Gundam.S01E08_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E09.mkv -> Mobile.Suit.Z.Gundam.S01E09_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E10.mkv -> Mobile.Suit.Z.Gundam.S01E10_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E11.mkv -> Mobile.Suit.Z.Gundam.S01E11_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E12.mkv -> Mobile.Suit.Z.Gundam.S01E12_PTBR.ass
+[20:32:21.461] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E13.mkv -> Mobile.Suit.Z.Gundam.S01E13_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E14.mkv -> Mobile.Suit.Z.Gundam.S01E14_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E15.mkv -> Mobile.Suit.Z.Gundam.S01E15_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E16.mkv -> Mobile.Suit.Z.Gundam.S01E16_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E17.mkv -> Mobile.Suit.Z.Gundam.S01E17_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E18.mkv -> Mobile.Suit.Z.Gundam.S01E18_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E19.mkv -> Mobile.Suit.Z.Gundam.S01E19_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E20.mkv -> Mobile.Suit.Z.Gundam.S01E20_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E21.mkv -> Mobile.Suit.Z.Gundam.S01E21_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E22.mkv -> Mobile.Suit.Z.Gundam.S01E22_PTBR.ass
+[20:32:21.462] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E23.mkv -> Mobile.Suit.Z.Gundam.S01E23_PTBR.ass
+[20:32:21.463] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E24.mkv -> Mobile.Suit.Z.Gundam.S01E24_PTBR.ass
+[20:32:21.463] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E25.mkv -> Mobile.Suit.Z.Gundam.S01E25_PTBR.ass
+[20:32:21.463] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E26.mkv -> Mobile.Suit.Z.Gundam.S01E26_PTBR.ass
+[20:32:21.463] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E27.mkv -> Mobile.Suit.Z.Gundam.S01E27_PTBR.ass
+[20:32:21.463] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E28.mkv -> Mobile.Suit.Z.Gundam.S01E28_PTBR.ass
+[20:32:21.463] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E29.mkv -> Mobile.Suit.Z.Gundam.S01E29_PTBR.ass
+[20:32:21.463] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E30.mkv -> Mobile.Suit.Z.Gundam.S01E30_PTBR.ass
+[20:32:21.463] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E31.mkv -> Mobile.Suit.Z.Gundam.S01E31_PTBR.ass
+[20:32:21.463] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E32.mkv -> Mobile.Suit.Z.Gundam.S01E32_PTBR.ass
+[20:32:21.464] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E33.mkv -> Mobile.Suit.Z.Gundam.S01E33_PTBR.ass
+[20:32:21.464] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E34.mkv -> Mobile.Suit.Z.Gundam.S01E34_PTBR.ass
+[20:32:21.464] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E35.mkv -> Mobile.Suit.Z.Gundam.S01E35_PTBR.ass
+[20:32:21.464] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E36.mkv -> Mobile.Suit.Z.Gundam.S01E36_PTBR.ass
+[20:32:21.464] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E37.mkv -> Mobile.Suit.Z.Gundam.S01E37_PTBR.ass
+[20:32:21.464] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E38.mkv -> Mobile.Suit.Z.Gundam.S01E38_PTBR.ass
+[20:32:21.464] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E39.mkv -> Mobile.Suit.Z.Gundam.S01E39_PTBR.ass
+[20:32:21.464] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E40.mkv -> Mobile.Suit.Z.Gundam.S01E40_PTBR.ass
+[20:32:21.464] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E41.mkv -> Mobile.Suit.Z.Gundam.S01E41_PTBR.ass
+[20:32:21.465] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E42.mkv -> Mobile.Suit.Z.Gundam.S01E42_PTBR.ass
+[20:32:21.465] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E43.mkv -> Mobile.Suit.Z.Gundam.S01E43_PTBR.ass
+[20:32:21.465] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E44.mkv -> Mobile.Suit.Z.Gundam.S01E44_PTBR.ass
+[20:32:21.465] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E45.mkv -> Mobile.Suit.Z.Gundam.S01E45_PTBR.ass
+[20:32:21.465] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E46.mkv -> Mobile.Suit.Z.Gundam.S01E46_PTBR.ass
+[20:32:21.465] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E47.mkv -> Mobile.Suit.Z.Gundam.S01E47_PTBR.ass
+[20:32:21.465] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E48.mkv -> Mobile.Suit.Z.Gundam.S01E48_PTBR.ass
+[20:32:21.465] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E49.mkv -> Mobile.Suit.Z.Gundam.S01E49_PTBR.ass
+[20:32:21.473] [DEBUG   ]   Pareado com sucesso: Mobile.Suit.Z.Gundam.S01E50.mkv -> Mobile.Suit.Z.Gundam.S01E50_PTBR.ass
+[20:32:21.473] [INFO    ] Esteira trancada. Processando 50 episódios em lote via mkvmerge.
+[20:32:21.490] [INFO    ] [1/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E01.mkv
+[20:32:21.490] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:22.528] [INFO    ] SUCESSO:   Concluido (0.479 GB) em 1.04s! Legenda adicionada.
+[20:32:22.528] [INFO    ] [2/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E02.mkv
+[20:32:22.528] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:23.601] [INFO    ] SUCESSO:   Concluido (0.459 GB) em 1.07s! Legenda adicionada.
+[20:32:23.601] [INFO    ] [3/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E03.mkv
+[20:32:23.601] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:24.561] [INFO    ] SUCESSO:   Concluido (0.387 GB) em 0.96s! Legenda adicionada.
+[20:32:24.561] [INFO    ] [4/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E04.mkv
+[20:32:24.561] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:25.562] [INFO    ] SUCESSO:   Concluido (0.433 GB) em 1.00s! Legenda adicionada.
+[20:32:25.562] [INFO    ] [5/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E05.mkv
+[20:32:25.563] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:26.526] [INFO    ] SUCESSO:   Concluido (0.383 GB) em 0.96s! Legenda adicionada.
+[20:32:26.526] [INFO    ] [6/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E06.mkv
+[20:32:26.526] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:27.534] [INFO    ] SUCESSO:   Concluido (0.433 GB) em 1.01s! Legenda adicionada.
+[20:32:27.535] [INFO    ] [7/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E07.mkv
+[20:32:27.535] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:28.652] [INFO    ] SUCESSO:   Concluido (0.458 GB) em 1.12s! Legenda adicionada.
+[20:32:28.652] [INFO    ] [8/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E08.mkv
+[20:32:28.652] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:32.665] [INFO    ] SUCESSO:   Concluido (0.444 GB) em 4.01s! Legenda adicionada.
+[20:32:32.665] [INFO    ] [9/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E09.mkv
+[20:32:32.665] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:34.735] [INFO    ] SUCESSO:   Concluido (0.412 GB) em 2.07s! Legenda adicionada.
+[20:32:34.735] [INFO    ] [10/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E10.mkv
+[20:32:34.735] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:35.778] [INFO    ] SUCESSO:   Concluido (0.459 GB) em 1.04s! Legenda adicionada.
+[20:32:35.778] [INFO    ] [11/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E11.mkv
+[20:32:35.778] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:36.618] [INFO    ] SUCESSO:   Concluido (0.366 GB) em 0.84s! Legenda adicionada.
+[20:32:36.618] [INFO    ] [12/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E12.mkv
+[20:32:36.618] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:39.189] [INFO    ] SUCESSO:   Concluido (0.494 GB) em 2.57s! Legenda adicionada.
+[20:32:39.189] [INFO    ] [13/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E13.mkv
+[20:32:39.189] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:40.969] [INFO    ] SUCESSO:   Concluido (0.533 GB) em 1.78s! Legenda adicionada.
+[20:32:40.969] [INFO    ] [14/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E14.mkv
+[20:32:40.970] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:42.828] [INFO    ] SUCESSO:   Concluido (0.588 GB) em 1.86s! Legenda adicionada.
+[20:32:42.828] [INFO    ] [15/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E15.mkv
+[20:32:42.828] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:44.017] [INFO    ] SUCESSO:   Concluido (0.542 GB) em 1.19s! Legenda adicionada.
+[20:32:44.017] [INFO    ] [16/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E16.mkv
+[20:32:44.017] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:45.734] [INFO    ] SUCESSO:   Concluido (0.495 GB) em 1.72s! Legenda adicionada.
+[20:32:45.734] [INFO    ] [17/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E17.mkv
+[20:32:45.735] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:47.258] [INFO    ] SUCESSO:   Concluido (0.555 GB) em 1.52s! Legenda adicionada.
+[20:32:47.258] [INFO    ] [18/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E18.mkv
+[20:32:47.258] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:48.371] [INFO    ] SUCESSO:   Concluido (0.497 GB) em 1.11s! Legenda adicionada.
+[20:32:48.371] [INFO    ] [19/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E19.mkv
+[20:32:48.371] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:49.631] [INFO    ] SUCESSO:   Concluido (0.440 GB) em 1.26s! Legenda adicionada.
+[20:32:49.632] [INFO    ] [20/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E20.mkv
+[20:32:49.632] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:55.398] [INFO    ] SUCESSO:   Concluido (0.462 GB) em 5.77s! Legenda adicionada.
+[20:32:55.398] [INFO    ] [21/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E21.mkv
+[20:32:55.398] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:56.482] [INFO    ] SUCESSO:   Concluido (0.520 GB) em 1.08s! Legenda adicionada.
+[20:32:56.482] [INFO    ] [22/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E22.mkv
+[20:32:56.482] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:57.441] [INFO    ] SUCESSO:   Concluido (0.416 GB) em 0.96s! Legenda adicionada.
+[20:32:57.441] [INFO    ] [23/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E23.mkv
+[20:32:57.441] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:58.272] [INFO    ] SUCESSO:   Concluido (0.384 GB) em 0.83s! Legenda adicionada.
+[20:32:58.272] [INFO    ] [24/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E24.mkv
+[20:32:58.272] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:32:59.660] [INFO    ] SUCESSO:   Concluido (0.420 GB) em 1.39s! Legenda adicionada.
+[20:32:59.660] [INFO    ] [25/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E25.mkv
+[20:32:59.661] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:00.559] [INFO    ] SUCESSO:   Concluido (0.375 GB) em 0.90s! Legenda adicionada.
+[20:33:00.559] [INFO    ] [26/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E26.mkv
+[20:33:00.559] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:02.678] [INFO    ] SUCESSO:   Concluido (0.473 GB) em 2.12s! Legenda adicionada.
+[20:33:02.678] [INFO    ] [27/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E27.mkv
+[20:33:02.678] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:05.018] [INFO    ] SUCESSO:   Concluido (0.417 GB) em 2.34s! Legenda adicionada.
+[20:33:05.018] [INFO    ] [28/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E28.mkv
+[20:33:05.018] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:05.890] [INFO    ] SUCESSO:   Concluido (0.379 GB) em 0.87s! Legenda adicionada.
+[20:33:05.890] [INFO    ] [29/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E29.mkv
+[20:33:05.890] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:08.474] [INFO    ] SUCESSO:   Concluido (0.526 GB) em 2.58s! Legenda adicionada.
+[20:33:08.474] [INFO    ] [30/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E30.mkv
+[20:33:08.474] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:10.245] [INFO    ] SUCESSO:   Concluido (0.534 GB) em 1.77s! Legenda adicionada.
+[20:33:10.245] [INFO    ] [31/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E31.mkv
+[20:33:10.245] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:12.517] [INFO    ] SUCESSO:   Concluido (0.511 GB) em 2.27s! Legenda adicionada.
+[20:33:12.517] [INFO    ] [32/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E32.mkv
+[20:33:12.517] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:13.601] [INFO    ] SUCESSO:   Concluido (0.524 GB) em 1.08s! Legenda adicionada.
+[20:33:13.601] [INFO    ] [33/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E33.mkv
+[20:33:13.601] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:15.052] [INFO    ] SUCESSO:   Concluido (0.451 GB) em 1.45s! Legenda adicionada.
+[20:33:15.052] [INFO    ] [34/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E34.mkv
+[20:33:15.052] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:16.701] [INFO    ] SUCESSO:   Concluido (0.485 GB) em 1.65s! Legenda adicionada.
+[20:33:16.701] [INFO    ] [35/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E35.mkv
+[20:33:16.701] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:18.071] [INFO    ] SUCESSO:   Concluido (0.491 GB) em 1.37s! Legenda adicionada.
+[20:33:18.071] [INFO    ] [36/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E36.mkv
+[20:33:18.071] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:19.119] [INFO    ] SUCESSO:   Concluido (0.519 GB) em 1.05s! Legenda adicionada.
+[20:33:19.119] [INFO    ] [37/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E37.mkv
+[20:33:19.119] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[20:33:20.913] [INFO    ] SUCESSO:   Concluido (0.552 GB) em 1.79s! Legenda adicionada.
+[20:33:20.913] [INFO    ] [38/50] Multiplexando container Matroska: Mobile.Suit.Z.Gundam.S01E38.mkv
+[20:33:20.913] [DEBUG   ]   Despachando chamada para o kernel do Windows...

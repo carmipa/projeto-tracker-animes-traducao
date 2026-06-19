@@ -1,0 +1,9 @@
+{
+    "total_solicitacoes": 1219,
+    "sucessos": 9611,
+    "erros": 5493,
+    "alucinacoes_bloqueadas": 22,
+    "erros_tag_bloqueados": 161,
+    "tempo_inicio": "2026-06-19T15:36:51.715664",
+    "tempo_fim": "2026-06-19T19:50:34.471563"
+}

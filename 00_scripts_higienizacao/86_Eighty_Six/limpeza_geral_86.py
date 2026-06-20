@@ -1,93 +1,266 @@
-import re
-import glob
-import sys
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-def limpar_legendas_86(pasta_alvo):
-    files = glob.glob(pasta_alvo + r'\*.ass')
-    if not files:
-        print("Nenhum arquivo .ass encontrado na pasta.")
+import os
+import glob
+import re
+from colorama import init, Fore, Style
+
+init(autoreset=True)
+
+PASTA_ALVO = r"C:\animes\86\86 Part1\legendas_eng"
+
+# Termos de lore/marca: sempre normalizados para a grafia oficial,
+# em QUALQUER caixa e posição na frase.
+LORE_PROPRIO = {
+    "Ponta de Lança": "Spearhead",
+}
+
+# Flexão de gênero para a Major Vladilena Milizé (Lena) e seu Handler — em 86 o
+# protagonismo feminino é central e o LLM tende a usar artigos/flexões masculinas
+# por padrão. Mantido caso-sensível e SEM IGNORECASE de propósito: cada variação de
+# caixa já está listada explicitamente, então aplicar IGNORECASE aqui faria a primeira
+# variante que casar (ex.: minúscula) sobrescrever a caixa de uma ocorrência capitalizada.
+FLEXAO_GENERO_86 = {
+    r'\bo major\b': r'a major',
+    r'\bO major\b': r'A major',
+    r'\bO Major\b': r'A Major',
+    r'\bdo major\b': r'da major',
+    r'\bDo major\b': r'Da major',
+    r'\bDo Major\b': r'Da Major',
+    r'\bao major\b': r'à major',
+    r'\bAo major\b': r'À major',
+    r'\bAo Major\b': r'À Major',
+    r'\bum major\b': r'uma major',
+    r'\bUm major\b': r'Uma major',
+    r'\bUm Major\b': r'Uma Major',
+
+    r'\bo handler\b': r'a handler',
+    r'\bO handler\b': r'A handler',
+    r'\bO Handler\b': r'A Handler',
+    r'\bdo handler\b': r'da handler',
+    r'\bDo handler\b': r'Da handler',
+    r'\bDo Handler\b': r'Da Handler',
+    r'\bao handler\b': r'à handler',
+    r'\bAo handler\b': r'À handler',
+    r'\bAo Handler\b': r'À Handler',
+    r'\bum handler\b': r'uma handler',
+    r'\bUm handler\b': r'Uma handler',
+    r'\bUm Handler\b': r'Uma Handler',
+
+    r'\bo Capitão Milizé\b': r'a Capitã Milizé',
+    r'\bO Capitão Milizé\b': r'A Capitã Milizé',
+
+    r'major ainda está vivo\?': r'major ainda está viva?',
+    r'major está bem\?': r'major está bem?',
+}
+
+# Gafes de tradução literal do inglês, esquizofrenia Tu/Você, concordância e redundâncias.
+# A caixa da primeira letra do trecho ORIGINAL é preservada na troca.
+GRAMATICA_E_GAFES = {
+    # ----------------------------------------------------
+    # GAFES DE TRADUÇÃO DIRETA DO INGLÊS (LLMs)
+    # ----------------------------------------------------
+    "Eu vejo.": "Entendo.",
+    "Olhe fora!": "Cuidado!",
+    "Você é direito": "Você tem razão",
+    "Que o inferno": "Que diabos",
+    "Que inferno": "Que diabos",
+    "Merda sagrada": "Puta merda",
+    "Oh meu Deus": "Meu Deus",
+
+    # ----------------------------------------------------
+    # ESQUIZOFRENIA TU/VOCÊ - VERBOS
+    # ----------------------------------------------------
+    "Tu tem": "Você tem", "Tu tens": "Você tem", "Você tens": "Você tem",
+    "Tu está": "Você está", "Tu estás": "Você está", "Você estás": "Você está",
+    "Tu vem": "Você vem", "Tu vens": "Você vem", "Você vens": "Você vem",
+    "Tu foi": "Você foi", "Tu foste": "Você foi", "Você foste": "Você foi",
+    "Tu deve": "Você deve", "Tu deves": "Você deve", "Você deves": "Você deve",
+    "Tu sabe": "Você sabe", "Tu sabes": "Você sabe", "Você sabes": "Você sabe",
+    "Tu quer": "Você quer", "Tu queres": "Você quer", "Você queres": "Você quer",
+    "Tu vai": "Você vai", "Tu vais": "Você vai", "Você vais": "Você vai",
+    "Tu consegue": "Você consegue", "Tu consegues": "Você consegue", "Você consegues": "Você consegue",
+    "Tu fez": "Você fez", "Tu fizeste": "Você fez", "Você fizeste": "Você fez",
+    "Tu é": "Você é", "Tu és": "Você é", "Você és": "Você é",
+    "Tu pode": "Você pode", "Tu podes": "Você pode", "Você podes": "Você pode",
+    "Tu faz": "Você faz", "Tu fazes": "Você faz", "Você fazes": "Você faz",
+
+    # ----------------------------------------------------
+    # ESQUIZOFRENIA TU/VOCÊ - PRONOMES E PREPOSIÇÕES
+    # ----------------------------------------------------
+    "pra tu": "para você", "para tu": "para você", "com tu": "com você",
+    "teu": "seu", "tua": "sua", "teus": "seus", "tuas": "suas",
+
+    # ----------------------------------------------------
+    # CONCORDÂNCIA DE GÊNERO - SUBSTANTIVOS MASCULINOS TERMINADOS EM "-A"
+    # ----------------------------------------------------
+    "a problema": "o problema", "uma problema": "um problema",
+    "a sistema": "o sistema", "uma sistema": "um sistema",
+    "a programa": "o programa", "uma programa": "um programa",
+    "a mapa": "o mapa", "uma mapa": "um mapa",
+    "a clima": "o clima", "uma clima": "um clima",
+    "a tema": "o tema", "uma tema": "um tema",
+    "a esquema": "o esquema", "uma esquema": "um esquema",
+    "a fantasma": "o fantasma", "uma fantasma": "um fantasma",
+    "a drama": "o drama", "uma drama": "um drama",
+    "a dilema": "o dilema", "uma dilema": "um dilema",
+
+    # ----------------------------------------------------
+    # REDUNDÂNCIAS E ERROS GRAMATICAIS BÁSICOS
+    # ----------------------------------------------------
+    "há muitos anos atrás": "muitos anos atrás",
+    "encarar de frente": "encarar",
+    "entrar para dentro": "entrar",
+    "subir para cima": "subir",
+}
+
+
+def _compilar_dicionario(dicionario):
+    compilado = []
+    for frase, correto in dicionario.items():
+        nucleo = re.escape(frase)
+        prefixo = r'\b' if frase[0].isalnum() else ''
+        sufixo = r'\b' if frase[-1].isalnum() else ''
+        compilado.append((re.compile(prefixo + nucleo + sufixo, re.IGNORECASE), correto))
+    return compilado
+
+
+def _preservar_caixa(correto, encontrado):
+    if encontrado[:1].isupper():
+        return correto[:1].upper() + correto[1:]
+    return correto[:1].lower() + correto[1:]
+
+
+def _balancear_tag(t, abre, fecha):
+    aberturas = t.count(abre)
+    fechamentos = t.count(fecha)
+    if aberturas > fechamentos:
+        t += fecha * (aberturas - fechamentos)
+    return t
+
+
+_LORE_COMPILADO = _compilar_dicionario(LORE_PROPRIO)
+_GRAMATICA_COMPILADO = _compilar_dicionario(GRAMATICA_E_GAFES)
+
+
+def higienizar_linha(texto):
+    texto_original = texto
+    t = texto
+
+    # 1. Resolver as infames barras erráticas e quebra de ASS, e franglês residual
+    t = t.replace('\\N ', '\\N').replace(' \\N', '\\N')
+    t = t.replace('\\n ', '\\N').replace(' \\n', '\\N').replace('\\n', '\\N')
+    t = t.replace('\\ ', ' ')
+    t = t.replace('\\Net ', '\\N e ').replace('\\NEt ', '\\N E ')
+    t = t.replace('\\NIl ', '\\N Ele ')
+    t = t.replace('\\Nmais ', '\\N mas ')
+    t = t.replace('\\Nune ', '\\N uma ').replace('\\Nun ', '\\N um ')
+    t = re.sub(r'\beuh\.\.\.', 'hã...', t, flags=re.IGNORECASE)
+
+    # 2. Remoção de QUALQUER tag ASS duplicada consecutiva
+    t = re.sub(r'(\{\\[^{}]+\})\1+', r'\1', t)
+
+    # 3. Normalização de espaçamento e pontuação (preserva "..." de propósito)
+    t = re.sub(r' {2,}', ' ', t)
+    t = re.sub(r' +([,.!?;:])(?!\.\.)', r'\1', t)
+
+    # 4. Alucinações de pipeline (marcações do LLM que escaparam para a legenda)
+    t = re.sub(r'Tradução revisada:\s*', '', t, flags=re.IGNORECASE)
+    t = re.sub(r'Traduction:\s*', '', t, flags=re.IGNORECASE)
+    t = re.sub(r'\bÉPISODE\b', 'EPISÓDIO', t, flags=re.IGNORECASE)
+    t = re.sub(r'\bEPISODE\b', 'EPISÓDIO', t, flags=re.IGNORECASE)
+
+    # 5. Dicionário de Lore (grafia oficial fixa, qualquer caixa/posição na frase)
+    for padrao, correto in _LORE_COMPILADO:
+        t = padrao.sub(lambda m, c=correto: c, t)
+
+    # 6. Flexão de gênero da Lena/Handler (case-sensível, já cobre as variações de caixa)
+    for old, new in FLEXAO_GENERO_86.items():
+        t = re.sub(old, new, t)
+
+    # 7. Dicionário de Gramática/Gafes (preserva a caixa do trecho original)
+    for padrao, correto in _GRAMATICA_COMPILADO:
+        t = padrao.sub(lambda m, c=correto: _preservar_caixa(c, m.group(0)), t)
+
+    # 8. CORREÇÃO AVANÇADA DE TAGS ÓRFÃS (itálico e negrito)
+    t = _balancear_tag(t, "{\\i1}", "{\\i0}")
+    t = _balancear_tag(t, "{\\b1}", "{\\b0}")
+
+    return t, t != texto_original
+
+
+def obter_pasta_alvo():
+    """Pergunta a pasta a higienizar; ENTER aceita o caminho padrão (PASTA_ALVO)."""
+    while True:
+        entrada = input(
+            f"{Fore.CYAN}Pasta com as legendas .ass de 86 (ENTER = {PASTA_ALVO}): {Style.RESET_ALL}"
+        ).strip().strip('"').strip("'")
+
+        if not entrada:
+            entrada = PASTA_ALVO
+
+        if not os.path.isdir(entrada):
+            print(f"{Fore.RED}[ERRO] O diretório especificado não existe: {entrada}")
+            continue
+
+        return entrada
+
+
+def varrer_tudo():
+    print(Fore.MAGENTA + "="*50)
+    print(Fore.MAGENTA + " MÁQUINA DE JUÍZO FINAL: 86 EIGHTY-SIX (V3 - MOTOR REGEX)")
+    print(Fore.MAGENTA + "="*50)
+
+    pasta_alvo = obter_pasta_alvo()
+
+    arquivos = glob.glob(os.path.join(glob.escape(pasta_alvo), '*.ass'))
+    alvos = [arq for arq in arquivos if not arq.endswith('_REVISADO.ass')]
+    alvos.sort()
+
+    if not alvos:
+        print(f"{Fore.YELLOW}[AVISO] Nenhum arquivo .ass encontrado na pasta.")
         return
 
-    replacements_86 = {
-        # Lore 86
-        r'Ponta de Lança': r'Spearhead',
-        r'ponta de lança': r'Spearhead',
+    padrao_dialogo = re.compile(r'^(Dialogue:\s*[^,]*(?:,[^,]*){8},)(.*)$')
 
-        # Flexão de Gênero para Vladilena Milizé (Lena)
-        r'\bo major\b': r'a major',
-        r'\bO major\b': r'A major',
-        r'\bO Major\b': r'A Major',
-        r'\bdo major\b': r'da major',
-        r'\bDo major\b': r'Da major',
-        r'\bDo Major\b': r'Da Major',
-        r'\bao major\b': r'à major',
-        r'\bAo major\b': r'À major',
-        r'\bAo Major\b': r'À Major',
-        r'\bum major\b': r'uma major',
-        r'\bUm major\b': r'Uma major',
-        r'\bUm Major\b': r'Uma Major',
+    total_correcoes = 0
 
-        r'\bo handler\b': r'a handler',
-        r'\bO handler\b': r'A handler',
-        r'\bO Handler\b': r'A Handler',
-        r'\bdo handler\b': r'da handler',
-        r'\bDo handler\b': r'Da handler',
-        r'\bDo Handler\b': r'Da Handler',
-        r'\bao handler\b': r'à handler',
-        r'\bAo handler\b': r'À handler',
-        r'\bAo Handler\b': r'À Handler',
-        r'\bum handler\b': r'uma handler',
-        r'\bUm handler\b': r'Uma handler',
-        r'\bUm Handler\b': r'Uma Handler',
+    for arq in alvos:
+        nome_ep = os.path.basename(arq)
+        print(f"{Fore.CYAN}\n--- Lendo: {nome_ep} ---")
 
-        r'\bo Capitão Milizé\b': r'a Capitã Milizé',
-        r'\bO Capitão Milizé\b': r'A Capitã Milizé',
+        with open(arq, 'r', encoding='utf-8-sig') as f:
+            linhas = f.readlines()
 
-        r'major ainda está vivo\?': r'major ainda está viva?',
-        r'major está bem\?': r'major está bem?', # 'bem' is neutral
-        
-        # Alucinações
-        r'Tradução revisada: ': r'',
-        r'Tradução revisada:': r'',
-        r'Traduction: ': r'',
-        r'ÉPISODE': r'EPISÓDIO',
-        r'EPISODE': r'EPISÓDIO',
-        
-        # Franglês 
-        r'\\Net ': r'\\N e ',
-        r'\\NEt ': r'\\N E ',
-        r'\\NIl ': r'\\N Ele ',
-        r'\\Nmais ': r'\\N mas ',
-        r'\\Nune ': r'\\N uma ',
-        r'\\Nun ': r'\\N um ',
-        r'\beuh\.\.\.': r'hã...',
-        
-        # Barras duplas 
-        r'\\\\N': r'\\N',
-        r'\\\\n': r'\\N',
-        r'\\N\s+\\N': r'\\N',
-        r'\\N  ': r'\\N '
-    }
+        modificacoes_ep = 0
 
-    processados = 0
-    for file in files:
-        with open(file, 'r', encoding='utf-8') as f:
-            content = f.read()
+        for i, linha in enumerate(linhas):
+            match = padrao_dialogo.match(linha)
+            if match:
+                prefixo = match.group(1)
+                texto = match.group(2).strip()
 
-        for old, new in replacements_86.items():
-            content = re.sub(old, new, content)
+                texto_limpo, modificado = higienizar_linha(texto)
 
-        # Regra de Ouro (Desgruda o \N da palavra)
-        content = re.sub(r'\\N([a-zA-ZáéíóúâêôãõçÁÉÍÓÚÂÊÔÃÕÇ])', r'\\N \1', content)
+                if modificado:
+                    linhas[i] = prefixo + texto_limpo + "\n"
+                    modificacoes_ep += 1
+                    total_correcoes += 1
+                    print(f"   {Fore.RED}[ORIGINAL] : {texto}")
+                    print(f"   {Fore.GREEN}[CORRIGIDO]: {texto_limpo}{Style.RESET_ALL}\n")
 
-        with open(file, 'w', encoding='utf-8') as f:
-            f.write(content)
-            
-        print(f"Limpeza 86 (Lore + Gender) aplicada em: {file}")
-        processados += 1
-        
-    print(f"\nTotal processado: {processados} episódios.")
+        if modificacoes_ep > 0:
+            with open(arq, 'w', encoding='utf-8') as f:
+                f.writelines(linhas)
+            print(f"{Fore.GREEN}[ARQUIVO] {nome_ep}: {modificacoes_ep} anomalias aniquiladas.")
+        else:
+            print(f"{Fore.CYAN}[ARQUIVO] {nome_ep}: Legenda cristalina. Sem erros.")
 
-if __name__ == '__main__':
-    alvo = sys.argv[1] if len(sys.argv) > 1 else r"C:\animes\86\86 Part1\legendas_eng"
-    limpar_legendas_86(alvo)
+    print(Fore.MAGENTA + "="*50)
+    print(f"{Fore.MAGENTA} TOTAL DE ANOMALIAS DESTRUÍDAS: {total_correcoes}")
+    print(Fore.MAGENTA + "="*50)
+
+
+if __name__ == "__main__":
+    varrer_tudo()

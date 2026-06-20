@@ -1,56 +1,255 @@
-import re
-import glob
-import sys
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-def limpar_legendas_origin(pasta_alvo):
-    files = glob.glob(pasta_alvo + r'\*.ass')
-    if not files:
-        print("Nenhum arquivo .ass encontrado na pasta.")
+import os
+import glob
+import re
+from colorama import init, Fore, Style
+
+init(autoreset=True)
+
+# PASTA ALVO DE GUNDAM THE ORIGIN
+PASTA_ALVO = r"C:\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet\legendas_ptbr"
+
+# Termos de lore/marca: sempre normalizados para a grafia oficial,
+# em QUALQUER caixa e posição na frase.
+LORE_PROPRIO = {
+    "Traje Móvel": "Mobile Suit",
+    "Trajes Móveis": "Mobile Suits",
+    "Novo Tipo": "Newtype",
+    "Novos Tipos": "Newtypes",
+    "Base Branca": "White Base",
+    "Três Estrelas Negras": "Black Tri-Stars",
+    "Cometa Rubro": "Cometa Vermelho",
+    "vaso almirante": "nave capitânia",
+    "vaso de guerra": "nave de guerra",
+    "Federação da Terra": "Federação Terrestre",
+
+    # Patentes (achados em auditoria de episódios reais)
+    "VAml": "Vice-Almirante",
+    "commandant": "Comandante",
+}
+
+# Gafes de tradução literal, francesismos residuais (pipeline mistura fontes FR/EN),
+# esquizofrenia Tu/Você, concordância e redundâncias.
+# A caixa da primeira letra do trecho ORIGINAL é preservada na troca.
+GRAMATICA_E_GAFES = {
+    # ----------------------------------------------------
+    # FRANCESISMOS RESIDUAIS (pipeline tem fonte francesa)
+    # ----------------------------------------------------
+    "L'inimigo": "O inimigo", "l'inimigo": "o inimigo",
+    "L'inimiga": "A inimiga", "l'inimiga": "a inimiga",
+    "L'Ave Azul": "A Ave Azul",
+    "appontagem": "pouso",
+    "estra nos": "está nos",
+    "deployar": "enviar",
+    "Demande vetor": "Solicito vetor",
+    "Euh...": "É...",
+    "À ordens.": "Às ordens.", "À ordens!": "Às ordens!",
+    "Reme para bombordo!": "Vire para bombordo!",
+    "Reme à bombordo": "Vire a bombordo",
+    "À ataque!": "Ao ataque!",
+    "Igore a noite": "Ignore a noite",
+    "Zéon": "Zeon",
+
+    # ----------------------------------------------------
+    # GAFES DE TRADUÇÃO DIRETA DO INGLÊS (LLMs)
+    # ----------------------------------------------------
+    "Eu vejo.": "Entendo.",
+    "Olhe fora!": "Cuidado!",
+    "Você é direito": "Você tem razão",
+    "Que o inferno": "Que diabos",
+    "Que inferno": "Que diabos",
+    "Merda sagrada": "Puta merda",
+    "Oh meu Deus": "Meu Deus",
+    "que droga!": "uma ova!",
+    "Você quem eu sou?": "Sabe quem eu sou?",
+
+    # ----------------------------------------------------
+    # ESQUIZOFRENIA TU/VOCÊ - VERBOS
+    # ----------------------------------------------------
+    "Tu tem": "Você tem", "Tu tens": "Você tem", "Você tens": "Você tem",
+    "Tu está": "Você está", "Tu estás": "Você está", "Você estás": "Você está",
+    "Tu vem": "Você vem", "Tu vens": "Você vem", "Você vens": "Você vem",
+    "Tu foi": "Você foi", "Tu foste": "Você foi", "Você foste": "Você foi",
+    "Tu deve": "Você deve", "Tu deves": "Você deve", "Você deves": "Você deve",
+    "Tu sabe": "Você sabe", "Tu sabes": "Você sabe", "Você sabes": "Você sabe",
+    "Tu quer": "Você quer", "Tu queres": "Você quer", "Você queres": "Você quer",
+    "Tu vai": "Você vai", "Tu vais": "Você vai", "Você vais": "Você vai",
+    "Tu consegue": "Você consegue", "Tu consegues": "Você consegue", "Você consegues": "Você consegue",
+    "Tu fez": "Você fez", "Tu fizeste": "Você fez", "Você fizeste": "Você fez",
+    "Tu é": "Você é", "Tu és": "Você é", "Você és": "Você é",
+    "Tu pode": "Você pode", "Tu podes": "Você pode", "Você podes": "Você pode",
+    "Tu faz": "Você faz", "Tu fazes": "Você faz", "Você fazes": "Você faz",
+
+    # ----------------------------------------------------
+    # ESQUIZOFRENIA TU/VOCÊ - PRONOMES E PREPOSIÇÕES
+    # ----------------------------------------------------
+    "pra tu": "para você", "para tu": "para você", "com tu": "com você",
+    "teu": "seu", "tua": "sua", "teus": "seus", "tuas": "suas",
+
+    # ----------------------------------------------------
+    # CONCORDÂNCIA DE GÊNERO - SUBSTANTIVOS MASCULINOS TERMINADOS EM "-A"
+    # ----------------------------------------------------
+    "a problema": "o problema", "uma problema": "um problema",
+    "a sistema": "o sistema", "uma sistema": "um sistema",
+    "a programa": "o programa", "uma programa": "um programa",
+    "a mapa": "o mapa", "uma mapa": "um mapa",
+    "a clima": "o clima", "uma clima": "um clima",
+    "a tema": "o tema", "uma tema": "um tema",
+    "a esquema": "o esquema", "uma esquema": "um esquema",
+    "a fantasma": "o fantasma", "uma fantasma": "um fantasma",
+    "a drama": "o drama", "uma drama": "um drama",
+    "a dilema": "o dilema", "uma dilema": "um dilema",
+
+    # ----------------------------------------------------
+    # REDUNDÂNCIAS E ERROS GRAMATICAIS BÁSICOS
+    # ----------------------------------------------------
+    "há muitos anos atrás": "muitos anos atrás",
+    "encarar de frente": "encarar",
+    "entrar para dentro": "entrar",
+    "subir para cima": "subir",
+}
+
+
+def _compilar_dicionario(dicionario):
+    # \b só nas pontas alfanuméricas: evita que "Tu vai" capture o prefixo de "Tu vais",
+    # e evita travar quando a frase termina em pontuação/tag (ex.: "Eu vejo.").
+    compilado = []
+    for frase, correto in dicionario.items():
+        nucleo = re.escape(frase)
+        prefixo = r'\b' if frase[0].isalnum() else ''
+        sufixo = r'\b' if frase[-1].isalnum() else ''
+        compilado.append((re.compile(prefixo + nucleo + sufixo, re.IGNORECASE), correto))
+    return compilado
+
+
+def _preservar_caixa(correto, encontrado):
+    if encontrado[:1].isupper():
+        return correto[:1].upper() + correto[1:]
+    return correto[:1].lower() + correto[1:]
+
+
+def _balancear_tag(t, abre, fecha):
+    aberturas = t.count(abre)
+    fechamentos = t.count(fecha)
+    if aberturas > fechamentos:
+        t += fecha * (aberturas - fechamentos)
+    return t
+
+
+_LORE_COMPILADO = _compilar_dicionario(LORE_PROPRIO)
+_GRAMATICA_COMPILADO = _compilar_dicionario(GRAMATICA_E_GAFES)
+
+
+def higienizar_linha(texto):
+    texto_original = texto
+    t = texto
+
+    # 1. Resolver as infames barras erráticas e quebra de ASS
+    t = t.replace('\\N ', '\\N').replace(' \\N', '\\N')
+    t = t.replace('\\n ', '\\N').replace(' \\n', '\\N').replace('\\n', '\\N')
+    t = t.replace('\\ ', ' ')
+
+    # 2. Remoção de QUALQUER tag ASS duplicada consecutiva
+    t = re.sub(r'(\{\\[^{}]+\})\1+', r'\1', t)
+
+    # 3. Normalização de espaçamento e pontuação
+    # (?!\.\.) preserva reticências "..." de propósito (pausa/hesitação)
+    t = re.sub(r' {2,}', ' ', t)
+    t = re.sub(r' +([,.!?;:])(?!\.\.)', r'\1', t)
+
+    # 4. Alucinações de pipeline (marcações do LLM que escaparam para a legenda)
+    t = re.sub(r'Tradução revisada:\s*', '', t, flags=re.IGNORECASE)
+    t = re.sub(r'Traduction:\s*', '', t, flags=re.IGNORECASE)
+    t = re.sub(r'\bÉPISODE\b', 'EPISÓDIO', t, flags=re.IGNORECASE)
+
+    # 5. Dicionário de Lore (grafia oficial fixa, qualquer caixa/posição na frase)
+    for padrao, correto in _LORE_COMPILADO:
+        t = padrao.sub(lambda m, c=correto: c, t)
+
+    # 6. Dicionário de Gramática/Gafes/Francesismos (preserva a caixa do trecho original)
+    for padrao, correto in _GRAMATICA_COMPILADO:
+        t = padrao.sub(lambda m, c=correto: _preservar_caixa(c, m.group(0)), t)
+
+    # 7. CORREÇÃO AVANÇADA DE TAGS ÓRFÃS (itálico e negrito)
+    t = _balancear_tag(t, "{\\i1}", "{\\i0}")
+    t = _balancear_tag(t, "{\\b1}", "{\\b0}")
+
+    return t, t != texto_original
+
+
+def obter_pasta_alvo():
+    """Pergunta a pasta a higienizar; ENTER aceita o caminho padrão (PASTA_ALVO)."""
+    while True:
+        entrada = input(
+            f"{Fore.CYAN}Pasta com as legendas .ass de The Origin (ENTER = {PASTA_ALVO}): {Style.RESET_ALL}"
+        ).strip().strip('"').strip("'")
+
+        if not entrada:
+            entrada = PASTA_ALVO
+
+        if not os.path.isdir(entrada):
+            print(f"{Fore.RED}[ERRO] O diretório especificado não existe: {entrada}")
+            continue
+
+        return entrada
+
+
+def varrer_tudo():
+    print(Fore.MAGENTA + "="*50)
+    print(Fore.MAGENTA + " MÁQUINA DE JUÍZO FINAL: GUNDAM THE ORIGIN (V3 - MOTOR REGEX)")
+    print(Fore.MAGENTA + "="*50)
+
+    pasta_alvo = obter_pasta_alvo()
+
+    arquivos = glob.glob(os.path.join(glob.escape(pasta_alvo), '*.ass'))
+    alvos = [arq for arq in arquivos if not arq.endswith('_REVISADO.ass')]
+    alvos.sort()
+
+    if not alvos:
+        print(f"{Fore.YELLOW}[AVISO] Nenhum arquivo .ass encontrado na pasta.")
         return
 
-    replacements_origin = {
-        # Alucinações
-        r'Tradução revisada: ': r'',
-        r'Tradução revisada:': r'',
-        r'Traduction: ': r'',
-        r'ÉPISODE': r'EPISÓDIO',
-        r'EPISODE': r'EPISÓDIO',
-        # Franglês 
-        r'\\Net ': r'\\N e ',
-        r'\\NEt ': r'\\N E ',
-        r'\\NIl ': r'\\N Ele ',
-        r'\\Nmais ': r'\\N mas ',
-        r'\\Nune ': r'\\N uma ',
-        r'\\Nun ': r'\\N um ',
-        r'\beuh\.\.\.': r'hã...',
-        # Patentes
-        r'VAml\b': r'Vice-Almirante',
-        r'Lt\b': r'Tenente',
-        r'commandant\b': r'Comandante',
-        # Barras duplas
-        r'\\\\N': r'\\N',
-        r'\\\\n': r'\\N',
-        r'\\N\s+\\N': r'\\N',
-        # Espaços duplos
-        r'\\N  ': r'\\N '
-    }
+    padrao_dialogo = re.compile(r'^(Dialogue:\s*[^,]*(?:,[^,]*){8},)(.*)$')
 
-    for file in files:
-        with open(file, 'r', encoding='utf-8') as f:
-            content = f.read()
+    total_correcoes = 0
 
-        for old, new in replacements_origin.items():
-            content = re.sub(old, new, content)
+    for arq in alvos:
+        nome_ep = os.path.basename(arq)
+        print(f"{Fore.CYAN}\n--- Lendo: {nome_ep} ---")
 
-        # Regra de Ouro (Desgruda o \N da palavra)
-        content = re.sub(r'\\N([a-zA-ZáéíóúâêôãõçÁÉÍÓÚÂÊÔÃÕÇ])', r'\\N \1', content)
+        with open(arq, 'r', encoding='utf-8-sig') as f:
+            linhas = f.readlines()
 
-        with open(file, 'w', encoding='utf-8') as f:
-            f.write(content)
-            
-        print(f"Limpeza aplicada em: {file}")
+        modificacoes_ep = 0
 
-if __name__ == '__main__':
-    # Alvo default ou pelo arg
-    alvo = sys.argv[1] if len(sys.argv) > 1 else r"C:\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet\legendas_ptbr"
-    limpar_legendas_origin(alvo)
+        for i, linha in enumerate(linhas):
+            match = padrao_dialogo.match(linha)
+            if match:
+                prefixo = match.group(1)
+                texto = match.group(2).strip()
+
+                texto_limpo, modificado = higienizar_linha(texto)
+
+                if modificado:
+                    linhas[i] = prefixo + texto_limpo + "\n"
+                    modificacoes_ep += 1
+                    total_correcoes += 1
+                    print(f"   {Fore.RED}[ORIGINAL] : {texto}")
+                    print(f"   {Fore.GREEN}[CORRIGIDO]: {texto_limpo}{Style.RESET_ALL}\n")
+
+        if modificacoes_ep > 0:
+            with open(arq, 'w', encoding='utf-8') as f:
+                f.writelines(linhas)
+            print(f"{Fore.GREEN}[ARQUIVO] {nome_ep}: {modificacoes_ep} anomalias aniquiladas.")
+        else:
+            print(f"{Fore.CYAN}[ARQUIVO] {nome_ep}: Legenda cristalina. Sem erros.")
+
+    print(Fore.MAGENTA + "="*50)
+    print(f"{Fore.MAGENTA} TOTAL DE ANOMALIAS DESTRUÍDAS: {total_correcoes}")
+    print(Fore.MAGENTA + "="*50)
+
+
+if __name__ == "__main__":
+    varrer_tudo()

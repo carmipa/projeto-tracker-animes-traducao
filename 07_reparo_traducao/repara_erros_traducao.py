@@ -194,6 +194,12 @@ def ler_arquivo_legenda(caminho: str, modo: str):
 
 
 def resolver_arquivo_original(arquivo_ptbr: str, pasta_originais: str, modo: str):
+    # Primeiro, tenta com o mesmo nome de arquivo na pasta de originais (caso de Zeta)
+    caminho_direto = os.path.join(pasta_originais, arquivo_ptbr)
+    if os.path.exists(caminho_direto):
+        return caminho_direto, arquivo_ptbr
+
+    # Fallback para o comportamento baseado no sufixo
     if not arquivo_ptbr.lower().endswith("_ptbr.ass"):
         return None, None
     stem = arquivo_ptbr[:-9]
@@ -353,26 +359,25 @@ def executar_reparo():
         caminho_pt = os.path.join(pasta_traduzidos, arquivo)
         caminho_orig, nome_orig = resolver_arquivo_original(arquivo, pasta_originais, args.modo)
 
-        if not caminho_orig:
-            print(
-                f"{Fore.YELLOW}[AVISO] Pulando {arquivo} "
-                f"(legenda original não encontrada; tentou: {', '.join(SUFIXOS_ORIGEM[args.modo])})."
-            )
-            continue
-
         linhas_pt = ler_arquivo_legenda(caminho_pt, "eng")
-        linhas_orig = ler_arquivo_legenda(caminho_orig, args.modo)
-
-        if len(linhas_pt) != len(linhas_orig):
+        
+        linhas_orig = None
+        if caminho_orig:
+            linhas_orig = ler_arquivo_legenda(caminho_orig, args.modo)
+            if len(linhas_pt) != len(linhas_orig):
+                print(
+                    f"{Fore.RED}[ERRO] {arquivo} possui desalinhamento físico de linhas com {nome_orig} "
+                    f"({len(linhas_pt)} vs {len(linhas_orig)}). Pulando."
+                )
+                continue
+        else:
             print(
-                f"{Fore.RED}[ERRO] {arquivo} possui desalinhamento físico de linhas com {nome_orig} "
-                f"({len(linhas_pt)} vs {len(linhas_orig)}). Pulando."
+                f"{Fore.YELLOW}[AVISO] Legenda original para {arquivo} não encontrada. Usando modo auto-contido."
             )
-            continue
 
         indices = [
             i for i in range(len(linhas_pt))
-            if linhas_pt[i].startswith("Dialogue:") and "[ERRO_TRADUCAO:" in linhas_pt[i]
+            if linhas_pt[i].startswith("Dialogue:") and ("[ERRO_TRADUCAO:" in linhas_pt[i] or "[ERRO_TRADUCAO]" in linhas_pt[i])
         ]
 
         if indices:
@@ -412,20 +417,28 @@ def executar_reparo():
 
             for i in indices:
                 linha_pt = linhas_pt[i]
-                linha_orig = linhas_orig[i]
 
                 partes_pt = linha_pt.split(",", 9)
-                partes_orig = linha_orig.split(",", 9)
-
-                if len(partes_pt) != 10 or len(partes_orig) != 10:
-                    tqdm.write(f"  {Fore.YELLOW}-> Linha {i+1}: estrutura inesperada, pulando.")
+                if len(partes_pt) != 10:
+                    tqdm.write(f"  {Fore.YELLOW}-> Linha {i+1}: estrutura inesperada em PT-BR, pulando.")
                     falhas_no_arquivo += 1
                     linhas_falhas_persistentes.append(i + 1)
                     barra.update(1)
                     continue
 
                 metadados = ",".join(partes_pt[:9]) + ","
-                texto_original = partes_orig[9].rstrip("\n")
+
+                usar_auto_contido = True
+                if linhas_orig is not None:
+                    linha_orig = linhas_orig[i]
+                    partes_orig = linha_orig.split(",", 9)
+                    if len(partes_orig) == 10:
+                        texto_original = partes_orig[9].rstrip("\n")
+                        usar_auto_contido = False
+
+                if usar_auto_contido:
+                    texto_errado = partes_pt[9].rstrip("\n")
+                    texto_original = re.sub(r'^\[ERRO_TRADUCAO(?::[^\]]+)?\]\s*', '', texto_errado)
 
                 tags = re.findall(r'\{[^}]+\}', texto_original)
 

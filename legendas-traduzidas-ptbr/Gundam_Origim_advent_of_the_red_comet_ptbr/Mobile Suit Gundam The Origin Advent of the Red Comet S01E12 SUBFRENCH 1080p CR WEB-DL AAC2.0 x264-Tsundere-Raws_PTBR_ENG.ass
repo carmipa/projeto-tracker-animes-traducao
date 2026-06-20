@@ -1,0 +1,357 @@
+﻿[Script Info]
+Title: Français (France)
+Original Script: cr_fr  [http://www.crunchyroll.com/user/cr_fr]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Italique,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: TiretsDefault,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,1,60,6,75,1
+Style: Titre,Arial,51,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,975,30,240,1
+Style: Sign2,Arial,48,&H00EAEAEB,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,3,30,177,900,1
+
+Style: OPCN,SimSun,114,&H00FFFFFF,&H5A7B7B7B,&H00FFFFFF,&H003C3C3C,-1,0,0,0,100,95,0,0,1,0,0,2,300,300,90,1
+Style: EDCN,SimSun,42,&H00FEFEFE,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2,0,2,60,60,25,1
+
+
+
+Style: OPCN,SimSun,38,&H00FFFFFF,&H5A7B7B7B,&H00FFFFFF,&H003C3C3C,-1,0,0,0,100,95,0,0,1,0,0,2,100,100,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.06,0:00:03.94,Default,,0,0,0,,Sieg Zeon!
+Dialogue: 0,0:00:04.09,0:00:07.73,Default,,0,0,0,,Sieg Zeon! Sieg Zeon!
+Dialogue: 0,0:00:07.88,0:00:09.87,TiretsDefault,,252,0,0,,Viva Zeon!\NViva Degwin!
+Dialogue: 0,0:00:10.00,0:00:11.74,TiretsDefault,,254,0,0,,Bravo Dozle!\NViva o duque!
+Dialogue: 0,0:00:12.04,0:00:14.74,Default,,0,0,0,,Viva Gihren!
+Dialogue: 0,0:00:24.87,0:00:26.18,Default,,0,0,0,,Gihren...
+Dialogue: 0,0:00:26.33,0:00:30.25,Default,,0,0,0,,Devíamos engatar\Nnegociações de paz.
+Dialogue: 0,0:00:30.55,0:00:35.68,Default,,0,0,0,,Precisamos usar essa vitória\Npara levar a Federação
+Dialogue: 0,0:00:35.82,0:00:37.39,Default,,0,0,0,,à mesa de negociações.
+Dialogue: 0,0:00:38.35,0:00:39.76,Default,,0,0,0,,Pelo contrário!
+Dialogue: 0,0:00:40.96,0:00:43.12,Default,,0,0,0,,Nós vencemos,
+Dialogue: 0,0:00:43.26,0:00:47.40,Default,,0,0,0,,e nós continuaremos\Naté vencer até a vitória final!
+Dialogue: 0,0:00:47.56,0:00:50.82,Default,,0,0,0,,Napoleão e Hitler\Ndisseram a mesma coisa,
+Dialogue: 0,0:00:50.94,0:00:52.82,Default,,0,0,0,,mas eles falharam.
+Dialogue: 0,0:00:52.96,0:00:56.28,Default,,0,0,0,,Como você pode citar\Nesses absurdos de outra época?
+Dialogue: 0,0:00:56.49,0:00:58.53,Default,,0,0,0,,Afinal, o que Deikun disse?
+Dialogue: 0,0:00:58.86,0:01:01.34,Default,,0,0,0,,Que os Spacenoids\Neram uma nova raça
+Dialogue: 0,0:01:01.54,0:01:04.25,Default,,0,0,0,,que levaria a espécie humana
+Dialogue: 0,0:01:04.38,0:01:06.71,Default,,0,0,0,,para a próxima etapa\Nde sua evolução.
+Dialogue: 0,0:01:07.43,0:01:10.22,Default,,0,0,0,,Temos a oportunidade única
+Dialogue: 0,0:01:10.38,0:01:12.71,Default,,0,0,0,,de realizar seu ideal!
+Dialogue: 0,0:01:13.25,0:01:16.43,Default,,0,0,0,,Não deixemos escapar.
+Dialogue: 0,0:01:17.40,0:01:19.21,Default,,0,0,0,,Precisamos avançar
+Dialogue: 0,0:01:19.84,0:01:21.10,Default,,0,0,0,,e não vacilar!
+Dialogue: 0,0:01:21.28,0:01:24.03,Default,,0,0,0,,Avancem! Vocês ouviram?
+Dialogue: 0,0:01:31.05,0:01:32.36,Default,,0,0,0,,Kycilia.
+Dialogue: 0,0:01:32.74,0:01:33.61,Default,,0,0,0,,Sim?
+Dialogue: 0,0:01:35.78,0:01:37.36,Default,,0,0,0,,Estou aqui.
+Dialogue: 0,0:01:37.82,0:01:39.66,Default,,0,0,0,,O que você acha disso?
+Dialogue: 0,0:01:40.12,0:01:42.62,Default,,0,0,0,,Estou horrorizado.
+Dialogue: 0,0:01:42.78,0:01:46.23,Default,,0,0,0,,Não se preocupe.\NVou lhe apoiar.
+Dialogue: 0,0:01:46.66,0:01:47.84,Default,,0,0,0,,Eu conto com você.
+Dialogue: 0,0:01:48.24,0:01:52.63,Default,,0,0,0,,Você é a única capaz de pará-lo.
+Dialogue: 0,0:01:53.09,0:01:58.23,Default,,0,0,0,,Ele levará o país\Ne nossa família à ruína.
+Dialogue: 0,0:02:00.48,0:02:02.43,Default,,0,0,0,,Não se preocupe.
+Dialogue: 0,0:02:02.99,0:02:05.65,Default,,0,0,0,,Estarei sempre ao seu lado.
+Dialogue: 0,0:03:42.57,0:03:46.12,Default,,0,0,0,,{\an8}De jeito nenhum!\NRecuso-me a ser designado ao QG!
+Dialogue: 0,0:03:43.16,0:03:48.16,Titre,sign,0,0,0,,{\fad(1000,1000)\blur2}EPISÓDIO 12\N{\fs66}CHAR, O COMETA VERMELHO
+Dialogue: 0,0:03:46.28,0:03:50.08,Default,,0,0,0,,{\an8}Eu quero lutar na linha de frente\Npara cobrir-me de glória!
+Dialogue: 0,0:03:50.29,0:03:51.92,Default,,0,0,0,,Escute...
+Dialogue: 0,0:03:52.18,0:03:56.49,Default,,0,0,0,,Foi meu pai quem quis isso\NMas o QG aprovou.
+Dialogue: 0,0:03:56.71,0:03:58.09,Default,,0,0,0,,Não posso...
+Dialogue: 0,0:03:58.36,0:04:01.09,Default,,0,0,0,,Sim, você pode fazer qualquer coisa!
+Dialogue: 0,0:04:01.26,0:04:02.93,Default,,0,0,0,,Você é o herói de Loum!
+Dialogue: 0,0:04:03.46,0:04:05.05,Default,,0,0,0,,Isso não é falso...
+Dialogue: 0,0:04:06.30,0:04:08.60,Default,,0,0,0,,Char está me distanciando.
+Dialogue: 0,0:04:09.77,0:04:12.86,Default,,0,0,0,,Dizem que ele será promovido
+Dialogue: 0,0:04:13.00,0:04:14.82,Default,,0,0,0,,e passará a ser comandante,
+Dialogue: 0,0:04:15.34,0:04:16.86,Default,,0,0,0,,enquanto eu...
+Dialogue: 0,0:04:17.05,0:04:20.48,Default,,0,0,0,,Se é só isso,\Npode te nomear comandante!
+Dialogue: 0,0:04:20.64,0:04:22.70,Default,,0,0,0,,Sem fazer nada para merecer?
+Dialogue: 0,0:04:23.18,0:04:25.87,Default,,0,0,0,,Me contentei em observar de trás.
+Dialogue: 0,0:04:29.87,0:04:33.14,Default,,0,0,0,,Não quero ser promovido\Nde maneira injusta,
+Dialogue: 0,0:04:33.87,0:04:36.87,Default,,0,0,0,,e que ainda riam de mim
+Dialogue: 0,0:04:37.53,0:04:40.96,Default,,0,0,0,,porque eu não sou\Naquele filho mimado dos Zabi...
+Dialogue: 0,0:04:50.77,0:04:52.10,Default,,0,0,0,,Certo.
+Dialogue: 0,0:04:52.24,0:04:56.87,Default,,0,0,0,,Vou falar disso com Gihren,\Nmas não prometo nada.
+Dialogue: 0,0:05:05.36,0:05:08.78,Italique,,0,0,0,,Aqui estamos na cerimônia\Ncomemorando a vitória de Loum,
+Dialogue: 0,0:05:09.16,0:05:13.44,Italique,,0,0,0,,na grande sala Deikun,\Nrecém-construída.
+Dialogue: 0,0:05:14.22,0:05:16.68,Italique,,0,0,0,,A entrega das medalhas\Nterminou
+Dialogue: 0,0:05:16.82,0:05:20.88,Italique,,0,0,0,,e nossos heróis entram\Num após o outro.
+Dialogue: 0,0:05:23.88,0:05:26.46,Italique,,0,0,0,,Eis o almirante Dozle,\Ncomandante da frota!
+Dialogue: 0,0:05:27.17,0:05:29.94,Italique,,0,0,0,,Que presença impressionante!\NQue majestade!
+Dialogue: 0,0:05:30.07,0:05:31.35,Default,,0,0,0,,Muito bem!
+Dialogue: 0,0:05:31.48,0:05:34.81,Italique,,0,0,0,,Em seguida,\Nos bravos Black Tri-Stars!
+Dialogue: 0,0:05:35.53,0:05:39.54,Italique,,0,0,0,,O capitão Gaia,\Nseguido pelos tenentes Mash e Ortega.
+Dialogue: 0,0:05:40.77,0:05:43.90,Italique,,0,0,0,,E finalmente, aquele que é conhecido como\A Cometa Vermelha,
+Dialogue: 0,0:05:44.09,0:05:46.96,Italique,,0,0,0,,o ás dos asés, o tenente Char!
+Dialogue: 0,0:05:47.17,0:05:50.41,Italique,,0,0,0,,Não, ele usa a capa\Ndos oficiais superiores,
+Dialogue: 0,0:05:50.54,0:05:52.91,Italique,,0,0,0,,então é\No comandante Char Aznable!
+Dialogue: 0,0:05:53.34,0:05:55.84,Italique,,0,0,0,,Com essa brilhante vitória,
+Dialogue: 0,0:05:56.31,0:05:58.73,Italique,,0,0,0,,nossos valentes soldados demonstraram
+Dialogue: 0,0:05:58.91,0:06:01.84,Italique,,0,0,0,,a justiça\Ndos ensinos de Deikun,
+Dialogue: 0,0:06:02.24,0:06:06.84,Italique,,0,0,0,,isto é, que os Spacenoids\Nrepresentam a elite da humanidade!
+Dialogue: 0,0:06:08.99,0:06:12.27,Italique,,0,0,0,,Mas não devemos\Nbaixar nossa guarda.
+Dialogue: 0,0:06:12.52,0:06:14.72,Italique,,0,0,0,,Nossa luta mal começou.
+Dialogue: 0,0:06:15.48,0:06:19.90,Italique,,0,0,0,,Vejam! Uma minoria em Loum\Nse recusa a se submeter
+Dialogue: 0,0:06:20.14,0:06:22.48,Italique,,0,0,0,,e continua inutilmente\Na resistir-nos.
+Dialogue: 0,0:06:23.01,0:06:27.89,Italique,,0,0,0,,A sociedade colonial deve se unir\Ne eliminar essa escória
+Dialogue: 0,0:06:28.18,0:06:32.12,Italique,,0,0,0,,a fim de triunfar sobre a Federação\Nde uma vez por todas.
+Dialogue: 0,0:06:44.08,0:06:47.24,Default,,0,0,0,,Foi nós quem capturamos Revil!
+Dialogue: 0,0:06:47.43,0:06:50.52,Default,,0,0,0,,Por que elas correm todas\Napós ele?
+Dialogue: 0,0:06:50.66,0:06:52.45,Default,,0,0,0,,Deixa pra lá, Ortega.
+Dialogue: 0,0:06:52.59,0:06:54.39,Default,,0,0,0,,Você está na presença de Sua Alteza.
+Dialogue: 0,0:06:55.02,0:06:55.88,Default,,0,0,0,,Char!
+Dialogue: 0,0:06:56.86,0:06:59.89,Default,,0,0,0,,Eu te vi em ação.
+Dialogue: 0,0:07:00.71,0:07:01.80,Default,,0,0,0,,Garma!
+Dialogue: 0,0:07:02.74,0:07:04.52,Default,,0,0,0,,Você também ganhou promoção.
+Dialogue: 0,0:07:05.18,0:07:07.93,Default,,0,0,0,,Fui designado para uma divisão aerotransportada
+Dialogue: 0,0:07:08.37,0:07:10.03,Default,,0,0,0,,com a patente de comandante.
+Dialogue: 0,0:07:10.30,0:07:14.03,Default,,0,0,0,,Parabéns.\NCessa designação lhe cai bem.
+Dialogue: 0,0:07:14.42,0:07:18.37,Default,,0,0,0,,Ao contrário da guerra espacial,\NA guerra terrestre é dura,
+Dialogue: 0,0:07:18.52,0:07:19.91,Default,,0,0,0,,suja e sangrenta.
+Dialogue: 0,0:07:21.87,0:07:23.60,Default,,0,0,0,,Sou apenas um comandante,
+Dialogue: 0,0:07:23.86,0:07:26.59,Default,,0,0,0,,mas tenho todo um regimento\NSob minhas ordens.
+Dialogue: 0,0:07:27.10,0:07:31.48,Default,,0,0,0,,Partiremos em breve para eliminar\Na resistência em Loum.
+Dialogue: 0,0:07:31.70,0:07:32.72,Default,,0,0,0,,Bem!
+Dialogue: 0,0:07:32.92,0:07:36.26,Default,,0,0,0,,Você duvidaria das minhas habilidades, Char?
+Dialogue: 0,0:07:36.62,0:07:38.16,Default,,0,0,0,,Nem um pouco.
+Dialogue: 0,0:07:38.47,0:07:40.89,Default,,0,0,0,,Mas é uma missão arriscada
+Dialogue: 0,0:07:41.33,0:07:44.02,Default,,0,0,0,,e um trabalho sujo que não lhe agrada muito.
+Dialogue: 0,0:07:44.26,0:07:46.73,Default,,0,0,0,,Degwin e Dozle aceitaram?\NSurpreendente.
+Dialogue: 0,0:07:46.96,0:07:50.24,Default,,0,0,0,,Isso não os diz respeito!\NCabe a mim!
+Dialogue: 0,0:07:52.63,0:07:54.56,Default,,0,0,0,,Não me subestime, Char.
+Dialogue: 0,0:07:54.84,0:07:56.13,Default,,0,0,0,,Não vá pensar que eu sempre ficarei assim como antes.
+Dialogue: 0,0:07:57.72,0:08:00.70,Default,,0,0,0,,Capturem-no! Avançar!
+Dialogue: 0,0:08:36.32,0:08:38.83,Default,,0,0,0,,Eliminem esses federais!
+Dialogue: 0,0:08:39.27,0:08:41.25,Default,,0,0,0,,Concentrem o fogo em suas casamatas! Fogo à vontade!
+Dialogue: 0,0:09:04.60,0:09:08.56,Default,,0,0,0,,Impedidos de se render!
+Dialogue: 0,0:09:09.10,0:09:11.48,Default,,0,0,0,,CENTRO DE DETENÇÃO TEMPORÁRIA
+Dialogue: 0,0:09:16.03,0:09:20.49,Sign2,sign,0,0,0,,Este é o Aphrodite de Capoue.
+Dialogue: 0,0:09:36.28,0:09:38.18,Default,,0,0,0,,É a Aphrodite de Capoue.
+Dialogue: 0,0:09:38.34,0:09:42.43,Default,,0,0,0,,Esta estátua data do século 4 antes de Cristo.
+Dialogue: 0,0:09:43.44,0:09:44.81,Default,,0,0,0,,É uma cópia.
+Dialogue: 0,0:09:47.83,0:09:50.44,Default,,0,0,0,,O original é uma cópia da época romana.
+Dialogue: 0,0:09:50.78,0:09:54.57,Default,,0,0,0,,Isso é uma cópia desta cópia, datando do Renascimento.
+Dialogue: 0,0:09:56.74,0:10:01.58,Default,,0,0,0,,Este vaso grego é uma das peças mais belas do museu.
+Dialogue: 0,0:10:01.74,0:10:03.91,Default,,0,0,0,,Foi descoberto em Vulci, na Itália...
+Dialogue: 0,0:10:04.04,0:10:05.87,Default,,0,0,0,,Também é uma cópia.
+Dialogue: 0,0:10:06.29,0:10:08.31,Default,,0,0,0,,Uma bugiganga para turistas.
+Dialogue: 0,0:10:08.45,0:10:11.06,Default,,0,0,0,,É pior que uma falsificação.
+Dialogue: 0,0:10:12.04,0:10:12.91,Default,,0,0,0,,E isso?
+Dialogue: 0,0:10:13.05,0:10:14.01,Default,,0,0,0,,Eh bem...
+Dialogue: 0,0:10:14.30,0:10:17.95,Default,,0,0,0,,É uma máscara de teatro\Nda época romana.
+Dialogue: 0,0:10:18.35,0:10:19.32,Default,,0,0,0,,Isso também?
+Dialogue: 0,0:10:19.53,0:10:22.47,Default,,0,0,0,,Hmm, sim.\NCé o que pensamos.
+Dialogue: 0,0:10:22.97,0:10:25.76,Default,,0,0,0,,Glorificamos o Século Universal,
+Dialogue: 0,0:10:25.88,0:10:29.35,Default,,0,0,0,,mas sua história é velha\Nde menos de um século.
+Dialogue: 0,0:10:29.92,0:10:31.82,Default,,0,0,0,,Não é à toa que zombam de nós.
+Dialogue: 0,0:10:32.11,0:10:35.30,Default,,0,0,0,,E nos tratam como arrivistas.
+Dialogue: 0,0:10:39.20,0:10:43.09,Default,,0,0,0,,Acho que entendi o seu ponto\Nde vista.
+Dialogue: 0,0:10:44.04,0:10:47.18,Default,,0,0,0,,Esta é a pior guerra\Nda humanidade.
+Dialogue: 0,0:10:47.54,0:10:49.21,Default,,0,0,0,,É preciso pôr fim nisso.
+Dialogue: 0,0:10:49.79,0:10:55.09,Default,,0,0,0,,Desde Abel e Caim, os homens\Nse enfrentam e se desentendem
+Dialogue: 0,0:10:55.22,0:10:58.22,Default,,0,0,0,,sem tentar entender-se.
+Dialogue: 0,0:10:58.50,0:11:00.49,Default,,0,0,0,,É patético...
+Dialogue: 0,0:11:00.94,0:11:05.90,Default,,0,0,0,,Zeon Zum Deikun tentou\Nlibertar o homem dessa maldição.
+Dialogue: 0,0:11:06.37,0:11:10.80,Default,,0,0,0,,E se for verdade que somos todos\Ncriaturas de Deus,
+Dialogue: 0,0:11:10.94,0:11:16.16,Default,,0,0,0,,qual mal há em que\Nos Spacenoids sejam apaixonados por liberdade,
+Dialogue: 0,0:11:16.30,0:11:20.86,Default,,0,0,0,,como os homens que partiram\Npara conquistar o Novo Mundo?
+Dialogue: 0,0:11:21.28,0:11:25.87,Default,,0,0,0,,Deikun estabeleceu esse objetivo\Ncom novas regras para este século
+Dialogue: 0,0:11:26.05,0:11:29.74,Default,,0,0,0,,e nos unimos à sua bandeira,
+Dialogue: 0,0:11:30.08,0:11:32.80,Default,,0,0,0,,inconscientes do fato
+Dialogue: 0,0:11:32.94,0:11:37.53,Default,,0,0,0,,que o sonho desse novo gênero humano\Nlevaria a ódio e destruição.
+Dialogue: 0,0:11:39.18,0:11:40.60,Default,,0,0,0,,Almirante Revil,
+Dialogue: 0,0:11:40.74,0:11:45.22,Default,,0,0,0,,Que tal pôr um fim nisso,\Nvocê e eu?
+Dialogue: 0,0:11:47.96,0:11:49.73,Default,,0,0,0,,O que posso fazer, afinal?
+Dialogue: 0,0:11:50.58,0:11:54.48,Default,,0,0,0,,Você tem influência.\NMas eu sou apenas um prisioneiro.
+Dialogue: 0,0:11:55.16,0:11:56.52,Default,,0,0,0,,Entendi.
+Dialogue: 0,0:12:01.38,0:12:02.97,Default,,0,0,0,,Entendi.
+Dialogue: 0,0:12:09.08,0:12:13.16,Default,,0,0,0,,Entendido, almirante Revil.
+Dialogue: 0,0:12:15.10,0:12:18.75,Default,,0,0,0,,Duvido que esteja qualificado\Npara liderar tais negociações.
+Dialogue: 0,0:12:19.17,0:12:22.20,Default,,0,0,0,,Porque você prefere\Ninvadir a Terra
+Dialogue: 0,0:12:22.32,0:12:27.30,Default,,0,0,0,,para restaurar sua cultura,\Nsua civilização e suas relíquias?
+Dialogue: 0,0:12:27.54,0:12:29.24,Default,,0,0,0,,Absolutamente!
+Dialogue: 0,0:12:29.41,0:12:34.60,Default,,0,0,0,,É por isso que preciso de você.\NA guerra deve continuar.
+Dialogue: 0,0:12:38.19,0:12:41.42,Default,,0,0,0,,Não se equivoque,\Ngeneral M'Quve.
+Dialogue: 0,0:12:41.70,0:12:44.22,Default,,0,0,0,,Você não vai à Terra\Npara negociar
+Dialogue: 0,0:12:44.38,0:12:47.35,Default,,0,0,0,,mas para comandar\No exército de invasão.
+Dialogue: 0,0:12:49.09,0:12:51.62,Default,,0,0,0,,Eis o que eu penso,
+Dialogue: 0,0:12:51.88,0:12:54.29,Default,,0,0,0,,e Gihren compartilha desta opinião.
+Dialogue: 0,0:12:54.76,0:12:57.42,Default,,0,0,0,,É preciso tomar\No controle da Terra.
+Dialogue: 0,0:12:57.96,0:13:02.98,Default,,0,0,0,,É por isso que precisamos de alguém\Nque saiba apreciar a Terra.
+Dialogue: 0,0:13:03.80,0:13:07.14,Default,,0,0,0,,Posso fazer duas perguntas?
+Dialogue: 0,0:13:08.06,0:13:09.14,Default,,0,0,0,,De nada.
+Dialogue: 0,0:13:09.76,0:13:13.91,Default,,0,0,0,,Para fazer guerra,\Nprecisa-se de um adversário.
+Dialogue: 0,0:13:14.28,0:13:18.00,Default,,0,0,0,,Mas se a Federação perder\Nqualquer desejo de conflito,
+Dialogue: 0,0:13:18.17,0:13:20.77,Default,,0,0,0,,para quem devo erguer meu punho?
+Dialogue: 0,0:13:22.37,0:13:25.53,Default,,0,0,0,,E qual é a outra pergunta?
+Dialogue: 0,0:13:26.00,0:13:27.32,Default,,0,0,0,,Qual garantia tenho?
+Dialogue: 0,0:13:27.73,0:13:32.95,Default,,0,0,0,,Minhas tropas e eu seremos lançados por ar\Nen território inimigo.
+Dialogue: 0,0:13:33.08,0:13:36.79,Default,,0,0,0,,Vou ser franco.\NNão quero ser sacrificado.
+Dialogue: 0,0:13:37.11,0:13:39.62,Default,,0,0,0,,Responderei à segunda pergunta.
+Dialogue: 0,0:13:40.38,0:13:43.69,Default,,0,0,0,,Garma Zabi ficará sob seu comando.
+Dialogue: 0,0:13:45.27,0:13:50.16,Default,,0,0,0,,Você não é ignorante do fato\Nde que ele é o filho preferido do duque.
+Dialogue: 0,0:13:52.12,0:13:57.58,Default,,0,0,0,,Por isso, é a melhor garantia\Nque ele não o abandonará.
+Dialogue: 0,0:13:57.73,0:13:58.77,Default,,0,0,0,,E finalmente...
+Dialogue: 0,0:14:00.30,0:14:03.44,Default,,0,0,0,,Quanto à primeira pergunta...
+Dialogue: 0,0:14:04.91,0:14:07.43,Default,,0,0,0,,A natureza humana\Nmuda instintivamente
+Dialogue: 0,0:14:07.58,0:14:10.32,Default,,0,0,0,,a lutar em qualquer lugar,\Nem a qualquer momento.
+Dialogue: 0,0:14:10.47,0:14:12.66,Default,,0,0,0,,Isso é ao mesmo tempo estúpido e...
+Dialogue: 0,0:14:13.12,0:14:14.66,Default,,0,0,0,,cheio de bom senso.
+Dialogue: 0,0:14:16.43,0:14:20.79,Default,,0,0,0,,Eu me certifiquei\Nque o conflito iria continuar.
+Dialogue: 0,0:14:22.47,0:14:24.06,Default,,0,0,0,,General M'Quve.
+Dialogue: 0,0:14:24.43,0:14:26.80,Default,,0,0,0,,Deixe-me\Nfazer uma confidência.
+Dialogue: 0,0:14:27.08,0:14:29.92,Default,,0,0,0,,Eu lhe digo isso\Nporque você é muito competente,
+Dialogue: 0,0:14:30.26,0:14:33.20,Default,,0,0,0,,contrário\Na outros oficiais gerais.
+Dialogue: 0,0:14:35.03,0:14:37.74,Default,,0,0,0,,Eu não tenho muito Gihren...
+Dialogue: 0,0:14:39.00,0:14:40.16,Default,,0,0,0,,no meu coração.
+Dialogue: 0,0:14:46.70,0:14:50.79,Default,,0,0,0,,Pelo amor de Deus\NO que M'Quve representa para nós?
+Dialogue: 0,0:14:51.19,0:14:54.83,Default,,0,0,0,,Ele não lutou nem em Loum\Nnem em Hatte!
+Dialogue: 0,0:14:55.24,0:14:57.22,Default,,0,0,0,,Odeio esse tipo de pessoa!
+Dialogue: 0,0:14:57.60,0:15:00.25,Default,,0,0,0,,Quanto a esses debates de paz,
+Dialogue: 0,0:15:00.78,0:15:03.94,Default,,0,0,0,,não me importo nem um pouco!
+Dialogue: 0,0:15:04.40,0:15:05.96,Default,,0,0,0,,Mas isso teria me aborrecido
+Dialogue: 0,0:15:06.10,0:15:11.07,Default,,0,0,0,,Que um bom oficial como você\Nme deixe para segui-lo.
+Dialogue: 0,0:15:11.26,0:15:13.09,Default,,0,0,0,,Obrigado por ter ficado.
+Dialogue: 0,0:15:13.46,0:15:15.48,Default,,0,0,0,,A Terra não me serve,
+Dialogue: 0,0:15:15.88,0:15:18.10,Default,,0,0,0,,sou um Spacenoid puro e duro.
+Dialogue: 0,0:15:18.65,0:15:21.23,Default,,0,0,0,,Prefiro recusar sua oferta.
+Dialogue: 0,0:15:22.84,0:15:24.39,Default,,0,0,0,,Não se engane.
+Dialogue: 0,0:15:25.22,0:15:28.78,Default,,0,0,0,,Não somos crianças,\NNão roube nossos oficiais.
+Dialogue: 0,0:15:29.34,0:15:31.95,Default,,0,0,0,,Não quero que você vá para lá.
+Dialogue: 0,0:15:32.10,0:15:34.66,Default,,0,0,0,,pois tenho uma missão para lhe confiar.
+Dialogue: 0,0:15:34.92,0:15:36.08,Default,,0,0,0,,Sério?
+Dialogue: 0,0:15:36.32,0:15:37.91,Default,,0,0,0,,Que tipo de missão?
+Dialogue: 0,0:15:41.10,0:15:45.92,Default,,0,0,0,,As Forças Federais estão desenvolvendo\Nseus MS no maior segredo.
+Dialogue: 0,0:15:47.37,0:15:49.94,Default,,0,0,0,,Seu projeto se chama "operação V"
+Dialogue: 0,0:15:50.38,0:15:54.07,Default,,0,0,0,,e eles o levam adiante\Nem algum lugar por aí.
+Dialogue: 0,0:16:27.05,0:16:31.40,Default,,0,0,0,,São os MS\Nque mudaram a situação do conflito,
+Dialogue: 0,0:16:31.66,0:16:35.47,Default,,0,0,0,,mas poucos\Nentendem agora
+Dialogue: 0,0:16:35.61,0:16:37.86,Default,,0,0,0,,a ameaça\Nque representa a operação V.
+Dialogue: 0,0:16:38.30,0:16:40.31,Default,,0,0,0,,É aí que você entra em cena.
+Dialogue: 0,0:16:42.06,0:16:45.77,Default,,0,0,0,,Procure por pistas,\Nelimine qualquer oposição se for necessário,
+Dialogue: 0,0:16:45.91,0:16:49.57,Default,,0,0,0,,mas ache a base da Operação V\Ne destrua-a!
+Dialogue: 0,0:16:49.94,0:16:50.86,Default,,0,0,0,,Às ordens!
+Dialogue: 0,0:16:51.28,0:16:54.04,Default,,0,0,0,,Embora você seja um herói de Zeon,
+Dialogue: 0,0:16:54.18,0:16:58.07,Default,,0,0,0,,não conseguirá realizar essa missão sozinho.
+Dialogue: 0,0:16:59.52,0:17:02.62,Default,,0,0,0,,Olhe! Este é o seu navio!
+Dialogue: 0,0:17:04.79,0:17:08.97,Default,,0,0,0,,É o {\i1}Falmer{\i0}.\NEu mesmo o batizei.
+Dialogue: 0,0:17:10.18,0:17:12.70,Default,,0,0,0,,É o mais avançado dos Musai!
+Dialogue: 0,0:17:13.56,0:17:15.43,Default,,0,0,0,,É meu presente de partida.
+Dialogue: 0,0:17:16.38,0:17:20.26,Default,,0,0,0,,Você tem carta branca\Npara cumprir sua missão.
+Dialogue: 0,0:17:20.85,0:17:22.39,Default,,0,0,0,,Você tem alguma pergunta?
+Dialogue: 0,0:17:23.18,0:17:24.23,Default,,0,0,0,,Nenhuma!
+Dialogue: 0,0:17:24.68,0:17:27.94,Default,,0,0,0,,Estou pronto para executar minha missão.
+Dialogue: 0,0:17:51.84,0:17:54.46,Default,,0,0,0,,É um navio e tanto, você sabe disso?
+Dialogue: 0,0:17:54.88,0:17:58.51,Default,,0,0,0,,Eu já servi apenas em navios\Nde classe Papua,
+Dialogue: 0,0:17:58.66,0:18:01.72,Default,,0,0,0,,e eu sei do que estou falando,\Ncomandante Char!
+Dialogue: 0,0:18:01.99,0:18:04.86,Default,,0,0,0,,É você quem vai comandá-lo, tenente Dren.
+Dialogue: 0,0:18:06.35,0:18:09.35,Default,,0,0,0,,Você está brincando, comandante?
+Dialogue: 0,0:18:09.88,0:18:11.82,Default,,0,0,0,,Estou falando sério.
+Dialogue: 0,0:18:12.27,0:18:17.80,Default,,0,0,0,,Não gosto da ideia de estar acorrentado\Nem qualquer navio.
+Dialogue: 0,0:18:18.48,0:18:19.86,Default,,0,0,0,,Escute bem.
+Dialogue: 0,0:18:20.49,0:18:25.11,Default,,0,0,0,,Eu nunca tive a vocação\Nde ser um bom marinheiro.
+Dialogue: 0,0:18:26.16,0:18:28.73,Default,,0,0,0,,Sou um guerreiro das estrelas
+Dialogue: 0,0:18:28.92,0:18:33.13,Default,,0,0,0,,que voa livremente,\Nmas rápido do que qualquer navio!
+Dialogue: 0,0:18:35.17,0:18:37.47,Default,,0,0,0,,Continue com os testes, capitão.
+Dialogue: 0,0:18:37.88,0:18:38.63,Default,,0,0,0,,Nesse caso...
+Dialogue: 0,0:18:39.25,0:18:43.35,Default,,0,0,0,,Aceito humildemente o posto\Nde capitão interino.
+Dialogue: 0,0:18:43.86,0:18:46.32,Default,,0,0,0,,Vamos proceder a um exercício!
+Dialogue: 0,0:18:46.59,0:18:49.31,Default,,0,0,0,,Todos a seus postos!
+Dialogue: 0,0:18:49.72,0:18:52.11,Italique,,0,0,0,,Aos postos de combate antinavio!
+Dialogue: 0,0:18:52.29,0:18:55.15,Italique,,0,0,0,,Isso não será um exercício qualquer!
+Dialogue: 0,0:18:55.48,0:18:58.03,Italique,,0,0,0,,Façam como se fosse verdade!
+Dialogue: 0,0:18:58.39,0:19:00.94,Default,,0,0,0,,Cap na zona de combate!
+Dialogue: 0,0:19:01.11,0:19:03.78,Default,,0,0,0,,Vire à bombordo 90!
+Dialogue: 0,0:19:15.59,0:19:18.50,Italique,,0,0,0,,Rainha da Noite, aqui o Carvalho.
+Dialogue: 0,0:19:18.86,0:19:21.05,Italique,,0,0,0,,Vamos transmitir {\i0}O Pássaro Azul{\i1}.
+Dialogue: 0,0:19:21.32,0:19:23.55,Default,,0,0,0,,Bom.\NNão exagere.
+Dialogue: 0,0:19:23.73,0:19:24.92,Italique,,0,0,0,,Copiado.
+Dialogue: 0,0:19:42.65,0:19:45.83,Default,,0,0,0,,Desculpe incomodar\Ndurante seu sono.
+Dialogue: 0,0:19:47.49,0:19:48.56,Default,,0,0,0,,Estou sendo transferido?
+Dialogue: 0,0:19:51.50,0:19:54.79,Default,,0,0,0,,Eu não fui informado.
+Dialogue: 0,0:20:01.97,0:20:03.27,Default,,0,0,0,,Por favor, faça rápido.
+Dialogue: 0,0:20:03.62,0:20:06.10,Default,,0,0,0,,Posso fazer uma pergunta?
+Dialogue: 0,0:20:06.80,0:20:08.60,Default,,0,0,0,,Se estiver ao nosso alcance.
+Dialogue: 0,0:20:09.62,0:20:11.35,Default,,0,0,0,,Para onde estou sendo transferido?
+Dialogue: 0,0:20:15.32,0:20:17.64,Default,,0,0,0,,Acho que entendi.
+Dialogue: 0,0:20:33.50,0:20:35.71,Default,,0,0,0,,Coloque isto, almirante.
+Dialogue: 0,0:20:37.71,0:20:40.96,Default,,0,0,0,,Lamentavelmente, só encontramos\Num uniforme de tenente-coronel.
+Dialogue: 0,0:20:45.54,0:20:48.35,Default,,0,0,0,,Vamos avançar\Naté o terminal de carga.
+Dialogue: 0,0:20:48.98,0:20:52.48,Default,,0,0,0,,Teremos que correr,\Numa nave nos espera.
+Dialogue: 0,0:20:53.20,0:20:55.83,Default,,0,0,0,,Você comanda esta operação?
+Dialogue: 0,0:20:56.46,0:20:59.86,Default,,0,0,0,,Qual é o seu nome?\NQuem é o seu superior?
+Dialogue: 0,0:21:02.79,0:21:06.24,Default,,0,0,0,,Você não pode responder,\Neu imagino?
+Dialogue: 0,0:21:26.68,0:21:29.27,Default,,0,0,0,,Corra até à nave! Rápido!
+Dialogue: 0,0:21:40.87,0:21:41.82,Default,,0,0,0,,Rápido!
+Dialogue: 0,0:21:43.00,0:21:44.61,Default,,0,0,0,,Depressa!
+Dialogue: 0,0:21:49.62,0:21:51.80,Italique,,0,0,0,,Incidente interno detectado!
+Dialogue: 0,0:21:51.98,0:21:54.68,Italique,,0,0,0,,Este cais agora é inutilizável.
+Dialogue: 0,0:21:54.88,0:21:57.62,Italique,,0,0,0,,Este cais agora é inutilizável.
+Dialogue: 0,0:21:58.10,0:22:02.25,Default,,0,0,0,,Aqui o Carvalho.\NA Ave Azul está na gaiola.
+Dialogue: 0,0:22:02.63,0:22:06.01,Default,,0,0,0,,Tomemos rumo ao ponto de encontro\Ncom Maeterlinck.
+Dialogue: 0,0:22:06.78,0:22:09.52,Italique,,0,0,0,,Copiado, bom trabalho.
+Dialogue: 0,0:22:24.98,0:22:26.90,Default,,0,0,0,,Alvo travado!
+Dialogue: 0,0:22:27.58,0:22:31.16,Default,,0,0,0,,O Salamis à frente,\Ndistância 8.210.
+Dialogue: 0,0:22:31.50,0:22:34.92,Default,,0,0,0,,Canhões de Mega Partículas carregados a 92%.
+Dialogue: 0,0:22:35.23,0:22:37.66,Default,,0,0,0,,Mísseis antinavio prontos para atirar.
+Dialogue: 0,0:22:37.80,0:22:40.63,Default,,0,0,0,,Bem!\NTire três salvas de mísseis.
+Dialogue: 0,0:22:40.78,0:22:43.99,Default,,0,0,0,,Depois, dispare\Ncom os canhões de mega partículas.
+Dialogue: 0,0:22:44.18,0:22:48.17,Default,,0,0,0,,Atinja-o quando estiver\Nentre 60 e 50 de distância!
+Dialogue: 0,0:22:48.60,0:22:50.46,Default,,0,0,0,,Carregue a 120%!
+Dialogue: 0,0:22:50.60,0:22:52.55,Default,,0,0,0,,Tubos 1 a 3, prontos para atirar.
+Dialogue: 0,0:22:53.01,0:22:55.58,Default,,0,0,0,,Distância 8 110. Nós...
+Dialogue: 0,0:22:55.96,0:22:57.43,Default,,0,0,0,,Hein? Hein?
+Dialogue: 0,0:22:57.70,0:22:58.68,Default,,0,0,0,,O que foi?
+Dialogue: 0,0:22:58.96,0:23:01.74,Default,,0,0,0,,Capitão!\NEuh, capitão interino!
+Dialogue: 0,0:23:01.94,0:23:03.94,Default,,0,0,0,,O alvo é suspeito!
+Dialogue: 0,0:23:04.42,0:23:06.44,Default,,0,0,0,,Estamos nos aproximando rápido demais.
+Dialogue: 0,0:23:06.81,0:23:09.40,Default,,0,0,0,,O Salamis está ativo!
+Dialogue: 0,0:23:09.56,0:23:10.66,Default,,0,0,0,,O quê?
+Dialogue: 0,0:23:12.17,0:23:14.87,Default,,0,0,0,,Velocidade: 1,1 km por segundo!
+Dialogue: 0,0:23:15.18,0:23:17.41,Default,,0,0,0,,Ele vai entrar na faixa de tiro!
+Dialogue: 0,0:23:17.74,0:23:18.66,Default,,0,0,0,,O que faremos?
+Dialogue: 0,0:23:19.20,0:23:21.58,Default,,0,0,0,,O que faria, capitão Dren?
+Dialogue: 0,0:23:22.07,0:23:23.54,Default,,0,0,0,,Distância 7.900!
+Dialogue: 0,0:23:24.01,0:23:25.79,Default,,0,0,0,,Ele acabou de desacelerar!
+Dialogue: 0,0:23:27.17,0:23:29.97,Default,,0,0,0,,Acho que nos detectou.
+Dialogue: 0,0:24:52.13,0:24:56.04,Default,,0,0,0,,Adaptação : Jun-Ichi Takeda
+Dialogue: 0,0:02:28.57,0:02:32.69,OPCN,NTP,0,0,0,,{\fad(200,200)}Você pertence a mim Ainda não te despedi.
+Dialogue: 0,0:02:32.86,0:02:37.19,OPCN,NTP,0,0,0,,{\fad(200,200)}Queria te abraçar para sempre
+Dialogue: 0,0:02:37.24,0:02:41.42,OPCN,NTP,0,0,0,,{\fad(200,200)}Eu pertenço a você, meu peito vai explodir
+Dialogue: 0,0:02:41.59,0:02:46.00,OPCN,NTP,0,0,0,,{\fad(200,0)}Queria te mostrar tudo isso
+Dialogue: 0,0:02:46.00,0:02:56.07,OPCN,NTP,0,0,0,,{\fad(200,200)}Ah, não conseguimos escapar dessa roda Möbius
+Dialogue: 0,0:02:56.29,0:03:02.91,OPCN,NTP,0,0,0,,{\fad(200,200)}Sempre repetindo esses pecados
+Dialogue: 0,0:03:03.05,0:03:07.31,OPCN,NTP,0,0,0,,{\fad(200,200)}Mais do que paz, mais do que liberdade, mais do que justiça
+Dialogue: 0,0:03:07.46,0:03:11.70,OPCN,NTP,0,0,0,,{\fad(200,200)}Você é tudo o que procuro
+Dialogue: 0,0:03:11.79,0:03:15.85,OPCN,NTP,0,0,0,,{\fad(200,200)}Mesmo separados, mesmo mudando, mesmo perdendo
+Dialogue: 0,0:03:15.91,0:03:20.41,OPCN,NTP,0,0,0,,{\fad(200,200)}Também não se esconda em sua luz
+Dialogue: 0,0:03:20.52,0:03:24.82,OPCN,NTP,0,0,0,,{\fad(200,200)}Você pode mudar o destino no fim do tempo
+Dialogue: 0,0:03:24.92,0:03:29.21,OPCN,NTP,0,0,0,,{\fad(200,200)}Você pode mudar o futuro no fim da escuridão
+Dialogue: 0,0:03:29.47,0:03:33.21,OPCN,NTP,0,0,0,,{\fad(200,200)}Vamos compartilhar a felicidade e procurá-la juntos
+Dialogue: 0,0:03:33.28,0:03:38.52,OPCN,NTP,0,0,0,,{\fad(200,400)}O dia em que todos se entenderem mutuamente
+Dialogue: 0,0:23:30.97,0:23:34.35,EDCN,NTP,0,0,0,,{\fad(450,0)}O universo está chamando
+Dialogue: 0,0:23:35.31,0:23:39.44,EDCN,NTP,0,0,0,,{\fad(450,0)}Eu ouvi seu grito
+Dialogue: 0,0:23:41.65,0:23:44.94,EDCN,NTP,0,0,0,,{\fad(450,0)}Embora em silêncio
+Dialogue: 0,0:23:45.61,0:23:48.53,EDCN,NTP,0,0,0,,{\fad(450,0)}ainda há uma...
+Dialogue: 0,0:23:49.07,0:23:51.28,EDCN,NTP,0,0,0,,{\pos(960,1055)\fad(450,150)}um brilho carmesim
+Dialogue: 0,0:23:51.17,0:24:01.24,EDCN,NTP,0,0,0,,{\pos(960,1055)\fad(150,200)}A luz da redenção está aqui. É a esperança de sobrevivência no desespero
+Dialogue: 0,0:24:01.47,0:24:11.61,EDCN,NTP,0,0,0,,{\fad(200,200)}A esperança de viver no desespero, que faz as lágrimas escorrerem
+Dialogue: 0,0:24:11.93,0:24:20.73,EDCN,NTP,0,0,0,,{\fad(200,0)}As flores cultivadas com todo o coração
+Dialogue: 0,0:24:20.75,0:24:28.74,EDCN,NTP,0,0,0,,{\fad(200,200)}Mesmo que as estrelas desapareçam, a luz permanece.
+Dialogue: 0,0:24:33.70,0:24:37.18,EDCN,NTP,0,0,0,,{\fad(200,200)}O universo está chamando
+Dialogue: 0,0:24:38.95,0:24:42.66,EDCN,NTP,0,0,0,,{\fad(200,200)}Eu ouvi seu grito
+Dialogue: 0,0:24:44.21,0:24:47.40,EDCN,NTP,0,0,0,,{\fad(200,200)}Embora em silêncio
+Dialogue: 0,0:24:48.10,0:24:52.93,EDCN,NTP,0,0,0,,{\fad(200,850)}ainda há uma...

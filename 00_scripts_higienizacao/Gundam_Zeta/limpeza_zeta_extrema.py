@@ -2,14 +2,12 @@
 # -*- coding: utf-8 -*-
 
 import os
+import sys
 import glob
 import re
 from colorama import init, Fore, Style
 
 init(autoreset=True)
-
-# PASTA ALVO DE ZETA GUNDAM
-PASTA_ALVO = r"C:\animes\[Joseki] Mobile Suit Z Gundam COMPLETE (1985)(BD AV1 1080p Opus)[Sub Eng][v2]\legendas_ptbr"
 
 # Termos de lore/marca: sempre normalizados para a grafia oficial,
 # em QUALQUER caixa (Traje Móvel / traje móvel / TRAJE MÓVEL) e posição na frase.
@@ -25,21 +23,63 @@ LORE_PROPRIO = {
     "Federação da Terra": "Federação Terrestre",
     "Forças Terrestres": "Forças da Federação",
     "Titans": "Titãs",
+    "ao Eixo": "a Axis",
+    "do Eixo": "de Axis",
+    "no Eixo": "em Axis",
+    "o Eixo": "Axis",
+    "o eixo": "Axis",
+    "Ciber-Novo Tipo": "Cyber-Newtype",
+    "Ciber-Novos Tipos": "Cyber-Newtypes",
+    "Cibernovo Tipo": "Cyber-Newtype",
+    "Cibernovos Tipos": "Cyber-Newtypes",
+    "ciber-novo tipo": "Cyber-Newtype",
+    "ciber-novos tipos": "Cyber-Newtypes",
+    "Gundam Psíquico": "Psycho Gundam",
+    "Gundam Psíquicos": "Psycho Gundams",
+    "Gundam Psicótico": "Psycho Gundam",
+    "Noa Verde": "Green Noa",
 }
 
 # Gafes de tradução literal, esquizofrenia Tu/Você, concordância e redundâncias.
 # A caixa da primeira letra do trecho ORIGINAL é preservada na troca (Tu/tu -> Você/você).
 GRAMATICA_E_GAFES = {
     # ----------------------------------------------------
-    # GAFES DE TRADUÇÃO DIRETA DO INGLÊS (LLMs)
+    # GAFES DE TRADUÇÃO DIRETA DO INGLÊS/FRANCÊS (LLMs)
     # ----------------------------------------------------
     "Eu vejo.": "Entendo.",
     "Olhe fora!": "Cuidado!",
+    "Olha fora!": "Cuidado!",
     "Você é direito": "Você tem razão",
+    "Você está direito": "Você tem razão",
     "Que o inferno": "Que diabos",
     "Que inferno": "Que diabos",
     "Merda sagrada": "Puta merda",
     "Oh meu Deus": "Meu Deus",
+    "De nenhuma maneira": "De jeito nenhum",
+    "Atualmente ": "Na verdade ",
+    "atualmente ": "na verdade ",
+    "Desgraçadamente": "Infelizmente",
+    "desgraçadamente": "infelizmente",
+
+    # ----------------------------------------------------
+    # GERUNDISMOS E VÍCIOS DE TRADUÇÃO
+    # ----------------------------------------------------
+    "vou estar fazendo": "vou fazer",
+    "vou estar indo": "vou",
+    "vamos estar fazendo": "vamos fazer",
+    "vou estar ajudando": "vou ajudar",
+
+    # ----------------------------------------------------
+    # MAIS VS MAS (CONFUSÕES COMUNS DO CONTEXTO DE TRADUÇÃO)
+    # ----------------------------------------------------
+    ", mais eu ": ", mas eu ",
+    ", mais você ": ", mas você ",
+    ", mais ele ": ", mas ele ",
+    ", mais ela ": ", mas ela ",
+    ", mais nós ": ", mas nós ",
+    ", mais eles ": ", mas eles ",
+    ", mais não ": ", mas não ",
+    ", mais sim ": ", mas sim ",
 
     # ----------------------------------------------------
     # ESQUIZOFRENIA TU/VOCÊ - VERBOS
@@ -139,6 +179,10 @@ def higienizar_linha(texto):
     # (?!\.\.) preserva reticências "..." de propósito (pausa/hesitação) - só tira espaço antes de pontuação isolada
     t = re.sub(r' {2,}', ' ', t)
     t = re.sub(r' +([,.!?;:])(?!\.\.)', r'\1', t)
+    # Normaliza 4 ou mais pontos seguidos para exatamente 3 pontos (reticências)
+    t = re.sub(r'\.{4,}', '...', t)
+    # Normaliza exatamente 2 pontos isolados para exatamente 3 pontos (reticências)
+    t = re.sub(r'(?<!\.)\.\.(?!\.)', '...', t)
 
     # 4. Sigla A.E.U.G. - normaliza 0, 1 ou vários pontos finais para exatamente um
     t = re.sub(r'\bA\.E\.U\.G\.*(?!\w)', 'A.E.U.G.', t, flags=re.IGNORECASE)
@@ -159,14 +203,21 @@ def higienizar_linha(texto):
 
 
 def obter_pasta_alvo():
-    """Pergunta a pasta a higienizar; ENTER aceita o caminho padrão (PASTA_ALVO)."""
+    """Obtém a pasta a higienizar via argumento de linha de comando ou input manual."""
+    if len(sys.argv) > 1:
+        entrada = sys.argv[1].strip().strip('"').strip("'")
+        if os.path.isdir(entrada):
+            return entrada
+        print(f"{Fore.RED}[ERRO] O diretório especificado não existe: {entrada}")
+
     while True:
         entrada = input(
-            f"{Fore.CYAN}Pasta com as legendas .ass do Zeta (ENTER = {PASTA_ALVO}): {Style.RESET_ALL}"
+            f"{Fore.CYAN}Pasta com as legendas .ass do Zeta: {Style.RESET_ALL}"
         ).strip().strip('"').strip("'")
 
         if not entrada:
-            entrada = PASTA_ALVO
+            print(f"{Fore.RED}[ERRO] É necessário informar um caminho.")
+            continue
 
         if not os.path.isdir(entrada):
             print(f"{Fore.RED}[ERRO] O diretório especificado não existe: {entrada}")
@@ -183,7 +234,19 @@ def varrer_tudo():
     pasta_alvo = obter_pasta_alvo()
 
     arquivos = glob.glob(os.path.join(glob.escape(pasta_alvo), '*.ass'))
-    alvos = [arq for arq in arquivos if not arq.endswith('_REVISADO.ass')]
+    for sub in ["legendas_eng", "traducao", "legendas-traduzidas", "legendas_ptbr"]:
+        sub_dir = os.path.join(pasta_alvo, sub)
+        if os.path.isdir(sub_dir):
+            arquivos.extend(glob.glob(os.path.join(glob.escape(sub_dir), '*.ass')))
+            
+    vistos = set()
+    arquivos_unicos = []
+    for arq in arquivos:
+        if arq not in vistos:
+            vistos.add(arq)
+            arquivos_unicos.append(arq)
+
+    alvos = [arq for arq in arquivos_unicos if not arq.endswith('_REVISADO.ass')]
     alvos.sort()
 
     if not alvos:

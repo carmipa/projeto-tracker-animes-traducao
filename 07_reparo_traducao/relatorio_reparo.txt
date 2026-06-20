@@ -1,27 +1,55 @@
-RELATORIO DE REPARO DE TRADUCAO - REPARA_ERROS_TRADUCAO
-Gerado em: 2026-06-12 00:01:27
+RELATORIO DE REPARO DE TRADUCAO - REPARA_ERROS_TRADUCAO (ENG -> PT-BR)
+Gerado em: 2026-06-19 21:42:59
 ================================================================================
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E01 - Departure 0096_PTBR.ass | Falhas encontradas: 24 | Reparados: 24 | Falhas persistentes: 0 | Tempo: 6m 13s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E02 - First Blood_PTBR.ass | Falhas encontradas: 38 | Reparados: 36 | Falhas persistentes: 2 | Tempo: 11m 04s | Linhas com falha: 31, 288
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E03 - They Called It Gundam_PTBR.ass | Falhas encontradas: 45 | Reparados: 44 | Falhas persistentes: 1 | Tempo: 10m 26s | Linhas com falha: 31
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E04 - Full Frontal's Pursuit_PTBR.ass | Falhas encontradas: 36 | Reparados: 35 | Falhas persistentes: 1 | Tempo: 8m 59s | Linhas com falha: 216
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E05 - Clash with the Red Comet_PTBR.ass | Falhas encontradas: 34 | Reparados: 33 | Falhas persistentes: 1 | Tempo: 9m 03s | Linhas com falha: 216
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E06 - Under the Mask_PTBR.ass | Falhas encontradas: 27 | Reparados: 27 | Falhas persistentes: 0 | Tempo: 6m 23s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E07 - The Battle of Palau_PTBR.ass | Falhas encontradas: 44 | Reparados: 44 | Falhas persistentes: 0 | Tempo: 11m 25s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E08 - Laplace, Where It All Began_PTBR.ass | Falhas encontradas: 30 | Reparados: 29 | Falhas persistentes: 1 | Tempo: 8m 32s | Linhas com falha: 216
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E09 - Retribution_PTBR.ass | Falhas encontradas: 50 | Reparados: 49 | Falhas persistentes: 1 | Tempo: 13m 14s | Linhas com falha: 185
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E10 - From the Scorching Earth_PTBR.ass | Falhas encontradas: 25 | Reparados: 25 | Falhas persistentes: 0 | Tempo: 7m 05s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E11 - Battle at Torrington_PTBR.ass | Falhas encontradas: 29 | Reparados: 28 | Falhas persistentes: 1 | Tempo: 7m 39s | Linhas com falha: 216
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E12 - A Private War_PTBR.ass | Falhas encontradas: 41 | Reparados: 39 | Falhas persistentes: 2 | Tempo: 11m 17s | Linhas com falha: 216, 424
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E13 - Banagher Links, Soldier_PTBR.ass | Falhas encontradas: 22 | Reparados: 22 | Falhas persistentes: 0 | Tempo: 5m 45s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E14 - Clash of the Two Unicorns_PTBR.ass | Falhas encontradas: 25 | Reparados: 24 | Falhas persistentes: 1 | Tempo: 6m 47s | Linhas com falha: 435
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E15 - Waiting in Space_PTBR.ass | Falhas encontradas: 34 | Reparados: 33 | Falhas persistentes: 1 | Tempo: 8m 22s | Linhas com falha: 210
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E16 - The Side Co-Prosperity Sphere_PTBR.ass | Falhas encontradas: 22 | Reparados: 22 | Falhas persistentes: 0 | Tempo: 6m 03s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E17 - Nahel Argama Recaptured_PTBR.ass | Falhas encontradas: 39 | Reparados: 39 | Falhas persistentes: 0 | Tempo: 9m 16s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E18 - Fateful Battle_PTBR.ass | Falhas encontradas: 3 | Reparados: 3 | Falhas persistentes: 0 | Tempo: 29s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E19 - Another Cosmic Glow_PTBR.ass | Falhas encontradas: 29 | Reparados: 29 | Falhas persistentes: 0 | Tempo: 7m 08s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E20 - Laplace's Box_PTBR.ass | Falhas encontradas: 29 | Reparados: 28 | Falhas persistentes: 1 | Tempo: 7m 35s | Linhas com falha: 237
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E21 - To the World's End_PTBR.ass | Falhas encontradas: 23 | Reparados: 23 | Falhas persistentes: 0 | Tempo: 4m 49s
-Mobile Suit Gundam Unicorn Re0096 (2016) - S01E22 - Return_PTBR.ass | Falhas encontradas: 49 | Reparados: 48 | Falhas persistentes: 1 | Tempo: 11m 25s | Linhas com falha: 233
+Mobile.Suit.Z.Gundam.S01E01_PTBR_ENG.ass | Falhas encontradas: 123 | Reparados: 123 | Falhas persistentes: 0 | Tempo: 9m 18s
+Mobile.Suit.Z.Gundam.S01E02_PTBR_ENG.ass | Falhas encontradas: 148 | Reparados: 145 | Falhas persistentes: 3 | Tempo: 11m 51s | Linhas com falha: 44, 182, 201
+Mobile.Suit.Z.Gundam.S01E03_PTBR_ENG.ass | Falhas encontradas: 194 | Reparados: 194 | Falhas persistentes: 0 | Tempo: 15m 06s
+Mobile.Suit.Z.Gundam.S01E04_PTBR_ENG.ass | Falhas encontradas: 126 | Reparados: 125 | Falhas persistentes: 1 | Tempo: 9m 28s | Linhas com falha: 252
+Mobile.Suit.Z.Gundam.S01E05_PTBR_ENG.ass | Falhas encontradas: 168 | Reparados: 168 | Falhas persistentes: 0 | Tempo: 13m 32s
+Mobile.Suit.Z.Gundam.S01E06_PTBR_ENG.ass | Falhas encontradas: 123 | Reparados: 122 | Falhas persistentes: 1 | Tempo: 10m 28s | Linhas com falha: 245
+Mobile.Suit.Z.Gundam.S01E07_PTBR_ENG.ass | Falhas encontradas: 185 | Reparados: 183 | Falhas persistentes: 2 | Tempo: 14m 43s | Linhas com falha: 198, 225
+Mobile.Suit.Z.Gundam.S01E08_PTBR_ENG.ass | Falhas encontradas: 120 | Reparados: 119 | Falhas persistentes: 1 | Tempo: 9m 41s | Linhas com falha: 250
+Mobile.Suit.Z.Gundam.S01E09_PTBR_ENG.ass | Falhas encontradas: 165 | Reparados: 164 | Falhas persistentes: 1 | Tempo: 12m 25s | Linhas com falha: 365
+Mobile.Suit.Z.Gundam.S01E10_PTBR_ENG.ass | Falhas encontradas: 132 | Reparados: 129 | Falhas persistentes: 3 | Tempo: 10m 27s | Linhas com falha: 138, 160, 218
+Mobile.Suit.Z.Gundam.S01E11_PTBR_ENG.ass | Falhas encontradas: 108 | Reparados: 107 | Falhas persistentes: 1 | Tempo: 8m 01s | Linhas com falha: 379
+Mobile.Suit.Z.Gundam.S01E12_PTBR_ENG.ass | Falhas encontradas: 73 | Reparados: 71 | Falhas persistentes: 2 | Tempo: 5m 52s | Linhas com falha: 49, 196
+Mobile.Suit.Z.Gundam.S01E13_PTBR_ENG.ass | Falhas encontradas: 134 | Reparados: 133 | Falhas persistentes: 1 | Tempo: 9m 50s | Linhas com falha: 91
+Mobile.Suit.Z.Gundam.S01E14_PTBR_ENG.ass | Falhas encontradas: 92 | Reparados: 92 | Falhas persistentes: 0 | Tempo: 6m 46s
+Mobile.Suit.Z.Gundam.S01E15_PTBR_ENG.ass | Falhas encontradas: 103 | Reparados: 102 | Falhas persistentes: 1 | Tempo: 8m 11s | Linhas com falha: 131
+Mobile.Suit.Z.Gundam.S01E16_PTBR_ENG.ass | Falhas encontradas: 80 | Reparados: 79 | Falhas persistentes: 1 | Tempo: 6m 42s | Linhas com falha: 252
+Mobile.Suit.Z.Gundam.S01E17_PTBR_ENG.ass | Falhas encontradas: 80 | Reparados: 80 | Falhas persistentes: 0 | Tempo: 6m 20s
+Mobile.Suit.Z.Gundam.S01E18_PTBR_ENG.ass | Falhas encontradas: 179 | Reparados: 178 | Falhas persistentes: 1 | Tempo: 13m 45s | Linhas com falha: 167
+Mobile.Suit.Z.Gundam.S01E19_PTBR_ENG.ass | Falhas encontradas: 96 | Reparados: 96 | Falhas persistentes: 0 | Tempo: 7m 20s
+Mobile.Suit.Z.Gundam.S01E20_PTBR_ENG.ass | Falhas encontradas: 132 | Reparados: 132 | Falhas persistentes: 0 | Tempo: 10m 34s
+Mobile.Suit.Z.Gundam.S01E21_PTBR_ENG.ass | Falhas encontradas: 131 | Reparados: 130 | Falhas persistentes: 1 | Tempo: 10m 13s | Linhas com falha: 182
+Mobile.Suit.Z.Gundam.S01E22_PTBR_ENG.ass | Falhas encontradas: 159 | Reparados: 158 | Falhas persistentes: 1 | Tempo: 12m 23s | Linhas com falha: 168
+Mobile.Suit.Z.Gundam.S01E23_PTBR_ENG.ass | Falhas encontradas: 139 | Reparados: 138 | Falhas persistentes: 1 | Tempo: 10m 54s | Linhas com falha: 135
+Mobile.Suit.Z.Gundam.S01E24_PTBR_ENG.ass | Falhas encontradas: 158 | Reparados: 158 | Falhas persistentes: 0 | Tempo: 12m 17s
+Mobile.Suit.Z.Gundam.S01E25_PTBR_ENG.ass | Falhas encontradas: 229 | Reparados: 228 | Falhas persistentes: 1 | Tempo: 18m 11s | Linhas com falha: 201
+Mobile.Suit.Z.Gundam.S01E26_PTBR_ENG.ass | Falhas encontradas: 87 | Reparados: 87 | Falhas persistentes: 0 | Tempo: 6m 53s
+Mobile.Suit.Z.Gundam.S01E27_PTBR_ENG.ass | Falhas encontradas: 130 | Reparados: 129 | Falhas persistentes: 1 | Tempo: 10m 04s | Linhas com falha: 191
+Mobile.Suit.Z.Gundam.S01E28_PTBR_ENG.ass | Falhas encontradas: 90 | Reparados: 90 | Falhas persistentes: 0 | Tempo: 6m 50s
+Mobile.Suit.Z.Gundam.S01E29_PTBR_ENG.ass | Falhas encontradas: 150 | Reparados: 150 | Falhas persistentes: 0 | Tempo: 11m 44s
+Mobile.Suit.Z.Gundam.S01E30_PTBR_ENG.ass | Falhas encontradas: 71 | Reparados: 71 | Falhas persistentes: 0 | Tempo: 5m 24s
+Mobile.Suit.Z.Gundam.S01E31_PTBR_ENG.ass | Falhas encontradas: 54 | Reparados: 54 | Falhas persistentes: 0 | Tempo: 4m 04s
+Mobile.Suit.Z.Gundam.S01E32_PTBR_ENG.ass | Falhas encontradas: 81 | Reparados: 81 | Falhas persistentes: 0 | Tempo: 6m 15s
+Mobile.Suit.Z.Gundam.S01E33_PTBR_ENG.ass | Falhas encontradas: 85 | Reparados: 85 | Falhas persistentes: 0 | Tempo: 6m 09s
+Mobile.Suit.Z.Gundam.S01E34_PTBR_ENG.ass | Falhas encontradas: 89 | Reparados: 89 | Falhas persistentes: 0 | Tempo: 6m 12s
+Mobile.Suit.Z.Gundam.S01E35_PTBR_ENG.ass | Falhas encontradas: 65 | Reparados: 65 | Falhas persistentes: 0 | Tempo: 5m 01s
+Mobile.Suit.Z.Gundam.S01E36_PTBR_ENG.ass | Falhas encontradas: 77 | Reparados: 77 | Falhas persistentes: 0 | Tempo: 6m 01s
+Mobile.Suit.Z.Gundam.S01E37_PTBR_ENG.ass | Falhas encontradas: 178 | Reparados: 176 | Falhas persistentes: 2 | Tempo: 14m 11s | Linhas com falha: 47, 175
+Mobile.Suit.Z.Gundam.S01E38_PTBR_ENG.ass | Falhas encontradas: 124 | Reparados: 124 | Falhas persistentes: 0 | Tempo: 9m 13s
+Mobile.Suit.Z.Gundam.S01E39_PTBR_ENG.ass | Falhas encontradas: 122 | Reparados: 122 | Falhas persistentes: 0 | Tempo: 9m 27s
+Mobile.Suit.Z.Gundam.S01E40_PTBR_ENG.ass | Falhas encontradas: 71 | Reparados: 70 | Falhas persistentes: 1 | Tempo: 5m 40s | Linhas com falha: 274
+Mobile.Suit.Z.Gundam.S01E41_PTBR_ENG.ass | Falhas encontradas: 104 | Reparados: 104 | Falhas persistentes: 0 | Tempo: 7m 41s
+Mobile.Suit.Z.Gundam.S01E42_PTBR_ENG.ass | Falhas encontradas: 147 | Reparados: 146 | Falhas persistentes: 1 | Tempo: 11m 32s | Linhas com falha: 107
+Mobile.Suit.Z.Gundam.S01E43_PTBR_ENG.ass | Falhas encontradas: 71 | Reparados: 71 | Falhas persistentes: 0 | Tempo: 5m 41s
+Mobile.Suit.Z.Gundam.S01E44_PTBR_ENG.ass | Falhas encontradas: 44 | Reparados: 44 | Falhas persistentes: 0 | Tempo: 3m 17s
+Mobile.Suit.Z.Gundam.S01E45_PTBR_ENG.ass | Falhas encontradas: 107 | Reparados: 107 | Falhas persistentes: 0 | Tempo: 8m 21s
+Mobile.Suit.Z.Gundam.S01E46_PTBR_ENG.ass | Falhas encontradas: 88 | Reparados: 88 | Falhas persistentes: 0 | Tempo: 6m 27s
+Mobile.Suit.Z.Gundam.S01E47_PTBR_ENG.ass | Falhas encontradas: 110 | Reparados: 110 | Falhas persistentes: 0 | Tempo: 8m 11s
+Mobile.Suit.Z.Gundam.S01E48_PTBR_ENG.ass | Falhas encontradas: 51 | Reparados: 50 | Falhas persistentes: 1 | Tempo: 3m 55s | Linhas com falha: 65
+Mobile.Suit.Z.Gundam.S01E49_PTBR_ENG.ass | Falhas encontradas: 18 | Reparados: 18 | Falhas persistentes: 0 | Tempo: 1m 28s
+Mobile.Suit.Z.Gundam.S01E50_PTBR_ENG.ass | Falhas encontradas: 85 | Reparados: 84 | Falhas persistentes: 1 | Tempo: 7m 00s | Linhas com falha: 229
 ================================================================================
-TOTAL: 698 falha(s) | 684 reparada(s) | 14 persistente(s) | Tempo total: 2h 59m 10s
+TOTAL: 5676 falha(s) | 5646 reparada(s) | 30 persistente(s) | Tempo total: 7h 21m 24s

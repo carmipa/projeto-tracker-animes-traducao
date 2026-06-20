@@ -28,8 +28,20 @@ MODELO_ATIVO = "local-model"
 
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
 PASTA_RAIZ = os.path.dirname(PASTA_SCRIPT)
-PASTA_UNICORN = os.path.join(PASTA_RAIZ, "4_tradutor_ia_gemma4", "tradutor_gundam_unicornio")
-PASTA_ORIGIN_ZH = os.path.join(PASTA_RAIZ, "4_tradutor_ia_gemma4", "tradutor_gundam_origin_zh")
+
+# Caminhos das pastas de tradução (com suporte dinâmico a reestruturação de diretórios)
+PASTA_UNICORN = os.path.join(PASTA_RAIZ, "05a_tradutor_llm_gemma4", "tradutor_gundam_unicornio")
+if not os.path.exists(PASTA_UNICORN):
+    PASTA_UNICORN = os.path.join(PASTA_RAIZ, "4_tradutor_ia_gemma4", "tradutor_gundam_unicornio")
+
+PASTA_ORIGIN_ZH = os.path.join(PASTA_RAIZ, "05c_tradutor_llm_qwen2")
+if not os.path.exists(os.path.join(PASTA_ORIGIN_ZH, "batch_translator_origin_zh.py")):
+    caminho_alt = os.path.join(PASTA_RAIZ, "05a_tradutor_llm_gemma4", "tradutor_gundam_origin_zh")
+    if os.path.exists(caminho_alt):
+        PASTA_ORIGIN_ZH = caminho_alt
+    else:
+        PASTA_ORIGIN_ZH = os.path.join(PASTA_RAIZ, "4_tradutor_ia_gemma4", "tradutor_gundam_origin_zh")
+
 RELATORIO_FILE = os.path.join(PASTA_SCRIPT, "relatorio_reparo.txt")
 
 SUFIXOS_ORIGEM = {
@@ -40,6 +52,16 @@ SUFIXOS_ORIGEM = {
 PADRAO_CJK = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
 MODO_REPARO = "eng"
 SYSTEM_PROMPT_REPARO = ""
+
+
+OVERRIDE_REPARO_AVULSO = (
+    "\n\nIMPORTANT — SINGLE-LINE REPAIR MODE OVERRIDE:\n"
+    "You are now repairing ONE isolated subtitle line that already failed automatic batch translation, "
+    "not a numbered batch. Ignore any instruction above about numbering, indices, line-prefixes "
+    "(e.g. '[0]', '1.'), or 'no notes/no reasoning' — for this task you MAY and SHOULD reason step by "
+    "step before answering. Do not prefix your answer with any line number or index. "
+    "Always finish your response with the exact line: FINAL: <your PT-BR translation>"
+)
 
 
 def adaptar_prompt_reparo(system_prompt: str) -> str:
@@ -78,26 +100,77 @@ def adaptar_prompt_reparo(system_prompt: str) -> str:
             ""
         )
         prompt = re.sub(r'\n{3,}', '\n\n', prompt).strip()
-    return prompt
+    return prompt + OVERRIDE_REPARO_AVULSO
 
 
-def carregar_prompt_reparo(modo: str) -> str:
+def carregar_prompt_reparo(modo: str, pasta_originais: str = "") -> str:
     fallback = (
-        "You are an expert subtitler for Japanese anime, specializing in the Gundam Universal Century timeline.\n"
-        "Translate the subtitle line into Brazilian Portuguese (PT-BR).\n"
+        "You are an expert English to Brazilian Portuguese translator programmed to preserve absolute structure.\n"
+        "Translate the subtitle line into Brazilian Portuguese (PT-BR) fluently.\n"
+        "DO NOT modify, translate, or remove any technical tags (like \\N, {\\an8}, <i>, etc.)."
     )
-    pasta = PASTA_ORIGIN_ZH if modo == "zh" else PASTA_UNICORN
-    modulo = "batch_translator_origin_zh" if modo == "zh" else "batch_translator_unicorn"
-    if pasta not in sys.path:
-        sys.path.insert(0, pasta)
-    try:
-        mod = __import__(modulo, fromlist=["SYSTEM_PROMPT"])
-        return adaptar_prompt_reparo(getattr(mod, "SYSTEM_PROMPT", fallback))
-    except ImportError:
-        return adaptar_prompt_reparo(fallback)
-    finally:
-        if sys.path and sys.path[0] == pasta:
-            sys.path.pop(0)
+    
+    pasta_originais_lower = pasta_originais.lower() if pasta_originais else ""
+    
+    pasta_script_alvo = None
+    nome_modulo = None
+    
+    if modo == "zh":
+        caminhos_tentar = [
+            os.path.join(PASTA_RAIZ, "05c_tradutor_llm_qwen2"),
+            os.path.join(PASTA_RAIZ, "05a_tradutor_llm_gemma4", "tradutor_gundam_origin_zh"),
+            os.path.join(PASTA_RAIZ, "4_tradutor_ia_gemma4", "tradutor_gundam_origin_zh")
+        ]
+        for p in caminhos_tentar:
+            if os.path.exists(os.path.join(p, "batch_translator_origin_zh.py")):
+                pasta_script_alvo = p
+                nome_modulo = "batch_translator_origin_zh"
+                break
+    else:
+        if "zeta" in pasta_originais_lower or "z gundam" in pasta_originais_lower or "z_gundam" in pasta_originais_lower:
+            pasta_script_alvo = os.path.join(PASTA_RAIZ, "05c_tradutor_llm_translategemma", "Gundam_Zeta")
+            nome_modulo = "script_tradutor_en_gundam_zeta"
+        elif "zz" in pasta_originais_lower or "double zeta" in pasta_originais_lower:
+            pasta_script_alvo = os.path.join(PASTA_RAIZ, "05c_tradutor_llm_translategemma", "Gundam_ZZ")
+            nome_modulo = "script_tradutor_en_gundam_zz"
+        elif "unicorn" in pasta_originais_lower:
+            caminhos_tentar = [
+                os.path.join(PASTA_RAIZ, "05a_tradutor_llm_gemma4", "tradutor_gundam_unicornio"),
+                os.path.join(PASTA_RAIZ, "4_tradutor_ia_gemma4", "tradutor_gundam_unicornio")
+            ]
+            for p in caminhos_tentar:
+                if os.path.exists(p):
+                    pasta_script_alvo = p
+                    nome_modulo = "batch_translator_unicorn"
+                    break
+
+    if pasta_script_alvo and nome_modulo:
+        if pasta_script_alvo not in sys.path:
+            sys.path.insert(0, pasta_script_alvo)
+        try:
+            mod = __import__(nome_modulo, fromlist=["SYSTEM_PROMPT"])
+            prom = getattr(mod, "SYSTEM_PROMPT", fallback)
+            print(f"{Fore.GREEN}[PROMPT] Carregado SYSTEM_PROMPT do módulo '{nome_modulo}' com sucesso!")
+            return adaptar_prompt_reparo(prom)
+        except Exception as e:
+            caminho_arq = os.path.join(pasta_script_alvo, nome_modulo + ".py")
+            if os.path.exists(caminho_arq):
+                try:
+                    with open(caminho_arq, "r", encoding="utf-8") as f:
+                        conteudo_py = f.read()
+                    match = re.search(r'SYSTEM_PROMPT\s*=\s*(["\']{3})(.*?)\1', conteudo_py, re.DOTALL)
+                    if match:
+                        print(f"{Fore.GREEN}[PROMPT] Extraído SYSTEM_PROMPT via Regex do arquivo '{nome_modulo}.py'!")
+                        return adaptar_prompt_reparo(match.group(2).strip())
+                except Exception:
+                    pass
+            print(f"{Fore.YELLOW}[PROMPT] Falha ao carregar prompt do módulo '{nome_modulo}'. Usando fallback genérico. ({e})")
+        finally:
+            if sys.path and sys.path[0] == pasta_script_alvo:
+                sys.path.pop(0)
+
+    print(f"{Fore.YELLOW}[PROMPT] Nenhum módulo de prompt específico encontrado. Usando fallback de tradução genérica.")
+    return adaptar_prompt_reparo(fallback)
 
 
 def formatar_duracao(segundos):
@@ -127,6 +200,15 @@ def verificar_lm_studio():
                 else:
                     MODELO_ATIVO = modelos[0]
                 print(f"{Fore.GREEN}[OK] LM Studio online. Modelo ativo: {MODELO_ATIVO}")
+                
+                if "gemma" in MODELO_ATIVO.lower():
+                    print(f"{Fore.YELLOW}[AVISO] O modelo ativo no LM Studio é '{MODELO_ATIVO}'.")
+                    print(f"{Fore.YELLOW}        Modelos da família Gemma costumam falhar no reparo avulso devido à incapacidade de raciocinar antes de produzir o marcador 'FINAL:'.")
+                    print(f"{Fore.YELLOW}        Recomenda-se carregar o 'Mistral Nemo' no LM Studio.")
+                    confirmar = input(f"{Fore.CYAN}Deseja continuar com o Gemma mesmo assim? (s/N): {Style.RESET_ALL}").strip().lower()
+                    if confirmar != 's':
+                        print(f"{Fore.RED}[ABORTADO] Execução cancelada para troca de modelo no LM Studio.")
+                        return False
                 return True
             else:
                 print(f"{Fore.RED}[ERRO] LM Studio online, mas nenhum modelo carregado.")
@@ -169,9 +251,11 @@ def processar_traducao_reparada(texto_orig: str, traducao: str, modo: str):
         if PASTA_ORIGIN_ZH not in sys.path:
             sys.path.insert(0, PASTA_ORIGIN_ZH)
         try:
-            from batch_translator_origin_zh import post_processar_traducao, validar_traducao
-            traducao = post_processar_traducao(traducao)
-            if not validar_traducao(texto_orig, traducao):
+            mod_zh = __import__("batch_translator_origin_zh", fromlist=["post_processar_traducao", "validar_traducao"])
+            post_processar = getattr(mod_zh, "post_processar_traducao")
+            validar = getattr(mod_zh, "validar_traducao")
+            traducao = post_processar(traducao)
+            if not validar(texto_orig, traducao):
                 return None
         finally:
             if sys.path and sys.path[0] == PASTA_ORIGIN_ZH:
@@ -200,9 +284,13 @@ def resolver_arquivo_original(arquivo_ptbr: str, pasta_originais: str, modo: str
         return caminho_direto, arquivo_ptbr
 
     # Fallback para o comportamento baseado no sufixo
-    if not arquivo_ptbr.lower().endswith("_ptbr.ass"):
+    arquivo_ptbr_lower = arquivo_ptbr.lower()
+    if arquivo_ptbr_lower.endswith("_ptbr.ass"):
+        stem = arquivo_ptbr[:-9]
+    elif arquivo_ptbr_lower.endswith("_ptbr_eng.ass"):
+        stem = arquivo_ptbr[:-13]
+    else:
         return None, None
-    stem = arquivo_ptbr[:-9]
     for sufixo in SUFIXOS_ORIGEM[modo]:
         nome = stem + sufixo
         caminho = os.path.join(pasta_originais, nome)
@@ -306,7 +394,6 @@ def executar_reparo():
 
     args = parse_args()
     MODO_REPARO = args.modo
-    SYSTEM_PROMPT_REPARO = carregar_prompt_reparo(args.modo)
 
     print("=" * 80)
     modo_label = "ENG -> PT-BR" if args.modo == "eng" else "CHS/CHT -> PT-BR (Gundam The Origin)"
@@ -354,6 +441,8 @@ def executar_reparo():
         print(f"Originais: {pasta_originais}")
         print(f"Traduzidas: {pasta_traduzidos}")
         return
+
+    SYSTEM_PROMPT_REPARO = carregar_prompt_reparo(args.modo, pasta_originais)
 
     arquivos_ptbr = sorted([f for f in os.listdir(pasta_traduzidos) if f.lower().endswith('.ass')])
 

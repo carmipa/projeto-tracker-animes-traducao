@@ -1,0 +1,115 @@
+[08:38:56.419] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-20_08-38-56.txt
+[08:38:56.419] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[08:38:56.451] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[08:38:56.451] [DEBUG   ] Validando caminhos de diretórios locais...
+[08:38:56.465] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[08:38:56.481] [DEBUG   ] Escaneando diretório: E:\animes\MACROSS\Macross-Delta-br\macross_delta
+[08:38:56.481] [INFO    ] Encontrados 26 arquivos de vídeo com extensão .mkv.
+[08:38:56.481] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[08:38:56.483] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_01_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_01_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.484] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_02_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_02_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.486] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_03_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_03_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.487] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_04_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_04_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.488] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_05_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_05_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.490] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_06_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_06_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.491] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_07_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_07_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.492] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_08_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_08_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.494] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_09_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_09_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.495] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_10_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_10_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.497] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_11_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_11_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.498] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_12_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_12_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.500] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_13_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_13_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.502] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_14_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_14_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.503] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_15_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_15_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.504] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_16_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_16_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.506] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_17_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_17_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.507] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_18_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_18_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.509] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_19_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_19_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.510] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_20_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_20_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.512] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_21_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_21_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.513] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_22_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_22_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.515] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_23_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_23_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.516] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_24_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_24_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.518] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_25_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_25_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.519] [DEBUG   ]   Pareado com sucesso: [Cleo]Macross_Delta_-_26_(10bit_BD1080p_x265)_PTBR.mkv -> [Cleo]Macross_Delta_-_26_(10bit_BD1080p_x265)_PTBR_ENG.ass
+[08:38:56.520] [INFO    ] Esteira trancada. Processando 26 episódios em lote via mkvmerge.
+[08:38:56.531] [INFO    ] [1/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_01_(10bit_BD1080p_x265)_PTBR.mkv
+[08:38:56.531] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:38:58.094] [INFO    ] SUCESSO:   Concluido (0.324 GB) em 1.56s! Legenda adicionada.
+[08:38:58.094] [INFO    ] [2/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_02_(10bit_BD1080p_x265)_PTBR.mkv
+[08:38:58.094] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:38:59.272] [INFO    ] SUCESSO:   Concluido (0.232 GB) em 1.18s! Legenda adicionada.
+[08:38:59.272] [INFO    ] [3/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_03_(10bit_BD1080p_x265)_PTBR.mkv
+[08:38:59.272] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:00.602] [INFO    ] SUCESSO:   Concluido (0.271 GB) em 1.33s! Legenda adicionada.
+[08:39:00.603] [INFO    ] [4/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_04_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:00.603] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:02.151] [INFO    ] SUCESSO:   Concluido (0.331 GB) em 1.55s! Legenda adicionada.
+[08:39:02.152] [INFO    ] [5/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_05_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:02.152] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:03.196] [INFO    ] SUCESSO:   Concluido (0.196 GB) em 1.04s! Legenda adicionada.
+[08:39:03.196] [INFO    ] [6/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_06_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:03.196] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:04.534] [INFO    ] SUCESSO:   Concluido (0.273 GB) em 1.34s! Legenda adicionada.
+[08:39:04.534] [INFO    ] [7/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_07_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:04.534] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:06.098] [INFO    ] SUCESSO:   Concluido (0.280 GB) em 1.56s! Legenda adicionada.
+[08:39:06.098] [INFO    ] [8/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_08_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:06.098] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:07.369] [INFO    ] SUCESSO:   Concluido (0.255 GB) em 1.27s! Legenda adicionada.
+[08:39:07.370] [INFO    ] [9/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_09_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:07.370] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:08.501] [INFO    ] SUCESSO:   Concluido (0.206 GB) em 1.13s! Legenda adicionada.
+[08:39:08.501] [INFO    ] [10/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_10_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:08.501] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:09.714] [INFO    ] SUCESSO:   Concluido (0.243 GB) em 1.21s! Legenda adicionada.
+[08:39:09.715] [INFO    ] [11/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_11_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:09.715] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:10.718] [INFO    ] SUCESSO:   Concluido (0.166 GB) em 1.00s! Legenda adicionada.
+[08:39:10.718] [INFO    ] [12/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_12_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:10.718] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:11.854] [INFO    ] SUCESSO:   Concluido (0.166 GB) em 1.13s! Legenda adicionada.
+[08:39:11.854] [INFO    ] [13/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_13_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:11.854] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:13.203] [INFO    ] SUCESSO:   Concluido (0.279 GB) em 1.35s! Legenda adicionada.
+[08:39:13.204] [INFO    ] [14/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_14_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:13.204] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:14.431] [INFO    ] SUCESSO:   Concluido (0.223 GB) em 1.23s! Legenda adicionada.
+[08:39:14.431] [INFO    ] [15/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_15_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:14.431] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:15.795] [INFO    ] SUCESSO:   Concluido (0.258 GB) em 1.36s! Legenda adicionada.
+[08:39:15.795] [INFO    ] [16/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_16_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:15.795] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:16.676] [INFO    ] SUCESSO:   Concluido (0.150 GB) em 0.88s! Legenda adicionada.
+[08:39:16.676] [INFO    ] [17/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_17_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:16.677] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:18.121] [INFO    ] SUCESSO:   Concluido (0.304 GB) em 1.44s! Legenda adicionada.
+[08:39:18.121] [INFO    ] [18/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_18_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:18.121] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:19.556] [INFO    ] SUCESSO:   Concluido (0.246 GB) em 1.43s! Legenda adicionada.
+[08:39:19.557] [INFO    ] [19/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_19_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:19.557] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:20.669] [INFO    ] SUCESSO:   Concluido (0.211 GB) em 1.11s! Legenda adicionada.
+[08:39:20.669] [INFO    ] [20/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_20_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:20.669] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:21.797] [INFO    ] SUCESSO:   Concluido (0.207 GB) em 1.13s! Legenda adicionada.
+[08:39:21.798] [INFO    ] [21/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_21_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:21.798] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:23.051] [INFO    ] SUCESSO:   Concluido (0.247 GB) em 1.25s! Legenda adicionada.
+[08:39:23.052] [INFO    ] [22/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_22_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:23.052] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:24.277] [INFO    ] SUCESSO:   Concluido (0.225 GB) em 1.22s! Legenda adicionada.
+[08:39:24.278] [INFO    ] [23/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_23_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:24.278] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:27.735] [INFO    ] SUCESSO:   Concluido (0.272 GB) em 3.46s! Legenda adicionada.
+[08:39:27.735] [INFO    ] [24/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_24_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:27.735] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:35.262] [INFO    ] SUCESSO:   Concluido (0.247 GB) em 7.53s! Legenda adicionada.
+[08:39:35.263] [INFO    ] [25/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_25_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:35.263] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:37.843] [INFO    ] SUCESSO:   Concluido (0.140 GB) em 2.58s! Legenda adicionada.
+[08:39:37.843] [INFO    ] [26/26] Multiplexando container Matroska: [Cleo]Macross_Delta_-_26_(10bit_BD1080p_x265)_PTBR.mkv
+[08:39:37.844] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:39:48.481] [INFO    ] SUCESSO:   Concluido (0.454 GB) em 10.64s! Legenda adicionada.
+[08:39:48.482] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-20_08-38-56.json
+[08:39:48.483] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

@@ -1,0 +1,365 @@
+﻿[Script Info]
+Title: Français (France)
+Original Script: cr_fr  [http://www.crunchyroll.com/user/cr_fr]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Italique,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: TiretsItalique,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,1,60,6,75,1
+Style: Titre,Arial,51,&H00E1EAF1,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,3,1,825,30,240,1
+Style: Sign1,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,3,30,156,750,1
+
+Style: OPCN,FZXiaoBiaoSong-B05,52,&H00FEFEFE,&H00000000,&H00000AAE,&H00000000,0,0,0,0,100,100,4,0,1,2,0,2,60,60,20,1
+Style: EDCN,FZXiaoBiaoSong-B05,48,&H00FEFEFE,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,4,0,1,2,0,2,60,60,25,1
+
+
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.85,0:00:03.36,Default,,0,0,0,,Eu vejo.
+Dialogue: 0,0:00:03.52,0:00:07.06,Default,,0,0,0,,A Sra. Roselucia então faleceu.
+Dialogue: 0,0:00:07.40,0:00:08.98,Default,,0,0,0,,Você não estava sabendo disso?
+Dialogue: 0,0:00:09.48,0:00:13.34,Default,,0,0,0,,Não.\NNão me informam de nada aqui.
+Dialogue: 0,0:00:13.55,0:00:16.49,Default,,0,0,0,,Nem mesmo sobre o destino\Ndos meus filhos.
+Dialogue: 0,0:00:16.81,0:00:18.08,Default,,0,0,0,,Absolutamente nada?
+Dialogue: 0,0:00:18.94,0:00:21.34,Default,,0,0,0,,Artesia me disse ao partir
+Dialogue: 0,0:00:21.48,0:00:24.67,Default,,0,0,0,,que ela escreveria todos os dias.\NHélas...
+Dialogue: 0,0:00:25.12,0:00:26.72,Default,,0,0,0,,Eles estão bem!
+Dialogue: 0,0:00:26.85,0:00:30.59,Default,,0,0,0,,Eles foram adotados na Terra por um certo Téabolo Mass e...
+Dialogue: 0,0:00:33.22,0:00:35.06,Default,,0,0,0,,Obrigado, Crowley.
+Dialogue: 0,0:00:35.72,0:00:37.92,Default,,0,0,0,,Você me deixa aliviado.
+Dialogue: 0,0:00:39.20,0:00:42.91,Default,,0,0,0,,Diga-me.\NComo vai o cabaré Éden?
+Dialogue: 0,0:00:43.48,0:00:45.73,Default,,0,0,0,,Ah! Nada mudou.
+Dialogue: 0,0:00:45.86,0:00:48.86,Default,,0,0,0,,Ainda temos muitos clientes\Ne algumas brigas.
+Dialogue: 0,0:00:49.42,0:00:51.94,Default,,0,0,0,,Como nos velhos tempos...
+Dialogue: 0,0:00:52.24,0:00:55.90,Default,,0,0,0,,Sinto como se tivesse partido\NHá décadas.
+Dialogue: 0,0:00:57.07,0:01:00.36,Default,,0,0,0,,Na época,\NNós todos éramos tão jovens.
+Dialogue: 0,0:01:00.73,0:01:03.91,Default,,0,0,0,,Vivíamos\NSem nos preocuparmos com o amanhã...
+Dialogue: 0,0:01:05.03,0:01:08.41,Default,,0,0,0,,Então ela chegou um dia,\NCom uma aparência tão cansada.
+Dialogue: 0,0:01:09.61,0:01:13.09,Default,,0,0,0,,Eu só queria confortá-lo.
+Dialogue: 0,0:01:13.89,0:01:15.66,Default,,0,0,0,,Curar suas feridas.
+Dialogue: 0,0:01:16.40,0:01:18.85,Default,,0,0,0,,Ignorava qual tributo\NIria pagar.
+Dialogue: 0,0:01:21.41,0:01:24.25,Default,,0,0,0,,Não me arrependo de nada.
+Dialogue: 0,0:01:26.08,0:01:30.93,Default,,0,0,0,,Se eu pudesse...\NRealizar um desejo...
+Dialogue: 0,0:01:33.03,0:01:36.82,Default,,0,0,0,,Eu gostaria de passar, pelo menos,\Numa noite com meus filhos.
+Dialogue: 0,0:03:18.84,0:03:23.84,Titre,sign,0,0,0,,{\fad(1000,1000)}EPISÓDIO 4\N{\fs66}ATÉ POUCO, ARTESIA
+Dialogue: 0,0:03:28.52,0:03:30.18,Default,,0,0,0,,Você vai apanhar!
+Dialogue: 0,0:03:46.60,0:03:47.62,Default,,0,0,0,,Facinho!
+Dialogue: 0,0:03:49.45,0:03:53.25,Default,,0,0,0,,Anomalia detectada no joint n.º 1\NDo braço esquerdo do protótipo 02.
+Dialogue: 0,0:03:53.39,0:03:54.79,Default,,0,0,0,,Come isso!
+Dialogue: 0,0:04:09.27,0:04:12.56,Default,,0,0,0,,Medidas indisponíveis.\NA cabeça foi danificada.
+Dialogue: 0,0:04:13.60,0:04:16.81,Default,,0,0,0,,O capitão ganhou!\NCertamente não é surpreendente!
+Dialogue: 0,0:04:18.61,0:04:19.78,Default,,0,0,0,,Tirem eles dali.
+Dialogue: 0,0:04:19.92,0:04:22.28,Italique,,0,0,0,,Eu posso continuar,\Nm mesmo sem a cabeça!
+Dialogue: 0,0:04:22.48,0:04:26.87,Italique,,0,0,0,,Coronel, esta exército está desmoronando!\NMash tentou me matar!
+Dialogue: 0,0:04:27.00,0:04:27.87,Italique,,0,0,0,,Vocês também!
+Dialogue: 0,0:04:28.48,0:04:32.25,Default,,0,0,0,,Desçam os dois!\NVocês podem brigar depois!
+Dialogue: 0,0:04:33.46,0:04:37.83,Italique,,0,0,0,,De qualquer maneira,\NCongelador é um verdadeiro caixão!
+Dialogue: 0,0:04:38.31,0:04:41.13,Italique,,0,0,0,,Modifiquem esses manipuladores\NEm profundidade também!
+Dialogue: 0,0:04:46.72,0:04:48.39,Default,,0,0,0,,Capitã?
+Dialogue: 0,0:04:48.56,0:04:51.30,Default,,0,0,0,,O que aconteceu com vocês?\NVocê se envolveu em uma briga?
+Dialogue: 0,0:04:51.44,0:04:55.52,Default,,0,0,0,,Ah, cala a boca!\NTrabalhando ainda aqui? Muito bem!
+Dialogue: 0,0:04:55.64,0:04:57.14,Default,,0,0,0,,De jeito nenhum!
+Dialogue: 0,0:04:57.28,0:05:00.07,Default,,0,0,0,,É trabalho voluntário e…\NAtenção!
+Dialogue: 0,0:05:00.61,0:05:03.07,Default,,0,0,0,,Você realmente precisava fazer isso?
+Dialogue: 0,0:05:03.31,0:05:04.66,Default,,0,0,0,,Você deve me desprezar.
+Dialogue: 0,0:05:05.00,0:05:07.70,Default,,0,0,0,,Agora eu sou apenas um cão\Na folha de pagamento dos Zabi...
+Dialogue: 0,0:05:07.92,0:05:10.08,Default,,0,0,0,,Dozle está cuidando de você, não é?
+Dialogue: 0,0:05:10.37,0:05:13.60,Default,,0,0,0,,Ele é diferente de Gihren e Kycilia.
+Dialogue: 0,0:05:15.10,0:05:16.83,Default,,0,0,0,,Eu pude visitar Astraia.
+Dialogue: 0,0:05:18.10,0:05:20.20,Default,,0,0,0,,Dozle intercedeu por mim,\Nimagino.
+Dialogue: 0,0:05:20.60,0:05:22.30,Default,,0,0,0,,Em relação a você, sem dúvida.
+Dialogue: 0,0:05:22.92,0:05:24.30,Default,,0,0,0,,Como ela está?
+Dialogue: 0,0:05:24.80,0:05:27.21,Default,,0,0,0,,Ela perguntou\Nsobre o cabaré.
+Dialogue: 0,0:05:27.36,0:05:30.87,Default,,0,0,0,,Também falamos\Ndos velhos tempos...
+Dialogue: 0,0:05:31.31,0:05:32.24,Default,,0,0,0,,E então...
+Dialogue: 0,0:05:33.64,0:05:36.05,Default,,0,0,0,,Ela me deixou tão triste...
+Dialogue: 0,0:05:37.14,0:05:38.81,Default,,0,0,0,,Ela definha até morrer...
+Dialogue: 0,0:05:43.44,0:05:47.74,Default,,0,0,0,,Ouvi dizer que Casval e Artesia vão chegar em breve em Loum?
+Dialogue: 0,0:05:48.02,0:05:49.82,Default,,0,0,0,,Sim, é verdade.
+Dialogue: 0,0:05:50.42,0:05:52.45,Default,,0,0,0,,Loum, hein?
+Dialogue: 0,0:06:00.33,0:06:03.59,Sign1,sign,0,0,0,,{\fad(200,500)}LOUM - SIDE-5
+Dialogue: 0,0:06:13.52,0:06:15.10,Default,,0,0,0,,Estávamos esperando por vocês.
+Dialogue: 0,0:06:15.28,0:06:19.55,Default,,0,0,0,,Sou Roger Aznable,\Ngerente-chefe de Texas Village.
+Dialogue: 0,0:06:19.76,0:06:21.44,Default,,0,0,0,,Aqui está Michelle, minha esposa.
+Dialogue: 0,0:06:24.31,0:06:27.11,Default,,0,0,0,,Era para ser um hotel,\Nno início.
+Dialogue: 0,0:06:27.36,0:06:31.92,Default,,0,0,0,,Na verdade, parece mais com o Wyoming do que com o Texas.
+Dialogue: 0,0:06:32.05,0:06:34.41,Default,,0,0,0,,Mas o que você acha?\NGostou?
+Dialogue: 0,0:06:34.92,0:06:37.70,Default,,0,0,0,,Olha, Lúcifer.\NCasa nova é essa aqui.
+Dialogue: 0,0:06:49.70,0:06:52.76,Default,,0,0,0,,Espere por mim, Édouard!
+Dialogue: 0,0:06:55.51,0:06:59.26,Default,,0,0,0,,Você não é muito legal!\NNão me abandone!
+Dialogue: 0,0:07:01.50,0:07:03.72,Default,,0,0,0,,A casa é bem pequena!
+Dialogue: 0,0:07:04.41,0:07:07.28,Default,,0,0,0,,Estamos bem longe, não é?
+Dialogue: 0,0:07:09.19,0:07:10.78,Default,,0,0,0,,Mas espera por mim!
+Dialogue: 0,0:07:11.14,0:07:13.71,Default,,0,0,0,,Vá, pequeno pônei!\NSiga meu irmão!
+Dialogue: 0,0:07:13.85,0:07:15.24,Default,,0,0,0,,Rápido!
+Dialogue: 0,0:07:15.46,0:07:17.02,Default,,0,0,0,,A galope!
+Dialogue: 0,0:07:21.46,0:07:25.17,Default,,0,0,0,,Diga...\NEle já adquiriu tamanha maestria?
+Dialogue: 0,0:07:26.50,0:07:28.17,Default,,0,0,0,,O quê? Não...
+Dialogue: 0,0:07:31.80,0:07:34.64,Default,,0,0,0,,Não é... meu irmão!
+Dialogue: 0,0:07:40.93,0:07:42.90,Default,,0,0,0,,Eis aí,\NUm corajoso pequeno caubói!
+Dialogue: 0,0:07:43.32,0:07:45.73,Default,,0,0,0,,Você não se chamaria Sayla Mass?
+Dialogue: 0,0:07:47.98,0:07:49.72,Default,,0,0,0,,Meu nome é Char Aznable.
+Dialogue: 0,0:07:50.26,0:07:52.36,Default,,0,0,0,,Me haviam avisado\Nde sua chegada.
+Dialogue: 0,0:07:52.65,0:07:54.03,Default,,0,0,0,,Você encontrou meu pai?
+Dialogue: 0,0:07:54.16,0:07:58.56,Default,,0,0,0,,Ele não lhe disse que tinha um filho da mesma idade que seu irmão?
+Dialogue: 0,0:07:59.36,0:08:01.36,Italique,,0,0,0,,É o sósia do meu irmão...
+Dialogue: 0,0:08:01.67,0:08:03.86,Italique,,0,0,0,,À exceção da cor dos olhos.
+Dialogue: 0,0:08:04.17,0:08:06.68,Italique,,0,0,0,,Meu irmão tem os olhos azuis.\NOs seus são...
+Dialogue: 0,0:08:07.16,0:08:09.88,Default,,0,0,0,,Você não segura as rédeas corretamente.
+Dialogue: 0,0:08:10.30,0:08:13.29,Default,,0,0,0,,Relaxe os ombros.\NSeja mais flexível.
+Dialogue: 0,0:08:15.64,0:08:16.89,Default,,0,0,0,,Assim, está bom.
+Dialogue: 0,0:08:17.51,0:08:19.39,Default,,0,0,0,,Bom, bom! Assim!
+Dialogue: 0,0:08:19.78,0:08:21.14,Default,,0,0,0,,Isso é o trote.
+Dialogue: 0,0:08:21.27,0:08:24.14,Default,,0,0,0,,Bata nos flancos com seus pés\Npara acelerar.
+Dialogue: 0,0:08:27.65,0:08:29.57,Default,,0,0,0,,Bravo!\NIsso é o pequeno galope.
+Dialogue: 0,0:08:29.96,0:08:33.70,Default,,0,0,0,,Você tem o potencial\Npara se tornar um bom cowboy!
+Dialogue: 0,0:08:35.78,0:08:37.45,Default,,0,0,0,,Esta é a vila central.
+Dialogue: 0,0:08:37.92,0:08:41.45,Default,,0,0,0,,Há uma escola e uma igreja.\NÉ também onde fica minha casa.
+Dialogue: 0,0:08:42.22,0:08:43.16,Default,,0,0,0,,Eis meu irmão!
+Dialogue: 0,0:09:03.02,0:09:04.39,Default,,0,0,0,,Meu nome é Édouard Mass
+Dialogue: 0,0:09:05.28,0:09:06.98,Default,,0,0,0,,E eu, Char Aznable.
+Dialogue: 0,0:09:21.58,0:09:24.91,Italique,,0,0,0,,Mamãe, tenho muitas coisas\Npara te contar hoje.
+Dialogue: 0,0:09:25.25,0:09:27.98,Italique,,0,0,0,,Este é o início de uma nova vida!
+Dialogue: 0,0:09:32.70,0:09:35.28,Italique,,0,0,0,,Lúcifer está fazendo barulhos estranhos.
+Dialogue: 0,0:09:35.64,0:09:37.85,Italique,,0,0,0,,É porque ele é velho agora.
+Dialogue: 0,0:09:38.76,0:09:41.94,Italique,,0,0,0,,Na colônia Texas,\Nao contrário de Munzo,
+Dialogue: 0,0:09:42.09,0:09:45.77,Italique,,0,0,0,,Durante a noite, pode-se ver a Lua entre as estrelas.
+Dialogue: 0,0:09:46.27,0:09:48.74,Italique,,0,0,0,,Da minha janela, vejo um lago.
+Dialogue: 0,0:09:49.06,0:09:54.28,Italique,,0,0,0,,Um pouco adiante, avista-se o vilarejo onde vive a família Aznable.
+Dialogue: 0,0:09:54.96,0:09:57.54,Italique,,0,0,0,,Eu conheci o filho do Sr. Aznable.
+Dialogue: 0,0:09:57.86,0:09:59.27,Italique,,0,0,0,,Ele se chama Char.
+Dialogue: 0,0:10:00.20,0:10:02.31,Italique,,0,0,0,,Ele tem a mesma idade que o Casval.
+Dialogue: 0,0:10:02.44,0:10:04.75,Italique,,0,0,0,,e é sua sósia, fiquei impressionada.
+Dialogue: 0,0:10:05.37,0:10:06.88,Italique,,0,0,0,,Eles são tão parecidos
+Dialogue: 0,0:10:07.02,0:10:10.06,Italique,,0,0,0,,que eu estava um pouco apreensiva\Npelo seu encontro.
+Dialogue: 0,0:10:10.38,0:10:12.39,Italique,,0,0,0,,Mas tudo correu bem.
+Dialogue: 0,0:10:12.79,0:10:15.48,Italique,,0,0,0,,Eles provavelmente\Nvão se tornar bons amigos.
+Dialogue: 0,0:10:16.82,0:10:19.70,Italique,,0,0,0,,Char me ensinou como\Nmontar a cavalo.
+Dialogue: 0,0:10:20.00,0:10:22.45,Italique,,0,0,0,,Já domino o pequeno galope.
+Dialogue: 0,0:10:22.74,0:10:24.36,Italique,,0,0,0,,Amanhã será o galope!
+Dialogue: 0,0:10:29.69,0:10:30.94,Default,,0,0,0,,Édouard?
+Dialogue: 0,0:10:34.50,0:10:36.36,Default,,0,0,0,,O que há de errado?
+Dialogue: 0,0:10:36.95,0:10:38.16,Default,,0,0,0,,Artesia
+Dialogue: 0,0:10:39.82,0:10:40.86,Default,,0,0,0,,Minha mãe é...
+Dialogue: 0,0:10:41.53,0:10:42.74,Default,,0,0,0,,morta.
+Dialogue: 0,0:10:50.77,0:10:52.67,Italique,,0,0,0,,Eu lhe escrevo uma carta triste,
+Dialogue: 0,0:10:53.24,0:10:56.24,Italique,,0,0,0,,Mas era preciso\Ninformá-lo.
+Dialogue: 0,0:10:56.92,0:10:58.76,Italique,,0,0,0,,Sejam fortes.
+Dialogue: 0,0:11:00.06,0:11:03.49,Italique,,0,0,0,,Sua mãe Astraia...\Nfaleceu ontem à noite.
+Dialogue: 0,0:11:41.47,0:11:44.14,Default,,0,0,0,,Não demorarei muito\Ncom o diretor.
+Dialogue: 0,0:11:44.26,0:11:47.89,Default,,0,0,0,,Vá esperar\Nno saloon do Sr. Aznable.
+Dialogue: 0,0:11:55.56,0:11:58.88,Default,,0,0,0,,Seus filhos são muito brilhantes.
+Dialogue: 0,0:11:59.34,0:12:01.32,Default,,0,0,0,,E especialmente Édouard.
+Dialogue: 0,0:12:02.05,0:12:06.49,Default,,0,0,0,,Ele poderia considerar ir para uma escola superior.
+Dialogue: 0,0:12:08.04,0:12:11.41,Default,,0,0,0,,Seja honesto comigo.\NY tem algum problema com Édouard?
+Dialogue: 0,0:12:11.65,0:12:12.76,Default,,0,0,0,,Eh bem...
+Dialogue: 0,0:12:13.24,0:12:17.00,Default,,0,0,0,,Eu duvido que tenhamos as capacidades\Npara lhe ensinar...
+Dialogue: 0,0:12:17.55,0:12:19.00,Default,,0,0,0,,Ele se comportou mal?
+Dialogue: 0,0:12:19.17,0:12:20.57,Default,,0,0,0,,Oh, nem um pouco!
+Dialogue: 0,0:12:20.88,0:12:22.07,Default,,0,0,0,,Pelo contrário!
+Dialogue: 0,0:12:22.20,0:12:26.21,Default,,0,0,0,,Alunos turbulentos\Ntornaram-se muito quietos.
+Dialogue: 0,0:12:26.55,0:12:28.43,Default,,0,0,0,,E isso, graças a ele.
+Dialogue: 0,0:12:28.64,0:12:29.56,Default,,0,0,0,,No entanto...
+Dialogue: 0,0:12:30.08,0:12:31.06,Default,,0,0,0,,No entanto?
+Dialogue: 0,0:12:31.83,0:12:36.06,Default,,0,0,0,,Eu tenho medo dele.\NEle realmente me assusta.
+Dialogue: 0,0:12:37.34,0:12:39.85,Default,,0,0,0,,Eu nunca conheci uma pessoa como ele.
+Dialogue: 0,0:12:40.28,0:12:43.23,Default,,0,0,0,,Ele tem a mente muito clara e sentidos aguçados.
+Dialogue: 0,0:12:43.40,0:12:46.02,Default,,0,0,0,,É um garoto extremamente talentoso.
+Dialogue: 0,0:12:46.16,0:12:49.02,Default,,0,0,0,,No entanto, é alguém muito frio.
+Dialogue: 0,0:12:49.45,0:12:52.91,Default,,0,0,0,,Ele é tão frio quanto o aço de uma lâmina.
+Dialogue: 0,0:12:53.50,0:12:57.65,Default,,0,0,0,,Eu temo que ele possa causar uma catástrofe.
+Dialogue: 0,0:13:01.11,0:13:03.68,Default,,0,0,0,,Já ouvi o suficiente!
+Dialogue: 0,0:13:04.76,0:13:06.76,Default,,0,0,0,,Você já terminou?
+Dialogue: 0,0:13:07.55,0:13:09.73,Default,,0,0,0,,Farei esse diretor virar!
+Dialogue: 0,0:13:13.26,0:13:15.28,Default,,0,0,0,,Isso é incrível!
+Dialogue: 0,0:13:15.61,0:13:18.34,Default,,0,0,0,,É a primeira vez\Nque me falam assim!
+Dialogue: 0,0:13:22.90,0:13:25.20,Default,,0,0,0,,Para onde você vai, Édouard?
+Dialogue: 0,0:13:30.16,0:13:32.08,Default,,0,0,0,,O que você quer, jovem?
+Dialogue: 0,0:13:33.08,0:13:35.08,Default,,0,0,0,,Vocês vão nos seguir para todo lado?
+Dialogue: 0,0:13:50.35,0:13:53.52,Default,,0,0,0,,O que você está fazendo, garoto?
+Dialogue: 0,0:13:57.70,0:13:59.16,Default,,0,0,0,,Pare, Édouard!
+Dialogue: 0,0:13:59.40,0:14:01.40,Default,,0,0,0,,Pai, pare com isso!
+Dialogue: 0,0:14:03.16,0:14:04.96,Default,,0,0,0,,Isso, você vai me pagar...
+Dialogue: 0,0:14:06.05,0:14:07.98,Default,,0,0,0,,Vagabundo!
+Dialogue: 0,0:14:11.91,0:14:13.88,Default,,0,0,0,,Pare, Édouard!
+Dialogue: 0,0:14:23.92,0:14:28.86,Default,,0,0,0,,Se você acredita que eu não vou agir contra você, está enganado!
+Dialogue: 0,0:14:28.99,0:14:31.30,Default,,0,0,0,,Vagabundo!
+Dialogue: 0,0:14:44.56,0:14:45.53,Default,,0,0,0,,Pare!
+Dialogue: 0,0:14:46.86,0:14:49.82,Default,,0,0,0,,Pare, Édouard!\NVocê vais matar ele!
+Dialogue: 0,0:14:52.06,0:14:55.62,Default,,0,0,0,,O que ele fez?\NEle não merecia isso!
+Dialogue: 0,0:14:58.26,0:15:00.14,Default,,0,0,0,,Aonde isso te levará?
+Dialogue: 0,0:15:00.37,0:15:02.58,Default,,0,0,0,,Você acha que sua mãe\Nficaria orgulhosa?
+Dialogue: 0,0:15:03.19,0:15:06.05,Default,,0,0,0,,Eu não te reconheço mais!\NTe odeio!
+Dialogue: 0,0:15:08.39,0:15:10.55,Default,,0,0,0,,Desculpe-me, Artesia.
+Dialogue: 0,0:15:11.03,0:15:12.56,Default,,0,0,0,,Não farei isso novamente.
+Dialogue: 0,0:15:28.69,0:15:29.99,Default,,0,0,0,,Fui aprovado!
+Dialogue: 0,0:15:30.26,0:15:32.29,Default,,0,0,0,,Fui aprovado para a academia!
+Dialogue: 0,0:15:32.44,0:15:33.83,Default,,0,0,0,,Isso te impressiona, hein?
+Dialogue: 0,0:15:34.78,0:15:36.91,Default,,0,0,0,,Pensei que tinha estragado tudo.
+Dialogue: 0,0:15:37.20,0:15:39.50,Default,,0,0,0,,O nível é muito alto,\NVocê sabe?
+Dialogue: 0,0:15:40.00,0:15:42.71,Default,,0,0,0,,E agora,\Ntem coisas acontecendo em Zeon!
+Dialogue: 0,0:15:43.33,0:15:47.57,Default,,0,0,0,,Vivemos numa época em que o pensamento de Astraia Tor Deikun finalmente é reconhecido!
+Dialogue: 0,0:15:47.71,0:15:50.17,Default,,0,0,0,,Você não é da mesma opinião, Édouard?
+Dialogue: 0,0:15:51.87,0:15:52.72,Default,,0,0,0,,Ah, sim.
+Dialogue: 0,0:15:52.91,0:15:56.55,Default,,0,0,0,,As colônias estão sendo exploradas\Ndesigualitariamente!
+Dialogue: 0,0:15:56.84,0:15:58.56,Default,,0,0,0,,E Gihren Zabi tem razão!
+Dialogue: 0,0:15:58.83,0:16:01.07,Default,,0,0,0,,Os terráqueos exploram os spacenoids,
+Dialogue: 0,0:16:01.20,0:16:03.02,Default,,0,0,0,,roubando sua riqueza
+Dialogue: 0,0:16:03.41,0:16:05.77,Default,,0,0,0,,E levam a Terra à sua queda!
+Dialogue: 0,0:16:06.19,0:16:08.53,Default,,0,0,0,,Char,\Npare com essas histórias!
+Dialogue: 0,0:16:08.73,0:16:12.57,Default,,0,0,0,,Bah! Contanto\Nque não vire uma guerra...
+Dialogue: 0,0:16:12.95,0:16:17.17,Default,,0,0,0,,Agora, não, mas daqui a dez anos?\NVou em cinco anos?
+Dialogue: 0,0:16:17.83,0:16:19.16,Default,,0,0,0,,Quem sabe?
+Dialogue: 0,0:16:19.54,0:16:23.13,Default,,0,0,0,,Se for esse o caso, nem pensar!\NNão permito que você faça guerra!
+Dialogue: 0,0:16:23.66,0:16:24.98,Default,,0,0,0,,Tudo bem, tudo bem...
+Dialogue: 0,0:16:28.62,0:16:33.02,Default,,0,0,0,,Não gosto desse tipo de histórias.\NIgnorava que Char fosse assim...
+Dialogue: 0,0:16:34.05,0:16:37.26,Default,,0,0,0,,Desculpa por ter te deixado,\NLucifer.
+Dialogue: 0,0:16:37.68,0:16:39.01,Default,,0,0,0,,Você já comeu?
+Dialogue: 0,0:16:41.47,0:16:42.77,Default,,0,0,0,,Lúcifer?
+Dialogue: 0,0:16:54.24,0:16:55.41,Default,,0,0,0,,Lúcifer...
+Dialogue: 0,0:16:55.57,0:16:59.68,Default,,0,0,0,,Você queria fazer companhia à mamãe,\Npara que ela não se sinta tão sozinha.
+Dialogue: 0,0:17:01.28,0:17:05.07,Default,,0,0,0,,Estou contando com você\NPara diverti-la em nosso nome.
+Dialogue: 0,0:17:05.40,0:17:06.21,Default,,0,0,0,,Tudo bem?
+Dialogue: 0,0:17:11.72,0:17:12.55,Default,,0,0,0,,Artesia
+Dialogue: 0,0:17:20.21,0:17:21.81,Default,,0,0,0,,Vamos ter que nos separar.
+Dialogue: 0,0:17:23.91,0:17:26.01,Default,,0,0,0,,Discuti com Teabolo.
+Dialogue: 0,0:17:26.31,0:17:28.31,Default,,0,0,0,,Vou ingressar numa escola aqui.
+Dialogue: 0,0:17:28.56,0:17:31.78,Default,,0,0,0,,Uma escola em Loum?\NA mesma que a do Char?
+Dialogue: 0,0:17:31.94,0:17:35.07,Default,,0,0,0,,Você sabe\Nque ele vai se tornar um soldado de Zeon?
+Dialogue: 0,0:17:35.76,0:17:38.03,Default,,0,0,0,,Isso não me diz respeito.\NMinha vida é minha.
+Dialogue: 0,0:17:38.60,0:17:40.68,Default,,0,0,0,,Adeus, Artesia.
+Dialogue: 0,0:17:41.39,0:17:44.75,Default,,0,0,0,,Por que... Por que todo mundo está indo embora?
+Dialogue: 0,0:17:45.14,0:17:47.44,Default,,0,0,0,,Por que todo mundo\Nm me abandona?
+Dialogue: 0,0:17:48.11,0:17:51.42,Default,,0,0,0,,Primeiro mamãe, depois Lúcifer...
+Dialogue: 0,0:17:51.56,0:17:53.06,Default,,0,0,0,,E agora você também?
+Dialogue: 0,0:17:54.32,0:17:57.26,Default,,0,0,0,,Espera!\NPor favor, não vá!
+Dialogue: 0,0:17:57.91,0:18:02.51,Default,,0,0,0,,Casval...
+Dialogue: 0,0:18:19.49,0:18:22.63,Default,,0,0,0,,Você quer ir para Zeon\Nsem recomendação?
+Dialogue: 0,0:18:23.08,0:18:25.74,Default,,0,0,0,,Não poderei ajudá-lo, você sabe?
+Dialogue: 0,0:18:25.90,0:18:27.37,Default,,0,0,0,,Isso me convém.
+Dialogue: 0,0:18:28.14,0:18:31.50,Default,,0,0,0,,Ele pertence apenas a mim\Nde encontrar meu próprio caminho.
+Dialogue: 0,0:18:34.38,0:18:36.36,Default,,0,0,0,,Caramba!\NEstamos atrasados!
+Dialogue: 0,0:18:36.52,0:18:40.59,Default,,0,0,0,,Vamos perder o embarque por causa\Ndeste oficial de imigração!
+Dialogue: 0,0:18:41.00,0:18:41.85,Default,,0,0,0,,Entendido.
+Dialogue: 0,0:18:43.73,0:18:44.85,Default,,0,0,0,,O quê?
+Dialogue: 0,0:18:45.52,0:18:47.78,Default,,0,0,0,,O que esse troço está fazendo aqui?
+Dialogue: 0,0:18:47.98,0:18:51.31,Default,,0,0,0,,Mas eu não sei nada disso!\NEu nunca coloquei isso aí!
+Dialogue: 0,0:18:51.97,0:18:53.71,Default,,0,0,0,,Siga-me até o escritório.
+Dialogue: 0,0:18:53.84,0:18:56.25,Default,,0,0,0,,Mas vou perder meu voo!
+Dialogue: 0,0:18:56.40,0:18:58.91,Default,,0,0,0,,Estou entrando\Nna Academia Militar de Zeon!
+Dialogue: 0,0:18:59.07,0:19:00.78,Default,,0,0,0,,Aqui está minha carta de admissão!
+Dialogue: 0,0:19:01.23,0:19:04.11,Default,,0,0,0,,Vou perder\Ncerimônia de entrada.
+Dialogue: 0,0:19:04.24,0:19:06.59,Default,,0,0,0,,Tenho uma ideia.\NConfie em mim.
+Dialogue: 0,0:19:07.00,0:19:10.17,Default,,0,0,0,,Desculpem-nos. Vamos ao banheiro,\Njá que vai demorar.
+Dialogue: 0,0:19:11.12,0:19:13.50,Default,,0,0,0,,Casval e seu amigo vão ao banheiro.
+Dialogue: 0,0:19:13.85,0:19:15.67,Default,,0,0,0,,A bagagem do amigo dele foi retida.
+Dialogue: 0,0:19:16.05,0:19:19.09,Default,,0,0,0,,Ele corre o risco de perder o voo em questão.
+Dialogue: 0,0:19:19.30,0:19:21.98,Default,,0,0,0,,Você quer que troquemos de lugar?
+Dialogue: 0,0:19:22.14,0:19:25.22,Default,,0,0,0,,Shh!\NVocê quer pegar o voo 107 ou não?
+Dialogue: 0,0:19:27.96,0:19:28.81,Default,,0,0,0,,Rápido!
+Dialogue: 0,0:19:29.70,0:19:31.34,Default,,0,0,0,,Eles vão desconfiar!
+Dialogue: 0,0:19:31.85,0:19:32.64,Default,,0,0,0,,Ei!
+Dialogue: 0,0:19:32.81,0:19:33.94,Default,,0,0,0,,Tudo bem.
+Dialogue: 0,0:19:34.18,0:19:35.44,Default,,0,0,0,,Guarde seu porta-documento.
+Dialogue: 0,0:19:41.32,0:19:42.57,Default,,0,0,0,,Você está desistindo?
+Dialogue: 0,0:19:42.74,0:19:46.20,Default,,0,0,0,,Sim, eu errei.\NTudo é minha culpa.
+Dialogue: 0,0:19:46.34,0:19:49.52,Default,,0,0,0,,Sr. Édouard Mass?\NVamos nos apressar.
+Dialogue: 0,0:19:49.69,0:19:52.00,Default,,0,0,0,,Ainda pode pegar o voo 107.
+Dialogue: 0,0:19:52.18,0:19:53.47,Default,,0,0,0,,Sim, estou indo!
+Dialogue: 0,0:19:53.90,0:19:54.89,Default,,0,0,0,,Obrigado.
+Dialogue: 0,0:19:55.38,0:19:57.14,Default,,0,0,0,,Nunca esquecerei disso.
+Dialogue: 0,0:19:59.38,0:20:01.72,Default,,0,0,0,,Casval caminha sozinho em direção à porta.
+Dialogue: 0,0:20:02.29,0:20:03.82,Default,,0,0,0,,Estamos procedendo como planejado?
+Dialogue: 0,0:20:04.03,0:20:05.60,Italique,,0,0,0,,Sim. Vá em frente!
+Dialogue: 0,0:20:05.72,0:20:06.80,Default,,0,0,0,,Entendido.
+Dialogue: 0,0:20:06.98,0:20:10.27,Italique,,0,0,0,,Podemos dizer que seu amigo\Nteve sorte.
+Dialogue: 0,0:20:17.98,0:20:21.94,Italique,,0,0,0,,O voo 107 com destino a Zeon\Npartiu com cinco minutos de atraso.
+Dialogue: 0,0:20:22.10,0:20:23.66,Default,,0,0,0,,Sr. Char Aznable?
+Dialogue: 0,0:20:24.49,0:20:27.62,Default,,0,0,0,,Desculpe pela espera.\NTrouxemos sua mala.
+Dialogue: 0,0:20:30.58,0:20:33.54,Default,,0,0,0,,O próximo voo para Zeon partirá amanhã.
+Dialogue: 0,0:20:34.02,0:20:38.75,Default,,0,0,0,,Descansem e cuidem de si,\NSr. Char Aznable!
+Dialogue: 0,0:20:41.86,0:20:46.05,Default,,0,0,0,,Onde ele está? Mas onde ele está?\NOnde está minha carta de admissão?
+Dialogue: 0,0:20:46.21,0:20:48.07,Default,,0,0,0,,Acalmem-se!
+Dialogue: 0,0:20:48.22,0:20:49.60,Default,,0,0,0,,Onde ele está?
+Dialogue: 0,0:20:49.85,0:20:52.91,Default,,0,0,0,,É um documento vital!\NEstá inencontrável!
+Dialogue: 0,0:21:02.24,0:21:06.24,Italique,,0,0,0,,Vivemos em uma época\Nem plena transformação.
+Dialogue: 0,0:21:07.14,0:21:10.29,Italique,,0,0,0,,Passados os sofrimentos\Nda 1ª geração de imigrantes,
+Dialogue: 0,0:21:10.47,0:21:14.20,Italique,,0,0,0,,Os habitantes das colônias,\Nque já foram tratados como refugiados,
+Dialogue: 0,0:21:14.62,0:21:16.85,Italique,,0,0,0,,são hoje o povo eleito.
+Dialogue: 0,0:21:19.04,0:21:23.45,Italique,,0,0,0,,Não tenham medo\Nde se tornar uma elite!
+Dialogue: 0,0:21:24.42,0:21:26.26,Default,,0,0,0,,Vocês são a elite!
+Dialogue: 0,0:21:27.14,0:21:28.42,Italique,,0,0,0,,Deste povo eleito...
+Dialogue: 0,0:21:28.55,0:21:29.36,Default,,0,0,0,,Saudações!
+Dialogue: 0,0:21:31.14,0:21:32.85,Default,,0,0,0,,Você está atrasado, Char.
+Dialogue: 0,0:21:34.15,0:21:38.48,Default,,0,0,0,,Vocês são não apenas os protetores da sociedade colonial
+Dialogue: 0,0:21:38.98,0:21:41.44,Default,,0,0,0,,também os líderes\Nda nova humanidade.
+Dialogue: 0,0:21:43.98,0:21:47.28,Default,,0,0,0,,O presidente não perdeu\Nnada de sua arrogância...
+Dialogue: 0,0:21:47.61,0:21:49.24,Default,,0,0,0,,Saiam de seu torpor!
+Dialogue: 0,0:21:49.58,0:21:52.91,Default,,0,0,0,,Sejam os oficiais gerais do futuro!\NAvante!
+Dialogue: 0,0:21:53.09,0:21:56.83,Default,,0,0,0,,Sigam-me!\NJuntem-se a mim nessa luta!
+Dialogue: 0,0:21:59.75,0:22:02.84,Default,,0,0,0,,Agora vamos\NPresentar os novos alunos.
+Dialogue: 0,0:22:02.96,0:22:05.51,Default,,0,0,0,,Responda ao chamado de seu nome\Ne levante-se.
+Dialogue: 0,0:22:06.05,0:22:09.26,Default,,0,0,0,,Kei Nishimura,\Nnatural de Loum.
+Dialogue: 0,0:22:09.68,0:22:10.49,Default,,0,0,0,,Presente!
+Dialogue: 0,0:22:10.68,0:22:13.41,Italique,,0,0,0,,Lu Fang, originário de Loum.
+Dialogue: 0,0:22:13.58,0:22:14.31,Default,,0,0,0,,Presente!
+Dialogue: 0,0:22:14.60,0:22:16.81,Default,,0,0,0,,Parece que vamos ser colegas de quarto.
+Dialogue: 0,0:22:16.98,0:22:20.10,Default,,0,0,0,,É como se estivéssemos ligados pelo destino.\NParecido?
+Dialogue: 0,0:22:20.52,0:22:21.31,Default,,0,0,0,,Presente!
+Dialogue: 0,0:22:21.46,0:22:23.61,Italique,,0,0,0,,Zenna Mia, originária de Moore.
+Dialogue: 0,0:22:23.90,0:22:24.78,Default,,0,0,0,,Presente!
+Dialogue: 0,0:22:25.11,0:22:28.08,TiretsItalique,,217,0,0,,– De Zarn…\N– {\i0}Você não mudou?{\i1}
+Dialogue: 0,0:22:29.48,0:22:30.54,Default,,0,0,0,,Você acha?
+Dialogue: 0,0:22:31.62,0:22:34.58,Default,,0,0,0,,Estamos prestes a nos tornar soldados.\NÉ preciso mudar.
+Dialogue: 0,0:22:34.98,0:22:36.50,Default,,0,0,0,,Isso não é falso...
+Dialogue: 0,0:22:36.74,0:22:37.52,Default,,0,0,0,,Presente!
+Dialogue: 0,0:22:38.11,0:22:40.86,Italique,,0,0,0,,Lino Fernandez,\Norigem de Loum.
+Dialogue: 0,0:22:41.10,0:22:42.69,Italique,,0,0,0,,Presente!
+Dialogue: 0,0:22:43.10,0:22:46.26,Italique,,0,0,0,,Char Aznable, origem de Loum.
+Dialogue: 0,0:22:46.42,0:22:47.24,Default,,0,0,0,,Presente.
+Dialogue: 0,0:22:47.73,0:22:50.01,Italique,,0,0,0,,Ben Sholander, originário de Loum.
+Dialogue: 0,0:22:50.34,0:22:51.15,Default,,0,0,0,,Presente!
+Dialogue: 0,0:22:51.34,0:22:53.89,Italique,,0,0,0,,Kim Bong Jung, originário de Zeon.
+Dialogue: 0,0:22:54.14,0:22:55.01,Default,,0,0,0,,Presente!
+Dialogue: 0,0:22:55.28,0:23:00.98,Italique,,0,0,0,,Esses 265 alunos serão representados pelo Vice-almirante Garma Zabi, originário de Zeon.
+Dialogue: 0,0:23:01.24,0:23:02.02,Default,,0,0,0,,Presente!
+Dialogue: 0,0:23:15.03,0:23:17.52,Default,,0,0,0,,O herdeiro dos Zabi nos representa?
+Dialogue: 0,0:23:28.19,0:23:29.18,Default,,0,0,0,,Eu juro!
+Dialogue: 0,0:24:57.30,0:25:00.06,Default,sign,40,0,0,,{\an7}Adaptação: Jun-Ichi Takeda
+Dialogue: 0,0:01:43.00,0:01:50.26,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Mesmo o sofrimento infinito
+Dialogue: 0,0:01:50.61,0:02:01.15,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}O espaço infinito também pode abrigar
+Dialogue: 0,0:02:11.43,0:02:17.03,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Os fios que travam a mentecerrada
+Dialogue: 0,0:02:18.42,0:02:24.37,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Também terá um dia para ser desfeito
+Dialogue: 0,0:02:25.46,0:02:31.58,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Aconchego que brota
+Dialogue: 0,0:02:32.56,0:02:35.85,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}E com o futuro tão próximo
+Dialogue: 0,0:02:36.06,0:02:43.38,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Sentimentos difíceis de conter
+Dialogue: 0,0:02:43.48,0:02:50.49,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Em um silencioso universo onde as estrelas caem
+Dialogue: 0,0:02:50.55,0:02:57.66,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Tempo eterno que flutua
+Dialogue: 0,0:02:57.75,0:03:04.38,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Mesmo a luz pode ultrapassar
+Dialogue: 0,0:03:04.47,0:03:10.74,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Para aquele futuro
+Dialogue: 0,0:23:30.23,0:23:31.62,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Acredite...
+Dialogue: 0,0:23:32.54,0:23:37.55,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Pessoas só crescem após passar por tristezas
+Dialogue: 0,0:23:37.79,0:23:46.94,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Hoje, minha amada trema de solidão
+Dialogue: 0,0:23:47.72,0:23:53.07,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Essa tristeza ainda paira em meu coração
+Dialogue: 0,0:23:53.19,0:23:54.83,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Acredite...
+Dialogue: 0,0:23:55.58,0:24:01.13,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Lágrimas, por favor, retornem ao mar
+Dialogue: 0,0:24:01.35,0:24:11.63,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Amor que penso dia e noite
+Dialogue: 0,0:24:12.62,0:24:20.79,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}O céu vai se tingindo de escarlate
+Dialogue: 0,0:24:23.60,0:24:28.52,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Ah, meu amor, minha amada...
+Dialogue: 0,0:24:28.87,0:24:32.94,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Eu quero voltar a estar ao seu lado.
+Dialogue: 0,0:24:33.01,0:24:38.95,EDCN,NTP,0,0,0,,Minha amada... mais uma vez...
+Dialogue: 0,0:24:39.14,0:24:43.68,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Ah, meu amor, minha amada...
+Dialogue: 0,0:24:44.18,0:24:48.27,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Eu quero voltar a estar ao seu lado.
+Dialogue: 0,0:24:48.38,0:24:56.21,EDCN,NTP,0,0,0,,[Ninguém pode sobreviver sozinho.]

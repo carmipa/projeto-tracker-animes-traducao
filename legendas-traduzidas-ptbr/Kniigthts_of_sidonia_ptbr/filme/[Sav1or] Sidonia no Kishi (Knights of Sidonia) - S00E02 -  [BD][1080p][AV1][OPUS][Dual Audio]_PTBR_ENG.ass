@@ -1,0 +1,1418 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:42.16,0:00:43.79,Default,,0,0,0,,Libere a Formação de Fecho!
+Dialogue: 0,0:00:55.54,0:00:56.75,Default,,0,0,0,,Te achei!
+Dialogue: 0,0:01:04.08,0:01:05.29,Default,,0,0,0,,Receba isto!
+Dialogue: 0,0:01:09.33,0:01:10.37,Default,,0,0,0,,Você penetrou o núcleo!
+Dialogue: 0,0:01:10.58,0:01:12.70,Default,,0,0,0,,Os Gaunas se desintegraram!
+Dialogue: 0,0:01:24.41,0:01:25.95,Default,,0,0,0,,Localização do Núcleo Prevista
+Dialogue: 0,0:01:35.83,0:01:38.87,Default,,0,0,0,,Oito fora. Nove. Dez.
+Dialogue: 0,0:01:39.08,0:01:42.41,Default,,0,0,0,,Você não está aqui só pra acumular baixas, Hamagata!
+Dialogue: 0,0:01:53.00,0:01:55.54,Default,,0,0,0,,--Ha shine!\N--Estou bem. Eu consigo desviar disso.
+Dialogue: 0,0:02:08.75,0:02:10.87,Default,,0,0,0,,Vocês na frente não devem\Ntentar fazer tudo por conta própria.
+Dialogue: 0,0:02:11.08,0:02:12.50,Default,,0,0,0,,Estamos atrás de vocês. Lembrem-se disso.
+Dialogue: 0,0:02:12.70,0:02:16.04,Default,,0,0,0,,Certo! Obrigado, Tanikaze-{\i1}san.{\i0}
+Dialogue: 0,0:02:18.16,0:02:18.83,Default,,0,0,0,,Sistema de Treinamento Virtual de Garde
+Dialogue: 0,0:02:18.83,0:02:19.83,Default,,0,0,0,,Sistema de Treinamento Virtual de Garde "\N"Treinamento Virtual Concluído
+Dialogue: 0,0:02:19.83,0:02:20.29,Default,,0,0,0,,Sistema de Treinamento Virtual de Garde " "Treinamento\NConcluído " Você destruiu o Podo Gauna.
+Dialogue: 0,0:02:20.29,0:02:21.66,Default,,0,0,0,,Você destruiu o Podo Gauna.
+Dialogue: 0,0:02:21.66,0:02:22.83,Default,,0,0,0,,Rank de Treinamento #1 Kairi Hamagata\NVocê destruiu o Pódulo Gauna.
+Dialogue: 0,0:02:22.83,0:02:23.04,Default,,0,0,0,,Rank de Treinamento\N#1 Kairi Hamagata
+Dialogue: 0,0:02:23.04,0:02:24.87,Default,,0,0,0,,Rank de Treinamento #1 Kairi Hamagata\NA missão foi um sucesso.
+Dialogue: 0,0:02:24.87,0:02:25.08,Default,,0,0,0,,Rank de Treinamento\N#1 Kairi Hamagata
+Dialogue: 0,0:02:25.08,0:02:26.16,Default,,0,0,0,,Rank de Treinamento #1 Kairi\NHamagata\NCerto, todos fora!
+Dialogue: 0,0:02:26.16,0:02:27.70,Default,,0,0,0,,Certo, todos fora!
+Dialogue: 0,0:02:51.16,0:02:55.20,Default,,0,0,0,,Seu tempo de conclusão da missão\Nfoi de 29 minutos.
+Dialogue: 0,0:02:55.41,0:02:57.16,Default,,0,0,0,,Um novo recorde!
+Dialogue: 0,0:02:57.37,0:02:58.62,Default,,0,0,0,,Instrutor Tsuruuchi!
+Dialogue: 0,0:02:58.83,0:03:02.95,Default,,0,0,0,,Com os resultados que obtive hoje, eu conseguiria\Nderrotar um Gauna duas vezes desse tamanho!
+Dialogue: 0,0:03:03.16,0:03:06.54,Default,,0,0,0,,Hamagata, você é um bom piloto,
+Dialogue: 0,0:03:06.75,0:03:09.66,Default,,0,0,0,,então você precisa consertar\Nessa sua arrogância.
+Dialogue: 0,0:03:30.04,0:03:31.70,Default,,0,0,0,,
+Dialogue: 0,0:03:35.62,0:03:38.12,Default,,0,0,0,,Bom trabalho, Tanikaze-{\i1}san!{\i0}
+Dialogue: 0,0:03:38.33,0:03:39.41,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,0:03:39.62,0:03:43.37,Default,,0,0,0,,Pensei que você estivesse com fome,\Nentão fiz isto para você.
+Dialogue: 0,0:03:48.95,0:03:50.54,Default,,0,0,0,,Obrigado, Tsumugi!
+Dialogue: 0,0:03:54.20,0:03:55.66,Default,,0,0,0,,Está muito bom!
+Dialogue: 0,0:04:03.87,0:04:08.70,Default,,0,0,0,,Knights of Sidonia:\NAmor Tecido nas Estrelas
+Dialogue: 0,0:04:14.75,0:04:21.70,Default,,0,0,0,,{\i1}Sidonia{\i0} passou agora dez anos\NNa região do Planeta Nove.
+Dialogue: 0,0:04:21.91,0:04:27.41,Default,,0,0,0,,Tenho certeza de que alguns de vocês desejam que esta paz\Ncontinue para sempre.
+Dialogue: 0,0:04:27.62,0:04:33.20,Default,,0,0,0,,Mas eu quero que vocês se lembrem\Ndo motivo pelo qual viemos.
+Dialogue: 0,0:04:33.41,0:04:36.12,Default,,0,0,0,,Colonizar o Planeta Sete.
+Dialogue: 0,0:04:36.33,0:04:39.16,Default,,0,0,0,,Essa é nossa grande tarefa como a\NNave Semente da humanidade. Nosso sonho comum.
+Dialogue: 0,0:04:39.16,0:04:42.62,Default,,0,0,0,,Para Seven, a Terra da Segurança e Paz. Essa é nossa grande tarefa como Nave Semente da humanidade. Nosso sonho comum.
+Dialogue: 0,0:04:42.62,0:04:42.79,Default,,0,0,0,,Essa é nossa grande tarefa como Nave Semente da humanidade. Nosso sonho comum.
+Dialogue: 0,0:04:43.00,0:04:47.54,Default,,0,0,0,,Mas o Aglomerado Gauna Grande está bloqueando nosso caminho.
+Dialogue: 0,0:04:47.75,0:04:52.87,Default,,0,0,0,,Passamos uma década planejando uma forma de destruí-lo.
+Dialogue: 0,0:04:53.08,0:04:57.12,Default,,0,0,0,,E agora, estamos prontos.
+Dialogue: 0,0:04:57.33,0:04:59.12,Default,,0,0,0,,O momento é agora!
+Dialogue: 0,0:04:59.33,0:05:04.12,Default,,0,0,0,,{\i1}Sidonia{\i0} iniciará agora sua guerra contra o Aglomerado Gauna Grande!
+Dialogue: 0,0:05:08.29,0:05:10.79,Default,,0,0,0,,Dada a distância até o Aglomerado Gauna Grande,
+Dialogue: 0,0:05:11.00,0:05:15.29,Default,,0,0,0,,Acreditamos que levará um ano para a guerra terminar.
+Dialogue: 0,0:05:15.50,0:05:18.41,Default,,0,0,0,,Nosso plano já está em vigor!
+Dialogue: 0,0:05:18.62,0:05:21.25,Default,,0,0,0,,Agora é o momento de vencer\Na guerra contra os Gauna,
+Dialogue: 0,0:05:21.45,0:05:24.16,Default,,0,0,0,,e realizar o grande sonho da humanidade!
+Dialogue: 0,0:05:24.37,0:05:29.12,Default,,0,0,0,,Espero que todos vocês vão além\Npara cumprir seu dever.
+Dialogue: 0,0:05:40.95,0:05:42.37,Default,,0,0,0,,Quer ir pra lá?
+Dialogue: 0,0:05:45.29,0:05:46.75,Default,,0,0,0,,Ei.
+Dialogue: 0,0:05:46.95,0:05:49.75,Default,,0,0,0,,Tsumugi, você está pronta?
+Dialogue: 0,0:05:49.95,0:05:51.45,Default,,0,0,0,,Viva!
+Dialogue: 0,0:05:55.95,0:05:58.79,Default,,0,0,0,,A Tsumugi teve a ideia e fez sozinha.
+Dialogue: 0,0:06:04.62,0:06:05.45,Default,,0,0,0,,É perfeito.
+Dialogue: 0,0:06:05.66,0:06:08.08,Default,,0,0,0,,Sério? Estou tão feliz!
+Dialogue: 0,0:06:26.70,0:06:28.66,Default,,0,0,0,,É lindo!
+Dialogue: 0,0:06:28.87,0:06:32.62,Default,,0,0,0,,Vocês costumavam ter festivais assim todo ano?
+Dialogue: 0,0:06:32.83,0:06:34.29,Default,,0,0,0,,É verdade.
+Dialogue: 0,0:06:34.50,0:06:38.12,Default,,0,0,0,,Mas então a guerra contra os Gauna começou,
+Dialogue: 0,0:06:38.33,0:06:41.25,Default,,0,0,0,,e tínhamos problemas maiores.
+Dialogue: 0,0:06:41.45,0:06:45.79,Default,,0,0,0,,Não tivemos um desde o ano em que encontramos Na gate.
+Dialogue: 0,0:06:46.00,0:06:47.25,Default,,0,0,0,,É.
+Dialogue: 0,0:06:50.50,0:06:52.91,Default,,0,0,0,,Acho que foi muito legal o capitão nos deixar
+Dialogue: 0,0:06:53.12,0:06:55.37,Default,,0,0,0,,trazer de volta o Festival da Gravidade.
+Dialogue: 0,0:06:57.87,0:07:01.79,Default,,0,0,0,,Olha isso, Tanikaze-{\i1}san!{\i0} Sou eu!
+Dialogue: 0,0:07:03.33,0:07:04.70,Default,,0,0,0,,É fofo!
+Dialogue: 0,0:07:09.37,0:07:12.12,Default,,0,0,0,,Olá aí, Tanikaze-{\i1}kun.{\i0}
+Dialogue: 0,0:07:12.33,0:07:14.50,Default,,0,0,0,,
+Dialogue: 0,0:07:18.50,0:07:20.41,Default,,0,0,0,,Ei, Tanikaze.
+Dialogue: 0,0:07:20.62,0:07:22.75,Default,,0,0,0,,En? Ren? E...
+Dialogue: 0,0:07:22.95,0:07:26.62,Default,,0,0,0,,Deixe-me apresentar nossas novas irmãs.
+Dialogue: 0,0:07:26.83,0:07:27.95,Default,,0,0,0,,Elas são tão pequeninas.
+Dialogue: 0,0:07:28.16,0:07:29.20,Default,,0,0,0,,E jovens!
+Dialogue: 0,0:07:29.41,0:07:33.45,Default,,0,0,0,,Desta vez, foram lançadas um ano mais cedo,
+Dialogue: 0,0:07:33.66,0:07:35.75,Default,,0,0,0,,mas o progresso que fizemos com educação comprimida
+Dialogue: 0,0:07:35.95,0:07:38.79,Default,,0,0,0,,significa que eles formam pilotos excelentes.
+Dialogue: 0,0:07:39.00,0:07:40.25,Default,,0,0,0,,Olá a todos.
+Dialogue: 0,0:07:40.45,0:07:42.04,Default,,0,0,0,,Eu sou Ryo Honoka.
+Dialogue: 0,0:07:42.25,0:07:43.54,Default,,0,0,0,,Vou apresentá-los.
+Dialogue: 0,0:07:43.75,0:07:48.16,Default,,0,0,0,,À direita, Nen Honoka, Raku, Kan,
+Dialogue: 0,0:07:48.37,0:07:51.79,Default,,0,0,0,,
+Dialogue: 0,0:07:52.00,0:07:56.00,Default,,0,0,0,,Baku, Sen, Kun, To.
+Dialogue: 0,0:07:56.20,0:07:57.16,Default,,0,0,0,,E...
+Dialogue: 0,0:07:57.37,0:08:02.37,Default,,0,0,0,,
+Dialogue: 0,0:08:02.58,0:08:06.12,Default,,0,0,0,,Não adianta. Eu não consigo lembrar de todos.
+Dialogue: 0,0:08:06.33,0:08:08.20,Default,,0,0,0,,É só dar tempo.
+Dialogue: 0,0:08:11.33,0:08:12.70,Default,,0,0,0,,É a Tsumugi-{\i1}chan!{\i0}!
+Dialogue: 0,0:08:15.33,0:08:16.87,Default,,0,0,0,,Tsumugi-{\i1}chan,{\i0} Segure minha mão!
+Dialogue: 0,0:08:17.08,0:08:18.37,Default,,0,0,0,,Certo!
+Dialogue: 0,0:08:27.45,0:08:29.29,Default,,0,0,0,,É a Tsumugi-{\i1}chan!{\i0}!
+Dialogue: 0,0:08:30.54,0:08:32.12,Default,,0,0,0,,Izana-{\i1}san,{\i0} Olha!
+Dialogue: 0,0:08:32.12,0:08:32.33,Default,,0,0,0,, 513º Grande Final
+Dialogue: 0,0:08:32.33,0:08:34.04,Default,,0,0,0,, 513º Grande Final "\NOh, é a Taça da Gravidade.
+Dialogue: 0,0:08:34.04,0:08:34.25,Default,,0,0,0,, 513º Grande Final
+Dialogue: 0,0:08:34.25,0:08:36.00,Default,,0,0,0,, 513º Grande Final " Tsuruuchi-{\i1}san{\i0}\Nchegou até as finais!
+Dialogue: 0,0:08:36.00,0:08:37.37,Default,,0,0,0,,Tsuruuchi-{\i1}san{\i0} conseguiu chegar\Naté as finais!
+Dialogue: 0,0:08:37.58,0:08:39.33,Default,,0,0,0,,Uau, Tsuruuchi-{\i1}san!{\i0}
+Dialogue: 0,0:08:39.54,0:08:42.29,Default,,0,0,0,,Este ano é a sua chance de vencer, Tsuruuchi.
+Dialogue: 0,0:08:42.50,0:08:44.45,Default,,0,0,0,,Ele sempre perde no último minuto.
+Dialogue: 0,0:08:44.66,0:08:46.08,Default,,0,0,0,,Não diga isso!
+Dialogue: 0,0:08:46.29,0:08:49.54,Default,,0,0,0,,Eu não sou quem eu costumava ser!
+Dialogue: 0,0:08:51.08,0:08:52.50,Default,,0,0,0,,Certo, Samari?
+Dialogue: 0,0:08:52.70,0:08:57.50,Default,,0,0,0,,Se eu vencer, desta vez você vai ter que\Nfotossintetizar comigo...{\i1}...{\i0}
+Dialogue: 0,0:09:03.75,0:09:05.62,Default,,0,0,0,,O quê?
+Dialogue: 0,0:09:05.83,0:09:07.08,Default,,0,0,0,,Abaixa!
+Dialogue: 0,0:09:07.29,0:09:09.16,Default,,0,0,0,,Fotossíntese...
+Dialogue: 0,0:09:10.41,0:09:11.25,Default,,0,0,0,,Isso é demais!
+Dialogue: 0,0:09:11.45,0:09:14.62,Default,,0,0,0,,O vencedor é Toutarou Yamano, o novato!
+Dialogue: 0,0:09:14.83,0:09:20.12,Default,,0,0,0,,Tsuruuchi é privado da vitória\Npor mais uma vez, por um novato!
+Dialogue: 0,0:09:23.20,0:09:23.66,Default,,0,0,0,,Copa Gravidade 513ª\NToutarou Yamano
+Dialogue: 0,0:09:23.66,0:09:25.00,Default,,0,0,0,,Copa Gravidade 513ª\NToutarou Yamano" Hã?
+Dialogue: 0,0:09:25.00,0:09:26.04,Default,,0,0,0,,Copa Gravidade 513ª\NToutarou Yamano
+Dialogue: 0,0:09:28.00,0:09:30.29,Default,,0,0,0,,Os novatos parecem estar se divertindo.
+Dialogue: 0,0:09:30.50,0:09:31.91,Default,,0,0,0,,Né?
+Dialogue: 0,0:09:34.50,0:09:35.79,Default,,0,0,0,,Ei!
+Dialogue: 0,0:09:36.00,0:09:37.66,Default,,0,0,0,,Você é tão ingênuo...
+Dialogue: 0,0:09:37.87,0:09:39.20,Default,,0,0,0,,Isso doeu!
+Dialogue: 0,0:09:42.50,0:09:43.75,Default,,0,0,0,,Tsumugi?
+Dialogue: 0,0:09:48.25,0:09:49.50,Default,,0,0,0,,Nós iniciaremos agora.
+Dialogue: 0,0:09:49.66,0:09:49.70,Default,,0,0,0,,Planeta Dez
+Dialogue: 0,0:09:49.70,0:09:50.50,Default,,0,0,0,,Planeta Dez", a fase operacional do nosso plano para destruir o Grande Aglomerado Gauna!
+Dialogue: 0,0:09:50.50,0:09:51.12,Default,,0,0,0,,Planeta Pour", a fase operacional do nosso plano para destruir o Grande Aglomerado Gauna!
+Dialogue: 0,0:09:51.12,0:09:52.91,Default,,0,0,0,,Planeta Seis", a fase operacional do nosso plano para destruir o Grande Aglomerado Gauna!
+Dialogue: 0,0:09:52.91,0:09:53.04,Default,,0,0,0,,A fase operacional do nosso plano para destruir o Grande Aglomerado Gauna!
+Dialogue: 0,0:09:56.00,0:09:59.75,Default,,0,0,0,,{\i1}Sidonia{\i0} entrou na região ao redor de\NPlaneta Nove, mantendo-se em uma posição
+Dialogue: 0,0:09:59.95,0:10:02.70,Default,,0,0,0,,no lado exatamente oposto da estrela\NLem do Grande Aglomerado Gauna.
+Dialogue: 0,0:10:02.91,0:10:08.62,Default,,0,0,0,,Estamos em um impasse. Eles não podem\Nnos alcançar facilmente, mas nós não podemos alcançá-los.
+Dialogue: 0,0:10:08.83,0:10:14.29,Default,,0,0,0,,Mas a Indústrias Pesadas Toha desenvolveu\Numa arma que mudará isso para sempre!
+Dialogue: 0,0:10:14.50,0:10:15.70,Default,,0,0,0,,Diretor Sasaki!
+Dialogue: 0,0:10:15.91,0:10:18.95,Default,,0,0,0,,O Emissor de Radiação Gravitônica.
+Dialogue: 0,0:10:20.45,0:10:23.75,Default,,0,0,0,,A Radiação Gravitônica... o quê?
+Dialogue: 0,0:10:23.95,0:10:27.00,Default,,0,0,0,,Aquele capaz de perfurar até mesmo superestruturas?
+Dialogue: 0,0:10:27.20,0:10:29.87,Default,,0,0,0,,Eu achei que a existência dele fosse totalmente teórica.
+Dialogue: 0,0:10:30.08,0:10:33.79,Default,,0,0,0,,Nós construímos ele usando os dados deixados pelo cientista Ochiai.
+Dialogue: 0,0:10:35.12,0:10:37.50,Default,,0,0,0,,O cientista... Ochiai?
+Dialogue: 0,0:10:37.70,0:10:44.33,Default,,0,0,0,,Mas... conseguimos construir a coisa, embora ainda haja problemas.
+Dialogue: 0,0:10:44.54,0:10:46.70,Default,,0,0,0,,Principalmente a energia que ele consome.
+Dialogue: 0,0:10:46.91,0:10:52.75,Default,,0,0,0,,Então, para disparar um tiro, você precisa... {\i1}Deixa eu contar os zeros desse número...{\i0}
+Dialogue: 0,0:10:54.00,0:10:54.95,Default,,0,0,0,,Você está brincando!
+Dialogue: 0,0:10:55.16,0:10:59.16,Default,,0,0,0,,Este é o limite da nossa\Ntecnologia atual.
+Dialogue: 0,0:10:59.37,0:11:03.08,Default,,0,0,0,,Mas onde supostamente vamos conseguir\Nta energia?
+Dialogue: 0,0:11:03.29,0:11:06.20,Default,,0,0,0,,Usamos a energia da estrela Lem.
+Dialogue: 0,0:11:06.41,0:11:10.87,Default,,0,0,0,,Colocaremos os Coletadores de Energia Estelar\Nperto de Lem.
+Dialogue: 0,0:11:11.08,0:11:13.16,Default,,0,0,0,,Levará cerca de um ano para enchê-los.
+Dialogue: 0,0:11:13.37,0:11:15.08,Default,,0,0,0,,Uau...
+Dialogue: 0,0:11:15.29,0:11:17.54,Default,,0,0,0,,Podemos atirar nisso quantas vezes quisermos!
+Dialogue: 0,0:11:17.75,0:11:20.25,Default,,0,0,0,,Há risco de os Gauna encontrarem isso?
+Dialogue: 0,0:11:20.45,0:11:23.50,Default,,0,0,0,,O sistema não usa partículas Heigus.
+Dialogue: 0,0:11:23.70,0:11:27.54,Default,,0,0,0,,Isso mesmo. Os Gaunas respondem às partículas Heigus e ao Kabizashi.
+Dialogue: 0,0:11:29.08,0:11:31.91,Default,,0,0,0,,Então é invisível para eles?
+Dialogue: 0,0:11:32.12,0:11:33.45,Default,,0,0,0,,Mas devido à sua construção simples, tudo o que ele pode fazer é coletar energia.
+Dialogue: 0,0:11:33.45,0:11:36.54,Default,,0,0,0,,Planeta Cinco" Mas devido à sua construção simples, tudo o que ele pode fazer é coletar energia.
+Dialogue: 0,0:11:36.54,0:11:37.62,Default,,0,0,0,,Mas devido à sua construção simples, tudo o que ele pode fazer é coletar energia.
+Dialogue: 0,0:11:37.62,0:11:37.83,Default,,0,0,0,,Esfera Coletora 2
+Dialogue: 0,0:11:37.83,0:11:38.70,Default,,0,0,0,,Esfera Coletora 2" Vamos precisar de um sistema separado para realmente enviar a energia aos emissores.
+Dialogue: 0,0:11:38.70,0:11:43.08,Default,,0,0,0,, Esfera Coletora 2 " " Esfera Coletora 1 " Precisaremos de um sistema\Nseparado para realmente enviar a energia aos emissores.
+Dialogue: 0,0:11:43.08,0:11:44.29,Default,,0,0,0,, Esfera Coletora 1 " Precisaremos de um sistema\Nseparado para realmente enviar a energia aos emissores.
+Dialogue: 0,0:11:44.29,0:11:44.41,Default,,0,0,0,, Esfera Coletora 1
+Dialogue: 0,0:11:44.50,0:11:48.20,Default,,0,0,0,,Para isso, vamos implantar uma rede\Nde transmissores e repetidores.
+Dialogue: 0,0:11:48.41,0:11:52.62,Default,,0,0,0,,Ah, então eles vão encontrar de qualquer maneira.
+Dialogue: 0,0:11:52.83,0:11:54.70,Default,,0,0,0,,Assim, implantamos os transmissores
+Dialogue: 0,0:11:54.91,0:11:57.08,Default,,0,0,0,,somente depois que a energia tiver\Nsido carregada o suficiente.
+Dialogue: 0,0:11:57.29,0:12:01.50,Default,,0,0,0,,Fazemos isso bem antes de disparar,\Ne em um intervalo de tempo extremamente curto.
+Dialogue: 0,0:12:01.70,0:12:05.12,Default,,0,0,0,,É por isso que estamos construindo uma nova Unidade Garde,
+Dialogue: 0,0:12:05.33,0:12:09.00,Default,,0,0,0,,o Série 20 {\i1}Yukimori,{\i0}\Ncom um novo tipo de motor.
+Dialogue: 0,0:12:09.20,0:12:13.95,Default,,0,0,0,,Esta unidade pode levar os transmissores\Npara Lem extremamente rápido.
+Dialogue: 0,0:12:14.16,0:12:17.79,Default,,0,0,0,,Tanikaze, você será nosso\Npiloto para o {\i1}Yukimori.{\i0}
+Dialogue: 0,0:12:18.00,0:12:18.62,Default,,0,0,0,,Sim, senhora.
+Dialogue: 0,0:12:18.83,0:12:22.75,Default,,0,0,0,,Primeiro, levaremos o Planeta Oito\Npara estabelecer o transmissor.
+Dialogue: 0,0:12:22.95,0:12:23.58,Default,,0,0,0,,O Planeta Oito está escondido do\NGrande Aglomerado Gauna por Lem neste momento.
+Dialogue: 0,0:12:23.58,0:12:27.20,Default,,0,0,0,,Grande Aglomerado Gauna", o Planeta Oito está escondido\Ndo Grande Aglomerado Gauna por Lem neste momento.
+Dialogue: 0,0:12:27.20,0:12:27.41,Default,,0,0,0,,Aglomerado de Gaunas Grande
+Dialogue: 0,0:12:27.41,0:12:29.08,Default,,0,0,0,,Aglomerado de Gaunas Grande"\NEsta é a nossa chance.
+Dialogue: 0,0:12:29.08,0:12:30.33,Default,,0,0,0,,Aglomerado de Gaunas Grande
+Dialogue: 0,0:12:30.33,0:12:34.16,Default,,0,0,0,,Aglomerado de Gaunas Grande" Temos outro\Ntruque na manga que está quase pronto.
+Dialogue: 0,0:12:34.16,0:12:34.20,Default,,0,0,0,,Temos outro truque na manga\Nque está quase pronto.
+Dialogue: 0,0:12:34.41,0:12:35.62,Default,,0,0,0,,Kunato?
+Dialogue: 0,0:12:35.83,0:12:37.45,Default,,0,0,0,,O que você quer dizer?
+Dialogue: 0,0:12:37.66,0:12:39.87,Default,,0,0,0,,Híbrido 2.
+Dialogue: 0,0:12:51.37,0:12:57.66,Default,,0,0,0,,Você sabia que Kunato estava criando um segundo Híbrido?
+Dialogue: 0,0:12:57.87,0:13:02.62,Default,,0,0,0,,O capitão me disse / pouco antes do briefing.
+Dialogue: 0,0:13:05.41,0:13:09.91,Default,,0,0,0,,Acho que isso significa um novo / irmão para Tsumugi.
+Dialogue: 0,0:13:18.83,0:13:22.04,Default,,0,0,0,,Sim. É isso mesmo.
+Dialogue: 0,0:13:22.95,0:13:27.79,Default,,0,0,0,,As ondas cerebrais de Kanata estão normais. / A massa Ena está estável.
+Dialogue: 0,0:13:28.00,0:13:31.41,Default,,0,0,0,,Demorou muito para completar isso.
+Dialogue: 0,0:13:31.62,0:13:33.08,Default,,0,0,0,,Claro.
+Dialogue: 0,0:13:33.29,0:13:39.20,Default,,0,0,0,,Estávamos tentando criar uma forma de vida / imortal e perfeita.
+Dialogue: 0,0:13:43.33,0:13:46.29,Default,,0,0,0,,Você! Depressa! E não bata em nada!
+Dialogue: 0,0:13:52.45,0:13:56.00,Default,,0,0,0,,Vestiário Masculino
+Dialogue: 0,0:13:56.08,0:13:59.29,Default,,0,0,0,,Eu nunca vou me acostumar com isso.
+Dialogue: 0,0:13:59.50,0:14:02.04,Default,,0,0,0,,Todos os sistemas de controle e sensores normais.
+Dialogue: 0,0:14:02.25,0:14:03.95,Default,,0,0,0,,Propulsão operando normalmente.
+Dialogue: 0,0:14:04.16,0:14:06.62,Default,,0,0,0,,As Unidades Garde estão sendo carregadas no hangar.
+Dialogue: 0,0:14:06.83,0:14:10.75,Default,,0,0,0,,Todos os Garde, assim como o Hybrid Tsumugi,\Npor favor, apresse-se com o trabalho.
+Dialogue: 0,0:14:10.95,0:14:13.20,Default,,0,0,0,,Dispositivos de carregamento esquerdo e direito\Nfuncionando normalmente.
+Dialogue: 0,0:14:13.41,0:14:17.91,Default,,0,0,0,,Técnicos da Unidade Garde, façam suas verificações finais nas Série 19 e na Série 18 Aprimorada.
+Dialogue: 0,0:14:18.12,0:14:18.95,Default,,0,0,0,,Operando normalmente.
+Dialogue: 0,0:14:19.16,0:14:21.12,Default,,0,0,0,,Preparativos de lançamento completos!
+Dialogue: 0,0:14:22.62,0:14:25.70,Default,,0,0,0,,Alto Comandante Kobayashi,\No {\i1}Mizuki{\i0} está decolando.
+Dialogue: 0,0:14:25.91,0:14:30.41,Default,,0,0,0,,Entendido. Certifique-se de que este ataque\Nseja um sucesso, XO Midorikawa.
+Dialogue: 0,0:14:30.62,0:14:31.50,Default,,0,0,0,,Copiado.
+Dialogue: 0,0:14:31.70,0:14:34.25,Default,,0,0,0,,Defesa tática\Ncruzador {\i1}Mizuki,{\i0} está decolando!
+Dialogue: 0,0:14:34.45,0:14:37.12,Default,,0,0,0,,A área ao redor do Planeta Oito!
+Dialogue: 0,0:14:37.33,0:14:38.08,Default,,0,0,0,,Copiado.
+Dialogue: 0,0:14:38.29,0:14:40.45,Default,,0,0,0,,Liberando a saída do motor de propulsão de Partícula Heigus.
+Dialogue: 0,0:14:40.66,0:14:42.33,Default,,0,0,0,,Iniciando aceleração especial!
+Dialogue: 0,0:14:52.29,0:14:53.66,Default,,0,0,0,,Atenção, todo o pessoal.
+Dialogue: 0,0:14:53.87,0:14:58.25,Default,,0,0,0,,O objetivo desta operação é tomar posse do Planeta Oito, nosso ponto de retransmissão ideal,
+Dialogue: 0,0:14:58.45,0:15:00.45,Default,,0,0,0,,e instalar as unidades de retransmissão.
+Dialogue: 0,0:15:00.66,0:15:03.79,Default,,0,0,0,,Gardes, sua tarefa será destruir todos os Gaunas em Oito.
+Dialogue: 0,0:15:04.00,0:15:05.25,Default,,0,0,0,,Copiado!
+Dialogue: 0,0:15:05.75,0:15:09.33,Default,,0,0,0,,Ponte para controle do hangar, está liberado lançar seus Gardes.
+Dialogue: 0,0:15:09.54,0:15:11.83,Default,,0,0,0,,--Abrindo os portos de lançamento esquerdo e direito.\NSem obstáculos no caminho de lançamento.
+Dialogue: 0,0:15:11.83,0:15:13.83,Default,,0,0,0,,--Lançador de Garde, iniciar o lançamento de todos os Gardes!\N--Abrindo os portos de lançamento esquerdo e direito. Sem obstáculos no caminho de lançamento.
+Dialogue: 0,0:15:13.83,0:15:15.54,Default,,0,0,0,,--Lançador de Garde, iniciar o lançamento de todos os Gardes!\N--Contagem regressiva até que os motores de propulsão Heigus atinjam seus valores de lançamento.
+Dialogue: 0,0:15:15.54,0:15:17.41,Default,,0,0,0,,--Contagem regressiva até que os motores de propulsão Heigus\Natinjam seus valores de lançamento.
+Dialogue: 0,0:15:17.62,0:15:18.79,Default,,0,0,0,,Fogo!
+Dialogue: 0,0:15:47.75,0:15:51.12,Default,,0,0,0,,Liberar todos os compartimentos no porto de lançamento Híbrido.
+Dialogue: 0,0:15:51.33,0:15:55.50,Default,,0,0,0,,O pulso e as ondas cerebrais de Tsumugi Híbrida estão estabilizados.
+Dialogue: 0,0:15:58.29,0:16:00.33,Default,,0,0,0,,Tsumugi, você protege esta nave.
+Dialogue: 0,0:16:00.54,0:16:01.91,Default,,0,0,0,,Copiado.
+Dialogue: 0,0:16:10.91,0:16:12.37,Default,,0,0,0,,{\i1}Mizuki{\i0} para todo o pessoal.
+Dialogue: 0,0:16:12.58,0:16:15.83,Default,,0,0,0,,Nós começaremos agora o ataque ao\NPlaneta Oito, controlado pelos inimigos.
+Dialogue: 0,0:16:16.04,0:16:17.70,Default,,0,0,0,,Este é Tanikaze. Copiado!
+Dialogue: 0,0:16:17.91,0:16:20.00,Default,,0,0,0,,Equipe de Observação, comecem a identificar o\Nlocalização do núcleo principal imediatamente.
+Dialogue: 0,0:16:20.00,0:16:21.00,Default,,0,0,0,,Mudando Área de Percepção Visual" Equipe de Observação, comecem\Na identificar a localização do núcleo principal imediatamente.
+Dialogue: 0,0:16:21.00,0:16:21.04,Default,,0,0,0,,Equipe de Observação, comecem a identificar o\Nlocalização do núcleo principal imediatamente.
+Dialogue: 0,0:16:23.75,0:16:26.12,Default,,0,0,0,,
+Dialogue: 0,0:16:26.33,0:16:28.54,Default,,0,0,0,,Aproximadamente 1.000 quilômetros\Naté o encontro começar!
+Dialogue: 0,0:16:32.16,0:16:35.54,Default,,0,0,0,,O Ga-708 lançou múltiplos Gaunas.
+Dialogue: 0,0:16:35.75,0:16:37.25,Default,,0,0,0,,Ewww...
+Dialogue: 0,0:16:37.45,0:16:39.50,Default,,0,0,0,,Não é como o que vimos no treinamento!
+Dialogue: 0,0:16:39.70,0:16:43.12,Default,,0,0,0,,Eu consigo fazer isso! Eu consigo fazer isso!\NEu consigo fazer isso!
+Dialogue: 0,0:16:43.33,0:16:45.83,Default,,0,0,0,,Calma! Concentre-se!
+Dialogue: 0,0:16:46.04,0:16:47.87,Default,,0,0,0,,Você o venceu um monte de vezes no treinamento!
+Dialogue: 0,0:16:48.08,0:16:50.45,Default,,0,0,0,,Há menos do que no treinamento!\NPodemos fazer isso!
+Dialogue: 0,0:16:50.66,0:16:52.41,Default,,0,0,0,,Todas as unidades, liberem a Formação Clasp!
+Dialogue: 0,0:16:52.62,0:16:53.83,Default,,0,0,0,,Copiado!
+Dialogue: 0,0:17:13.20,0:17:14.70,Default,,0,0,0,,Abrir fogo!
+Dialogue: 0,0:17:21.41,0:17:22.62,Default,,0,0,0,,Sim!
+Dialogue: 0,0:17:31.33,0:17:33.58,Default,,0,0,0,,Quase todos os Gauna que foram\Nlançados foram destruídos.
+Dialogue: 0,0:17:33.79,0:17:35.50,Default,,0,0,0,,Nenhum sinal de uma segunda onda!
+Dialogue: 0,0:17:35.70,0:17:36.75,Default,,0,0,0,,Esta é a equipe de observação!
+Dialogue: 0,0:17:36.95,0:17:38.83,Default,,0,0,0,,Identificamos a localização do núcleo primário do Gauna Pod!
+Dialogue: 0,0:17:39.04,0:17:43.08,Default,,0,0,0,,Certo, todos da equipe avançada,\Ncheguem perto e retirem o Ena dele!
+Dialogue: 0,0:17:43.29,0:17:44.50,Default,,0,0,0,,Copiado!
+Dialogue: 0,0:17:46.83,0:17:50.50,Default,,0,0,0,,Core está {\i1}70%{\i0} rompido!\NNúcleo primário exposto!
+Dialogue: 0,0:17:50.70,0:17:53.20,Default,,0,0,0,,Todos, atirem seus projéteis perfuradores de núcleo!
+Dialogue: 0,0:18:04.91,0:18:07.29,Default,,0,0,0,,O Ga-708 se desintegrou!
+Dialogue: 0,0:18:07.50,0:18:09.45,Default,,0,0,0,,O Gauna Pod foi destruído!
+Dialogue: 0,0:18:12.83,0:18:15.79,Default,,0,0,0,,Os Gaunas eram apenas alvos fáceis!
+Dialogue: 0,0:18:16.00,0:18:17.58,Default,,0,0,0,,Eu venci!
+Dialogue: 0,0:18:17.79,0:18:18.75,Default,,0,0,0,,Espera!
+Dialogue: 0,0:18:18.95,0:18:20.33,Default,,0,0,0,,Ainda tem um sinal de Gauna!
+Dialogue: 0,0:18:20.54,0:18:23.16,Default,,0,0,0,,Um... Dois... Não, quatro!
+Dialogue: 0,0:18:23.37,0:18:25.83,Default,,0,0,0,,Tem mais? Vamos atacá-los!
+Dialogue: 0,0:18:26.04,0:18:27.25,Default,,0,0,0,,Copiado!
+Dialogue: 0,0:18:28.45,0:18:30.00,Default,,0,0,0,,Só um pouquinho mais...{\i1}{\i0}
+Dialogue: 0,0:18:36.33,0:18:37.16,Default,,0,0,0,,Todo o pessoal, mantenham-se em alerta!
+Dialogue: 0,0:18:37.37,0:18:38.04,Default,,0,0,0,,De onde isso veio?
+Dialogue: 0,0:18:38.25,0:18:40.41,Default,,0,0,0,,O quê? O que aconteceu?
+Dialogue: 0,0:18:43.87,0:18:45.75,Default,,0,0,0,,Unidades avançadas, recuem!
+Dialogue: 0,0:18:51.25,0:18:53.33,Default,,0,0,0,,Uma unidade fora de combate.
+Dialogue: 0,0:18:53.54,0:18:54.45,Default,,0,0,0,,O que é isso?
+Dialogue: 0,0:18:54.66,0:18:56.41,Default,,0,0,0,,Que voz é essa?
+Dialogue: 0,0:18:56.62,0:18:58.29,Default,,0,0,0,,Irmã?
+Dialogue: 0,0:18:58.50,0:19:00.37,Default,,0,0,0,,Uma transmissão dos Gauna?
+Dialogue: 0,0:19:00.70,0:19:01.45,Default,,0,0,0,,Analisando
+Dialogue: 0,0:19:01.45,0:19:01.75,Default,,0,0,0,,Analisando "\NIsto é...
+Dialogue: 0,0:19:01.75,0:19:02.75,Default,,0,0,0,,Analisando "Eiko Yamano" Isto é...
+Dialogue: 0,0:19:02.75,0:19:03.29,Default,,0,0,0,,Isto é...
+Dialogue: 0,0:19:03.50,0:19:05.12,Default,,0,0,0,,O que é isto?
+Dialogue: 0,0:19:05.33,0:19:08.50,Default,,0,0,0,,Liberar Formação de Fecho.
+Dialogue: 0,0:19:08.70,0:19:13.20,Default,,0,0,0,,Iniciar ataque em todos os Gardes.
+Dialogue: 0,0:19:25.37,0:19:26.87,Default,,0,0,0,,Unidade 843 gravemente danificada!
+Dialogue: 0,0:19:27.08,0:19:30.20,Default,,0,0,0,,A carcaça do assento do piloto está levemente danificada.\NO piloto está vivo!
+Dialogue: 0,0:19:30.41,0:19:33.29,Default,,0,0,0,,Núcleo exposto.
+Dialogue: 0,0:19:36.37,0:19:38.29,Default,,0,0,0,,O piloto {\i1}morreu...{\i0}
+Dialogue: 0,0:19:39.95,0:19:41.66,Default,,0,0,0,,Nishinaka-kun...
+Dialogue: 0,0:19:41.87,0:19:43.79,Default,,0,0,0,,Núcleo destruído.
+Dialogue: 0,0:19:44.00,0:19:45.66,Default,,0,0,0,,Uma unidade fora de combate.
+Dialogue: 0,0:19:45.87,0:19:49.41,Default,,0,0,0,,Eles estão atacando a gente com\Nnossa própria doutrina de combate!
+Dialogue: 0,0:19:49.62,0:19:55.50,Default,,0,0,0,,Os Gauna não lutaram\Nassim em treinamento virtual!
+Dialogue: 0,0:20:05.45,0:20:07.58,Default,,0,0,0,,Liberar partículas Heigus!
+Dialogue: 0,0:20:10.25,0:20:11.20,Default,,0,0,0,,Eles dispersaram isso!
+Dialogue: 0,0:20:11.41,0:20:15.50,Default,,0,0,0,,Eles até copiaram o revestimento anti-Heigus da Garde...
+Dialogue: 0,0:20:25.16,0:20:27.20,Default,,0,0,0,,Me solta, droga!
+Dialogue: 0,0:20:35.33,0:20:36.58,Default,,0,0,0,,Que brilho!
+Dialogue: 0,0:20:50.29,0:20:52.04,Default,,0,0,0,,Tanikaze abateu um!
+Dialogue: 0,0:20:52.25,0:20:53.37,Default,,0,0,0,,Tanikaze-san! {\i1} / {\i0}
+Dialogue: 0,0:20:53.58,0:20:54.70,Default,,0,0,0,,É um Gauna!
+Dialogue: 0,0:20:54.91,0:20:57.75,Default,,0,0,0,,Não se deixe enganar pela aparência dele! Lute como sempre faz!
+Dialogue: 0,0:21:00.04,0:21:02.83,Default,,0,0,0,,É um modelo antigo, nem é autônomo...
+Dialogue: 0,0:21:03.04,0:21:04.16,Default,,0,0,0,,Ele é incrível!
+Dialogue: 0,0:21:04.37,0:21:06.12,Default,,0,0,0,,Droga! Não consigo atingir ele!
+Dialogue: 0,0:21:06.33,0:21:08.37,Default,,0,0,0,,Ryo, continue atirando!
+Dialogue: 0,0:21:08.58,0:21:09.41,Default,,0,0,0,,Traga isso para cá!
+Dialogue: 0,0:21:09.62,0:21:10.83,Default,,0,0,0,,Irmã!
+Dialogue: 0,0:21:30.12,0:21:31.08,Default,,0,0,0,,Tanikaze-san! {\i1} {\i0}
+Dialogue: 0,0:21:31.29,0:21:33.50,Default,,0,0,0,,Certo, só dois restantes!
+Dialogue: 0,0:21:35.45,0:21:37.25,Default,,0,0,0,,Não me coma!
+Dialogue: 0,0:21:40.54,0:21:42.37,Default,,0,0,0,,Nakama está gravemente danificado!\NComunicação perdida!
+Dialogue: 0,0:21:42.58,0:21:44.58,Default,,0,0,0,,Os Gaunas do Tipo Inteligente\Ncapturaram a unidade de Nakama
+Dialogue: 0,0:21:44.79,0:21:46.00,Default,,0,0,0,,--Não!\N--e estão deixando o campo de batalha!
+Dialogue: 0,0:21:46.00,0:21:47.58,Default,,0,0,0,,--Tsumugi, pare!\N--e estão deixando o campo de batalha!
+Dialogue: 0,0:21:53.87,0:21:55.45,Default,,0,0,0,,
+Dialogue: 0,0:22:04.08,0:22:08.00,Default,,0,0,0,,Eles comeram uma pessoa!
+Dialogue: 0,0:22:08.20,0:22:13.45,Default,,0,0,0,,Aprendemos na aula que existem Gaunas\Nque copiam a forma dos pilotos que comem.
+Dialogue: 0,0:22:17.70,0:22:21.58,Default,,0,0,0,,Recebemos tanto dano\Nde apenas quatro Gaunas...
+Dialogue: 0,0:22:21.79,0:22:27.58,Default,,0,0,0,,Os Série 19 e os Série 18 aprimorados\Nnão tiveram chance contra {\i1}eles...{\i0}
+Dialogue: 0,0:22:27.79,0:22:30.37,Default,,0,0,0,,Era como se pudesse adivinhar o que seu\Nmodo autônomo faria.
+Dialogue: 0,0:22:30.58,0:22:36.54,Default,,0,0,0,,Não vemos um Gauna de Tipo Inteligente\Ndesde a Mariposa Falcão Carmesim.
+Dialogue: 0,0:22:36.75,0:22:40.20,Default,,0,0,0,,Mas... agora ele pode Agarrar?
+Dialogue: 0,0:22:40.41,0:22:44.54,Default,,0,0,0,,Ele pode ser especializado\Nem caçar Gardes...
+Dialogue: 0,0:22:49.58,0:22:50.79,Default,,0,0,0,,O que é isto?
+Dialogue: 0,0:22:53.29,0:22:54.04,Default,,0,0,0,, Planeta Sete... Planeta Oito... Planeta Nove
+Dialogue: 0,0:22:54.04,0:22:54.66,Default,,0,0,0,, Não confirmado
+Dialogue: 0,0:22:54.66,0:22:56.25,Default,,0,0,0,, Não confirmado " " Planeta Sete... Aglomerado Gauna Grande
+Dialogue: 0,0:23:02.00,0:23:04.08,Default,,0,0,0,,O Aglomerado Gauna Grande se moveu.
+Dialogue: 0,0:23:04.29,0:23:06.33,Default,,0,0,0,,E está mais rápido do que o estimado!
+Dialogue: 0,0:23:06.54,0:23:10.37,Default,,0,0,0,,Pode ter gerado novas unidades de propulsão com sua Ena.
+Dialogue: 0,0:23:10.58,0:23:11.79,Default,,0,0,0,,Quanto tempo nos resta?
+Dialogue: 0,0:23:12.00,0:23:17.50,Default,,0,0,0,,Se continuar assim, seis meses. Ele interceptará o {\i1}Sidonia{\i0} em órbita ao redor do Planeta Oito.
+Dialogue: 0,0:23:17.70,0:23:21.87,Default,,0,0,0,,Se sairmos de Nove agora,\Npodemos desviar disso. Capitão!
+Dialogue: 0,0:23:22.08,0:23:24.58,Default,,0,0,0,,Se eles querem uma batalha final,\Npodem ter.
+Dialogue: 0,0:23:24.79,0:23:28.70,Default,,0,0,0,,A {\i1}Sidonia{\i0} permanece em\Nórbita ao redor do Planeta Nove.
+Dialogue: 0,0:23:32.54,0:23:36.75,Default,,0,0,0,,Começaremos o Experimento de Desmontagem do Setor 32, conforme planejado.
+Dialogue: 0,0:23:36.95,0:23:39.87,Default,,0,0,0,,Mantenham o equilíbrio gravitacional na torre!
+Dialogue: 0,0:23:47.20,0:23:49.29,Default,,0,0,0,,Isso foi perigoso, Hamagata!
+Dialogue: 0,0:23:51.12,0:23:52.33,Default,,0,0,0,,Opa!
+Dialogue: 0,0:23:55.95,0:23:58.62,Default,,0,0,0,,Hamagata-kun, eu sei que não estamos em combate,
+Dialogue: 0,0:23:58.83,0:24:01.25,Default,,0,0,0,,mas isso não é desculpa para você brincar.
+Dialogue: 0,0:24:01.45,0:24:02.95,Default,,0,0,0,,Desculpe.
+Dialogue: 0,0:24:03.16,0:24:04.37,Default,,0,0,0,,Hã?
+Dialogue: 0,0:24:07.16,0:24:08.91,Default,,0,0,0,,Tsumugi, o que foi?
+Dialogue: 0,0:24:09.12,0:24:12.66,Default,,0,0,0,,Você sempre fica empolgada durante essas coisas.
+Dialogue: 0,0:24:12.87,0:24:16.41,Default,,0,0,0,,Eu não vou ser criança o tempo todo, tá bom?
+Dialogue: 0,0:24:34.04,0:24:36.54,Default,,0,0,0,,Isso vai dar tempo?
+Dialogue: 0,0:24:38.29,0:24:40.04,Default,,0,0,0,,O Aglomerado Gauna Grande começou a se mover
+Dialogue: 0,0:24:40.25,0:24:42.87,Default,,0,0,0,,E adiantaram o cronograma em seis meses, não é?
+Dialogue: 0,0:24:43.08,0:24:46.00,Default,,0,0,0,,Nós nem terminamos a Série 20.
+Dialogue: 0,0:24:46.20,0:24:49.58,Default,,0,0,0,,Então temos que lutar antes que os coletores terminem de carregar?
+Dialogue: 0,0:24:49.79,0:24:53.29,Default,,0,0,0,,Pagamos um preço alto para poder construí-los.
+Dialogue: 0,0:24:53.50,0:24:55.16,Default,,0,0,0,,Tem que funcionar...
+Dialogue: 0,0:24:56.83,0:24:59.33,Default,,0,0,0,,Tenho certeza de que vai ficar tudo bem, pessoal!
+Dialogue: 0,0:25:08.37,0:25:11.79,Default,,0,0,0,,Esferas Coletoras de Energia Estelar 1 a 3
+Dialogue: 0,0:25:12.00,0:25:14.62,Default,,0,0,0,,Foram colocadas com sucesso em órbita ao redor de Lem.
+Dialogue: 0,0:25:14.83,0:25:16.79,Default,,0,0,0,,Os outros chegarão em breve.
+Dialogue: 0,0:25:22.37,0:25:23.58,Default,,0,0,0,,Certo.
+Dialogue: 0,0:25:34.16,0:25:35.83,Default,,0,0,0,,Nosso próximo destaque.
+Dialogue: 0,0:25:36.04,0:25:38.29,Default,,0,0,0,,O Comando anunciou hoje que\Neles tomaram o Planeta Oito com sucesso.
+Dialogue: 0,0:25:38.29,0:25:40.58,Default,,0,0,0,,Planeta Oito Tomado" O Comando anunciou hoje\Nque eles tomaram o Planeta Oito com sucesso.
+Dialogue: 0,0:25:40.58,0:25:40.79,Default,,0,0,0,,Planeta Oito Tomado
+Dialogue: 0,0:25:40.79,0:25:42.20,Default,,0,0,0,,Planeta Oito Tomado" Planeta Oito\Né um planeta de importância estratégica em
+Dialogue: 0,0:25:42.20,0:25:43.62,Default,,0,0,0,,O Planeta Oito é um planeta estrategicamente\Nimportante em
+Dialogue: 0,0:25:43.83,0:25:45.45,Default,,0,0,0,,—Então não teremos que lutar contra o Grande Aglomerado Gauna?
+Dialogue: 0,0:25:45.45,0:25:46.37,Default,,0,0,0,,—Não teremos mais medo dos Gaunas? Nossa guerra contra o Grande Aglomerado Gauna.
+Dialogue: 0,0:25:46.37,0:25:50.04,Default,,0,0,0,,{\i1}—Mas...{\i0} nós realmente podemos vencer a nossa guerra contra o Grande Aglomerado Gauna?
+Dialogue: 0,0:25:50.04,0:25:52.37,Default,,0,0,0,,—Direto no Grande Aglomerado Gauna? Nossa guerra contra o Grande Aglomerado Gauna.
+Dialogue: 0,0:25:52.37,0:25:53.33,Default,,0,0,0,,—Estou com medo... Nossa guerra contra o Grande Aglomerado Gauna.
+Dialogue: 0,0:25:53.54,0:25:57.54,Default,,0,0,0,,Este ataque foi o primeiro passo.
+Dialogue: 0,0:25:57.75,0:26:01.04,Default,,0,0,0,,Tudo está seguindo conforme planejado...
+Dialogue: 0,0:26:01.25,0:26:07.20,Default,,0,0,0,,O avanço da linha do tempo está assustando as pessoas a bordo da nave.
+Dialogue: 0,0:26:07.41,0:26:12.70,Default,,0,0,0,,Podemos disparar o Emissor de Radiação Gravitônica mesmo sem encher completamente os coletores.
+Dialogue: 0,0:26:12.91,0:26:15.58,Default,,0,0,0,,Deixe Toha terminar a Série o mais rápido possível.
+Dialogue: 0,0:26:15.79,0:26:17.25,Default,,0,0,0,,Claro.
+Dialogue: 0,0:26:17.45,0:26:20.08,Default,,0,0,0,,Capitão, nós precisamos conversar.
+Dialogue: 0,0:26:20.29,0:26:22.41,Default,,0,0,0,,
+Dialogue: 0,0:26:22.62,0:26:25.95,Default,,0,0,0,,A base de retransmissão ao redor do Planeta Oito foi montada e estamos retornando à base.
+Dialogue: 0,0:26:26.16,0:26:27.37,Default,,0,0,0,,Permissão concedida.
+Dialogue: 0,0:26:27.58,0:26:29.50,Default,,0,0,0,,Ufa, finalmente terminamos!
+Dialogue: 0,0:26:29.70,0:26:32.04,Default,,0,0,0,,Hora de uma boa\Nfotossíntese relaxante!
+Dialogue: 0,0:26:44.95,0:26:45.87,Default,,0,0,0,,Kunato?
+Dialogue: 0,0:26:46.08,0:26:50.33,Default,,0,0,0,,Tanikaze, não é bom\Nficar muito sentimental.
+Dialogue: 0,0:26:50.54,0:26:55.08,Default,,0,0,0,,Emoções humanas são inúteis\Nna batalha contra os Gauna.
+Dialogue: 0,0:26:55.29,0:26:59.41,Default,,0,0,0,,Os Gauna não vão esperar\Nque a gente pare de chorar.
+Dialogue: 0,0:27:01.95,0:27:03.45,Default,,0,0,0,,No portão?
+Dialogue: 0,0:27:03.66,0:27:06.41,Default,,0,0,0,,Hiyama-{\i1}san?{\i0} O que você está fazendo aqui?
+Dialogue: 0,0:27:09.50,0:27:11.00,Default,,0,0,0,,Bem, sabe...
+Dialogue: 0,0:27:13.87,0:27:17.79,Default,,0,0,0,,Eu sei que o Kunato está certo, mas...
+Dialogue: 0,0:27:19.70,0:27:24.08,Default,,0,0,0,,Você me lembra pessoas que eu conheci e que eram muito parecidas com você...
+Dialogue: 0,0:27:24.29,0:27:29.58,Default,,0,0,0,,Um deles foi alguém que lutou por muito tempo para proteger {\i1}Sidonia.{\i0}
+Dialogue: 0,0:27:29.79,0:27:35.91,Default,,0,0,0,,O outro me salvou quando eu quase morri.
+Dialogue: 0,0:27:36.12,0:27:42.70,Default,,0,0,0,,Ambos tinham formas de pensar diferentes, mas ambos se importavam profundamente com {\i1}Sidonia.{\i0}
+Dialogue: 0,0:27:46.62,0:27:49.20,Default,,0,0,0,,Faz quase dois meses desde que tomamos o Oito,
+Dialogue: 0,0:27:49.41,0:27:51.79,Default,,0,0,0,,mas o Aglomerado de Gaunas não mudou seu curso.
+Dialogue: 0,0:27:52.00,0:27:56.91,Default,,0,0,0,,Se tivéssemos mudado de curso imediatamente, poderíamos ter escapado. Mas não agora.
+Dialogue: 0,0:27:57.12,0:28:00.70,Default,,0,0,0,,E nossa nova arma,\Na Série 20, não está pronta.
+Dialogue: 0,0:28:02.50,0:28:03.62,Default,,0,0,0,,Capitão!
+Dialogue: 0,0:28:03.83,0:28:06.75,Default,,0,0,0,,Tentaremos dar inicialização\Nao Híbrido, Kanata.
+Dialogue: 0,0:28:06.95,0:28:10.12,Default,,0,0,0,,Kanata? Tão logo?
+Dialogue: 0,0:28:10.33,0:28:14.45,Default,,0,0,0,,Faremos com que ela gere um dispositivo de propulsão\Ncomo o da Série 20.
+Dialogue: 0,0:28:21.79,0:28:24.37,Default,,0,0,0,,Você está pronto, Kunato?
+Dialogue: 0,0:28:24.58,0:28:28.00,Default,,0,0,0,,Estamos prontos, Capitão.
+Dialogue: 0,0:28:28.20,0:28:30.54,Default,,0,0,0,,Kunato-kun, o que você está fazendo?
+Dialogue: 0,0:28:30.75,0:28:32.37,Default,,0,0,0,,É perigoso estar lá em cima!
+Dialogue: 0,0:28:32.58,0:28:34.16,Default,,0,0,0,,Se algo acontecer...
+Dialogue: 0,0:28:34.37,0:28:38.87,Default,,0,0,0,,Estou aqui caso algo aconteça.
+Dialogue: 0,0:28:40.50,0:28:42.87,Default,,0,0,0,,Está tudo bem. Pode prosseguir.
+Dialogue: 0,0:28:43.08,0:28:47.00,Default,,0,0,0,,Vamos iniciar um teste de inicialização para o Híbrido, Kanata.
+Dialogue: 0,0:28:47.00,0:28:48.37,Default,,0,0,0,,Ativação do Teste Híbrido Kanata" Vamos agora iniciar um teste de inicialização para o Híbrido, Kanata.
+Dialogue: 0,0:28:48.37,0:28:48.70,Default,,0,0,0,,Ativação do Teste Híbrido Kanata
+Dialogue: 0,0:28:49.45,0:28:52.54,Default,,0,0,0,,O Híbrido Kanata está na sequência de inicialização 1.
+Dialogue: 0,0:28:52.75,0:28:55.87,Default,,0,0,0,,Os sinais vitais estão estáveis. Ondas cerebrais normais.\NSem problemas.
+Dialogue: 0,0:28:56.08,0:28:58.45,Default,,0,0,0,,A massa Ena atingiu os valores esperados.
+Dialogue: 0,0:28:58.66,0:29:01.12,Default,,0,0,0,,Rotas de controle remoto estabelecidas\Npara todo o circuito nervoso
+Dialogue: 0,0:29:01.33,0:29:02.87,Default,,0,0,0,,do centro às bordas.
+Dialogue: 0,0:29:03.08,0:29:04.54,Default,,0,0,0,,Avançar para a sequência de inicialização 2.
+Dialogue: 0,0:29:04.75,0:29:07.25,Default,,0,0,0,,Copiado. Liberando os travamentos!
+Dialogue: 0,0:29:13.00,0:29:13.91,Default,,0,0,0,,
+Dialogue: 0,0:29:14.12,0:29:15.62,Default,,0,0,0,,Desativando a hibernação.
+Dialogue: 0,0:29:15.83,0:29:18.08,Default,,0,0,0,,Kanata está acordando.
+Dialogue: 0,0:29:27.29,0:29:31.00,Default,,0,0,0,,Ondas cerebrais estáveis.\NInicialização do Kanata Híbrido bem-sucedida.
+Dialogue: 0,0:29:31.20,0:29:32.45,Default,,0,0,0,,O Kunato-{\i1}kun{\i0} está bem?
+Dialogue: 0,0:29:32.66,0:29:35.16,Default,,0,0,0,,Ele parece estar simplesmente inconsciente.
+Dialogue: 0,0:29:42.00,0:29:44.25,Default,,0,0,0,,Faz um século desde então?
+Dialogue: 0,0:29:45.87,0:29:50.12,Default,,0,0,0,,Você estaria disposto a\Nme perdoar finalmente, Kobayashi?
+Dialogue: 0,0:29:51.66,0:29:52.87,Default,,0,0,0,,Esta voz...
+Dialogue: 0,0:30:04.87,0:30:08.62,Default,,0,0,0,,Eu tenho meu corpo imortal!
+Dialogue: 0,0:30:08.83,0:30:14.37,Default,,0,0,0,,Eu finalmente fui libertado do conceito de espécie!
+Dialogue: 0,0:30:14.58,0:30:16.87,Default,,0,0,0,,Ochiai, seu desgraçado...
+Dialogue: 0,0:30:17.08,0:30:20.04,Default,,0,0,0,,Você quase destruiu {\i1}Sidônia!{\i0}\NPor que você está aqui?
+Dialogue: 0,0:30:20.25,0:30:22.25,Default,,0,0,0,,Há um século...
+Dialogue: 0,0:30:22.45,0:30:24.54,Default,,0,0,0,,É o cientista Ochiai?
+Dialogue: 0,0:30:24.75,0:30:27.87,Default,,0,0,0,,Ochiai? Aquele que iniciou\Na Quarta Guerra Gauna?
+Dialogue: 0,0:30:28.08,0:30:29.08,Default,,0,0,0,,--Ele?\N--Aquele que jogou fora o Kabizashi e deixou os Gaunas entrarem?
+Dialogue: 0,0:30:29.08,0:30:33.08,Default,,0,0,0,,--Aquele que jogou fora o Kabizashi e deixou os Gaunas entrarem?
+Dialogue: 0,0:30:34.41,0:30:34.45,Default,,0,0,0,,A massa Ena de Kanata está se expandindo além dos valores previstos!
+Dialogue: 0,0:30:34.45,0:30:36.95,Default,,0,0,0,,Sinal de Partícula Heigus" A massa Ena de Kanata está se expandindo além dos valores previstos!
+Dialogue: 0,0:30:36.95,0:30:37.16,Default,,0,0,0,,Sinal de Partícula Heigus
+Dialogue: 0,0:30:37.16,0:30:38.70,Default,,0,0,0,,Sinal de Partícula Heigus" A densidade da partícula Heigus está aumentando rapidamente!
+Dialogue: 0,0:30:38.70,0:30:38.91,Default,,0,0,0,,Sinal de Partícula Heigus
+Dialogue: 0,0:30:38.91,0:30:42.20,Default,,0,0,0,,Está absorvendo quantidades inesperadas dos dutos Heigus da nave!
+Dialogue: 0,0:30:47.70,0:30:49.95,Default,,0,0,0,,Estamos destruindo Kanata.
+Dialogue: 0,0:30:50.95,0:30:54.16,Default,,0,0,0,,Gardes de serviço, equipem os Dispositivos Aceleradores de Projéteis Hipervelocidade
+Dialogue: 0,0:30:54.37,0:30:55.62,Default,,0,0,0,,e siga para lá imediatamente!
+Dialogue: 0,0:30:55.83,0:30:56.70,Default,,0,0,0,,Copiado!
+Dialogue: 0,0:30:56.91,0:30:59.29,Default,,0,0,0,,Tanikaze, Samari, preparem ambas\Nas equipes para ir!
+Dialogue: 0,0:31:02.25,0:31:03.37,Default,,0,0,0,,Isso é impossível...
+Dialogue: 0,0:31:03.58,0:31:06.25,Default,,0,0,0,,Eu preciso pará-lo!
+Dialogue: 0,0:31:06.45,0:31:11.58,Default,,0,0,0,,Comando, Kanata está usando seu Ena\Npara criar um Emissor de Radiação Gravitônica!
+Dialogue: 0,0:31:11.79,0:31:14.37,Default,,0,0,0,,Você disse Emissor de Radiação Gravitônica?
+Dialogue: 0,0:31:16.33,0:31:16.95,Default,,0,0,0,,O que aconteceu?
+Dialogue: 0,0:31:17.16,0:31:20.58,Default,,0,0,0,,Os controles primários e de backup para o setor laboratorial de experimentos estão fora!
+Dialogue: 0,0:31:24.20,0:31:25.41,Default,,0,0,0,,O que é isso?
+Dialogue: 0,0:31:25.62,0:31:27.29,Default,,0,0,0,,Ondas de vibração gravitacional detectadas!
+Dialogue: 0,0:31:36.25,0:31:39.00,Default,,0,0,0,,Alerta de gravidade em vigor!\NA alerta de gravidade em vigor!
+Dialogue: 0,0:31:39.20,0:31:39.95,Default,,0,0,0,,--Anomalias gravitacionais\Ocorrendo por toda a nave!
+Dialogue: 0,0:31:39.95,0:31:41.58,Default,,0,0,0,,--O que é isso?\N--Anomalias gravitacionais ocorrendo por toda a nave!
+Dialogue: 0,0:31:42.45,0:31:45.04,Default,,0,0,0,,Iniciem os procedimentos de segurança imediatamente!
+Dialogue: 0,0:31:45.25,0:31:48.04,Default,,0,0,0,,Alerta de gravidade em vigor!\NA alerta de gravidade em vigor!
+Dialogue: 0,0:31:48.25,0:31:49.45,Default,,0,0,0,,Anomalias gravitacionais--
+Dialogue: 0,0:31:51.87,0:31:52.87,Default,,0,0,0,,--Iniciar procedimentos de segurança imediatamente!
+Dialogue: 0,0:31:52.87,0:31:54.45,Default,,0,0,0,,--Tanikaze!\N--Iniciar procedimentos de segurança imediatamente!
+Dialogue: 0,0:31:59.04,0:32:00.08,Default,,0,0,0,,Temos um piloto ferido!
+Dialogue: 0,0:32:00.29,0:32:01.62,Default,,0,0,0,,Solicitando assistência!
+Dialogue: 0,0:32:04.45,0:32:09.20,Default,,0,0,0,,Incêndio no Hangar de Garde 7!\NEquipes de combate a incêndio, vão para lá agora!
+Dialogue: 0,0:32:09.41,0:32:12.08,Default,,0,0,0,,Ocorreram explosões\NEm múltiplos Hangares de Garde!
+Dialogue: 0,0:32:12.29,0:32:13.66,Default,,0,0,0,,{\i1}Tsugumori II{\i0} aprimorado danificado!
+Dialogue: 0,0:32:13.87,0:32:15.95,Default,,0,0,0,,Os componentes internos ao redor do assento do piloto estão gravemente danificados!
+Dialogue: 0,0:32:16.16,0:32:18.41,Default,,0,0,0,,Não pode decolar, e o piloto está gravemente ferido!
+Dialogue: 0,0:32:18.62,0:32:21.16,Default,,0,0,0,,O que está acontecendo aqui?
+Dialogue: 0,0:32:26.12,0:32:27.08,Default,,0,0,0,,Inconsciente.
+Dialogue: 0,0:32:27.29,0:32:28.70,Default,,0,0,0,,
+Dialogue: 0,0:32:34.75,0:32:36.33,Default,,0,0,0,,Uma explosão?
+Dialogue: 0,0:32:36.54,0:32:39.16,Default,,0,0,0,,Comando, o que diabos está acontecendo?
+Dialogue: 0,0:32:39.37,0:32:41.95,Default,,0,0,0,,O que está acontecendo?
+Dialogue: 0,0:32:42.16,0:32:43.87,Default,,0,0,0,,Izana-{\i1}san,{\i0} você está bem, Tanikaze-{\i1}san{\i0}?
+Dialogue: 0,0:32:44.08,0:32:45.37,Default,,0,0,0,,Eu também não sei!
+Dialogue: 0,0:32:45.58,0:32:47.12,Default,,0,0,0,,Não!
+Dialogue: 0,0:32:48.66,0:32:52.08,Default,,0,0,0,,Sou a Tsumugi! Abra a porta para o meu porto de lançamento!
+Dialogue: 0,0:32:54.87,0:32:55.54,Default,,0,0,0,,Rápido!
+Dialogue: 0,0:32:55.75,0:32:59.08,Default,,0,0,0,,Não conseguimos abrir aqui!\NEstamos investigando o motivo!
+Dialogue: 0,0:32:59.29,0:33:01.16,Default,,0,0,0,,Nos dê um tempo!
+Dialogue: 0,0:33:01.37,0:33:04.04,Default,,0,0,0,,Não consigo! Estou destruindo esta porta!
+Dialogue: 0,0:33:05.16,0:33:06.54,Default,,0,0,0,,Tsumugi, acalme-se!
+Dialogue: 0,0:33:06.75,0:33:09.25,Default,,0,0,0,,O porto de lançamento da Híbrida Tsumugi não vai abrir!
+Dialogue: 0,0:33:09.45,0:33:11.20,Default,,0,0,0,,Alguém selou isso!
+Dialogue: 0,0:33:11.41,0:33:13.54,Default,,0,0,0,,Nós também tínhamos bombas plantadas aqui!
+Dialogue: 0,0:33:13.75,0:33:15.50,Default,,0,0,0,,A Série 20 foi danificada!
+Dialogue: 0,0:33:16.66,0:33:19.37,Default,,0,0,0,,Ochiai, seu desgraçado...
+Dialogue: 0,0:33:20.41,0:33:23.08,Default,,0,0,0,,Peça a todos os tripulantes,\Nincluindo civis,
+Dialogue: 0,0:33:23.29,0:33:25.04,Default,,0,0,0,,que vasculhem a nave do topo à base!
+Dialogue: 0,0:33:25.04,0:33:25.20,Default,,0,0,0,,Comunicações Perdidas" Procurem pela nave de cima a baixo!
+Dialogue: 0,0:33:25.20,0:33:25.41,Default,,0,0,0,,Comunicações Perdidas
+Dialogue: 0,0:33:25.41,0:33:28.54,Default,,0,0,0,,Comunicações Perdidas" Não importa o que você faça, Kobayashi.
+Dialogue: 0,0:33:28.54,0:33:28.58,Default,,0,0,0,,Comunicações Perdidas
+Dialogue: 0,0:33:28.75,0:33:31.54,Default,,0,0,0,,Capitão, Kanata forçou a entrada no sistema de comunicações da nave
+Dialogue: 0,0:33:31.75,0:33:33.54,Default,,0,0,0,,e está vazando informações.
+Dialogue: 0,0:33:33.75,0:33:37.50,Default,,0,0,0,,Eu renasci na forma de vida suprema!
+Dialogue: 0,0:33:37.70,0:33:39.08,Default,,0,0,0,,
+Dialogue: 0,0:33:46.25,0:33:49.08,Default,,0,0,0,,Ei! Tem feridos lá!
+Dialogue: 0,0:33:49.29,0:33:51.12,Default,,0,0,0,,Droga!
+Dialogue: 0,0:33:51.33,0:33:53.41,Default,,0,0,0,,Ei, você! O que está fazendo?
+Dialogue: 0,0:34:20.41,0:34:21.66,Default,,0,0,0,,Alvo avistado!
+Dialogue: 0,0:34:21.87,0:34:23.08,Default,,0,0,0,,Abrindo fogo!
+Dialogue: 0,0:34:23.79,0:34:25.00,Default,,0,0,0,,Fogo!
+Dialogue: 0,0:34:28.79,0:34:29.62,Default,,0,0,0,,Não funcionou!
+Dialogue: 0,0:34:29.83,0:34:32.70,Default,,0,0,0,,Isso é...{\i1}s...{\i0} uma Superestrutura?
+Dialogue: 0,0:34:42.33,0:34:43.75,Default,,0,0,0,,783 seriamente danificado!
+Dialogue: 0,0:34:43.95,0:34:45.04,Default,,0,0,0,,Piloto inconsciente!
+Dialogue: 0,0:34:45.25,0:34:46.16,Default,,0,0,0,,Um canhão de massa...
+Dialogue: 0,0:34:46.37,0:34:47.87,Default,,0,0,0,,Aquele projétil era tão rápido!
+Dialogue: 0,0:34:48.08,0:34:50.12,Default,,0,0,0,,Exibindo análise!
+Dialogue: 0,0:34:51.83,0:34:55.70,Default,,0,0,0,,{\i1}Não...{\i0} armas normais de Garde\Nnão conseguem destruí-lo!
+Dialogue: 0,0:35:00.33,0:35:04.62,Default,,0,0,0,,Eu avisei que é inútil, Kobayashi.
+Dialogue: 0,0:35:04.83,0:35:08.29,Default,,0,0,0,,Nós usaremos o Emissor de Radiação\Nde Gravitônio também.
+Dialogue: 0,0:35:08.50,0:35:11.41,Default,,0,0,0,,Capitão, com a quantidade de Partículas Heigus\Nque temos a bordo da {\i1}Sidonia,{\i0}
+Dialogue: 0,0:35:11.62,0:35:14.04,Default,,0,0,0,,precisamos chegar muito perto\Nou não vai funcionar!
+Dialogue: 0,0:35:14.25,0:35:18.29,Default,,0,0,0,,Se não usarmos agora, perderemos\Na capacidade de usar para sempre.
+Dialogue: 0,0:35:18.50,0:35:19.70,Default,,0,0,0,,Preparem-no.
+Dialogue: 0,0:35:20.70,0:35:24.33,Default,,0,0,0,,Ela quer que atirarmos o\NEmissor de Radiação Gravitônica?
+Dialogue: 0,0:35:24.54,0:35:27.75,Default,,0,0,0,,Como vamos conseguir a energia?
+Dialogue: 0,0:35:27.95,0:35:31.91,Default,,0,0,0,,Ordens do Capitão! Temos que disparar,\Nmesmo com potência mínima!
+Dialogue: 0,0:35:32.12,0:35:37.75,Default,,0,0,0,,Como diabos vamos\Natingi-lo dali?
+Dialogue: 0,0:35:37.95,0:35:39.41,Default,,0,0,0,,O que fazemos?
+Dialogue: 0,0:35:39.62,0:35:43.20,Default,,0,0,0,,O emissor é a única arma que pode penetrar a Superestrutura do Hybrid 2,
+Dialogue: 0,0:35:43.41,0:35:46.50,Default,,0,0,0,,mas não podemos usá-lo.
+Dialogue: 0,0:35:46.70,0:35:50.95,Default,,0,0,0,,Mas ele tem um Emissor de Radiação Gravitônica próprio, feito de Ena...
+Dialogue: 0,0:35:52.95,0:35:53.41,Default,,0,0,0,,Comunicações restauradas!
+Dialogue: 0,0:35:53.41,0:35:54.41,Default,,0,0,0,,Hybrid Kanata" Comunicações restauradas!
+Dialogue: 0,0:35:54.41,0:35:54.62,Default,,0,0,0,,Hybrid Kanata
+Dialogue: 0,0:35:54.62,0:35:58.45,Default,,0,0,0,,Hybrid Kanata" Comandante, o dispositivo de disparo do Kanata estará pronto em alguns minutos!
+Dialogue: 0,0:35:58.45,0:35:59.04,Default,,0,0,0,,Comandante, o dispositivo de disparo de Kanata\Nestará pronto em alguns minutos!
+Dialogue: 0,0:36:01.70,0:36:06.54,Default,,0,0,0,,Então você está cometendo o mesmo\Nerro que cometeu da última vez, Ochiai?
+Dialogue: 0,0:36:06.75,0:36:09.50,Default,,0,0,0,,Eu não sou quem eu era antes.
+Dialogue: 0,0:36:09.70,0:36:13.29,Default,,0,0,0,,E agora não há mais Hiroki Saito.
+Dialogue: 0,0:36:13.50,0:36:15.54,Default,,0,0,0,,Ele deixou um herdeiro para trás.
+Dialogue: 0,0:36:15.75,0:36:18.20,Default,,0,0,0,,Você quer dizer o Portão Na de Tanikaze?
+Dialogue: 0,0:36:24.29,0:36:27.95,Default,,0,0,0,,Eu nunca pensei que ouviria\Nestas palavras de você.
+Dialogue: 0,0:36:31.37,0:36:34.91,Default,,0,0,0,,Ela é louca, sabe disso?
+Dialogue: 0,0:36:35.12,0:36:37.66,Default,,0,0,0,,É hora de nos mostrar suas habilidades!
+Dialogue: 0,0:36:48.45,0:36:49.70,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,0:36:52.33,0:36:56.62,Default,,0,0,0,,Mesmo assumindo que você de alguma forma vença os Gauna,
+Dialogue: 0,0:36:56.83,0:36:59.16,Default,,0,0,0,,quanto tempo você acha que pode manter sua espécie viva
+Dialogue: 0,0:36:59.37,0:37:01.95,Default,,0,0,0,,passando a semente de geração em geração?
+Dialogue: 0,0:37:02.16,0:37:06.83,Default,,0,0,0,,Algumas centenas de milhões de anos no máximo? Não, alguns milhares?
+Dialogue: 0,0:37:07.91,0:37:09.75,Default,,0,0,0,,Eu sou diferente.
+Dialogue: 0,0:37:09.95,0:37:14.00,Default,,0,0,0,,Agora, eu até consigo falar com os Gauna.
+Dialogue: 0,0:37:15.62,0:37:18.04,Default,,0,0,0,,Entender os Gauna é impossível.
+Dialogue: 0,0:37:18.25,0:37:21.25,Default,,0,0,0,,Você não quer saber o que eles querem?
+Dialogue: 0,0:37:23.04,0:37:27.25,Default,,0,0,0,,De onde eles vieram?\NO que eles estão tentando fazer?
+Dialogue: 0,0:37:27.45,0:37:29.66,Default,,0,0,0,,
+Dialogue: 0,0:37:29.87,0:37:31.87,Default,,0,0,0,,Setenta segundos.
+Dialogue: 0,0:37:32.08,0:37:37.20,Default,,0,0,0,,Se você insiste em tentar\Neliminar os Gauna...
+Dialogue: 0,0:37:38.50,0:37:40.12,Default,,0,0,0,,...Eu não vou ter nenhuma misericórdia para você.
+Dialogue: 0,0:37:41.41,0:37:43.54,Default,,0,0,0,,Eu vou destruir a {\i1}Sidonia.{\i0}
+Dialogue: 0,0:37:44.83,0:37:51.29,Default,,0,0,0,,Kobayashi, eu posso manter a humanidade viva sozinho...
+Dialogue: 0,0:37:51.50,0:37:53.83,Default,,0,0,0,,Isso é impossível, Ochiai.
+Dialogue: 0,0:37:54.04,0:37:56.54,Default,,0,0,0,,Você vai morrer {\i1}aqui.{\i0}
+Dialogue: 0,0:37:56.75,0:38:00.12,Default,,0,0,0,,Mas não há motivo para temer.
+Dialogue: 0,0:38:00.33,0:38:04.37,Default,,0,0,0,,Ao deixar este mundo, saiba que você ainda pode acreditar na próxima geração!
+Dialogue: 0,0:38:06.12,0:38:07.58,Default,,0,0,0,,Então você não me deixa escolha.
+Dialogue: 0,0:38:07.79,0:38:12.87,Default,,0,0,0,,O Emissor de Radiação Gravitônica de Kanata estará online em breve!
+Dialogue: 0,0:38:13.08,0:38:15.25,Default,,0,0,0,,Trinta segundos até disparar!
+Dialogue: 0,0:38:19.91,0:38:21.70,Default,,0,0,0,,Os dutos estão conectados!
+Dialogue: 0,0:38:21.91,0:38:23.70,Default,,0,0,0,,Já temos o cano pronto?
+Dialogue: 0,0:38:23.91,0:38:25.41,Default,,0,0,0,,Precisamos de três minutos!
+Dialogue: 0,0:38:25.62,0:38:27.04,Default,,0,0,0,,Não é tempo suficiente!
+Dialogue: 0,0:38:29.04,0:38:31.45,Default,,0,0,0,,Deixa eu ajudar!
+Dialogue: 0,0:38:35.29,0:38:38.41,Default,,0,0,0,,Tsumugi, não me diga que você vai servir como pilar de suporte?
+Dialogue: 0,0:38:38.62,0:38:41.37,Default,,0,0,0,,A ponta não está blindada! Não é seguro!
+Dialogue: 0,0:38:41.58,0:38:43.62,Default,,0,0,0,,Cinco segundos até Kanata disparar!
+Dialogue: 0,0:38:45.54,0:38:46.75,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,0:38:49.16,0:38:52.45,Default,,0,0,0,,Tanikaze-{\i1}san,{\i0} Eu vou proteger {\i1}Sidonia...{\i0}
+Dialogue: 0,0:38:54.29,0:38:56.33,Default,,0,0,0,,Pare, Ochiai!
+Dialogue: 0,0:39:00.37,0:39:01.58,Default,,0,0,0,,Lala?
+Dialogue: 0,0:39:11.41,0:39:13.45,Default,,0,0,0,,Por que eles conseguiram disparar?
+Dialogue: 0,0:39:13.66,0:39:15.62,Default,,0,0,0,,E através do casco?
+Dialogue: 0,0:39:22.08,0:39:23.29,Default,,0,0,0,,Velho!
+Dialogue: 0,0:39:26.00,0:39:28.08,Default,,0,0,0,,Tsumugi! Tsumugi!
+Dialogue: 0,0:39:32.83,0:39:34.83,Default,,0,0,0,,A desintegração cessou!
+Dialogue: 0,0:39:35.04,0:39:36.45,Default,,0,0,0,,Ainda sobrou a Ena!
+Dialogue: 0,0:39:36.66,0:39:39.25,Default,,0,0,0,,Por quê? Nós destruímos o núcleo!
+Dialogue: 0,0:39:39.45,0:39:40.66,Default,,0,0,0,,Olhe.
+Dialogue: 0,0:39:42.45,0:39:44.12,Default,,0,0,0,,Ainda há núcleo sobrando!
+Dialogue: 0,0:39:44.33,0:39:46.25,Default,,0,0,0,,Havia outro que ele estava escondendo!
+Dialogue: 0,0:39:50.16,0:39:52.70,Default,,0,0,0,,Eu te disse, Kobayashi.
+Dialogue: 0,0:39:52.91,0:39:55.70,Default,,0,0,0,,Se algo é realmente importante,\Nvocê precisa de um sobressalente!
+Dialogue: 0,0:40:07.83,0:40:11.00,Default,,0,0,0,,Kanata está se afastando da {\i1}Sidonia{\i0} em alta velocidade!
+Dialogue: 0,0:40:22.20,0:40:26.04,Default,,0,0,0,,Uau, ele abriu um buraco bem aqui!
+Dialogue: 0,0:40:26.25,0:40:28.83,Default,,0,0,0,,É a única arma capaz de penetrar uma Superestrutura.
+Dialogue: 0,0:40:29.04,0:40:31.58,Default,,0,0,0,,Mesmo com o mínimo de energia que conseguimos arrancar da {\i1}Sidonia,{\i0}
+Dialogue: 0,0:40:31.79,0:40:32.54,Default,,0,0,0,,...ele atingiu com tanta força.
+Dialogue: 0,0:40:32.75,0:40:38.66,Default,,0,0,0,,Mas nosso inimigo, o Kanata Híbrido, tem essa mesma arma.
+Dialogue: 0,0:40:45.87,0:40:48.33,Default,,0,0,0,,A Tsumugi nos salvou de novo, hein?
+Dialogue: 0,0:40:48.54,0:40:49.50,Default,,0,0,0,,Sim.
+Dialogue: 0,0:40:49.70,0:40:53.95,Default,,0,0,0,,A tripulação civil enviou muitas mensagens de agradecimento.
+Dialogue: 0,0:40:54.16,0:40:57.04,Default,,0,0,0,,Melhoras, Tsumugi.
+Dialogue: 0,0:40:57.25,0:41:01.25,Default,,0,0,0,,Não é só ela. É você também.
+Dialogue: 0,0:41:03.00,0:41:04.62,Default,,0,0,0,,Você nos salvou de novo.
+Dialogue: 0,0:41:04.83,0:41:06.75,Default,,0,0,0,,Todos estão gratos.
+Dialogue: 0,0:41:09.00,0:41:11.41,Default,,0,0,0,,Oh, como está o Portão Na?
+Dialogue: 0,0:41:14.12,0:41:16.41,Default,,0,0,0,,Ainda na lCU.
+Dialogue: 0,0:41:16.62,0:41:22.08,Default,,0,0,0,,Ele não está em perigo, mas vai levar de duas a três semanas para ele voltar aos pés {\i1}. {\i0}
+Dialogue: 0,0:41:24.54,0:41:29.54,Default,,0,0,0,,Por que os exames demoram tanto por um ferimento tão pequeno assim?
+Dialogue: 0,0:41:29.75,0:41:31.75,Default,,0,0,0,,--Senhorita Yamano-{\i1}! {\i0}\N--Senpai Yamano-{\i1}! {\i0}
+Dialogue: 0,0:41:31.95,0:41:34.70,Default,,0,0,0,,Você pegou quem atacou o Senhorita Tanikaze-{\i1}, certo? {\i0}
+Dialogue: 0,0:41:34.91,0:41:36.12,Default,,0,0,0,,Uau!
+Dialogue: 0,0:41:36.33,0:41:39.33,Default,,0,0,0,,Não totalmente, não.
+Dialogue: 0,0:41:39.54,0:41:41.58,Default,,0,0,0,,Você sabe o que aconteceu com ela?
+Dialogue: 0,0:41:41.79,0:41:45.66,Default,,0,0,0,,O corpo dela ainda está vivo.\NFoi enviado para os Laboratórios Shinatose.
+Dialogue: 0,0:41:45.87,0:41:49.83,Default,,0,0,0,,Eles encontraram algum tipo de bug no corpo dela...
+Dialogue: 0,0:41:50.04,0:41:51.41,Default,,0,0,0,,Bug?
+Dialogue: 0,0:41:53.62,0:41:55.33,Default,,0,0,0,,Eu te peguei!
+Dialogue: 0,0:41:58.75,0:42:01.66,Default,,0,0,0,,Então eles pensam que outros membros da tripulação podem estar sendo controlados
+Dialogue: 0,0:42:01.87,0:42:03.70,Default,,0,0,0,,pelo cientista Ochiai.
+Dialogue: 0,0:42:03.91,0:42:06.58,Default,,0,0,0,,Nós mesmos fomos examinados.
+Dialogue: 0,0:42:06.79,0:42:08.54,Default,,0,0,0,,Assustador, né?
+Dialogue: 0,0:42:08.75,0:42:10.75,Default,,0,0,0,,Tanto aquela mulher quanto Norio Kunato
+Dialogue: 0,0:42:10.95,0:42:14.04,Default,,0,0,0,,foram dominados por Ochiai sem sequer saber!
+Dialogue: 0,0:42:15.12,0:42:17.45,Default,,0,0,0,,
+Dialogue: 0,0:42:17.66,0:42:20.20,Default,,0,0,0,,Sim. Das Desenvolvimentos Kunato.
+Dialogue: 0,0:42:20.41,0:42:23.87,Default,,0,0,0,,O cientista Ochiai havia se movido\Ndentro do próprio corpo dele!
+Dialogue: 0,0:42:25.66,0:42:31.04,Default,,0,0,0,,O corpo dele foi recuperado e\Nestá nos Laboratórios Shinatose também.
+Dialogue: 0,0:42:31.25,0:42:33.08,Default,,0,0,0,,Eu {\i1}vejo.{\i0}
+Dialogue: 0,0:42:33.29,0:42:35.25,Default,,0,0,0,,Dentro de Norio Kunato?
+Dialogue: 0,0:42:37.50,0:42:39.83,Default,,0,0,0,,Temos que lutar?
+Dialogue: 0,0:42:40.04,0:42:41.58,Default,,0,0,0,,Desista, Lalah.
+Dialogue: 0,0:42:41.79,0:42:45.58,Default,,0,0,0,,Não podemos permitir que nada ameace {\i1}Sidonia.{\i0}
+Dialogue: 0,0:42:45.79,0:42:49.70,Default,,0,0,0,,Ochiai ainda deveria se importar conosco!
+Dialogue: 0,0:42:49.91,0:42:52.37,Default,,0,0,0,,Capitão, o XO Midorikawa está {\i1}aqui.{\i0}
+Dialogue: 0,0:42:52.58,0:42:53.25,Default,,0,0,0,,Deixem-na entrar.
+Dialogue: 0,0:42:53.45,0:42:54.83,Default,,0,0,0,,Com licença {\i1}para mim.{\i0}
+Dialogue: 0,0:42:55.87,0:42:57.62,Default,,0,0,0,,{\i1}Hum...{\i0} Com licença!
+Dialogue: 0,0:42:59.83,0:43:01.45,Default,,0,0,0,,
+Dialogue: 0,0:43:03.29,0:43:08.95,Default,,0,0,0,,Midorikawa, o que sabemos sobre Ochiai, quero dizer, a Kanata Híbrida?
+Dialogue: 0,0:43:09.16,0:43:10.20,Default,,0,0,0,,Não sabemos onde ele está.
+Dialogue: 0,0:43:10.41,0:43:14.33,Default,,0,0,0,,Parece que ele deixou Lem.
+Dialogue: 0,0:43:14.54,0:43:18.58,Default,,0,0,0,,Vai levar tempo para ele recuperar sua Ena.
+Dialogue: 0,0:43:18.79,0:43:22.04,Default,,0,0,0,,Ele provavelmente queria evitar o risco de encontrar os Gauna antes deles.
+Dialogue: 0,0:43:22.25,0:43:27.75,Default,,0,0,0,,Certo. Hum, Capitão, posso perguntar algo?
+Dialogue: 0,0:43:27.95,0:43:28.79,Default,,0,0,0,,Pode falar.
+Dialogue: 0,0:43:29.00,0:43:33.00,Default,,0,0,0,,Hum, é sobre Ochiai.
+Dialogue: 0,0:43:34.66,0:43:39.41,Default,,0,0,0,,Ele deveria estar morto. Por que ele está vivo?
+Dialogue: 0,0:43:39.62,0:43:44.33,Default,,0,0,0,,Eu pensei que você pudesse saber...
+Dialogue: 0,0:43:48.62,0:43:54.33,Default,,0,0,0,,Porque... nós somos o Conselho imortal.
+Dialogue: 0,0:43:54.54,0:43:55.20,Default,,0,0,0,,
+Dialogue: 0,0:43:55.41,0:43:57.37,Default,,0,0,0,,O Conselho imortal?
+Dialogue: 0,0:43:57.58,0:44:00.79,Default,,0,0,0,,O órgão governante mais alto de {\i1}Sidonia,{\i0}\Ncomposto por imortais...
+Dialogue: 0,0:44:01.00,0:44:04.37,Default,,0,0,0,,Não era uma lenda urbana?
+Dialogue: 0,0:44:04.58,0:44:07.16,Default,,0,0,0,,Não podemos manter isso em segredo\Npor mais tempo, Kobayashi.
+Dialogue: 0,0:44:07.37,0:44:10.45,Default,,0,0,0,,Nós deveríamos contar a ela, pelo menos.
+Dialogue: 0,0:44:16.58,0:44:17.91,Default,,0,0,0,,Verdadeiro.
+Dialogue: 0,0:44:20.08,0:44:22.75,Default,,0,0,0,,O material que pode perfurar o núcleo da Gauna {\i1}... o Kabizashi...{\i0}
+Dialogue: 0,0:44:22.95,0:44:26.12,Default,,0,0,0,,Você sabe como foi descoberto?
+Dialogue: 0,0:44:26.33,0:44:32.00,Default,,0,0,0,,Sim. Há seiscentos anos, a {\i1}Sidonia{\i0}\Nencontrou uma ruína misteriosa no espaço,
+Dialogue: 0,0:44:32.20,0:44:34.50,Default,,0,0,0,,onde foi descoberta por acaso.
+Dialogue: 0,0:44:34.70,0:44:38.58,Default,,0,0,0,,Fomos nós que investigamos isso.
+Dialogue: 0,0:44:40.16,0:44:44.79,Default,,0,0,0,,Era um espaço especial que\Ncortava partículas Heigus.
+Dialogue: 0,0:44:45.00,0:44:47.95,Default,,0,0,0,,Nós encontramos as Gaunas lá.
+Dialogue: 0,0:44:48.16,0:44:49.37,Default,,0,0,0,,
+Dialogue: 0,0:44:52.33,0:44:53.91,Default,,0,0,0,,--Corra, Kobayashi!\N--Saito-kun!
+Dialogue: 0,0:44:54.12,0:44:55.00,Default,,0,0,0,,Suzuki foi devorado!
+Dialogue: 0,0:44:55.20,0:44:58.75,Default,,0,0,0,,Ochiai, dê a ordem de retirada!
+Dialogue: 0,0:44:58.95,0:45:04.54,Default,,0,0,0,,Não tínhamos como revidar.\NNão tivemos escolha senão avançar mais fundo.
+Dialogue: 0,0:45:04.75,0:45:09.20,Default,,0,0,0,,Naquele espaço, sem para onde correr,\Nnós o vimos pela primeira vez.
+Dialogue: 0,0:45:09.41,0:45:14.16,Default,,0,0,0,,Descobrimos a única forma de\Ndeferrar os Gauna, o Kabi,
+Dialogue: 0,0:45:14.37,0:45:19.12,Default,,0,0,0,,e nos tornamos heróis, os primeiros na história de\N{\i1}Sidonia{\i0} a derrotá-los.
+Dialogue: 0,0:45:20.50,0:45:22.00,Default,,0,0,0,,E...
+Dialogue: 0,0:45:22.20,0:45:25.41,Default,,0,0,0,,Foi aí que a pesquisa por imortalidade começou.
+Dialogue: 0,0:45:28.50,0:45:31.83,Default,,0,0,0,,Ochiai dedicou-se a pesquisar os Gaunas.
+Dialogue: 0,0:45:32.04,0:45:36.12,Default,,0,0,0,,Ele passou a acreditar que eles poderiam ser a forma de vida suprema.
+Dialogue: 0,0:45:36.33,0:45:40.41,Default,,0,0,0,,E por fim, ele tentou fundir humano e Gauna.
+Dialogue: 0,0:45:40.62,0:45:44.45,Default,,0,0,0,,Ochiai era obcecado pelos Gaunas.
+Dialogue: 0,0:45:44.66,0:45:51.62,Default,,0,0,0,,E há um século, quando ele criou o Híbrido, ele se separou da {\i1}Sidonia.{\i0}
+Dialogue: 0,0:45:51.83,0:45:59.91,Default,,0,0,0,,Ele ejetou o Kabizashi e deixou o Gauna entrar, causando a Quarta Guerra Gauna.
+Dialogue: 0,0:46:00.12,0:46:01.29,Default,,0,0,0,,Você sabe disso, certo?
+Dialogue: 0,0:46:01.50,0:46:06.95,Default,,0,0,0,,Foi... porque ele queria provar que os Gauna estavam atrás do Kabizashi!
+Dialogue: 0,0:46:07.16,0:46:09.91,Default,,0,0,0,,Na verdade, os Gauna são atraídos não apenas pelo Kabizashi,
+Dialogue: 0,0:46:10.12,0:46:13.50,Default,,0,0,0,,mas por qualquer coisa que use partículas Heigus.
+Dialogue: 0,0:46:13.70,0:46:15.25,Default,,0,0,0,,É por isso que a {\i1}Sidonia{\i0} estava em perigo.
+Dialogue: 0,0:46:15.45,0:46:18.29,Default,,0,0,0,,Capturamos Ochiai e pegamos seus dados de pesquisa,
+Dialogue: 0,0:46:18.50,0:46:22.25,Default,,0,0,0,,trancando ambos em segurança sob a Kunato Developments.
+Dialogue: 0,0:46:22.45,0:46:26.54,Default,,0,0,0,,Mas ele se revoltou contra nós de novo.
+Dialogue: 0,0:46:26.75,0:46:29.83,Default,,0,0,0,,O verme de sangue que encontramos no corpo de Kunato
+Dialogue: 0,0:46:30.04,0:46:33.70,Default,,0,0,0,,foi usado como um meio para tomar conta do corpo dele.
+Dialogue: 0,0:46:44.41,0:46:45.66,Default,,0,0,0,,Que dia é hoje?
+Dialogue: 0,0:46:46.75,0:46:49.91,Default,,0,0,0,,Eu estive fora por tanto tempo?
+Dialogue: 0,0:46:50.12,0:46:52.37,Default,,0,0,0,,Espera, Tanikaze!
+Dialogue: 0,0:46:52.58,0:46:53.87,Default,,0,0,0,,Estou bem!
+Dialogue: 0,0:47:00.37,0:47:01.58,Default,,0,0,0,,Cheguei em casa!
+Dialogue: 0,0:47:06.62,0:47:08.20,Default,,0,0,0,,Ninguém está aqui?
+Dialogue: 0,0:47:13.00,0:47:13.37,Default,,0,0,0,,Tsumugi
+Dialogue: 0,0:47:13.37,0:47:14.62,Default,,0,0,0,,Tsumugi"\NTsumugi?
+Dialogue: 0,0:47:14.62,0:47:20.83,Default,,0,0,0,,Tsumugi
+Dialogue: 0,0:47:20.83,0:47:21.91,Default,,0,0,0,,Tsumugi"\NTem alguém aqui? Tem alguém aqui?
+Dialogue: 0,0:47:21.91,0:47:24.25,Default,,0,0,0,,Tem alguém aqui? Tem alguém aqui?
+Dialogue: 0,0:47:36.91,0:47:38.16,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,0:47:42.58,0:47:44.16,Default,,0,0,0,,Tanikaze-san-{\i1}...{\i0}
+Dialogue: 0,0:47:47.95,0:47:50.04,Default,,0,0,0,,Estou tão feliz.
+Dialogue: 0,0:47:50.25,0:47:53.33,Default,,0,0,0,,Você está seguro(a).
+Dialogue: 0,0:47:53.54,0:47:55.25,Default,,0,0,0,,Estou muito feliz...
+Dialogue: 0,0:48:00.08,0:48:04.66,Default,,0,0,0,,Eu também... Pensei que você tinha se ido...{\i1}...{\i0}
+Dialogue: 0,0:48:08.33,0:48:12.70,Default,,0,0,0,,Obrigado(a), Tanikaze-san!{\i1}...{\i0}
+Dialogue: 0,0:48:12.91,0:48:15.16,Default,,0,0,0,,Você está bem agora?
+Dialogue: 0,0:48:15.37,0:48:17.12,Default,,0,0,0,,Ouvi dizer que você fez algo maluco!
+Dialogue: 0,0:48:17.33,0:48:19.75,Default,,0,0,0,,Eu nem estava pensando direito...
+Dialogue: 0,0:48:19.95,0:48:24.87,Default,,0,0,0,,Você está preocupado comigo, Tanikaze-san?{\i1}...{\i0}
+Dialogue: 0,0:48:25.08,0:48:26.79,Default,,0,0,0,,Claro!
+Dialogue: 0,0:48:30.37,0:48:37.08,Default,,0,0,0,,E isso'{\i1} é...{\i0} porque eu sou necessária\Nas como uma arma para {\i1}Sidonia?{\i0}
+Dialogue: 0,0:48:37.29,0:48:38.79,Default,,0,0,0,,Do que você está falando?
+Dialogue: 0,0:48:39.00,0:48:41.70,Default,,0,0,0,,Me desculpe! Eu sei que não é o momento, mas--
+Dialogue: 0,0:48:41.91,0:48:45.70,Default,,0,0,0,,Não, eu quero ouvir você dizer isso!
+Dialogue: 0,0:48:48.50,0:48:53.29,Default,,0,0,0,,Se eu morresse, você...?
+Dialogue: 0,0:48:53.50,0:48:56.20,Default,,0,0,0,,Isso não vai acontecer! Eu prometo!
+Dialogue: 0,0:49:00.25,0:49:01.83,Default,,0,0,0,,Nunca mais fale...
+Dialogue: 0,0:49:03.62,0:49:05.54,Default,,0,0,0,,...sobre morrer de novo,
+Dialogue: 0,0:49:07.62,0:49:08.95,Default,,0,0,0,,Tsumugi...
+Dialogue: 0,0:49:15.75,0:49:17.12,Default,,0,0,0,,
+Dialogue: 0,0:49:19.70,0:49:20.91,Default,,0,0,0,,Ok!
+Dialogue: 0,0:49:42.66,0:49:49.87,Default,,0,0,0,,...vai se mudar. Agradecemos a todos vocês no bloco residencial.
+Dialogue: 0,0:49:52.04,0:49:53.62,Default,,0,0,0,,Veja, está aberto.
+Dialogue: 0,0:49:53.83,0:49:56.04,Default,,0,0,0,,E-Ok!
+Dialogue: 0,0:49:56.25,0:49:58.95,Default,,0,0,0,,Você não precisa ficar tão nervoso(a).
+Dialogue: 0,0:49:59.16,0:50:00.91,Default,,0,0,0,,Vamos agora.
+Dialogue: 0,0:50:04.20,0:50:06.95,Default,,0,0,0,,N-Não me deixe ir!
+Dialogue: 0,0:50:23.45,0:50:27.41,Default,,0,0,0,,Uau! Estou voando!
+Dialogue: 0,0:50:28.29,0:50:30.33,Default,,0,0,0,,Isso não aconteceu tantas vezes?
+Dialogue: 0,0:50:33.70,0:50:35.75,Default,,0,0,0,,Você parece bem agora, hein?
+Dialogue: 0,0:50:38.54,0:50:39.75,Default,,0,0,0,,Sim!
+Dialogue: 0,0:50:48.33,0:50:53.58,Default,,0,0,0,,Tanikaze-{\i1}san,{\i0} como você conseguiu permissão\Npara eu ir ao bloco residencial?
+Dialogue: 0,0:50:53.79,0:50:56.37,Default,,0,0,0,,O capitão deu uma permissão especial.
+Dialogue: 0,0:51:02.12,0:51:04.91,Default,,0,0,0,,Posso chegar tão perto de um prédio?
+Dialogue: 0,0:51:05.12,0:51:06.16,Default,,0,0,0,,Está tudo bem.
+Dialogue: 0,0:51:06.37,0:51:10.00,Default,,0,0,0,,Esta é a parte mais antiga de {\i1}Sidônia.{\i0}
+Dialogue: 0,0:51:10.20,0:51:12.33,Default,,0,0,0,,Ninguém mora {\i1}aqui.{\i0}
+Dialogue: 0,0:51:12.54,0:51:16.12,Default,,0,0,0,,Se você sentar aí,\No prédio vai desabar!
+Dialogue: 0,0:51:17.54,0:51:19.04,Default,,0,0,0,,Está tudo bem.
+Dialogue: 0,0:51:29.25,0:51:31.41,Default,,0,0,0,,Parece que outra pessoa esteve aqui primeiro.
+Dialogue: 0,0:51:31.62,0:51:33.54,Default,,0,0,0,,Vamos embora.
+Dialogue: 0,0:51:33.75,0:51:35.20,Default,,0,0,0,,Não tenha pressa!
+Dialogue: 0,0:51:44.20,0:51:46.04,Default,,0,0,0,,O-Onde estamos?
+Dialogue: 0,0:51:46.25,0:51:49.58,Default,,0,0,0,,É o mar. Você disse que queria nadar, certo?
+Dialogue: 0,0:51:52.29,0:51:53.50,Default,,0,0,0,,O mar!
+Dialogue: 0,0:51:57.29,0:51:59.16,Default,,0,0,0,,Cheira tão bem, não é, En?
+Dialogue: 0,0:51:59.37,0:52:02.87,Default,,0,0,0,,Eu decidi usar um chá sofisticado, só por hoje.
+Dialogue: 0,0:52:03.08,0:52:06.79,Default,,0,0,0,,Ei! Ei, ei!
+Dialogue: 0,0:52:21.95,0:52:24.54,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,0:52:24.75,0:52:28.87,Default,,0,0,0,,É o cheiro agradável do mar, certo, En?
+Dialogue: 0,0:52:33.87,0:52:38.04,Default,,0,0,0,,Tanikaze-{\i1}san,{\i0} muito obrigada!
+Dialogue: 0,0:52:38.25,0:52:42.70,Default,,0,0,0,,Eu. {\i1}...{\i0} Nunca pensei que teria a chance de fazer algo assim.
+Dialogue: 0,0:52:42.91,0:52:49.91,Default,,0,0,0,,Quando eu vi o bloco residencial hoje, eu fiquei tão animada que esqueci que podia voar!
+Dialogue: 0,0:52:51.87,0:52:53.87,Default,,0,0,0,,É por isso que você estava tão assustada?
+Dialogue: 0,0:52:54.08,0:52:55.41,Default,,0,0,0,,Sim.
+Dialogue: 0,0:52:55.62,0:52:59.91,Default,,0,0,0,,Mas foi uma experiência nova, eu me diverti muito!
+Dialogue: 0,0:53:00.12,0:53:02.20,Default,,0,0,0,,Estou tão feliz por poder morrer...
+Dialogue: 0,0:53:04.50,0:53:07.41,Default,,0,0,0,,Eu fiz de novo...
+Dialogue: 0,0:53:07.62,0:53:09.12,Default,,0,0,0,,Sinto muito.
+Dialogue: 0,0:53:17.41,0:53:19.00,Default,,0,0,0,,O que foi, Tsumugi?
+Dialogue: 0,0:53:25.54,0:53:27.08,Default,,0,0,0,,Não é nada!
+Dialogue: 0,0:53:30.41,0:53:31.62,Default,,0,0,0,,Tsumugi?
+Dialogue: 0,0:53:34.50,0:53:35.70,Default,,0,0,0,,Sinto muito.
+Dialogue: 0,0:53:39.08,0:53:44.75,Default,,0,0,0,,Você estava tentando tanto\Npara eu me divertir...
+Dialogue: 0,0:53:48.41,0:53:49.66,Default,,0,0,0,,Está tudo bem.
+Dialogue: 0,0:53:50.75,0:53:55.12,Default,,0,0,0,,Eu vou te proteger não importa o quê, Tsumugi.
+Dialogue: 0,0:53:55.33,0:53:56.87,Default,,0,0,0,,Então não chore.
+Dialogue: 0,0:53:58.25,0:53:59.66,Default,,0,0,0,,Eu...
+Dialogue: 0,0:54:02.12,0:54:06.16,Default,,0,0,0,,Eu não tenho medo de morrer em batalha!
+Dialogue: 0,0:54:11.79,0:54:16.45,Default,,0,0,0,,Mas... se... se...
+Dialogue: 0,0:54:17.50,0:54:22.29,Default,,0,0,0,,Se eu pudesse ter um tamanho normal,
+Dialogue: 0,0:54:22.50,0:54:24.37,Default,,0,0,0,,ser humano...
+Dialogue: 0,0:54:26.37,0:54:31.45,Default,,0,0,0,,...e depois estar com você, só uma vez...{\i1}{\i0}
+Dialogue: 0,0:54:31.66,0:54:35.08,Default,,0,0,0,,Quando eu penso nisso... Não consigo parar de chorar!
+Dialogue: 0,0:54:45.20,0:54:47.33,Default,,0,0,0,,O que eu estou dizendo?
+Dialogue: 0,0:54:49.83,0:54:52.00,Default,,0,0,0,,Não importa se você é humano!
+Dialogue: 0,0:54:54.91,0:54:56.87,Default,,0,0,0,,Você está ótimo do seu jeito!
+Dialogue: 0,0:54:57.08,0:54:58.95,Default,,0,0,0,,Não importa o quão grande você seja!
+Dialogue: 0,0:54:59.16,0:55:02.20,Default,,0,0,0,,Você é só 15 metros\Nmas alto que eu, de qualquer jeito!
+Dialogue: 0,0:55:02.41,0:55:06.54,Default,,0,0,0,,Eu vou viver por muito tempo,
+Dialogue: 0,0:55:06.75,0:55:10.45,Default,,0,0,0,,Para poder ficar com você pelo máximo de tempo possível, até eu morrer!
+Dialogue: 0,0:55:16.12,0:55:18.12,Default,,0,0,0,,Eu te amo, Tsumugi!
+Dialogue: 0,0:55:27.91,0:55:31.00,Default,,0,0,0,,Tanikaze, estou sentindo tontura...
+Dialogue: 0,0:55:31.20,0:55:32.41,Default,,0,0,0,,Você está bem?
+Dialogue: 0,0:55:37.66,0:55:40.08,Default,,0,0,0,,
+Dialogue: 0,0:55:50.04,0:55:51.50,Default,,0,0,0,,E-Você está bem?
+Dialogue: 0,0:56:38.12,0:56:49.70,Default,,0,0,0,,Ligando memórias juntas,\Nmuito além do horizonte
+Dialogue: 0,0:56:49.91,0:56:51.16,Default,,0,0,0,,--O quê?\N--O que está acontecendo?
+Dialogue: 0,0:56:51.16,0:56:52.00,Default,,0,0,0,,Os dois estão conectados por uma vida que eles sabem ser real --O quê?\N--O que está acontecendo?
+Dialogue: 0,0:56:52.00,0:56:52.20,Default,,0,0,0,,Os dois são conectados por\NUma vida que eles sabem ser real
+Dialogue: 0,0:56:52.20,0:56:54.66,Default,,0,0,0,,Os dois são conectados por uma vida que eles sabem ser real\NTem música em todo o bloco residencial...
+Dialogue: 0,0:56:54.66,0:56:56.33,Default,,0,0,0,,Os dois são conectados por\NUma vida que eles sabem ser real
+Dialogue: 0,0:56:56.33,0:56:59.08,Default,,0,0,0,,Os dois são conectados por uma vida que eles\Nsabem ser real É um tipo de música triste...
+Dialogue: 0,0:56:59.08,0:56:59.29,Default,,0,0,0,,Os dois são conectados por\NUma vida que eles sabem ser real
+Dialogue: 0,0:56:59.29,0:57:02.50,Default,,0,0,0,,Os dois são conectados por uma vida que eles sabem\Né real Sim. Era popular na Terra.
+Dialogue: 0,0:57:02.50,0:57:03.08,Default,,0,0,0,,Sim. Era popular na Terra.
+Dialogue: 0,0:57:03.91,0:57:04.79,Default,,0,0,0,,Coração e coração, um breve momento efêmero
+Dialogue: 0,0:57:04.79,0:57:08.87,Default,,0,0,0,,Nos nossos corações, um momento breve e efêmero\NEsta voz... Não podia {\i1}ser.{\i0}
+Dialogue: 0,0:57:08.87,0:57:13.79,Default,,0,0,0,,Nos nossos corações, um momento breve e efêmero
+Dialogue: 0,0:57:13.79,0:57:16.37,Default,,0,0,0,,Nos nossos corações, um momento breve e efêmero\NIzana-{\i1}san,{\i0} vamos garantir que voltaremos bem.
+Dialogue: 0,0:57:16.37,0:57:16.58,Default,,0,0,0,,Izana-{\i1}san,{\i0} vamos garantir que voltaremos bem.
+Dialogue: 0,0:57:16.58,0:57:17.16,Default,,0,0,0,,Eu vou te proteger, e tecer os fios da vida\NIzana-{\i1}san,{\i0} vamos garantir que voltaremos bem.
+Dialogue: 0,0:57:17.16,0:57:18.25,Default,,0,0,0,,Eu vou te proteger,\Ne tecer os fios da vida
+Dialogue: 0,0:57:18.25,0:57:19.45,Default,,0,0,0,,Eu vou te proteger, e\Ntecer os fios da vida Sim.
+Dialogue: 0,0:57:19.45,0:57:29.08,Default,,0,0,0,,Eu vou te proteger,\Ne tecer os fios da vida
+Dialogue: 0,0:57:45.16,0:57:48.16,Default,,0,0,0,,Ouvi dizer que você saiu do hospital e voltou a ser piloto.
+Dialogue: 0,0:57:48.37,0:57:52.04,Default,,0,0,0,,O Doutor provou minha inocência.
+Dialogue: 0,0:57:53.70,0:57:56.87,Default,,0,0,0,,Mozuku vai voltar ao normal?
+Dialogue: 0,0:57:57.08,0:58:01.41,Default,,0,0,0,,Não saberemos quanto da mente e das memórias dela podemos trazer de volta até tentarmos.
+Dialogue: 0,0:58:01.62,0:58:04.25,Default,,0,0,0,,Mas nós podemos regenerar o corpo dela.
+Dialogue: 0,0:58:04.45,0:58:07.04,Default,,0,0,0,,Fui eu quem quebrou o selo de Ochiai,
+Dialogue: 0,0:58:07.25,0:58:13.29,Default,,0,0,0,,pela minha própria glória e para chegar em Tanikaze.
+Dialogue: 0,0:58:13.50,0:58:16.50,Default,,0,0,0,,Mozuku não fez nada de errado!
+Dialogue: 0,0:58:16.70,0:58:21.54,Default,,0,0,0,,{\i1}Por favor...{\i0} salvá-la!
+Dialogue: 0,0:58:21.75,0:58:23.37,Default,,0,0,0,,Kunato—kun...
+Dialogue: 0,0:58:29.70,0:58:32.50,Default,,0,0,0,,Tsugumori Aprimorado
+Dialogue: 0,0:58:34.58,0:58:39.83,Default,,0,0,0,,Você pensa que não há lugar para você na {\i1}Sidonia?{\i0}
+Dialogue: 0,0:58:41.12,0:58:42.83,Default,,0,0,0,,Sinto muito.
+Dialogue: 0,0:58:43.04,0:58:46.75,Default,,0,0,0,,Eu costumava pensar o mesmo, {\i1}então...{\i0}
+Dialogue: 0,0:58:49.00,0:58:51.54,Default,,0,0,0,,Eu sou Toutarou Yamano.
+Dialogue: 0,0:58:51.75,0:58:53.04,Default,,0,0,0,,Yamano?
+Dialogue: 0,0:58:53.25,0:58:58.91,Default,,0,0,0,,Sim. Eiko Yamano, aquela que a Gauna comeu, era minha irmã.
+Dialogue: 0,0:58:59.91,0:59:03.37,Default,,0,0,0,,Ela estava no seu time, junto com você e Tanikaze.
+Dialogue: 0,0:59:05.12,0:59:07.66,Default,,0,0,0,,Ela tinha um irmão?
+Dialogue: 0,0:59:07.87,0:59:11.08,Default,,0,0,0,,Eu ainda era jovem quando ela morreu.
+Dialogue: 0,0:59:13.79,0:59:17.29,Default,,0,0,0,,Você sabe quantos anos\Nfaz desde então?
+Dialogue: 0,0:59:17.50,0:59:22.37,Default,,0,0,0,,Hã, hã, hã! Sua irmã é uma Gauna!
+Dialogue: 0,0:59:22.58,0:59:25.20,Default,,0,0,0,,Você deveria simplesmente se jogar\Nno reator!
+Dialogue: 0,0:59:28.00,0:59:29.95,Default,,0,0,0,,Irmã...
+Dialogue: 0,0:59:30.16,0:59:31.79,Default,,0,0,0,,Força de supressão desativada!
+Dialogue: 0,0:59:32.00,0:59:34.58,Default,,0,0,0,,Os Gauna romperam\Nnossa última linha de defesa!
+Dialogue: 0,0:59:37.95,0:59:39.54,Default,,0,0,0,,Eu {\i1}vejo...{\i0}
+Dialogue: 0,0:59:39.75,0:59:42.45,Default,,0,0,0,,Parece que foi ontem.
+Dialogue: 0,0:59:42.66,0:59:45.91,Default,,0,0,0,,Eu consegui que você entrasse no meu time.
+Dialogue: 0,0:59:46.12,0:59:47.20,Default,,0,0,0,,Estou ansioso para trabalhar com você.
+Dialogue: 0,0:59:47.41,0:59:50.58,Default,,0,0,0,,Sim, eu também.
+Dialogue: 0,0:59:55.04,0:59:57.75,Default,,0,0,0,,Precisamos fazer essa coisa\Nfuncionar em 60 horas!
+Dialogue: 0,0:59:57.95,1:00:00.58,Default,,0,0,0,,Ei aí! Sem moleza!
+Dialogue: 0,1:00:00.79,1:00:04.83,Default,,0,0,0,,O Aglomerado Gauna Grande está perto,\Nmas acho que vamos conseguir.
+Dialogue: 0,1:00:11.62,1:00:14.87,Default,,0,0,0,,O Aglomerado Gauna Grande\Npassou pelo Planeta Oito.
+Dialogue: 0,1:00:15.08,1:00:18.50,Default,,0,0,0,,Ele chegará até nós em 240 horas.
+Dialogue: 0,1:00:18.70,1:00:20.41,Default,,0,0,0,,Se o {\i1}Yukimori{\i0} for construído,
+Dialogue: 0,1:00:20.62,1:00:25.00,Default,,0,0,0,,podemos disparar o Emissor de Radiação Gravitônica\Nantes que o inimigo chegue.
+Dialogue: 0,1:00:25.20,1:00:27.75,Default,,0,0,0,,Tudo que temos que fazer agora\Né encontrar o núcleo primário {\i1}core...{\i0}
+Dialogue: 0,1:00:28.87,1:00:29.25,Default,,0,0,0,,O Aglomerado Gauna Grande\Nestá enviando Gaunas para Lem!
+Dialogue: 0,1:00:29.25,1:00:32.66,Default,,0,0,0,,Aviso: O Grande Aglomerado de Gauna está enviando Gauna para Lem!
+Dialogue: 0,1:00:32.66,1:00:32.87,Default,,0,0,0,,Aviso:
+Dialogue: 0,1:00:32.87,1:00:33.79,Default,,0,0,0,,Aviso: Eles são...?
+Dialogue: 0,1:00:33.79,1:00:34.00,Default,,0,0,0,,Aviso:
+Dialogue: 0,1:00:34.00,1:00:34.37,Default,,0,0,0,,Aviso: Um grande número de Pílulas Gauna estão indo para Lem!
+Dialogue: 0,1:00:34.37,1:00:37.87,Default,,0,0,0,,Um grande número de Pílulas Gauna está indo para Lem!
+Dialogue: 0,1:00:38.08,1:00:40.16,Default,,0,0,0,,Eles estão atrás dos coletores!
+Dialogue: 0,1:00:40.37,1:00:44.91,Default,,0,0,0,,Com a velocidade atual, eles chegarão em Lem dentro de 48 horas!
+Dialogue: 0,1:00:45.12,1:00:50.58,Default,,0,0,0,,Eles analisaram o cérebro do piloto que a Gauna Tipo Inteligente devorou?
+Dialogue: 0,1:00:50.79,1:00:53.12,Default,,0,0,0,,e aprender nossos planos?
+Dialogue: 0,1:00:53.33,1:00:57.58,Default,,0,0,0,,Midorikawa, forme uma Força de Supressão\Ncomposta por todos os {\i1}Mizukis{\i0} e Série 19s,
+Dialogue: 0,1:00:57.79,1:00:58.91,Default,,0,0,0,,e lance imediatamente.
+Dialogue: 0,1:01:02.16,1:01:03.37,Default,,0,0,0,,Sim, senhora!
+Dialogue: 0,1:01:07.91,1:01:12.41,Default,,0,0,0,,XO Midorikawa a todas as naves\Nna frota {\i1}Mizuki.{\i0}
+Dialogue: 0,1:01:12.62,1:01:18.45,Default,,0,0,0,,Estamos indo para Lem para defender\Nos Coletores de Energia Estelar.
+Dialogue: 0,1:01:19.91,1:01:23.79,Default,,0,0,0,,Está tudo bem enviar tantos navios com\No Aglomerado de Gaunas Grandes tão perto?
+Dialogue: 0,1:01:24.00,1:01:26.83,Default,,0,0,0,,Se perdermos os coletores, perderemos de qualquer jeito.
+Dialogue: 0,1:01:27.04,1:01:29.29,Default,,0,0,0,,Eu achei que eles não iam atacar eles.
+Dialogue: 0,1:01:29.50,1:01:32.50,Default,,0,0,0,,Bem, são os Gauna. Quem sabe?
+Dialogue: 0,1:01:32.70,1:01:35.12,Default,,0,0,0,,A Força de Supressão completou\Nsua ligação de nove naves.
+Dialogue: 0,1:01:35.33,1:01:36.54,Default,,0,0,0,,Avante!
+Dialogue: 0,1:01:42.29,1:01:43.70,Default,,0,0,0,,
+Dialogue: 0,1:01:45.58,1:01:46.79,Default,,0,0,0,,Tsumugi.
+Dialogue: 0,1:01:48.04,1:01:50.20,Default,,0,0,0,,Você quer que esteja pronto em dois dias?
+Dialogue: 0,1:01:50.41,1:01:52.25,Default,,0,0,0,,Não é tão fácil assim!
+Dialogue: 0,1:01:52.45,1:01:53.54,Default,,0,0,0,,Faremos o que for preciso.
+Dialogue: 0,1:01:53.75,1:01:56.66,Default,,0,0,0,,Nossa prioridade máxima é ajustar o sistema de propulsão traseira, e {\i1}depois...{\i0}
+Dialogue: 0,1:01:56.79,1:01:59.37,Default,,0,0,0,,Tsumugi
+Dialogue: 0,1:02:12.91,1:02:14.12,Default,,0,0,0,,Tsumugi.
+Dialogue: 0,1:02:20.25,1:02:21.54,Default,,0,0,0,,Capitão?
+Dialogue: 0,1:02:21.75,1:02:23.54,Default,,0,0,0,,Eu quero falar com você.
+Dialogue: 0,1:02:23.75,1:02:25.00,Default,,0,0,0,,Você tem um momento?
+Dialogue: 0,1:02:32.62,1:02:34.16,Default,,0,0,0,,Capitão?
+Dialogue: 0,1:02:35.95,1:02:38.54,Default,,0,0,0,,Por onde eu começo?
+Dialogue: 0,1:02:38.75,1:02:40.70,Default,,0,0,0,,Faz tanto tempo...
+Dialogue: 0,1:02:42.04,1:02:47.54,Default,,0,0,0,,Eu tinha uns quinze anos, então faz cerca de 700 anos.
+Dialogue: 0,1:02:47.75,1:02:49.29,Default,,0,0,0,,Setecentos anos?
+Dialogue: 0,1:02:49.50,1:02:54.37,Default,,0,0,0,,Sim, acho que já faz tanto tempo mesmo...
+Dialogue: 0,1:02:56.75,1:03:01.87,Default,,0,0,0,,Naquela época, eu era apenas uma garota que virou piloto,
+Dialogue: 0,1:03:02.08,1:03:04.75,Default,,0,0,0,,porque havia um piloto que eu admirava.
+Dialogue: 0,1:03:04.95,1:03:09.62,Default,,0,0,0,,Eles eram um piloto melhor do que qualquer outro {\i1}pessoa.{\i0}
+Dialogue: 0,1:03:09.83,1:03:12.58,Default,,0,0,0,,Eles até conseguiram derrotar um Gauna,
+Dialogue: 0,1:03:12.79,1:03:14.41,Default,,0,0,0,,quando os Gardes\Neram muito menos poderosos
+Dialogue: 0,1:03:14.62,1:03:17.29,Default,,0,0,0,,e não havia Kabi.
+Dialogue: 0,1:03:17.29,1:03:17.58,Default,,0,0,0,,Hiroki Saito derrota outro Gauna!"\Ne não havia Kabi.
+Dialogue: 0,1:03:17.58,1:03:17.79,Default,,0,0,0,,Hiroki Saito derrota outro Gauna!
+Dialogue: 0,1:03:17.79,1:03:21.20,Default,,0,0,0,,Hiroki Saito derrota outro Gauna!" Um gênio verdadeiro,\Nmuito acima de qualquer pessoa {\i1}outro.{\i0}
+Dialogue: 0,1:03:21.20,1:03:21.41,Default,,0,0,0,,Hiroki Saito derrota outro Gauna!
+Dialogue: 0,1:03:21.41,1:03:26.70,Default,,0,0,0,,Hiroki Saito derrota outro Gauna!" Havia até um plano de pegar sua personalidade e memórias e copiá-las.
+Dialogue: 0,1:03:26.70,1:03:27.33,Default,,0,0,0,,Havia até um plano de pegar sua personalidade e memórias e copiá-las.
+Dialogue: 0,1:03:27.54,1:03:31.62,Default,,0,0,0,,Esse foi Hiroki Saito.
+Dialogue: 0,1:03:31.83,1:03:34.66,Default,,0,0,0,,Aquele que o criou no subterrâneo.
+Dialogue: 0,1:03:34.87,1:03:37.70,Default,,0,0,0,,M-Meu avô?
+Dialogue: 0,1:03:37.91,1:03:40.04,Default,,0,0,0,,Mas... há 700 anos...
+Dialogue: 0,1:03:40.25,1:03:42.87,Default,,0,0,0,,Ele não era seu avô.
+Dialogue: 0,1:03:43.08,1:03:48.37,Default,,0,0,0,,Você é um clone de Hiroki Saito.
+Dialogue: 0,1:03:48.58,1:03:52.33,Default,,0,0,0,,Uma versão especial, feita usando...
+Dialogue: 0,1:03:53.87,1:03:55.54,Default,,0,0,0,,...tecnologias genéticas proibidas.
+Dialogue: 0,1:03:55.75,1:03:59.54,Default,,0,0,0,,Ela me contou tudo.
+Dialogue: 0,1:04:00.62,1:04:06.62,Default,,0,0,0,,Meu avô, ela, e Hiyama-{\i1}san,{\i0}\Ne o cientista Ochiai.
+Dialogue: 0,1:04:08.00,1:04:11.16,Default,,0,0,0,,A capitã parecia tão distante e fora de alcance,
+Dialogue: 0,1:04:11.37,1:04:16.62,Default,,0,0,0,,mas agora ela parecia alguém que eu conhecia há muito tempo.
+Dialogue: 0,1:04:18.00,1:04:20.95,Default,,0,0,0,,Obrigado por me contar {\i1}.{\i0}
+Dialogue: 0,1:04:21.16,1:04:27.12,Default,,0,0,0,,Eu fiz tudo o que foi necessário\Npara manter {\i1}Sidonia{\i0} vivo.
+Dialogue: 0,1:04:27.33,1:04:30.70,Default,,0,0,0,,Mas Saito negou a imortalidade.
+Dialogue: 0,1:04:30.91,1:04:34.08,Default,,0,0,0,,Ele o criou da maneira usual.
+Dialogue: 0,1:04:36.12,1:04:42.00,Default,,0,0,0,,Talvez o que eu fiz seja o mesmo\Nnas Ochiai, só que em um grau {\i1}menor.{\i0}
+Dialogue: 0,1:04:42.20,1:04:43.58,Default,,0,0,0,,Capitão...
+Dialogue: 0,1:04:44.83,1:04:50.50,Default,,0,0,0,,Mesmo agora, estou mandando você e\Nos outros pilotos para morrerem,
+Dialogue: 0,1:04:50.70,1:04:54.95,Default,,0,0,0,,e dizendo a mim mesmo que é\Npara proteger {\i1}Sidonia.{\i0}
+Dialogue: 0,1:05:02.25,1:05:06.08,Default,,0,0,0,,Talvez eu esteja um pouco cansado.
+Dialogue: 0,1:05:06.29,1:05:10.08,Default,,0,0,0,,{\i1}Sidonia{\i0} só chegou até aqui\Npor causa de você!
+Dialogue: 0,1:05:15.33,1:05:19.91,Default,,0,0,0,,Vovô parecia muito satisfeito,\Nperto do fim.
+Dialogue: 0,1:05:20.12,1:05:21.54,Default,,0,0,0,,
+Dialogue: 0,1:05:21.75,1:05:25.00,Default,,0,0,0,,Eu acredito em você, Capitão!
+Dialogue: 0,1:05:28.75,1:05:32.91,Default,,0,0,0,,Esta será nossa última batalha.
+Dialogue: 0,1:05:33.12,1:05:36.20,Default,,0,0,0,,Estou contando com você, Tanikaze.
+Dialogue: 0,1:05:36.41,1:05:37.62,Default,,0,0,0,,Sim, senhora!
+Dialogue: 0,1:05:41.33,1:05:44.29,Default,,0,0,0,,A força Gauna que seguia\Npara Lem se dividiu!
+Dialogue: 0,1:05:44.50,1:05:46.04,Default,,0,0,0,,Uma está vindo em nossa direção!
+Dialogue: 0,1:05:46.25,1:05:48.41,Default,,0,0,0,,--Quantos?\N--Múltiplos módulos de Gauna,
+Dialogue: 0,1:05:48.62,1:05:52.00,Default,,0,0,0,,contendo aproximadamente\N6.000 em cada um deles!
+Dialogue: 0,1:05:54.83,1:05:58.12,Default,,0,0,0,,Eles querem nos atrasar. O que significa...
+Dialogue: 0,1:05:58.33,1:05:59.95,Default,,0,0,0,,Que vamos sacudí-los em velocidade máxima.
+Dialogue: 0,1:06:00.16,1:06:02.29,Default,,0,0,0,,Todas as naves, passem para alerta máximo!
+Dialogue: 0,1:06:05.50,1:06:07.79,Default,,0,0,0,,Ga-729 está disparando um Canhão de Partículas Heigus!
+Dialogue: 0,1:06:11.12,1:06:12.33,Default,,0,0,0,,Manobras evasivas!
+Dialogue: 0,1:06:21.00,1:06:23.29,Default,,0,0,0,,Esta é a Força de Supressão.\NNós engajamos os Gaunas!
+Dialogue: 0,1:06:23.50,1:06:24.33,Default,,0,0,0,,Qual é a situação?
+Dialogue: 0,1:06:24.54,1:06:26.29,Default,,0,0,0,,O vínculo de {\i1}Mizuki{\i0} foi rompido.
+Dialogue: 0,1:06:26.50,1:06:27.66,Default,,0,0,0,,A velocidade deles está diminuindo!
+Dialogue: 0,1:06:27.87,1:06:29.58,Default,,0,0,0,,A Força de Supressão\Nfoi atacada no trajeto?
+Dialogue: 0,1:06:29.79,1:06:32.33,Default,,0,0,0,,As Unidades Garde e\NTsumugi estão engajando-os!
+Dialogue: 0,1:06:34.66,1:06:35.87,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,1:06:42.95,1:06:45.83,Default,,0,0,0,,Eles continuam mirando em nós de propósito!
+Dialogue: 0,1:06:46.04,1:06:48.08,Default,,0,0,0,,Reconecte os {\i1}Mizukis{\i0}!
+Dialogue: 0,1:06:50.83,1:06:52.58,Default,,0,0,0,,A Nave 8 está ficando para trás!
+Dialogue: 0,1:06:52.79,1:06:54.04,Default,,0,0,0,,Nosso sistema de propulsão está danificado.
+Dialogue: 0,1:06:54.25,1:06:55.75,Default,,0,0,0,,Continuem sem nós!
+Dialogue: 0,1:06:58.04,1:07:01.66,Default,,0,0,0,,Unidades Garde, retornem às suas naves!
+Dialogue: 0,1:07:01.87,1:07:03.79,Default,,0,0,0,,Não há fim deles!
+Dialogue: 0,1:07:04.00,1:07:05.66,Default,,0,0,0,,Eles estão nos abandonando!
+Dialogue: 0,1:07:05.87,1:07:07.33,Default,,0,0,0,,Acabou!
+Dialogue: 0,1:07:08.37,1:07:09.66,Default,,0,0,0,,Estão partindo!
+Dialogue: 0,1:07:09.87,1:07:12.00,Default,,0,0,0,,Não desistam, todos!
+Dialogue: 0,1:07:12.20,1:07:13.37,Default,,0,0,0,,Vamos voltar juntos!
+Dialogue: 0,1:07:13.58,1:07:14.79,Default,,0,0,0,,
+Dialogue: 0,1:07:21.00,1:07:21.29,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,1:07:21.29,1:07:21.62,Default,,0,0,0,,Contato Perdido"\NTsumugi!
+Dialogue: 0,1:07:21.62,1:07:21.83,Default,,0,0,0,,Contato Perdido
+Dialogue: 0,1:07:21.83,1:07:23.83,Default,,0,0,0,,Contato Perdido" Perdemos contato\Ncom {\i1}Mizuki{\i0} Nave #8 e Tsumugi!
+Dialogue: 0,1:07:23.83,1:07:25.29,Default,,0,0,0,,Perdemos contato com\N{\i1}Mizuki{\i0} Nave #8 e Tsumugi!
+Dialogue: 0,1:07:27.75,1:07:30.95,Default,,0,0,0,,A frota de Supressão escapou,\Nexceto pela Nave #8.
+Dialogue: 0,1:07:31.16,1:07:36.45,Default,,0,0,0,,Mas na velocidade atual,\Nos Gauna chegarão a Lem antes deles!
+Dialogue: 0,1:07:36.66,1:07:39.08,Default,,0,0,0,,Lançar a Série 20.
+Dialogue: 0,1:07:39.29,1:07:40.66,Default,,0,0,0,,Mas não acabou.
+Dialogue: 0,1:07:40.87,1:07:42.08,Default,,0,0,0,,Eu não me importo!
+Dialogue: 0,1:07:43.29,1:07:46.45,Default,,0,0,0,,Ontem você disse que eu tinha dois dias!
+Dialogue: 0,1:07:46.66,1:07:50.41,Default,,0,0,0,,Fizemos essas soldas rápido,\Ne nem testamos elas!
+Dialogue: 0,1:07:51.54,1:07:53.62,Default,,0,0,0,,Outra mudança com o\NAglomerado de Gauna Grande!
+Dialogue: 0,1:07:53.83,1:07:56.16,Default,,0,0,0,,Está acelerando em direção a {\i1}Sidonia{\i0} de novo!
+Dialogue: 0,1:07:56.37,1:08:00.16,Default,,0,0,0,,Impossível... Ele ainda tinha o poder de acelerar?
+Dialogue: 0,1:08:00.37,1:08:04.00,Default,,0,0,0,,Ele moveu seu Ena para a traseira\Npara aumentar sua propulsão!
+Dialogue: 0,1:08:11.25,1:08:15.08,Default,,0,0,0,,Um número enorme de Gaunas lançou\Ndo Aglomerado Gauna Grande!
+Dialogue: 0,1:08:15.29,1:08:16.29,Default,,0,0,0,,Há {\i1}...{\i0}
+Dialogue: 0,1:08:16.50,1:08:19.83,Default,,0,0,0,,Estima-se que há 100.000\Ninimigos no grupo!
+Dialogue: 0,1:08:20.04,1:08:23.45,Default,,0,0,0,,À frente deles está o Ga-722,\NGauna do Tipo Inteligente!
+Dialogue: 0,1:08:28.91,1:08:30.33,Default,,0,0,0,,Há tantos...
+Dialogue: 0,1:08:30.54,1:08:32.41,Default,,0,0,0,,Eles estão atacando a gente também?
+Dialogue: 0,1:08:32.62,1:08:37.20,Default,,0,0,0,,E nossos Gardes autonomizados não conseguem lidar com esse Tipo Inteligente. {\i1}...{\i0}
+Dialogue: 0,1:08:41.08,1:08:45.83,Default,,0,0,0,,Mesmo que o Série 20 seja rápido, ele não pode proteger os dois!
+Dialogue: 0,1:08:47.33,1:08:51.29,Default,,0,0,0,,Devemos priorizar a defesa de {\i1}Sidonia,{\i0}\Ne nos reagrupar...
+Dialogue: 0,1:08:51.50,1:08:53.83,Default,,0,0,0,,{\i1}...ou{\i0} apostar na Força de Supressão?
+Dialogue: 0,1:08:56.29,1:09:00.29,Default,,0,0,0,,Interceptaremos os Gaunas. Virem a nave e preparem um bombardeio!
+Dialogue: 0,1:09:00.50,1:09:01.70,Default,,0,0,0,,Desloquem nossas unidades de defesa!
+Dialogue: 0,1:09:01.91,1:09:05.29,Default,,0,0,0,,O Série 20 seguirá para Lem conforme planejado.
+Dialogue: 0,1:09:10.58,1:09:13.33,Default,,0,0,0,,Sinto muito, {\i1}todos...{\i0}
+Dialogue: 0,1:09:14.50,1:09:17.20,Default,,0,0,0,,Eu não queria deixar nenhum de vocês {\i1}morrer...{\i0}
+Dialogue: 0,1:09:18.83,1:09:21.75,Default,,0,0,0,,Eu quero ir para Tsumugi agora.
+Dialogue: 0,1:09:21.95,1:09:26.41,Default,,0,0,0,,Mas eu não posso deixar {\i1}Sidonia agora...{\i0}
+Dialogue: 0,1:09:26.62,1:09:27.58,Default,,0,0,0,,Capitão!
+Dialogue: 0,1:09:27.79,1:09:29.58,Default,,0,0,0,,A Série 20 se juntará à defesa.
+Dialogue: 0,1:09:29.79,1:09:31.91,Default,,0,0,0,,Eu ainda consigo chegar depois que neutralizar o Gauna tipo inteligente...
+Dialogue: 0,1:09:32.12,1:09:34.08,Default,,0,0,0,,Não há tempo.
+Dialogue: 0,1:09:34.29,1:09:36.08,Default,,0,0,0,,Se quisermos eliminar o Aglomerado de Gaunas Grande,
+Dialogue: 0,1:09:36.29,1:09:38.75,Default,,0,0,0,,a Série 20 precisa ir para Lem, agora.
+Dialogue: 0,1:09:38.95,1:09:41.00,Default,,0,0,0,,Mas então o {\i1}Sidonia{\i0} vai...
+Dialogue: 0,1:09:41.20,1:09:45.87,Default,,0,0,0,,Diretor Sasaki, deixe-me usar o {\i1}Tsugumori II Aprimorado.{\i0}
+Dialogue: 0,1:09:46.91,1:09:50.37,Default,,0,0,0,,Você sabe que nem qualquer um pode usar isso, certo?
+Dialogue: 0,1:09:50.58,1:09:55.25,Default,,0,0,0,,Isso é não oficial, mas são meus registros de treinamento com o {\i1}Tsugumori.{\i0}
+Dialogue: 0,1:09:55.45,1:09:56.91,Default,,0,0,0,,O que é isso?
+Dialogue: 0,1:09:57.12,1:10:00.66,Default,,0,0,0,,Você treina desde criança?
+Dialogue: 0,1:10:00.87,1:10:03.00,Default,,0,0,0,,E olhem estas avaliações incríveis!
+Dialogue: 0,1:10:03.20,1:10:05.66,Default,,0,0,0,,O Tsugumori II aprimorado {\i1}{\i0}\Nnão é autônomo.
+Dialogue: 0,1:10:05.87,1:10:08.16,Default,,0,0,0,,Ele pode lutar contra o tipo inteligente.
+Dialogue: 0,1:10:12.45,1:10:13.66,Default,,0,0,0,,Pinheiro.
+Dialogue: 0,1:10:15.00,1:10:18.25,Default,,0,0,0,,Preparem o Tsugumori 11 aprimorado {\i1}{\i0}, agora!
+Dialogue: 0,1:10:18.45,1:10:20.25,Default,,0,0,0,,
+Dialogue: 0,1:10:20.45,1:10:21.75,Default,,0,0,0,,Vá.
+Dialogue: 0,1:10:21.95,1:10:24.33,Default,,0,0,0,,Deixem {\i1}Sidonia{\i0} comigo {\i1}{\i0}.
+Dialogue: 0,1:10:24.54,1:10:25.75,Default,,0,0,0,,Certo.
+Dialogue: 0,1:10:32.20,1:10:34.29,Default,,0,0,0,,Você consegue, {\i1}Yukimori!{\i0}
+Dialogue: 0,1:10:36.29,1:10:37.45,Default,,0,0,0,,Tsumugi...
+Dialogue: 0,1:10:37.66,1:10:43.08,Default,,0,0,0,,Escuta, ele é resistente, mas não aguenta um golpe de um Emissor de Radiação Gravitônica.
+Dialogue: 0,1:10:43.29,1:10:44.25,Default,,0,0,0,,Entendido!
+Dialogue: 0,1:10:44.45,1:10:47.66,Default,,0,0,0,,Eu estou te dizendo isso porque\Nvocê nunca entendeu!
+Dialogue: 0,1:10:49.00,1:10:50.83,Default,,0,0,0,,Tanikaze, partindo!
+Dialogue: 0,1:10:51.04,1:10:53.33,Default,,0,0,0,,{\i1}Tsugumori 11[/T0] atualizado, lançando!{\i0}
+Dialogue: 0,1:11:36.45,1:11:38.45,Default,,0,0,0,,Liberando o dispositivo de propulsão!
+Dialogue: 0,1:12:18.87,1:12:20.37,Default,,0,0,0,,Tanikaze-san!
+Dialogue: 0,1:12:26.41,1:12:28.54,Default,,0,0,0,,Você adormeceu, hein?
+Dialogue: 0,1:12:56.08,1:12:57.79,Default,,0,0,0,,Tsumugi-{\i1}san!{\i0} Acorda!
+Dialogue: 0,1:12:58.00,1:12:59.91,Default,,0,0,0,,Ela perdeu um órgão importante,
+Dialogue: 0,1:13:00.12,1:13:03.08,Default,,0,0,0,,mas esta nave não tem mais as instalações para consertá-lo!
+Dialogue: 0,1:13:03.29,1:13:08.12,Default,,0,0,0,,Não! Se não fosse por ela,\Nestaríamos há muito tempo {\i1}mortos...{\i0}
+Dialogue: 0,1:13:11.54,1:13:14.45,Default,,0,0,0,,O Ga-729 está voltando para nós.
+Dialogue: 0,1:13:14.66,1:13:17.87,Default,,0,0,0,,Qualquer um que ainda tenha munição,\Npreparem-se para interceptar!
+Dialogue: 0,1:13:18.08,1:13:19.12,Default,,0,0,0,,É inútil...
+Dialogue: 0,1:13:19.33,1:13:20.66,Default,,0,0,0,,Não temos poder de fogo suficiente...
+Dialogue: 0,1:13:20.87,1:13:25.41,Default,,0,0,0,,Precisamos derrotar todos os Gaunas\Nque pudermos, pelo futuro de {\i1}Sidonia{\i0}!
+Dialogue: 0,1:13:25.62,1:13:28.83,Default,,0,0,0,,Sim. Como mais podemos retribuir a Tsumugi-{\i1}san?{\i0}?
+Dialogue: 0,1:13:29.04,1:13:31.66,Default,,0,0,0,,Isso mesmo! Não desistam ainda!
+Dialogue: 0,1:13:31.87,1:13:34.79,Default,,0,0,0,,O Ga-729 chegará em breve!
+Dialogue: 0,1:13:37.37,1:13:38.58,Default,,0,0,0,,Fogo!
+Dialogue: 0,1:13:46.54,1:13:48.16,Default,,0,0,0,,Não há poder de fogo suficiente!
+Dialogue: 0,1:13:49.08,1:13:52.87,Default,,0,0,0,,Aviso: Sem munição perfuradora de núcleo restante.
+Dialogue: 0,1:14:03.70,1:14:06.33,Default,,0,0,0,,O Ga-729 está se desintegrando!
+Dialogue: 0,1:14:06.54,1:14:07.95,Default,,0,0,0,,O que foi isso?
+Dialogue: 0,1:14:08.16,1:14:11.95,Default,,0,0,0,,Algo acabou de perfurar o núcleo primário do Pódulo Gauna!\N
+Dialogue: 0,1:14:14.41,1:14:16.20,Default,,0,0,0,,Tanikaze-san!{\i1}{\i0}
+Dialogue: 0,1:14:16.41,1:14:18.91,Default,,0,0,0,,Ataque de impacto bem-sucedido!
+Dialogue: 0,1:14:24.41,1:14:25.66,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,1:14:27.66,1:14:30.37,Default,,0,0,0,,Tanikaze-san-{\i1}...{\i0}
+Dialogue: 0,1:14:32.00,1:14:34.87,Default,,0,0,0,,Onde você está?
+Dialogue: 0,1:14:35.08,1:14:37.08,Default,,0,0,0,,Bem aqui-{\i1}.{\i0}
+Dialogue: 0,1:14:37.29,1:14:39.75,Default,,0,0,0,,Eu estou bem aqui!
+Dialogue: 0,1:14:39.95,1:14:41.25,Default,,0,0,0,,Eu...
+Dialogue: 0,1:14:43.29,1:14:44.50,Default,,0,0,0,,...Eu não...
+Dialogue: 0,1:14:47.41,1:14:50.75,Default,,0,0,0,,...quero estar separado...
+Dialogue: 0,1:14:53.83,1:14:59.08,Default,,0,0,0,,...de você mais...
+Dialogue: 0,1:15:01.16,1:15:04.33,Default,,0,0,0,,
+Dialogue: 0,1:15:06.41,1:15:09.66,Default,,0,0,0,,Tanikaze-{\i1}san,{\i0} leve Tsumugi-{\i1}san{\i0}\Npara {\i1}Sidonia,{\i0} agora!
+Dialogue: 0,1:15:09.87,1:15:14.75,Default,,0,0,0,,Ha shine, Tanikaze-{\i1}san{\i0} precisa se encontrar\Ncom a principal Força de Supressão!
+Dialogue: 0,1:15:18.25,1:15:19.91,Default,,0,0,0,,O que você está fazendo?
+Dialogue: 0,1:15:20.12,1:15:21.91,Default,,0,0,0,,Levando-a com {\i1}mim.{\i0}
+Dialogue: 0,1:15:22.12,1:15:24.16,Default,,0,0,0,,Há um biotanque no principal {\i1}Mizuki.{\i0}
+Dialogue: 0,1:15:24.37,1:15:26.00,Default,,0,0,0,,Mas no estado em que ela está {\i1}em...{\i0}
+Dialogue: 0,1:15:26.20,1:15:28.33,Default,,0,0,0,,É muito perigoso!
+Dialogue: 0,1:15:28.54,1:15:30.29,Default,,0,0,0,,É o único jeito.
+Dialogue: 0,1:15:43.87,1:15:48.00,Default,,0,0,0,,A frota sofreu 63% de baixas!
+Dialogue: 0,1:15:48.20,1:15:51.45,Default,,0,0,0,,Naves #2 e #4, contenham os ninhos de Gauna no lado de estibordo!
+Dialogue: 0,1:15:51.66,1:15:54.45,Default,,0,0,0,,Capitão, o Coletor Esfera 4 foi destruído!
+Dialogue: 0,1:15:54.66,1:15:57.62,Default,,0,0,0,,Esquece isso. Por enquanto, vamos focar em defender a Esfera 7, aquela bem na nossa frente!
+Dialogue: 0,1:15:57.83,1:15:58.50,Default,,0,0,0,,Copiado!
+Dialogue: 0,1:15:58.70,1:16:02.25,Default,,0,0,0,,Apenas as Esferas 6 e 7 sobreviveram.
+Dialogue: 0,1:16:02.45,1:16:05.50,Default,,0,0,0,,Temos que defendê-las custe o que custar.
+Dialogue: 0,1:16:12.70,1:16:13.79,Default,,0,0,0,,Manter a velocidade!
+Dialogue: 0,1:16:14.00,1:16:16.58,Default,,0,0,0,,Se você perder muita velocidade,\NO poço de gravidade de Lem vai te puxar!
+Dialogue: 0,1:16:16.79,1:16:18.00,Default,,0,0,0,,Certo!
+Dialogue: 0,1:16:24.41,1:16:25.45,Default,,0,0,0,,Solicitação de Comunicação
+Dialogue: 0,1:16:25.66,1:16:28.37,Default,,0,0,0,,Um Garde caiu.
+Dialogue: 0,1:16:28.58,1:16:31.16,Default,,0,0,0,,Ga-721, um Gauna do tipo inteligente!
+Dialogue: 0,1:16:31.37,1:16:32.79,Default,,0,0,0,,Morra!
+Dialogue: 0,1:16:36.08,1:16:36.75,Default,,0,0,0,,Droga!
+Dialogue: 0,1:16:36.95,1:16:38.16,Default,,0,0,0,,Não deixe escapar!
+Dialogue: 0,1:16:41.25,1:16:43.66,Default,,0,0,0,,Sinal de Partícula Heigus de alta densidade detectado do Ga-721!
+Dialogue: 0,1:16:43.87,1:16:47.87,Default,,0,0,0,,Não! Ele vai destruir o coletor!
+Dialogue: 0,1:16:48.08,1:16:50.75,Default,,0,0,0,,Objeto voador de alta velocidade se aproximando\Nde fora da área de combate!
+Dialogue: 0,1:16:50.95,1:16:52.29,Default,,0,0,0,,A velocidade dele é incrível!
+Dialogue: 0,1:16:56.16,1:16:58.04,Default,,0,0,0,,O Gauna do Tipo Inteligente se desintegrou!
+Dialogue: 0,1:16:58.25,1:17:00.04,Default,,0,0,0,,O objeto de alta velocidade atingiu ele!
+Dialogue: 0,1:17:00.25,1:17:01.54,Default,,0,0,0,,O {\i1}Yukimori?{\i0}
+Dialogue: 0,1:17:01.79,1:17:03.04,Default,,0,0,0,,
+Dialogue: 0,1:17:04.54,1:17:06.95,Default,,0,0,0,,Não, isso é...!
+Dialogue: 0,1:17:13.95,1:17:16.16,Default,,0,0,0,,O Híbrido Kanata...
+Dialogue: 0,1:17:16.37,1:17:18.00,Default,,0,0,0,,Não, Ochiai!
+Dialogue: 0,1:17:18.20,1:17:19.00,Default,,0,0,0,,Impossível!
+Dialogue: 0,1:17:19.20,1:17:22.75,Default,,0,0,0,,Ele ainda estava fora do sistema estelar quando nós saímos!
+Dialogue: 0,1:17:26.66,1:17:28.12,Default,,0,0,0,,Abatem-no, Garde!
+Dialogue: 0,1:17:28.33,1:17:29.91,Default,,0,0,0,,Ele está atrás das Esferas Coletoras!
+Dialogue: 0,1:17:45.41,1:17:46.62,Default,,0,0,0,,Pegai ele!
+Dialogue: 0,1:17:48.25,1:17:50.54,Default,,0,0,0,,Equipe Honoka, Clasp 3-1!
+Dialogue: 0,1:17:50.75,1:17:51.95,Default,,0,0,0,,Copiado!
+Dialogue: 0,1:18:06.37,1:18:07.58,Default,,0,0,0,,Consegui!
+Dialogue: 0,1:18:13.29,1:18:14.54,Default,,0,0,0,,Ele é resistente!
+Dialogue: 0,1:18:18.41,1:18:19.95,Default,,0,0,0,,O coletor!
+Dialogue: 0,1:18:20.16,1:18:23.25,Default,,0,0,0,,A Ena de Ochiai está se expandindo rapidamente!
+Dialogue: 0,1:18:23.45,1:18:25.08,Default,,0,0,0,,Ele absorveu a energia {\i1}...{\i0}
+Dialogue: 0,1:18:25.29,1:18:26.75,Default,,0,0,0,,Não! Destruam isso agora!
+Dialogue: 0,1:18:26.95,1:18:28.12,Default,,0,0,0,,Mas...
+Dialogue: 0,1:18:28.33,1:18:29.91,Default,,0,0,0,,É melhor do que dar tudo a ele!
+Dialogue: 0,1:18:30.12,1:18:31.33,Default,,0,0,0,,Copiado!
+Dialogue: 0,1:18:40.37,1:18:42.08,Default,,0,0,0,,A Nave #4 está gravemente danificada!
+Dialogue: 0,1:18:42.29,1:18:44.00,Default,,0,0,0,,Cento e vinte Garde foram destruídos!
+Dialogue: 0,1:18:44.20,1:18:46.58,Default,,0,0,0,,Múltiplos Gauna inimigos se desintegraram!
+Dialogue: 0,1:18:46.79,1:18:50.00,Default,,0,0,0,,Ele está atingindo amigo e inimigo {\i1}igualmente...{\i0}
+Dialogue: 0,1:18:55.12,1:18:56.50,Default,,0,0,0,,Aviso: Sinal de Partícula Heigus
+Dialogue: 0,1:18:56.50,1:18:57.95,Default,,0,0,0,,Aviso: Sinal de Partícula Heigus ".Não! A nave-bandeira!
+Dialogue: 0,1:18:57.95,1:18:58.45,Default,,0,0,0,,Oh não! A nave-bandeira!
+Dialogue: 0,1:19:05.75,1:19:06.95,Default,,0,0,0,,
+Dialogue: 0,1:19:12.08,1:19:13.54,Default,,0,0,0,,Pegai ele!
+Dialogue: 0,1:19:17.83,1:19:19.08,Default,,0,0,0,,
+Dialogue: 0,1:19:20.50,1:19:22.25,Default,,0,0,0,,Levem Tsumugi para um biotanque!
+Dialogue: 0,1:19:24.50,1:19:26.33,Default,,0,0,0,,Tanikaze-san!{\i1}{\i0}
+Dialogue: 0,1:19:26.54,1:19:29.66,Default,,0,0,0,,Está tudo bem agora, Tsumugi!
+Dialogue: 0,1:19:34.79,1:19:38.00,Default,,0,0,0,,Ochiayi está indo para a Esfera Coletora 7!
+Dialogue: 0,1:19:40.75,1:19:41.58,Default,,0,0,0,,
+Dialogue: 0,1:19:41.79,1:19:44.50,Default,,0,0,0,,Deixe que eu cuido do Ochiayi!
+Dialogue: 0,1:19:44.70,1:19:45.45,Default,,0,0,0,,O que você vai fazer?
+Dialogue: 0,1:19:45.66,1:19:47.70,Default,,0,0,0,,Armas normais não conseguem penetrar a armadura dele!
+Dialogue: 0,1:19:47.91,1:19:50.95,Default,,0,0,0,,Ele também tem um Emissor de Radiação Gravitônica!
+Dialogue: 0,1:19:51.16,1:19:51.83,Default,,0,0,0,,Até o {\i1}Yukimori...{\i0}
+Dialogue: 0,1:19:52.04,1:19:53.79,Default,,0,0,0,,Eu tenho um plano!
+Dialogue: 0,1:19:58.83,1:20:00.12,Default,,0,0,0,,
+Dialogue: 0,1:20:02.08,1:20:04.50,Default,,0,0,0,,Você veio atrás de mim sozinho?
+Dialogue: 0,1:20:04.70,1:20:08.29,Default,,0,0,0,,Você deve ser o clone de Saito,\NNo portão Tanikaze.
+Dialogue: 0,1:20:10.20,1:20:13.25,Default,,0,0,0,,É exatamente como há\Num século atrás, hein?
+Dialogue: 0,1:20:15.75,1:20:16.95,Default,,0,0,0,,Então...
+Dialogue: 0,1:20:19.75,1:20:22.66,Default,,0,0,0,,O coletor está caindo em Lem!
+Dialogue: 0,1:20:22.87,1:20:24.62,Default,,0,0,0,,Ele derrubou isso sozinho?
+Dialogue: 0,1:20:24.83,1:20:26.41,Default,,0,0,0,,Eu pensei que ele estivesse atrás da energia dele!
+Dialogue: 0,1:20:26.62,1:20:29.08,Default,,0,0,0,,Ochiai ainda está atrás da Esfera Coletora!
+Dialogue: 0,1:20:29.29,1:20:34.45,Default,,0,0,0,,O sistema de propulsão do Série 19 não aguenta essa gravidade.
+Dialogue: 0,1:20:34.66,1:20:39.20,Default,,0,0,0,,Tanikaze, só você e o {\i1}Yukimori{\i0} podem segui-lo.
+Dialogue: 0,1:20:39.41,1:20:42.25,Default,,0,0,0,,Derrotem Ochiai e protejam o coletor!
+Dialogue: 0,1:20:42.45,1:20:43.66,Default,,0,0,0,,Copiado!
+Dialogue: 0,1:20:47.70,1:20:49.66,Default,,0,0,0,,Nossa segunda linha de defesa está prestes a ser rompida!
+Dialogue: 0,1:20:49.87,1:20:51.66,Default,,0,0,0,,O Aglomerado de Gauna ainda está se aproximando!
+Dialogue: 0,1:20:51.87,1:20:53.25,Default,,0,0,0,,Está em curso de colisão conosco!
+Dialogue: 0,1:20:53.45,1:20:55.79,Default,,0,0,0,,Equipe de observação, identificamos seu núcleo primário?
+Dialogue: 0,1:20:56.00,1:20:59.41,Default,,0,0,0,,Reduzimos para 60 candidatos,
+Dialogue: 0,1:20:59.62,1:21:01.75,Default,,0,0,0,,mas não temos certeza de qual é o verdadeiro!
+Dialogue: 0,1:21:01.95,1:21:04.20,Default,,0,0,0,,Mesmo com a energia dos coletores,
+Dialogue: 0,1:21:04.41,1:21:07.25,Default,,0,0,0,,não podemos disparar o emissor tantas vezes!
+Dialogue: 0,1:21:07.45,1:21:08.62,Default,,0,0,0,,Afunile mais!
+Dialogue: 0,1:21:08.83,1:21:09.54,Default,,0,0,0,,Copiado!
+Dialogue: 0,1:21:09.75,1:21:11.75,Default,,0,0,0,,Desloquem todas as nossas unidades defensivas!
+Dialogue: 0,1:21:11.95,1:21:14.33,Default,,0,0,0,,Pare-os na última linha de defesa,\Nnão importa o custo!
+Dialogue: 0,1:21:23.79,1:21:25.00,Default,,0,0,0,,
+Dialogue: 0,1:21:29.83,1:21:33.50,Default,,0,0,0,,Unidade Kunato, o Ga-490 está se aproximando!\NCuidado!
+Dialogue: 0,1:21:34.79,1:21:36.70,Default,,0,0,0,,Pare com isso, Hoshijiro!
+Dialogue: 0,1:21:38.45,1:21:40.04,Default,,0,0,0,,Fique longe!
+Dialogue: 0,1:21:44.45,1:21:47.95,Default,,0,0,0,,Eu finalmente posso me vingar, irmã...
+Dialogue: 0,1:21:51.12,1:21:53.54,Default,,0,0,0,,Todas as unidades, abrirem fogo!
+Dialogue: 0,1:22:02.08,1:22:06.04,Default,,0,0,0,,Ga-722 rompeu a linha de defesa\NNão é só ele e está continuando o combate!
+Dialogue: 0,1:22:10.62,1:22:13.25,Default,,0,0,0,,Eu vou atrasar o Gauna Tipo Inteligente\Ncom o Tsugumori II aprimorado {\i1}.{\i0}
+Dialogue: 0,1:22:13.45,1:22:14.12,Default,,0,0,0,,Certo!
+Dialogue: 0,1:22:14.33,1:22:16.08,Default,,0,0,0,,Equipe Yamano, desliguem\Nseu modo autônomo!
+Dialogue: 0,1:22:16.29,1:22:18.87,Default,,0,0,0,,Vamos lutar contra o Tipo Inteligente!
+Dialogue: 0,1:22:19.08,1:22:20.29,Default,,0,0,0,,Copiado!
+Dialogue: 0,1:22:26.79,1:22:29.83,Default,,0,0,0,,Múltiplos Gaunas inimigos pousaram\Nno porto de lançamento dos Garde!
+Dialogue: 0,1:22:30.04,1:22:31.66,Default,,0,0,0,,Alerta de intrusão de Gauna em vigor!
+Dialogue: 0,1:22:31.87,1:22:36.95,Default,,0,0,0,,Todos os tripulantes, vão para os abrigos,\Ne conectem seus cintos de segurança!
+Dialogue: 0,1:22:37.16,1:22:38.62,Default,,0,0,0,,Todo mundo, mantenham a calma!
+Dialogue: 0,1:22:38.83,1:22:40.75,Default,,0,0,0,,--Estou com medo!\N--Ah não...
+Dialogue: 0,1:22:40.95,1:22:42.29,Default,,0,0,0,,Está tudo bem!
+Dialogue: 0,1:22:50.87,1:22:52.87,Default,,0,0,0,,Múltiplos Gaunas invadiram\No bloco residencial!
+Dialogue: 0,1:22:53.08,1:22:54.70,Default,,0,0,0,,O cofre de Kabizashi foi destruído!
+Dialogue: 0,1:22:54.91,1:22:57.75,Default,,0,0,0,,Os Gardes não conseguem pará-los a tempo!
+Dialogue: 0,1:22:57.95,1:23:02.75,Default,,0,0,0,,Partícula Heigus. Canhão.
+Dialogue: 0,1:23:16.20,1:23:17.41,Default,,0,0,0,,Baixa!
+Dialogue: 0,1:23:23.41,1:23:25.58,Default,,0,0,0,,O Tsugumori 11! Atualizado {\i1}{\i0}
+Dialogue: 0,1:23:25.79,1:23:27.08,Default,,0,0,0,,Sai daqui!
+Dialogue: 0,1:23:40.83,1:23:42.66,Default,,0,0,0,,É rápido! Mas...
+Dialogue: 0,1:23:48.33,1:23:49.87,Default,,0,0,0,,Ali!
+Dialogue: 0,1:23:50.08,1:23:51.29,Default,,0,0,0,,Droga!
+Dialogue: 0,1:23:54.00,1:23:56.29,Default,,0,0,0,,Um Gauna abatido!
+Dialogue: 0,1:23:58.41,1:23:59.62,Default,,0,0,0,,
+Dialogue: 0,1:24:00.70,1:24:03.20,Default,,0,0,0,,Vá, Kunato-san! {\i1}{\i0}
+Dialogue: 0,1:24:03.41,1:24:04.41,Default,,0,0,0,,Copiado!
+Dialogue: 0,1:24:20.45,1:24:21.66,Default,,0,0,0,,Droga!
+Dialogue: 0,1:24:42.70,1:24:44.91,Default,,0,0,0,,Eu consigo fazer isso! Só um pouco mais!
+Dialogue: 0,1:24:47.79,1:24:48.75,Default,,0,0,0,, Munição Esgotada
+Dialogue: 0,1:24:48.87,1:24:50.08,Default,,0,0,0,,O quê?
+Dialogue: 0,1:24:57.75,1:24:59.50,Default,,0,0,0,,É este o fim?
+Dialogue: 0,1:25:00.95,1:25:02.16,Default,,0,0,0,,
+Dialogue: 0,1:25:03.37,1:25:07.41,Default,,0,0,0,,Eu não vou deixar você levar todo o crédito para si mesmo!
+Dialogue: 0,1:25:14.45,1:25:16.87,Default,,0,0,0,,O Gauna Tipo Inteligente se desintegrou!
+Dialogue: 0,1:25:17.08,1:25:21.45,Default,,0,0,0,,Kunato e Yamano destruíram o Gauna dentro do bloco residencial!
+Dialogue: 0,1:25:29.00,1:25:31.62,Default,,0,0,0,,Eu consegui, irmã...
+Dialogue: 0,1:25:33.70,1:25:36.41,Default,,0,0,0,,Bem feito, Yamano.
+Dialogue: 0,1:25:49.75,1:25:52.50,Default,,0,0,0,,Você está fingindo que tem razão na minha linha de tiro, não é?
+Dialogue: 0,1:25:52.70,1:25:58.08,Default,,0,0,0,,Eu suponho que você quer que eu atire e exponha meu porto de disparo?
+Dialogue: 0,1:26:02.75,1:26:05.12,Default,,0,0,0,,O {\i1}Yukimori{\i0} entrou na camada convectiva!
+Dialogue: 0,1:26:05.33,1:26:07.66,Default,,0,0,0,,O assento do piloto da Garde de Tanikaze está aumentando a temperatura!
+Dialogue: 0,1:26:07.87,1:26:10.08,Default,,0,0,0,,A frequência cardíaca dele está excedendo 180!
+Dialogue: 0,1:26:11.54,1:26:14.54,Default,,0,0,0,,Tanikaze, fique longe do núcleo de Lem!
+Dialogue: 0,1:26:14.75,1:26:17.75,Default,,0,0,0,,Ele sabe a temperatura máxima\Nque o {\i1}Yukimori{\i0} aguenta!
+Dialogue: 0,1:26:23.33,1:26:26.33,Default,,0,0,0,,O Aglomerado de Gaunas Grande está\Nprestes a atingir o satélite!
+Dialogue: 0,1:26:37.37,1:26:40.66,Default,,0,0,0,,É {\i1}como se...{\i0} o satélite inteiro fosse só um brinquedo...
+Dialogue: 0,1:26:47.45,1:26:49.37,Default,,0,0,0,,Equipe de observação, vamos!
+Dialogue: 0,1:26:49.58,1:26:50.66,Default,,0,0,0,,Implantação da rede de observação!
+Dialogue: 0,1:26:50.87,1:26:52.70,Default,,0,0,0,,Iniciem a busca pelo núcleo principal!
+Dialogue: 0,1:26:56.08,1:26:59.00,Default,,0,0,0,, Conectando informações de observação
+Dialogue: 0,1:26:59.00,1:27:01.66,Default,,0,0,0,, Liberando Limites de Amplificação (Não Recomendado) (Não Recomendado) (Não Recomendado)
+Dialogue: 0,1:27:06.12,1:27:07.54,Default,,0,0,0,,Encontrei o núcleo principal!
+Dialogue: 0,1:27:07.75,1:27:09.33,Default,,0,0,0,,Conseguimos sair daqui, pessoal!
+Dialogue: 0,1:27:11.33,1:27:14.00,Default,,0,0,0,,Nesta passagem, tudo depende de você agora!
+Dialogue: 0,1:27:19.12,1:27:21.87,Default,,0,0,0,,Por quanto tempo você conseguirá se mover assim?
+Dialogue: 0,1:27:24.41,1:27:26.70,Default,,0,0,0,,Tanikaze está entrando na camada radiativa.
+Dialogue: 0,1:27:26.91,1:27:29.12,Default,,0,0,0,,A temperatura do assento do piloto dele está subindo rápido!
+Dialogue: 0,1:27:29.33,1:27:30.16,Default,,0,0,0,,Ele não consegue aguentar!
+Dialogue: 0,1:27:30.37,1:27:31.25,Default,,0,0,0,,
+Dialogue: 0,1:27:31.45,1:27:34.83,Default,,0,0,0,,Até o {\i1}Yukimori{\i0} não vai durar muito tempo!
+Dialogue: 0,1:27:35.04,1:27:38.08,Default,,0,0,0,,Os sistemas de resfriamento dele não estão dando conta!
+Dialogue: 0,1:27:38.29,1:27:41.04,Default,,0,0,0,,Os motores dele podem estar bem,\Nmas ele não vai aguentar!
+Dialogue: 0,1:27:44.62,1:27:47.87,Default,,0,0,0,,Seu corpo humano não vai aguentar mais.
+Dialogue: 0,1:27:51.50,1:27:52.70,Default,,0,0,0,,Você é meu.
+Dialogue: 0,1:28:06.66,1:28:07.87,Default,,0,0,0,,O quê?
+Dialogue: 0,1:28:24.54,1:28:25.91,Default,,0,0,0,,Você...
+Dialogue: 0,1:28:26.87,1:28:28.83,Default,,0,0,0,,Você fingiu desacelerar?
+Dialogue: 0,1:28:29.04,1:28:30.62,Default,,0,0,0,,Detonação secundária bem-sucedida.
+Dialogue: 0,1:28:31.91,1:28:33.54,Default,,0,0,0,,Núcleo primário avistado!
+Dialogue: 0,1:28:35.58,1:28:36.79,Default,,0,0,0,,
+Dialogue: 0,1:28:38.75,1:28:43.25,Default,,0,0,0,,A Ena no seu corpo se anexou ao seu cérebro.
+Dialogue: 0,1:28:43.45,1:28:46.91,Default,,0,0,0,,Fora deste dispositivo de suporte à vida, você vai morrer.
+Dialogue: 0,1:28:49.66,1:28:51.62,Default,,0,0,0,,Sinto muito, Lalah!
+Dialogue: 0,1:28:53.50,1:28:56.37,Default,,0,0,0,,É tudo que eu posso fazer agora.
+Dialogue: 0,1:28:56.58,1:28:58.75,Default,,0,0,0,,Mas um dia, eu juro...
+Dialogue: 0,1:28:58.95,1:29:00.95,Default,,0,0,0,,...Eu vou tirar você daí!
+Dialogue: 0,1:29:01.16,1:29:03.95,Default,,0,0,0,,Eu amo isso!
+Dialogue: 0,1:29:04.16,1:29:07.04,Default,,0,0,0,,Obrigado, Ochiai!
+Dialogue: 0,1:29:16.20,1:29:19.95,Default,,0,0,0,,Então você vai me matar, Tanikaze?
+Dialogue: 0,1:29:21.70,1:29:27.12,Default,,0,0,0,,Alguém pensa no futuro da humanidade tanto quanto eu?
+Dialogue: 0,1:29:27.33,1:29:32.79,Default,,0,0,0,,Por mil anos, ninguém conseguiu falar com os Gauna.
+Dialogue: 0,1:29:33.87,1:29:37.20,Default,,0,0,0,,E eu consegui falar com eles.
+Dialogue: 0,1:29:37.41,1:29:40.45,Default,,0,0,0,,Você não pode destruir o Grande Aglomerado de Gauna!
+Dialogue: 0,1:29:41.70,1:29:46.12,Default,,0,0,0,,Isso'{\i1}s...{\i0} um dispositivo de memória!
+Dialogue: 0,1:29:46.33,1:29:50.25,Default,,0,0,0,,Uma coleção de todas as informações sobre o universo...
+Dialogue: 0,1:29:50.45,1:29:53.95,Default,,0,0,0,,Levaria milhares de anos para entender tudo...
+Dialogue: 0,1:29:54.16,1:29:57.29,Default,,0,0,0,,Agora que eu me tornei a forma de vida suprema,
+Dialogue: 0,1:29:57.50,1:30:00.91,Default,,0,0,0,,Eu posso resolver seus mistérios...
+Dialogue: 0,1:30:01.12,1:30:06.33,Default,,0,0,0,,Eu posso até deixar a semente da humanidade para sempre...
+Dialogue: 0,1:30:07.70,1:30:10.45,Default,,0,0,0,,Com minha existência,
+Dialogue: 0,1:30:10.66,1:30:14.58,Default,,0,0,0,,a humanidade superou sua incompletude como forma de vida...
+Dialogue: 0,1:30:17.62,1:30:20.12,Default,,0,0,0,,E você iria...
+Dialogue: 0,1:30:20.33,1:30:24.04,Default,,0,0,0,,...arruinar tudo isso?
+Dialogue: 0,1:30:24.25,1:30:29.79,Default,,0,0,0,,Você não tem o direito de acabar com nossa espécie!
+Dialogue: 0,1:30:31.66,1:30:33.70,Default,,0,0,0,,Eu sou um Cavaleiro de {\i1}Sidonia.{\i0}
+Dialogue: 0,1:30:35.20,1:30:39.87,Default,,0,0,0,,Eu tenho que te matar.
+Dialogue: 0,1:30:40.08,1:30:41.79,Default,,0,0,0,,Espera!
+Dialogue: 0,1:30:42.00,1:30:46.00,Default,,0,0,0,,Você não quer {\i1}ver{\i0}\NShizuka Hoshijiro de novo?
+Dialogue: 0,1:30:47.08,1:30:51.29,Default,,0,0,0,,Eu posso realizar seu desejo!
+Dialogue: 0,1:31:04.70,1:31:09.12,Default,,0,0,0,,Tanikaze destruiu Kanata\Ne garantiu o coletor!
+Dialogue: 0,1:31:09.33,1:31:11.37,Default,,0,0,0,,Estou voltando para a base!
+Dialogue: 0,1:31:11.58,1:31:12.37,Default,,0,0,0,,Conseguimos!
+Dialogue: 0,1:31:12.58,1:31:13.75,Default,,0,0,0,,
+Dialogue: 0,1:31:14.83,1:31:18.37,Default,,0,0,0,,A temperatura ainda está subindo\Ndentro do Garde de Tanikaze!
+Dialogue: 0,1:31:18.58,1:31:21.50,Default,,0,0,0,,O dano está destruindo a estanqueidade!
+Dialogue: 0,1:31:21.75,1:31:22.83,Default,,0,0,0,,Limite de Sobrevivência do Piloto da Garde Atingido
+Dialogue: 0,1:31:22.83,1:31:24.62,Default,,0,0,0,,Limite de Sobrevivência do Piloto da Garde Atingido"\N"Mudando para Modo Autônomo
+Dialogue: 0,1:31:30.29,1:31:32.08,Default,,0,0,0,,Agora depende de você...
+Dialogue: 0,1:31:33.70,1:31:34.95,Default,,0,0,0,,{\i1}...todos.{\i0}
+Dialogue: 0,1:31:35.16,1:31:37.54,Default,,0,0,0,,O {\i1}Yukimori{\i0} mudou\Npara modo autônomo!
+Dialogue: 0,1:31:37.75,1:31:39.70,Default,,0,0,0,,Faltam 50.000 quilômetros até {\i1}Mizuki!{\i0}
+Dialogue: 0,1:31:39.91,1:31:40.83,Default,,0,0,0,,Autônomo...?
+Dialogue: 0,1:31:41.04,1:31:42.75,Default,,0,0,0,,Ele está disposto a morrer?
+Dialogue: 0,1:31:42.95,1:31:46.45,Default,,0,0,0,,O Garde estará bem,\Nmas o piloto não...
+Dialogue: 0,1:31:46.66,1:31:50.25,Default,,0,0,0,,Era a única maneira de derrotar Ochiai...
+Dialogue: 0,1:31:50.45,1:31:54.45,Default,,0,0,0,,Tanikaze? Você sabia que isso aconteceria?
+Dialogue: 0,1:31:54.66,1:31:56.29,Default,,0,0,0,,Não desista, Tanikaze!
+Dialogue: 0,1:31:56.50,1:32:00.33,Default,,0,0,0,,Você sempre voltou para casa vivo, certo?
+Dialogue: 0,1:32:06.41,1:32:09.75,Default,,0,0,0,,Adeus, Tsumugi...
+Dialogue: 0,1:32:09.95,1:32:11.45,Default,,0,0,0,,Tanikaze-san!{\i1}{\i0}
+Dialogue: 0,1:32:21.62,1:32:24.37,Default,,0,0,0,,Tsu-Tsumugi deixou seu biotanque!
+Dialogue: 0,1:32:24.58,1:32:28.54,Default,,0,0,0,,Tsumugi, sua Ena não pode te ajudar\Ndentro da estrela! Volte!
+Dialogue: 0,1:32:36.87,1:32:37.58,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,1:32:37.79,1:32:39.66,Default,,0,0,0,,Você não consegue fazer isso no estado em que está!
+Dialogue: 0,1:32:49.62,1:32:52.45,Default,,0,0,0,,Não, fique longe, Tsumugi!
+Dialogue: 0,1:32:53.62,1:32:55.08,Default,,0,0,0,,
+Dialogue: 0,1:32:57.25,1:32:58.70,Default,,0,0,0,,A massa dela está caindo!
+Dialogue: 0,1:32:58.91,1:33:00.20,Default,,0,0,0,,A Ena está se desgastando!
+Dialogue: 0,1:33:00.41,1:33:01.54,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,1:33:01.75,1:33:03.20,Default,,0,0,0,,Volte, Tsumugi!
+Dialogue: 0,1:33:03.41,1:33:04.66,Default,,0,0,0,,Estou bem!
+Dialogue: 0,1:33:08.54,1:33:10.12,Default,,0,0,0,,Tanikaze-san.{\i1}{\i0}
+Dialogue: 0,1:33:10.33,1:33:13.41,Default,,0,0,0,,Tsumugi... Por quê?
+Dialogue: 0,1:33:14.79,1:33:18.87,Default,,0,0,0,,Deixe-me ajudar você.
+Dialogue: 0,1:33:21.75,1:33:25.33,Default,,0,0,0,,A temperatura na Garde de Tanikaze está caindo!
+Dialogue: 0,1:33:25.54,1:33:28.16,Default,,0,0,0,,Sua vedação está se recuperando?
+Dialogue: 0,1:33:28.37,1:33:30.00,Default,,0,0,0,,Ela usou o Ena dela para selar isso?
+Dialogue: 0,1:33:30.20,1:33:31.12,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,1:33:31.33,1:33:34.37,Default,,0,0,0,,N-Eu estou bem!
+Dialogue: 0,1:33:34.58,1:33:35.95,Default,,0,0,0,,Por favor, Tsumugi!
+Dialogue: 0,1:33:36.16,1:33:37.91,Default,,0,0,0,,Volte!
+Dialogue: 0,1:33:40.75,1:33:43.33,Default,,0,0,0,,Não... Não! Não!
+Dialogue: 0,1:33:43.54,1:33:44.75,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,1:33:44.95,1:33:46.37,Default,,0,0,0,,
+Dialogue: 0,1:33:48.25,1:33:49.75,Default,,0,0,0,,Eu...
+Dialogue: 0,1:33:51.58,1:33:54.16,Default,,0,0,0,,Estou feliz...
+Dialogue: 0,1:33:55.70,1:33:57.20,Default,,0,0,0,,...por ter nascido.
+Dialogue: 0,1:34:00.95,1:34:02.37,Default,,0,0,0,,Obrigado(a).
+Dialogue: 0,1:34:02.95,1:34:04.29,Default,,0,0,0,, Desintegração Confirmada ".
+Dialogue: 0,1:34:17.12,1:34:22.54,Default,,0,0,0,,Tsumugi!
+Dialogue: 0,1:34:30.83,1:34:32.25,Default,,0,0,0,,Coletadores conectados!
+Dialogue: 0,1:34:32.45,1:34:33.83,Default,,0,0,0,,Início da transmissão de energia!
+Dialogue: 0,1:34:37.87,1:34:40.87,Default,,0,0,0,,Aquele é o coletor que Tanikaze-{\i1}san{\i0}\Ne Tsumugi protegeram...
+Dialogue: 0,1:34:41.08,1:34:43.79,Default,,0,0,0,,Por favor, protejam {\i1}Sidonia!{\i0}
+Dialogue: 0,1:34:44.00,1:34:46.20,Default,,0,0,0,,Está tão perto...
+Dialogue: 0,1:34:46.41,1:34:48.04,Default,,0,0,0,,Não vai dar tempo.
+Dialogue: 0,1:34:48.25,1:34:50.20,Default,,0,0,0,,{\i1}Sidonia{\i0} vai {\i1}ser...{\i0}
+Dialogue: 0,1:34:50.41,1:34:52.83,Default,,0,0,0,,O Aglomerado Gauna Grande\Nfará contato iminente!
+Dialogue: 0,1:34:58.66,1:35:00.87,Default,,0,0,0,,A energia está vindo do coletor!
+Dialogue: 0,1:35:01.08,1:35:03.25,Default,,0,0,0,,Carga de energia 93%
+Dialogue: 0,1:35:03.45,1:35:05.29,Default,,0,0,0,,Ultrapassou o ponto crítico!
+Dialogue: 0,1:35:05.50,1:35:07.83,Default,,0,0,0,,Mire no núcleo primário\Ndo Grande Aglomerado de Gaunas!
+Dialogue: 0,1:35:08.04,1:35:09.62,Default,,0,0,0,,Alvo travado!
+Dialogue: 0,1:35:09.83,1:35:12.00,Default,,0,0,0,,Emissor de Radiação Gravitônica,\Ndispositivo de segurança final, liberado!
+Dialogue: 0,1:35:17.95,1:35:19.16,Default,,0,0,0,,Fogo.
+Dialogue: 0,1:35:34.12,1:35:36.29,Default,,0,0,0,,O núcleo ainda está lá!
+Dialogue: 0,1:35:36.50,1:35:37.75,Default,,0,0,0,,Ele não desintegrou!
+Dialogue: 0,1:35:37.95,1:35:39.83,Default,,0,0,0,,Há uma onda gravitacional enorme\Nbem na nossa frente!
+Dialogue: 0,1:35:40.04,1:35:42.41,Default,,0,0,0,,Ele usou gravidade para desviar?
+Dialogue: 0,1:35:42.62,1:35:44.95,Default,,0,0,0,,Preparem o Canhão de Massa Pesada.
+Dialogue: 0,1:35:45.16,1:35:46.83,Default,,0,0,0,,O Canhão de Massa do Eixo Principal?
+Dialogue: 0,1:35:47.04,1:35:49.87,Default,,0,0,0,,Vamos atirar enquanto o núcleo principal deles estiver exposto. Rápido!
+Dialogue: 0,1:35:50.08,1:35:52.62,Default,,0,0,0,,Copiado! Quinhentos quilômetros até o impacto!
+Dialogue: 0,1:35:52.83,1:35:54.83,Default,,0,0,0,,O cano do Eixo Principal está pronto para uso!
+Dialogue: 0,1:35:55.04,1:35:58.04,Default,,0,0,0,,Certo, todos fora do cano! Rápido!
+Dialogue: 0,1:35:58.25,1:35:59.83,Default,,0,0,0,,Munição de Massa Kabizashi artificial, carregada!
+Dialogue: 0,1:36:00.04,1:36:02.70,Default,,0,0,0,,Este cano e munição foram um presente de nossos ancestrais...
+Dialogue: 0,1:36:02.91,1:36:05.41,Default,,0,0,0,,Por favor, protejam {\i1}Sidônia!{\i0}
+Dialogue: 0,1:36:05.50,1:36:05.66,Default,,0,0,0,,Carregamento de Munição Completo
+Dialogue: 0,1:36:05.66,1:36:08.33,Default,,0,0,0,,Carregamento de Munição Completo"\NCanhão de Massa do Eixo Principal carregado!
+Dialogue: 0,1:36:08.33,1:36:08.45,Default,,0,0,0,,Carregamento de Munição Completo
+Dialogue: 0,1:36:08.54,1:36:11.37,Default,,0,0,0,,Dutos Heigus e acelerador de balas\Nconectados!
+Dialogue: 0,1:36:11.58,1:36:13.00,Default,,0,0,0,,Acionem os motores principais!
+Dialogue: 0,1:36:13.20,1:36:15.33,Default,,0,0,0,,O Aglomerado de Gaunas!
+Dialogue: 0,1:36:15.54,1:36:17.41,Default,,0,0,0,,Abrir porta de arma 1!
+Dialogue: 0,1:36:26.62,1:36:27.83,Default,,0,0,0,,Fogo.
+Dialogue: 0,1:36:52.25,1:36:55.54,Default,,0,0,0,,O Grande Aglomerado de Gaunas se desintegrou!
+Dialogue: 0,1:37:04.08,1:37:05.75,Default,,0,0,0,,Imagens da {\i1}Sidonia!{\i0}
+Dialogue: 0,1:37:05.95,1:37:07.91,Default,,0,0,0,,Eles destruíram o Grande Aglomerado de Gaunas!
+Dialogue: 0,1:37:08.12,1:37:09.37,Default,,0,0,0,,Vencemos.
+Dialogue: 0,1:37:09.58,1:37:12.04,Default,,0,0,0,,Nós conseguimos {\i1}isso... Nós{\i0} realmente conseguimos.
+Dialogue: 0,1:37:12.25,1:37:12.87,Default,,0,0,0,,Sim.
+Dialogue: 0,1:37:13.08,1:37:16.37,Default,,0,0,0,,Nós vencemos. Vencemos!
+Dialogue: 0,1:37:30.45,1:37:33.66,Default,,0,0,0,,Está tudo bem agora. Beba isto.
+Dialogue: 0,1:37:33.87,1:37:34.62,Default,,0,0,0,,Obrigado(a).
+Dialogue: 0,1:37:34.83,1:37:36.83,Default,,0,0,0,,Aí está ela. Ali.
+Dialogue: 0,1:37:37.04,1:37:38.62,Default,,0,0,0,,Capitão, trouxemos uma maca!
+Dialogue: 0,1:37:38.83,1:37:40.33,Default,,0,0,0,,Capitão?
+Dialogue: 0,1:37:40.54,1:37:42.12,Default,,0,0,0,,De jeito nenhum...
+Dialogue: 0,1:37:42.33,1:37:44.29,Default,,0,0,0,,É uma honra! Estou bem!
+Dialogue: 0,1:37:44.50,1:37:46.08,Default,,0,0,0,,Não se mexa.
+Dialogue: 0,1:37:46.29,1:37:48.54,Default,,0,0,0,,Ei, o que houve?
+Dialogue: 0,1:37:48.75,1:37:51.75,Default,,0,0,0,,A máscara? Estava no caminho, então eu a tirei.
+Dialogue: 0,1:38:01.00,1:38:05.75,Default,,0,0,0,,Faz séculos que não vejo essa expressão no seu {\i1}rosto...{\i0}
+Dialogue: 0,1:38:11.66,1:38:12.95,Default,,0,0,0,,
+Dialogue: 0,1:38:17.16,1:38:18.66,Default,,0,0,0,,Tsumugi...
+Dialogue: 0,1:38:23.58,1:38:27.25,Default,,0,0,0,,A poluição Ena do Planeta Sete foi encontrada como mínima.
+Dialogue: 0,1:38:27.45,1:38:30.33,Default,,0,0,0,,As autoridades anunciaram sua intenção de imediatamente
+Dialogue: 0,1:38:30.54,1:38:33.95,Default,,0,0,0,,Começar a melhorar o ambiente e iniciar a colonização.
+Dialogue: 0,1:38:35.83,1:38:38.75,Default,,0,0,0,,Ela descobriu como funciona a tecnologia de cópia de personalidade do verme de sangue?
+Dialogue: 0,1:38:38.95,1:38:40.91,Default,,0,0,0,,Uau, Vovó...
+Dialogue: 0,1:38:41.12,1:38:47.25,Default,,0,0,0,,E essa Ena estava agarrada a um vão profundo, em um vão profundo no {\i1}Yukimori.{\i0}
+Dialogue: 0,1:38:47.45,1:38:49.54,Default,,0,0,0,,Isso significa que... {\i1}significa...? {\i0}
+Dialogue: 0,1:39:04.25,1:39:09.25,Default,,0,0,0,,Hum, nós encontramos isso durante os esforços de reconstrução.
+Dialogue: 0,1:39:21.04,1:39:22.29,Default,,0,0,0,,Tsumugi...
+Dialogue: 0,1:39:23.45,1:39:27.70,Default,,0,0,0,,Tanikaze-san, {\i1}está tudo bem?{\i0}
+Dialogue: 0,1:39:31.45,1:39:34.00,Default,,0,0,0,,Desculpe, isso é embaraçoso.
+Dialogue: 0,1:39:34.20,1:39:36.08,Default,,0,0,0,,Não...
+Dialogue: 0,1:39:36.29,1:39:38.25,Default,,0,0,0,,--Tchau!\N--Desculpa...
+Dialogue: 0,1:39:39.79,1:39:41.50,Default,,0,0,0,,--Ele está bem?\N--Sim!
+Dialogue: 0,1:39:46.95,1:39:48.29,Default,,0,0,0,,Tanikaze-san.{\i1}.{\i0}
+Dialogue: 0,1:39:59.95,1:40:01.50,Default,,0,0,0,,Você realmente está bem?
+Dialogue: 0,1:40:01.70,1:40:04.79,Default,,0,0,0,,Sim. Eu consigo andar por conta própria.
+Dialogue: 0,1:40:09.87,1:40:13.25,Default,,0,0,0,,Um, dois.
+Dialogue: 0,1:40:13.45,1:40:14.50,Default,,0,0,0,,Um...
+Dialogue: 0,1:40:22.20,1:40:28.58,Default,,0,0,0,,Não... É você, Tsumugi?
+Dialogue: 0,1:40:35.87,1:40:40.33,Default,,0,0,0,,A vovó descobriu como era fácil transferir a personalidade de Ochiai...
+Dialogue: 0,1:40:40.54,1:40:42.95,Default,,0,0,0,,...para o corpo de Hoshijiro, transferindo a personalidade de Tsumugi...
+Dialogue: 0,1:40:43.16,1:40:48.33,Default,,0,0,0,,...que os Gauna haviam regenerado era simples.
+Dialogue: 0,1:40:51.50,1:40:56.08,Default,,0,0,0,,Eu achei que nunca mais {\i1}veria{\i0} você...
+Dialogue: 0,1:41:02.16,1:41:03.62,Default,,0,0,0,,Tanikaze-san? {\i1}{\i0}
+Dialogue: 0,1:41:05.37,1:41:08.16,Default,,0,0,0,,Uhm... Eu estou...
+Dialogue: 0,1:41:08.37,1:41:10.33,Default,,0,0,0,,Eu sou humano(a) agora!
+Dialogue: 0,1:41:10.54,1:41:13.00,Default,,0,0,0,,Você ainda gosta de mim nesta forma?
+Dialogue: 0,1:41:15.62,1:41:18.29,Default,,0,0,0,,Bem-vinda de volta, Tsumugi!
+Dialogue: 0,1:41:19.66,1:41:22.33,Default,,0,0,0,,Viva! Tanikaze-{\i1}san!{\i0}
+Dialogue: 0,1:41:22.54,1:41:25.00,Default,,0,0,0,,Oba! Oba!
+Dialogue: 0,1:41:39.75,1:41:40.83,Default,,0,0,0,,Não!
+Dialogue: 0,1:41:41.04,1:41:44.58,Default,,0,0,0,,Nós dissemos que iríamos todos quando o papai voltasse!
+Dialogue: 0,1:41:45.75,1:41:47.16,Default,,0,0,0,,Eu consigo ir sozinha!
+Dialogue: 0,1:41:47.37,1:41:49.45,Default,,0,0,0,,Espera, Nodoka!
+Dialogue: 0,1:41:50.04,1:41:52.54,Default,,0,0,0,,Buro Ambiental
+Dialogue: 0,1:41:53.29,1:41:54.66,Default,,0,0,0,,Nodoka!
+Dialogue: 0,1:41:59.45,1:42:04.33,Default,,0,0,0,,Dia 26, Mês 13 do Ano Sete-Quatro.
+Dialogue: 0,1:42:04.54,1:42:09.20,Default,,0,0,0,,{\i1}Sidonia{\i0} está partindo em sua jornada novamente,
+Dialogue: 0,1:42:09.41,1:42:11.50,Default,,0,0,0,,com cerca da metade da nave decidindo ficar para trás.
+Dialogue: 0,1:42:18.58,1:42:20.70,Default,,0,0,0,,Nodoka-chan!
+Dialogue: 0,1:42:20.91,1:42:22.33,Default,,0,0,0,,Izana-chan!
+Dialogue: 0,1:42:25.79,1:42:27.20,Default,,0,0,0,,Yuhata!
+Dialogue: 0,1:42:27.41,1:42:28.87,Default,,0,0,0,,Faz tanto tempo.
+Dialogue: 0,1:42:32.79,1:42:36.33,Default,,0,0,0,,Eu vou ser um piloto incrível como você!
+Dialogue: 0,1:42:36.54,1:42:37.41,Default,,0,0,0,,Boa sorte.
+Dialogue: 0,1:42:37.62,1:42:39.33,Default,,0,0,0,,Deixem {\i1}Sidonia{\i0} comigo.{\i1}{\i0}
+Dialogue: 0,1:42:39.54,1:42:41.50,Default,,0,0,0,,Estou contando com você, Kunato.
+Dialogue: 0,1:42:46.62,1:42:50.50,Default,,0,0,0,,Izana-{\i1}chan,{\i0} quando nós nos encontraremos de novo?
+Dialogue: 0,1:42:50.70,1:42:52.54,Default,,0,0,0,,Será que acontecerá algum dia?
+Dialogue: 0,1:42:52.75,1:42:57.83,Default,,0,0,0,,Eu não sei, mas se você estiver em apuros,\Neu prometo que estarei aí para você.
+Dialogue: 0,1:42:58.04,1:43:02.25,Default,,0,0,0,,Então, quando eu estiver em apuros,\Nvenha me ajudar, ok?
+Dialogue: 0,1:43:02.45,1:43:03.66,Default,,0,0,0,,Certo!
+Dialogue: 0,1:43:04.87,1:43:08.95,Default,,0,0,0,,Capitão Midorikawa, a cerimônia de partida\Nestá prestes a começar!
+Dialogue: 0,1:43:20.16,1:43:24.12,Default,,0,0,0,,A Nave Semente {\i1}Sidonia{\i0} partirá agora\Nem busca de novas terras!

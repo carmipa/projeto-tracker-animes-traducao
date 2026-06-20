@@ -1,0 +1,349 @@
+﻿[Script Info]
+Title: Français (France)
+Original Script: cr_fr  [http://www.crunchyroll.com/user/cr_fr]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Italique,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Titre,Arial,51,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,1011,30,240,1
+Style: Sign1,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,3,30,141,750,1
+Style: Sign2,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,3,0,120,735,1
+Style: TiretsDefault,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,1,60,6,75,1
+Style: Sign3,Arial,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,3,0,195,489,1
+
+Style: OPCN,FZXiaoBiaoSong-B05,52,&H00FEFEFE,&H00000000,&H00000AAE,&H00000000,0,0,0,0,100,100,4,0,1,2,0,2,60,60,20,1
+Style: EDCN,FZXiaoBiaoSong-B05,48,&H00FEFEFE,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,4,0,1,2,0,2,60,60,25,1
+
+
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Artesia!\N Acorda, Artesia!
+Dialogue: 0,0:00:03.56,0:00:10.23,Sign1,sign,0,0,0,,{\fad(100,0)}ESPANHA – ANDALOUSIA
+Dialogue: 0,0:00:03.73,0:00:06.26,Default,,0,0,0,,Você é daqui, jovem garota?
+Dialogue: 0,0:00:06.76,0:00:10.66,Default,,0,0,0,,Você tem 10 anos? Não parece.
+Dialogue: 0,0:00:12.41,0:00:14.30,Default,,0,0,0,,Você tem personalidade.
+Dialogue: 0,0:00:14.44,0:00:15.66,Default,,0,0,0,,Obrigado pela sua ajuda.
+Dialogue: 0,0:00:16.06,0:00:18.53,Default,,0,0,0,,Você será um excelente médico.
+Dialogue: 0,0:00:19.30,0:00:20.73,Default,,0,0,0,,Você mora lá?
+Dialogue: 0,0:00:20.86,0:00:22.41,Default,,0,0,0,,Que coisa!
+Dialogue: 0,0:00:23.52,0:00:26.12,Default,,0,0,0,,Então,\NVocê é uma verdadeira princesa?
+Dialogue: 0,0:01:58.26,0:02:03.01,Titre,sign,0,0,0,,{\fad(1000,1200)\blur2}EPISÓDIO 3\N{\fs66}ÉDOUARD E SAYLA
+Dialogue: 0,0:02:03.35,0:02:05.27,Default,,0,0,0,,Pai!
+Dialogue: 0,0:02:05.46,0:02:06.39,Default,,0,0,0,,Olá!
+Dialogue: 0,0:02:06.56,0:02:08.31,Default,,0,0,0,,Vamos, Srta. Sayla!
+Dialogue: 0,0:02:08.54,0:02:10.75,TiretsDefault,,231,0,0,,– Desinfetem-se!\N– É ela?
+Dialogue: 0,0:02:10.90,0:02:11.69,Default,,0,0,0,,Absolutamente!
+Dialogue: 0,0:02:12.02,0:02:14.69,Default,,0,0,0,,Pelo que posso ver...
+Dialogue: 0,0:02:14.90,0:02:17.15,Default,,0,0,0,,Parece uma verdadeira família,\NNão é mesmo?
+Dialogue: 0,0:02:17.40,0:02:18.78,Default,,0,0,0,,Srta. Sayla!
+Dialogue: 0,0:02:24.78,0:02:28.16,Default,,0,0,0,,Sr. Casval? Fique concentrado!
+Dialogue: 0,0:02:29.12,0:02:32.59,Default,,0,0,0,,O conceito de Newtype é originário
+Dialogue: 0,0:02:32.72,0:02:35.34,Default,,0,0,0,,da teoria da evolução\Ndo desenvolvimento humano,
+Dialogue: 0,0:02:35.76,0:02:39.40,Default,,0,0,0,,e cristaliza o objetivo\Npara onde tendem os habitantes do espaço.
+Dialogue: 0,0:02:39.74,0:02:43.06,Default,,0,0,0,,Mas, desde sempre,\Nos profetas foram solitários.
+Dialogue: 0,0:02:43.44,0:02:47.12,Default,,0,0,0,,Até mesmo o pensamento de Deikun,\Na origem, caiu em...
+Dialogue: 0,0:02:49.62,0:02:52.31,Default,,0,0,0,,Você me escuta, senhor Casval?
+Dialogue: 0,0:02:52.65,0:02:54.27,Default,,0,0,0,,Hein? Ah, sim.
+Dialogue: 0,0:02:57.57,0:02:59.74,Default,,0,0,0,,Esta evolução só será possível
+Dialogue: 0,0:02:59.86,0:03:03.28,Default,,0,0,0,,uma vez que a humanidade colonize o espaço
+Dialogue: 0,0:03:03.40,0:03:06.29,Default,,0,0,0,,e considere a Terra como uma entidade viva
+Dialogue: 0,0:03:06.45,0:03:09.25,Default,,0,0,0,,Os Newtypes se compreenderão transcendentemente
+Dialogue: 0,0:03:09.40,0:03:11.16,Default,,0,0,0,,os modos de comunicação.
+Dialogue: 0,0:03:11.29,0:03:12.51,Default,,0,0,0,,Isso não é tudo!
+Dialogue: 0,0:03:12.63,0:03:17.53,Default,,0,0,0,,Eles adquirirão novas aptidões que lhes permitirão...
+Dialogue: 0,0:03:17.76,0:03:19.47,Default,,0,0,0,,O que está acontecendo comigo?
+Dialogue: 0,0:03:20.13,0:03:23.93,Default,,0,0,0,,Don Téabolo, eu lhe agradeço\Npor emprestar suas terras.
+Dialogue: 0,0:03:24.09,0:03:25.68,Default,,0,0,0,,Por favor.
+Dialogue: 0,0:03:25.94,0:03:28.89,Default,,0,0,0,,Ajudar um comissário superior\Né para mim uma honra.
+Dialogue: 0,0:03:29.25,0:03:33.72,Default,,0,0,0,,Desde que vocês se encarreguem\Nda segurança e da higiene.
+Dialogue: 0,0:03:41.74,0:03:45.32,Default,,0,0,0,,Pois é evidente\Nque seu pai foi envenenado.
+Dialogue: 0,0:03:45.91,0:03:49.24,Default,,0,0,0,,Eles enfraqueceram seu coração\Nfazendo-o tomar
+Dialogue: 0,0:03:49.36,0:03:51.29,Default,,0,0,0,,um veneno particular continuamente.
+Dialogue: 0,0:03:54.88,0:03:58.17,Default,,0,0,0,,Você chegou a tempo, senhorita Artesia!
+Dialogue: 0,0:03:58.63,0:04:00.38,Default,,0,0,0,,Ainda essa história de veneno?
+Dialogue: 0,0:04:02.14,0:04:04.51,Default,,0,0,0,,Édouard, eu...
+Dialogue: 0,0:04:06.03,0:04:07.22,Default,,0,0,0,,Você está se sentindo mal?
+Dialogue: 0,0:04:11.14,0:04:13.80,Default,,0,0,0,,Você está com febre.\NPode ser uma gripe?
+Dialogue: 0,0:04:14.19,0:04:16.44,Default,,0,0,0,,Tome um remédio\Ne vá descansar.
+Dialogue: 0,0:04:16.58,0:04:19.36,Default,,0,0,0,,Sr. Casval,\Nvoltaremos a nos encontrar mais tarde!
+Dialogue: 0,0:04:19.52,0:04:23.79,Default,,0,0,0,,O nome dele é Édouard.\Ne o meu, Sayla Mass.
+Dialogue: 0,0:04:25.22,0:04:26.61,Default,,0,0,0,,Bem! Bem!
+Dialogue: 0,0:04:26.76,0:04:30.97,Default,,0,0,0,,Dizem que a juventude\Né um terreno fértil, mas é...
+Dialogue: 0,0:04:31.10,0:04:32.37,Default,,0,0,0,,O que está acontecendo?
+Dialogue: 0,0:04:32.87,0:04:35.00,Default,,0,0,0,,"Ele" chegou.
+Dialogue: 0,0:04:35.32,0:04:37.25,Default,,0,0,0,,Ah! Eis ele finalmente!
+Dialogue: 0,0:04:48.80,0:04:50.89,Default,,0,0,0,,Você tem uma audácia incrível!
+Dialogue: 0,0:04:51.31,0:04:54.58,Default,,0,0,0,,Um funcionário do escritório de Saúde?\NBobagem!
+Dialogue: 0,0:04:55.19,0:04:59.15,Default,,0,0,0,,Fale!\NDo que vocês estavam falando afinal?
+Dialogue: 0,0:04:59.82,0:05:01.15,Default,,0,0,0,,Desculpe!
+Dialogue: 0,0:05:01.34,0:05:04.91,Default,,0,0,0,,Vocês planejavam\Na uma revolta armada em Side-3?
+Dialogue: 0,0:05:05.06,0:05:08.70,Default,,0,0,0,,E tudo isso nas minhas costas?\NÉ um absurdo!
+Dialogue: 0,0:05:08.84,0:05:11.16,Default,,0,0,0,,Aliás,\Nisso nunca teria funcionado!
+Dialogue: 0,0:05:12.22,0:05:13.36,Default,,0,0,0,,Quem...
+Dialogue: 0,0:05:13.83,0:05:15.62,Default,,0,0,0,,Quem não arrisca, não ganha!
+Dialogue: 0,0:05:16.18,0:05:19.64,Default,,0,0,0,,Anaheim prometeu\Nsua total apoio!
+Dialogue: 0,0:05:19.84,0:05:22.68,Default,,0,0,0,,Eles fornecerão armas\Ne fundos!
+Dialogue: 0,0:05:22.82,0:05:26.47,Default,,0,0,0,,Eles farão pressão sobre a Federação\Npara obter seu apoio!
+Dialogue: 0,0:05:26.74,0:05:28.64,Default,,0,0,0,,Além disso, nós temos...
+Dialogue: 0,0:05:29.28,0:05:31.06,Default,,0,0,0,,O que temos, afinal?
+Dialogue: 0,0:05:31.26,0:05:33.72,Default,,0,0,0,,Temos os filhos de Deikun!
+Dialogue: 0,0:05:34.08,0:05:35.56,Default,,0,0,0,,O plano é perfeito!
+Dialogue: 0,0:05:35.77,0:05:37.69,Default,,0,0,0,,A família Zabi será derrotada!
+Dialogue: 0,0:05:38.40,0:05:41.16,Default,,0,0,0,,Eles só contam com um apoio muito modesto.
+Dialogue: 0,0:05:41.48,0:05:45.45,Default,,0,0,0,,A população se unirá ao nosso lado\Nquando ela ver
+Dialogue: 0,0:05:45.60,0:05:48.28,Default,,0,0,0,,Até que ponto vocês cresceram, Artesia e Casval.
+Dialogue: 0,0:05:48.86,0:05:50.95,Default,,0,0,0,,Meus filhos são Édouard e Sayla!
+Dialogue: 0,0:05:52.79,0:05:56.12,Default,,0,0,0,,Você sabia que isso não era apenas uma saída temporária!
+Dialogue: 0,0:05:56.56,0:06:00.38,Default,,0,0,0,,Eu lhe proíbo de ficar com eles!\NIrei impedi-lo!
+Dialogue: 0,0:06:00.59,0:06:02.44,Default,,0,0,0,,Então, eu os expulso da minha casa!
+Dialogue: 0,0:06:02.59,0:06:04.96,Default,,0,0,0,,Vá conspirar em outro lugar!
+Dialogue: 0,0:06:06.59,0:06:08.86,Default,,0,0,0,,Se estiver completamente determinado
+Dialogue: 0,0:06:09.04,0:06:12.06,Default,,0,0,0,,Eles decidirem seguir vocês dois.
+Dialogue: 0,0:06:12.41,0:06:15.47,Default,,0,0,0,,então eu abandonarei sua guarda\Nsem demora
+Dialogue: 0,0:06:15.60,0:06:18.77,Default,,0,0,0,,e eu esquecerei\Nos três anos passados.
+Dialogue: 0,0:06:19.19,0:06:20.92,Default,,0,0,0,,É um preço ridículo a pagar,
+Dialogue: 0,0:06:21.20,0:06:24.61,Default,,0,0,0,,comparado à sua decisão\Nde lutar
+Dialogue: 0,0:06:24.86,0:06:27.30,Default,,0,0,0,,em perigo de suas vidas.
+Dialogue: 0,0:06:30.59,0:06:31.87,Default,,0,0,0,,Você me constrange...
+Dialogue: 0,0:06:32.13,0:06:34.05,Default,,0,0,0,,Não diga isso...
+Dialogue: 0,0:06:34.51,0:06:38.36,Default,,0,0,0,,Você é a única pessoa\Nem quem eu possa confiar.
+Dialogue: 0,0:06:38.80,0:06:40.14,Default,,0,0,0,,Eu me deixei levar!
+Dialogue: 0,0:06:40.28,0:06:43.75,Default,,0,0,0,,Eu pensei que com um aliado tão importante quanto Anaheim,
+Dialogue: 0,0:06:43.88,0:06:45.75,Default,,0,0,0,,poderíamos vencer...
+Dialogue: 0,0:06:46.30,0:06:50.68,Default,,0,0,0,,Eles não procuram nada além de enriquecimento.
+Dialogue: 0,0:06:51.16,0:06:54.91,Default,,0,0,0,,Eles não se importam nem um pouco com Zeon, com os Zabi ou mesmo com vocês!
+Dialogue: 0,0:06:55.04,0:06:58.68,Default,,0,0,0,,É um conglomerado militar-industrial. Eis a realidade!
+Dialogue: 0,0:06:59.18,0:07:02.38,Default,,0,0,0,,Certamente... Certamente, mas...
+Dialogue: 0,0:07:02.77,0:07:06.00,Default,,0,0,0,,Eu pensava que poderia aproveitar essa oportunidade.
+Dialogue: 0,0:07:06.69,0:07:11.19,Default,,0,0,0,,Don Téabolo... Permita-me sonhar mais uma vez.
+Dialogue: 0,0:07:15.53,0:07:19.20,Italique,,0,0,0,,É a 43ª lua cheia desde nossa chegada à Terra.
+Dialogue: 0,0:07:20.30,0:07:23.08,Italique,,0,0,0,,Quando percebi\Nque havia um mês entre cada lua cheia,
+Dialogue: 0,0:07:23.21,0:07:25.24,Italique,,0,0,0,,fiquei realmente bravo com você.
+Dialogue: 0,0:07:25.54,0:07:27.88,Italique,,0,0,0,,Estamos chegando perto de cinquenta.\NMais da metade...
+Dialogue: 0,0:07:28.55,0:07:31.38,Italique,,0,0,0,,Quando chegarmos a cem,\Nterei tão crescido
+Dialogue: 0,0:07:31.93,0:07:36.31,Italique,,0,0,0,,que você ficará boquiaberto.
+Dialogue: 0,0:07:36.44,0:07:38.53,Italique,,0,0,0,,Casval agora é mais alto que o Sr. Jimba Ral
+Dialogue: 0,0:07:39.24,0:07:43.23,Italique,,0,0,0,,Casval agora é mais alto do que o senhor Jimba Ral.
+Dialogue: 0,0:07:43.66,0:07:46.57,Italique,,0,0,0,,Sr. Téabolo, ele ainda ganhou peso.
+Dialogue: 0,0:07:46.92,0:07:47.92,Italique,,0,0,0,,Parece que...
+Dialogue: 0,0:08:01.25,0:08:02.79,Default,,0,0,0,,Como ela está?
+Dialogue: 0,0:08:03.64,0:08:05.79,Default,,0,0,0,,Ela deve ter pegado um resfriado, mas...
+Dialogue: 0,0:08:06.34,0:08:08.84,Default,,0,0,0,,Como ela entrou em contato\Ncom os doentes,
+Dialogue: 0,0:08:09.00,0:08:11.17,Default,,0,0,0,,Pode ser a Febre do Saara.
+Dialogue: 0,0:08:11.64,0:08:13.51,Default,,0,0,0,,Vou mantê-la sob observação.
+Dialogue: 0,0:08:14.62,0:08:17.28,Default,,0,0,0,,Eu vou ficar aqui até o amanhecer.
+Dialogue: 0,0:08:51.05,0:08:54.03,Default,,0,0,0,,Artesia!\NAcorde, Artesia!
+Dialogue: 0,0:08:55.49,0:08:56.55,Default,,0,0,0,,É preciso fugir!
+Dialogue: 0,0:09:03.37,0:09:04.31,Default,,0,0,0,,O que foi isso?
+Dialogue: 0,0:09:48.52,0:09:51.15,Default,,0,0,0,,Édouard, eu estou com frio...
+Dialogue: 0,0:09:52.02,0:09:54.15,TiretsDefault,,223,0,0,,- O que foi?\N- Cale-se!
+Dialogue: 0,0:10:12.17,0:10:15.85,Default,,0,0,0,,Bandido!\NParece que são os Zabi quem te enviou!
+Dialogue: 0,0:10:33.65,0:10:35.19,Default,,0,0,0,,Rápido! Depressa!
+Dialogue: 0,0:10:37.76,0:10:40.03,Default,,0,0,0,,Não por aí. Vamos para cima!
+Dialogue: 0,0:10:49.92,0:10:50.87,Default,,0,0,0,,Um beco sem saída!
+Dialogue: 0,0:10:51.20,0:10:52.25,Default,,0,0,0,,Está em obras?
+Dialogue: 0,0:11:16.36,0:11:19.54,Default,,0,0,0,,Não! Não!
+Dialogue: 0,0:12:14.50,0:12:16.50,Default,,0,0,0,,Que carnificina...
+Dialogue: 0,0:12:16.96,0:12:18.92,Default,,0,0,0,,Parece uma guerra.
+Dialogue: 0,0:12:19.10,0:12:22.59,Default,,0,0,0,,Isso claramente não é\NUm arrombamento.
+Dialogue: 0,0:12:23.34,0:12:25.00,Default,,0,0,0,,Talvez uma vingança?
+Dialogue: 0,0:12:25.17,0:12:26.97,Default,,0,0,0,,Ou então um aviso?
+Dialogue: 0,0:12:27.10,0:12:27.94,Default,,0,0,0,,Comissário!
+Dialogue: 0,0:12:30.10,0:12:34.17,Default,,0,0,0,,Shû Yashima,\No diretor da empresa Yashima?
+Dialogue: 0,0:12:39.11,0:12:41.82,Default,,0,0,0,,Foi gentil de sua parte vir me ver.
+Dialogue: 0,0:12:42.01,0:12:45.19,Default,,0,0,0,,Você me perdoará...\Nmeu mal-estar.
+Dialogue: 0,0:12:46.20,0:12:48.27,Default,,0,0,0,,Eles eram emissários dos Zabi.
+Dialogue: 0,0:12:48.46,0:12:52.92,Default,,0,0,0,,Eles nos atacaram porque Jimba Ral não tinha entrado em contato com Anaheim.
+Dialogue: 0,0:12:53.28,0:12:55.44,Default,,0,0,0,,Eu sabia que eles estavam nos observando.
+Dialogue: 0,0:12:56.00,0:12:59.34,Default,,0,0,0,,Isso aconteceu há três anos\Nque nada tinha acontecido...
+Dialogue: 0,0:13:00.03,0:13:02.34,Default,,0,0,0,,As crianças estão seguras.
+Dialogue: 0,0:13:02.57,0:13:04.97,Default,,0,0,0,,Mas eu não aguento mais.
+Dialogue: 0,0:13:05.55,0:13:09.60,Default,,0,0,0,,Don Téabolo, o que você diria sobre vir morar em Loum?
+Dialogue: 0,0:13:10.26,0:13:13.29,Default,,0,0,0,,Eu possuo uma das colônias.
+Dialogue: 0,0:13:13.74,0:13:15.66,Default,,0,0,0,,Trata-se da colônia Texas.
+Dialogue: 0,0:13:15.98,0:13:19.74,Default,,0,0,0,,Ela havia sido construída como parque temático,
+Dialogue: 0,0:13:19.86,0:13:23.16,Default,,0,0,0,,e eu a comprei quando ela estava abandonada.
+Dialogue: 0,0:13:23.82,0:13:25.99,Default,,0,0,0,,Mas por que a colônia Texas?
+Dialogue: 0,0:13:26.34,0:13:29.12,Default,,0,0,0,,A fim de manifestar vossa submissão aos Zabi.
+Dialogue: 0,0:13:30.01,0:13:31.37,Default,,0,0,0,,Minha submissão?
+Dialogue: 0,0:13:33.37,0:13:38.25,Default,,0,0,0,,Loum está muito próximo de Side-3,\NAssim, é fácil de monitorar.
+Dialogue: 0,0:13:38.38,0:13:41.93,Default,,0,0,0,,Eles não poderiam imaginar\Nque há opositores se escondendo lá.
+Dialogue: 0,0:13:42.38,0:13:44.32,Default,,0,0,0,,É preciso convencê-los disso,
+Dialogue: 0,0:13:44.86,0:13:47.76,Default,,0,0,0,,Pois não podemos enganar a família Zabi.
+Dialogue: 0,0:13:48.10,0:13:51.26,Default,,0,0,0,,Aliás, não é isso que você tinha em mente?
+Dialogue: 0,0:13:51.58,0:13:53.94,Default,,0,0,0,,Mas sim! Perfeitamente!
+Dialogue: 0,0:13:54.14,0:13:57.24,Default,,0,0,0,,Obrigado pelo conselho,\Nvou aplicar agora mesmo!
+Dialogue: 0,0:14:07.61,0:14:09.50,Default,,0,0,0,,Obrigado...
+Dialogue: 0,0:14:09.79,0:14:11.40,Default,,0,0,0,,Foi muito gentil.
+Dialogue: 0,0:14:11.86,0:14:13.49,Default,,0,0,0,,É sua filha?
+Dialogue: 0,0:14:13.95,0:14:16.41,Default,,0,0,0,,Desculpe!\NIstoquei em apresentá-lo(a).
+Dialogue: 0,0:14:16.79,0:14:18.32,Default,,0,0,0,,Esta é minha filha, Mirai.
+Dialogue: 0,0:14:19.04,0:14:22.75,Default,,0,0,0,,Imagine só que ela quer ser astronauta!
+Dialogue: 0,0:14:23.38,0:14:26.21,Default,,0,0,0,,Você tem uma filha muito brilhante.
+Dialogue: 0,0:14:26.42,0:14:29.09,Default,,0,0,0,,Recuem! Recuem!\NRecuem ainda!
+Dialogue: 0,0:14:29.27,0:14:31.12,Default,,0,0,0,,Quem deixou esses curiosos entrarem?
+Dialogue: 0,0:14:31.26,0:14:32.80,Default,,0,0,0,,Todo mundo para fora!
+Dialogue: 0,0:14:32.93,0:14:35.33,Default,,0,0,0,,Não!\NPior, sem jornalistas também!
+Dialogue: 0,0:14:43.32,0:14:48.03,Sign3,sign,0,0,0,,{\fad(150,0)}SIDE-3 – MUNZO
+Dialogue: 0,0:14:48.03,0:14:50.96,Default,,0,0,0,,Zabi! Zabi! Zabi!
+Dialogue: 0,0:14:51.09,0:14:53.99,Default,,0,0,0,,Zabi! Zabi! Zabi!
+Dialogue: 0,0:14:54.13,0:14:56.16,Default,,0,0,0,,Zabi! Zabi!
+Dialogue: 0,0:14:58.37,0:15:00.83,Default,,0,0,0,,Sr. Diretor,\NO Presidente quer vê-lo.
+Dialogue: 0,0:15:02.95,0:15:04.69,Default,,0,0,0,,Estamos partindo em deslocamento.
+Dialogue: 0,0:15:05.46,0:15:08.32,Default,,0,0,0,,Kycilia,\NVocê mandou matar Jimba Ral?
+Dialogue: 0,0:15:08.72,0:15:11.16,Default,,0,0,0,,Sim, por que não? Não era para fazer isso?
+Dialogue: 0,0:15:11.48,0:15:14.31,Default,,0,0,0,,Sim, mas as crianças escaparam.
+Dialogue: 0,0:15:15.06,0:15:17.25,Default,,0,0,0,,Eis o que acontece\Nquando se delega demais.
+Dialogue: 0,0:15:17.40,0:15:18.39,Default,,0,0,0,,Não é mesmo?
+Dialogue: 0,0:15:20.35,0:15:23.14,Default,,0,0,0,,A Guarda Presidencial não é uma força particular.
+Dialogue: 0,0:15:23.36,0:15:27.38,Default,,0,0,0,,Você é o chefe,\Ncabe a você saber controlar seus homens.
+Dialogue: 0,0:15:27.61,0:15:30.53,Default,,0,0,0,,É o diretor do Movimento Popular quem fala?
+Dialogue: 0,0:15:31.64,0:15:32.66,Default,,0,0,0,,Entendido!
+Dialogue: 0,0:15:39.06,0:15:41.00,Default,,0,0,0,,Onde está o Vice-almirante Dozle?
+Dialogue: 0,0:15:41.33,0:15:44.25,Default,,0,0,0,,Ele tem um assunto urgente\Ne muito importante.
+Dialogue: 0,0:16:11.95,0:16:17.50,Italique,,0,0,0,,Eis-te aqui, parecendo abatido
+Dialogue: 0,0:16:18.98,0:16:22.35,Italique,,0,0,0,,Vem até mim\NLaisse-te guiar pelo vento
+Dialogue: 0,0:16:22.62,0:16:27.95,Italique,,0,0,0,,Eu saberei acalmar\Na dor que te habita
+Dialogue: 0,0:16:28.88,0:16:30.59,Italique,,0,0,0,,Apoia-te em mim
+Dialogue: 0,0:16:31.00,0:16:33.63,Italique,,0,0,0,,Até ao amanhecer
+Dialogue: 0,0:16:33.86,0:16:38.17,Italique,,0,0,0,,Mesmo na escuridão
+Dialogue: 0,0:16:38.68,0:16:44.02,Italique,,0,0,0,,Você continua sendo a única a brilhar\NNo meu coração
+Dialogue: 0,0:16:44.36,0:16:48.02,Italique,,0,0,0,,Não perca a esperança
+Dialogue: 0,0:16:48.18,0:16:52.53,Italique,,0,0,0,,Pois amanhã é outro dia
+Dialogue: 0,0:16:52.69,0:16:58.26,Italique,,0,0,0,,Farei qualquer coisa
+Dialogue: 0,0:16:58.44,0:17:00.50,Italique,,0,0,0,,Para protegê-lo
+Dialogue: 0,0:17:00.65,0:17:03.41,Italique,,0,0,0,,Esta noite
+Dialogue: 0,0:17:03.54,0:17:07.33,Italique,,0,0,0,,Eu serei sua luz
+Dialogue: 0,0:17:08.98,0:17:15.44,Italique,,0,0,0,,Eu iluminarei seu caminho
+Dialogue: 0,0:17:16.08,0:17:19.60,Italique,,0,0,0,,Estarei ao seu lado
+Dialogue: 0,0:17:19.83,0:17:22.05,Italique,,0,0,0,,Dia e noite
+Dialogue: 0,0:17:22.18,0:17:24.39,Italique,,0,0,0,,Como sempre fui
+Dialogue: 0,0:17:29.98,0:17:32.65,Default,,0,0,0,,Isso não acabou,\NEssa música horrível?
+Dialogue: 0,0:17:32.84,0:17:34.61,Default,,0,0,0,,Ligue o karaokê!
+Dialogue: 0,0:17:34.78,0:17:36.28,Default,,0,0,0,,Passe-me o microfone, gata!
+Dialogue: 0,0:17:36.74,0:17:38.53,Default,,0,0,0,,Vá! Passe o microfone!
+Dialogue: 0,0:17:48.54,0:17:49.46,Default,,0,0,0,,Puxe!
+Dialogue: 0,0:17:50.71,0:17:53.09,Default,,0,0,0,,Vá em frente, eu limpo depois.
+Dialogue: 0,0:17:53.30,0:17:56.88,Default,,0,0,0,,Obrigado.\NEu precisava descarregar um pouco.
+Dialogue: 0,0:18:04.81,0:18:05.73,Default,,0,0,0,,Vá em frente!
+Dialogue: 0,0:18:06.01,0:18:08.48,Default,,0,0,0,,Dê uma lição a esse colono!
+Dialogue: 0,0:18:19.86,0:18:20.99,Default,,0,0,0,,Anime-se!
+Dialogue: 0,0:18:25.17,0:18:26.53,Default,,0,0,0,,Dê uma surra nele...
+Dialogue: 0,0:18:26.87,0:18:27.98,Default,,0,0,0,,Um momento!
+Dialogue: 0,0:18:28.53,0:18:30.96,Default,,0,0,0,,É um pouco cedo para voltar, não é?
+Dialogue: 0,0:18:32.12,0:18:34.02,Default,,0,0,0,,Você queria o microfone? Eis aqui.
+Dialogue: 0,0:18:34.88,0:18:36.63,Default,,0,0,0,,Vamos lá, cante! Estou ouvindo!
+Dialogue: 0,0:18:36.90,0:18:38.59,Default,,0,0,0,,Não, isso é bom...
+Dialogue: 0,0:18:38.77,0:18:40.04,Default,,0,0,0,,Cante!
+Dialogue: 0,0:18:42.78,0:18:44.35,Default,,0,0,0,,Então, isso vem?
+Dialogue: 0,0:18:44.82,0:18:46.98,Default,,0,0,0,,Você vai cantar, sim?
+Dialogue: 0,0:18:47.30,0:18:49.35,Default,,0,0,0,,Ele já teve o suficiente,\NVocê não acha?
+Dialogue: 0,0:18:57.88,0:18:59.56,Default,,0,0,0,,Não cabe ao Chefe dos Ral
+Dialogue: 0,0:18:59.68,0:19:02.62,Default,,0,0,0,,Lutar nu\Ncom os bandidos federais.
+Dialogue: 0,0:19:03.16,0:19:04.45,Default,,0,0,0,,Qual família Ral?
+Dialogue: 0,0:19:04.78,0:19:06.82,Default,,0,0,0,,Ela não existe mais!
+Dialogue: 0,0:19:07.77,0:19:10.17,Default,,0,0,0,,Vocês a destruíram!
+Dialogue: 0,0:19:11.08,0:19:14.71,Default,,0,0,0,,É verdade.\NSinto muito, de verdade.
+Dialogue: 0,0:19:14.99,0:19:17.01,Default,,0,0,0,,O quê?
+Dialogue: 0,0:19:20.30,0:19:22.14,Default,,0,0,0,,Vim pedir um favor.
+Dialogue: 0,0:19:22.64,0:19:26.01,Default,,0,0,0,,Aceitaria me escutar,\Ncomo um favor pessoal?
+Dialogue: 0,0:19:30.06,0:19:31.56,Default,,0,0,0,,Para onde estamos indo?
+Dialogue: 0,0:19:31.76,0:19:32.94,Default,,0,0,0,,Para os docks espaciais.
+Dialogue: 0,0:19:33.47,0:19:35.90,Default,,0,0,0,,Você quer fazer uma escapada lunar?
+Dialogue: 0,0:19:36.24,0:19:38.40,Default,,0,0,0,,Não, nada tão longe.
+Dialogue: 0,0:19:38.88,0:19:40.67,Default,,0,0,0,,Vamos só ao lado.
+Dialogue: 0,0:19:44.45,0:19:49.12,Sign2,sign,0,0,0,,{\fad(450,0)}COLONIA ANEXADA DE SIDE-3 - COLONIA OCULTA
+Dialogue: 0,0:19:50.62,0:19:52.71,Default,,0,0,0,,Podemos começar os testes?
+Dialogue: 0,0:19:53.00,0:19:55.21,Default,,0,0,0,,Sim, estávamos esperando por vocês.
+Dialogue: 0,0:19:55.42,0:19:56.31,Default,,0,0,0,,Perfeito!
+Dialogue: 0,0:19:57.09,0:19:58.24,Default,,0,0,0,,Capitã?
+Dialogue: 0,0:19:59.06,0:20:01.32,Default,,0,0,0,,É mesmo você, capitão Ral!
+Dialogue: 0,0:20:01.63,0:20:02.93,Default,,0,0,0,,Que prazer!
+Dialogue: 0,0:20:05.83,0:20:09.27,Default,,0,0,0,,Sargento Gaia! Então, você se tornou suboficial?
+Dialogue: 0,0:20:09.51,0:20:10.54,Default,,0,0,0,,Sim!
+Dialogue: 0,0:20:10.67,0:20:12.18,Default,,0,0,0,,Você subiu rapidamente na hierarquia.
+Dialogue: 0,0:20:12.49,0:20:14.27,Default,,0,0,0,,Qual proeza você realizou?
+Dialogue: 0,0:20:14.56,0:20:16.62,Default,,0,0,0,,Teste, H menos sessenta segundos
+Dialogue: 0,0:20:17.76,0:20:19.66,Default,,0,0,0,,Todos a seus postos.
+Dialogue: 0,0:20:20.56,0:20:21.92,Default,,0,0,0,,Em espera, OK.
+Dialogue: 0,0:20:22.63,0:20:24.95,Default,,0,0,0,,Tenente Ortega, você está pronto?
+Dialogue: 0,0:20:26.14,0:20:28.47,Default,,0,0,0,,Ortega é sargento?
+Dialogue: 0,0:20:28.63,0:20:31.45,Default,,0,0,0,,Mash também está lá.\NObteve a mesma atribuição.
+Dialogue: 0,0:20:32.19,0:20:33.58,Default,,0,0,0,,Como assim?
+Dialogue: 0,0:20:38.50,0:20:41.26,Default,,0,0,0,,Este é o Mobile Worker 01.
+Dialogue: 0,0:20:41.76,0:20:44.26,Default,,0,0,0,,Isso nos permitirá\Nesmagar a Federação!
+Dialogue: 0,0:20:44.93,0:20:46.59,Default,,0,0,0,,Um Mobile Worker?
+Dialogue: 0,0:20:47.55,0:20:49.56,Italique,,0,0,0,,Pronto, aguardando.
+Dialogue: 0,0:20:49.68,0:20:51.02,Italique,,0,0,0,,O que estamos esperando?
+Dialogue: 0,0:20:51.44,0:20:54.39,Italique,,0,0,0,,O coronel Dozle está olhando para vocês.\NMerdas!
+Dialogue: 0,0:20:54.80,0:20:56.85,Default,,0,0,0,,Nenhum sinal nos sensores.
+Dialogue: 0,0:20:57.15,0:20:58.65,Default,,0,0,0,,Inicie a 600 de distância.
+Dialogue: 0,0:21:02.16,0:21:03.28,Default,,0,0,0,,Alvo em espera!
+Dialogue: 0,0:21:06.03,0:21:07.20,Default,,0,0,0,,Comecem o teste!
+Dialogue: 0,0:21:12.75,0:21:15.29,Default,,0,0,0,,Velocidade 30, progresso normal.
+Dialogue: 0,0:21:16.58,0:21:18.79,Default,,0,0,0,,Aceleração do progresso!
+Dialogue: 0,0:21:19.12,0:21:20.67,Default,,0,0,0,,Distância 450!
+Dialogue: 0,0:21:20.86,0:21:22.59,Default,,0,0,0,,Alvo: Abram fogo!
+Dialogue: 0,0:21:24.96,0:21:26.93,Default,,0,0,0,,Progresso dos dois aparelhos.\NRAS.
+Dialogue: 0,0:21:27.60,0:21:30.18,Default,,0,0,0,,Agrupamento de munição, ótimo.\NDanos conformes.
+Dialogue: 0,0:21:30.34,0:21:33.06,Default,,0,0,0,,Ortega! Segure seu escudo com força!
+Dialogue: 0,0:21:33.34,0:21:36.48,Default,,0,0,0,,É moleza! Vá em frente!
+Dialogue: 0,0:21:36.77,0:21:38.40,Default,,0,0,0,,Canhões principais, fogo!
+Dialogue: 0,0:21:44.40,0:21:46.57,Default,,0,0,0,,Danos mínimos.\NProgresso em andamento.
+Dialogue: 0,0:22:04.51,0:22:06.22,Default,,0,0,0,,Sim! Muito bem!
+Dialogue: 0,0:22:06.35,0:22:09.22,TiretsDefault,,207,0,0,,– Foi um sucesso!\N– Incrível! Conseguimos!
+Dialogue: 0,0:23:42.80,0:23:47.80,Default,,40,0,0,,{\an7}Adaptação: Jun-Ichi Takeda
+Dialogue: 0,0:23:54.56,0:23:57.70,Italique,,0,0,0,,O embarque do voo 005\Npara Side-5, Loum,
+Dialogue: 0,0:23:58.54,0:24:00.71,Italique,,0,0,0,,vai começar em breve.
+Dialogue: 0,0:24:00.93,0:24:03.17,Default,,0,0,0,,Não! Não!
+Dialogue: 0,0:24:03.31,0:24:05.50,Default,,0,0,0,,Não! Não por aí!
+Dialogue: 0,0:24:06.69,0:24:08.92,TiretsDefault,,204,0,0,,– Afinal de contas!\N– {\i1}Me larga! Me larga!{\i0}
+Dialogue: 0,0:24:11.14,0:24:14.00,Italique,,0,0,0,,O que você está fazendo? Quem são vocês?
+Dialogue: 0,0:24:14.17,0:24:16.76,Italique,,0,0,0,,Eu me chamo Haro.\NQuem é você?
+Dialogue: 0,0:24:17.08,0:24:18.76,Default,,0,0,0,,Papai! Espera por mim!
+Dialogue: 0,0:24:19.06,0:24:20.62,Default,,0,0,0,,Vá, depressa!
+Dialogue: 0,0:24:20.97,0:24:23.68,Default,,0,0,0,,Eu já tinha lhe dito\Nde não abrir!
+Dialogue: 0,0:24:23.86,0:24:26.69,Default,,0,0,0,,Eu nunca deveria ter te dado...
+Dialogue: 0,0:24:27.58,0:24:29.09,Default,,0,0,0,,O que foi, Sayla?
+Dialogue: 0,0:24:30.94,0:24:34.36,Default,,0,0,0,,Eu acabei de ver um menino\Ncorrendo atrás de um enorme brinquedo.
+Dialogue: 0,0:24:34.51,0:24:35.61,Default,,0,0,0,,Sério?
+Dialogue: 0,0:24:37.22,0:24:39.77,Default,,0,0,0,,Ele deve ter gostado muito dele!
+Dialogue: 0,0:24:45.35,0:24:48.17,Italique,,0,0,0,,Se ao menos pudéssemos voltar\Na casa da mamãe,
+Dialogue: 0,0:24:50.28,0:24:52.09,Italique,,0,0,0,,eu seria tão feliz...
+Dialogue: 0,0:00:28.00,0:00:35.26,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Mesmo o sofrimento infinito
+Dialogue: 0,0:00:35.61,0:00:46.15,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}O espaço infinito também pode abrigar
+Dialogue: 0,0:00:56.43,0:01:02.03,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Os fios que travam a mentecerrada
+Dialogue: 0,0:01:03.42,0:01:09.37,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Também terá um dia para ser desfeito
+Dialogue: 0,0:01:10.46,0:01:16.58,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Aconchego que brota
+Dialogue: 0,0:01:17.56,0:01:20.85,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}E com o futuro tão próximo
+Dialogue: 0,0:01:21.06,0:01:28.38,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Sentimentos difíceis de conter
+Dialogue: 0,0:01:28.48,0:01:35.49,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Em um silencioso universo onde as estrelas caem
+Dialogue: 0,0:01:35.55,0:01:42.66,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Tempo eterno que flutua
+Dialogue: 0,0:01:42.75,0:01:49.38,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Mesmo a luz pode ultrapassar
+Dialogue: 0,0:01:49.47,0:01:55.74,OPCN,NTP,0,0,0,,{\fad(200,200)\blur4}Para aquele futuro
+Dialogue: 0,0:22:20.07,0:22:21.46,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Acredite...
+Dialogue: 0,0:22:22.38,0:22:27.39,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Pessoas só crescem após passar por tristezas
+Dialogue: 0,0:22:27.63,0:22:36.78,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Hoje, minha amada trema de solidão
+Dialogue: 0,0:22:37.56,0:22:42.91,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Essa tristeza ainda paira em meu coração
+Dialogue: 0,0:22:43.03,0:22:44.67,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Acredite...
+Dialogue: 0,0:22:45.42,0:22:50.97,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Lágrimas, por favor, retornem ao mar
+Dialogue: 0,0:22:51.19,0:23:01.47,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Amor que penso dia e noite
+Dialogue: 0,0:23:02.46,0:23:10.63,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}O céu vai se tingindo de escarlate
+Dialogue: 0,0:23:13.44,0:23:18.36,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Ah, meu amor, minha amada...
+Dialogue: 0,0:23:18.71,0:23:22.78,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Eu quero voltar a estar ao seu lado.
+Dialogue: 0,0:23:22.85,0:23:28.79,EDCN,NTP,0,0,0,,Minha amada... mais uma vez...
+Dialogue: 0,0:23:28.98,0:23:33.52,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Ah, meu amor, minha amada...
+Dialogue: 0,0:23:34.02,0:23:38.11,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Eu quero voltar a estar ao seu lado.
+Dialogue: 0,0:23:38.22,0:23:46.05,EDCN,NTP,0,0,0,,[Ninguém pode sobreviver sozinho.]

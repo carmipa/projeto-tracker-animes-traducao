@@ -1,0 +1,342 @@
+﻿[Script Info]
+Title: Français (France)
+Original Script: cr_fr  [http://www.crunchyroll.com/user/cr_fr]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Italique,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Titre,Arial,51,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,1230,30,240,1
+Style: TiretsDefault,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,1,60,6,75,1
+Style: TiretsItalique,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,1,60,6,75,1
+Style: Sign2,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,3,30,99,186,1
+Style: Sign1,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,1,138,30,186,1
+Style: Sign3,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,1,147,30,216,1
+
+Style: OPCN,SimSun,114,&H00FFFFFF,&H5A7B7B7B,&H00FFFFFF,&H003C3C3C,-1,0,0,0,100,95,0,0,1,0,0,2,300,300,90,1
+Style: EDCN,SimSun,42,&H00FEFEFE,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,95,0,0,1,2,0,2,60,60,25,1
+
+
+
+Style: OPCN,SimSun,38,&H00FFFFFF,&H5A7B7B7B,&H00FFFFFF,&H003C3C3C,-1,0,0,0,100,95,0,0,1,0,0,2,100,100,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.66,0:00:10.82,Default,,0,0,0,,A linha de frente inimiga desmorona.
+Dialogue: 0,0:00:34.43,0:00:37.26,Default,,0,0,0,,{\i1}Iwo Jima{\i0} atingido!\NEle continua a ripostar.
+Dialogue: 0,0:00:37.40,0:00:40.24,Italique,,0,0,0,,Almirante Dozle,\NNosso navio está perdido!
+Dialogue: 0,0:00:40.38,0:00:41.56,Italique,,0,0,0,,Que Deus o proteja!
+Dialogue: 0,0:00:42.60,0:00:47.03,Default,,0,0,0,,Não esquecerei jamais seu sacrifício!
+Dialogue: 0,0:00:47.18,0:00:50.48,Default,,0,0,0,,Vamos aproveitar\Nsacrifício da retaguarda!
+Dialogue: 0,0:00:50.62,0:00:52.38,Default,,0,0,0,,Vire de bordo!
+Dialogue: 0,0:00:52.68,0:00:55.85,Default,,0,0,0,,Rumo à frota principal\Ndo inimigo
+Dialogue: 0,0:00:55.98,0:00:58.03,Default,,0,0,0,,A frota de Revil!
+Dialogue: 0,0:02:29.04,0:02:34.00,Titre,SIGN,0,0,0,,{\fad(1000,1000)\blur2}EPISODIO 11\N{\fs63}A BATALHA DE LOUM
+Dialogue: 0,0:02:40.68,0:02:43.05,Default,,0,0,0,,O {\i1}Walküre{\i0} parece ter mudado de direção.
+Dialogue: 0,0:02:43.43,0:02:45.48,TiretsDefault,,242,0,0,,– Contra-verifique.\N– Às ordens.
+Dialogue: 0,0:02:45.62,0:02:47.18,Default,,0,0,0,,Eles estão recuando?
+Dialogue: 0,0:02:47.99,0:02:49.21,Default,,0,0,0,,A vitória é nossa.
+Dialogue: 0,0:02:49.36,0:02:51.64,Default,,0,0,0,,Eles poderiam se reagrupar.
+Dialogue: 0,0:02:52.00,0:02:54.99,Default,,0,0,0,,Nesse caso, prossigamos atrás deles.
+Dialogue: 0,0:02:55.27,0:02:58.07,TiretsDefault,,205,0,0,,– Despachem a vanguarda.\N– Às ordens.
+Dialogue: 0,0:02:58.28,0:03:00.32,Default,,0,0,0,,2ª flotilha, em aceleração.
+Dialogue: 0,0:03:00.75,0:03:02.90,Default,,0,0,0,,4ª flotilha, em aceleração.
+Dialogue: 0,0:03:06.08,0:03:09.44,Default,,0,0,0,,Almirante, a frota do Vice-Almirante Tianem\Nmanda a vanguarda.
+Dialogue: 0,0:03:14.84,0:03:18.80,Sign2,sign,0,0,0,,{\fad(320,0)}GREAT DEGWIN, NAVE CAPITÂNIA DE ZEON
+Dialogue: 0,0:03:19.05,0:03:23.47,Default,,0,0,0,,Os navios mudam de curso\Ne deixam a linha de frente.
+Dialogue: 0,0:03:23.68,0:03:27.06,Default,,0,0,0,,As frotas do Almirante Revil e do Vice-Almirante Tianem\Nmantêm seu curso.
+Dialogue: 0,0:03:27.62,0:03:29.21,Default,,0,0,0,,Mudar de curso diante do inimigo?
+Dialogue: 0,0:03:30.06,0:03:31.44,Default,,0,0,0,,É isso aí o plano?
+Dialogue: 0,0:03:33.98,0:03:35.94,Sign1,sign,0,0,0,,{\fad(325,0)}FROTA DO VICE-ALMIRANTE TIANEM, NAVE ALmirante TITÃO
+Dialogue: 0,0:03:34.52,0:03:38.12,Default,,0,0,0,,{\an8}Relatório da vanguarda.\NPerdemos a frota de Dozle.
+Dialogue: 0,0:03:38.28,0:03:39.32,Default,,0,0,0,,O quê?
+Dialogue: 0,0:03:40.57,0:03:41.51,Default,,0,0,0,,Maldição!
+Dialogue: 0,0:03:42.13,0:03:45.13,Default,,0,0,0,,Densidade das partículas Minovsky\Nem alta.
+Dialogue: 0,0:03:45.50,0:03:47.40,Default,,0,0,0,,Uma verdadeira sopa de ervilhas...
+Dialogue: 0,0:03:48.11,0:03:49.66,Default,,0,0,0,,O que devemos dizer ao QG?
+Dialogue: 0,0:03:50.33,0:03:52.34,Default,,0,0,0,,Abrimos uma transmissão laser?
+Dialogue: 0,0:03:52.62,0:03:55.17,Default,,0,0,0,,O inimigo pode aprender\Nque os perdemos.
+Dialogue: 0,0:03:56.55,0:03:58.38,Default,,0,0,0,,Onde eles desapareceram?
+Dialogue: 0,0:03:59.51,0:04:02.28,Default,,0,0,0,,Ryu,\Nestamos nos aproximando da zona de combate.
+Dialogue: 0,0:04:02.76,0:04:05.69,Default,,0,0,0,,Radar inoperante\Nnum raio de 10 a 100 km.
+Dialogue: 0,0:04:06.28,0:04:09.00,Default,,0,0,0,,Vamos ter que passar\Nem reconhecimento visual.
+Dialogue: 0,0:04:10.60,0:04:12.71,Default,,0,0,0,,Você confia em meus olhos?
+Dialogue: 0,0:04:13.89,0:04:16.31,Default,,0,0,0,,As partículas Minovsky\Nsão densas.
+Dialogue: 0,0:04:17.26,0:04:19.65,Default,,0,0,0,,E então... eu tenho uma visão ruim.
+Dialogue: 0,0:04:19.87,0:04:23.32,Default,,0,0,0,,Eu distingo alguma coisa...
+Dialogue: 0,0:04:24.24,0:04:25.66,Default,,0,0,0,,Não é lixo espacial.
+Dialogue: 0,0:04:25.90,0:04:26.70,Default,,0,0,0,,Mas...
+Dialogue: 0,0:04:27.78,0:04:29.20,Default,,0,0,0,,Eu também o detectei!
+Dialogue: 0,0:04:29.62,0:04:30.94,Default,,0,0,0,,Multiple trilhas de calor.
+Dialogue: 0,0:04:31.32,0:04:35.68,Default,,0,0,0,,Deve ser uma frota aliada,\Nque acabou de chegar ao front.
+Dialogue: 0,0:04:36.60,0:04:39.22,Default,,0,0,0,,Ei! Tem alguma coisa errada.
+Dialogue: 0,0:04:39.39,0:04:41.67,Default,,0,0,0,,Eles estão muito próximos, e seu curso...
+Dialogue: 0,0:04:41.87,0:04:44.90,TiretsDefault,,219,0,0,,– Análise do vetor!\N– Estou processando. É...
+Dialogue: 0,0:04:45.19,0:04:47.17,Default,,0,0,0,,Eles se aproximam às duas horas.
+Dialogue: 0,0:04:48.25,0:04:49.41,Default,,0,0,0,,"Estão se aproximando"?
+Dialogue: 0,0:04:52.98,0:04:56.60,TiretsDefault,,169,0,0,,– É o inimigo!\N– Aqui é Duckbill! Falcon, responda!
+Dialogue: 0,0:04:56.74,0:04:58.86,TiretsDefault,,232,0,0,,– Estamos cercados!\N– Aqui é Duckbill!
+Dialogue: 0,0:04:59.02,0:05:01.11,Default,,0,0,0,,Merda! Falcon é inalcançável!
+Dialogue: 0,0:05:05.57,0:05:07.45,Default,,0,0,0,,Aparelho desconhecido na área.
+Dialogue: 0,0:05:08.60,0:05:10.51,Default,,0,0,0,,Uma aeronave de reconhecimento inimiga.
+Dialogue: 0,0:05:10.82,0:05:12.12,Default,,0,0,0,,O que ele faz aqui?
+Dialogue: 0,0:05:13.82,0:05:15.79,Default,,0,0,0,,Não mudemos nossos planos.
+Dialogue: 0,0:05:16.15,0:05:17.75,Default,,0,0,0,,Mantenham a formação!
+Dialogue: 0,0:05:23.92,0:05:26.76,Default,,0,0,0,,Parece que a batalha acalmou.
+Dialogue: 0,0:05:27.12,0:05:29.76,Default,,0,0,0,,A todos os aparelhos,\Ncarregamento dos obuses\Ne verificação das travas de segurança.
+Dialogue: 0,0:05:29.90,0:05:32.26,Default,,0,0,0,,verificação dos pinos de segurança.
+Dialogue: 0,0:05:34.97,0:05:37.81,Default,,0,0,0,,Por enquanto,\Ntudo corre como planejado.
+Dialogue: 0,0:06:00.37,0:06:01.50,Default,,0,0,0,,O que há de novo?
+Dialogue: 0,0:06:01.84,0:06:03.59,Default,,0,0,0,,O que é isso?
+Dialogue: 0,0:06:03.86,0:06:04.84,Default,,0,0,0,,Mostre-me.
+Dialogue: 0,0:06:05.14,0:06:07.67,Default,,0,0,0,,Não é lixo espacial, isso não cola.
+Dialogue: 0,0:06:08.76,0:06:09.64,Default,,0,0,0,,Mas é...
+Dialogue: 0,0:06:10.81,0:06:12.01,Default,,0,0,0,,São navios!
+Dialogue: 0,0:06:12.50,0:06:14.22,Default,,0,0,0,,Ala direita para a ponte!
+Dialogue: 0,0:06:23.69,0:06:26.24,Default,,0,0,0,,Eis a frota principal federal!
+Dialogue: 0,0:06:28.53,0:06:30.41,Default,,0,0,0,,Navios? Tem certeza?
+Dialogue: 0,0:06:30.66,0:06:32.99,Default,,0,0,0,,O que o CIC diz do seu lado?
+Dialogue: 0,0:06:39.21,0:06:41.83,TiretsDefault,,210,0,0,,- Por favor, descanse.\N- Muito bem.
+Dialogue: 0,0:06:42.20,0:06:44.46,Default,,0,0,0,,Situação?
+Dialogue: 0,0:06:44.67,0:06:47.46,Default,,0,0,0,,Nossa frota continua a acelerar
+Dialogue: 0,0:06:47.67,0:06:49.72,Default,,0,0,0,,em direção ao campo de batalha.
+Dialogue: 0,0:06:55.39,0:06:57.45,Default,,0,0,0,,E a 2ª frota do Vice-Almirante Tianem?
+Dialogue: 0,0:06:57.72,0:07:00.94,Default,,0,0,0,,Ela saiu vitoriosa\Ndo engajamento.
+Dialogue: 0,0:07:02.05,0:07:05.86,Default,,0,0,0,,O CIC me entregou o relatório\Nde uma aeronave de reconhecimento.
+Dialogue: 0,0:07:09.72,0:07:13.12,Default,,0,0,0,,Curve-se diante de mim, Deus!
+Dialogue: 0,0:07:17.16,0:07:19.12,Default,,0,0,0,,5ª flotilha, navio danificado!
+Dialogue: 0,0:07:19.26,0:07:20.02,Default,,0,0,0,,O quê?
+Dialogue: 0,0:07:20.62,0:07:21.99,Default,,0,0,0,,Navio em chamas!
+Dialogue: 0,0:07:22.75,0:07:25.75,TiretsDefault,,193,0,0,,– Novamente?\N– É o número 2, o {\i1}Forrestal{\i0}!
+Dialogue: 0,0:07:30.58,0:07:32.43,Default,,0,0,0,,Meus atos mudarão a história!
+Dialogue: 0,0:07:33.05,0:07:35.43,Default,,0,0,0,,O incêndio se propaga pelo navio.
+Dialogue: 0,0:07:35.78,0:07:37.06,Default,,0,0,0,,Onde está o inimigo?
+Dialogue: 0,0:07:37.31,0:07:39.37,Default,,0,0,0,,De acordo com os sensores passivos, às 4 horas!
+Dialogue: 0,0:07:41.38,0:07:44.06,Default,,0,0,0,,Despejem nossos cruzadores às 4 horas!
+Dialogue: 0,0:07:44.40,0:07:48.07,Default,,0,0,0,,16ª flotilha, em frente todas!\NCap para 207!
+Dialogue: 0,0:07:51.77,0:07:54.40,Default,,0,0,0,,Mensagem codificada da frota do Vice-Almirante Tianem!
+Dialogue: 0,0:07:54.85,0:07:56.52,Default,,0,0,0,,"Perdemos a frota de Dozle."
+Dialogue: 0,0:07:56.64,0:07:57.58,Default,,0,0,0,,O quê?
+Dialogue: 0,0:07:57.86,0:08:02.92,Default,,0,0,0,,Nossos batedores detectaram navios\Nlogo antes de sua chegada.
+Dialogue: 0,0:08:03.26,0:08:04.83,Default,,0,0,0,,Lançar nossos interceptadores!
+Dialogue: 0,0:08:05.14,0:08:06.96,Default,,0,0,0,,Ativar a DCA!
+Dialogue: 0,0:08:07.39,0:08:08.95,Italique,,0,0,0,,Asa direita para passarela!
+Dialogue: 0,0:08:09.18,0:08:10.71,Default,,0,0,0,,Vigia no relatório!
+Dialogue: 0,0:08:11.01,0:08:12.95,Italique,,0,0,0,,Identificação impossível!
+Dialogue: 0,0:08:13.09,0:08:14.48,Default,,0,0,0,,Devo ativar o IFF?
+Dialogue: 0,0:08:14.60,0:08:16.64,Default,,0,0,0,,Relatórios chegando!
+Dialogue: 0,0:08:17.34,0:08:18.64,Default,,0,0,0,,E isso aí, o que é?
+Dialogue: 0,0:08:18.90,0:08:20.64,Default,,0,0,0,,Contatos múltiplos às 12 horas!
+Dialogue: 0,0:08:21.00,0:08:24.06,Default,,0,0,0,,IFF negativo!\NNão são nossos aliados!
+Dialogue: 0,0:08:25.90,0:08:28.42,Default,,0,0,0,,Rumo à frota Revil!
+Dialogue: 0,0:08:28.55,0:08:30.44,Default,,0,0,0,,Rumo mantido, máquinas em frente.
+Dialogue: 0,0:08:30.74,0:08:33.82,Default,,0,0,0,,A todos os navios,\NEm frente, todas!
+Dialogue: 0,0:08:34.26,0:08:36.32,Default,,0,0,0,,A todas as baterias: armas livres!
+Dialogue: 0,0:08:41.92,0:08:43.21,Default,,0,0,0,,Virem de bordo!
+Dialogue: 0,0:08:55.04,0:08:56.72,Default,,0,0,0,,Fogo!
+Dialogue: 0,0:09:02.19,0:09:04.56,Default,,0,0,0,,Fogo à vontade!
+Dialogue: 0,0:09:04.72,0:09:07.40,Default,,0,0,0,,Atire em tudo que se mover!
+Dialogue: 0,0:09:07.74,0:09:10.27,Default,,0,0,0,,Vamos dar uma festa para eles!
+Dialogue: 0,0:09:43.36,0:09:45.76,Default,,0,0,0,,Proa danificada a bombordo!
+Dialogue: 0,0:09:46.05,0:09:47.27,Default,,0,0,0,,O incêndio está se espalhando!
+Dialogue: 0,0:09:50.81,0:09:52.98,Italique,,0,0,0,,CIC, responda! CIC!
+Dialogue: 0,0:09:53.56,0:09:56.24,Default,,0,0,0,,O CIC não responde.\NDevem ter sido atingidos.
+Dialogue: 0,0:09:57.12,0:10:00.42,Default,,0,0,0,,Vire o leme!\NO inimigo vai atacar novamente!
+Dialogue: 0,0:10:00.74,0:10:02.37,Default,,0,0,0,,Pronto para manobra!
+Dialogue: 0,0:10:02.61,0:10:05.87,Default,,0,0,0,,É Davi contra Golias...
+Dialogue: 0,0:10:06.33,0:10:09.12,Default,,0,0,0,,E Davi...\Nestá nos destruindo...
+Dialogue: 0,0:10:09.46,0:10:13.14,Default,,0,0,0,,Realinhe a frota!\NTemos superioridade numérica!
+Dialogue: 0,0:10:13.29,0:10:14.63,Default,,0,0,0,,Danos na popa!
+Dialogue: 0,0:10:16.72,0:10:18.63,TiretsDefault,,254,0,0,,– Cuidado abaixo!\N– Rápido assim?
+Dialogue: 0,0:10:19.60,0:10:21.64,Default,,0,0,0,,Subestimamos Zeon...
+Dialogue: 0,0:10:21.84,0:10:23.89,TiretsDefault,,226,0,0,,– Incêndio à bombordo!\N– Lá! Às 5 horas!
+Dialogue: 0,0:10:32.11,0:10:34.61,Default,,0,0,0,,Recarreguem ao dar a volta!
+Dialogue: 0,0:10:42.74,0:10:43.99,Default,,0,0,0,,Relatório de danos!
+Dialogue: 0,0:10:47.85,0:10:50.46,Default,,0,0,0,,São... São seres humanos?
+Dialogue: 0,0:10:50.97,0:10:51.83,Default,,0,0,0,,Não!
+Dialogue: 0,0:10:53.05,0:10:54.88,Default,,0,0,0,,Seriam...
+Dialogue: 0,0:10:56.54,0:10:57.76,Default,,0,0,0,,Mobile Suits?
+Dialogue: 0,0:11:05.39,0:11:07.47,Italique,,0,0,0,,108, autorização para decolar.
+Dialogue: 0,0:11:07.85,0:11:10.04,Default,,0,0,0,,Autorização confirmada.\NDecole!
+Dialogue: 0,0:11:10.20,0:11:12.35,Italique,,0,0,0,,109, pronto para decolar.
+Dialogue: 0,0:11:12.49,0:11:15.77,Italique,,0,0,0,,Líder do Riacho para o Mestre do Riacho.\NTodos os aparelhos já decolaram.
+Dialogue: 0,0:12:00.64,0:12:03.99,Default,,0,0,0,,Me restam três obuses.\NPoderia ainda destruir dois!
+Dialogue: 0,0:12:08.33,0:12:11.25,Default,,0,0,0,,Aqui Duckbill,\Npedindo autorização para pousar.
+Dialogue: 0,0:12:11.66,0:12:14.62,Default,,0,0,0,,Aqui Duckbill!\NFalcão, responda!
+Dialogue: 0,0:12:15.65,0:12:18.06,Default,,0,0,0,,Estamos levando uma surra...
+Dialogue: 0,0:12:18.63,0:12:20.21,Italique,,0,0,0,,Aqui controle Falcon.
+Dialogue: 0,0:12:20.56,0:12:24.31,Default,,0,0,0,,Falcon! Aqui Duckbill 306!\NSolicito vetor de pouso.
+Dialogue: 0,0:12:24.66,0:12:26.89,Italique,,0,0,0,,Duckbill, pouso recusado!
+Dialogue: 0,0:12:27.11,0:12:28.01,Default,,0,0,0,,Como assim?
+Dialogue: 0,0:12:28.34,0:12:30.92,Italique,,0,0,0,,O catapultamento dos caças\Né prioridade.
+Dialogue: 0,0:12:31.14,0:12:32.31,Italique,,0,0,0,,Tente outro navio.
+Dialogue: 0,0:12:36.52,0:12:39.58,Default,,0,0,0,,Ei! Falcon Leader!\NAqui é Duckbill!
+Dialogue: 0,0:12:40.42,0:12:42.15,Default,,0,0,0,,Falcon Leader, responda!
+Dialogue: 0,0:12:42.42,0:12:44.49,TiretsItalique,,209,0,0,,{\i0}Merda!{\i1}\NAbandone o navio!
+Dialogue: 0,0:12:54.62,0:12:56.88,Default,,0,0,0,,Projéteis inimigos à bombordo,\NA 4 horas!
+Dialogue: 0,0:12:57.01,0:12:58.29,Default,,0,0,0,,Vire para bombordo!
+Dialogue: 0,0:13:08.91,0:13:10.44,Default,,0,0,0,,Terceira onda em aproximação!
+Dialogue: 0,0:13:36.38,0:13:39.38,Default,,0,0,0,,Bingo! É o Ananké!
+Dialogue: 0,0:13:40.07,0:13:41.29,Default,,0,0,0,,Seu navio almirante!
+Dialogue: 0,0:13:44.00,0:13:45.94,Default,,0,0,0,,E Revil está a bordo!
+Dialogue: 0,0:13:46.94,0:13:49.07,TiretsDefault,,256,0,0,,– Ao ataque!\N– {\i1}Copiado!{\i0}
+Dialogue: 0,0:13:56.64,0:13:58.35,Default,,0,0,0,,Mash, você mira a ponte?
+Dialogue: 0,0:13:58.66,0:13:59.60,Default,,0,0,0,,Mais um!
+Dialogue: 0,0:14:09.53,0:14:10.68,Default,,0,0,0,,Relatório de danos!
+Dialogue: 0,0:14:11.06,0:14:13.37,Default,,0,0,0,,Incêndio na sala de máquinas!
+Dialogue: 0,0:14:13.55,0:14:15.79,Default,,0,0,0,,Três MS nos atacaram!
+Dialogue: 0,0:14:15.93,0:14:16.87,Default,,0,0,0,,Almirante!
+Dialogue: 0,0:14:17.00,0:14:18.50,Default,,0,0,0,,Gerador principal, tudo normal.
+Dialogue: 0,0:14:18.64,0:14:20.70,Default,,0,0,0,,As máquinas levaram um golpe.
+Dialogue: 0,0:14:21.16,0:14:22.67,Default,,0,0,0,,Transfira a bandeira.
+Dialogue: 0,0:14:22.84,0:14:25.63,TiretsDefault,,210,0,0,,– Abandonem o navio!\N– Suspendam tudo!
+Dialogue: 0,0:14:25.92,0:14:27.11,Default,,0,0,0,,Abandonem o navio!
+Dialogue: 0,0:14:27.24,0:14:29.13,Default,,0,0,0,,Repito, abandonem o navio!
+Dialogue: 0,0:14:37.23,0:14:38.94,Default,,0,0,0,,Não erre, Mash!
+Dialogue: 0,0:14:39.11,0:14:40.52,Default,,0,0,0,,Sabe quem eu sou?
+Dialogue: 0,0:14:40.67,0:14:42.91,Default,,0,0,0,,Deixe-me dar o golpe de misericórdia!
+Dialogue: 0,0:15:21.66,0:15:25.23,Default,,0,0,0,,Quanto menor o alvo,\Nmaior é o desafio!
+Dialogue: 0,0:15:30.99,0:15:32.99,Italique,,0,0,0,,Não atire! Olhe!
+Dialogue: 0,0:15:33.56,0:15:35.08,Default,,0,0,0,,É a nave do almirante.
+Dialogue: 0,0:16:17.66,0:16:20.87,Default,,0,0,0,,É o Mobile Suit escarlate\Ndo Tenente Char!
+Dialogue: 0,0:16:23.44,0:16:24.62,Default,,0,0,0,,Que desgraçado!
+Dialogue: 0,0:16:24.75,0:16:25.98,Default,,0,0,0,,É Char?
+Dialogue: 0,0:16:26.25,0:16:28.76,Default,,0,0,0,,Ele voa três vezes mais rápido!
+Dialogue: 0,0:16:28.92,0:16:31.41,Default,,0,0,0,,Parece um cometa vermelho!
+Dialogue: 0,0:16:40.22,0:16:42.64,Default,,0,0,0,,Onde... onde eu estou?
+Dialogue: 0,0:16:44.34,0:16:47.22,Default,,0,0,0,,No... espaço?
+Dialogue: 0,0:16:48.57,0:16:51.04,Default,,0,0,0,,Eu então não morri?
+Dialogue: 0,0:16:51.86,0:16:55.92,Default,,0,0,0,,Aqui se morre por qualquer coisa.\NApós, vira-se um detrito.
+Dialogue: 0,0:16:56.74,0:16:59.37,Default,,0,0,0,,Um detrito entre tantos outros...
+Dialogue: 0,0:17:00.45,0:17:02.82,Default,,0,0,0,,Ei! O vesgo...
+Dialogue: 0,0:17:03.28,0:17:05.17,Default,,0,0,0,,O vesgo?
+Dialogue: 0,0:17:30.77,0:17:33.07,Default,,0,0,0,,Ele destruiu aquele cruzador\Ncom um único projétil!
+Dialogue: 0,0:17:33.50,0:17:35.12,Default,,0,0,0,,Como ele faz isso?
+Dialogue: 0,0:17:38.20,0:17:39.57,Italique,,0,0,0,,Tenente Char!
+Dialogue: 0,0:17:40.60,0:17:42.08,Italique,,0,0,0,,Sargento Cozun!
+Dialogue: 0,0:17:42.29,0:17:44.58,Italique,,0,0,0,,Me restam munições.
+Dialogue: 0,0:17:44.88,0:17:46.08,Italique,,0,0,0,,Vocês querem?
+Dialogue: 0,0:17:46.58,0:17:49.50,Italique,,0,0,0,,Inútil. Concentrem-se em sua contagem de abates.
+Dialogue: 0,0:17:50.00,0:17:53.84,TiretsItalique,,142,0,0,,– Quer dizer que…\N– Você estava sob as ordens do Tenente Ral.
+Dialogue: 0,0:17:54.28,0:17:55.40,Italique,,0,0,0,,De fato.
+Dialogue: 0,0:17:56.07,0:17:58.76,Italique,,0,0,0,,Então, prove isso,\Ne faça-o honrar.
+Dialogue: 0,0:18:21.01,0:18:22.63,Default,,0,0,0,,Parabéns.
+Dialogue: 0,0:18:24.16,0:18:28.07,Default,,0,0,0,,Me alegro com a vitória\Nda nossa frota.
+Dialogue: 0,0:18:28.40,0:18:31.71,Default,,0,0,0,,Suas qualidades de líder\Nsão evidentes.
+Dialogue: 0,0:18:33.75,0:18:35.63,Default,,0,0,0,,Eu te subestimei.
+Dialogue: 0,0:18:36.06,0:18:40.01,Default,,0,0,0,,Eu nunca teria acreditado que você fosse capaz\Nde tais louvores.
+Dialogue: 0,0:18:40.44,0:18:44.05,Default,,0,0,0,,Poderemos abreviar esse conflito\Ncomo esperávamos
+Dialogue: 0,0:18:44.87,0:18:48.02,Default,,0,0,0,,e negociar o armistício\Nem posição de força.
+Dialogue: 0,0:18:49.53,0:18:50.94,Default,,0,0,0,,Bobagem!
+Dialogue: 0,0:18:51.36,0:18:54.02,Default,,0,0,0,,Esta vitória é apenas um gostinho.
+Dialogue: 0,0:18:55.31,0:18:58.82,Default,,0,0,0,,Devemos continuar a lutar,
+Dialogue: 0,0:18:58.95,0:19:01.53,Default,,0,0,0,,até a vitória final.
+Dialogue: 0,0:19:01.78,0:19:05.03,Default,,0,0,0,,Ah sim? Você tem mais ideias?
+Dialogue: 0,0:19:05.28,0:19:10.00,Default,,0,0,0,,Conhece este provérbio, Kycilia?\N"A sorte favorece os audazes".
+Dialogue: 0,0:19:10.92,0:19:12.79,Default,,0,0,0,,Posso fazer uma pergunta?
+Dialogue: 0,0:19:13.98,0:19:14.79,Default,,0,0,0,,Qual é?
+Dialogue: 0,0:19:15.41,0:19:19.60,Default,,0,0,0,,O que faz o navio de nosso pai,\No {\i1}Great Degwin{\i0},
+Dialogue: 0,0:19:19.73,0:19:21.43,Default,,0,0,0,,sozinho na linha de frente?
+Dialogue: 0,0:19:22.24,0:19:24.72,Default,,0,0,0,,Foi ele quem insistiu.
+Dialogue: 0,0:19:24.91,0:19:26.60,Default,,0,0,0,,Ele queria animar nossos homens.
+Dialogue: 0,0:19:27.00,0:19:29.66,Default,,0,0,0,,e assistir a uma vitória histórica.
+Dialogue: 0,0:19:29.86,0:19:31.56,Default,,0,0,0,,Foi servido.
+Dialogue: 0,0:19:32.57,0:19:38.39,Default,,0,0,0,,Você sugere que seria ele\Na deter a frota do Vice-Almirante Tianem...
+Dialogue: 0,0:19:38.94,0:19:42.10,Default,,0,0,0,,se ela decidisse arriscar tudo?
+Dialogue: 0,0:19:42.60,0:19:43.85,Default,,0,0,0,,Não há motivo para preocupação.
+Dialogue: 0,0:19:44.39,0:19:49.66,Default,,0,0,0,,Os almirantes corruptos da Federação\Nnão têm tal audácia.
+Dialogue: 0,0:19:49.86,0:19:53.17,Default,,0,0,0,,O risco zero não existe.\NEntão, o que aconteceria?
+Dialogue: 0,0:19:54.60,0:19:56.79,Default,,0,0,0,,É necessário responder?
+Dialogue: 0,0:19:58.76,0:19:59.73,Default,,0,0,0,,De jeito nenhum.
+Dialogue: 0,0:20:00.20,0:20:02.50,Default,,0,0,0,,A estimativa das baixas inimigas...
+Dialogue: 0,0:20:02.63,0:20:03.86,Default,,0,0,0,,Muito bem, Dozle!
+Dialogue: 0,0:20:04.40,0:20:07.06,Default,,0,0,0,,Nossa vitória é total!
+Dialogue: 0,0:20:07.38,0:20:09.79,Default,,0,0,0,,Nossa frota é fantástica!
+Dialogue: 0,0:20:10.14,0:20:12.53,Default,,0,0,0,,Nada está decidido ainda, Garma!
+Dialogue: 0,0:20:13.95,0:20:19.32,Default,,0,0,0,,Saiba que se a Federação ordenar\Nà frota do Vice-Almirante Tianem avançar,
+Dialogue: 0,0:20:19.69,0:20:23.62,Default,,0,0,0,,Zeon está indefeso\Ne pode bem cair.
+Dialogue: 0,0:20:25.60,0:20:29.70,Default,,0,0,0,,A questão é:\Neles vão tentar o diabo?
+Dialogue: 0,0:20:33.41,0:20:36.21,Sign3,sign,0,0,0,,{\fad(350,0)}Frota de Tianem, Nave Capitânia Titan
+Dialogue: 0,0:20:36.51,0:20:39.71,Default,,0,0,0,,Os sensores detectam\Num navio inimigo à frente.
+Dialogue: 0,0:20:40.22,0:20:42.14,Default,,0,0,0,,Identificação: {\i1}Great Degwin{\i0}.
+Dialogue: 0,0:20:42.41,0:20:45.47,Default,,0,0,0,,É o encouraçado classe Gwazine\Ndo duque Degwin.
+Dialogue: 0,0:20:47.05,0:20:49.55,Default,,0,0,0,,Achamos\Nque sua frota está exaurida
+Dialogue: 0,0:20:49.68,0:20:52.35,Default,,0,0,0,,ao ponto de enviar\Nseu navio almirante.
+Dialogue: 0,0:20:53.62,0:20:55.73,Default,,0,0,0,,Isso é tudo que nos separa de Side-3.
+Dialogue: 0,0:20:56.12,0:20:58.86,Default,,0,0,0,,Podemos fazer Zeon capitular!
+Dialogue: 0,0:20:59.19,0:21:02.61,Default,,0,0,0,,Almirante,\NNosso prejuízo foi negligenciável.
+Dialogue: 0,0:21:05.12,0:21:06.17,Default,,0,0,0,,De jeito nenhum.
+Dialogue: 0,0:21:10.08,0:21:12.37,Default,,0,0,0,,Não iremos além disso.
+Dialogue: 0,0:21:12.86,0:21:13.62,Default,,0,0,0,,Por quê?
+Dialogue: 0,0:21:14.58,0:21:17.40,Default,,0,0,0,,O destino da batalha já está selado.
+Dialogue: 0,0:21:17.77,0:21:18.90,Default,,0,0,0,,Mas...
+Dialogue: 0,0:21:19.48,0:21:21.06,Default,,0,0,0,,Nossa missão, agora,
+Dialogue: 0,0:21:21.24,0:21:24.88,Default,,0,0,0,,é ajudar a frota de Revil\Na se retirar.
+Dialogue: 0,0:21:25.09,0:21:27.21,TiretsDefault,,246,0,0,,– Virem o leme!\N– Sim, senhor.
+Dialogue: 0,0:21:27.60,0:21:29.90,Default,,0,0,0,,A todos os navios, virem de bordo.
+Dialogue: 0,0:21:30.04,0:21:31.38,TiretsDefault,,254,0,0,,– Pronto para virar!\N– Sinal laser!
+Dialogue: 0,0:21:31.52,0:21:33.39,TiretsDefault,,210,0,0,,– Máquinas, respondam.\N– Trajetória confirmada.
+Dialogue: 0,0:21:33.52,0:21:35.78,Default,,0,0,0,,Ainda não perdemos...
+Dialogue: 0,0:21:36.37,0:21:37.66,Default,,0,0,0,,Longe disso.
+Dialogue: 0,0:21:53.24,0:21:57.30,Default,,0,0,0,,A frota do Vice-Almirante Tianem\Na está fazendo o retorno a 4.000 km daqui.
+Dialogue: 0,0:21:57.60,0:21:59.75,Default,,0,0,0,,Perfeito!\NVitória total!
+Dialogue: 0,0:22:00.29,0:22:02.93,Default,,0,0,0,,Ganhamos,\NNão é mesmo, pai?
+Dialogue: 0,0:22:03.16,0:22:06.67,Default,,0,0,0,,Eu também quero lutar! Envie-me para onde quiser!
+Dialogue: 0,0:22:07.01,0:22:09.52,Default,,0,0,0,,Sou um soldado do ducado,\NAfinal!
+Dialogue: 0,0:22:09.93,0:22:11.17,Default,,0,0,0,,Garma!
+Dialogue: 0,0:22:12.52,0:22:14.54,Default,,0,0,0,,Você ainda é muito jovem.
+Dialogue: 0,0:22:14.79,0:22:16.81,Default,,0,0,0,,E ainda muito ingênuo.
+Dialogue: 0,0:22:17.14,0:22:22.19,Default,,0,0,0,,Ainda não sabe\Nquão horrível é a guerra.
+Dialogue: 0,0:22:22.38,0:22:25.69,Default,,0,0,0,,Não deve agir com imprudência.
+Dialogue: 0,0:22:27.44,0:22:29.20,Default,,0,0,0,,Transmita para Dozle.
+Dialogue: 0,0:22:29.72,0:22:32.26,Default,,0,0,0,,O almirante Revil é nosso prisioneiro.
+Dialogue: 0,0:22:32.42,0:22:35.43,Default,,0,0,0,,Ele não deve lhe faltar respeito.
+Dialogue: 0,0:22:37.37,0:22:38.92,Default,,0,0,0,,Navios inimigos a 10 horas!
+Dialogue: 0,0:22:39.06,0:22:43.76,Default,,0,0,0,,Vire a bombordo, toda a frente!\NBateria, fogo à vontade!
+Dialogue: 0,0:22:45.16,0:22:47.03,Default,,0,0,0,,Classe Magellan em 038!
+Dialogue: 0,0:22:47.64,0:22:49.27,Default,,0,0,0,,Mantenha um fogo cerrado!
+Dialogue: 0,0:22:51.59,0:22:53.08,Default,,0,0,0,,Golpe direto! Golpe direto!
+Dialogue: 0,0:22:53.22,0:22:55.69,Default,,0,0,0,,O inimigo rompe a formação.
+Dialogue: 0,0:22:55.86,0:22:58.49,TiretsDefault,,206,0,0,,- O Magellan foi atingido.\N- A tripulação evacua.
+Dialogue: 0,0:22:58.62,0:23:00.01,Default,,0,0,0,,Não nos culpe.
+Dialogue: 0,0:23:01.07,0:23:03.04,Default,,0,0,0,,É o destino dos vencidos.
+Dialogue: 0,0:23:07.74,0:23:10.45,Default,,0,0,0,,Parem de atirar!
+Dialogue: 0,0:23:11.20,0:23:14.95,Default,,0,0,0,,À todos os tripulantes!\NUm minuto de silêncio...
+Dialogue: 0,0:23:15.62,0:23:17.94,Default,,0,0,0,,pelos soldados mortos em combate!
+Dialogue: 0,0:24:55.00,0:24:58.00,Default,,0,0,0,,Adaptação : Jun-Ichi Takeda
+Dialogue: 0,0:01:15.57,0:01:19.69,OPCN,NTP,0,0,0,,{\fad(200,200)}Você pertence a mim Ainda não te despedi.
+Dialogue: 0,0:01:19.86,0:01:24.19,OPCN,NTP,0,0,0,,{\fad(200,200)}Queria te abraçar para sempre
+Dialogue: 0,0:01:24.24,0:01:28.42,OPCN,NTP,0,0,0,,{\fad(200,200)}Eu pertenço a você, meu peito vai explodir
+Dialogue: 0,0:01:28.59,0:01:33.00,OPCN,NTP,0,0,0,,{\fad(200,0)}Queria te mostrar tudo isso
+Dialogue: 0,0:01:33.00,0:01:43.07,OPCN,NTP,0,0,0,,{\fad(200,200)}Ah, não conseguimos escapar dessa roda Möbius
+Dialogue: 0,0:01:43.29,0:01:49.91,OPCN,NTP,0,0,0,,{\fad(200,200)}Sempre repetindo esses pecados
+Dialogue: 0,0:01:50.05,0:01:54.31,OPCN,NTP,0,0,0,,{\fad(200,200)}Mais do que paz, mais do que liberdade, mais do que justiça
+Dialogue: 0,0:01:54.46,0:01:58.70,OPCN,NTP,0,0,0,,{\fad(200,200)}Você é tudo o que procuro
+Dialogue: 0,0:01:58.79,0:02:02.85,OPCN,NTP,0,0,0,,{\fad(200,200)}Mesmo separados, mesmo mudando, mesmo perdendo
+Dialogue: 0,0:02:02.91,0:02:07.41,OPCN,NTP,0,0,0,,{\fad(200,200)}Também não se esconda em sua luz
+Dialogue: 0,0:02:07.52,0:02:11.82,OPCN,NTP,0,0,0,,{\fad(200,200)}Você pode mudar o destino no fim do tempo
+Dialogue: 0,0:02:11.92,0:02:16.21,OPCN,NTP,0,0,0,,{\fad(200,200)}Você pode mudar o futuro no fim da escuridão
+Dialogue: 0,0:02:16.47,0:02:20.21,OPCN,NTP,0,0,0,,{\fad(200,200)}Vamos compartilhar a felicidade e procurá-la juntos
+Dialogue: 0,0:02:20.28,0:02:25.52,OPCN,NTP,0,0,0,,{\fad(200,400)}O dia em que todos se entenderem mutuamente
+Dialogue: 0,0:23:30.97,0:23:34.35,EDCN,NTP,0,0,0,,{\fad(450,0)}O universo está chamando
+Dialogue: 0,0:23:35.31,0:23:39.44,EDCN,NTP,0,0,0,,{\fad(450,0)}Eu ouvi seu grito
+Dialogue: 0,0:23:41.65,0:23:44.94,EDCN,NTP,0,0,0,,{\fad(450,0)}Embora em silêncio
+Dialogue: 0,0:23:45.61,0:23:48.53,EDCN,NTP,0,0,0,,{\fad(450,0)}ainda há uma...
+Dialogue: 0,0:23:49.07,0:23:51.28,EDCN,NTP,0,0,0,,{\pos(960,1055)\fad(450,150)}um brilho carmesim
+Dialogue: 0,0:23:51.17,0:24:01.24,EDCN,NTP,0,0,0,,{\pos(960,1055)\fad(150,200)}A luz da redenção está aqui. É a esperança de sobrevivência no desespero
+Dialogue: 0,0:24:01.47,0:24:11.61,EDCN,NTP,0,0,0,,{\fad(200,200)}A esperança de viver no desespero, que faz as lágrimas escorrerem
+Dialogue: 0,0:24:11.93,0:24:20.73,EDCN,NTP,0,0,0,,{\fad(200,0)}As flores cultivadas com todo o coração
+Dialogue: 0,0:24:20.75,0:24:28.74,EDCN,NTP,0,0,0,,{\fad(200,200)}Mesmo que as estrelas desapareçam, a luz permanece.
+Dialogue: 0,0:24:33.70,0:24:37.18,EDCN,NTP,0,0,0,,{\fad(200,200)}O universo está chamando
+Dialogue: 0,0:24:38.95,0:24:42.66,EDCN,NTP,0,0,0,,{\fad(200,200)}Eu ouvi seu grito
+Dialogue: 0,0:24:44.21,0:24:47.40,EDCN,NTP,0,0,0,,{\fad(200,200)}Embora em silêncio
+Dialogue: 0,0:24:48.10,0:24:52.93,EDCN,NTP,0,0,0,,{\fad(200,850)}ainda há uma...

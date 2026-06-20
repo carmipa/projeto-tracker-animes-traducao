@@ -1,0 +1,2015 @@
+﻿1
+00:01:59,419 --> 00:02:02,547
+Deixando ponto orbital Score 9.
+Iniciando queda planetária.
+
+2
+00:02:02,622 --> 00:02:09,186
+Nave 306, ajuste ângulo de entrada
+menos 2 mais Alpha 0.3, final.
+
+3
+00:02:10,096 --> 00:02:11,859
+306, afirmativo.
+
+4
+00:02:11,931 --> 00:02:15,423
+Aberta a manobra de desaceleração!
+Altitude 663 e caindo.
+
+5
+00:02:17,470 --> 00:02:21,770
+Base marciana para 306.
+Cometa se aproximando.
+
+6
+00:02:21,841 --> 00:02:24,639
+Marca 600, equatorial.
+Pequeno e muito rápido.
+
+7
+00:02:24,711 --> 00:02:26,406
+Transmitir dados
+para seu computador de bordo.
+
+8
+00:02:26,880 --> 00:02:28,871
+Cometa? Onde?!
+
+9
+00:02:29,516 --> 00:02:31,211
+Lá! Chegando!
+
+10
+00:02:39,726 --> 00:02:42,251
+O que aconteceu?
+Foi atingido?
+
+11
+00:02:42,328 --> 00:02:47,163
+O que há de errado?! Nave 306,
+seu ângulo de entrada é muito íngreme!
+
+12
+00:02:47,233 --> 00:02:51,897
+Correção de entrada! Repita,
+Nave 306, correção de entrada!
+
+13
+00:03:01,247 --> 00:03:03,442
+Ei! O que há?
+Reaja!
+
+14
+00:03:03,516 --> 00:03:04,915
+O que diabos aconteceu?!
+
+15
+00:05:20,086 --> 00:05:21,883
+Quase peguei...
+
+16
+00:05:30,296 --> 00:05:33,390
+Isso aí...
+Hoje é segunda-feira.
+
+17
+00:05:36,302 --> 00:05:39,567
+E ai, Tomoru!
+Onde você esteve?
+
+18
+00:05:40,406 --> 00:05:44,206
+Você não pode continuar pulando
+nossas aulas de Cosmologia II.
+
+19
+00:05:44,277 --> 00:05:45,642
+Temos um relatório
+devido em 6 meses...
+
+20
+00:05:46,646 --> 00:05:49,171
+Tomoru, sou eu.
+
+21
+00:05:49,248 --> 00:05:52,240
+Você vai se formar da Sekandar
+em 6 meses, certo?
+
+22
+00:05:52,318 --> 00:05:55,685
+Venha para a Lua.
+Me ajude no meu trabalho.
+
+23
+00:05:55,755 --> 00:06:00,249
+A Vrighton Ltd. Cresceu
+para controlar 70% de...
+
+24
+00:06:00,326 --> 00:06:05,093
+...todos os transferências de grãos fora do mundo
+em apenas dez anos, então...
+
+25
+00:06:06,099 --> 00:06:09,967
+E aqui está a notícia principal
+desta manhã no canal 32.
+
+26
+00:06:10,036 --> 00:06:14,029
+Primeiro, algumas palavras perturbadoras
+ontem de Kumi Jefferson...
+
+27
+00:06:14,107 --> 00:06:18,100
+...famoso por suas previsões
+de desastres aéreos.
+
+28
+00:06:18,544 --> 00:06:19,943
+Destruição!
+
+29
+00:06:22,048 --> 00:06:23,982
+A destruição está começando!
+
+30
+00:06:24,050 --> 00:06:26,951
+Uma destruição sombria cairá sobre todos nós.
+Está se aproximando enquanto falo.
+
+31
+00:06:27,019 --> 00:06:32,719
+Quando o sol, a Terra e a lua...
+...alinharem nesta tarde de terça-feira,
+
+32
+00:06:32,792 --> 00:06:37,456
+descerá dos céus!
+Coisas bem assustadoras!
+
+33
+00:06:38,297 --> 00:06:42,461
+O que nos espera?
+Cidade No. 5... Uma metrópole
+
+34
+00:06:53,546 --> 00:06:57,141
+Cidade No. 5... Uma metrópole
+flutuando na linha do equador.
+
+35
+00:06:58,384 --> 00:07:01,012
+Não é um paraíso,
+minha cidade.
+
+36
+00:07:01,821 --> 00:07:04,654
+Mas quieto como está,
+não me importo.
+
+37
+00:07:22,575 --> 00:07:26,011
+Na hora certa.
+Me pergunto até onde ela vai?
+
+38
+00:07:26,913 --> 00:07:31,509
+O penteado está desatualizado...
+Talvez de propósito?
+
+39
+00:07:32,518 --> 00:07:36,181
+E aqueles óculos grandes demais...
+Eles cobrem um rosto bonito!
+
+40
+00:08:34,413 --> 00:08:35,903
+Uma bebida, senhor?
+
+41
+00:08:36,849 --> 00:08:38,578
+Isso será tudo?
+
+42
+00:08:39,519 --> 00:08:40,486
+Como você desejar.
+
+43
+00:08:48,094 --> 00:08:49,083
+Ei!
+
+44
+00:08:50,863 --> 00:08:52,922
+Desculpe pelo atraso!
+
+45
+00:08:54,267 --> 00:08:56,531
+Você acordou bem cedo.
+O que está acontecendo?
+
+46
+00:08:56,602 --> 00:08:58,729
+Nada...
+Nada mesmo.
+
+47
+00:08:59,438 --> 00:09:02,669
+Bem-vindo a Maharoba.
+Faça seu pedido, por favor.
+
+48
+00:09:03,376 --> 00:09:06,209
+Então Tomoru, você decidiu?
+
+49
+00:09:06,279 --> 00:09:08,213
+Não, ainda não.
+
+50
+00:09:08,281 --> 00:09:09,248
+Ainda não?!
+
+51
+00:09:11,183 --> 00:09:12,616
+Meu Deus...
+
+52
+00:09:12,685 --> 00:09:15,119
+Nós só temos
+uma temporadaleft.
+
+53
+00:09:19,025 --> 00:09:20,959
+Só uma temporada!
+
+54
+00:09:21,027 --> 00:09:25,157
+Aguente firme; você tem
+para conseguir aqueles ingressos da UNF.
+
+55
+00:09:25,231 --> 00:09:27,893
+Se conseguirmos isso,
+temos um passe livre...
+
+56
+00:09:27,967 --> 00:09:30,902
+...para qualquer empresa,
+governo ou setor privado.
+
+57
+00:09:30,970 --> 00:09:35,634
+Não me importo se me forme.
+Nem mesmo quero o ingresso.
+
+58
+00:09:36,909 --> 00:09:38,308
+O que você disse?!
+
+59
+00:09:45,151 --> 00:09:47,551
+Do que você está falando,
+Tomoru?!
+
+60
+00:09:47,620 --> 00:09:52,421
+Se eu conseguir o ingresso, me tornar
+certificado pela UNF e entrar em uma empresa...
+
+61
+00:09:52,491 --> 00:09:56,928
+Ter 3 anos de treinamento empresarial,
+2 anos de treinamento executivo...
+
+62
+00:09:56,996 --> 00:09:58,987
+E depois?
+
+63
+00:10:00,232 --> 00:10:03,201
+O que você quer dizer com "e depois"?
+O que tem de errado nisso?
+
+64
+00:10:04,003 --> 00:10:05,766
+Você quer mais do que isso?!
+
+65
+00:10:05,838 --> 00:10:11,003
+Você sabe quantas pessoas querem
+esses ingressos e nunca conseguem?
+
+66
+00:10:11,344 --> 00:10:13,278
+Sim... Seu irmão!
+
+67
+00:10:13,346 --> 00:10:16,838
+O responsável pelo envio de comida
+para a Vrighton Ltd. -Luna.
+
+68
+00:10:16,916 --> 00:10:19,510
+Ei, agora tem um trabalho!
+
+69
+00:10:19,585 --> 00:10:22,452
+Apostaria que você pararia de se preocupar com o futuro se estivesse lá!
+Ei, não seria pedir demais
+
+70
+00:10:22,521 --> 00:10:25,649
+que você me apresentasse a ele? Quero dizer...
+PASFU! Desejos inauditos!
+
+71
+00:10:26,192 --> 00:10:30,128
+PASFU! Unanswered wishes!
+Desejos! Nada é impossível!
+
+72
+00:10:30,196 --> 00:10:31,629
+Realize seus sonhos!
+
+73
+00:10:31,697 --> 00:10:36,225
+Novo de Psy*Comu World,
+o PASFU S-59!
+
+74
+00:10:36,302 --> 00:10:39,032
+Agora, conecte-se diretamente com
+seu próprio coração interior!
+
+75
+00:10:39,105 --> 00:10:41,699
+Compre agora e receba
+a última atualização de software!
+
+76
+00:10:53,052 --> 00:10:55,646
+Correr em uma moto-agulha está bem.
+
+77
+00:10:55,721 --> 00:10:59,885
+Jogar em um Psico-Sim?
+Não há nada de errado com isso. MAS!
+
+78
+00:11:01,227 --> 00:11:03,491
+Olhe para este
+brilhante histórico de serviço!
+
+79
+00:11:03,562 --> 00:11:06,395
+2080 - Subdução da
+revolta da Estação L-9!
+
+80
+00:11:06,465 --> 00:11:10,333
+2120 - Colonos de Base Mars resgatados
+da contaminação nuclear!
+
+81
+00:11:10,403 --> 00:11:14,396
+2262 - Colônia Jupiter salva
+do impacto de um cometa!
+
+82
+00:11:14,473 --> 00:11:17,840
+Todos eles feitos heroicos
+das Forças de Defesa da Terra!
+
+83
+00:11:17,910 --> 00:11:21,812
+Queremos sua força jovem!
+Força para superar qualquer obstáculo!
+
+84
+00:11:30,356 --> 00:11:34,759
+Ligue a ciência à sua própria
+vontade indomável... Link-Man!
+
+85
+00:11:35,594 --> 00:11:39,530
+Esmague nossos inimigos!
+Lute! Pelo que você ama!
+
+86
+00:11:39,598 --> 00:11:42,692
+Por sua cidade! Por seu
+planeta-mãe, a Terra!
+
+87
+00:11:42,768 --> 00:11:45,760
+Pelos milhares de
+Pessoas em nosso sistema solar!
+
+88
+00:11:46,772 --> 00:11:49,605
+Carregue através da galáxia
+em seu próprio Link-Man!
+
+89
+00:11:59,285 --> 00:12:02,448
+Talvez se juntar à E.D.F.
+não seria uma má ideia...
+
+90
+00:12:05,624 --> 00:12:07,751
+Ah! Eu me esqueci! Aqui.
+
+91
+00:12:09,962 --> 00:12:11,759
+Como foi?
+
+92
+00:12:11,831 --> 00:12:14,561
+Aquela garota no sim
+era realmente algo.
+
+93
+00:12:14,633 --> 00:12:16,464
+Você acha que eles modelaram ela
+de uma mulher real?
+
+94
+00:12:17,036 --> 00:12:19,800
+Não...
+Quero dizer, além disso!
+
+95
+00:12:20,639 --> 00:12:22,539
+Eu me saí bem.
+
+96
+00:12:22,608 --> 00:12:26,806
+Resgatei a garota e consegui
+especial "agradecimentos" dela...
+
+97
+00:12:28,414 --> 00:12:30,814
+O quê?!
+Você fez "bastante bem"?!
+
+98
+00:12:30,883 --> 00:12:33,044
+Filho da mãe!
+Até onde você chegou?!
+
+99
+00:12:34,453 --> 00:12:36,580
+Pare com isso!
+Não consigo respirar!
+
+100
+00:12:36,655 --> 00:12:39,283
+Você ainda não venceu?
+
+101
+00:12:41,427 --> 00:12:43,520
+Esse programa está bom.
+
+102
+00:12:43,596 --> 00:12:47,032
+Exceto por uma coisa...
+Essas roupas esquisitas!
+
+103
+00:12:47,099 --> 00:12:48,657
+O que há com elas?
+
+104
+00:12:48,734 --> 00:12:52,602
+As botas altas,
+as calças na altura do joelho.
+
+105
+00:12:52,671 --> 00:12:56,971
+Sim! Como no século 20
+O casaco que você está usando também!
+
+106
+00:12:57,042 --> 00:12:59,010
+Você tem um gosto bem
+antiquado.
+
+107
+00:12:59,078 --> 00:13:02,013
+É melhor consertar isso antes
+de se juntar a qualquer empresa!
+
+108
+00:13:03,015 --> 00:13:04,004
+Ei!
+
+109
+00:13:06,085 --> 00:13:07,848
+Ei! Para onde você está indo?
+
+110
+00:13:09,789 --> 00:13:12,849
+É um uniforme da Luftwaffe.
+
+111
+00:13:15,761 --> 00:13:20,357
+Uma fantasia de soldado do século 20.
+Você nem iria entender...
+
+112
+00:13:21,233 --> 00:13:24,669
+O que? "Luft parfait"?
+Ei! Tomoru, espere!
+
+113
+00:13:25,871 --> 00:13:28,271
+Temos 16 variedades de
+parfait para escolher, senhor.
+
+114
+00:13:28,340 --> 00:13:31,207
+Tomoru! Não vai tomar o seu?
+Para o seminário? E aí!
+
+115
+00:14:59,465 --> 00:15:01,626
+"Vá para a Lua", é?
+
+116
+00:15:22,655 --> 00:15:25,749
+Diretor Foreston,
+ainda mais de Marte...
+
+117
+00:15:25,824 --> 00:15:28,088
+Tudo bem, me conta depois.
+
+118
+00:15:29,161 --> 00:15:30,992
+Bem, como vai?
+
+119
+00:15:31,964 --> 00:15:33,591
+Siga-me.
+
+120
+00:15:35,367 --> 00:15:36,994
+Como podem ver...
+
+121
+00:15:38,304 --> 00:15:40,829
+Está... tomando forma.
+
+122
+00:15:41,507 --> 00:15:44,169
+Bem, está construído.
+Mas ainda assim...
+
+123
+00:15:44,877 --> 00:15:48,677
+Posso fazer uma pergunta simples?
+
+124
+00:15:49,648 --> 00:15:51,275
+Afinal, o que é essa coisa?
+
+125
+00:15:51,951 --> 00:15:55,478
+Talvez você devesse perguntar.
+
+126
+00:15:56,021 --> 00:15:59,354
+Ainda não se deu ao trabalho.
+Se apresenta até para mim.
+
+127
+00:16:01,360 --> 00:16:04,523
+Posso lhe fazer uma pergunta, I-Zack?
+A mesma pergunta?
+
+128
+00:16:04,596 --> 00:16:06,188
+Fique à vontade.
+
+129
+00:16:07,032 --> 00:16:11,867
+I-Zack, por favor responda-me.
+O que é essa coisa?
+
+130
+00:16:15,040 --> 00:16:18,305
+Estou tão perdido quanto o Professor Kanzaki.
+Mesmo se completarmos,
+
+131
+00:16:18,377 --> 00:16:22,040
+sua função permanecerá desconhecida.
+Função, hein?
+
+132
+00:16:24,216 --> 00:16:25,649
+O que você acha?
+
+133
+00:16:30,389 --> 00:16:31,651
+É uma situação incomum.
+
+134
+00:16:31,724 --> 00:16:34,056
+Primeiro recebemos aquele
+
+135
+00:16:34,226 --> 00:16:37,889
+sinal pulsante do espaço profundo...
+pulse signal from deep space...
+
+136
+00:16:37,963 --> 00:16:41,228
+...e isso nos permite
+construir essa coisa.
+
+137
+00:16:41,734 --> 00:16:45,727
+Não, não isso. O comportamento dela.
+Você não acha estranho?
+
+138
+00:16:48,474 --> 00:16:52,843
+Você acha que ela sabe mais
+do que está nos contando?
+
+139
+00:16:53,612 --> 00:16:57,742
+Aquilo é malditamente especial.
+Eu sei disso.
+
+140
+00:16:58,584 --> 00:17:03,248
+Bem, deixemos isso para
+a garota prodígio da Segunda Iniciação...
+
+141
+00:17:03,322 --> 00:17:05,916
+...e o supercomputador.
+
+142
+00:17:06,925 --> 00:17:09,257
+Pelo menos até que esteja pronto.
+
+143
+00:17:13,699 --> 00:17:15,530
+Concordo com você.
+
+144
+00:17:15,601 --> 00:17:20,766
+Devemos evitar fazer conclusões precipitadas
+antes de estar completo.
+
+145
+00:17:22,174 --> 00:17:26,873
+Isso não está certo! Isso...
+Isso... é algo horrível.
+
+146
+00:17:26,945 --> 00:17:32,781
+Se devemos concluí-lo...
+É a verdadeira pergunta.
+
+147
+00:17:35,587 --> 00:17:38,385
+Você está aqui. Toque isso de volta!
+
+148
+00:17:38,724 --> 00:17:40,851
+O que você viu?
+
+149
+00:17:41,393 --> 00:17:46,228
+Sh... Sombra! Enorme...
+sombra... fora da nave...
+
+150
+00:17:46,298 --> 00:17:49,290
+Conseguimos isso
+há duas horas de Marte.
+
+151
+00:17:49,735 --> 00:17:54,297
+Um piloto de nave espacial encontrou algo em órbita de Marte.
+A imagem está aparecendo agora...
+
+152
+00:17:55,641 --> 00:17:57,233
+Não temos tempo!
+
+153
+00:17:57,409 --> 00:17:59,172
+Faça isso!
+Do it!
+
+154
+00:18:07,052 --> 00:18:08,076
+O diabo!
+
+155
+00:18:48,494 --> 00:18:49,518
+O que é isso?!
+
+156
+00:19:06,778 --> 00:19:08,245
+Tomoru!
+
+157
+00:19:31,637 --> 00:19:33,229
+Quem é você?
+
+158
+00:19:35,307 --> 00:19:39,744
+Tomoru...
+Não fuja disso.
+
+159
+00:19:40,512 --> 00:19:43,777
+Lute! Lute, Tomoru!
+TOMORU!
+
+160
+00:19:53,759 --> 00:19:55,750
+Calpica 3 para Estardust!
+
+161
+00:19:56,628 --> 00:19:59,791
+Nada bom! Não consigo acompanhar
+isso. Acabei de perder a visualização.
+
+162
+00:19:59,865 --> 00:20:02,698
+É branco, muito pequeno
+para ser um cometa.
+
+163
+00:20:02,768 --> 00:20:05,703
+Está em curso direto
+para a órbita lunar! Repita...
+
+164
+00:20:25,958 --> 00:20:29,894
+Bem feito. Até Lady Mhiku,
+que vê tudo...
+
+165
+00:20:29,962 --> 00:20:33,796
+...não poderia prever
+o quão longe você chegaria.
+
+166
+00:20:35,367 --> 00:20:38,564
+Mas... de qualquer maneira...
+Aqui é onde você morrerá...
+
+167
+00:20:55,053 --> 00:20:57,988
+Terra... Tomoru...
+
+168
+00:21:07,933 --> 00:21:12,802
+Orgun... Impressionante como sempre.
+Mas, aqui termina!
+
+169
+00:21:28,754 --> 00:21:32,019
+Orgun, que desperdício...
+
+170
+00:21:33,091 --> 00:21:34,080
+O quê?!
+
+171
+00:21:35,227 --> 00:21:36,194
+Impossible!
+
+172
+00:21:44,036 --> 00:21:46,903
+Atire! Atire nele!
+ATIRE EM ELE!!!
+
+173
+00:22:19,738 --> 00:22:25,540
+Tomoru...
+Tome... Tome meu...
+
+174
+00:22:37,989 --> 00:22:40,924
+O que foi isso?
+
+175
+00:22:41,093 --> 00:22:44,426
+L... Eu poderia jurar que
+Vi... a Terra...
+
+176
+00:23:06,284 --> 00:23:09,447
+Michi... Professor Kanzaki!
+Olhe para isso!
+
+177
+00:23:11,456 --> 00:23:14,653
+O que diabos...?!
+Os dados finais?
+
+178
+00:23:14,726 --> 00:23:19,060
+Provavelmente. Estou lendo um
+grande número de sinais pulsantes.
+
+179
+00:23:19,131 --> 00:23:22,464
+E eles estão sendo emitidos a uma
+distância muito próxima.
+
+180
+00:23:22,667 --> 00:23:23,691
+Distância próxima?
+
+181
+00:23:24,069 --> 00:23:26,299
+Aproximadamente 400.000
+quilômetros daqui.
+
+182
+00:23:26,638 --> 00:23:31,132
+400.000 quilômetros...
+Lá na órbita lunar?
+
+183
+00:24:09,181 --> 00:24:12,742
+- Lorde Zoa.
+- O desertor, Orgun...
+
+184
+00:24:12,818 --> 00:24:16,515
+Ele supostamente foi destruído em
+a lua do terceiro planeta.
+
+185
+00:24:21,593 --> 00:24:26,030
+Uma morte sem sentido...
+Muito apropriado para um traidor.
+
+186
+00:24:32,037 --> 00:24:33,470
+Senhora Mhiku!
+
+187
+00:24:37,642 --> 00:24:40,907
+Orgun?!
+Ele ainda vive?!
+
+188
+00:24:45,250 --> 00:24:47,218
+By your command...
+
+189
+00:24:47,419 --> 00:24:52,049
+Dispatch Eyd to the
+third planet in the system!
+
+190
+00:25:12,377 --> 00:25:13,901
+Orgun...
+
+191
+00:25:17,015 --> 00:25:23,978
+A E.D.F. detectou pela primeira vez
+um sinal pulsante há um ano.
+
+192
+00:25:24,289 --> 00:25:28,248
+Foi captado fora da órbita de
+Plutão por...
+
+193
+00:25:28,326 --> 00:25:31,921
+...a sonda EVA-20 enquanto seguia
+para a supernova Maxweir.
+
+194
+00:25:31,997 --> 00:25:38,266
+Um sinal pulsante vindo de
+Cignus em direção ao nosso sistema solar.
+
+195
+00:25:38,803 --> 00:25:42,261
+A sonda começou a retransmitir
+isso de volta à Terra.
+
+196
+00:25:42,340 --> 00:25:44,035
+E agora, um ano depois...
+
+197
+00:25:44,109 --> 00:25:50,810
+...depois de 368 dias e 16 horas
+de transmissão...
+
+198
+00:25:50,882 --> 00:25:54,909
+...o sinal terminou
+às 04:22 desta manhã.
+
+199
+00:25:54,986 --> 00:25:56,385
+Terminado?
+
+200
+00:25:56,788 --> 00:26:00,121
+Para descobrir a fonte
+desse sinal misterioso...
+
+201
+00:26:00,191 --> 00:26:03,627
+...nós aqui na Inteligência da E.D.F.
+oito meses atrás...
+
+202
+00:26:03,695 --> 00:26:09,156
+...formamos uma equipe especial para
+investigá-lo. Olhem aqui.
+
+203
+00:26:10,068 --> 00:26:11,365
+Meu Deus!!!...
+
+204
+00:26:13,171 --> 00:26:15,332
+Está quase pronto!
+
+205
+00:26:17,909 --> 00:26:20,901
+Todos os dados transmitidos foram dados a...
+...o supercomputador I-ZACK e ao Prof. Kanzaki para analisar.
+
+206
+00:26:20,979 --> 00:26:24,938
+E, após plotar as coordenadas no espaço...
+and Prof. Kanzaki to analyze.
+
+207
+00:26:25,016 --> 00:26:28,213
+And, after plotting the
+coordinates in space...
+
+208
+00:26:28,286 --> 00:26:30,277
+...começou a tomar forma.
+
+209
+00:26:30,655 --> 00:26:34,648
+Os resultados da ligação de 3267 horas do I-ZACK com...
+...o sistema de produção Wirbel Wind são o que vocês veem aqui.
+
+210
+00:26:34,726 --> 00:26:38,594
+Posso fazer uma pergunta simples?
+system is what you see here.
+
+211
+00:26:38,663 --> 00:26:42,155
+Descobriremos muito em breve.
+Estou detectando um meteoro,
+
+212
+00:26:43,268 --> 00:26:45,202
+Setor 3 da Terra, 332-6.
+
+213
+00:26:50,775 --> 00:26:53,676
+Pequeno,
+entrando na atmosfera.
+
+214
+00:27:03,755 --> 00:27:06,451
+Estimativa de vaporização.
+Earth sector 332-6.
+
+215
+00:27:06,524 --> 00:27:08,924
+Small,
+entering atmosphere.
+
+216
+00:27:08,994 --> 00:27:11,622
+Estimate vaporization
+na altitude 220.
+
+217
+00:27:11,696 --> 00:27:15,427
+Site Alpha-2 confirma o radar.
+Altitude 230 e ainda caindo.
+
+218
+00:27:15,934 --> 00:27:19,631
+Estranho... Incoming! Rastreando
+no radar de alcance além do horizonte.
+
+219
+00:27:20,205 --> 00:27:24,574
+Aproximando-se, altitude 198...
+190... 181...
+
+220
+00:27:24,643 --> 00:27:26,975
+Mudou de curso agora mesmo!
+Não é um meteoro!
+
+221
+00:27:29,214 --> 00:27:31,205
+Nível de alerta Dois!
+
+222
+00:27:31,282 --> 00:27:34,342
+Condição Laranja!
+Repetindo, condição Laranja!
+
+223
+00:27:34,886 --> 00:27:36,877
+Condição Laranja!
+Condição Laranja!
+
+224
+00:27:36,955 --> 00:27:39,150
+Despertar pessoal.
+Lançar imediatamente!
+
+225
+00:27:39,224 --> 00:27:42,660
+Investigar objeto caindo
+Aproximando-se da Área 32...
+
+226
+00:27:42,727 --> 00:27:44,217
+...altitude 170!
+
+227
+00:27:45,497 --> 00:27:49,558
+Comandante! Comandante!
+Estamos decolando!
+
+228
+00:27:49,634 --> 00:27:52,102
+Condição Laranja!
+Comandante!
+
+229
+00:27:53,171 --> 00:27:55,731
+Isso é estranho...
+Onde?
+
+230
+00:27:56,675 --> 00:28:00,736
+Não...
+Não, não aqui...
+
+231
+00:28:50,729 --> 00:28:52,458
+Onde está o objeto?
+
+232
+00:28:52,530 --> 00:28:55,363
+Área 29. Altitude 120
+e em queda livre.
+
+233
+00:28:55,800 --> 00:28:58,792
+Merda! Vai pousar...
+Não, com um SPLASH...
+
+234
+00:28:58,870 --> 00:29:00,770
+...antes de podermos chegar até ele.
+
+235
+00:29:01,306 --> 00:29:04,571
+Sr. Forreston!
+Aqui é a Base 7 do Pacífico.
+
+236
+00:29:04,642 --> 00:29:07,736
+estamos procurando pelo
+objeto sobre o Oceano Pacífico!
+
+237
+00:29:08,079 --> 00:29:10,570
+Enviamos
+uma esquadrão Bird-Man...
+
+238
+00:29:10,648 --> 00:29:13,082
+...e deveríamos ter
+confirmação em breve!
+
+239
+00:29:13,151 --> 00:29:16,678
+Determinamos
+o ponto de impacto do objeto.
+
+240
+00:29:16,755 --> 00:29:19,622
+Está se dirigindo para a Cidade Número 5!
+
+241
+00:29:26,431 --> 00:29:29,264
+Comandante!
+11 horas, marca 4!
+
+242
+00:29:29,834 --> 00:29:30,698
+Entendido!
+
+243
+00:29:31,269 --> 00:29:34,033
+É um meteoroide,
+só indo para o mar!
+
+244
+00:29:34,105 --> 00:29:36,903
+Que idiota!
+Olhe seu indicador de velocidade!
+
+245
+00:29:36,975 --> 00:29:39,637
+Que tipo de meteoro diminui a velocidade?!
+Temos um vivo aqui!
+
+246
+00:29:50,255 --> 00:29:53,019
+Estamos entrando!
+Código Violet... MERGULHE!
+
+247
+00:29:53,091 --> 00:29:54,353
+Entendido!
+
+248
+00:29:55,760 --> 00:29:58,320
+Atenção, moradores
+da Cidade No. 5.
+
+249
+00:29:58,396 --> 00:30:00,364
+Aqui é a Cidade
+Informação Office.
+
+250
+00:30:00,431 --> 00:30:03,366
+Uma meteoroide atingiu
+perto da planta de dessalinização #2.
+
+251
+00:30:03,434 --> 00:30:06,369
+O calor extremo gerado
+pelo impacto...
+
+252
+00:30:06,437 --> 00:30:09,372
+...está vaporizando água do mar
+naquela área.
+
+253
+00:30:09,440 --> 00:30:13,376
+Parece não haver
+perigo para nós no momento...
+
+254
+00:30:13,444 --> 00:30:16,902
+...mas fiquem alertas para
+quaisquer atualizações futuras de nós.
+
+255
+00:30:18,149 --> 00:30:19,548
+O que foi isso?!
+
+256
+00:30:23,822 --> 00:30:24,652
+Isso aí!
+
+257
+00:30:27,892 --> 00:30:30,087
+- O que está acontecendo?!
+- Olhe para isso!
+
+258
+00:30:30,161 --> 00:30:32,891
+Parece que a meteoroide atingiu.
+Mas...
+
+259
+00:30:35,233 --> 00:30:36,564
+O que é isso?!
+
+260
+00:30:42,507 --> 00:30:43,667
+Está atacando!
+
+261
+00:30:43,808 --> 00:30:45,400
+Droga,
+essa coisa é poderosa!
+
+262
+00:30:45,476 --> 00:30:47,103
+Está indo em direção à cidade!
+
+263
+00:30:48,913 --> 00:30:52,007
+Diretor! Temos visuais
+do esquadrão Bird-Man!
+
+264
+00:30:54,419 --> 00:30:55,408
+O quê?
+
+265
+00:30:55,486 --> 00:30:58,011
+Inteligência, você vê isso?
+Estamos com problemas!
+
+266
+00:30:58,089 --> 00:30:59,920
+Essa coisa é
+definitivamente um bandido!
+
+267
+00:31:01,092 --> 00:31:01,888
+Inimigo...
+
+268
+00:31:02,260 --> 00:31:03,352
+Estamos liberados para engajar!
+
+269
+00:31:03,428 --> 00:31:05,828
+Tome formação A e lancem seus Think Guides nela!
+Bloqueie sua trajetória de voo...
+
+270
+00:31:06,331 --> 00:31:09,061
+Mantenha-o fora da cidade!
+Merda!
+
+271
+00:31:19,677 --> 00:31:22,908
+Não consigo acompanhar!
+MERDA!
+
+272
+00:31:23,615 --> 00:31:25,139
+Agora estraguei tudo!
+Emergência! Emergência!
+
+273
+00:31:41,532 --> 00:31:45,992
+Procedam aos abrigos 3 e 4!
+Todos os residentes devem proceder
+
+274
+00:31:46,537 --> 00:31:50,701
+aos abrigos 3 e 4! Repita...
+O que diabos está acontecendo?!
+
+275
+00:31:50,775 --> 00:31:52,743
+Está se aproximando.
+
+276
+00:31:53,044 --> 00:31:57,413
+Tipo de objeto: Desconhecido.
+Object type: Unknown.
+
+277
+00:31:57,482 --> 00:31:59,473
+Ele está usando algum tipo de dispositivo de sensação.
+Parece estar...
+
+278
+00:31:59,550 --> 00:32:02,644
+procurando por alguma coisa!
+Procurando?
+
+279
+00:32:03,321 --> 00:32:04,652
+Conseguimos visuais no monitor de cima! Isso é sério!
+
+280
+00:32:05,590 --> 00:32:07,888
+Lá está ele!
+Coma isso, seu idiota!
+
+281
+00:32:30,515 --> 00:32:32,278
+Conseguimos?
+
+282
+00:32:32,350 --> 00:32:33,977
+Marcado,
+
+283
+00:32:53,972 --> 00:32:54,802
+mas ainda está se mexendo.
+
+284
+00:32:54,872 --> 00:32:57,238
+O que é isso? Está em um
+dut
+
+285
+00:32:57,308 --> 00:32:59,799
+What the? It's in an
+underground airduct, headed north.
+
+286
+00:32:59,877 --> 00:33:02,038
+I think it's headed
+Pelo edifício da E.D.F.!
+
+287
+00:33:21,332 --> 00:33:24,301
+O que é isso?!
+Algo acordou isso?!
+
+288
+00:33:24,502 --> 00:33:29,235
+Devido ao perigo, as áreas centrais
+cinco a sete foram fechadas.
+
+289
+00:33:29,307 --> 00:33:31,275
+O que está acontecendo?
+
+290
+00:33:31,342 --> 00:33:35,301
+Prof. Kanzaki! Emergência!
+Vá até a planta subterrânea!
+
+291
+00:33:35,913 --> 00:33:36,902
+O que há de errado?!
+
+292
+00:33:41,252 --> 00:33:42,742
+O que aconteceu?!
+
+293
+00:33:43,488 --> 00:33:46,889
+It...
+It just started moving!
+
+294
+00:33:47,592 --> 00:33:49,924
+But it couldn't!
+Weren't the power cells?
+
+295
+00:33:50,762 --> 00:33:54,027
+It charged itself using
+Algum método desconhecido para nós.
+
+296
+00:33:54,098 --> 00:33:55,360
+E então ele partiu!
+
+297
+00:33:55,433 --> 00:33:58,561
+Eu não acredito nisso...
+Informe a equipe de alerta!
+
+298
+00:34:04,208 --> 00:34:06,142
+Aonde você está indo?
+Volte!
+
+299
+00:34:06,210 --> 00:34:09,475
+Leggo! Eu só quero
+ver alguma coisa!
+
+300
+00:34:10,248 --> 00:34:12,182
+O centro da cidade foi fechado!
+Por ordem de quem?
+
+301
+00:34:12,917 --> 00:34:14,578
+Ei, o que há com você?
+
+302
+00:34:16,287 --> 00:34:19,620
+Ei amigo, volta à realidade!
+Tomoru... Tomoru...
+
+303
+00:34:20,124 --> 00:34:22,115
+Quem?! Quem é você?!
+
+304
+00:34:22,527 --> 00:34:25,018
+Who?! Who are you?!
+
+305
+00:34:37,975 --> 00:34:40,341
+Quem exatamente estamos enfrentando, Sargento?
+Ninguém me contou nada.
+
+306
+00:34:40,411 --> 00:34:42,072
+Eles são o inimigo, é isso aí.
+
+307
+00:34:42,146 --> 00:34:46,310
+Podemos perguntar quem eles são depois!
+Formação cerrada!
+
+308
+00:34:46,617 --> 00:34:50,144
+Quero um deployment limpo!
+ATIRE!
+
+309
+00:34:56,160 --> 00:34:57,024
+Matamos ele?
+
+310
+00:35:13,778 --> 00:35:15,040
+Fizemos alguma coisa nele.
+
+311
+00:35:15,446 --> 00:35:17,107
+Da próxima vez que aparecer,
+
+312
+00:35:17,181 --> 00:35:19,479
+está morto!
+Merda! Lá em cima!
+
+313
+00:35:28,693 --> 00:35:30,285
+Que diabos?!
+
+314
+00:35:31,762 --> 00:35:33,195
+Impossible!
+
+315
+00:35:34,966 --> 00:35:36,194
+Impossible!
+
+316
+00:35:43,040 --> 00:35:44,098
+Que monstro!
+
+317
+00:35:44,876 --> 00:35:47,367
+Aguente firme! Prof. Kanzaki!
+
+318
+00:35:49,714 --> 00:35:51,875
+Recebemos ordens para
+evacuar a cidade!
+
+319
+00:35:55,319 --> 00:35:57,549
+Bem? Você consegue rastreá-lo?
+
+320
+00:35:57,788 --> 00:36:02,418
+Não tenho certeza. Cada junta dele faz um som particular.
+makes a particular sound.
+
+321
+00:36:02,493 --> 00:36:06,725
+Será difícil detectar além de um raio de 200 metros.
+- Kanzaki falando.
+
+322
+00:36:09,467 --> 00:36:10,991
+- Aqui é o controle.
+Recebemos relatórios de...
+
+323
+00:36:11,068 --> 00:36:12,660
+...uma armadura andando
+
+324
+00:36:12,737 --> 00:36:15,672
+pela distrito 16 do escritório.
+around in office district 16.
+
+325
+00:36:15,740 --> 00:36:17,230
+Entendido!
+
+326
+00:36:23,014 --> 00:36:25,676
+O que está acontecendo?
+Efeitos colaterais do PASFU, quem sabe?
+
+327
+00:36:25,750 --> 00:36:28,981
+O invasor é
+na verdade se movendo para oeste...
+
+328
+00:36:29,053 --> 00:36:32,250
+...da área central do Parque da Cidade No. 5.
+Isso é...
+
+329
+00:36:42,033 --> 00:36:43,000
+Agora temos algumas visuais
+
+330
+00:36:43,067 --> 00:36:45,968
+do Escritório de Informações.
+Aquilo parece ser...
+
+331
+00:36:54,779 --> 00:36:58,215
+A coisa do meu sonho!
+O invasor está se dirigindo para o edifício de Inteligência da E.D.F. na Área Um!
+
+332
+00:37:03,254 --> 00:37:07,452
+Área Um!
+O que está acontecendo?
+
+333
+00:37:07,525 --> 00:37:08,958
+Area One!
+
+334
+00:37:29,013 --> 00:37:31,277
+What's going on?
+Aquilo...
+
+335
+00:37:33,251 --> 00:37:35,446
+É o que eu estava sonhando!
+Tem que ser.
+
+336
+00:37:36,887 --> 00:37:38,115
+Você está bem?!
+
+337
+00:37:50,835 --> 00:37:51,893
+Jesus... Uma Jaguar-E de 1962!
+
+338
+00:37:58,909 --> 00:38:02,936
+É uma réplica.
+
+339
+00:38:03,014 --> 00:38:06,006
+Você tem certeza que está bem?
+O que foi?
+
+340
+00:38:09,854 --> 00:38:11,185
+Esqueça isso.
+
+341
+00:38:12,690 --> 00:38:13,850
+only keep it out!
+
+342
+00:38:27,571 --> 00:38:29,266
+Faça tudo o que puder
+
+343
+00:38:29,874 --> 00:38:32,365
+para pará-lo!
+Matamos aquilo?
+
+344
+00:38:36,814 --> 00:38:38,372
+O quê...?!
+
+345
+00:38:40,685 --> 00:38:41,481
+Wha...?!
+
+346
+00:38:53,197 --> 00:38:57,224
+Quem é você?
+O que você quer?
+
+347
+00:39:01,005 --> 00:39:03,906
+Orgun... O que é isso?!
+
+348
+00:39:19,290 --> 00:39:24,592
+Eu estou lhe dizendo, é o
+mesmo monstro que eu vi em meu sonho!
+
+349
+00:39:25,629 --> 00:39:27,426
+O que tudo isso pode significar?
+
+350
+00:39:27,765 --> 00:39:32,828
+Prof. Kanzaki! O invasor destruiu a planta subterrânea!
+Seu objetivo ainda é desconhecido!
+
+351
+00:39:32,903 --> 00:39:35,997
+A planta?!
+
+352
+00:39:36,073 --> 00:39:37,438
+Ah, posso lhe fazer uma pergunta?
+
+353
+00:39:38,275 --> 00:39:42,177
+Você é da E.D.F., certo?
+Qual é o seu nome?
+
+354
+00:39:42,246 --> 00:39:45,943
+Eu sou Tomoru... Tomoru Shindo.
+I'm Tomoru... Tomoru Shindo.
+
+355
+00:39:50,421 --> 00:39:52,912
+- I'm going to the E.D.F. building.
+- Não vou deixar.
+
+356
+00:39:52,990 --> 00:39:55,220
+Todos os setores de Área Um foram fechados.
+E isso vale para o pessoal da E.D.F. também!
+
+357
+00:39:55,292 --> 00:39:57,624
+Ali! Podemos ter uma visão do prédio dali em cima!
+Droga! Não podemos passar por aqui!
+
+358
+00:39:58,863 --> 00:39:59,795
+Vamos lá!
+
+359
+00:40:00,965 --> 00:40:03,456
+Quase chegando!
+Eu não entendo... Isso é exatamente igual ao sonho!
+
+360
+00:40:15,746 --> 00:40:18,806
+Jesus...
+O que está acontecendo?
+
+361
+00:40:24,655 --> 00:40:25,986
+Almost there!
+
+362
+00:40:28,826 --> 00:40:33,490
+I don't get it... This is all
+EXACTLY like the dream!
+
+363
+00:40:39,336 --> 00:40:40,769
+Jesus...
+
+364
+00:40:41,772 --> 00:40:44,172
+What's going on?
+
+365
+00:41:08,699 --> 00:41:10,894
+A cidade está pegando fogo.
+
+366
+00:41:10,968 --> 00:41:13,528
+Por que eles estão fazendo isso?!
+
+367
+00:41:17,541 --> 00:41:19,168
+Por aqui!
+
+368
+00:41:47,538 --> 00:41:48,562
+Merda!
+
+369
+00:42:06,190 --> 00:42:09,057
+Vocês são nojentos...
+Eu não vou deixar você vencer!
+
+370
+00:42:23,007 --> 00:42:27,944
+Está bem bloqueado.
+Se eu não fizer nada...
+
+371
+00:42:47,431 --> 00:42:48,295
+O quê?!
+
+372
+00:43:07,985 --> 00:43:09,316
+Droga!
+
+373
+00:43:12,456 --> 00:43:17,655
+Inútil... Por que eu
+tenho que ser tão fraco?
+
+374
+00:43:20,497 --> 00:43:26,993
+Eu quero força.
+Se ao menos para salvá-la...
+
+375
+00:43:27,504 --> 00:43:28,994
+Eu quero força!
+
+376
+00:43:42,686 --> 00:43:46,850
+Tomoru...
+Eu esperei por esse momento.
+
+377
+00:43:53,464 --> 00:43:58,128
+Lutar?
+Por quê? Por quem?
+
+378
+00:43:58,202 --> 00:44:01,433
+Você esteve procurando?
+Por quem? Por mim?!
+
+379
+00:44:10,147 --> 00:44:13,207
+O que... o que é isso?
+
+380
+00:44:18,589 --> 00:44:24,721
+Orgun... Esse é seu nome.
+Não, MEU nome!
+
+381
+00:44:35,572 --> 00:44:36,231
+Merda!
+
+382
+00:45:20,117 --> 00:45:21,948
+O que está fazendo aqui?
+
+383
+00:45:24,955 --> 00:45:27,423
+Prof. Kanzaki! Entre!
+
+384
+00:45:28,192 --> 00:45:30,456
+Eu entendo...
+Eu entendo.
+
+385
+00:45:30,527 --> 00:45:33,792
+Agora eu entendo tudo!
+
+386
+00:45:45,609 --> 00:45:48,476
+O que está acontecendo? Eu pensei
+que havia apenas um deles!
+
+387
+00:45:48,812 --> 00:45:49,608
+Entre aí!
+
+388
+00:45:49,680 --> 00:45:53,639
+Espere, por favor!
+Tem um civil também!
+
+389
+00:45:53,717 --> 00:45:56,208
+Não temos tempo
+para nenhum civil!
+
+390
+00:45:56,286 --> 00:45:58,982
+Prof. Kanzaki, o que você fez
+com aquela coisa?!
+
+391
+00:45:59,323 --> 00:46:01,086
+Eu não fiz nada!
+
+392
+00:46:01,158 --> 00:46:04,559
+Me believe, eu não entendo
+nada disso!
+
+393
+00:46:08,732 --> 00:46:11,826
+A cidade... O museu...
+
+394
+00:46:47,738 --> 00:46:49,569
+Lá! Lá está!
+
+395
+00:46:49,640 --> 00:46:53,201
+Ainda está se movendo! Mas o
+As células de poder não vão durar tanto...
+
+396
+00:47:17,734 --> 00:47:21,898
+Esta sensação...
+Não pode ser! Ele?!
+
+397
+00:47:38,589 --> 00:47:41,422
+Não adianta...
+Estou perdendo força...
+
+398
+00:47:52,302 --> 00:47:53,929
+Não posso perder...
+
+399
+00:47:58,942 --> 00:48:00,933
+EU NÃO VOU PERDER!!!
+
+400
+00:48:38,482 --> 00:48:39,278
+O quê?!
+
+401
+00:49:08,845 --> 00:49:11,313
+Este não é lugar para você!
+
+402
+00:49:16,019 --> 00:49:17,782
+SAIA DAQUI AGORA!!!
+
+403
+00:50:19,082 --> 00:50:20,572
+Você...
+
+404
+00:50:21,518 --> 00:50:24,749
+Seu nome é Orgun.
+
+405
+00:50:24,888 --> 00:50:28,415
+Ele viajou 260 milhões
+de anos para chegar aqui.
+
+406
+00:50:30,093 --> 00:50:31,822
+Por quê?
+
+407
+00:50:31,895 --> 00:50:38,232
+Algo na Terra o levou até aqui.
+
+408
+00:50:46,543 --> 00:50:48,067
+Quem são os invasores?
+
+409
+00:50:48,945 --> 00:50:51,607
+Eles são chamados de Evolyuder.
+
+410
+00:50:52,182 --> 00:50:54,013
+Um inimigo muito... poderoso!
+
+411
+00:50:54,551 --> 00:50:56,485
+O quê?! Inimigo?!
+
+412
+00:50:57,287 --> 00:51:01,951
+Eu entendi antes.
+
+413
+00:51:02,893 --> 00:51:09,264
+É como acordar de um sonho.
+Eu só lembro pedaços e peças.
+
+414
+00:51:09,332 --> 00:51:13,166
+Eu só lembro
+uma imagem forte...
+
+415
+00:51:13,236 --> 00:51:17,866
+Uma horrível... poderosa...
+ALGUMA COISA.
+
+416
+00:51:43,433 --> 00:51:45,492
+Orgun...
+
+417
+00:51:50,173 --> 00:51:53,540
+O que você busca
+naquele mundo?
+
+418
+00:52:11,027 --> 00:52:14,190
+A destruição
+não terminará aqui.
+
+419
+00:52:15,198 --> 00:52:19,862
+Em breve, uma nova destruição
+chegará...
+
+420
+00:52:22,038 --> 00:52:24,199
+Do céu!
+
+421
+00:52:53,837 --> 00:53:05,840
+Longe quanto você estiver,
+eu envio esta canção para você.
+
+422
+00:53:05,916 --> 00:53:17,020
+Ecoando nas praias distantes,
+meu coração vai até você.
+
+423
+00:53:17,093 --> 00:53:23,032
+Assim como o sol deve
+mergulhar no mar...
+
+424
+00:53:23,099 --> 00:53:29,038
+...e florescer novamente
+amanhã nas ondas.
+
+425
+00:53:29,105 --> 00:53:35,101
+Como uma flor na água,
+posso ver seu rosto novamente.
+
+426
+00:53:35,178 --> 00:53:41,276
+Tremendo, desvanecendo, lá longe.
+
+427
+00:54:06,977 --> 00:54:12,813
+Como um gráfico através da névoa,
+Ouço o canto dos insetos...
+
+428
+00:54:12,882 --> 00:54:18,843
+...como o fim do mundo,
+Deixo meu sonho para trás.
+
+429
+00:54:18,922 --> 00:54:25,020
+E caminho em direção a você,
+Em direção àquele dia novamente.
+
+430
+00:54:47,851 --> 00:54:59,786
+Estrelas nas ondas
+encontram o céu...
+
+431
+00:54:59,863 --> 00:55:10,865
+...e como um milagre,
+o sol mergulha abaixo.
+
+432
+00:55:10,940 --> 00:55:22,909
+Cobrindo tudo ao redor pela noite,
+deixando o sono colocar tudo no lugar.
+
+433
+00:55:22,986 --> 00:55:28,891
+Em minha mente ainda posso sentir
+o toque de sua pele.
+
+434
+00:55:28,958 --> 00:55:34,396
+Mesmo agora, tão longe quanto eu esteja.
+
+435
+00:55:34,898 --> 00:55:40,894
+Em minha mente ainda posso sentir
+o toque de sua pele.
+
+436
+00:55:40,970 --> 00:55:47,398
+Mesmo agora, tão longe quanto eu esteja.
+

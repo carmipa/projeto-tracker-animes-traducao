@@ -1,0 +1,302 @@
+﻿[Script Info]
+Title: Français (France)
+Original Script: cr_fr  [http://www.crunchyroll.com/user/cr_fr]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Italique,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Titre,Arial,51,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,1005,30,240,1
+Style: Sign1,Arial,48,&H00EEEEF1,&H000000FF,&H00000000,&H00FAFAFA,-1,0,0,0,100,100,0,0,1,0,0,3,30,96,750,1
+Style: Sign4,Arial,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,30,144,195,1
+Style: Sign2,Arial,48,&H00E5E5E8,&H000000FF,&H00C0C0C0,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,117,30,201,1
+Style: TiretsDefault,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,1,60,6,75,1
+Style: Sign3,Arial,48,&H00E5E5E8,&H000000FF,&H00C0C0C0,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,117,30,270,1
+
+Style: OPCN,FZXiaoBiaoSong-B05,48,&H00F5DECF,&H00000000,&H00A7430B,&H00000000,0,0,0,0,100,100,4,0,1,2,0,2,60,60,15,1
+Style: EDCN,FZLanTingHei-R-GBK,44,&H00FEFEFE,&H00000000,&H00C96F5F,&H00000000,0,0,0,0,100,100,3,0,1,3,0,2,60,60,25,1
+
+
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.90,0:00:14.41,Default,,0,0,0,,Agha, é a sua vez!
+Dialogue: 0,0:02:00.89,0:02:05.72,Titre,sign,0,0,0,,{\fad(1000,1000)}EPISÓDIO 7\NTIRENCONTRO COM LALAH
+Dialogue: 0,0:02:12.61,0:02:15.64,Italique,,0,0,0,,Ei, garoto! É hora do intervalo!
+Dialogue: 0,0:02:16.03,0:02:17.69,Italique,,0,0,0,,Vá descansar!
+Dialogue: 0,0:02:19.28,0:02:22.74,Default,,0,0,0,,Eles são todos uns canalhas,\Nna Zeonic!
+Dialogue: 0,0:02:22.92,0:02:25.74,Default,,0,0,0,,Eles dizem\Nque o contrato deste veículo vai expirar!
+Dialogue: 0,0:02:26.20,0:02:29.87,Default,,0,0,0,,Eles temem que a guerra\Nexploda de um momento para outro.
+Dialogue: 0,0:02:30.50,0:02:34.75,Default,,0,0,0,,Aliás, garoto! Onde você aprendeu\NA pilotar Mobile Workers?
+Dialogue: 0,0:02:35.74,0:02:38.26,Default,,0,0,0,,Entre essas canalhas de Zeon,\Njustamente.
+Dialogue: 0,0:02:40.18,0:02:44.26,Default,,0,0,0,,Fui demitido\Do time de desenvolvimento.
+Dialogue: 0,0:02:44.56,0:02:48.11,Default,,0,0,0,,Eles são mesmo uns canalhas,\Nno Zeon.
+Dialogue: 0,0:02:56.48,0:02:58.16,Default,,0,0,0,,Perdi novamente!
+Dialogue: 0,0:02:58.32,0:03:00.49,Default,,0,0,0,,Você deveria parar, chefe!
+Dialogue: 0,0:03:00.62,0:03:02.42,Default,,0,0,0,,Não! Mais uma última!
+Dialogue: 0,0:03:04.02,0:03:07.62,Default,,0,0,0,,Me empreste dinheiro!\NVou te devolver no dia do pagamento.
+Dialogue: 0,0:03:07.92,0:03:09.26,Default,,0,0,0,,Socorro!
+Dialogue: 0,0:03:09.83,0:03:11.58,Default,,0,0,0,,Meu mestre deseja se instalar.
+Dialogue: 0,0:03:12.86,0:03:14.25,Default,,0,0,0,,Afaste-se.
+Dialogue: 0,0:03:20.84,0:03:23.94,Default,,0,0,0,,Ele ganhou 36 vezes sua aposta\Nem um único número!
+Dialogue: 0,0:03:26.60,0:03:28.27,Default,,0,0,0,,Façam seus jogos!
+Dialogue: 0,0:03:41.65,0:03:43.66,Default,,0,0,0,,Ele ainda aposta em apenas um número?
+Dialogue: 0,0:03:45.95,0:03:47.45,Default,,0,0,0,,Tudo deu errado!
+Dialogue: 0,0:03:57.88,0:03:59.63,Default,,0,0,0,,Mudança de croupier!
+Dialogue: 0,0:04:02.22,0:04:03.38,Default,,0,0,0,,E agora...
+Dialogue: 0,0:04:06.22,0:04:07.10,Default,,0,0,0,,Façam suas apostas!
+Dialogue: 0,0:04:13.77,0:04:14.56,Default,,0,0,0,,Errou!
+Dialogue: 0,0:04:15.40,0:04:16.40,Default,,0,0,0,,Errou de novo!
+Dialogue: 0,0:04:17.77,0:04:19.15,Default,,0,0,0,,Ele perdeu de novo!
+Dialogue: 0,0:04:25.11,0:04:28.62,Default,,0,0,0,,Bem, parece que sua sorte o abandonou!
+Dialogue: 0,0:04:41.80,0:04:42.72,Default,,0,0,0,,Saudações!
+Dialogue: 0,0:04:45.75,0:04:47.26,Default,,0,0,0,,O que você faz aqui?
+Dialogue: 0,0:04:48.60,0:04:50.35,Default,,0,0,0,,Você foi repreendido ontem?
+Dialogue: 0,0:04:51.47,0:04:52.47,Default,,0,0,0,,Quem é você?
+Dialogue: 0,0:04:53.06,0:04:54.98,Default,,0,0,0,,Um dos clientes do cassino de ontem.
+Dialogue: 0,0:04:58.31,0:05:00.19,Default,,0,0,0,,O que aconteceu na metade?
+Dialogue: 0,0:05:01.18,0:05:03.44,Default,,0,0,0,,Essa crupiê era desajeitada.
+Dialogue: 0,0:05:05.86,0:05:07.36,Default,,0,0,0,,Não me aproxime!
+Dialogue: 0,0:05:07.70,0:05:10.56,Default,,0,0,0,,Você vai se meter em encrenca\Nse me aproximar.
+Dialogue: 0,0:05:10.75,0:05:11.82,Default,,0,0,0,,Sério?
+Dialogue: 0,0:05:11.94,0:05:14.87,Default,,0,0,0,,Esses dois senhores são, portanto\Npouco confiáveis!
+Dialogue: 0,0:05:16.40,0:05:17.17,Default,,0,0,0,,O que é isso?
+Dialogue: 0,0:05:25.30,0:05:27.09,Default,,0,0,0,,É sua família?
+Dialogue: 0,0:05:27.68,0:05:29.12,Default,,0,0,0,,Onde eles moram?
+Dialogue: 0,0:05:29.31,0:05:30.28,Default,,0,0,0,,Em Mumbai.
+Dialogue: 0,0:05:30.42,0:05:32.93,Default,,0,0,0,,Na Índia? Isso é bem longe daqui...
+Dialogue: 0,0:05:33.32,0:05:34.64,Default,,0,0,0,,Você gostaria de voltar lá?
+Dialogue: 0,0:05:34.80,0:05:37.94,Default,,0,0,0,,Não, eu lhes envio dinheiro.
+Dialogue: 0,0:05:38.29,0:05:41.82,Default,,0,0,0,,Eu sou mais útil para eles aqui,\Nenviando-lhes dinheiro.
+Dialogue: 0,0:05:43.97,0:05:45.84,Default,,0,0,0,,A foto está em más condições.
+Dialogue: 0,0:05:46.33,0:05:48.57,Default,,0,0,0,,Ela caiu na água.
+Dialogue: 0,0:05:48.99,0:05:51.38,Default,,0,0,0,,Você acha que é recuperável?
+Dialogue: 0,0:05:51.54,0:05:52.64,Default,,0,0,0,,Potencialmente.
+Dialogue: 0,0:05:53.45,0:05:56.08,Default,,0,0,0,,Basta escaneá-la e reimprimí-la.
+Dialogue: 0,0:05:56.64,0:05:57.58,Default,,0,0,0,,É verdade?
+Dialogue: 0,0:05:57.90,0:05:59.70,Default,,0,0,0,,Você pode fazer isso para mim?
+Dialogue: 0,0:05:59.95,0:06:02.27,Default,,0,0,0,,Eu dou muito valor a ela\NNão tenho outra.
+Dialogue: 0,0:06:02.46,0:06:03.09,Default,,0,0,0,,Lalah!
+Dialogue: 0,0:06:06.30,0:06:09.68,Default,,0,0,0,,O que você ainda está fazendo\NCom um tipo assim?
+Dialogue: 0,0:06:16.56,0:06:18.58,Default,,0,0,0,,Você tem um belo barco.
+Dialogue: 0,0:06:19.21,0:06:21.81,Default,,0,0,0,,Devem ter lhe custado muito caro...
+Dialogue: 0,0:06:21.96,0:06:26.24,Default,,0,0,0,,E de onde veio esse dinheiro,\NSr. o jogador talentoso?
+Dialogue: 0,0:06:32.57,0:06:35.12,Default,,0,0,0,,É a gangue de Manaos!
+Dialogue: 0,0:06:38.08,0:06:40.48,Default,,0,0,0,,Agha! Agha!
+Dialogue: 0,0:06:41.83,0:06:43.58,Default,,0,0,0,,Vamos dar no pé, chefe!
+Dialogue: 0,0:06:49.59,0:06:51.39,Default,,0,0,0,,Malditos sejam eles!
+Dialogue: 0,0:06:51.80,0:06:55.72,Default,,0,0,0,,Não precisavas trazer\Nesse energúmeno conosco!
+Dialogue: 0,0:06:55.89,0:06:58.62,Default,,0,0,0,,Se esses palurdos da máfia de Manaos\Nsão
+Dialogue: 0,0:06:59.44,0:07:01.01,Default,,0,0,0,,... fazer a lei aqui!
+Dialogue: 0,0:07:01.14,0:07:03.81,Default,,0,0,0,,Desculpe-me...\NA certo Agha quer falar com você.
+Dialogue: 0,0:07:04.40,0:07:06.07,Default,,0,0,0,,Ele diz que o conhece.
+Dialogue: 0,0:07:06.20,0:07:08.07,Default,,0,0,0,,Ah! Eis ele finalmente!
+Dialogue: 0,0:07:10.99,0:07:14.41,Default,,0,0,0,,Agha! Estou feliz de revê-lo são e salvo.\NDe te rever sain e sauf.
+Dialogue: 0,0:07:18.44,0:07:22.37,Default,,0,0,0,,Desculpa, chefe,\Nmas decidi trabalhar para eles.
+Dialogue: 0,0:07:22.62,0:07:24.38,Default,,0,0,0,,O quê?
+Dialogue: 0,0:07:24.63,0:07:27.17,Default,,0,0,0,,Não sempre te mimi?
+Dialogue: 0,0:07:30.80,0:07:32.76,Default,,0,0,0,,Não, pare!\NMe desculpe!
+Dialogue: 0,0:07:32.92,0:07:34.98,Default,,0,0,0,,Eu vou pagar mais...
+Dialogue: 0,0:07:39.39,0:07:40.39,Default,,0,0,0,,Não!
+Dialogue: 0,0:07:43.52,0:07:44.52,Default,,0,0,0,,Um momento!
+Dialogue: 0,0:07:45.26,0:07:47.02,Default,,0,0,0,,Deixe-a em paz.
+Dialogue: 0,0:07:47.66,0:07:49.19,Default,,0,0,0,,O que você prefere?
+Dialogue: 0,0:07:49.86,0:07:52.03,Default,,0,0,0,,Que eu corte seu braço ou sua cabeça?
+Dialogue: 0,0:07:52.66,0:07:54.78,Default,,0,0,0,,Nem um nem outro.
+Dialogue: 0,0:07:58.16,0:07:59.93,Default,,0,0,0,,Eu te vejo mesmo na escuridão!
+Dialogue: 0,0:08:14.38,0:08:17.22,Default,,0,0,0,,Ninguém pode evitar\Nmeu chakram!
+Dialogue: 0,0:08:59.10,0:09:02.28,Italique,,0,0,0,,Caros trabalhadores da construção de Jaburo!
+Dialogue: 0,0:09:02.76,0:09:05.79,Italique,,0,0,0,,Abram bem suas orelhas!
+Dialogue: 0,0:09:06.10,0:09:08.94,Italique,,0,0,0,,Vocês estão abrigando em suas casas\Numa jovem índia.
+Dialogue: 0,0:09:09.74,0:09:10.69,Italique,,0,0,0,,Entregue-a para mim!
+Dialogue: 0,0:09:10.86,0:09:12.05,Default,,0,0,0,,Patrão...
+Dialogue: 0,0:09:12.18,0:09:16.32,Italique,,0,0,0,,Esta menina tem uma estrela desenhada na testa.
+Dialogue: 0,0:09:17.02,0:09:19.16,Italique,,0,0,0,,Eu sei que ela está aqui!
+Dialogue: 0,0:09:19.68,0:09:21.68,TiretsDefault,,231,0,0,,– {\i1}Eu esperarei 3 minutos.{\i0}\N– Levanta-te.
+Dialogue: 0,0:09:21.85,0:09:24.29,TiretsDefault,,209,0,0,,– {\i1}Entregue-a sem discutir.{\i0}\N– Segue-me e corre.
+Dialogue: 0,0:09:24.44,0:09:28.90,Italique,,0,0,0,,Os trabalhadores de Jaburo são meus clientes. Clientes preciosos.
+Dialogue: 0,0:09:29.35,0:09:32.20,Italique,,0,0,0,,Eu não gostaria de usar da violência.
+Dialogue: 0,0:09:33.51,0:09:36.11,Italique,,0,0,0,,Me entregue a garota e nós iremos embora!
+Dialogue: 0,0:09:36.88,0:09:40.18,Italique,,0,0,0,,Fique tranquilo,\NNão lhe faremos nenhum mal!
+Dialogue: 0,0:09:40.67,0:09:44.14,Italique,,0,0,0,,Tomaremos bem cuidado dela no cassino.
+Dialogue: 0,0:09:44.52,0:09:45.60,Italique,,0,0,0,,É hora!
+Dialogue: 0,0:09:45.95,0:09:48.97,Default,,0,0,0,,Ao ataque!\NAbatam aqueles que se interpõem!
+Dialogue: 0,0:10:04.16,0:10:05.84,Default,,0,0,0,,O que é essa coisa?
+Dialogue: 0,0:10:06.54,0:10:08.71,Default,,0,0,0,,Você se chama Lalah, certo?
+Dialogue: 0,0:10:10.29,0:10:11.92,Default,,0,0,0,,O que aconteceu exatamente?
+Dialogue: 0,0:10:12.25,0:10:13.05,Default,,0,0,0,,Como assim?
+Dialogue: 0,0:10:15.51,0:10:18.24,Default,,0,0,0,,Senti essa arma se aproximando por trás\NE a evitei sem vê-la.
+Dialogue: 0,0:10:18.40,0:10:21.23,Default,,0,0,0,,e eu me esquivei\Nsem nem conseguir vê-la.
+Dialogue: 0,0:10:22.04,0:10:23.81,Default,,0,0,0,,De verdade? Isso é estranho...
+Dialogue: 0,0:10:26.36,0:10:27.20,Default,,0,0,0,,Não...
+Dialogue: 0,0:10:29.46,0:10:31.81,Default,,0,0,0,,Lalah, se você não quer voltar para casa,\NPor que não vamos embora daqui?
+Dialogue: 0,0:10:41.49,0:10:45.04,Default,,0,0,0,,Para onde?
+Dialogue: 0,0:10:45.50,0:10:47.29,Default,,0,0,0,,Para os Estados Unidos? Para o Japão?
+Dialogue: 0,0:10:47.70,0:10:49.88,Default,,0,0,0,,Longe? Onde?
+Dialogue: 0,0:10:50.11,0:10:51.92,Default,,0,0,0,,No Brasil
+Dialogue: 0,0:10:52.27,0:10:55.17,Default,,0,0,0,,Não, muito mais longe.
+Dialogue: 0,0:10:57.90,0:10:59.44,Default,,0,0,0,,Lá, nas estrelas.
+Dialogue: 0,0:11:05.56,0:11:13.56,Sign1,sign,0,0,0,,{\fad(150,0)\blur1}ESTADO-MAIOR UNIFICADO DAS FORÇAS FEDERAL
+Dialogue: 0,0:11:07.77,0:11:11.55,Default,,0,0,0,,O projeto RX-78\Nestá avançando bem?
+Dialogue: 0,0:11:11.72,0:11:13.14,Default,,0,0,0,,Sim.
+Dialogue: 0,0:11:14.12,0:11:17.82,Default,,0,0,0,,Você era o melhor discípulo\Ndo Prof. Minovsky, certo?
+Dialogue: 0,0:11:18.01,0:11:18.78,Default,,0,0,0,,Isso mesmo.
+Dialogue: 0,0:11:19.44,0:11:24.62,Default,,0,0,0,,Imagine que essas imagens\Nchegaram até nós através dele.
+Dialogue: 0,0:11:24.78,0:11:27.58,Default,,0,0,0,,Gostaria de ouvir sua opinião.
+Dialogue: 0,0:11:31.94,0:11:33.72,Default,,0,0,0,,O MS-04?
+Dialogue: 0,0:11:33.88,0:11:36.71,Default,,0,0,0,,Eles chamam isso de "Mobile Suit".
+Dialogue: 0,0:11:38.96,0:11:41.49,Default,,0,0,0,,A seção de A Baoa Qu?
+Dialogue: 0,0:11:41.68,0:11:43.81,Default,,0,0,0,,É uma seção que nos é desconhecida.
+Dialogue: 0,0:11:45.59,0:11:48.88,Default,,0,0,0,,Parece esses equipamentos de construção,\NMobile Workers.
+Dialogue: 0,0:11:49.40,0:11:51.85,Default,,0,0,0,,Temos alguns no canteiro\Ndo QG de Jaburo.
+Dialogue: 0,0:11:52.01,0:11:54.31,Default,,0,0,0,,Não! Isso não tem nada a ver!
+Dialogue: 0,0:11:54.58,0:11:57.82,Default,,0,0,0,,É uma máquina completamente diferente,\Nradicalmente diferente.
+Dialogue: 0,0:12:15.46,0:12:18.62,Default,,0,0,0,,Eu acho que nossas novas armas,
+Dialogue: 0,0:12:18.79,0:12:22.40,Default,,0,0,0,,o RCX-76 Guncannon\Né muito mais eficiente!
+Dialogue: 0,0:12:22.56,0:12:23.38,Default,,0,0,0,,Não!
+Dialogue: 0,0:12:23.72,0:12:28.26,Default,,0,0,0,,O Prof. Minovsky conseguiu\Na alcançar seu objetivo.
+Dialogue: 0,0:12:30.03,0:12:32.40,Default,,0,0,0,,Almirante Gopp!\NVocê disse mesmo
+Dialogue: 0,0:12:32.53,0:12:37.11,Default,,0,0,0,,que essas imagens foram obtidas\Pelo Prof. Minovsky?
+Dialogue: 0,0:12:39.25,0:12:42.36,Default,,0,0,0,,Vamos discutir isso lá fora, Sr. Ray.
+Dialogue: 0,0:12:43.03,0:12:45.86,Default,,0,0,0,,O Prof. Minovsky deseja\NFazer deserção?
+Dialogue: 0,0:12:46.14,0:12:49.20,Default,,0,0,0,,Parece\Nque a Anaheim Electronics conseguiu
+Dialogue: 0,0:12:49.48,0:12:52.16,Default,,0,0,0,,a convencê-lo a deixar Zeon.
+Dialogue: 0,0:12:54.29,0:12:57.00,Default,,0,0,0,,Preciso de você na Lua,\NM. Ray.
+Dialogue: 0,0:12:57.59,0:12:59.50,Default,,0,0,0,,Na... Na Lua, almirante?
+Dialogue: 0,0:12:59.93,0:13:03.78,Default,,0,0,0,,Está previsto que o professor\Nse dirija para Von Braun
+Dialogue: 0,0:13:03.92,0:13:06.64,Default,,0,0,0,,partindo de Granada,\Nonde fica a fábrica de Zeon.
+Dialogue: 0,0:13:07.00,0:13:09.16,Default,,0,0,0,,Vá ajudá-lo então.
+Dialogue: 0,0:13:10.51,0:13:14.46,Default,,0,0,0,,Desculpe pedir isso\Nagora que você acabou de chegar...
+Dialogue: 0,0:13:16.44,0:13:19.92,Italique,,0,0,0,,Quando o Prof. Minovsky\NDirigir as pesquisas,
+Dialogue: 0,0:13:20.07,0:13:24.32,Italique,,0,0,0,,seu projeto em Side-7\Nnão avançará mais rápido.
+Dialogue: 0,0:13:24.61,0:13:30.99,Sign4,sign,0,0,0,,{\fad(150,700)\blur1}SÉCULO UNIVERSAL – ANO 0078
+Dialogue: 0,0:13:33.41,0:13:38.83,Sign2,sign,0,0,0,,{\fad(200,1)\blur2}CIUDAD LUNAR GRANADA
+Dialogue: 0,0:13:39.74,0:13:41.59,Italique,,0,0,0,,Estamos chegando a Granada.
+Dialogue: 0,0:13:41.85,0:13:44.55,Default,,0,0,0,,Finalmente chegamos,\Nprofessor.
+Dialogue: 0,0:13:44.69,0:13:45.84,Italique,,0,0,0,,Por favor, aguarde.
+Dialogue: 0,0:13:46.17,0:13:47.97,Default,,0,0,0,,Tudo ficará logo terminado.
+Dialogue: 0,0:13:53.40,0:13:54.77,Default,,0,0,0,,Estamos lá, Excelência.
+Dialogue: 0,0:13:59.72,0:14:01.15,Default,,0,0,0,,Vamos, Catherine.
+Dialogue: 0,0:14:01.32,0:14:02.58,Default,,0,0,0,,Você tem razão
+Dialogue: 0,0:14:03.41,0:14:05.15,Default,,0,0,0,,Comandante Bergmann.
+Dialogue: 0,0:14:08.08,0:14:09.56,Default,,0,0,0,,O Prof. Minovsky
+Dialogue: 0,0:14:09.71,0:14:13.03,Default,,0,0,0,,deixou o astroporto diretamente\Npara a fábrica da Zeonic.
+Dialogue: 0,0:14:13.69,0:14:15.90,Default,,0,0,0,,Devemos modificar\Nsua agenda?
+Dialogue: 0,0:14:16.14,0:14:18.92,Default,,0,0,0,,« Devemos mudar alguma coisa,\NCatherine? »
+Dialogue: 0,0:14:19.36,0:14:22.67,Default,,0,0,0,,Devemos mudar alguma coisa,\NCatherine?
+Dialogue: 0,0:14:23.10,0:14:24.00,Default,,0,0,0,,Sem dúvida.
+Dialogue: 0,0:14:39.73,0:14:48.61,Sign3,sign,0,0,0,,{\fad(200,1)\blur2}ESTAÇÃO LUNAR\NVON BRAUN
+Dialogue: 0,0:14:40.69,0:14:44.20,Default,,0,0,0,,Não, isso é fora de questão!\NNão conte conosco!
+Dialogue: 0,0:14:44.61,0:14:48.61,Default,,0,0,0,,Eu sei que você acabou de vir de Side-7, mas é não.
+Dialogue: 0,0:14:49.56,0:14:51.99,Default,,0,0,0,,Claro, eu estou ciente
+Dialogue: 0,0:14:52.92,0:14:55.87,Default,,0,0,0,,da deserção do Prof. Minovsky.
+Dialogue: 0,0:14:56.36,0:14:58.76,Default,,0,0,0,,Também sei que ele virá para cá.
+Dialogue: 0,0:14:58.92,0:15:03.13,Default,,0,0,0,,Mas o que ele quer, afinal?\NEspecialmente agora!
+Dialogue: 0,0:15:03.30,0:15:07.15,Default,,0,0,0,,O almirante Gopp me disse que Anaheim não convenceu o professor.
+Dialogue: 0,0:15:07.30,0:15:10.62,Default,,0,0,0,,São as manigâncias do assento.\NVocê não entendeu nada.
+Dialogue: 0,0:15:10.75,0:15:14.10,Default,,0,0,0,,Escute bem.\NO nosso projeto RCX-76 está indo muito bem!
+Dialogue: 0,0:15:14.36,0:15:17.64,Default,,0,0,0,,Está indo muito bem!
+Dialogue: 0,0:15:21.65,0:15:25.90,Default,,0,0,0,,Olhe! Os aparelhos finalizados\Nsão produzidos em série!
+Dialogue: 0,0:15:26.38,0:15:28.94,Default,,0,0,0,,O exército já recebeu\Nalguns deles.
+Dialogue: 0,0:15:29.18,0:15:31.40,Default,,0,0,0,,Os resultados dos testes\NSão promissores.
+Dialogue: 0,0:15:32.10,0:15:35.78,Default,,0,0,0,,Eu sei que os custos\NDo MS-04 de Zeonic explodiram
+Dialogue: 0,0:15:35.94,0:15:40.20,Default,,0,0,0,,e eles desenvolvem um MS-05\Ncom performances reduzidas.
+Dialogue: 0,0:15:40.42,0:15:43.17,Default,,0,0,0,,Você vê?\NEu sei de tudo!
+Dialogue: 0,0:15:44.79,0:15:49.32,Default,,0,0,0,,Ah, mas eu me lembro!\NPeça ajuda ao professor!
+Dialogue: 0,0:15:49.46,0:15:51.93,Default,,0,0,0,,Era seu mentor, não era?
+Dialogue: 0,0:15:59.72,0:16:01.23,Italique,,0,0,0,,Não é isso.
+Dialogue: 0,0:16:01.79,0:16:05.69,Italique,,0,0,0,,Não é isso que o Prof. Minovsky\Nchama de Mobile Suit.
+Dialogue: 0,0:16:06.02,0:16:07.44,Italique,,0,0,0,,Não é isso!
+Dialogue: 0,0:16:07.94,0:16:11.40,Default,,0,0,0,,Não é nada disso!
+Dialogue: 0,0:16:23.62,0:16:26.28,Default,,0,0,0,,Von Braun, Von Braun, responda.
+Dialogue: 0,0:16:26.66,0:16:29.79,Default,,0,0,0,,Aqui TYM.\NNós iniciamos a operação.
+Dialogue: 0,0:16:30.19,0:16:31.80,Default,,0,0,0,,Estejam prontos para nos exfiltrar.
+Dialogue: 0,0:16:36.76,0:16:39.79,Default,,0,0,0,,Chegaremos a Abul Wáfa\Nem dez horas.
+Dialogue: 0,0:16:43.18,0:16:44.82,Default,,0,0,0,,Tudo corre como planejado.
+Dialogue: 0,0:16:45.17,0:16:47.36,Default,,0,0,0,,O professor está aqui.
+Dialogue: 0,0:16:48.11,0:16:50.72,Default,,0,0,0,,Assinaturas IR detectadas\Nno mar de Smyth.
+Dialogue: 0,0:16:51.36,0:16:54.19,Default,,0,0,0,,Potencialmente\Nas armas antropomórficas de Zeon.
+Dialogue: 0,0:16:54.61,0:16:57.04,Default,,0,0,0,,Ignorava\Nque eles tinham na Lua.
+Dialogue: 0,0:16:57.47,0:17:00.08,TiretsDefault,,232,0,0,,- Quantos são?\N- Quatro, confirmado.
+Dialogue: 0,0:17:01.45,0:17:03.26,Default,,0,0,0,,Quatro? É só isso?
+Dialogue: 0,0:17:03.97,0:17:05.71,Default,,0,0,0,,Envie a cavalaria blindada.
+Dialogue: 0,0:17:06.17,0:17:09.06,Default,,0,0,0,,Isso pode parecer\Num pouco desproporcional,
+Dialogue: 0,0:17:09.21,0:17:11.36,Default,,0,0,0,,mas é preciso\Nabrir o baile com estilo!
+Dialogue: 0,0:17:11.59,0:17:12.46,Default,,0,0,0,,Comandante!
+Dialogue: 0,0:17:13.06,0:17:15.30,Default,,0,0,0,,Quero ir até lá.
+Dialogue: 0,0:17:15.46,0:17:18.83,Default,,0,0,0,,Quero ver o Guncannon lutar\Ncom meus próprios olhos.
+Dialogue: 0,0:17:24.86,0:17:27.34,Italique,,0,0,0,,Zeon fez decolar MSs
+Dialogue: 0,0:17:29.50,0:17:32.69,Italique,,0,0,0,,com o objetivo de evitar\Na deserção de seu criador,
+Dialogue: 0,0:17:32.85,0:17:34.62,Italique,,0,0,0,,o Pr. Minovsky?
+Dialogue: 0,0:17:36.20,0:17:38.99,Italique,,0,0,0,,Para toda a esquadrilha,\Npreparem-se para decolar.
+Dialogue: 0,0:17:39.38,0:17:42.65,Italique,,0,0,0,,Alerta! Decolagem de emergência!\NAlerta! Decolagem de emergência!
+Dialogue: 0,0:17:42.79,0:17:45.38,Italique,,0,0,0,,Para toda a esquadrilha,\Npreparem-se para decolar.
+Dialogue: 0,0:17:48.31,0:17:52.00,Default,,0,0,0,,Esquadrão Erdush,\NPronto para lançamento!
+Dialogue: 0,0:18:01.30,0:18:03.44,Default,,0,0,0,,É isso aí,\No crepúsculo lunar?
+Dialogue: 0,0:18:04.39,0:18:06.94,Italique,,0,0,0,,Ei! É você mesmo,\Naquele cara de vermelho?
+Dialogue: 0,0:18:07.42,0:18:11.69,Italique,,0,0,0,,Você não está no ponto de encontro!\NPorque sua baliza está desligada?
+Dialogue: 0,0:18:12.20,0:18:14.94,Default,,0,0,0,,Sou mesmo obrigado\Na responder?
+Dialogue: 0,0:18:15.35,0:18:19.45,Italique,,0,0,0,,Obviamente! Acho você muito atrevido\Npara um suboficial promovido da tropa!
+Dialogue: 0,0:18:19.72,0:18:21.20,Default,,0,0,0,,Vou responder, então.
+Dialogue: 0,0:18:21.33,0:18:23.66,Default,,0,0,0,,O inimigo poderia detectar meu sinal.
+Dialogue: 0,0:18:23.96,0:18:28.08,Default,,0,0,0,,Além disso, você conseguiu encontrar sem ela, não é mesmo?
+Dialogue: 0,0:18:29.92,0:18:31.18,Italique,,0,0,0,,Silêncio!
+Dialogue: 0,0:18:37.10,0:18:38.92,Default,,0,0,0,,Nossa presa se aproxima.
+Dialogue: 0,0:18:43.72,0:18:44.76,Default,,0,0,0,,Estou ansioso!
+Dialogue: 0,0:18:45.85,0:18:47.35,Default,,0,0,0,,Está feito como um rato!
+Dialogue: 0,0:18:47.52,0:18:50.45,Default,,0,0,0,,Ainda não atirem!\NTentemos imobilizá-lo.
+Dialogue: 0,0:19:03.70,0:19:07.45,Default,,0,0,0,,Aqui TYM!\NDois MS nos tenderam uma emboscada!
+Dialogue: 0,0:19:13.46,0:19:14.84,Default,,0,0,0,,Socorro!
+Dialogue: 0,0:19:16.46,0:19:19.05,Italique,,0,0,0,,Professor!\NHere o capitão Ral!
+Dialogue: 0,0:19:19.29,0:19:22.93,Italique,,0,0,0,,Eu lhes garanto a vida.\NFaçam meia volta!
+Dialogue: 0,0:19:26.06,0:19:27.60,Default,,0,0,0,,Não tire, Gaia!
+Dialogue: 0,0:19:27.77,0:19:29.60,Italique,,0,0,0,,É inútil, capitão!
+Dialogue: 0,0:19:41.15,0:19:44.74,Default,,0,0,0,,Ele não se incomoda,\Ncomeçar a festa sem nós!
+Dialogue: 0,0:19:44.99,0:19:46.94,TiretsDefault,,208,0,0,,– O combate começou!\N– Bom!
+Dialogue: 0,0:19:47.46,0:19:49.70,Default,,0,0,0,,Soltem todas as esquadrilhas!
+Dialogue: 0,0:19:56.43,0:19:58.25,Default,,0,0,0,,Protejam o professor!
+Dialogue: 0,0:20:03.55,0:20:05.68,Default,,0,0,0,,Eles estão chegando! Eles estão chegando!
+Dialogue: 0,0:20:05.84,0:20:10.31,Default,,0,0,0,,É a esquadrilha de MS federais!\NProfessor, estamos salvos!
+Dialogue: 0,0:20:10.60,0:20:14.46,Default,,0,0,0,,Alvos 01 a 04, distância 400!
+Dialogue: 0,0:20:14.74,0:20:16.50,Default,,0,0,0,,Fogo!
+Dialogue: 0,0:20:44.51,0:20:45.84,Default,,0,0,0,,Morre!
+Dialogue: 0,0:20:56.35,0:20:57.31,Default,,0,0,0,,Vá em frente!
+Dialogue: 0,0:20:57.46,0:21:00.82,Default,,0,0,0,,Mostre-lhes do que os verdadeiros MS são capazes!
+Dialogue: 0,0:21:03.19,0:21:05.49,Default,,0,0,0,,Não, professor!\NEu não vou deixar você fazer isso!
+Dialogue: 0,0:21:15.46,0:21:16.75,Default,,0,0,0,,Pare, senhor!
+Dialogue: 0,0:21:17.00,0:21:19.75,Default,,0,0,0,,A batalha começou.\NImpotente para se aproximar.
+Dialogue: 0,0:21:22.21,0:21:24.68,Default,,0,0,0,,Isso... é incrível!
+Dialogue: 0,0:21:26.76,0:21:29.01,Default,,0,0,0,,Corremos o risco de perdê-los todos!
+Dialogue: 0,0:21:29.40,0:21:32.44,Default,,0,0,0,,Recuar!\NRecuperem-nos e recuemos!
+Dialogue: 0,0:22:08.59,0:22:11.92,Default,,0,0,0,,E eles chamam isso de MS?
+Dialogue: 0,0:22:24.73,0:22:26.19,Default,,0,0,0,,E mais um!
+Dialogue: 0,0:22:33.70,0:22:35.41,Default,,0,0,0,,Professor Minovsky!
+Dialogue: 0,0:22:52.31,0:22:55.90,Default,,0,0,0,,Não! Pare, Gaia! Deixe-o!
+Dialogue: 0,0:22:56.96,0:22:57.93,Default,,0,0,0,,Pare!
+Dialogue: 0,0:24:55.06,0:24:59.04,Default,,0,0,0,,Adaptação : Jun-Ichi Takeda
+Dialogue: 0,0:00:30.11,0:00:40.08,OPCN,,0,0,0,,{\fad(200,200)\blur4}Ameaçando gradualmente a Mãe Terra com o crepúsculo vermelho
+Dialogue: 0,0:00:41.73,0:00:53.24,OPCN,,0,0,0,,{\fad(200,200)\blur4}Como já confio plenamente, então parto sozinho agora
+Dialogue: 0,0:00:53.32,0:01:05.08,OPCN,,0,0,0,,{\fad(200,200)\blur4}Até a próxima... Como se estivesse preenchendo lentamente uma lua cheia
+Dialogue: 0,0:01:05.40,0:01:17.37,OPCN,,0,0,0,,{\fad(200,200)\blur4}Um dia, vou oferecer tudo que sinto para você
+Dialogue: 0,0:01:17.37,0:01:29.00,OPCN,,0,0,0,,{\fad(200,200)\blur4}Até a próxima... Mesmo assim, eu não vou abraçá-lo
+Dialogue: 0,0:01:29.32,0:01:44.16,OPCN,,0,0,0,,{\fad(200,200)\blur4}Porque no futuro, sorrir ao seu lado será suficiente
+Dialogue: 0,0:23:38.70,0:23:46.00,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Mercurio Azul em estado de sono profundo
+Dialogue: 0,0:23:46.74,0:23:56.05,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Um beijo suave acendeu o fogo da vida
+Dialogue: 0,0:23:56.60,0:24:02.00,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Rugosidades douradas do tempo
+Dialogue: 0,0:24:02.16,0:24:11.14,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Era o perfume sussurrado entre os lábios do universo
+Dialogue: 0,0:24:11.90,0:24:19.81,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Sua gentileza é como estrelas enterradas no fundo do coração
+Dialogue: 0,0:24:19.98,0:24:24.57,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Acenderam fagulhas, chamando-se mutuamente
+Dialogue: 0,0:24:24.79,0:24:30.80,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Como um navio naufragado nas ondas
+Dialogue: 0,0:24:32.61,0:24:38.30,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Não chore mais.
+Dialogue: 0,0:24:39.00,0:24:46.42,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Já há alguém partindo para procurar sua pista.
+Dialogue: 0,0:24:46.98,0:24:51.79,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Pensando constantemente em você, querendo vê-lo.

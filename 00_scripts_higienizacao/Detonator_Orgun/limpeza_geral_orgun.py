@@ -31,11 +31,39 @@ GRAMATICA_E_GAFES = {
     # ----------------------------------------------------
     "Eu vejo.": "Entendo.",
     "Olhe fora!": "Cuidado!",
+    "Olha fora!": "Cuidado!",
     "Você é direito": "Você tem razão",
+    "Você está direito": "Você tem razão",
     "Que o inferno": "Que diabos",
     "Que inferno": "Que diabos",
     "Merda sagrada": "Puta merda",
     "Oh meu Deus": "Meu Deus",
+    "De nenhuma maneira": "De jeito nenhum",
+    "Atualmente ": "Na verdade ",
+    "atualmente ": "na verdade ",
+    "Desgraçadamente": "Infelizmente",
+    "desgraçadamente": "infelizmente",
+
+    # ----------------------------------------------------
+    # GERUNDISMOS E VÍCIOS DE TRADUÇÃO
+    # ----------------------------------------------------
+    "vou estar fazendo": "vou fazer",
+    "vou estar indo": "vou",
+    "vamos estar fazendo": "vamos fazer",
+    "vou estar ajudando": "vou ajudar",
+
+    # ----------------------------------------------------
+    # MAIS VS MAS (CONFUSÕES COMUNS DO CONTEXTO DE TRADUÇÃO)
+    # ----------------------------------------------------
+    ", mais eu ": ", mas eu ",
+    ", mais você ": ", mas você ",
+    ", mais ele ": ", mas ele ",
+    ", mais ela ": ", mas ela ",
+    ", mais nós ": ", mas nós ",
+    ", mais eles ": ", mas eles ",
+    ", mais não ": ", mas não ",
+    ", mais sim ": ", mas sim ",
+
 
     # ----------------------------------------------------
     # ESQUIZOFRENIA TU/VOCÊ - VERBOS
@@ -129,6 +157,10 @@ def higienizar_linha(texto):
     # 3. Normalização de espaçamento e pontuação (preserva "..." de propósito)
     t = re.sub(r' {2,}', ' ', t)
     t = re.sub(r' +([,.!?;:])(?!\.\.)', r'\1', t)
+    # Normaliza 4 ou mais pontos seguidos para exatamente 3 pontos (reticências)
+    t = re.sub(r'\.{4,}', '...', t)
+    # Normaliza exatamente 2 pontos isolados para exatamente 3 pontos (reticências)
+    t = re.sub(r'(?<!\.)\.\.(?!\.)', '...', t)
 
     # 4. Sigla E.D.F. - normaliza 0, 1 ou vários pontos finais para exatamente um
     t = re.sub(r'\bE\.D\.F\.*(?!\w)', 'E.D.F.', t, flags=re.IGNORECASE)
@@ -214,8 +246,21 @@ def varrer_tudo():
     pasta_alvo = obter_pasta_alvo()
 
     arquivos = glob.glob(os.path.join(glob.escape(pasta_alvo), '*.ass')) + \
-        glob.glob(os.path.join(glob.escape(pasta_alvo), '*.srt'))
-    alvos = sorted(arq for arq in arquivos if not arq.endswith('_REVISADO.ass'))
+               glob.glob(os.path.join(glob.escape(pasta_alvo), '*.srt'))
+    for sub in ["legendas_eng", "traducao", "legendas-traduzidas", "legendas_ptbr"]:
+        sub_dir = os.path.join(pasta_alvo, sub)
+        if os.path.isdir(sub_dir):
+            arquivos.extend(glob.glob(os.path.join(glob.escape(sub_dir), '*.ass')))
+            arquivos.extend(glob.glob(os.path.join(glob.escape(sub_dir), '*.srt')))
+            
+    vistos = set()
+    arquivos_unicos = []
+    for arq in arquivos:
+        if arq not in vistos:
+            vistos.add(arq)
+            arquivos_unicos.append(arq)
+
+    alvos = sorted(arq for arq in arquivos_unicos if not arq.endswith('_REVISADO.ass'))
 
     if not alvos:
         print(f"{Fore.YELLOW}[AVISO] Nenhum arquivo .ass ou .srt encontrado na pasta.")

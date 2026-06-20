@@ -24,6 +24,7 @@ LORE_PROPRIO = {
     "vaso de guerra": "nave de guerra",
     "Federação da Terra": "Federação Terrestre",
     "Colocar na bochecha": "Mirar",
+    "Luna 2": "Luna II",
 }
 
 # Francesismos residuais, gafes de tradução literal do inglês, correções narrativas
@@ -91,11 +92,39 @@ GRAMATICA_E_GAFES = {
     # ----------------------------------------------------
     "Eu vejo.": "Entendo.",
     "Olhe fora!": "Cuidado!",
+    "Olha fora!": "Cuidado!",
     "Você é direito": "Você tem razão",
+    "Você está direito": "Você tem razão",
     "Que o inferno": "Que diabos",
     "Que inferno": "Que diabos",
     "Merda sagrada": "Puta merda",
     "Oh meu Deus": "Meu Deus",
+    "De nenhuma maneira": "De jeito nenhum",
+    "Atualmente ": "Na verdade ",
+    "atualmente ": "na verdade ",
+    "Desgraçadamente": "Infelizmente",
+    "desgraçadamente": "infelizmente",
+
+    # ----------------------------------------------------
+    # GERUNDISMOS E VÍCIOS DE TRADUÇÃO
+    # ----------------------------------------------------
+    "vou estar fazendo": "vou fazer",
+    "vou estar indo": "vou",
+    "vamos estar fazendo": "vamos fazer",
+    "vou estar ajudando": "vou ajudar",
+
+    # ----------------------------------------------------
+    # MAIS VS MAS (CONFUSÕES COMUNS DO CONTEXTO DE TRADUÇÃO)
+    # ----------------------------------------------------
+    ", mais eu ": ", mas eu ",
+    ", mais você ": ", mas você ",
+    ", mais ele ": ", mas ele ",
+    ", mais ela ": ", mas ela ",
+    ", mais nós ": ", mas nós ",
+    ", mais eles ": ", mas eles ",
+    ", mais não ": ", mas não ",
+    ", mais sim ": ", mas sim ",
+
 
     # ----------------------------------------------------
     # ESQUIZOFRENIA TU/VOCÊ - VERBOS
@@ -187,6 +216,10 @@ def higienizar_linha(texto):
     # 3. Normalização de espaçamento e pontuação (preserva "..." de propósito)
     t = re.sub(r' {2,}', ' ', t)
     t = re.sub(r' +([,.!?;:])(?!\.\.)', r'\1', t)
+    # Normaliza 4 ou mais pontos seguidos para exatamente 3 pontos (reticências)
+    t = re.sub(r'\.{4,}', '...', t)
+    # Normaliza exatamente 2 pontos isolados para exatamente 3 pontos (reticências)
+    t = re.sub(r'(?<!\.)\.\.(?!\.)', '...', t)
 
     # 4. Dicionário de Lore (grafia oficial fixa, qualquer caixa/posição na frase)
     for padrao, correto in _LORE_COMPILADO:
@@ -227,12 +260,24 @@ def varrer_tudo():
 
     pasta_alvo = obter_pasta_alvo()
 
-    arquivos = glob.glob(os.path.join(glob.escape(pasta_alvo), '*_PTBR_ENG.ass'))
-    alvos = [arq for arq in arquivos if 'S01' in arq and not arq.endswith('_REVISADO.ass')]
+    arquivos = glob.glob(os.path.join(glob.escape(pasta_alvo), '*.ass'))
+    for sub in ["legendas_eng", "traducao", "legendas-traduzidas", "legendas_ptbr"]:
+        sub_dir = os.path.join(pasta_alvo, sub)
+        if os.path.isdir(sub_dir):
+            arquivos.extend(glob.glob(os.path.join(glob.escape(sub_dir), '*.ass')))
+            
+    vistos = set()
+    arquivos_unicos = []
+    for arq in arquivos:
+        if arq not in vistos:
+            vistos.add(arq)
+            arquivos_unicos.append(arq)
+
+    alvos = [arq for arq in arquivos_unicos if not arq.endswith('_REVISADO.ass')]
     alvos.sort()
 
     if not alvos:
-        print(f"{Fore.YELLOW}[AVISO] Nenhum arquivo *_PTBR_ENG.ass de S01 encontrado na pasta.")
+        print(f"{Fore.YELLOW}[AVISO] Nenhum arquivo .ass encontrado na pasta.")
         return
 
     padrao_dialogo = re.compile(r'^(Dialogue:\s*[^,]*(?:,[^,]*){8},)(.*)$')

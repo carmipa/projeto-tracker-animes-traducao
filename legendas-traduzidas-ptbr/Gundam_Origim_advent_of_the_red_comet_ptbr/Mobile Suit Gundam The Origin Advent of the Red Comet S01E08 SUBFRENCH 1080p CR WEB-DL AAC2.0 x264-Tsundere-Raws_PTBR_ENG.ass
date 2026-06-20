@@ -1,0 +1,361 @@
+﻿[Script Info]
+Title: Français (France)
+Original Script: cr_fr  [http://www.crunchyroll.com/user/cr_fr]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Italique,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,6,3,2,6,6,75,1
+Style: Sign2,Arial,48,&H00FFFFFF,&H000000FF,&H00CACACE,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,3,30,120,750,1
+Style: TiretsDefault,Trebuchet MS,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,6,3,1,60,6,75,1
+Style: Titre,Arial,51,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,1086,30,240,1
+Style: Sign1,Arial,75,&H00D34A27,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,30,30,75,1
+Style: Sign3,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,30,30,180,1
+Style: Sign4,Arial,48,&H00FFFFFF,&H000000FF,&H003A3A3A,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,1,120,30,735,1
+
+Style: OPCN,FZXiaoBiaoSong-B05,48,&H00F5DECF,&H00000000,&H00A7430B,&H00000000,0,0,0,0,100,100,4,0,1,2,0,2,60,60,15,1
+Style: EDCN,FZLanTingHei-R-GBK,44,&H00FEFEFE,&H00000000,&H00C96F5F,&H00000000,0,0,0,0,100,100,3,0,1,3,0,2,60,60,25,1
+
+
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.27,0:00:02.98,Sign2,,0,0,0,,{\fad(200,1)\blur2}CIUDAD LUNAR GRANADA
+Dialogue: 0,0:00:04.53,0:00:06.23,Default,,0,0,0,,Eu devo recusar.
+Dialogue: 0,0:00:06.69,0:00:09.03,Default,,0,0,0,,Granada permanecerá neutra.
+Dialogue: 0,0:00:09.30,0:00:13.82,Default,,0,0,0,,Não podemos participar de um conflito\Nnem nos aliando a Zeon.
+Dialogue: 0,0:00:14.22,0:00:16.14,Default,,0,0,0,,Além disso, mantemos
+Dialogue: 0,0:00:16.28,0:00:19.58,Default,,0,0,0,,relações amigáveis com Von Braun\Nhá muito tempo.
+Dialogue: 0,0:00:22.30,0:00:25.92,Default,,0,0,0,,Assinar um pacto\Nque colocaria essa relação em perigo
+Dialogue: 0,0:00:26.11,0:00:28.38,Default,,0,0,0,,é completamente fora de questão.
+Dialogue: 0,0:00:31.30,0:00:32.28,Default,,0,0,0,,Um momento.
+Dialogue: 0,0:00:38.97,0:00:41.27,Default,,0,0,0,,Eu vejo.\NMuito obrigado.
+Dialogue: 0,0:00:42.56,0:00:43.56,Default,,0,0,0,,Sr. Prefeito.
+Dialogue: 0,0:00:43.98,0:00:46.01,Default,,0,0,0,,Meus homens acabam de destruir
+Dialogue: 0,0:00:46.17,0:00:50.07,Default,,0,0,0,,um esquadrão blindado federal\No mar de Smyth.
+Dialogue: 0,0:00:51.48,0:00:53.38,Default,,0,0,0,,Queria que você soubesse
+Dialogue: 0,0:00:53.79,0:00:56.95,Default,,0,0,0,,o quão poderoso Zeon se tornou.
+Dialogue: 0,0:00:57.11,0:01:00.58,Default,,0,0,0,,Isso é impossível!\NVou contatar o presidente Gihren...
+Dialogue: 0,0:01:00.72,0:01:02.33,Default,,0,0,0,,Será "comandante supremo"!
+Dialogue: 0,0:01:06.06,0:01:10.34,Default,,0,0,0,,Zeon logo não será mais\Numa república, mas um ducado.
+Dialogue: 0,0:01:10.75,0:01:13.23,Default,,0,0,0,,Meu pai Degwin será nomeado duque
+Dialogue: 0,0:01:13.36,0:01:15.84,Default,,0,0,0,,e proclamará em breve\Nossa independência.
+Dialogue: 0,0:01:16.22,0:01:18.52,Default,,0,0,0,,Eu… É preciso que…
+Dialogue: 0,0:01:19.05,0:01:20.76,Default,,0,0,0,,eu verifique essas informações…
+Dialogue: 0,0:01:22.81,0:01:24.26,Default,,0,0,0,,Comandante Bergmann!
+Dialogue: 0,0:01:25.10,0:01:28.06,Default,,0,0,0,,Como ele poderia saber,\Nsobre a guerra?
+Dialogue: 0,0:01:30.16,0:01:31.69,Default,,0,0,0,,Eu só perguntei
+Dialogue: 0,0:01:31.84,0:01:33.85,Default,,0,0,0,,Estacionar uma frota\Nem Granada
+Dialogue: 0,0:01:33.98,0:01:37.79,Default,,0,0,0,,cujo poderio igualaria o\Ndas Forças Federais.
+Dialogue: 0,0:01:38.09,0:01:41.58,Default,,0,0,0,,Eu nunca disse\Nque eu queria atacar Von Braun!
+Dialogue: 0,0:01:41.91,0:01:43.12,Default,,0,0,0,,Quer dizer...
+Dialogue: 0,0:01:44.02,0:01:44.66,Default,,0,0,0,,que...
+Dialogue: 0,0:01:46.14,0:01:49.04,Default,,0,0,0,,Não me importo com faladores\sob minhas ordens.
+Dialogue: 0,0:01:49.39,0:01:51.47,Default,,0,0,0,,Eu sou... desculpe...
+Dialogue: 0,0:01:51.95,0:01:54.70,Default,,0,0,0,,senhora... Catherine...
+Dialogue: 0,0:01:57.30,0:01:59.47,Default,,0,0,0,,Esta comédia chegou ao fim!
+Dialogue: 0,0:03:46.99,0:03:50.41,Default,,0,0,0,,{\an8}Precisamos mudar nossos planos\Nimediatamente!
+Dialogue: 0,0:03:48.04,0:03:53.00,Titre,sign,0,0,0,,{\fad(1000,1000)\blur2}EPISÓDIO 8\NL'INDEPENDÊNCIA\NDO DUQUÊ DE ZEON
+Dialogue: 0,0:03:50.69,0:03:54.54,Default,,0,0,0,,{\an8}O esquadrão de RCX-76\Nque entregamos ao exército
+Dialogue: 0,0:03:54.67,0:03:57.92,Default,,0,0,0,,{\an8}foi completamente aniquilado\Npor cinco Mobile Suits.
+Dialogue: 0,0:03:58.22,0:04:01.84,Default,,0,0,0,,O placar foi de doze a zero.\NA derrota é total.
+Dialogue: 0,0:04:02.51,0:04:04.55,Default,,0,0,0,,Vocês acham que vão se safar assim?
+Dialogue: 0,0:04:04.68,0:04:06.64,Default,,0,0,0,,Você é o primeiro envolvido!
+Dialogue: 0,0:04:06.77,0:04:09.06,TiretsDefault,,205,0,0,,– Exato!\N– Também é sua culpa!
+Dialogue: 0,0:04:09.28,0:04:13.04,Default,,0,0,0,,Justamente!\NNão tenho intenção de negar isso.
+Dialogue: 0,0:04:13.20,0:04:15.98,Default,,0,0,0,,Deixe-me assumir\Nminhas responsabilidades.
+Dialogue: 0,0:04:16.26,0:04:17.85,Default,,0,0,0,,Permita-me...
+Dialogue: 0,0:04:17.99,0:04:21.19,Default,,0,0,0,,avançar\No projeto RX seguinte.
+Dialogue: 0,0:04:21.40,0:04:24.45,TiretsDefault,,242,0,0,,– Você exagera!\N– Cale a boca!
+Dialogue: 0,0:04:24.86,0:04:29.45,Default,,0,0,0,,Mas o que acontecerá então\Ncom o desenvolvimento dos Mobile Suits?
+Dialogue: 0,0:04:29.72,0:04:31.52,Default,,0,0,0,,Você vai interrompê-lo?
+Dialogue: 0,0:04:31.66,0:04:35.21,Default,,0,0,0,,E rastejar depois miseravelmente\NDiante os Zeonicos?
+Dialogue: 0,0:04:35.66,0:04:37.35,Default,,0,0,0,,O Prof. Minovsky...
+Dialogue: 0,0:04:37.50,0:04:41.10,Default,,0,0,0,,fez deserção\Ncom o intuito de ajudar nossa empresa.
+Dialogue: 0,0:04:41.34,0:04:43.52,Default,,0,0,0,,Mas ele foi morto\NAntes de conseguir isso.
+Dialogue: 0,0:04:43.75,0:04:46.84,Default,,0,0,0,,Eu estava presente\Nmas não pude salvá-lo.
+Dialogue: 0,0:04:47.34,0:04:49.56,Default,,0,0,0,,Devemos perpetuar sua obra.
+Dialogue: 0,0:04:49.76,0:04:51.43,Default,,0,0,0,,Fácil de dizer...
+Dialogue: 0,0:04:51.58,0:04:53.43,Default,,0,0,0,,Entendo, claro.\NMas...
+Dialogue: 0,0:04:53.70,0:04:55.12,Default,,0,0,0,,Não se preocupe.
+Dialogue: 0,0:04:55.46,0:04:57.59,Default,,0,0,0,,Este projeto já está bem avançado.
+Dialogue: 0,0:04:57.76,0:04:59.32,Default,,0,0,0,,Estamos alcançando o objetivo.
+Dialogue: 0,0:05:01.17,0:05:02.72,Default,,0,0,0,,Permita-me apresentar...
+Dialogue: 0,0:05:03.02,0:05:05.19,Default,,0,0,0,,o projeto ultimate da nossa empresa.
+Dialogue: 0,0:05:08.20,0:05:09.37,Default,,0,0,0,,Eis aqui!
+Dialogue: 0,0:05:10.04,0:05:12.37,Default,,0,0,0,,O RX-78!
+Dialogue: 0,0:05:14.78,0:05:16.37,Default,,0,0,0,,Código...
+Dialogue: 0,0:05:17.09,0:05:18.38,Default,,0,0,0,,Gundam!
+Dialogue: 0,0:05:21.76,0:05:22.76,Default,,0,0,0,,Pai?
+Dialogue: 0,0:05:26.88,0:05:28.26,Default,,0,0,0,,Oh, desculpe!
+Dialogue: 0,0:05:29.46,0:05:31.18,Italique,,0,0,0,,Estou com dor! Estou com dor!
+Dialogue: 0,0:05:36.35,0:05:38.56,Default,,0,0,0,,Ele deve ter esquecido de fechar a chave...
+Dialogue: 0,0:05:38.68,0:05:42.62,Italique,,0,0,0,,Não entre, Amuro,\Nvocê vai levar uma bronca! Uma bronca!
+Dialogue: 0,0:06:03.83,0:06:08.92,Italique,,0,0,0,,Século Universal, 24 de outubro de 0078.
+Dialogue: 0,0:06:10.05,0:06:14.10,Italique,,0,0,15,,A República de Zeon\Nratifica sua constituição no Ducado.
+Dialogue: 0,0:06:14.62,0:06:18.35,Italique,,0,0,15,,e proclame sua independência\Nvis-à-vis da Federação.
+Dialogue: 0,0:06:21.73,0:06:23.69,Default,,0,0,0,,Sieg Zeon!
+Dialogue: 0,0:06:23.87,0:06:25.69,Default,,0,0,0,,Sieg Zeon!
+Dialogue: 0,0:06:25.94,0:06:29.95,Default,,0,0,0,,Sieg Zeon! Sieg Zeon!
+Dialogue: 0,0:06:33.24,0:06:34.31,Default,,0,0,0,,Meu caro Revil...
+Dialogue: 0,0:06:34.74,0:06:38.71,Default,,0,0,0,,Eu acho que é hora\Nde transferirmos nosso QG para Jaburo.
+Dialogue: 0,0:06:39.38,0:06:40.71,Default,,0,0,0,,De fato.
+Dialogue: 0,0:06:41.15,0:06:44.71,Default,,0,0,0,,Gihren Zabi é\Un homem pronto para tudo.
+Dialogue: 0,0:06:45.32,0:06:47.48,Default,,0,0,0,,Quem diria...
+Dialogue: 0,0:06:48.14,0:06:52.38,Default,,0,0,0,,que uma guerra possa surgir\Nna nossa época?
+Dialogue: 0,0:06:54.10,0:06:56.60,Default,,0,0,0,,E, consequentemente,
+Dialogue: 0,0:06:56.97,0:07:00.56,Default,,0,0,0,,o fim da era anterior\Ngerou graves dissensões
+Dialogue: 0,0:07:00.71,0:07:02.98,Default,,0,0,0,,e uma grande pobreza...
+Dialogue: 0,0:07:05.96,0:07:07.48,Default,,0,0,0,,Amuro!
+Dialogue: 0,0:07:08.09,0:07:09.86,Default,,0,0,0,,A-mu-ro!
+Dialogue: 0,0:07:13.78,0:07:15.48,Default,,0,0,0,,Olá, pai!
+Dialogue: 0,0:07:21.21,0:07:22.17,Default,,0,0,0,,Amuro!
+Dialogue: 0,0:07:23.66,0:07:24.92,Default,,0,0,0,,Voltamos juntos?
+Dialogue: 0,0:07:25.96,0:07:29.24,Default,,0,0,0,,Eu te acho um pouco cansado,\Nesses últimos tempos.
+Dialogue: 0,0:07:29.63,0:07:31.68,Default,,0,0,0,,Você fica acordado até tarde, não é?
+Dialogue: 0,0:07:32.42,0:07:34.05,Default,,0,0,0,,Pelo menos você jantou ontem?
+Dialogue: 0,0:07:34.47,0:07:35.55,Default,,0,0,0,,Claro que sim!
+Dialogue: 0,0:07:35.71,0:07:38.26,Default,,0,0,0,,É mesmo? Bem, então... OK.
+Dialogue: 0,0:07:39.26,0:07:41.38,Default,,0,0,0,,Olá, Srta. Representante!
+Dialogue: 0,0:07:41.83,0:07:44.56,Default,,0,0,0,,Amuro também levou uma bronca\Nda mesma forma?
+Dialogue: 0,0:07:44.78,0:07:47.18,Default,,0,0,0,,Ficar acordado a noite toda,\Nisso é ruim!
+Dialogue: 0,0:07:47.33,0:07:50.05,Default,,0,0,0,,Dormir durante as aulas,\Nisso é ruim!
+Dialogue: 0,0:07:50.26,0:07:53.01,Default,,0,0,0,,Fazer coisas às escondidas,\Nisso é ruim!
+Dialogue: 0,0:07:54.74,0:07:56.33,Default,,0,0,0,,Cale a boca!
+Dialogue: 0,0:07:56.64,0:07:58.55,Default,,0,0,0,,Ai! Eu tenho medo!
+Dialogue: 0,0:07:58.70,0:08:01.96,Default,,0,0,0,,Ela vai te colocar\No caminho certo, Amuro!
+Dialogue: 0,0:08:02.21,0:08:03.54,Default,,0,0,0,,Aqueles ali...
+Dialogue: 0,0:08:03.68,0:08:06.46,Default,,0,0,0,,Eu te aconselho\NA não frequentar eles.
+Dialogue: 0,0:08:06.72,0:08:09.76,Default,,0,0,0,,Kai, principalmente!\NCuidado com ele. É um delinquente que repetiu de ano.
+Dialogue: 0,0:08:11.18,0:08:12.22,Default,,0,0,0,,Não está indo bem?
+Dialogue: 0,0:08:12.53,0:08:14.19,Default,,0,0,0,,Acabei de me lembrar de uma coisa.
+Dialogue: 0,0:08:15.31,0:08:16.47,Default,,0,0,0,,Preciso ir embora.
+Dialogue: 0,0:08:16.65,0:08:17.81,Default,,0,0,0,,Amuro!
+Dialogue: 0,0:08:19.72,0:08:22.23,Default,,0,0,0,,O que você vai fazer na véspera do Natal?\N
+Dialogue: 0,0:08:23.02,0:08:23.73,Default,,0,0,0,,Hein?
+Dialogue: 0,0:08:24.14,0:08:25.48,Default,,0,0,0,,Você vai ficar sozinho, não é?
+Dialogue: 0,0:08:25.85,0:08:28.04,Default,,0,0,0,,Se quiser, eu faço um bolo para você!
+Dialogue: 0,0:08:28.74,0:08:30.17,Default,,0,0,0,,E um brinde!
+Dialogue: 0,0:08:33.48,0:08:35.02,Italique,,0,0,0,,O governo de Zeon
+Dialogue: 0,0:08:35.16,0:08:38.24,Italique,,0,0,0,,recusou-se a apresentar desculpas\Npor suas ações na Lua.
+Dialogue: 0,0:08:38.62,0:08:40.70,Italique,,0,0,0,,As negociações estão\Na estaca zero,
+Dialogue: 0,0:08:41.83,0:08:45.87,Italique,,0,0,0,,forçando outras colônias\Na tomar posição.
+Dialogue: 0,0:08:46.22,0:08:47.99,Italique,,0,0,0,,Tudo bem, Amuro?
+Dialogue: 0,0:08:48.19,0:08:50.34,Italique,,0,0,0,,Fraw é uma menina legal.
+Dialogue: 0,0:08:50.48,0:08:53.40,Italique,,0,0,0,,Haro gosta de Fraw.\NEu também gosto!
+Dialogue: 0,0:08:53.54,0:08:54.88,Italique,,0,0,0,,Eu amo Fraw!
+Dialogue: 0,0:08:55.15,0:08:56.30,Default,,0,0,0,,Cala a boca!
+Dialogue: 0,0:08:56.50,0:08:59.05,Default,,0,0,0,,Cala a boca! Vou te desativar!
+Dialogue: 0,0:09:00.37,0:09:03.25,Italique,,0,0,0,,O governo federal\NPediu aos habitantes dos...
+Dialogue: 0,0:09:03.38,0:09:05.06,Default,,0,0,0,,Ainda mais jargão militar?
+Dialogue: 0,0:09:05.21,0:09:06.72,Italique,,0,0,0,,... para agirem com prudência...
+Dialogue: 0,0:09:06.88,0:09:09.87,Default,,0,0,0,,Isso não tem nada a ver\Ncom a construção das colônias!
+Dialogue: 0,0:09:10.01,0:09:13.49,Italique,,0,0,0,,Side-6, Riah,\NAlém disso, já declarou sua neutralidade.
+Dialogue: 0,0:09:13.99,0:09:15.20,Default,,0,0,0,,O que o pai...
+Dialogue: 0,0:09:16.64,0:09:18.54,Italique,,0,0,0,,O que você está fazendo?
+Dialogue: 0,0:09:19.95,0:09:27.46,Sign1,sign,0,0,0,,3 DE JANEIRO: DECLARAÇÃO DE GUERRA
+Dialogue: 0,0:09:30.04,0:09:31.55,Sign3,sign,0,0,0,,{\blur2}NO MESMO DIA
+Dialogue: 0,0:09:31.55,0:09:34.67,Sign3,sign,0,0,0,,{\blur2}FROTA DE DOZLE ZABI É VITÓRIA\NFROTA FEDERAL
+Dialogue: 0,0:09:36.68,0:09:38.18,Sign3,sign,0,0,0,,{\blur2}DEMAIS
+Dialogue: 0,0:09:38.18,0:09:43.97,Sign3,sign,0,0,0,,{\blur2}DIVISÕES DE ASSALTO DA CONTRA-ALMIRANTE\NKYCILIA TOMAM GRANADA
+Dialogue: 0,0:09:45.98,0:09:52.57,Sign3,sign,0,0,0,,{\fad(0,700)\blur2}SUA FROTA PRINCIPAL É LANÇADA TAMBÉM\NATAQUES CONTRA VON BRAUN
+Dialogue: 0,0:10:19.75,0:10:22.43,Italique,,0,0,0,,O que você está fazendo, Lalah?
+Dialogue: 0,0:10:23.52,0:10:25.13,Default,,0,0,0,,Estou contemplando as estrelas.
+Dialogue: 0,0:10:26.32,0:10:29.65,Default,,0,0,0,,Elas são magníficas quando cintilam.\NElas não cintilam no espaço.
+Dialogue: 0,0:10:30.24,0:10:32.52,Default,,0,0,0,,Elas não brilham\Nno espaço.
+Dialogue: 0,0:10:32.96,0:10:34.69,Italique,,0,0,0,,Ah, é mesmo? É verdade?
+Dialogue: 0,0:10:35.20,0:10:36.92,Default,,0,0,0,,Seja bem comportado.
+Dialogue: 0,0:10:37.78,0:10:40.45,Default,,0,0,0,,Eu voltarei\NDepois que minha tarefa estiver terminada.
+Dialogue: 0,0:11:13.90,0:11:15.19,Default,,0,0,0,,Não terminei ainda!
+Dialogue: 0,0:11:36.39,0:11:40.30,Italique,,0,0,0,,Side-2 foi punida pelo fogo divino!
+Dialogue: 0,0:11:40.80,0:11:43.90,Italique,,0,0,0,,É uma justa punição\Npara quem quer que se opus
+Dialogue: 0,0:11:44.09,0:11:46.30,Italique,,0,0,0,,à causa dos Spacenoids.
+Dialogue: 0,0:11:46.74,0:11:50.31,Italique,,0,0,0,,Eles não receberam\Nsenão o que mereciam.
+Dialogue: 0,0:12:22.84,0:12:24.93,Italique,,0,0,0,,Coronel! Coronel Ral!
+Dialogue: 0,0:12:25.40,0:12:27.93,Italique,,0,0,0,,O inimigo foi reduzido ao silêncio!
+Dialogue: 0,0:12:28.85,0:12:30.88,Default,,0,0,0,,Isso não é uma guerra...
+Dialogue: 0,0:12:31.92,0:12:36.36,Italique,,0,0,0,,Mas nosso verdadeiro inimigo,\Né a Federação que manipulou
+Dialogue: 0,0:12:36.51,0:12:38.44,Italique,,0,0,0,,os líderes de Hatte!
+Dialogue: 0,0:12:42.93,0:12:44.28,Default,,0,0,0,,É exterminação.
+Dialogue: 0,0:12:44.70,0:12:46.26,Italique,,0,0,0,,Caros conterrâneos!
+Dialogue: 0,0:12:46.49,0:12:49.71,Italique,,0,0,0,,Meus caros 150 milhões\Nde conterrâneos de Zeon!
+Dialogue: 0,0:12:49.85,0:12:51.84,Italique,,0,0,0,,Nossa luta mal começou!
+Dialogue: 0,0:12:52.25,0:12:56.67,Italique,,0,0,0,,Formem as fileiras e avancemos
+Dialogue: 0,0:12:57.06,0:12:59.92,Italique,,0,0,0,,até o dia da vitória!
+Dialogue: 0,0:13:38.42,0:13:40.42,Italique,,0,0,0,,Os combates duram em Hatte.
+Dialogue: 0,0:13:40.76,0:13:43.92,Italique,,0,0,0,,O governo de Hatte\Na solicitou ontem
+Dialogue: 0,0:13:44.09,0:13:47.04,Italique,,0,0,0,,Pedido de ajuda à Federação\Ndas colônias.
+Dialogue: 0,0:13:47.48,0:13:50.91,Italique,,0,0,0,,Zeon lançou ataques\Nsobre todas as colônias...
+Dialogue: 0,0:13:51.06,0:13:52.93,Italique,,0,0,0,,Olá, sou Hayato.
+Dialogue: 0,0:13:53.22,0:13:55.44,Italique,,0,0,0,,Kai quer que você desça.
+Dialogue: 0,0:14:00.19,0:14:02.81,Default,,0,0,0,,Não é hora de ficar trancado
+Dialogue: 0,0:14:02.95,0:14:05.38,Default,,0,0,0,,enquanto lá fora é a guerra.
+Dialogue: 0,0:14:07.00,0:14:08.60,Default,,0,0,0,,Eu não fico trancado...
+Dialogue: 0,0:14:08.74,0:14:12.08,Default,,0,0,0,,Ouvi dizer que seu pai\Né o responsável pelos canteiros?
+Dialogue: 0,0:14:12.42,0:14:16.04,Default,,0,0,0,,E se fosse mesmo um militar de verdade?
+Dialogue: 0,0:14:21.67,0:14:22.29,Default,,0,0,0,,Ei!
+Dialogue: 0,0:14:23.56,0:14:26.47,Default,,0,0,0,,É preciso se apressar\Nse quiserem ir aos canteiros.
+Dialogue: 0,0:14:26.61,0:14:28.83,Default,,0,0,0,,Eu tenho treino de judo\No dia de amanhã.
+Dialogue: 0,0:14:29.02,0:14:31.18,Default,,0,0,0,,Vocês querem ir aos canteiros?
+Dialogue: 0,0:14:31.31,0:14:33.94,Default,,0,0,0,,Sim!\NHá coisas estranhas lá, com certeza.
+Dialogue: 0,0:14:34.10,0:14:36.31,Default,,0,0,0,,Algo está sendo tramado lá,\Nisso eu apostaria.
+Dialogue: 0,0:14:36.64,0:14:40.06,Default,,0,0,0,,Meu pai disse\Nque não devemos nos aproximar.
+Dialogue: 0,0:14:40.20,0:14:42.15,Default,,0,0,0,,Você é muito ingênuo, Amuro.
+Dialogue: 0,0:14:42.29,0:14:45.36,Default,,0,0,0,,Não é continuando a obedecer ao seu pai
+Dialogue: 0,0:14:45.50,0:14:48.65,Default,,0,0,0,,que você se tornará um homem,\Nmentalmente falando.
+Dialogue: 0,0:14:49.30,0:14:51.00,Default,,0,0,0,,Você não acha?
+Dialogue: 0,0:14:54.87,0:14:57.66,Default,,0,0,0,,Vamos! É hora de partir!
+Dialogue: 0,0:14:57.83,0:15:01.27,Default,,0,0,0,,Nós somos de Side-7! De Side-7!
+Dialogue: 0,0:15:01.41,0:15:04.90,Default,,0,0,0,,Para nós, a vitória! Hip! Hip! Hip! Hurra!
+Dialogue: 0,0:15:05.05,0:15:08.68,Default,,0,0,0,,Nós somos de Side-7...
+Dialogue: 0,0:15:16.34,0:15:18.35,Default,,0,0,0,,Meu Deus!
+Dialogue: 0,0:15:21.65,0:15:24.23,Default,,0,0,0,,Kai, eu acho que\Nisso não é uma boa ideia.
+Dialogue: 0,0:15:24.36,0:15:27.18,Default,,0,0,0,,O quê? Vamos, Carl!\NCaia fora daqui!
+Dialogue: 0,0:15:30.28,0:15:31.35,Default,,0,0,0,,Sério?
+Dialogue: 0,0:15:32.97,0:15:35.58,Default,,0,0,0,,Dê passagem ao grande Kai Shiden!
+Dialogue: 0,0:15:54.09,0:15:55.35,Default,,0,0,0,,Em frente!
+Dialogue: 0,0:15:59.64,0:16:02.02,TiretsDefault,,260,0,0,,Kai!\NTudo bem!
+Dialogue: 0,0:16:02.23,0:16:06.08,Default,,0,0,0,,Esta zona fará parte um dia\Ndo nosso novo território.
+Dialogue: 0,0:16:06.22,0:16:08.98,Default,,0,0,0,,Você não está curioso para saber\No que há,
+Dialogue: 0,0:16:09.18,0:16:11.40,Default,,0,0,0,,Estou me escondendo atrás desta parede?
+Dialogue: 0,0:16:39.06,0:16:42.24,Italique,,0,0,0,,Parem toda resistência\Ne saiam do veículo!
+Dialogue: 0,0:16:42.81,0:16:46.40,Italique,,0,0,0,,Repito.\NSaiam do veículo com as mãos para cima.
+Dialogue: 0,0:16:47.22,0:16:49.70,Italique,,0,0,0,,Atiraremos\Nse tentarem resistir.
+Dialogue: 0,0:16:57.82,0:16:59.15,Default,,0,0,0,,Eles são...
+Dialogue: 0,0:16:59.62,0:17:01.24,Default,,0,0,0,,As Forças Federais...
+Dialogue: 0,0:17:03.26,0:17:06.58,Default,,0,0,0,,Então, você quer ser esperto?
+Dialogue: 0,0:17:07.02,0:17:08.96,Default,,0,0,0,,Quem é o chefe?
+Dialogue: 0,0:17:09.20,0:17:11.49,Default,,0,0,0,,É você?
+Dialogue: 0,0:17:15.84,0:17:18.34,Default,,0,0,0,,Mostrem seus documentos de identidade!
+Dialogue: 0,0:17:18.74,0:17:19.96,Default,,0,0,0,,Confiscados!
+Dialogue: 0,0:17:20.37,0:17:21.67,Default,,0,0,0,,Vá! Ande logo!
+Dialogue: 0,0:17:22.35,0:17:23.24,Default,,0,0,0,,Sua espécie...
+Dialogue: 0,0:17:24.84,0:17:25.60,Default,,0,0,0,,Chefe...
+Dialogue: 0,0:17:29.69,0:17:32.78,Default,,0,0,0,,Ei! Meu...\NEi, jovem!
+Dialogue: 0,0:17:35.24,0:17:38.29,Default,,0,0,0,,Você é filho do diretor Tem Ray?
+Dialogue: 0,0:17:39.54,0:17:40.66,Default,,0,0,0,,Sim, senhor.
+Dialogue: 0,0:17:41.42,0:17:44.66,Default,,0,0,0,,Devíamos ter sido informados antes!
+Dialogue: 0,0:17:45.06,0:17:50.20,Default,,0,0,0,,Vá embora\NDepare-se com bandidos.
+Dialogue: 0,0:17:52.75,0:17:54.76,Default,,0,0,0,,Bando de pestes!
+Dialogue: 0,0:17:55.01,0:17:58.68,Default,,0,0,0,,Querem se mostrar?\NQueriam se matar?
+Dialogue: 0,0:17:59.26,0:18:01.05,Default,,0,0,0,,Vocês vão levar uma surra!
+Dialogue: 0,0:18:19.49,0:18:21.41,Default,,0,0,0,,Tenente-coronel Ramba Ral relatando!
+Dialogue: 0,0:18:21.87,0:18:23.66,Default,,0,0,0,,Aí está você finalmente!
+Dialogue: 0,0:18:27.00,0:18:29.29,Default,,0,0,0,,É Island Iffish?
+Dialogue: 0,0:18:29.83,0:18:32.48,Default,,0,0,0,,Por que ela foi poupada?\NCom uma meia-diária seria possível tomá-la.
+Dialogue: 0,0:18:32.64,0:18:35.06,Default,,0,0,0,,Foi justamente por isso\Nque eu te chamei.
+Dialogue: 0,0:18:35.31,0:18:38.05,Default,,0,0,0,,Esse raposo de Gihren tem um plano bem tortuoso.
+Dialogue: 0,0:18:38.64,0:18:42.53,Default,,0,0,0,,Um plano que nos permitirá\Nvencer rapidamente!
+Dialogue: 0,0:18:42.85,0:18:45.56,Default,,0,0,0,,Assassinar os habitantes\Ne precipitar a colônia?
+Dialogue: 0,0:18:45.71,0:18:48.18,Default,,0,0,0,,uma vitória muito rápida!
+Dialogue: 0,0:18:48.60,0:18:51.39,Default,,0,0,0,,Matar os habitantes\Ne precipitar a colônia?
+Dialogue: 0,0:18:51.54,0:18:52.31,Default,,0,0,0,,Shh!
+Dialogue: 0,0:18:52.56,0:18:54.44,Default,,0,0,0,,Não diga "assassinar",
+Dialogue: 0,0:18:54.63,0:18:57.82,Default,,0,0,0,,isso faz desse plano alguma coisa abjeta.
+Dialogue: 0,0:18:57.94,0:18:59.72,TiretsDefault,,272,0,0,,– Mas...\N– Espera!
+Dialogue: 0,0:19:00.36,0:19:01.84,Default,,0,0,0,,Deixa-me terminar!
+Dialogue: 0,0:19:02.72,0:19:04.95,Default,,0,0,0,,Dê uma olhada nisso.
+Dialogue: 0,0:19:05.72,0:19:08.03,Default,,0,0,0,,Vamos fixar nele alguns propulsores,
+Dialogue: 0,0:19:08.16,0:19:11.69,Default,,0,0,0,,fazer com que saia de sua órbita,\No levar para a órbita terrestre
+Dialogue: 0,0:19:11.82,0:19:14.96,Default,,0,0,0,,e fazê-lo cair\Nsobre o quartel-general federal de Jaburo.
+Dialogue: 0,0:19:16.46,0:19:17.88,Default,,0,0,0,,Você entende?
+Dialogue: 0,0:19:18.72,0:19:22.34,Default,,0,0,0,,Jaburo pode ter sido construído sob 1.000 metros de rocha,
+Dialogue: 0,0:19:22.51,0:19:26.06,Default,,0,0,0,,mas não resistiria a isso!
+Dialogue: 0,0:19:26.21,0:19:28.11,Default,,0,0,0,,- E essa tarefa cabe a mim?\N- Claro que sim!
+Dialogue: 0,0:19:28.50,0:19:30.77,TiretsDefault,,206,0,0,,Eu me recuso!
+Dialogue: 0,0:19:31.02,0:19:32.06,Default,,0,0,0,,Isso é típico de Gihren\Nde planejar algo assim.
+Dialogue: 0,0:19:34.02,0:19:35.32,Default,,0,0,0,,Como assim?
+Dialogue: 0,0:19:35.54,0:19:38.84,Default,,0,0,0,,Mas isso é indigno\Nde um soldado como você.
+Dialogue: 0,0:19:38.99,0:19:42.46,Default,,0,0,0,,Isso é indigno de um soldado como você.
+Dialogue: 0,0:19:42.95,0:19:45.16,Default,,0,0,0,,É obra de um demônio!
+Dialogue: 0,0:19:45.33,0:19:47.49,Default,,0,0,0,,De um demônio?
+Dialogue: 0,0:19:48.24,0:19:50.91,Default,,0,0,0,,E você, não é um\Ntalvez?
+Dialogue: 0,0:19:51.26,0:19:54.19,Default,,0,0,0,,Você tem nas suas mãos\Nsangue dos habitantes de Hatte!
+Dialogue: 0,0:19:54.32,0:19:57.30,Default,,0,0,0,,Isso faz de você\Num demônio à parte inteira!
+Dialogue: 0,0:19:58.15,0:20:00.57,Default,,0,0,0,,Eles vão morrer, de qualquer maneira!
+Dialogue: 0,0:20:00.74,0:20:03.59,Default,,0,0,0,,Nesse caso, tanto quanto sua morte
+Dialogue: 0,0:20:03.73,0:20:06.05,Default,,0,0,0,,sirva para alguma coisa,\Nvocê não acha?
+Dialogue: 0,0:20:06.19,0:20:07.18,Default,,0,0,0,,De jeito nenhum!
+Dialogue: 0,0:20:07.32,0:20:10.25,Default,,0,0,0,,Mas por que você é tão cabeça-dura?
+Dialogue: 0,0:20:13.30,0:20:17.02,Default,,0,0,0,,Almirante Dozle.\NEsta guerra é louca.
+Dialogue: 0,0:20:17.43,0:20:20.57,Default,,0,0,0,,Zeon Zum Deikun nunca teria\Naconselhado tal conflito.
+Dialogue: 0,0:20:20.96,0:20:22.60,Default,,0,0,0,,Eu prefiro recusar!
+Dialogue: 0,0:20:23.51,0:20:24.36,Default,,0,0,0,,Espera!
+Dialogue: 0,0:20:24.98,0:20:26.40,Default,,0,0,0,,Você quer esperar?
+Dialogue: 0,0:20:26.99,0:20:30.70,Sign4,sign,0,0,0,,{\fad(250,0)\blur2}ILHA IFFISH
+Dialogue: 0,0:20:33.33,0:20:34.96,Italique,,0,0,0,,Não desperdicem munição!
+Dialogue: 0,0:20:35.34,0:20:39.04,Default,,0,0,0,,Vamos, Zeon!\\Vamos ver se você tem coragem!
+Dialogue: 0,0:20:41.87,0:20:42.72,Default,,0,0,0,,Avançar!
+Dialogue: 0,0:20:43.42,0:20:44.39,Default,,0,0,0,,Atacar!
+Dialogue: 0,0:20:45.34,0:20:46.59,Default,,0,0,0,,Para onde você vai?
+Dialogue: 0,0:20:47.18,0:20:50.10,Default,,0,0,0,,Estamos indo para um abrigo.\\E você?
+Dialogue: 0,0:20:50.45,0:20:52.10,Default,,0,0,0,,Guardar o astroporto!
+Dialogue: 0,0:20:52.37,0:20:53.54,Default,,0,0,0,,Não! Pare!
+Dialogue: 0,0:20:56.89,0:20:58.27,Default,,0,0,0,,Você está louco!
+Dialogue: 0,0:20:58.80,0:21:00.92,Default,,0,0,0,,Venha se abrigar conosco!
+Dialogue: 0,0:21:01.40,0:21:04.60,Default,,0,0,0,,De jeito nenhum.\NMas eu vou acompanhá-los.
+Dialogue: 0,0:21:12.06,0:21:15.86,Default,,0,0,0,,Você acha que todos eles estão mortos,\Nnas outras colônias?
+Dialogue: 0,0:21:16.50,0:21:17.45,Default,,0,0,0,,Provavelmente...
+Dialogue: 0,0:21:20.22,0:21:22.84,Default,,0,0,0,,Mas não corremos perigo aqui.
+Dialogue: 0,0:21:23.68,0:21:24.72,Default,,0,0,0,,Por quê?
+Dialogue: 0,0:21:25.28,0:21:28.66,Default,,0,0,0,,É a capital daqui,\Ne há suficientes abrigos.
+Dialogue: 0,0:21:29.36,0:21:33.71,Default,,0,0,0,,Acredite em mim, Fang Li,\Na Federação vai nos resgatar!
+Dialogue: 0,0:21:33.90,0:21:36.48,Default,,0,0,0,,Você acha? Espero que sim...
+Dialogue: 0,0:21:37.60,0:21:39.96,Italique,,0,0,0,,Acelerem! Estamos atrasados!
+Dialogue: 0,0:21:49.39,0:21:50.23,Default,,0,0,0,,Yûki…
+Dialogue: 0,0:21:51.09,0:21:53.68,Default,,0,0,0,,você não devia ir\Nao astroporto?
+Dialogue: 0,0:21:54.46,0:21:55.37,Default,,0,0,0,,Inútil.
+Dialogue: 0,0:21:56.49,0:21:59.40,Default,,0,0,0,,Decidi ficar\Npara proteger o abrigo de vocês.
+Dialogue: 0,0:22:01.64,0:22:03.34,Default,,0,0,0,,Você sabe usar isso?
+Dialogue: 0,0:22:03.48,0:22:04.59,Default,,0,0,0,,É fácil.
+Dialogue: 0,0:22:04.97,0:22:06.55,Default,,0,0,0,,Melhor do que uma guitarra.
+Dialogue: 0,0:22:10.08,0:22:12.12,Default,,0,0,0,,A situação tornou-se grave.
+Dialogue: 0,0:22:13.04,0:22:16.56,Default,,0,0,0,,Você deveria ter ido para a Terra antes.
+Dialogue: 0,0:22:16.84,0:22:17.88,Default,,0,0,0,,Impossível.
+Dialogue: 0,0:22:18.00,0:22:21.09,Default,,0,0,0,,A escola da companhia Yashima\Ncomeça em abril.
+Dialogue: 0,0:22:21.35,0:22:22.46,Default,,0,0,0,,Não é qualquer coisa.
+Dialogue: 0,0:22:22.66,0:22:23.94,Default,,0,0,0,,Pelo contrário.
+Dialogue: 0,0:22:24.39,0:22:27.49,Default,,0,0,0,,Em abril, os cerejeiros estão em flor, no Japão.
+Dialogue: 0,0:22:27.64,0:22:28.60,Default,,0,0,0,,Os cerejeiros?
+Dialogue: 0,0:22:28.79,0:22:30.91,Default,,0,0,0,,Eu nunca vi um de verdade.
+Dialogue: 0,0:22:31.66,0:22:34.04,Default,,0,0,0,,Os pétalos caem como neve.
+Dialogue: 0,0:22:34.20,0:22:35.34,Default,,0,0,0,,A neve?
+Dialogue: 0,0:22:35.94,0:22:39.58,Default,,0,0,0,,Tenho um pouco de sangue japonês, você sabia?
+Dialogue: 0,0:22:40.69,0:22:43.13,Default,,0,0,0,,Aliás, meu nome é japonês.
+Dialogue: 0,0:22:43.85,0:22:46.15,Default,,0,0,0,,Yûki, como a neve?
+Dialogue: 0,0:22:46.37,0:22:48.44,Default,,0,0,0,,Não, a neve se diz "Yuki".
+Dialogue: 0,0:22:48.60,0:22:50.24,Default,,0,0,0,,"Yûki", é coragem!
+Dialogue: 0,0:22:53.05,0:22:55.14,Default,,0,0,0,,Mas eu gosto muito da neve.
+Dialogue: 0,0:22:55.74,0:22:57.90,Default,,0,0,0,,Está nevando no Japão?
+Dialogue: 0,0:22:58.23,0:23:00.44,Default,,0,0,0,,Eu gostaria de ir lá um dia.
+Dialogue: 0,0:23:01.08,0:23:03.62,Default,,0,0,0,,Vamos lá quando tudo isso acabar.
+Dialogue: 0,0:23:05.64,0:23:06.68,Default,,0,0,0,,Juntos?
+Dialogue: 0,0:23:07.22,0:23:08.02,Default,,0,0,0,,Sim.
+Dialogue: 0,0:23:08.94,0:23:09.94,Default,,0,0,0,,Juntos.
+Dialogue: 0,0:24:55.60,0:24:58.82,Default,sign,0,0,0,,Adaptação : Jun-Ichi Takeda
+Dialogue: 0,0:02:17.08,0:02:27.05,OPCN,,0,0,0,,{\fad(200,200)\blur4}Ameaçando gradualmente a Mãe Terra com o crepúsculo vermelho
+Dialogue: 0,0:02:28.70,0:02:40.21,OPCN,,0,0,0,,{\fad(200,200)\blur4}Como já confio plenamente, então parto sozinho agora
+Dialogue: 0,0:02:40.29,0:02:52.05,OPCN,,0,0,0,,{\fad(200,200)\blur4}Até a próxima... Como se estivesse preenchendo lentamente uma lua cheia
+Dialogue: 0,0:02:52.37,0:03:04.34,OPCN,,0,0,0,,{\fad(200,200)\blur4}Um dia, vou oferecer tudo que sinto para você
+Dialogue: 0,0:03:04.34,0:03:15.97,OPCN,,0,0,0,,{\fad(200,200)\blur4}Até a próxima... Mesmo assim, eu não vou abraçá-lo
+Dialogue: 0,0:03:16.29,0:03:31.13,OPCN,,0,0,0,,{\fad(200,200)\blur4}Porque no futuro, sorrir ao seu lado será suficiente
+Dialogue: 0,0:23:38.66,0:23:45.96,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Mercurio Azul em estado de sono profundo
+Dialogue: 0,0:23:46.70,0:23:56.01,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Um beijo suave acendeu o fogo da vida
+Dialogue: 0,0:23:56.56,0:24:01.96,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Rugosidades douradas do tempo
+Dialogue: 0,0:24:02.12,0:24:11.10,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Era o perfume sussurrado entre os lábios do universo
+Dialogue: 0,0:24:11.86,0:24:19.77,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Sua gentileza é como estrelas enterradas no fundo do coração
+Dialogue: 0,0:24:19.94,0:24:24.53,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Acenderam fagulhas, chamando-se mutuamente
+Dialogue: 0,0:24:24.75,0:24:30.76,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Como um navio naufragado nas ondas
+Dialogue: 0,0:24:32.57,0:24:38.26,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Não chore mais.
+Dialogue: 0,0:24:38.96,0:24:46.38,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Já há alguém partindo para procurar sua pista.
+Dialogue: 0,0:24:46.94,0:24:51.75,EDCN,NTP,0,0,0,,{\an5\fad(200,200)\blur2\pos(960,1028)}Pensando constantemente em você, querendo vê-lo.

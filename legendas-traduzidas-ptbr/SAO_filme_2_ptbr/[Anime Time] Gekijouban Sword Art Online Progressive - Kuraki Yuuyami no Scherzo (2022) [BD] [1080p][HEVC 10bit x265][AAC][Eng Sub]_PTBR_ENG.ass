@@ -1,0 +1,1297 @@
+﻿[Script Info]
+Title: [Anime Time] Gekijouban Sword Art Online Progressive - Kuraki Yuuyami no Scherzo (2022) [BD] [1080p][HEVC 10bit x265][AAC][Eng Sub] - Localized PT-BR
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,30,30,45,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:29.15,0:01:31.24,Default,,0,0,0,,Não fique muito tenso.
+Dialogue: 0,0:01:32.11,0:01:34.28,Default,,0,0,0,,Não me trate como um novato!
+Dialogue: 0,0:01:36.08,0:01:39.08,Default,,0,0,0,,E você não precisa fazer a manutenção\Nmanutenção de sua arma, Kirito?
+Dialogue: 0,0:01:39.08,0:01:42.00,Default,,0,0,0,,É claro que sim. Eu cuidei disso ontem.
+Dialogue: 0,0:01:42.00,0:01:43.08,Default,,0,0,0,,E você, Asuna?
+Dialogue: 0,0:01:50.34,0:01:51.80,Default,,0,0,0,,Acho que eu deveria ter poupado meu fôlego!
+Dialogue: 0,0:01:52.68,0:01:55.76,Default,,0,0,0,,Com certeza. Afinal, essa espada é o meu bebê.
+Dialogue: 0,0:02:05.40,0:02:08.19,Default,,0,0,0,,Tudo bem, está na hora. Por que não\Nnão começamos?
+Dialogue: 0,0:02:08.82,0:02:14.07,Default,,0,0,0,,Para aqueles de vocês que não me conhecem,\Neu sou Lind, da Brigada dos Cavaleiros do Dragão.
+Dialogue: 0,0:02:14.07,0:02:16.70,Default,,0,0,0,,Sou seu líder de ataque para esta missão.
+Dialogue: 0,0:02:17.16,0:02:18.58,Default,,0,0,0,,É um prazer conhecer todos vocês!
+Dialogue: 0,0:02:27.59,0:02:28.46,Default,,0,0,0,,Huh!
+Dialogue: 0,0:02:28.46,0:02:31.67,Default,,0,0,0,,Sou Kibaou, do Esquadrão de Libertação de Aincrad.
+Dialogue: 0,0:02:31.67,0:02:34.59,Default,,0,0,0,,Serei seu sub-líder\Nhoje. Vamos fazer isso!
+Dialogue: 0,0:02:35.47,0:02:37.18,Default,,0,0,0,,Sim!
+Dialogue: 0,0:02:40.85,0:02:45.35,Default,,0,0,0,,Sobre os padrões de ataque do chefe e o papel de cada\Nfunção de cada esquadrão, é exatamente como expliquei anteriormente.
+Dialogue: 0,0:02:48.77,0:02:51.69,Default,,0,0,0,,Não poderíamos ter chegado tão longe\Nsem todos vocês, os melhores jogadores!
+Dialogue: 0,0:02:51.69,0:02:58.28,Default,,0,0,0,,E se você puder emprestar suas habilidades a esse\Nlíder, tenho certeza de que poderemos derrotar esse chefe de andar também!
+Dialogue: 0,0:02:58.28,0:03:04.41,Default,,0,0,0,,Líder, meu olho! Tudo o que você fez\Nfoi encontrar a sala do chefe um segundo antes de nós.
+Dialogue: 0,0:03:04.41,0:03:06.87,Default,,0,0,0,,Mas você sabe que essas são as regras.
+Dialogue: 0,0:03:06.87,0:03:08.50,Default,,0,0,0,,Com certeza você não está mais chateado com isso?
+Dialogue: 0,0:03:08.50,0:03:10.71,Default,,0,0,0,,Huh! Eu não diria isso.
+Dialogue: 0,0:03:12.84,0:03:15.88,Default,,0,0,0,,Prestem atenção! Estamos chegando\Nao andar cinco hoje!
+Dialogue: 0,0:03:16.18,0:03:17.64,Default,,0,0,0,,Sim! Você disse isso!
+Dialogue: 0,0:04:25.45,0:04:28.16,Default,,0,0,0,,Estamos quase lá, pessoal! Continuem assim!
+Dialogue: 0,0:04:28.16,0:04:29.75,Default,,0,0,0,,Certo!
+Dialogue: 0,0:04:30.50,0:04:32.04,Default,,0,0,0,,Seus indicadores acabaram de cair!
+Dialogue: 0,0:04:32.04,0:04:33.79,Default,,0,0,0,,Esquadrão D, prepare-se para trocar!
+Dialogue: 0,0:04:33.79,0:04:35.67,Default,,0,0,0,,Esquadrão A, prepare-se para atacar!
+Dialogue: 0,0:04:36.96,0:04:39.63,Default,,0,0,0,,Mas que diabos? Ainda não terminamos!
+Dialogue: 0,0:04:39.63,0:04:42.18,Default,,0,0,0,,Sou seu líder! Sigam o rodízio!
+Dialogue: 0,0:04:42.18,0:04:46.14,Default,,0,0,0,,Parece uma desculpa\Npara pegar o último ataque para vocês!
+Dialogue: 0,0:04:46.14,0:04:47.23,Default,,0,0,0,,É claro como o dia!
+Dialogue: 0,0:04:47.23,0:04:49.19,Default,,0,0,0,,Você não pode estar falando sério.
+Dialogue: 0,0:04:49.19,0:04:50.48,Default,,0,0,0,,Está chegando!
+Dialogue: 0,0:05:08.58,0:05:09.50,Default,,0,0,0,,Asuna!
+Dialogue: 0,0:05:14.17,0:05:15.04,Default,,0,0,0,,Kirito!
+Dialogue: 0,0:05:16.46,0:05:17.30,Default,,0,0,0,,Argo!
+Dialogue: 0,0:05:18.84,0:05:19.80,Default,,0,0,0,,Aqui vamos nós!
+Dialogue: 0,0:05:37.86,0:05:38.94,Default,,0,0,0,,Vamos lá, Asuna!
+Dialogue: 0,0:05:38.94,0:05:39.86,Default,,0,0,0,,Certo!
+Dialogue: 0,0:06:06.85,0:06:09.60,Default,,0,0,0,,Quer sair de cima de mim, Kibaou?
+Dialogue: 0,0:06:09.60,0:06:12.56,Default,,0,0,0,,Que tal tirar seus homens de cima de mim primeiro?
+Dialogue: 0,0:06:45.09,0:06:47.51,Default,,0,0,0,,Muito bem, para comemorar\Na chegada ao quinto andar...
+Dialogue: 0,0:06:47.89,0:06:48.89,Default,,0,0,0,,Saúde!
+Dialogue: 0,0:06:49.60,0:06:51.31,Default,,0,0,0,,Saúde!
+Dialogue: 0,0:06:52.85,0:06:53.93,Default,,0,0,0,,Saúde.
+Dialogue: 0,0:06:56.77,0:06:58.65,Default,,0,0,0,,Ei, senhorita! Me bata de novo!
+Dialogue: 0,0:06:58.65,0:07:01.82,Default,,0,0,0,,Devemos muito a você\Npor ter nos ajudado naquele ataque do chefe, Argo.
+Dialogue: 0,0:07:01.82,0:07:07.41,Default,,0,0,0,,Como não tive a chance de colocar a dica sobre a\NBoss Room possivelmente inundando em meu guia de estratégia,
+Dialogue: 0,0:07:07.41,0:07:09.83,Default,,0,0,0,,isso era o mínimo que eu poderia fazer.
+Dialogue: 0,0:07:10.08,0:07:12.91,Default,,0,0,0,,Para ser sincero, eu tinha\Nque você me recusaria.
+Dialogue: 0,0:07:12.91,0:07:16.04,Default,,0,0,0,,Não é preciso dizer que você\Nreceberão minha conta mais tarde!
+Dialogue: 0,0:07:16.33,0:07:18.29,Default,,0,0,0,,Ei, vá com calma, ok?
+Dialogue: 0,0:07:19.84,0:07:23.88,Default,,0,0,0,,Ainda assim, a limpeza do andar quatro\Nlevou cerca de uma semana, não é?
+Dialogue: 0,0:07:23.88,0:07:25.80,Default,,0,0,0,,Mais rápido do que eu pensava.
+Dialogue: 0,0:07:26.88,0:07:30.93,Default,,0,0,0,,Considerando que o primeiro andar\Nlevou um mês inteiro para ser liberado...
+Dialogue: 0,0:07:30.93,0:07:34.48,Default,,0,0,0,,Se continuarmos nesse ritmo, poderemos chegar ao\NPiso Seis antes do fim do ano, hein?
+Dialogue: 0,0:07:34.48,0:07:37.52,Default,,0,0,0,,De jeito nenhum, faltam apenas\Ndois dias restantes no ano.
+Dialogue: 0,0:07:37.52,0:07:39.90,Default,,0,0,0,,Eu não diria que isso é factível... Não?
+Dialogue: 0,0:07:42.90,0:07:45.61,Default,,0,0,0,,Uh, Asuna?
+Dialogue: 0,0:07:45.61,0:07:47.82,Default,,0,0,0,,É impossível que não tenha sido simultâneo.
+Dialogue: 0,0:07:47.82,0:07:49.62,Default,,0,0,0,,O quê? O que foi?
+Dialogue: 0,0:07:49.62,0:07:51.45,Default,,0,0,0,,Esse último bônus de ataque!
+Dialogue: 0,0:07:51.45,0:07:54.33,Default,,0,0,0,,Oh, uh... bem...
+Dialogue: 0,0:07:57.50,0:08:02.80,Default,,0,0,0,,Esse último movimento... nossas habilidades com a espada\Ncaíram ao mesmo tempo, e você sabe disso!
+Dialogue: 0,0:08:02.80,0:08:04.00,Default,,0,0,0,,R-Direita.
+Dialogue: 0,0:08:04.00,0:08:07.17,Default,,0,0,0,,E isso lhe dá o direito\Ndireito ao bônus porque...?
+Dialogue: 0,0:08:07.72,0:08:10.55,Default,,0,0,0,,Bem, isso é porque...
+Dialogue: 0,0:08:10.55,0:08:15.14,Default,,0,0,0,,Acho que minha habilidade deve ter caído apenas uma fração de\Nsegundo antes da sua. Parece certo?
+Dialogue: 0,0:08:15.14,0:08:18.10,Default,,0,0,0,,Oh, não... foi simultâneo!
+Dialogue: 0,0:08:18.77,0:08:21.81,Default,,0,0,0,,Mas o sistema reconheceu\Nminha habilidade como sendo a primeira.
+Dialogue: 0,0:08:20.15,0:08:21.81,Default,,0,0,0,,Obrigado por sua paciência.
+Dialogue: 0,0:08:21.81,0:08:22.61,Default,,0,0,0,,Ei, aqui está!
+Dialogue: 0,0:08:22.61,0:08:25.19,Default,,0,0,0,,Vamos, Argo, conte a ela!
+Dialogue: 0,0:08:25.19,0:08:28.11,Default,,0,0,0,,Não me envolva em sua briga de namorados.
+Dialogue: 0,0:08:28.11,0:08:29.28,Default,,0,0,0,,Amantes?
+Dialogue: 0,0:08:28.11,0:08:29.28,Default,,0,0,0,,O quê?
+Dialogue: 0,0:08:29.57,0:08:30.91,Default,,0,0,0,,De qualquer forma, Aachan.
+Dialogue: 0,0:08:30.91,0:08:33.08,Default,,0,0,0,,Passe-me aquele frango assado\Nfrango assado ali, pode ser?
+Dialogue: 0,0:08:33.70,0:08:35.54,Default,,0,0,0,,Com certeza.
+Dialogue: 0,0:08:38.37,0:08:41.25,Default,,0,0,0,,Mas você tem razão, estamos\Nem um ritmo alucinante.
+Dialogue: 0,0:08:41.25,0:08:42.29,Default,,0,0,0,,Para quê? Para quê?
+Dialogue: 0,0:08:42.67,0:08:44.04,Default,,0,0,0,,Essas incursões.
+Dialogue: 0,0:08:44.04,0:08:46.13,Default,,0,0,0,,Andares dois, três e quatro.
+Dialogue: 0,0:08:46.13,0:08:48.34,Default,,0,0,0,,O ritmo só está aumentando.
+Dialogue: 0,0:08:48.34,0:08:54.81,Default,,0,0,0,,Isso se deve ao ALS de Kibaou e ao DKB de Lind\NDKB de Lind tentarem descaradamente se superar.
+Dialogue: 0,0:08:54.81,0:09:00.31,Default,,0,0,0,,O que levou a bons resultados até agora,\Nmas ainda é uma abordagem muito falha.
+Dialogue: 0,0:09:01.65,0:09:05.78,Default,,0,0,0,,Eles não estavam em sincronia durante\No Boss Raid de ontem também.
+Dialogue: 0,0:09:07.15,0:09:10.99,Default,,0,0,0,,Bem, esses caras continuam a se envolver\Ntoda vez que se encontram.
+Dialogue: 0,0:09:11.61,0:09:16.70,Default,,0,0,0,,A equipe de assalto que temos hoje é\Num desdobramento do grupo de ataque de Diabel, certo?
+Dialogue: 0,0:09:16.70,0:09:20.12,Default,,0,0,0,,E como Diabel foi morto\Nna invasão do chefe do andar 1,
+Dialogue: 0,0:09:20.12,0:09:24.17,Default,,0,0,0,,Lind assumiu o controle e criou a DKB, certo?
+Dialogue: 0,0:09:24.17,0:09:28.34,Default,,0,0,0,,Mas então Kibaou começou a se irritar\Ncontra os métodos orientados para a liderança de Lind,
+Dialogue: 0,0:09:28.34,0:09:31.26,Default,,0,0,0,,e iniciou o ALS, mais voltado para o trabalho em equipe.
+Dialogue: 0,0:09:31.55,0:09:36.64,Default,,0,0,0,,Ambas as guildas se consideram\Ncomo sendo a principal equipe de assalto.
+Dialogue: 0,0:09:36.64,0:09:41.85,Default,,0,0,0,,A maneira da Lind é tentar limpar o jogo dando aos\Naos melhores jogadores a maior parte dos recursos,
+Dialogue: 0,0:09:41.85,0:09:46.23,Default,,0,0,0,,mas Kibaou está sempre falando sobre como os recursos\Ndevem ser distribuídos o máximo possível.
+Dialogue: 0,0:09:46.86,0:09:50.61,Default,,0,0,0,,Ambos estão competindo para\Nser o sucessor de Diabel,
+Dialogue: 0,0:09:50.61,0:09:53.16,Default,,0,0,0,,mas suas filosofias\Nsão exatamente o oposto.
+Dialogue: 0,0:09:53.45,0:09:59.54,Default,,0,0,0,,Mas a DKB e a ALS\Nplanejaram juntos o grupo de contagem regressiva?
+Dialogue: 0,0:09:59.54,0:10:02.25,Default,,0,0,0,,Então, por que não tentar se dar bem\Ntambém fora das invasões?
+Dialogue: 0,0:10:02.62,0:10:07.25,Default,,0,0,0,,Bem, aposto que nem mesmo essas duas guildas\Ntambém não querem brigar no Ano Novo.
+Dialogue: 0,0:10:07.25,0:10:08.13,Default,,0,0,0,,O quê?
+Dialogue: 0,0:10:09.13,0:10:11.47,Default,,0,0,0,,Espere, do que está falando?
+Dialogue: 0,0:10:13.38,0:10:16.72,Default,,0,0,0,,Ki-boy... espere um pouco... Não me diga...
+Dialogue: 0,0:10:16.72,0:10:18.81,Default,,0,0,0,,Ninguém o convidou?
+Dialogue: 0,0:10:20.10,0:10:22.85,Default,,0,0,0,,Convidou-me para o quê, exatamente?
+Dialogue: 0,0:10:22.85,0:10:23.85,Default,,0,0,0,,Agora, agora, ouça-me.
+Dialogue: 0,0:10:23.85,0:10:27.02,Default,,0,0,0,,Você não acabou de dizer que faltam\Napenas dois dias restantes no ano?
+Dialogue: 0,0:10:27.02,0:10:28.90,Default,,0,0,0,,Então, qual é o dia depois de amanhã?
+Dialogue: 0,0:10:28.90,0:10:32.40,Default,,0,0,0,,Bem, é claro. 31 de dezembro, certo?
+Dialogue: 0,0:10:33.99,0:10:36.62,Default,,0,0,0,,O quê? O que está acontecendo?
+Dialogue: 0,0:10:36.87,0:10:39.12,Default,,0,0,0,,Naquela mesma noite, véspera de Ano Novo,
+Dialogue: 0,0:10:39.12,0:10:42.54,Default,,0,0,0,,as duas principais guildas estão\Nrealizando um grupo conjunta de contagem regressiva.
+Dialogue: 0,0:10:42.79,0:10:46.33,Default,,0,0,0,,Ei... isso é novidade para mim!
+Dialogue: 0,0:10:51.84,0:10:56.09,Default,,0,0,0,,A propósito, você se importaria de me dizer\Nquem lhe contou sobre isso, Asuna?
+Dialogue: 0,0:10:56.09,0:10:58.43,Default,,0,0,0,,Era Shivata da DKB.
+Dialogue: 0,0:10:58.93,0:11:00.97,Default,,0,0,0,,Ah?
+Dialogue: 0,0:11:00.97,0:11:05.56,Default,,0,0,0,,Bem, eu recebi várias mensagens de bate-papo\Nde outras pessoas também.
+Dialogue: 0,0:11:06.02,0:11:08.02,Default,,0,0,0,,Ah?
+Dialogue: 0,0:11:08.02,0:11:10.61,Default,,0,0,0,,Não precisa ficar de mau humor!
+Dialogue: 0,0:11:10.61,0:11:12.28,Default,,0,0,0,,Quem está de mau humor?
+Dialogue: 0,0:11:12.28,0:11:15.20,Default,,0,0,0,,Os jogadores solo não são do tipo\Nde qualquer forma, não são do tipo festeiro!
+Dialogue: 0,0:11:15.20,0:11:16.03,Default,,0,0,0,,O quê?
+Dialogue: 0,0:11:16.53,0:11:21.87,Default,,0,0,0,,Oh? Então, você realmente\Nacha que está jogando sozinho?
+Dialogue: 0,0:11:23.62,0:11:25.12,Default,,0,0,0,,Hee, hee, hee!
+Dialogue: 0,0:11:25.75,0:11:27.17,Default,,0,0,0,,Qual é o seu problema?
+Dialogue: 0,0:11:27.17,0:11:30.00,Default,,0,0,0,,Não, não, não se preocupe comigo!
+Dialogue: 0,0:11:30.38,0:11:33.26,Default,,0,0,0,,Tudo bem, acho que vou me retirar.
+Dialogue: 0,0:11:33.26,0:11:36.09,Default,,0,0,0,,O quê, já? Mas a sobremesa está chegando...
+Dialogue: 0,0:11:36.09,0:11:41.97,Default,,0,0,0,,Bem, preciso reunir alguns dados sobre as\Ncidade e os itens que eles vendem aqui.
+Dialogue: 0,0:11:41.97,0:11:45.35,Default,,0,0,0,,Vejo você por aí, Aachan, Ki-boy!
+Dialogue: 0,0:11:47.56,0:11:49.31,Default,,0,0,0,,Ei, quase me esqueci. Aachan?
+Dialogue: 0,0:11:50.27,0:11:53.94,Default,,0,0,0,,Aquela coisa sobre a qual você perguntou,\Nvou precisar de um pouco mais de tempo.
+Dialogue: 0,0:11:53.94,0:11:55.99,Default,,0,0,0,,Eu lhe enviarei uma mensagem assim que souber mais, ok?
+Dialogue: 0,0:11:55.99,0:11:57.53,Default,,0,0,0,,Certo! Entendi.
+Dialogue: 0,0:12:05.16,0:12:08.54,Default,,0,0,0,,Eu lhe trouxe suas\Ntortas de Blue-Blueberry para a sobremesa.
+Dialogue: 0,0:12:12.63,0:12:15.26,Default,,0,0,0,,Duas porções serão suficientes?
+Dialogue: 0,0:12:15.26,0:12:17.97,Default,,0,0,0,,Uh, sim. Obrigado.
+Dialogue: 0,0:12:20.64,0:12:22.93,Default,,0,0,0,,Uau! Eles parecem deliciosos!
+Dialogue: 0,0:12:24.39,0:12:27.77,Default,,0,0,0,,Essas tortas são itens de menu limitado\Nque vêm com um bônus!
+Dialogue: 0,0:12:27.77,0:12:30.98,Default,,0,0,0,,Por buffs, você quer dizer efeitos de status, certo?
+Dialogue: 0,0:12:31.65,0:12:34.11,Default,,0,0,0,,Elas se parecem com suas\Ntípicas tortas de mirtilo.
+Dialogue: 0,0:12:34.78,0:12:36.61,Default,,0,0,0,,Então, que tipo de efeitos eles têm?
+Dialogue: 0,0:12:36.61,0:12:39.03,Default,,0,0,0,,Você terá que se aprofundar para descobrir!
+Dialogue: 0,0:12:51.92,0:12:54.04,Default,,0,0,0,,Mmm... delicioso!
+Dialogue: 0,0:12:56.09,0:12:58.13,Default,,0,0,0,,Esse ícone... o que é?
+Dialogue: 0,0:12:58.13,0:13:00.43,Default,,0,0,0,,Dê uma boa olhada no chão ao nosso redor.
+Dialogue: 0,0:13:02.64,0:13:03.89,Default,,0,0,0,,Oh.
+Dialogue: 0,0:13:04.18,0:13:05.72,Default,,0,0,0,,Há algo ali.
+Dialogue: 0,0:13:15.23,0:13:16.65,Default,,0,0,0,,O que é isso?
+Dialogue: 0,0:13:16.65,0:13:18.28,Default,,0,0,0,,Alguém o deixou cair?
+Dialogue: 0,0:13:21.41,0:13:23.99,Default,,0,0,0,,Não, é uma relíquia.
+Dialogue: 0,0:13:24.41,0:13:27.04,Default,,0,0,0,,O piso cinco é baseado em ruínas antigas.
+Dialogue: 0,0:13:27.04,0:13:30.00,Default,,0,0,0,,Você pode encontrar pequenas relíquias\Ncomo esta em toda parte.
+Dialogue: 0,0:13:30.00,0:13:34.17,Default,,0,0,0,,Em um ou dois dias, muitos jogadores\Ndos andares inferiores estarão aqui,
+Dialogue: 0,0:13:34.17,0:13:37.46,Default,,0,0,0,,portanto, provavelmente haverá\Num festival de caça às relíquias em toda a cidade.
+Dialogue: 0,0:13:37.46,0:13:39.21,Default,,0,0,0,,Sério?
+Dialogue: 0,0:13:41.01,0:13:41.88,Default,,0,0,0,,Ah!
+Dialogue: 0,0:13:45.76,0:13:47.06,Default,,0,0,0,,Encontrei outro!
+Dialogue: 0,0:13:47.06,0:13:49.81,Default,,0,0,0,,É melhor não ser sugado\NNão se deixe levar pela caça às relíquias aqui.
+Dialogue: 0,0:13:49.81,0:13:54.06,Default,,0,0,0,,Em jogos normais, eles mostram a você\Nonde os itens estão nos mapas,
+Dialogue: 0,0:13:54.06,0:13:56.27,Default,,0,0,0,,ou os itens se iluminarão na tela,
+Dialogue: 0,0:13:56.27,0:13:59.03,Default,,0,0,0,,mas em SAO, eles são apenas\Njogados no chão.
+Dialogue: 0,0:13:59.03,0:14:01.95,Default,,0,0,0,,O quê? Mas posso vê-los brilhando.
+Dialogue: 0,0:14:03.91,0:14:06.41,Default,,0,0,0,,Oh! Então esse fã é...
+Dialogue: 0,0:14:06.41,0:14:12.12,Default,,0,0,0,,Sim. Eles são um negócio incrível na forma de\Nmoedas caídas ou joias que brilham fracamente...
+Dialogue: 0,0:14:12.12,0:14:13.04,Default,,0,0,0,,Joias?
+Dialogue: 0,0:14:13.04,0:14:14.79,Default,,0,0,0,,S-Sim.
+Dialogue: 0,0:14:16.42,0:14:18.67,Default,,0,0,0,,Quanto tempo dura esse polimento?
+Dialogue: 0,0:14:20.80,0:14:21.76,Default,,0,0,0,,O quê?
+Dialogue: 0,0:14:23.18,0:14:26.30,Default,,0,0,0,,Eu também gostaria de caçar relíquias.
+Dialogue: 0,0:14:34.94,0:14:36.19,Default,,0,0,0,,Agora estou entendendo o que você quer dizer.
+Dialogue: 0,0:14:36.19,0:14:38.82,Default,,0,0,0,,Você tem razão, ser\Nser sugado para isso é uma má notícia!
+Dialogue: 0,0:14:38.82,0:14:44.49,Default,,0,0,0,,Certo? Durante o teste beta, alguns jogadores até\Nse tornaram especialistas em caça de relíquias na hora.
+Dialogue: 0,0:14:44.49,0:14:47.66,Default,,0,0,0,,Eles eram chamados de "caçadores de relíquias"\Ncom o maior respeito...
+Dialogue: 0,0:14:47.66,0:14:50.04,Default,,0,0,0,,Isso é para ser respeitoso?
+Dialogue: 0,0:14:50.66,0:14:54.71,Default,,0,0,0,,Mas você acha que está tudo bem\Npara nós pegarmos tantos?
+Dialogue: 0,0:14:54.71,0:14:55.96,Default,,0,0,0,,Você é muito atencioso.
+Dialogue: 0,0:14:55.96,0:14:57.42,Default,,0,0,0,,H-Huh?
+Dialogue: 0,0:14:57.42,0:14:59.96,Default,,0,0,0,,Ei... não é como se eu...
+Dialogue: 0,0:14:59.96,0:15:02.26,Default,,0,0,0,,Não precisa se sentir mal por isso, Asuna.
+Dialogue: 0,0:15:02.26,0:15:08.35,Default,,0,0,0,,De todas as relíquias espalhadas por esta cidade,\No que acabamos de reunir é apenas uma gota no balde.
+Dialogue: 0,0:15:08.35,0:15:14.02,Default,,0,0,0,,E, de qualquer forma, no que diz respeito à caça ao tesouro no jogo\Nno jogo, a caça às relíquias na cidade é apenas um bônus.
+Dialogue: 0,0:15:14.52,0:15:16.85,Default,,0,0,0,,O que isso quer dizer?
+Dialogue: 0,0:15:17.23,0:15:20.57,Default,,0,0,0,,Abaixo de nós há algumas\Ncatacumbas incrivelmente vastas.
+Dialogue: 0,0:15:20.57,0:15:22.94,Default,,0,0,0,,Em outras palavras, há uma enorme masmorra,
+Dialogue: 0,0:15:22.94,0:15:25.03,Default,,0,0,0,,e é lá que eles\Nrealizam as verdadeiras caças ao tesouro.
+Dialogue: 0,0:15:25.03,0:15:29.41,Default,,0,0,0,,Para ser honesto, as relíquias\Nque você pode pegar na cidade não valem muito.
+Dialogue: 0,0:15:29.41,0:15:30.33,Default,,0,0,0,,O quê?
+Dialogue: 0,0:15:30.58,0:15:31.45,Default,,0,0,0,,O quê?
+Dialogue: 0,0:15:31.87,0:15:33.37,Default,,0,0,0,,O quê?
+Dialogue: 0,0:15:33.37,0:15:38.13,Default,,0,0,0,,Você poderia ter me informado\Nme informado sobre isso primeiro!
+Dialogue: 0,0:15:41.25,0:15:44.55,Default,,0,0,0,,Mesmo aqui na zona de segurança,\Nesse seu gancho não é brincadeira.
+Dialogue: 0,0:15:47.26,0:15:51.64,Default,,0,0,0,,O-Okay, então, por que não continuamos caçando\Naté o efeito do bônus passar?
+Dialogue: 0,0:15:52.47,0:15:56.02,Default,,0,0,0,,A escada para as catacumbas que mencionei\Nque mencionei está bem ali.
+Dialogue: 0,0:15:56.35,0:15:58.65,Default,,0,0,0,,Há muito mais lá embaixo?
+Dialogue: 0,0:15:58.65,0:15:59.48,Default,,0,0,0,,Sim.
+Dialogue: 0,0:15:59.48,0:16:03.44,Default,,0,0,0,,Não apenas moedas, mas anéis\Ncom efeitos mágicos, e colares...
+Dialogue: 0,0:16:03.44,0:16:05.15,Default,,0,0,0,,Anéis? Colares?
+Dialogue: 0,0:16:05.15,0:16:06.03,Default,,0,0,0,,Sim.
+Dialogue: 0,0:16:06.03,0:16:09.95,Default,,0,0,0,,Vamos nos deparar com muitos Astrals, mas o\NO segundo andar do porão é como um lugar livre para todos.
+Dialogue: 0,0:16:10.28,0:16:11.99,Default,,0,0,0,,Livre para todos...
+Dialogue: 0,0:16:13.33,0:16:14.79,Default,,0,0,0,,Astrais?
+Dialogue: 0,0:16:14.79,0:16:16.50,Default,,0,0,0,,Um tipo de monstro.
+Dialogue: 0,0:16:16.50,0:16:19.04,Default,,0,0,0,,Você já ouviu falar de tipos de insetos\Ne tipos demi-humanos, certo?
+Dialogue: 0,0:16:19.04,0:16:22.13,Default,,0,0,0,,Os Astrais não têm corpos físicos\Ncorpos físicos, por isso são como fantasmas...
+Dialogue: 0,0:16:22.13,0:16:23.05,Default,,0,0,0,,Não!
+Dialogue: 0,0:16:30.59,0:16:32.51,Default,,0,0,0,,O que significa "nyet"?
+Dialogue: 0,0:16:33.14,0:16:34.89,Default,,0,0,0,,Significa "não" em russo.
+Dialogue: 0,0:16:34.89,0:16:36.39,Default,,0,0,0,,A que você está dizendo não?
+Dialogue: 0,0:16:36.39,0:16:38.48,Default,,0,0,0,,Bem, isso é...
+Dialogue: 0,0:16:39.06,0:16:40.98,Default,,0,0,0,,Quero dizer "sem spoilers"!
+Dialogue: 0,0:16:42.48,0:16:45.69,Default,,0,0,0,,Bem, acho que saber de antemão\Npara que tipo de lugar você está indo
+Dialogue: 0,0:16:45.69,0:16:48.70,Default,,0,0,0,,pode tirar um pouco da diversão. Sim.
+Dialogue: 0,0:16:49.11,0:16:51.70,Default,,0,0,0,,Certo, então você pode indicar o caminho\Ncaminho para as catacumbas, Asuna.
+Dialogue: 0,0:16:55.99,0:16:57.12,Default,,0,0,0,,É isso mesmo?
+Dialogue: 0,0:16:57.12,0:16:59.16,Default,,0,0,0,,Então, acho que farei exatamente isso.
+Dialogue: 0,0:16:59.16,0:17:00.71,Default,,0,0,0,,Você também está pronto?
+Dialogue: 0,0:17:01.21,0:17:02.58,Default,,0,0,0,,Pronto quando você estiver.
+Dialogue: 0,0:17:04.71,0:17:06.21,Default,,0,0,0,,Então, vamos lá!
+Dialogue: 0,0:17:11.13,0:17:11.97,Default,,0,0,0,,Certo!
+Dialogue: 0,0:17:20.23,0:17:21.02,Default,,0,0,0,,O quê?
+Dialogue: 0,0:17:24.82,0:17:27.11,Default,,0,0,0,,Essas pedras estão bloqueando o caminho.
+Dialogue: 0,0:17:35.66,0:17:36.87,Default,,0,0,0,,Asuna?
+Dialogue: 0,0:17:36.87,0:17:37.83,Default,,0,0,0,,O quê?
+Dialogue: 0,0:18:21.71,0:18:22.87,Default,,0,0,0,,Uau...
+Dialogue: 0,0:18:23.33,0:18:25.46,Default,,0,0,0,,Incrível!
+Dialogue: 0,0:18:26.75,0:18:28.59,Default,,0,0,0,,Não se apresse, ou você cairá!
+Dialogue: 0,0:18:28.59,0:18:30.30,Default,,0,0,0,,Eu não vou cair!
+Dialogue: 0,0:18:32.55,0:18:33.51,Default,,0,0,0,,Oh...
+Dialogue: 0,0:18:33.51,0:18:36.51,Default,,0,0,0,,Pode haver armadilhas perto\Nna parede, portanto, fique atento.
+Dialogue: 0,0:18:36.76,0:18:39.60,Default,,0,0,0,,E agora estamos fora da zona de segurança,\Nentão haverá monstros.
+Dialogue: 0,0:18:39.60,0:18:41.22,Default,,0,0,0,,Sim, eu sei.
+Dialogue: 0,0:18:41.22,0:18:44.19,Default,,0,0,0,,Os chamados Mournful\NWraiths aparecem do nada.
+Dialogue: 0,0:18:45.85,0:18:50.19,Default,,0,0,0,,Hum, acho que li sobre\Nfantasmas no folclore escocês...
+Dialogue: 0,0:18:50.19,0:18:51.99,Default,,0,0,0,,Você sabe muito bem o que faz.
+Dialogue: 0,0:18:51.99,0:18:54.86,Default,,0,0,0,,É isso mesmo. O monstro do tipo fantasma\Nque mencionei.
+Dialogue: 0,0:18:54.86,0:18:56.24,Default,,0,0,0,,Fantasma...
+Dialogue: 0,0:19:09.17,0:19:10.96,Default,,0,0,0,,N-Necessito de um pouco de luz...
+Dialogue: 0,0:19:12.38,0:19:14.55,Default,,0,0,0,,Obrigado, Kirito...
+Dialogue: 0,0:19:14.55,0:19:15.47,Default,,0,0,0,,O quê?
+Dialogue: 0,0:19:16.01,0:19:17.64,Default,,0,0,0,,Asuna! Cuidado!
+Dialogue: 0,0:19:33.40,0:19:34.57,Default,,0,0,0,,Não, não, não...
+Dialogue: 0,0:19:34.57,0:19:36.41,Default,,0,0,0,,Pare com isso, pare com isso, pare com isso!
+Dialogue: 0,0:19:38.20,0:19:39.20,Default,,0,0,0,,Asuna!
+Dialogue: 0,0:19:47.67,0:19:49.46,Default,,0,0,0,,Não!
+Dialogue: 0,0:19:53.67,0:19:55.01,Default,,0,0,0,,Asuna!
+Dialogue: 0,0:20:28.25,0:20:29.08,Default,,0,0,0,,O quê?
+Dialogue: 0,0:20:30.92,0:20:32.46,Default,,0,0,0,,Você está brincando! Ei!
+Dialogue: 0,0:20:32.46,0:20:33.21,Default,,0,0,0,,C-Venha para cá!
+Dialogue: 0,0:20:37.38,0:20:39.43,Default,,0,0,0,,Você não está escapando!
+Dialogue: 0,0:20:46.02,0:20:47.02,Default,,0,0,0,,Mais uma polegada...
+Dialogue: 0,0:20:48.02,0:20:49.27,Default,,0,0,0,,Ah!
+Dialogue: 0,0:20:54.57,0:20:55.44,Default,,0,0,0,,Ai...
+Dialogue: 0,0:21:20.30,0:21:21.26,Default,,0,0,0,,Vou enviar uma mensagem...
+Dialogue: 0,0:21:25.26,0:21:27.27,Default,,0,0,0,,Certo, eu me esqueci...
+Dialogue: 0,0:21:55.67,0:21:57.05,Default,,0,0,0,,Kirito...
+Dialogue: 0,0:22:00.84,0:22:02.18,Default,,0,0,0,,Eu vou fazer isso!
+Dialogue: 0,0:22:17.32,0:22:20.03,Default,,0,0,0,,Desculpe-me por mantê-lo afastado...
+Dialogue: 0,0:22:22.11,0:22:24.49,Default,,0,0,0,,Por favor... me ajude...
+Dialogue: 0,0:22:39.38,0:22:41.17,Default,,0,0,0,,Devo ser capaz de atraí-lo para fora agora...
+Dialogue: 0,0:22:47.47,0:22:48.31,Default,,0,0,0,,Lá vem ele!
+Dialogue: 0,0:23:17.46,0:23:19.09,Default,,0,0,0,,Não está na lista, hein?
+Dialogue: 0,0:23:31.18,0:23:32.06,Default,,0,0,0,,Não.
+Dialogue: 0,0:23:33.77,0:23:34.64,Default,,0,0,0,,Não.
+Dialogue: 0,0:23:35.27,0:23:36.77,Default,,0,0,0,,Não. Não.
+Dialogue: 0,0:23:40.32,0:23:41.73,Default,,0,0,0,,Errado novamente.
+Dialogue: 0,0:23:46.74,0:23:48.82,Default,,0,0,0,,Um maço de papel?
+Dialogue: 0,0:24:01.92,0:24:03.13,Default,,0,0,0,,O que é isso?
+Dialogue: 0,0:24:03.59,0:24:07.72,Default,,0,0,0,,22:00 horas do dia 29...\NPorão Nível 3...
+Dialogue: 0,0:24:08.18,0:24:10.10,Default,,0,0,0,,E os números entre esses colchetes?
+Dialogue: 0,0:24:10.10,0:24:11.43,Default,,0,0,0,,Coordenadas?
+Dialogue: 0,0:24:11.72,0:24:14.10,Default,,0,0,0,,Um encontro, até\Naté esta masmorra?
+Dialogue: 0,0:24:19.48,0:24:20.77,Default,,0,0,0,,Não é muito longe daqui.
+Dialogue: 0,0:24:23.69,0:24:26.74,Default,,0,0,0,,Alguém jogou isso fora porque ficou\Nbagunçado. Foi isso que aconteceu?
+Dialogue: 0,0:24:27.36,0:24:29.74,Default,,0,0,0,,E então o monstro o derrotou?
+Dialogue: 0,0:24:45.09,0:24:47.88,Default,,0,0,0,,Se alguém que se pareça\Naparecer um casal...
+Dialogue: 0,0:24:47.88,0:24:50.30,Default,,0,0,0,,Serei totalmente um observador.
+Dialogue: 0,0:25:30.09,0:25:32.76,Default,,0,0,0,,Olá, olá! Você chegou cedo hoje, hein?
+Dialogue: 0,0:25:33.09,0:25:34.97,Default,,0,0,0,,Desculpe por tê-lo feito esperar!
+Dialogue: 0,0:25:34.97,0:25:37.02,Default,,0,0,0,,Não que eu esteja esperando há tanto tempo.
+Dialogue: 0,0:25:37.02,0:25:39.35,Default,,0,0,0,,Mas chegar até aqui é muito difícil.
+Dialogue: 0,0:25:39.77,0:25:43.98,Default,,0,0,0,,E não me fale nada sobre aquelas anotações manuscritas\Nanotações manuscritas de encontros... isso sim é uma dor de cabeça!
+Dialogue: 0,0:25:43.98,0:25:46.11,Default,,0,0,0,,E essa caneta me dá um ataque!
+Dialogue: 0,0:25:46.11,0:25:48.23,Default,,0,0,0,,Por que não podemos simplesmente enviar mensagens uns aos outros?
+Dialogue: 0,0:25:48.23,0:25:50.36,Default,,0,0,0,,Isso é muito ruim.
+Dialogue: 0,0:25:50.36,0:25:53.95,Default,,0,0,0,,Estaríamos deixando um registro\Nde todas as nossas mensagens!
+Dialogue: 0,0:25:53.95,0:25:57.45,Default,,0,0,0,,Certo, por que não vamos direto ao assunto?
+Dialogue: 0,0:25:57.87,0:26:00.46,Default,,0,0,0,,Aquela coisa que discutimos... como foi?
+Dialogue: 0,0:26:00.46,0:26:02.92,Default,,0,0,0,,Sim, é possível.
+Dialogue: 0,0:26:02.92,0:26:07.34,Default,,0,0,0,,Depois de amanhã, os principais jogadores do ALS\Nvão se livrar do evento conjunto de contagem regressiva,
+Dialogue: 0,0:26:07.34,0:26:09.63,Default,,0,0,0,,e invadir o labirinto.
+Dialogue: 0,0:26:09.63,0:26:12.59,Default,,0,0,0,,Abandonar o evento e invadir o labirinto?
+Dialogue: 0,0:26:12.59,0:26:14.76,Default,,0,0,0,,Parece um plano!
+Dialogue: 0,0:26:14.76,0:26:15.60,Default,,0,0,0,,Esse homem é...
+Dialogue: 0,0:26:15.60,0:26:21.31,Default,,0,0,0,,Não será nada divertido a menos que Kibaou\Ne a Lind se enfrentarem, estou certo?
+Dialogue: 0,0:26:21.31,0:26:23.52,Default,,0,0,0,,Não faça com que pareça tão fácil.
+Dialogue: 0,0:26:23.52,0:26:27.40,Default,,0,0,0,,Foi um verdadeiro incômodo conseguir que eles realizassem\Numa reunião da guilda sem que eles percebessem.
+Dialogue: 0,0:26:27.40,0:26:29.36,Default,,0,0,0,,Ah, não precisa me contar!
+Dialogue: 0,0:26:29.36,0:26:36.07,Default,,0,0,0,,Mas o chefe não o treinou para ser o falador\Nque você é por esse mesmo motivo?
+Dialogue: 0,0:26:36.07,0:26:37.24,Default,,0,0,0,,Acho que sim.
+Dialogue: 0,0:26:37.24,0:26:42.71,Default,,0,0,0,,Quero que você acenda as chamas o suficiente\Npara que eles se matem, no entanto.
+Dialogue: 0,0:26:42.71,0:26:43.96,Default,,0,0,0,,Matar uns aos outros?
+Dialogue: 0,0:26:43.96,0:26:48.67,Default,,0,0,0,,O problema é que ainda não consigo entender\Nsobre o que está acontecendo na mente da cabeça.
+Dialogue: 0,0:26:48.67,0:26:51.80,Default,,0,0,0,,Por que ele faria isso da maneira mais difícil?
+Dialogue: 0,0:26:52.55,0:26:55.18,Default,,0,0,0,,Ainda estamos apenas semeando\Nas sementes neste momento.
+Dialogue: 0,0:26:55.18,0:26:59.47,Default,,0,0,0,,Tenha paciência, ou esse festival maravilhoso\Nacabará antes que você perceba!
+Dialogue: 0,0:26:59.47,0:27:03.27,Default,,0,0,0,,Estou ouvindo você. Temos que saborear\No processo também, certo?
+Dialogue: 0,0:27:07.86,0:27:09.65,Default,,0,0,0,,Você ouviu isso agora mesmo?
+Dialogue: 0,0:27:10.02,0:27:10.94,Default,,0,0,0,,Sim.
+Dialogue: 0,0:27:10.94,0:27:15.91,Default,,0,0,0,,Se alguém tiver ouvido nossa\Nconversa ultrassecreta, isso seria muito ruim!
+Dialogue: 0,0:27:30.71,0:27:34.92,Default,,0,0,0,,Apresse-se! Por favor, venha logo para cá!
+Dialogue: 0,0:27:41.76,0:27:43.56,Default,,0,0,0,,Opa! Que diabos é isso?
+Dialogue: 0,0:27:43.89,0:27:45.94,Default,,0,0,0,,Ei! Saia de perto de mim!
+Dialogue: 0,0:27:46.60,0:27:48.86,Default,,0,0,0,,Ei, mantenha essa saída\Nbloqueada para mim, está bem?
+Dialogue: 0,0:27:54.61,0:27:58.32,Default,,0,0,0,,Ufa, acho que foram seus\Npassos que ouvimos, não é?
+Dialogue: 0,0:27:58.32,0:28:00.91,Default,,0,0,0,,Essas coisas são muito irritantes!
+Dialogue: 0,0:28:00.91,0:28:03.54,Default,,0,0,0,,Eles também apareceram na versão beta?
+Dialogue: 0,0:28:03.54,0:28:07.42,Default,,0,0,0,,Bem, de vez em quando eles direcionavam\Nas armas que os outros jogadores deixavam cair,
+Dialogue: 0,0:28:07.71,0:28:10.17,Default,,0,0,0,,portanto, foi um ótimo negócio.
+Dialogue: 0,0:28:10.71,0:28:13.13,Default,,0,0,0,,Você poderia dar uma olhada nisso? Falando no diabo.
+Dialogue: 0,0:28:14.17,0:28:15.84,Default,,0,0,0,,Está brincando comigo?
+Dialogue: 0,0:28:15.84,0:28:18.09,Default,,0,0,0,,Esse parece ser um florete super raro!
+Dialogue: 0,0:28:19.97,0:28:22.01,Default,,0,0,0,,Ugh, é pesado!
+Dialogue: 0,0:28:22.01,0:28:23.64,Default,,0,0,0,,Deixe-me ver as especificações.
+Dialogue: 0,0:28:24.10,0:28:26.10,Default,,0,0,0,,Uau! Isso é de verdade?
+Dialogue: 0,0:28:26.10,0:28:27.98,Default,,0,0,0,,Essa coisa tem um poder de ataque insano!
+Dialogue: 0,0:28:27.98,0:28:30.36,Default,,0,0,0,,Tão letal quanto uma das\Narmas menores de duas mãos!
+Dialogue: 0,0:28:30.36,0:28:32.19,Default,,0,0,0,,O que, realmente?
+Dialogue: 0,0:28:32.19,0:28:34.53,Default,,0,0,0,,Qual é a sua reação?
+Dialogue: 0,0:28:34.53,0:28:37.15,Default,,0,0,0,,Se você não quiser, dê para mim!
+Dialogue: 0,0:28:37.15,0:28:40.66,Default,,0,0,0,,O quê? Mas você é um portador de espada curta!
+Dialogue: 0,0:28:40.66,0:28:42.37,Default,,0,0,0,,Você tem os músculos necessários para isso?
+Dialogue: 0,0:28:44.58,0:28:48.96,Default,,0,0,0,,Quem não mudaria para a\Nesgrima para usar essa espada?
+Dialogue: 0,0:28:48.96,0:28:50.25,Default,,0,0,0,,Chama-se...
+Dialogue: 0,0:28:50.25,0:28:53.38,Default,,0,0,0,,o Rapier Chilvaric,\Nhein? Não é legal?
+Dialogue: 0,0:28:53.80,0:28:57.80,Default,,0,0,0,,Olhe mais de perto, por favor? Está escrito "Chivalric"!
+Dialogue: 0,0:29:01.14,0:29:01.93,Default,,0,0,0,,O quê?
+Dialogue: 0,0:29:07.64,0:29:10.27,Default,,0,0,0,,Quando você chegou aqui?
+Dialogue: 0,0:29:10.27,0:29:14.48,Default,,0,0,0,,Agora mesmo. Eu ouvi vocês conversando.
+Dialogue: 0,0:29:14.86,0:29:16.99,Default,,0,0,0,,Bem, isso é péssimo para mim.
+Dialogue: 0,0:29:16.99,0:29:21.03,Default,,0,0,0,,Achei que nossas vozes estavam baixas o suficiente\Npara não serem ouvidas ao longo da trilha principal,
+Dialogue: 0,0:29:21.03,0:29:24.66,Default,,0,0,0,,mas acho que ficamos muito empolgados\Ncom essa arma rara!
+Dialogue: 0,0:29:26.29,0:29:28.37,Default,,0,0,0,,Sobre essa arma rara...
+Dialogue: 0,0:29:28.37,0:29:31.33,Default,,0,0,0,,Como você o chamou? Rapier de cavalaria?
+Dialogue: 0,0:29:31.87,0:29:33.17,Default,,0,0,0,,Tem certeza disso?
+Dialogue: 0,0:29:33.17,0:29:36.88,Default,,0,0,0,,Ei, que bom que você se lembra\Ndepois de ouvi-la apenas uma vez.
+Dialogue: 0,0:29:36.88,0:29:38.88,Default,,0,0,0,,De qualquer forma, o que você acha disso?
+Dialogue: 0,0:29:38.88,0:29:42.34,Default,,0,0,0,,Esse florete pertence ao meu parceiro.
+Dialogue: 0,0:29:43.59,0:29:45.76,Default,,0,0,0,,O que você está dizendo?
+Dialogue: 0,0:29:46.18,0:29:48.52,Default,,0,0,0,,É a arma de seu amigo, então a devolva?
+Dialogue: 0,0:29:48.52,0:29:52.94,Default,,0,0,0,,Não, não estou brigando\Ncom você por causa disso. Mas...
+Dialogue: 0,0:29:53.98,0:30:00.32,Default,,0,0,0,,Você poderia ter colocado as mãos nesse florete\Nem um duelo ou em um PK com meu parceiro, certo?
+Dialogue: 0,0:30:00.32,0:30:01.49,Default,,0,0,0,,Morte?
+Dialogue: 0,0:30:02.70,0:30:05.95,Default,,0,0,0,,Ah, entendi onde você quer chegar.
+Dialogue: 0,0:30:05.95,0:30:09.62,Default,,0,0,0,,Como eu tentei fazer com você\Nem um dos andares inferiores.
+Dialogue: 0,0:30:09.91,0:30:11.29,Default,,0,0,0,,É isso mesmo?
+Dialogue: 0,0:30:11.29,0:30:12.71,Default,,0,0,0,,Kirito?
+Dialogue: 0,0:30:56.42,0:31:00.38,Default,,0,0,0,,Mas que diabos?\NDe onde você veio?
+Dialogue: 0,0:31:00.38,0:31:04.38,Default,,0,0,0,,Tenho que admitir que aquele grito inesperado\Nme deu um ataque cardíaco!
+Dialogue: 0,0:31:04.38,0:31:06.97,Default,,0,0,0,,Diga-nos, há quanto tempo\Nvocê está aí?
+Dialogue: 0,0:31:08.43,0:31:10.47,Default,,0,0,0,,Ora, ora! Está guardando silêncio, não é?
+Dialogue: 0,0:31:10.47,0:31:14.27,Default,,0,0,0,,Me atacando por trás\Ncortou três segundos de minha vida,
+Dialogue: 0,0:31:14.27,0:31:17.40,Default,,0,0,0,,então você pode pelo menos\Npode me dizer isso, não pode?
+Dialogue: 0,0:31:17.40,0:31:20.82,Default,,0,0,0,,Sabe de uma coisa, estou\Nmuito irritado neste momento.
+Dialogue: 0,0:31:20.82,0:31:23.57,Default,,0,0,0,,Quero dizer, não temos tempo\Npara ficarmos conversando agora.
+Dialogue: 0,0:31:23.57,0:31:26.82,Default,,0,0,0,,Vamos ter que presumir que eles\Nouviram tudo e lidar com eles!
+Dialogue: 0,0:31:26.82,0:31:28.62,Default,,0,0,0,,Agora, agora, a pressa faz o desperdício!
+Dialogue: 0,0:31:29.03,0:31:31.87,Default,,0,0,0,,E você viu as especificações\Nas especificações do florete, não viu?
+Dialogue: 0,0:31:31.87,0:31:33.66,Default,,0,0,0,,Não me venha com essa!
+Dialogue: 0,0:31:33.66,0:31:36.33,Default,,0,0,0,,Como se eu fosse perder para uma jogadora amadora de\Njogadora amadora de PVP!
+Dialogue: 0,0:31:36.67,0:31:43.55,Default,,0,0,0,,Além disso, como posso voltar sem meu super rapier,\Nque ela roubou graças àquele golpe baixo de sorte?
+Dialogue: 0,0:32:06.74,0:32:07.57,Default,,0,0,0,,Droga!
+Dialogue: 0,0:32:07.99,0:32:10.66,Default,,0,0,0,,Trazendo aquela multidão com seu grito,\Ne depois colocando a culpa toda em mim...
+Dialogue: 0,0:32:10.66,0:32:12.95,Default,,0,0,0,,Estou lhe dizendo, você está jogando sujo!
+Dialogue: 0,0:32:14.16,0:32:16.21,Default,,0,0,0,,É isso que o está incomodando?
+Dialogue: 0,0:32:16.21,0:32:18.79,Default,,0,0,0,,Isso não parece bom!\NVamos nos retirar por enquanto!
+Dialogue: 0,0:32:18.79,0:32:21.04,Default,,0,0,0,,Huh! Parece que teremos que fazer isso.
+Dialogue: 0,0:32:59.50,0:33:01.21,Default,,0,0,0,,Bom trabalho, aguentando firme.
+Dialogue: 0,0:33:01.63,0:33:03.59,Default,,0,0,0,,Estou muito feliz por você estar em segurança.
+Dialogue: 0,0:33:05.38,0:33:08.67,Default,,0,0,0,,Eu estava com medo... Eu estava realmente com medo...
+Dialogue: 0,0:33:09.43,0:33:12.18,Default,,0,0,0,,Apareceu um monstro...\Ndepois caí em um alçapão...
+Dialogue: 0,0:33:12.18,0:33:16.47,Default,,0,0,0,,Perdi meu caminho e até perdi minha espada.
+Dialogue: 0,0:33:16.47,0:33:18.85,Default,,0,0,0,,Achei que meu número tinha acabado.
+Dialogue: 0,0:33:18.85,0:33:22.48,Default,,0,0,0,,Eu tinha certeza de que estava tudo acabado para mim,\Naqui nesta caverna escura...
+Dialogue: 0,0:33:22.94,0:33:25.27,Default,,0,0,0,,E isso me assustou. Eu estava muito, muito assustado.
+Dialogue: 0,0:33:25.27,0:33:26.86,Default,,0,0,0,,Realmente apavorado.
+Dialogue: 0,0:33:27.36,0:33:30.40,Default,,0,0,0,,Está tudo bem. Você está seguro agora.
+Dialogue: 0,0:33:31.32,0:33:33.95,Default,,0,0,0,,Se algum dia nos separarmos novamente,
+Dialogue: 0,0:33:33.95,0:33:36.49,Default,,0,0,0,,Juro que vou encontrar você,\Ne vir em seu socorro.
+Dialogue: 0,0:33:37.29,0:33:40.29,Default,,0,0,0,,Porque, Asuna, você é\Nminha parceira, certo?
+Dialogue: 0,0:33:42.75,0:33:43.63,Default,,0,0,0,,Sim.
+Dialogue: 0,0:34:06.07,0:34:10.15,Default,,0,0,0,,Obrigado, Aachan! Por me convidar\Npara me juntar a você em um banho tão incrível!
+Dialogue: 0,0:34:10.15,0:34:11.61,Default,,0,0,0,,Não mencione isso.
+Dialogue: 0,0:34:11.61,0:34:15.62,Default,,0,0,0,,Eu só queria que você soubesse o quanto\Naprecio muito tudo o que você faz, Argo.
+Dialogue: 0,0:34:15.62,0:34:19.25,Default,,0,0,0,,Oh, por favor, por favor! Não é nada, na verdade.
+Dialogue: 0,0:34:19.62,0:34:24.50,Default,,0,0,0,,De qualquer forma, ouvi dizer que depois que saí,\Nvocê encontrou alguns bandidos desagradáveis?
+Dialogue: 0,0:34:24.50,0:34:25.38,Default,,0,0,0,,Sim.
+Dialogue: 0,0:34:25.71,0:34:28.34,Default,,0,0,0,,Bem, fico feliz que você tenha sobrevivido, Aachan.
+Dialogue: 0,0:34:28.80,0:34:33.38,Default,,0,0,0,,Eu mesmo estou procurando por eles, então\NSe eu descobrir alguma coisa, eu o informarei.
+Dialogue: 0,0:34:33.88,0:34:35.30,Default,,0,0,0,,Hum, Argo?
+Dialogue: 0,0:34:35.30,0:34:37.26,Default,,0,0,0,,O que está acontecendo? O que está acontecendo?
+Dialogue: 0,0:34:37.68,0:34:41.73,Default,,0,0,0,,Você não está se colocando em muito\Nperigo, investigando pessoas como essas sozinho?
+Dialogue: 0,0:34:44.44,0:34:49.15,Default,,0,0,0,,Todas as informações que você\Nsão de grande ajuda,
+Dialogue: 0,0:34:49.15,0:34:51.32,Default,,0,0,0,,não apenas para nós, jogadores da Assault Team,
+Dialogue: 0,0:34:51.32,0:34:54.57,Default,,0,0,0,,mas também para os jogadores de nível médio\Nque deixaram a Cidade dos Inícios depois de nós.
+Dialogue: 0,0:34:55.16,0:35:00.29,Default,,0,0,0,,Se algo acontecesse com você,\Nisso interromperia toda a limpeza em seu caminho.
+Dialogue: 0,0:35:00.58,0:35:04.87,Default,,0,0,0,,É por isso que... não, deixe-me\Ndizer isso de forma clara e simples.
+Dialogue: 0,0:35:04.87,0:35:09.21,Default,,0,0,0,,Estou tão preocupado que você esteja se esforçando\Ndemais por conta própria.
+Dialogue: 0,0:35:09.80,0:35:13.13,Default,,0,0,0,,Você sabe, como seu amigo.
+Dialogue: 0,0:35:14.80,0:35:16.55,Default,,0,0,0,,Obrigado, Aachan.
+Dialogue: 0,0:35:16.93,0:35:20.81,Default,,0,0,0,,Estou muito emocionado por\Nvocê tenha se preocupado comigo.
+Dialogue: 0,0:35:20.81,0:35:26.27,Default,,0,0,0,,Mas é meu dever continuar colocando minha vida\Nem risco para obter informações.
+Dialogue: 0,0:35:26.27,0:35:29.69,Default,,0,0,0,,Você quer dizer, como um corretor de informações?
+Dialogue: 0,0:35:29.69,0:35:33.15,Default,,0,0,0,,Não, como ex-testador beta, na verdade!
+Dialogue: 0,0:35:34.03,0:35:39.99,Default,,0,0,0,,Mesmo assim, isso não significa que você deva\Nassumir uma função tão perigosa por conta própria.
+Dialogue: 0,0:35:40.28,0:35:45.66,Default,,0,0,0,,Até o Kirito sempre se junta à equipe de assalto\Nquando estamos lutando contra um chefe de andar.
+Dialogue: 0,0:35:45.66,0:35:47.00,Default,,0,0,0,,Mm...
+Dialogue: 0,0:35:47.00,0:35:53.13,Default,,0,0,0,,Você está tão preocupado porque eu não tenho\Na constituição de um lutador, certo?
+Dialogue: 0,0:35:53.13,0:35:56.09,Default,,0,0,0,,O quê? Bem...
+Dialogue: 0,0:36:05.31,0:36:07.98,Default,,0,0,0,,A prova está no pudim, como se costuma dizer.
+Dialogue: 0,0:36:07.98,0:36:10.27,Default,,0,0,0,,Ei, Aachan, que tal darmos uma chance?
+Dialogue: 0,0:36:10.27,0:36:12.27,Default,,0,0,0,,G-Dar uma chance a quê?
+Dialogue: 0,0:36:12.53,0:36:14.74,Default,,0,0,0,,O que mais? É claro que estou falando de um duelo!
+Dialogue: 0,0:36:14.74,0:36:17.36,Default,,0,0,0,,Ou isso é um exagero?\NUma luta de espadas, eu acho?
+Dialogue: 0,0:36:17.36,0:36:19.12,Default,,0,0,0,,O quê? Uma luta de espadas?
+Dialogue: 0,0:36:19.12,0:36:21.83,Default,,0,0,0,,Vamos fazer um duelo simulado!
+Dialogue: 0,0:36:21.83,0:36:23.12,Default,,0,0,0,,R - Agora?
+Dialogue: 0,0:36:23.66,0:36:24.62,Default,,0,0,0,,Claro que sim!
+Dialogue: 0,0:36:24.91,0:36:27.92,Default,,0,0,0,,Não deveríamos pelo menos\Nvestir roupas de banho para isso?
+Dialogue: 0,0:36:27.92,0:36:31.38,Default,,0,0,0,,O quê? Eu nem sequer tenho um maiô.
+Dialogue: 0,0:36:31.38,0:36:33.55,Default,,0,0,0,,Então vou fazer um para você agora mesmo!
+Dialogue: 0,0:36:35.13,0:36:39.05,Default,,0,0,0,,Hum... então, quais são as regras?
+Dialogue: 0,0:36:39.76,0:36:43.51,Default,,0,0,0,,Que tal se quem bater\No outro bem, ganha?
+Dialogue: 0,0:36:43.76,0:36:45.60,Default,,0,0,0,,Você quer dizer um golpe limpo?
+Dialogue: 0,0:36:45.60,0:36:46.89,Default,,0,0,0,,Sim, isso mesmo!
+Dialogue: 0,0:36:47.27,0:36:48.73,Default,,0,0,0,,R-Roger que...
+Dialogue: 0,0:36:51.23,0:36:53.40,Default,,0,0,0,,Ok, pronto quando você estiver!
+Dialogue: 0,0:36:53.94,0:36:55.11,Default,,0,0,0,,Aqui vai!
+Dialogue: 0,0:36:59.45,0:37:00.32,Default,,0,0,0,,Ela é rápida!
+Dialogue: 0,0:37:07.46,0:37:10.08,Default,,0,0,0,,Ei, esse é o meu Aachan!
+Dialogue: 0,0:37:10.08,0:37:12.67,Default,,0,0,0,,Eu ia ganhar com meu primeiro ataque,
+Dialogue: 0,0:37:12.67,0:37:15.92,Default,,0,0,0,,mas em vez de um "slam", foi um "thump"!
+Dialogue: 0,0:37:16.26,0:37:18.88,Default,,0,0,0,,Ok, vamos continuar essa luta de espadas!
+Dialogue: 0,0:37:41.82,0:37:43.03,Default,,0,0,0,,Eu ganhei!
+Dialogue: 0,0:38:13.27,0:38:15.65,Default,,0,0,0,,Ei, isso foi demais!
+Dialogue: 0,0:38:15.65,0:38:20.65,Default,,0,0,0,,Cada um de nós deu uma "pancada",\Nentão podemos chamar essa luta de espadas de empate?
+Dialogue: 0,0:38:20.65,0:38:23.03,Default,,0,0,0,,Sim, é claro.
+Dialogue: 0,0:38:23.45,0:38:24.41,Default,,0,0,0,,Hum...
+Dialogue: 0,0:38:24.41,0:38:28.12,Default,,0,0,0,,Quando você correu sobre a superfície da água agora há pouco,\Nisso foi algum tipo de efeito de habilidade?
+Dialogue: 0,0:38:28.12,0:38:29.79,Default,,0,0,0,,Bem, agora...
+Dialogue: 0,0:38:29.79,0:38:34.88,Default,,0,0,0,,Hmm, normalmente eu peço a\Ntaxa de informação, mas acho que está tudo bem.
+Dialogue: 0,0:38:35.25,0:38:38.38,Default,,0,0,0,,Isso não era uma habilidade. Foi\No resultado de todo o meu treinamento.
+Dialogue: 0,0:38:38.38,0:38:42.34,Default,,0,0,0,,Você nunca experimentou isso\Nquando era criança, na piscina?
+Dialogue: 0,0:38:42.34,0:38:47.39,Default,,0,0,0,,A teoria de que "você pode correr na água se colocar\Nseu pé esquerdo para frente antes que o pé direito afunde"?
+Dialogue: 0,0:38:47.39,0:38:49.97,Default,,0,0,0,,Eu acho que posso ter feito isso.
+Dialogue: 0,0:38:49.97,0:38:53.77,Default,,0,0,0,,Imaginei que isso poderia\Nser possível neste mundo.
+Dialogue: 0,0:38:53.77,0:38:57.82,Default,,0,0,0,,Desde então, tenho praticado loucamente\Ntodos os dias, em rios ou no banho.
+Dialogue: 0,0:38:57.82,0:39:01.49,Default,,0,0,0,,E finalmente consegui\Ncorrer, até quatro passos.
+Dialogue: 0,0:39:01.49,0:39:04.91,Default,,0,0,0,,Bem, acho que você poderia chamar\Numa habilidade de sistema externo.
+Dialogue: 0,0:39:05.32,0:39:11.54,Default,,0,0,0,,Você pode explorar sozinho por causa da velocidade incomum\Nque você acabou de me mostrar, certo?
+Dialogue: 0,0:39:12.04,0:39:15.46,Default,,0,0,0,,Era isso que você queria\Nme mostrar em nosso duelo.
+Dialogue: 0,0:39:15.46,0:39:19.88,Default,,0,0,0,,Bem, se você colocar as coisas dessa forma,\Nisso me faz parecer muito arrogante.
+Dialogue: 0,0:39:19.88,0:39:21.34,Default,,0,0,0,,Mas é verdade.
+Dialogue: 0,0:39:21.63,0:39:26.64,Default,,0,0,0,,Parte de mim acredita que, se for preciso,\Neu sempre seria capaz de usar minha velocidade para escapar.
+Dialogue: 0,0:39:26.64,0:39:29.43,Default,,0,0,0,,Embora, é claro, eu esteja\Nsempre observando meus passos.
+Dialogue: 0,0:39:29.89,0:39:32.47,Default,,0,0,0,,Como agradecimento por me convidar\Npara me banhar nesta luxuosa banheira,
+Dialogue: 0,0:39:32.47,0:39:34.89,Default,,0,0,0,,aqui está mais uma informação gratuita.
+Dialogue: 0,0:39:34.89,0:39:37.10,Default,,0,0,0,,O quê? O-Okay.
+Dialogue: 0,0:39:37.35,0:39:42.15,Default,,0,0,0,,Você acabou de me dizer que não havia necessidade de\Nque eu assumisse investigações arriscadas sozinho,
+Dialogue: 0,0:39:42.15,0:39:47.91,Default,,0,0,0,,já que até mesmo Ki-boy, outro ex-testador beta,\Nparticipa das incursões da equipe de assalto. Certo?
+Dialogue: 0,0:39:47.91,0:39:52.75,Default,,0,0,0,,Mas veja, eu não acho que os motivos do Ki-boy\Npara não ser um jogador solo completo
+Dialogue: 0,0:39:52.75,0:39:55.37,Default,,0,0,0,,não têm nada a ver com a minimização de riscos.
+Dialogue: 0,0:39:55.37,0:39:57.37,Default,,0,0,0,,Então... por quê?
+Dialogue: 0,0:39:57.37,0:39:58.46,Default,,0,0,0,,Só há uma resposta.
+Dialogue: 0,0:40:02.67,0:40:05.13,Default,,0,0,0,,É porque ele tem você, Aachan!
+Dialogue: 0,0:40:21.82,0:40:24.82,Default,,0,0,0,,Kirito, estou fora do banho!
+Dialogue: 0,0:40:25.11,0:40:27.03,Default,,0,0,0,,Ei, onde está o Argo?
+Dialogue: 0,0:40:27.03,0:40:28.57,Default,,0,0,0,,Ela disse que está voltando para casa por enquanto.
+Dialogue: 0,0:40:29.11,0:40:31.28,Default,,0,0,0,,Ela me disse para lhe dizer que mandou um "oi".
+Dialogue: 0,0:40:31.28,0:40:32.58,Default,,0,0,0,,Estou vendo.
+Dialogue: 0,0:40:33.29,0:40:35.12,Default,,0,0,0,,O banho que você tomou foi bem longo.
+Dialogue: 0,0:40:35.12,0:40:36.79,Default,,0,0,0,,Sobre o que vocês conversaram?
+Dialogue: 0,0:40:36.79,0:40:40.75,Default,,0,0,0,,Uh... você realmente não deve se intrometer\Nquando se trata de garotas conversando!
+Dialogue: 0,0:40:40.75,0:40:46.34,Default,,0,0,0,,O quê? Espere um pouco. Isso significa que você, dentre todas as pessoas, e\NArgo estavam realmente envolvidos no que eles chamam de "conversa de mulher"?
+Dialogue: 0,0:40:46.34,0:40:49.34,Default,,0,0,0,,Eu não acabei de lhe dizer para não se intrometer?
+Dialogue: 0,0:40:49.34,0:40:52.01,Default,,0,0,0,,E o que você quer dizer com\Ncom "você entre todas as pessoas"?
+Dialogue: 0,0:40:52.01,0:40:55.72,Default,,0,0,0,,Erro meu, ok? Mas\Nisso é tão fora do comum.
+Dialogue: 0,0:40:55.72,0:40:59.48,Default,,0,0,0,,Quero que saiba que não tivemos\Nnão nos envolvemos em nenhuma "conversa de mulher".
+Dialogue: 0,0:41:05.36,0:41:06.32,Default,,0,0,0,,Por que isso acontece?
+Dialogue: 0,0:41:06.32,0:41:07.03,Default,,0,0,0,,O quê?
+Dialogue: 0,0:41:07.65,0:41:10.07,Default,,0,0,0,,Veja como chegamos longe\Nlutando juntos...
+Dialogue: 0,0:41:10.07,0:41:13.49,Default,,0,0,0,,alto o suficiente para ver\Numa paisagem tão linda...
+Dialogue: 0,0:41:14.16,0:41:18.16,Default,,0,0,0,,Então, por que esses dois tentariam jogar\Nas duas principais guildas uma contra a outra?
+Dialogue: 0,0:41:19.62,0:41:24.13,Default,,0,0,0,,Quero dizer, isso é o mesmo que nos impedir\Nde limpar o SAO.
+Dialogue: 0,0:41:24.38,0:41:27.09,Default,,0,0,0,,Não apenas isso, mas o que\No que o Morte quis dizer?
+Dialogue: 0,0:41:27.09,0:41:31.39,Default,,0,0,0,,quando ele disse que queria que a guilda do Kibaou\Ne a guilda do Lind se matassem?
+Dialogue: 0,0:41:31.39,0:41:34.51,Default,,0,0,0,,O que isso traria de bom?
+Dialogue: 0,0:41:36.56,0:41:39.69,Default,,0,0,0,,Esses caras... esse grupo de PK-ers...
+Dialogue: 0,0:41:39.69,0:41:41.10,Default,,0,0,0,,é assim que eles são.
+Dialogue: 0,0:41:41.10,0:41:42.40,Default,,0,0,0,,PK?
+Dialogue: 0,0:41:42.73,0:41:44.19,Default,,0,0,0,,Assassinos de jogadores.
+Dialogue: 0,0:41:44.61,0:41:47.61,Default,,0,0,0,,Ou seja, os assassinos deste mundo.
+Dialogue: 0,0:41:47.94,0:41:50.28,Default,,0,0,0,,Asuna, nunca se esqueça disso.
+Dialogue: 0,0:41:50.65,0:41:52.95,Default,,0,0,0,,Nesse castelo flutuante chamado Aincrad,
+Dialogue: 0,0:41:52.95,0:41:57.29,Default,,0,0,0,,há pessoas que deixariam de limpar o jogo\Njogo para que possam se dedicar ao PK-ing.
+Dialogue: 0,0:41:57.75,0:41:59.54,Default,,0,0,0,,De jeito nenhum.
+Dialogue: 0,0:41:59.54,0:42:01.21,Default,,0,0,0,,Por que eles fariam isso?
+Dialogue: 0,0:42:01.21,0:42:05.88,Default,,0,0,0,,Matar outro jogador neste mundo realmente\Nmatar esse jogador de verdade no mundo real também!
+Dialogue: 0,0:42:05.88,0:42:09.76,Default,,0,0,0,,Sim. É exatamente\Npor isso que eles querem fazer o PK aqui.
+Dialogue: 0,0:42:09.76,0:42:13.14,Default,,0,0,0,,Na verdade, matar pessoas\Npode ser o que eles querem.
+Dialogue: 0,0:42:15.10,0:42:17.14,Default,,0,0,0,,Explicarei melhor para você em outra ocasião.
+Dialogue: 0,0:42:17.47,0:42:20.52,Default,,0,0,0,,Primeiro, precisamos encontrar uma maneira\Nde impedir a fuga da guilda de Kibaou.
+Dialogue: 0,0:42:21.10,0:42:23.65,Default,,0,0,0,,Asuna, aquilo que eu pedi para você fazer...
+Dialogue: 0,0:42:23.65,0:42:24.81,Default,,0,0,0,,Você acha que pode lidar com isso?
+Dialogue: 0,0:42:25.98,0:42:28.23,Default,,0,0,0,,Sim, acho que sim.
+Dialogue: 0,0:42:28.61,0:42:33.41,Default,,0,0,0,,Mas por que estamos convocando os organizadores\Nda festa de contagem regressiva de ambas as guildas?
+Dialogue: 0,0:42:33.41,0:42:38.58,Default,,0,0,0,,Porque se perguntarmos aos caras da ALS,\Neles podem nos fazer de desentendidos.
+Dialogue: 0,0:42:38.58,0:42:42.50,Default,,0,0,0,,Mas os organizadores podem\Nnem mesmo saibam do plano.
+Dialogue: 0,0:42:43.00,0:42:44.17,Default,,0,0,0,,Bem visto.
+Dialogue: 0,0:42:45.33,0:42:47.84,Default,,0,0,0,,É por isso que fui até o fim e\Ne perguntei a ele também.
+Dialogue: 0,0:42:47.84,0:42:50.80,Default,,0,0,0,,Todos estão ansiosos\Npara esse grupo, você sabe.
+Dialogue: 0,0:42:50.80,0:42:53.05,Default,,0,0,0,,Tente não bagunçar muito!
+Dialogue: 0,0:42:54.09,0:42:55.80,Default,,0,0,0,,o grupo, hein?
+Dialogue: 0,0:42:56.22,0:42:58.68,Default,,0,0,0,,Acho que é bom aproveitar o grupo.
+Dialogue: 0,0:42:58.68,0:43:01.18,Default,,0,0,0,,É assim que todos estão\Nse acostumaram com as invasões.
+Dialogue: 0,0:43:01.18,0:43:03.52,Default,,0,0,0,,Isso mostra que agora podemos relaxar mais.
+Dialogue: 0,0:43:03.77,0:43:07.44,Default,,0,0,0,,Na época em que estávamos no primeiro andar,\Nnunca pensei que este dia chegaria.
+Dialogue: 0,0:43:09.61,0:43:13.24,Default,,0,0,0,,Mas esse tipo de lapso\Né o que os PK-ers...
+Dialogue: 0,0:43:13.82,0:43:18.12,Default,,0,0,0,,Não... o que esse jogo está prestes a explorar...\NNão consigo me livrar dessa sensação.
+Dialogue: 0,0:43:45.60,0:43:48.81,Default,,0,0,0,,Desculpe-me por chamá-la aqui\Nem cima da hora, Shivata.
+Dialogue: 0,0:43:48.81,0:43:51.11,Default,,0,0,0,,Ah, por mim tudo bem.
+Dialogue: 0,0:43:51.11,0:43:53.19,Default,,0,0,0,,E...
+Dialogue: 0,0:44:04.45,0:44:07.50,Default,,0,0,0,,Sou o planejador de eventos da ALS,\Ne meu nome é Liten.
+Dialogue: 0,0:44:08.88,0:44:10.59,Default,,0,0,0,,Obrigado por ter vindo!
+Dialogue: 0,0:44:10.59,0:44:12.55,Default,,0,0,0,,Oh, oh, claro! Hum...
+Dialogue: 0,0:44:12.55,0:44:14.05,Default,,0,0,0,,Então...
+Dialogue: 0,0:44:19.68,0:44:21.68,Default,,0,0,0,,O que está fazendo aqui, líder?
+Dialogue: 0,0:44:21.68,0:44:23.89,Default,,0,0,0,,Sim, por que você está aqui?
+Dialogue: 0,0:44:23.89,0:44:26.23,Default,,0,0,0,,Isso é o que eu gostaria de saber!
+Dialogue: 0,0:44:26.23,0:44:28.40,Default,,0,0,0,,Esse cara me mandou uma mensagem para que eu viesse.
+Dialogue: 0,0:44:29.65,0:44:33.11,Default,,0,0,0,,Bem, eu pensei que havia apenas\Numa chance de cinquenta por cento de você aparecer.
+Dialogue: 0,0:44:34.90,0:44:37.07,Default,,0,0,0,,Então, do que se trata?
+Dialogue: 0,0:44:37.07,0:44:38.57,Default,,0,0,0,,Também estou ocupado, você sabe.
+Dialogue: 0,0:44:38.57,0:44:41.03,Default,,0,0,0,,Se você quiser algo\Nde mim, cuspa logo!
+Dialogue: 0,0:44:47.87,0:44:50.08,Default,,0,0,0,,Vou simplesmente falar sobre isso.
+Dialogue: 0,0:44:50.38,0:44:54.42,Default,,0,0,0,,Vocês da ALS estão planejando\Npular o grupo de contagem regressiva de amanhã,
+Dialogue: 0,0:44:54.42,0:44:57.42,Default,,0,0,0,,e atacar o chefe do andar sozinho.
+Dialogue: 0,0:44:57.42,0:44:58.30,Default,,0,0,0,,Estou certo?
+Dialogue: 0,0:44:59.68,0:45:00.76,Default,,0,0,0,,Do que você está falando?
+Dialogue: 0,0:45:02.55,0:45:06.64,Default,,0,0,0,,Mas que diabos? Onde você conseguiu\Nvocê conseguiu essa informação falsa?
+Dialogue: 0,0:45:06.64,0:45:08.35,Default,,0,0,0,,Não posso lhe dar minha fonte.
+Dialogue: 0,0:45:08.35,0:45:10.77,Default,,0,0,0,,Mas não foi um vazamento de dentro do ALS,
+Dialogue: 0,0:45:10.77,0:45:13.02,Default,,0,0,0,,e não o comprei de um\Num corretor de informações.
+Dialogue: 0,0:45:14.78,0:45:16.65,Default,,0,0,0,,Você só pode estar brincando comigo!
+Dialogue: 0,0:45:16.65,0:45:18.78,Default,,0,0,0,,Isso é tão estúpido! Estou indo embora.
+Dialogue: 0,0:45:18.78,0:45:19.82,Default,,0,0,0,,Líder!
+Dialogue: 0,0:45:19.82,0:45:25.37,Default,,0,0,0,,Meu capitão me contou esta manhã\Nsobre o plano de cancelar o evento.
+Dialogue: 0,0:45:25.37,0:45:28.16,Default,,0,0,0,,Ei, você! Do que está falando?
+Dialogue: 0,0:45:28.16,0:45:32.71,Default,,0,0,0,,Tudo o que meu capitão me disse foi que isso foi\Ndecidido repentinamente na reunião de líderes.
+Dialogue: 0,0:45:32.71,0:45:37.21,Default,,0,0,0,,Mas não quero sabotar o grupo\Nna qual trabalhamos tão arduamente!
+Dialogue: 0,0:45:37.21,0:45:41.13,Default,,0,0,0,,Não quando se trata do primeiro evento conjunto\Nevento conjunto entre a ALS e a DKB.
+Dialogue: 0,0:45:41.13,0:45:42.34,Default,,0,0,0,,Licchan...
+Dialogue: 0,0:45:42.34,0:45:44.89,Default,,0,0,0,,Desculpe-me por tê-la mantido no escuro, Shiva.
+Dialogue: 0,0:45:46.10,0:45:47.85,Default,,0,0,0,,Por favor, diga-me, líder.
+Dialogue: 0,0:45:48.39,0:45:51.02,Default,,0,0,0,,O que o levou a decidir fazer essa mudança?
+Dialogue: 0,0:45:52.77,0:45:57.69,Default,,0,0,0,,Como alguém que está sempre fazendo o que quer,\Nsei que não cabe a mim dizer isso...
+Dialogue: 0,0:45:57.69,0:46:01.15,Default,,0,0,0,,mas você está indo longe demais com essa mudança.
+Dialogue: 0,0:46:01.15,0:46:05.03,Default,,0,0,0,,Se for até o fim, você nunca\Nconsertará o rompimento entre ALS e DKB.
+Dialogue: 0,0:46:05.03,0:46:10.16,Default,,0,0,0,,Nós realmente não queremos que haja mais\Nsangue ruim entre as duas principais guildas.
+Dialogue: 0,0:46:14.75,0:46:16.88,Default,,0,0,0,,Ah, que se dane, vou lhe contar, então.
+Dialogue: 0,0:46:16.88,0:46:20.01,Default,,0,0,0,,Um dos meus rapazes conseguiu\Ninformações muito interessantes.
+Dialogue: 0,0:46:20.01,0:46:21.34,Default,,0,0,0,,Intel?
+Dialogue: 0,0:46:21.34,0:46:25.68,Default,,0,0,0,,Que o chefe do andar cinco\Nvai deixar cair um item alucinante!
+Dialogue: 0,0:46:25.68,0:46:29.10,Default,,0,0,0,,Sendo um ex-testador beta,\Nvocê saberia o que é, certo?
+Dialogue: 0,0:46:29.10,0:46:30.39,Default,,0,0,0,,Deixe-me pensar...
+Dialogue: 0,0:46:30.39,0:46:32.69,Default,,0,0,0,,O chefe do Andar 5, certo?
+Dialogue: 0,0:46:33.40,0:46:34.81,Default,,0,0,0,,Uh...
+Dialogue: 0,0:46:35.31,0:46:38.19,Default,,0,0,0,,Acho que pode ter sido\Numa arma do tipo lança.
+Dialogue: 0,0:46:38.19,0:46:39.61,Default,,0,0,0,,Não, espere um pouco.
+Dialogue: 0,0:46:41.57,0:46:43.45,Default,,0,0,0,,Sim, é isso mesmo!
+Dialogue: 0,0:46:43.45,0:46:45.37,Default,,0,0,0,,Você tem razão. Essa é uma loucura!
+Dialogue: 0,0:46:45.37,0:46:46.41,Default,,0,0,0,,O que você quer dizer com isso?
+Dialogue: 0,0:46:46.95,0:46:48.41,Default,,0,0,0,,É uma bandeira da guilda.
+Dialogue: 0,0:46:48.41,0:46:50.83,Default,,0,0,0,,Uma bandeira de guilda? Então, é uma bandeira?
+Dialogue: 0,0:46:51.29,0:46:53.12,Default,,0,0,0,,O que há de tão insano nisso?
+Dialogue: 0,0:46:53.67,0:46:58.09,Default,,0,0,0,,Bem, como arma, é apenas uma lança longa\Ncom o menor poder de ataque.
+Dialogue: 0,0:46:58.09,0:46:59.46,Default,,0,0,0,,Você o toma assim e...
+Dialogue: 0,0:47:00.55,0:47:03.22,Default,,0,0,0,,Quando o jogador que estiver empunhando\Nele a enfia no chão,
+Dialogue: 0,0:47:03.22,0:47:07.43,Default,,0,0,0,,ele aumenta todas as estatísticas de\Nseus companheiros de guilda próximos.
+Dialogue: 0,0:47:08.56,0:47:09.81,Default,,0,0,0,,Sério?
+Dialogue: 0,0:47:09.81,0:47:12.93,Default,,0,0,0,,O jogador que está segurando a bandeira pode se mover?
+Dialogue: 0,0:47:12.93,0:47:15.15,Default,,0,0,0,,E quanto tempo dura esse bônus?
+Dialogue: 0,0:47:15.15,0:47:16.69,Default,,0,0,0,,Há limites para o número de pessoas?
+Dialogue: 0,0:47:16.69,0:47:18.73,Default,,0,0,0,,O jogador não pode se mover enquanto ela estiver ativada,
+Dialogue: 0,0:47:18.73,0:47:21.57,Default,,0,0,0,,mas os efeitos duram enquanto\Nenquanto a bandeira estiver na posição vertical.
+Dialogue: 0,0:47:21.57,0:47:24.99,Default,,0,0,0,,E não há limites,\Ndesde que você esteja na mesma guilda.
+Dialogue: 0,0:47:24.99,0:47:26.28,Default,,0,0,0,,Está falando sério?
+Dialogue: 0,0:47:26.28,0:47:29.79,Default,,0,0,0,,Então, isso realmente vai\Nmexer com a cabeça dos jogadores.
+Dialogue: 0,0:47:29.79,0:47:35.17,Default,,0,0,0,,Se a ALS adquirir essa bandeira, isso fará com que\No moral de todos os membros da ALS vai disparar,
+Dialogue: 0,0:47:35.17,0:47:37.46,Default,,0,0,0,,enquanto os caras da DKB\Nficarão totalmente desmoralizados.
+Dialogue: 0,0:47:37.88,0:47:40.17,Default,,0,0,0,,E se isso acontecer, DKB...
+Dialogue: 0,0:47:40.17,0:47:44.30,Default,,0,0,0,,Ele pode perder o comando de seus próprios integrantes,\Ne a guilda inteira poderia entrar em colapso.
+Dialogue: 0,0:47:44.30,0:47:49.47,Default,,0,0,0,,Então, a ALS está se apressando para derrotar o chefe\Npara ter certeza de que conseguirá o item, não é?
+Dialogue: 0,0:47:49.47,0:47:52.60,Default,,0,0,0,,As duas guildas não podem simplesmente\Ncompartilhá-lo entre elas?
+Dialogue: 0,0:47:52.60,0:47:57.94,Default,,0,0,0,,Você está se adiantando à DKB porque não quer que eles\Nque eles fujam com a bandeira da guilda primeiro, certo?
+Dialogue: 0,0:47:58.31,0:48:01.23,Default,,0,0,0,,Então, por que não falar com a Lind\Ne usá-lo de forma justa?
+Dialogue: 0,0:48:01.23,0:48:05.03,Default,,0,0,0,,Algumas pessoas tinham essa\Nmesma opinião. Mas a questão é...
+Dialogue: 0,0:48:05.86,0:48:08.28,Default,,0,0,0,,A bandeira da guilda não pode ser compartilhada.
+Dialogue: 0,0:48:09.28,0:48:14.16,Default,,0,0,0,,Você só pode registrar o nome de uma guilda,\Ne ele não pode ser alterado posteriormente.
+Dialogue: 0,0:48:14.50,0:48:18.42,Default,,0,0,0,,Ele só pode pertencer ao ALS\Nou DKB, apenas um ou outro.
+Dialogue: 0,0:48:18.42,0:48:19.63,Default,,0,0,0,,Não...
+Dialogue: 0,0:48:19.63,0:48:23.59,Default,,0,0,0,,Agora que sei o\No placar, tenho que me manifestar.
+Dialogue: 0,0:48:23.59,0:48:25.22,Default,,0,0,0,,O que você vai fazer?
+Dialogue: 0,0:48:25.22,0:48:29.51,Default,,0,0,0,,Sabe de uma coisa? Vou denunciar isso à Lind,\Ne impedir que vocês nos enganem.
+Dialogue: 0,0:48:29.51,0:48:32.97,Default,,0,0,0,,Você sabe que isso poderia desencadear\Numa guerra entre nossas guildas?
+Dialogue: 0,0:48:32.97,0:48:34.56,Default,,0,0,0,,Isso pode ser verdade, mas...
+Dialogue: 0,0:48:34.56,0:48:35.98,Default,,0,0,0,,Espere, Shiva!
+Dialogue: 0,0:48:35.98,0:48:37.02,Default,,0,0,0,,Licchan...
+Dialogue: 0,0:48:39.86,0:48:40.86,Default,,0,0,0,,Líder...
+Dialogue: 0,0:48:42.82,0:48:48.16,Default,,0,0,0,,Os únicos que insistiram nessa estratégia\Nforam aqueles cujos medos foram alimentados, certo?
+Dialogue: 0,0:48:48.16,0:48:53.29,Default,,0,0,0,,Mas para evitar que a guilda se fragmentasse,\Nvocê não teve escolha a não ser concordar com isso.
+Dialogue: 0,0:48:53.29,0:48:56.87,Default,,0,0,0,,Sei que você mesmo,\Nnão tem nenhum desejo de usar essa tática.
+Dialogue: 0,0:48:56.87,0:48:58.50,Default,,0,0,0,,Não é verdade?
+Dialogue: 0,0:48:58.50,0:48:59.71,Default,,0,0,0,,Não há...
+Dialogue: 0,0:48:59.71,0:49:02.09,Default,,0,0,0,,Não há outra maneira de lidar com isso?
+Dialogue: 0,0:49:02.09,0:49:03.34,Default,,0,0,0,,Liten...
+Dialogue: 0,0:49:21.02,0:49:22.98,Default,,0,0,0,,Vamos derrubar esse chefe nós mesmos.
+Dialogue: 0,0:49:25.94,0:49:30.24,Default,,0,0,0,,Se nós mesmos reivindicarmos essa bandeira, poderemos evitar\Na luta pelo poder entre as duas grandes guildas.
+Dialogue: 0,0:49:33.03,0:49:35.08,Default,,0,0,0,,Sim... essa é a única maneira de sair dessa situação.
+Dialogue: 0,0:49:35.08,0:49:37.45,Default,,0,0,0,,Shiva, eu...
+Dialogue: 0,0:49:37.83,0:49:41.88,Default,,0,0,0,,Eu sei. Obrigado por ser\Nhonesto comigo, Licchan.
+Dialogue: 0,0:49:43.13,0:49:44.59,Default,,0,0,0,,Eu também lhe darei uma mão.
+Dialogue: 0,0:49:45.63,0:49:46.80,Default,,0,0,0,,Eu também.
+Dialogue: 0,0:49:46.80,0:49:47.80,Default,,0,0,0,,Eu também farei isso!
+Dialogue: 0,0:49:47.80,0:49:51.22,Default,,0,0,0,,Tem certeza? Isso significaria\Ntrair sua própria guilda.
+Dialogue: 0,0:49:51.47,0:49:55.43,Default,,0,0,0,,Se quisermos terminar o jogo,\Nprecisamos tanto da DKB quanto da ALS.
+Dialogue: 0,0:49:55.68,0:49:58.52,Default,,0,0,0,,Não podemos minar\Nessa aliança ainda mais.
+Dialogue: 0,0:49:58.52,0:50:00.73,Default,,0,0,0,,Mesmo que eu acabe traindo minha própria guilda,
+Dialogue: 0,0:50:00.73,0:50:05.90,Default,,0,0,0,,Não posso trair os milhares de jogadores\Nnos andares inferiores esperando para serem liberados.
+Dialogue: 0,0:50:08.11,0:50:09.28,Default,,0,0,0,,Obrigado.
+Dialogue: 0,0:50:10.28,0:50:12.20,Default,,0,0,0,,Já terminamos?
+Dialogue: 0,0:50:14.24,0:50:16.58,Default,,0,0,0,,Isso é tudo o que você precisa de mim, certo?
+Dialogue: 0,0:50:16.91,0:50:18.87,Default,,0,0,0,,Portanto, estarei voltando agora.
+Dialogue: 0,0:50:18.87,0:50:20.79,Default,,0,0,0,,Estou atolado de trabalho, ok?
+Dialogue: 0,0:50:21.12,0:50:26.67,Default,,0,0,0,,Como tenho que sair amanhã\Ncom minha equipe A às 6:00 p.m.
+Dialogue: 0,0:50:26.67,0:50:31.13,Default,,0,0,0,,Se, por algum motivo, chegarmos atrasados e alguém\Nchegar antes de nós, será um inferno.
+Dialogue: 0,0:50:32.22,0:50:36.68,Default,,0,0,0,,Você faz o que quiser,\Njá que não faz parte do meu time principal.
+Dialogue: 0,0:50:36.93,0:50:41.23,Default,,0,0,0,,Entendeu? Estamos saindo\Nàs 6:00 p.m. amanhã.
+Dialogue: 0,0:50:41.23,0:50:43.27,Default,,0,0,0,,Certifique-se de ficar fora do nosso caminho.
+Dialogue: 0,0:50:43.27,0:50:44.60,Default,,0,0,0,,Líder...
+Dialogue: 0,0:50:46.98,0:50:49.19,Default,,0,0,0,,Obrigado, Kibaou.
+Dialogue: 0,0:50:51.95,0:50:54.82,Default,,0,0,0,,Ele não pagou pela comida.
+Dialogue: 0,0:50:59.87,0:51:03.54,Default,,0,0,0,,Portanto, Kibaou e sua equipe partirão\Nàs 18:00 horas de amanhã.
+Dialogue: 0,0:51:03.54,0:51:06.42,Default,,0,0,0,,Se nos apressarmos, podemos chegar antes deles, não é?
+Dialogue: 0,0:51:06.42,0:51:10.59,Default,,0,0,0,,Mas não podemos enfrentar de forma realista\Num Floor Boss com apenas quatro pessoas.
+Dialogue: 0,0:51:10.59,0:51:12.63,Default,,0,0,0,,Precisaremos de mais companheiros, não é mesmo?
+Dialogue: 0,0:51:13.01,0:51:15.14,Default,,0,0,0,,Camaradas, hein?
+Dialogue: 0,0:51:15.14,0:51:19.06,Default,,0,0,0,,Dadas as circunstâncias, eu\Nnão posso pedir a nenhum de meus companheiros de guilda.
+Dialogue: 0,0:51:19.06,0:51:20.60,Default,,0,0,0,,Eu também não.
+Dialogue: 0,0:51:20.60,0:51:25.27,Default,,0,0,0,,Acho que os únicos que podem se juntar a nós são\Nos quatro do grupo de Agil, mais Argo, talvez?
+Dialogue: 0,0:51:25.27,0:51:27.11,Default,,0,0,0,,O que ainda nos leva a apenas nove.
+Dialogue: 0,0:51:27.11,0:51:29.90,Default,,0,0,0,,Com ou sem dúvidas, nós\Nteremos que tentar, não é mesmo?
+Dialogue: 0,0:51:31.74,0:51:32.94,Default,,0,0,0,,Ei! Espere um pouco.
+Dialogue: 0,0:51:38.49,0:51:41.29,Default,,0,0,0,,Acabei de pensar em mais uma pessoa.
+Dialogue: 0,0:52:21.62,0:52:23.29,Default,,0,0,0,,Faz tempo que não nos vemos.
+Dialogue: 0,0:52:31.17,0:52:32.63,Default,,0,0,0,,Asuna.
+Dialogue: 0,0:52:32.63,0:52:34.46,Default,,0,0,0,,O que está fazendo aqui?
+Dialogue: 0,0:52:35.13,0:52:39.09,Default,,0,0,0,,Um corretor de informações me disse\NEu sabia onde você estava, Mito.
+Dialogue: 0,0:52:39.43,0:52:42.22,Default,,0,0,0,,Que você está coletando\Nmateriais nessa floresta.
+Dialogue: 0,0:52:42.22,0:52:44.60,Default,,0,0,0,,Deve ser um excelente corretor de informações.
+Dialogue: 0,0:52:45.35,0:52:47.48,Default,,0,0,0,,A invasão do chefe do andar um\Nfoi a última vez que nos encontramos.
+Dialogue: 0,0:52:48.06,0:52:48.94,Default,,0,0,0,,Desde então...
+Dialogue: 0,0:52:51.40,0:52:56.36,Default,,0,0,0,,Nunca o vi nas incursões na linha de frente. Será que\Nfoi porque estava coletando materiais?
+Dialogue: 0,0:52:58.20,0:53:00.28,Default,,0,0,0,,Eu realmente não chamaria\Nde coleta de materiais.
+Dialogue: 0,0:53:00.91,0:53:04.08,Default,,0,0,0,,Quero abrir uma loja\Nde artigos artesanais.
+Dialogue: 0,0:53:04.41,0:53:07.12,Default,,0,0,0,,É para isso que estou me preparando agora.
+Dialogue: 0,0:53:07.12,0:53:08.29,Default,,0,0,0,,Uma loja?
+Dialogue: 0,0:53:08.29,0:53:11.13,Default,,0,0,0,,Estou pensando talvez em uma\Nloja de equipamentos de proteção.
+Dialogue: 0,0:53:11.13,0:53:14.21,Default,,0,0,0,,Os itens raros são poucos\Ne distantes entre si nos andares inferiores,
+Dialogue: 0,0:53:14.21,0:53:16.51,Default,,0,0,0,,mas podem ser usados como aprimoramentos.
+Dialogue: 0,0:53:16.51,0:53:17.67,Default,,0,0,0,,Estou vendo.
+Dialogue: 0,0:53:21.01,0:53:23.47,Default,,0,0,0,,Então, em vez de apenas bens práticos,
+Dialogue: 0,0:53:23.47,0:53:26.77,Default,,0,0,0,,seria ótimo se você pudesse comprar\Nroupas elegantes e bugigangas também.
+Dialogue: 0,0:53:26.77,0:53:30.15,Default,,0,0,0,,Então, eu me tornaria um cliente assíduo!
+Dialogue: 0,0:53:30.15,0:53:31.60,Default,,0,0,0,,Ouça, Asuna.
+Dialogue: 0,0:53:31.60,0:53:32.31,Default,,0,0,0,,O quê?
+Dialogue: 0,0:53:33.69,0:53:38.74,Default,,0,0,0,,Um membro da Equipe de Assalto como você não\Nviria me ver sem um motivo, certo?
+Dialogue: 0,0:53:39.82,0:53:40.66,Default,,0,0,0,,Sim.
+Dialogue: 0,0:53:41.32,0:53:43.28,Default,,0,0,0,,Na verdade, vim lhe pedir um favor.
+Dialogue: 0,0:53:46.08,0:53:50.79,Default,,0,0,0,,Amanhã, estarei enfrentando\No chefe do Floor Five com um pequeno grupo.
+Dialogue: 0,0:53:53.75,0:54:00.05,Default,,0,0,0,,É complicado, mas temos que derrotar o\Nchefe antes que as duas grandes guildas consigam chegar até ele.
+Dialogue: 0,0:54:00.05,0:54:03.60,Default,,0,0,0,,Portanto, no momento, estamos procurando ajuda\Nde alguns jogadores fortes.
+Dialogue: 0,0:54:04.93,0:54:07.97,Default,,0,0,0,,Para ajudar a limpar este jogo... por favor!
+Dialogue: 0,0:54:07.97,0:54:09.35,Default,,0,0,0,,Me ajude, Mito!
+Dialogue: 0,0:54:11.85,0:54:13.56,Default,,0,0,0,,Isso parece sério.
+Dialogue: 0,0:54:13.56,0:54:14.27,Default,,0,0,0,,E é.
+Dialogue: 0,0:54:14.27,0:54:15.82,Default,,0,0,0,,O suficiente para influenciar a Equipe de Assalto...
+Dialogue: 0,0:54:16.27,0:54:20.86,Default,,0,0,0,,o futuro desse jogo mortal, SAO.
+Dialogue: 0,0:54:24.32,0:54:27.04,Default,,0,0,0,,Asuna, eu não vou com você.
+Dialogue: 0,0:54:27.04,0:54:28.20,Default,,0,0,0,,Mas por quê?
+Dialogue: 0,0:54:28.66,0:54:32.12,Default,,0,0,0,,Eu me coloquei à frente da\Nque prometi manter em segurança.
+Dialogue: 0,0:54:34.13,0:54:36.29,Default,,0,0,0,,Esse é o tipo de jogador que eu sou.
+Dialogue: 0,0:54:36.63,0:54:40.63,Default,,0,0,0,,Quem pode dizer que eu não fugiria de novo,\Nabandonando meus companheiros?
+Dialogue: 0,0:54:40.63,0:54:41.80,Default,,0,0,0,,Mito!
+Dialogue: 0,0:54:43.30,0:54:46.93,Default,,0,0,0,,Desculpe-me. Eu não quero nunca mais\Ntrair ninguém novamente.
+Dialogue: 0,0:54:49.10,0:54:51.81,Default,,0,0,0,,Asuna, estou feliz por ter\Nter visto você hoje.
+Dialogue: 0,0:54:52.19,0:54:55.15,Default,,0,0,0,,Mas não posso ajudá-lo.
+Dialogue: 0,0:54:55.65,0:54:56.61,Default,,0,0,0,,Adeus.
+Dialogue: 0,0:55:00.90,0:55:03.45,Default,,0,0,0,,Mito! Duelo comigo!
+Dialogue: 0,0:55:05.74,0:55:09.62,Default,,0,0,0,,Não sou mais um novato que depende de\Nvocê para me proteger!
+Dialogue: 0,0:55:10.58,0:55:12.58,Default,,0,0,0,,Por favor. Por favor!
+Dialogue: 0,0:55:13.62,0:55:17.00,Default,,0,0,0,,Se eu vencer esse duelo, venha\Ne atacar o chefe comigo.
+Dialogue: 0,0:55:26.51,0:55:29.18,Default,,0,0,0,,E você irá embora quando isso acabar, certo?
+Dialogue: 0,0:55:57.08,0:55:58.38,Default,,0,0,0,,Qual é o problema, Mito?
+Dialogue: 0,0:55:59.59,0:56:01.30,Default,,0,0,0,,Você não vai me atacar?
+Dialogue: 0,0:56:02.26,0:56:05.38,Default,,0,0,0,,Você está muito concentrada na defesa, Asuna.
+Dialogue: 0,0:56:05.38,0:56:06.34,Default,,0,0,0,,Você precisa atacar mais.
+Dialogue: 0,0:57:07.78,0:57:12.24,Default,,0,0,0,,Ei! Sra. Tozawa, esse é o jogo\Nque estava jogando no fliperama?
+Dialogue: 0,0:57:12.24,0:57:13.20,Default,,0,0,0,,Sim.
+Dialogue: 0,0:57:13.20,0:57:16.00,Default,,0,0,0,,Eles acabaram de lançar a versão para smartphone.
+Dialogue: 0,0:57:16.91,0:57:18.96,Default,,0,0,0,,Durante todo esse tempo, eu me arrependi disso.
+Dialogue: 0,0:57:18.96,0:57:21.63,Default,,0,0,0,,Eu também gostaria de vê-lo lá.
+Dialogue: 0,0:57:21.63,0:57:24.88,Default,,0,0,0,,Se eu não tivesse dito\Naquelas palavras naquele dia...
+Dialogue: 0,0:57:25.55,0:57:29.72,Default,,0,0,0,,Eu nunca teria deixado você\Npreso neste mundo cruel.
+Dialogue: 0,0:57:30.72,0:57:32.47,Default,,0,0,0,,Mas eu...
+Dialogue: 0,0:58:06.59,0:58:09.55,Default,,0,0,0,,Ei, posso brincar com você?
+Dialogue: 0,0:58:23.48,0:58:26.02,Default,,0,0,0,,Você está mais forte do que nunca, Mito.
+Dialogue: 0,0:58:26.02,0:58:28.48,Default,,0,0,0,,Veja como você está forte agora também.
+Dialogue: 0,0:58:29.28,0:58:31.61,Default,,0,0,0,,Eu estava jogando para me manter, sabe.
+Dialogue: 0,0:58:32.91,0:58:35.41,Default,,0,0,0,,Foi isso que me fez jogar para sempre, também.
+Dialogue: 0,0:58:35.41,0:58:39.79,Default,,0,0,0,,Agora que você me derrotou, não posso mais\Npedir para você participar do Boss Raid.
+Dialogue: 0,0:58:40.20,0:58:41.50,Default,,0,0,0,,Mas Mito, você é...
+Dialogue: 0,0:58:45.67,0:58:46.96,Default,,0,0,0,,Bem, vejo você por aí, então.
+Dialogue: 0,0:58:46.96,0:58:47.96,Default,,0,0,0,,Asuna?
+Dialogue: 0,0:58:51.34,0:58:52.38,Default,,0,0,0,,Aqui.
+Dialogue: 0,0:58:55.09,0:58:58.35,Default,,0,0,0,,Para compensar a que\Nque eu quebrei em nosso duelo.
+Dialogue: 0,0:58:58.35,0:59:00.60,Default,,0,0,0,,Espere, você fez isso?
+Dialogue: 0,0:59:00.60,0:59:04.56,Default,,0,0,0,,É apenas um design simples,\Njá que minhas habilidades de criação ainda são baixas.
+Dialogue: 0,0:59:04.56,0:59:06.94,Default,,0,0,0,,Não, não, é lindo!
+Dialogue: 0,0:59:07.36,0:59:10.11,Default,,0,0,0,,É resistente a venenos paralisantes\Ne a venenos prejudiciais.
+Dialogue: 0,0:59:10.11,0:59:11.69,Default,,0,0,0,,É, não é?
+Dialogue: 0,0:59:14.66,0:59:17.62,Default,,0,0,0,,Nunca mais poderei lutar na linha de frente.
+Dialogue: 0,0:59:24.71,0:59:26.13,Default,,0,0,0,,Obrigado por hoje.
+Dialogue: 0,0:59:26.92,0:59:28.50,Default,,0,0,0,,Foi ótimo ver você.
+Dialogue: 0,0:59:42.06,0:59:42.89,Default,,0,0,0,,Quem está lá?
+Dialogue: 0,0:59:46.52,0:59:47.52,Default,,0,0,0,,Erro meu.
+Dialogue: 0,0:59:47.98,0:59:50.48,Default,,0,0,0,,Eu não estava planejando me esconder, certo?
+Dialogue: 0,0:59:54.99,0:59:57.62,Default,,0,0,0,,Asuna se atrasou para voltar,\Npor isso vim ver como ela estava.
+Dialogue: 0,0:59:57.62,1:00:01.04,Default,,0,0,0,,Depois, vocês começaram a duelar.\NEntão, eu não pude me mostrar.
+Dialogue: 0,1:00:01.04,1:00:02.41,Default,,0,0,0,,Acho que me lembro de você.
+Dialogue: 0,1:00:02.66,1:00:05.83,Default,,0,0,0,,Ah, claro. Eu nunca\Nme apresentei, não é?
+Dialogue: 0,1:00:05.83,1:00:08.79,Default,,0,0,0,,Eu sou o Kirito. Asuna é minha parceira.
+Dialogue: 0,1:00:08.79,1:00:11.30,Default,,0,0,0,,Eu sei. Já que você é tão famoso.
+Dialogue: 0,1:00:11.59,1:00:14.13,Default,,0,0,0,,Então, você estava se escondendo\Nporque estava preocupado com a Asuna?
+Dialogue: 0,1:00:14.13,1:00:16.18,Default,,0,0,0,,Muito superprotetor?
+Dialogue: 0,1:00:16.18,1:00:18.18,Default,,0,0,0,,Acho que não posso negar isso.
+Dialogue: 0,1:00:18.68,1:00:21.72,Default,,0,0,0,,E agora você vai me pedir\Npara participar de seu Boss Raid também?
+Dialogue: 0,1:00:21.72,1:00:23.60,Default,,0,0,0,,Não, não é para isso que estou aqui.
+Dialogue: 0,1:00:23.60,1:00:26.27,Default,,0,0,0,,O problema é que...
+Dialogue: 0,1:00:26.27,1:00:28.65,Default,,0,0,0,,Você também está vendo isso, não está?
+Dialogue: 0,1:00:29.06,1:00:30.69,Default,,0,0,0,,Se Asuna continuar crescendo como jogadora,
+Dialogue: 0,1:00:30.69,1:00:32.86,Default,,0,0,0,,ela poderia se tornar muito, muito mais forte.
+Dialogue: 0,1:00:32.86,1:00:35.36,Default,,0,0,0,,Mais forte do que qualquer um na Equipe de Assalto.
+Dialogue: 0,1:00:35.36,1:00:36.74,Default,,0,0,0,,E se ela fizer isso?
+Dialogue: 0,1:00:36.74,1:00:38.66,Default,,0,0,0,,Eventualmente, ela entrará em uma guilda importante,
+Dialogue: 0,1:00:38.66,1:00:42.58,Default,,0,0,0,,e torne-se um dos melhores jogadores, liderando\Npara vencer esse jogo mortal.
+Dialogue: 0,1:00:42.58,1:00:46.83,Default,,0,0,0,,Mas antes que isso aconteça, ela precisa\Ndo apoio de todos os que lhe são próximos.
+Dialogue: 0,1:00:46.83,1:00:48.83,Default,,0,0,0,,Como você e eu.
+Dialogue: 0,1:00:49.17,1:00:54.21,Default,,0,0,0,,Esse florete da Asuna foi feito\Ncom a Wind Fleuret que você deu a ela.
+Dialogue: 0,1:00:55.55,1:00:59.80,Default,,0,0,0,,Mesmo que as especificações do Wind Fleuret\Ntenham sido maximizadas no terceiro andar,
+Dialogue: 0,1:00:59.80,1:01:02.60,Default,,0,0,0,,Asuna ainda não pensaria em desistir.
+Dialogue: 0,1:01:02.60,1:01:08.90,Default,,0,0,0,,Então, sugeri que ela convertesse o Fleuret\Nem ouro e forjasse uma nova arma com ele.
+Dialogue: 0,1:01:08.90,1:01:10.77,Default,,0,0,0,,E foi assim que esse florete foi feito.
+Dialogue: 0,1:01:10.77,1:01:13.27,Default,,0,0,0,,Por que ela se daria a esse trabalho?
+Dialogue: 0,1:01:13.69,1:01:17.15,Default,,0,0,0,,Acho que a espada que você deu a ela\Ndeve ter sido muito importante para ela.
+Dialogue: 0,1:01:20.66,1:01:25.29,Default,,0,0,0,,Asuna ainda o vê como um\Namigo insubstituível, mesmo agora.
+Dialogue: 0,1:01:31.38,1:01:32.38,Default,,0,0,0,,Vejo você.
+Dialogue: 0,1:01:32.38,1:01:33.54,Default,,0,0,0,,I...
+Dialogue: 0,1:01:39.55,1:01:40.93,Default,,0,0,0,,Eu não gosto de você.
+Dialogue: 0,1:02:06.91,1:02:07.83,Default,,0,0,0,,O que é isso?
+Dialogue: 0,1:02:08.79,1:02:09.71,Default,,0,0,0,,Nada.
+Dialogue: 0,1:02:11.54,1:02:15.50,Default,,0,0,0,,Somos apenas nove nessa Incursão do Chefe,\Nmas nossas chances de vencer são boas,
+Dialogue: 0,1:02:15.50,1:02:17.92,Default,,0,0,0,,e não tenho intenção de\Nde dar uma única baixa.
+Dialogue: 0,1:02:18.17,1:02:20.68,Default,,0,0,0,,Para evitar o colapso\Nda Equipe de Assalto,
+Dialogue: 0,1:02:20.68,1:02:25.85,Default,,0,0,0,,e para garantir o sucesso da festa de contagem regressiva\Nque Shivata e Liten planejaram para nós...
+Dialogue: 0,1:02:25.85,1:02:27.77,Default,,0,0,0,,vamos dar tudo o que temos!
+Dialogue: 0,1:02:27.77,1:02:30.77,Default,,0,0,0,,Muito bem! Vamos fazer isso!
+Dialogue: 0,1:02:30.77,1:02:32.14,Default,,0,0,0,,-Sim! -Sim!
+Dialogue: 0,1:03:05.47,1:03:09.39,Default,,0,0,0,,E aí. Então há outro\Ncorredor no topo dos degraus?
+Dialogue: 0,1:03:09.39,1:03:12.02,Default,,0,0,0,,Ou é a própria sala do chefe?
+Dialogue: 0,1:03:12.02,1:03:14.06,Default,,0,0,0,,Era diferente no teste beta?
+Dialogue: 0,1:03:14.06,1:03:14.98,Default,,0,0,0,,Sim.
+Dialogue: 0,1:03:15.44,1:03:17.23,Default,,0,0,0,,Antes, havia uma porta aqui,
+Dialogue: 0,1:03:17.23,1:03:19.07,Default,,0,0,0,,e quando você a abriu,\Nvocê estava na sala do chefe.
+Dialogue: 0,1:03:19.07,1:03:22.70,Default,,0,0,0,,É mesmo? Que tipo de\Nchefe de andar era, então?
+Dialogue: 0,1:03:22.70,1:03:26.53,Default,,0,0,0,,De acordo com seu perfil, ele é um golem gigantesco\Ngolem gigantesco, o Guardião das Ruínas.
+Dialogue: 0,1:03:26.53,1:03:30.41,Default,,0,0,0,,Mas até agora, todos os chefes de andar\Nforam modificados de alguma forma,
+Dialogue: 0,1:03:30.41,1:03:33.33,Default,,0,0,0,,mesmo que tenham a mesma aparência\Nmesmo que tenham a mesma aparência que tinham na versão beta.
+Dialogue: 0,1:03:33.33,1:03:36.29,Default,,0,0,0,,Ah, certo, você sabe\Nalguma coisa sobre esse chefe?
+Dialogue: 0,1:03:36.79,1:03:40.84,Default,,0,0,0,,Desculpe-me, você se esqueceu\Nque eu sou um corretor de informações?
+Dialogue: 0,1:03:40.84,1:03:42.17,Default,,0,0,0,,S-Lesculpe!
+Dialogue: 0,1:03:42.88,1:03:44.72,Default,,0,0,0,,Hmph. Obrigado por sua...
+Dialogue: 0,1:03:44.72,1:03:48.14,Default,,0,0,0,,Normalmente, é isso que eu diria,\Nmas este é gratuito.
+Dialogue: 0,1:03:49.39,1:03:52.06,Default,,0,0,0,,Então, resumindo a história, parece que\Nque o chefe ainda é um golem,
+Dialogue: 0,1:03:52.06,1:03:54.31,Default,,0,0,0,,assim como ele estava na versão beta.
+Dialogue: 0,1:03:54.31,1:03:57.52,Default,,0,0,0,,Há uma crista em sua testa,\Ne esse é seu ponto fraco.
+Dialogue: 0,1:03:57.52,1:03:59.82,Default,,0,0,0,,Parece mágico, não é?
+Dialogue: 0,1:04:00.23,1:04:04.78,Default,,0,0,0,,Sim. E não é de se admirar que, nesse\No chefe do quinto andar é especialmente temível.
+Dialogue: 0,1:04:05.49,1:04:07.70,Default,,0,0,0,,Bem, acho que vocês terão que\Nter que ver por si mesmos.
+Dialogue: 0,1:04:07.70,1:04:13.00,Default,,0,0,0,,R-Direita. Certo, vamos supor\Nque a sala do chefe estará bem ali.
+Dialogue: 0,1:04:13.00,1:04:14.87,Default,,0,0,0,,Vou dar uma olhada.
+Dialogue: 0,1:04:15.33,1:04:18.92,Default,,0,0,0,,Espere um pouco. Deixe-me cuidar disso.
+Dialogue: 0,1:04:24.13,1:04:25.72,Default,,0,0,0,,Pode ser isso...
+Dialogue: 0,1:04:25.72,1:04:30.68,Default,,0,0,0,,essas escadas são uma armadilha, que se ergue\Ndo chão para bloquear a entrada.
+Dialogue: 0,1:04:30.68,1:04:34.89,Default,,0,0,0,,Mesmo que isso aconteça,\Nposso escapar antes que ela se feche completamente.
+Dialogue: 0,1:04:35.48,1:04:37.31,Default,,0,0,0,,Então vamos juntos.
+Dialogue: 0,1:04:37.31,1:04:38.69,Default,,0,0,0,,Isso não é negociável!
+Dialogue: 0,1:04:38.69,1:04:40.27,Default,,0,0,0,,O quê?
+Dialogue: 0,1:04:43.15,1:04:44.40,Default,,0,0,0,,Acho que posso viver com isso.
+Dialogue: 0,1:04:45.03,1:04:48.07,Default,,0,0,0,,Pessoal, desculpem perguntar isso,\Nmas vocês poderiam vigiar as escadas?
+Dialogue: 0,1:04:48.07,1:04:48.91,Default,,0,0,0,,Com certeza.
+Dialogue: 0,1:04:49.62,1:04:50.99,Default,,0,0,0,,Kirito?
+Dialogue: 0,1:04:53.16,1:04:54.08,Default,,0,0,0,,Tenha cuidado.
+Dialogue: 0,1:04:55.25,1:04:58.12,Default,,0,0,0,,Não se preocupe. Eu voltarei em breve.
+Dialogue: 0,1:05:10.55,1:05:13.68,Default,,0,0,0,,Espere... esta é a sala do chefe, certo?
+Dialogue: 0,1:05:14.10,1:05:16.27,Default,,0,0,0,,Não há nenhuma escada\Nque levam ao andar seis.
+Dialogue: 0,1:05:16.27,1:05:18.73,Default,,0,0,0,,Também não há sinais de que o chefe esteja se materializando.
+Dialogue: 0,1:05:18.73,1:05:19.85,Default,,0,0,0,,Ei!
+Dialogue: 0,1:05:19.85,1:05:23.48,Default,,0,0,0,,Provavelmente teremos que nos mover\Num pouco, ou ele não vai estourar.
+Dialogue: 0,1:05:33.83,1:05:34.70,Default,,0,0,0,,Argo!
+Dialogue: 0,1:05:37.04,1:05:38.41,Default,,0,0,0,,Uau!
+Dialogue: 0,1:05:38.41,1:05:39.50,Default,,0,0,0,,Argo!
+Dialogue: 0,1:05:39.50,1:05:40.54,Default,,0,0,0,,Fique longe!
+Dialogue: 0,1:06:11.66,1:06:12.78,Default,,0,0,0,,Nossa, acho que tive um ataque cardíaco!
+Dialogue: 0,1:06:12.78,1:06:14.66,Default,,0,0,0,,De volta para você!
+Dialogue: 0,1:06:17.70,1:06:18.91,Default,,0,0,0,,Vamos voltar por enquanto.
+Dialogue: 0,1:06:18.91,1:06:20.25,Default,,0,0,0,,Ki-boy! Lá embaixo!
+Dialogue: 0,1:06:28.09,1:06:29.13,Default,,0,0,0,,Para baixo, para baixo!
+Dialogue: 0,1:06:34.55,1:06:36.89,Default,,0,0,0,,Mas que diabos? Ele tem dois deles?
+Dialogue: 0,1:06:36.89,1:06:39.85,Default,,0,0,0,,Acho que ter dois braços é bastante comum!
+Dialogue: 0,1:06:54.16,1:06:55.62,Default,,0,0,0,,Ei, Ki-boy!
+Dialogue: 0,1:06:55.62,1:06:58.33,Default,,0,0,0,,Se ele tem dois braços,\Nentão ele também deve ter...
+Dialogue: 0,1:06:58.33,1:06:59.45,Default,,0,0,0,,Aqui vai!
+Dialogue: 0,1:07:08.17,1:07:09.13,Default,,0,0,0,,Não se mexa!
+Dialogue: 0,1:07:09.13,1:07:10.09,Default,,0,0,0,,O quê?
+Dialogue: 0,1:07:10.71,1:07:12.55,Default,,0,0,0,,Agora olhe para baixo lentamente.
+Dialogue: 0,1:07:12.55,1:07:14.34,Default,,0,0,0,,O-Okay.
+Dialogue: 0,1:07:14.34,1:07:20.06,Default,,0,0,0,,Seus pés e os meus pés estão próximos, mas\Nnão estão tocando as linhas azuis nem por um fio de cabelo, certo?
+Dialogue: 0,1:07:20.06,1:07:23.60,Default,,0,0,0,,Isso significa que, se pisarmos nessas linhas,\Nele exibirá esses círculos-alvo,
+Dialogue: 0,1:07:23.60,1:07:26.69,Default,,0,0,0,,e é aí que esses braços e pernas\Nbraços e pernas gigantes atacarão?
+Dialogue: 0,1:07:26.69,1:07:28.07,Default,,0,0,0,,Acho que é assim que funciona.
+Dialogue: 0,1:07:28.07,1:07:30.94,Default,,0,0,0,,Portanto, se nos movermos sem\Npisar nessas linhas...
+Dialogue: 0,1:07:30.94,1:07:32.11,Default,,0,0,0,,Ei, você está bem?
+Dialogue: 0,1:07:34.24,1:07:37.03,Default,,0,0,0,,Oh, pensei que o chefe\Njá teria aparecido.
+Dialogue: 0,1:07:37.28,1:07:39.37,Default,,0,0,0,,Evadir! Evasão!
+Dialogue: 0,1:07:53.55,1:07:54.51,Default,,0,0,0,,Asuna!
+Dialogue: 0,1:08:29.67,1:08:33.67,Default,,0,0,0,,Ele não é nada parecido com o\Nbeta... nem mesmo seu nome!
+Dialogue: 0,1:08:44.14,1:08:46.10,Default,,0,0,0,,Epa... epa!
+Dialogue: 0,1:08:46.10,1:08:49.52,Default,,0,0,0,,Parece que esse chefe ataca\Ncom esses braços e pernas que você acabou de ver!
+Dialogue: 0,1:08:49.52,1:08:52.86,Default,,0,0,0,,Se você pisar nas linhas azuis no chão,\Nserão exibidos círculos de alvos!
+Dialogue: 0,1:08:52.86,1:08:56.74,Default,,0,0,0,,Vou pisar em um de propósito,\Nportanto, prepare suas habilidades com a espada para atacar!
+Dialogue: 0,1:08:56.74,1:08:57.70,Default,,0,0,0,,Com certeza!
+Dialogue: 0,1:08:57.70,1:08:58.70,Default,,0,0,0,,Entendido!
+Dialogue: 0,1:09:01.49,1:09:02.45,Default,,0,0,0,,Aqui vai!
+Dialogue: 0,1:09:28.23,1:09:30.35,Default,,0,0,0,,Essa crista é seu ponto fraco!
+Dialogue: 0,1:09:30.35,1:09:32.48,Default,,0,0,0,,Quando tiver sua chance, vá em frente!
+Dialogue: 0,1:09:32.48,1:09:33.73,Default,,0,0,0,,Certo!
+Dialogue: 0,1:09:43.24,1:09:44.20,Default,,0,0,0,,Vamos lá!
+Dialogue: 0,1:09:48.00,1:09:49.71,Default,,0,0,0,,O terceiro!
+Dialogue: 0,1:09:54.09,1:09:56.76,Default,,0,0,0,,Pessoal! Olhem para as paredes!
+Dialogue: 0,1:10:06.77,1:10:09.98,Default,,0,0,0,,Ei... definitivamente não é um\Npadrão que já vimos antes!
+Dialogue: 0,1:10:09.98,1:10:11.98,Default,,0,0,0,,É seguro manter essa incursão do chefe em andamento?
+Dialogue: 0,1:10:11.98,1:10:14.86,Default,,0,0,0,,Você tem razão, estou tendo\Num mau pressentimento sobre isso.
+Dialogue: 0,1:10:15.27,1:10:17.94,Default,,0,0,0,,Todos! Abriguem-se lá embaixo!
+Dialogue: 0,1:10:17.94,1:10:18.90,Default,,0,0,0,,Entendido!
+Dialogue: 0,1:10:18.90,1:10:20.57,Default,,0,0,0,,Todos, por aqui!
+Dialogue: 0,1:10:23.37,1:10:24.28,Default,,0,0,0,,Ki-boy!
+Dialogue: 0,1:10:28.83,1:10:31.37,Default,,0,0,0,,Seu rosto... desapareceu?
+Dialogue: 0,1:10:31.96,1:10:33.29,Default,,0,0,0,,Shiva!
+Dialogue: 0,1:10:43.84,1:10:45.51,Default,,0,0,0,,A escada...
+Dialogue: 0,1:10:45.76,1:10:47.60,Default,,0,0,0,,acabou de se transformar em sua boca!
+Dialogue: 0,1:10:50.27,1:10:53.48,Default,,0,0,0,,Agil! Tente atacar aquele\Ncrista em sua testa!
+Dialogue: 0,1:10:53.48,1:10:56.90,Default,,0,0,0,,Isso não é bom. Ele não tem crista!
+Dialogue: 0,1:10:57.65,1:10:58.57,Default,,0,0,0,,Espere!
+Dialogue: 0,1:10:59.40,1:11:02.86,Default,,0,0,0,,Agora entendi. O chefe é a própria sala.
+Dialogue: 0,1:11:05.24,1:11:08.62,Default,,0,0,0,,Aposto que ele moveu o brasão\Nem algum lugar dentro desta sala.
+Dialogue: 0,1:11:08.95,1:11:11.83,Default,,0,0,0,,Não poderemos salvá-los a menos que a destruamos!
+Dialogue: 0,1:11:16.50,1:11:19.96,Default,,0,0,0,,Droga... para onde foi\Naquela crista na testa?
+Dialogue: 0,1:11:21.97,1:11:25.72,Default,,0,0,0,,Mesmo que toda essa sala seja\No golem... me dê um tempo!
+Dialogue: 0,1:11:26.22,1:11:29.18,Default,,0,0,0,,Isso é muito ruim. Se não fizermos\Nfizermos algo, o Aachan vai...
+Dialogue: 0,1:11:46.07,1:11:48.74,Default,,0,0,0,,Asuna!
+Dialogue: 0,1:12:03.47,1:12:04.38,Default,,0,0,0,,O que é isso?
+Dialogue: 0,1:12:04.38,1:12:06.55,Default,,0,0,0,,Há mais alguém?
+Dialogue: 0,1:12:15.44,1:12:16.65,Default,,0,0,0,,Mito?
+Dialogue: 0,1:12:20.44,1:12:21.48,Default,,0,0,0,,Corra!
+Dialogue: 0,1:12:21.82,1:12:23.19,Default,,0,0,0,,Agora é a sua chance!
+Dialogue: 0,1:12:29.78,1:12:30.74,Default,,0,0,0,,Pessoal!
+Dialogue: 0,1:12:30.74,1:12:33.37,Default,,0,0,0,,Quero que você pise nas linhas\Npara destacar os braços e as pernas!
+Dialogue: 0,1:12:33.37,1:12:36.46,Default,,0,0,0,,Seu ponto fraco, o brasão\Ntem que estar lá em algum lugar!
+Dialogue: 0,1:12:36.46,1:12:37.33,Default,,0,0,0,,Entendido!
+Dialogue: 0,1:12:37.33,1:12:38.38,Default,,0,0,0,,Vamos tentar!
+Dialogue: 0,1:12:38.38,1:12:39.84,Default,,0,0,0,,Entendi!
+Dialogue: 0,1:12:43.51,1:12:44.76,Default,,0,0,0,,Mito.
+Dialogue: 0,1:12:45.22,1:12:49.72,Default,,0,0,0,,Ainda não consigo me perdoar.
+Dialogue: 0,1:12:50.22,1:12:51.56,Default,,0,0,0,,Mas...
+Dialogue: 0,1:12:51.93,1:12:55.77,Default,,0,0,0,,Não vou deixar você morrer, Asuna, não importa o que aconteça!
+Dialogue: 0,1:12:57.23,1:12:58.81,Default,,0,0,0,,Não é bom! Não está em nenhum lugar à vista!
+Dialogue: 0,1:12:59.23,1:13:00.23,Default,,0,0,0,,Só mais uma vez!
+Dialogue: 0,1:13:06.11,1:13:08.24,Default,,0,0,0,,Encontrei!
+Dialogue: 0,1:13:10.57,1:13:11.74,Default,,0,0,0,,Você não está escapando!
+Dialogue: 0,1:13:14.20,1:13:15.66,Default,,0,0,0,,Droga! Alcance-o.
+Dialogue: 0,1:13:15.66,1:13:17.54,Default,,0,0,0,,Abaixe sua cabeça, garoto Ki-boy!
+Dialogue: 0,1:13:26.63,1:13:28.55,Default,,0,0,0,,Acerte o alvo!
+Dialogue: 0,1:13:38.27,1:13:39.39,Default,,0,0,0,,Asuna!
+Dialogue: 0,1:13:48.28,1:13:49.45,Default,,0,0,0,,Algum dano?
+Dialogue: 0,1:13:50.16,1:13:51.11,Default,,0,0,0,,Não.
+Dialogue: 0,1:13:52.41,1:13:53.58,Default,,0,0,0,,Estou bem.
+Dialogue: 0,1:13:53.99,1:13:55.87,Default,,0,0,0,,É isso mesmo? Graças a Deus.
+Dialogue: 0,1:13:59.58,1:14:02.42,Default,,0,0,0,,Então... você ainda pode lutar, certo?
+Dialogue: 0,1:14:04.00,1:14:05.00,Default,,0,0,0,,Claro que posso!
+Dialogue: 0,1:14:05.80,1:14:07.96,Default,,0,0,0,,Vamos lá, vamos derrubar esse chefe!
+Dialogue: 0,1:14:08.59,1:14:09.47,Default,,0,0,0,,Muito bem!
+Dialogue: 0,1:14:18.10,1:14:19.06,Default,,0,0,0,,Então é isso.
+Dialogue: 0,1:14:19.52,1:14:21.06,Default,,0,0,0,,Qual é a diferença em relação à versão beta?
+Dialogue: 0,1:14:21.06,1:14:24.94,Default,,0,0,0,,Seu ponto fraco estava fixado na testa\Nno beta, mas agora o padrão mudou,
+Dialogue: 0,1:14:24.94,1:14:27.36,Default,,0,0,0,,e parece que está\Nse movendo por todo o seu corpo!
+Dialogue: 0,1:14:38.37,1:14:39.58,Default,,0,0,0,,Aqui está!
+Dialogue: 0,1:14:39.58,1:14:41.92,Default,,0,0,0,,Não faça isso! É muito longe!
+Dialogue: 0,1:14:57.06,1:14:59.35,Default,,0,0,0,,Uau, um ataque de acompanhamento?
+Dialogue: 0,1:14:59.35,1:15:00.60,Default,,0,0,0,,Talvez ela consiga!
+Dialogue: 0,1:15:01.98,1:15:05.69,Default,,0,0,0,,Vocês, ao meu sinal, pisam nas linhas.
+Dialogue: 0,1:15:06.23,1:15:09.69,Default,,0,0,0,,Assim que avistarmos\Na crista, eu a esmagarei!
+Dialogue: 0,1:15:09.69,1:15:10.40,Default,,0,0,0,,Certo!
+Dialogue: 0,1:15:10.40,1:15:11.53,Default,,0,0,0,,Contamos com você!
+Dialogue: 0,1:15:17.28,1:15:18.66,Default,,0,0,0,,Aqui! Pegue-o!
+Dialogue: 0,1:15:42.52,1:15:43.98,Default,,0,0,0,,O que está acontecendo?
+Dialogue: 0,1:15:48.69,1:15:50.86,Default,,0,0,0,,F-Retornar!
+Dialogue: 0,1:16:02.00,1:16:03.33,Default,,0,0,0,,Essa coisa é enorme.
+Dialogue: 0,1:16:03.58,1:16:07.96,Default,,0,0,0,,Sim. Mas agora podemos usar\Nnossa estratégia inicial para combatê-la!
+Dialogue: 0,1:16:07.96,1:16:10.92,Default,,0,0,0,,Vamos destruir essa barra final!
+Dialogue: 0,1:16:10.92,1:16:12.38,Default,,0,0,0,,Certo!
+Dialogue: 0,1:16:36.82,1:16:38.99,Default,,0,0,0,,Agora! Carregue!
+Dialogue: 0,1:16:41.66,1:16:42.95,Default,,0,0,0,,Troque!
+Dialogue: 0,1:17:08.56,1:17:11.48,Default,,0,0,0,,Ki-boy, parece que essa\Ncrista não está mais se movendo!
+Dialogue: 0,1:17:11.48,1:17:12.36,Default,,0,0,0,,Entendi!
+Dialogue: 0,1:17:12.36,1:17:13.40,Default,,0,0,0,,Asuna!
+Dialogue: 0,1:17:13.40,1:17:14.23,Default,,0,0,0,,Certo!
+Dialogue: 0,1:17:31.42,1:17:32.79,Default,,0,0,0,,O brasão em sua testa!
+Dialogue: 0,1:17:32.79,1:17:34.13,Default,,0,0,0,,Certo!
+Dialogue: 0,1:17:42.89,1:17:43.76,Default,,0,0,0,,Mito!
+Dialogue: 0,1:17:54.44,1:17:56.03,Default,,0,0,0,,Asuna! Kirito!
+Dialogue: 0,1:17:56.03,1:17:57.90,Default,,0,0,0,,Acabe com ele em grande estilo!
+Dialogue: 0,1:17:57.90,1:17:59.03,Default,,0,0,0,,É isso mesmo!
+Dialogue: 0,1:17:59.99,1:18:01.95,Default,,0,0,0,,Não se importe se eu fizer isso!
+Dialogue: 0,1:18:17.96,1:18:18.84,Default,,0,0,0,,Está tudo acabado...
+Dialogue: 0,1:18:19.97,1:18:23.22,Default,,0,0,0,,para você agora!
+Dialogue: 0,1:19:08.39,1:19:09.52,Default,,0,0,0,,Conseguimos!
+Dialogue: 0,1:19:10.48,1:19:13.44,Default,,0,0,0,,Conseguimos!
+Dialogue: 0,1:19:16.77,1:19:18.11,Default,,0,0,0,,H-Hey!
+Dialogue: 0,1:19:20.94,1:19:22.90,Default,,0,0,0,,Bom trabalho, Kirito.
+Dialogue: 0,1:19:23.20,1:19:24.11,Default,,0,0,0,,Sim!
+Dialogue: 0,1:19:33.83,1:19:36.79,Default,,0,0,0,,Quem tiver recebido a bandeira da Guilda\Nnos avise, ok?
+Dialogue: 0,1:19:39.17,1:19:40.67,Default,,0,0,0,,Olá. Alguém?
+Dialogue: 0,1:19:40.67,1:19:41.88,Default,,0,0,0,,Kirito?
+Dialogue: 0,1:19:44.68,1:19:46.34,Default,,0,0,0,,Ele também não está em meu inventário!
+Dialogue: 0,1:20:02.94,1:20:04.86,Default,,0,0,0,,É essa a bandeira de que você está falando?
+Dialogue: 0,1:20:10.54,1:20:11.49,Default,,0,0,0,,É isso aí!
+Dialogue: 0,1:20:18.92,1:20:19.88,Default,,0,0,0,,Tem certeza?
+Dialogue: 0,1:20:19.88,1:20:22.59,Default,,0,0,0,,Sim. Não tenho nenhuma utilidade para ele.
+Dialogue: 0,1:20:23.38,1:20:24.30,Default,,0,0,0,,Mito.
+Dialogue: 0,1:20:25.84,1:20:26.76,Default,,0,0,0,,Asuna.
+Dialogue: 0,1:20:27.64,1:20:29.72,Default,,0,0,0,,Obrigado por sua presença.
+Dialogue: 0,1:20:32.27,1:20:33.18,Default,,0,0,0,,Com certeza.
+Dialogue: 0,1:20:35.98,1:20:38.31,Default,,0,0,0,,Vamos fazer isso de novo algum dia?
+Dialogue: 0,1:20:38.31,1:20:41.32,Default,,0,0,0,,Sim... Quero dizer, isso é\Nrealmente tentador e tudo mais.
+Dialogue: 0,1:20:41.61,1:20:44.19,Default,,0,0,0,,Mas o fato é que eu também quero encontrá-la.
+Dialogue: 0,1:20:48.20,1:20:49.87,Default,,0,0,0,,Meu modo de vida neste mundo.
+Dialogue: 0,1:20:53.33,1:20:54.45,Default,,0,0,0,,Mito.
+Dialogue: 0,1:21:00.09,1:21:04.21,Default,,0,0,0,,Quero dizer, essa é uma das\Nmelhores partes deste mundo, certo?
+Dialogue: 0,1:21:04.21,1:21:05.63,Default,,0,0,0,,Você está certo sobre isso.
+Dialogue: 0,1:21:06.01,1:21:08.34,Default,,0,0,0,,Sei que você é capaz, Mito. Com certeza!
+Dialogue: 0,1:21:09.30,1:21:10.39,Default,,0,0,0,,Sim.
+Dialogue: 0,1:21:10.39,1:21:11.81,Default,,0,0,0,,Vou me esforçar para isso.
+Dialogue: 0,1:21:12.39,1:21:13.56,Default,,0,0,0,,Trabalhe realmente nisso.
+Dialogue: 0,1:21:15.02,1:21:16.81,Default,,0,0,0,,Portanto, me convoque novamente quando eu o fizer.
+Dialogue: 0,1:21:16.81,1:21:19.98,Default,,0,0,0,,Eu irei correndo até você,\NAsuna, não importa o que aconteça.
+Dialogue: 0,1:21:19.98,1:21:22.73,Default,,0,0,0,,Certo! Estou realmente contando com você.
+Dialogue: 0,1:21:25.40,1:21:27.24,Default,,0,0,0,,Ok, até mais.
+Dialogue: 0,1:21:27.78,1:21:29.74,Default,,0,0,0,,Até mais, Mito.
+Dialogue: 0,1:21:36.04,1:21:38.87,Default,,0,0,0,,O ALS deve estar chegando a qualquer momento.
+Dialogue: 0,1:21:41.25,1:21:44.59,Default,,0,0,0,,Tem certeza de que não queria ir para o\Npara o andar seis com os outros?
+Dialogue: 0,1:21:44.59,1:21:46.76,Default,,0,0,0,,Não é que eu esteja com pressa.
+Dialogue: 0,1:21:46.76,1:21:48.22,Default,,0,0,0,,Fico feliz em lhe fazer companhia.
+Dialogue: 0,1:21:48.22,1:21:49.22,Default,,0,0,0,,O quê?
+Dialogue: 0,1:21:49.22,1:21:50.43,Default,,0,0,0,,Obrigado.
+Dialogue: 0,1:22:08.07,1:22:09.70,Default,,0,0,0,,Huh.
+Dialogue: 0,1:22:09.95,1:22:11.53,Default,,0,0,0,,Em todo caso...
+Dialogue: 0,1:22:11.53,1:22:13.99,Default,,0,0,0,,já que eu sei de fato\Nque você derrotou o chefe,
+Dialogue: 0,1:22:13.99,1:22:15.29,Default,,0,0,0,,Acho que posso dizer: "Bom trabalho!"
+Dialogue: 0,1:22:15.29,1:22:18.00,Default,,0,0,0,,Blackie, o que você fez\Ncom o item do chefe?
+Dialogue: 0,1:22:18.00,1:22:20.58,Default,,0,0,0,,Sim, sabemos que ele deixou cair a bandeira da guilda!
+Dialogue: 0,1:22:20.58,1:22:23.79,Default,,0,0,0,,Sim. Caiu, sim.
+Dialogue: 0,1:22:25.21,1:22:26.88,Default,,0,0,0,,Essa é a bandeira.
+Dialogue: 0,1:22:26.88,1:22:29.30,Default,,0,0,0,,É chamada de Bandeira do Valor.
+Dialogue: 0,1:22:29.30,1:22:31.76,Default,,0,0,0,,Você provavelmente já conhece seu efeito.
+Dialogue: 0,1:22:31.76,1:22:36.56,Default,,0,0,0,,Huh! Deixe isso para o renomado beater em pessoa.\NVocê fez questão de colocar as mãos nele, hein?
+Dialogue: 0,1:22:36.56,1:22:40.85,Default,,0,0,0,,Então, o que você vai fazer com ele?\NVocê nem mesmo está em uma guilda.
+Dialogue: 0,1:22:41.81,1:22:45.82,Default,,0,0,0,,Não é que eu não tenha intenção\Nde entregar isso a vocês.
+Dialogue: 0,1:22:45.82,1:22:47.65,Default,,0,0,0,,Mas somente sob duas condições.
+Dialogue: 0,1:22:47.65,1:22:49.28,Default,,0,0,0,,Você disse condições?
+Dialogue: 0,1:22:50.61,1:22:51.78,Default,,0,0,0,,Vamos ouvi-los.
+Dialogue: 0,1:22:51.78,1:22:55.58,Default,,0,0,0,,No papel, são dois, mas desde que\Num deles seja liberado, ficarei satisfeito.
+Dialogue: 0,1:22:55.99,1:23:00.12,Default,,0,0,0,,Em primeiro lugar, se o mesmo item\Ncair novamente no futuro,
+Dialogue: 0,1:23:00.12,1:23:04.13,Default,,0,0,0,,ALS assumirá a propriedade\Nde um e a DKB do outro.
+Dialogue: 0,1:23:04.13,1:23:08.09,Default,,0,0,0,,Portanto, a guilda que não tiver uma bandeira no\Nno momento, recebe essa bandeira, sem perguntas.
+Dialogue: 0,1:23:08.50,1:23:09.51,Default,,0,0,0,,E o segundo?
+Dialogue: 0,1:23:09.51,1:23:14.64,Default,,0,0,0,,Isso entrará em jogo se a ALS\Ne a DKB se fundirem, formando uma nova guilda.
+Dialogue: 0,1:23:14.64,1:23:16.47,Default,,0,0,0,,Se isso acontecer, eu\Nentregarei na hora.
+Dialogue: 0,1:23:19.10,1:23:20.81,Default,,0,0,0,,Isso não vai acontecer de jeito nenhum!
+Dialogue: 0,1:23:20.81,1:23:22.98,Default,,0,0,0,,Fazer uma fusão com aqueles caras\Nque agem como se fossem melhores do que nós?
+Dialogue: 0,1:23:22.98,1:23:24.31,Default,,0,0,0,,Você só pode estar brincando!
+Dialogue: 0,1:23:24.31,1:23:25.73,Default,,0,0,0,,Vá em frente e pergunte a eles!
+Dialogue: 0,1:23:25.73,1:23:27.90,Default,,0,0,0,,Eles só vão dizer\Nque você é louco!
+Dialogue: 0,1:23:27.90,1:23:31.74,Default,,0,0,0,,E quanto tempo teremos que esperar\Nesperar até que outra bandeira caia?
+Dialogue: 0,1:23:31.74,1:23:32.90,Default,,0,0,0,,Kirito.
+Dialogue: 0,1:23:34.45,1:23:37.58,Default,,0,0,0,,Desculpe, mas não vou alterar esses termos.
+Dialogue: 0,1:23:37.91,1:23:39.62,Default,,0,0,0,,Droga!
+Dialogue: 0,1:23:40.87,1:23:44.04,Default,,0,0,0,,I... Eu sei o que realmente está acontecendo!
+Dialogue: 0,1:23:44.04,1:23:47.75,Default,,0,0,0,,Esses caras nunca tiveram qualquer intenção\Nde entregar aquela bandeira!
+Dialogue: 0,1:23:48.46,1:23:54.09,Default,,0,0,0,,Fazendo-nos passar por obstáculos impossíveis, quando eles\Nquando eles só vão roubar a bandeira e criar uma guilda própria!
+Dialogue: 0,1:23:54.09,1:23:55.01,Default,,0,0,0,,Ei, está falando sério?
+Dialogue: 0,1:23:54.09,1:23:55.01,Default,,0,0,0,,Isso não é verdade!
+Dialogue: 0,1:23:55.01,1:23:56.64,Default,,0,0,0,,Eles vão ficar com o dinheiro para si mesmos?
+Dialogue: 0,1:23:55.01,1:23:56.05,Default,,0,0,0,,Nós nunca faríamos isso!
+Dialogue: 0,1:23:56.64,1:23:59.14,Default,,0,0,0,,Eu sempre soube que eles\Nfazer algo assim.
+Dialogue: 0,1:23:58.18,1:24:00.97,Default,,0,0,0,,Não temos que ficar aqui sentados\Ne ouvir o lixo deles.
+Dialogue: 0,1:24:00.97,1:24:03.81,Default,,0,0,0,,Kibaou! São apenas os dois!
+Dialogue: 0,1:24:03.81,1:24:06.73,Default,,0,0,0,,Há muitas maneiras\Nde recuperarmos a bandeira!
+Dialogue: 0,1:24:08.69,1:24:12.36,Default,,0,0,0,,Está falando de força bruta, Joe?
+Dialogue: 0,1:24:12.36,1:24:13.57,Default,,0,0,0,,É isso mesmo!
+Dialogue: 0,1:24:13.57,1:24:17.62,Default,,0,0,0,,Temos uma força completa. Podemos\Ncuidar desses dois idiotas solitários...
+Dialogue: 0,1:24:17.62,1:24:19.78,Default,,0,0,0,,Seu idiota!
+Dialogue: 0,1:24:19.78,1:24:22.29,Default,,0,0,0,,Não me importa o valor dos itens.
+Dialogue: 0,1:24:22.29,1:24:28.75,Default,,0,0,0,,Se começarmos a ameaçar nossos colegas jogadores na ponta da espada\Npara pegá-los, não seremos melhores do que um bando de criminosos!
+Dialogue: 0,1:24:28.75,1:24:33.46,Default,,0,0,0,,Pense bem por que a\NALS existe em primeiro lugar!
+Dialogue: 0,1:24:35.97,1:24:38.85,Default,,0,0,0,,Lamento que você tenha presenciado esse tipo de situação.
+Dialogue: 0,1:24:39.35,1:24:45.10,Default,,0,0,0,,Essas suas condições...\No mesmo vale para a DKB, então?
+Dialogue: 0,1:24:45.10,1:24:47.77,Default,,0,0,0,,Sim. É claro que sim.
+Dialogue: 0,1:24:48.06,1:24:52.11,Default,,0,0,0,,Nesse caso, deixaremos\Na bandeira com você por enquanto.
+Dialogue: 0,1:24:52.11,1:24:56.32,Default,,0,0,0,,Para ser honesto, eu realmente não\Nvejo uma fusão em andamento.
+Dialogue: 0,1:24:56.32,1:24:57.36,Default,,0,0,0,,Muito bem, vamos decolar!
+Dialogue: 0,1:24:57.36,1:25:02.62,Default,,0,0,0,,Ei, o portão de teletransporte para a cidade principal\Nno sexto andar já foi ativado,
+Dialogue: 0,1:25:02.62,1:25:05.33,Default,,0,0,0,,portanto, se estiver voltando para Karluin,\Nesse caminho seria mais rápido.
+Dialogue: 0,1:25:06.46,1:25:07.58,Default,,0,0,0,,É isso mesmo?
+Dialogue: 0,1:25:12.88,1:25:14.71,Default,,0,0,0,,Ei, obrigado, "Kirito".
+Dialogue: 0,1:25:15.51,1:25:19.43,Default,,0,0,0,,Puxa, mais uma vez o Blackie\Nfoge com o prêmio?
+Dialogue: 0,1:25:19.43,1:25:22.68,Default,,0,0,0,,Nem mesmo em uma guilda, e\Nele nos rouba esse item raro!
+Dialogue: 0,1:25:22.68,1:25:24.10,Default,,0,0,0,,Como isso é sorrateiro?
+Dialogue: 0,1:25:24.10,1:25:26.52,Default,,0,0,0,,Não é que não estejamos\Ntrabalhando também!
+Dialogue: 0,1:25:26.52,1:25:30.69,Default,,0,0,0,,Se ele só se importa consigo mesmo,\Nentão ele deveria terminar o jogo sozinho!
+Dialogue: 0,1:25:45.20,1:25:48.92,Default,,0,0,0,,Bom trabalho, Asuna. Nós\Ndevemos descansar um pouco, então...
+Dialogue: 0,1:25:52.84,1:25:54.80,Default,,0,0,0,,A-Asuna?
+Dialogue: 0,1:25:55.63,1:25:56.67,Default,,0,0,0,,Por que...
+Dialogue: 0,1:25:58.22,1:25:59.34,Default,,0,0,0,,Por quê?
+Dialogue: 0,1:26:00.55,1:26:03.68,Default,,0,0,0,,Por que você tem que passar por tudo isso?
+Dialogue: 0,1:26:04.31,1:26:06.27,Default,,0,0,0,,Para a Equipe de Assalto...
+Dialogue: 0,1:26:06.64,1:26:09.77,Default,,0,0,0,,Para todos os que estão presos neste mundo...
+Dialogue: 0,1:26:09.77,1:26:11.60,Default,,0,0,0,,você arrisca sua vida lutando...
+Dialogue: 0,1:26:11.98,1:26:15.27,Default,,0,0,0,,E mesmo que você tenha sido o único\Nque impediu que as guildas entrassem em colapso,
+Dialogue: 0,1:26:15.27,1:26:19.99,Default,,0,0,0,,essas pessoas continuam se apegando a\Nsuas panelinhas, fazendo o que bem entendem...
+Dialogue: 0,1:26:19.99,1:26:22.16,Default,,0,0,0,,brigando sem pensar duas vezes...
+Dialogue: 0,1:26:22.87,1:26:27.66,Default,,0,0,0,,É por isso que você tem lutado,\Naté que esteja machucado e ferido...
+Dialogue: 0,1:26:27.66,1:26:29.79,Default,,0,0,0,,mas tudo o que eles fazem é falar mal de você.
+Dialogue: 0,1:26:30.58,1:26:32.63,Default,,0,0,0,,Isso é muito errado.
+Dialogue: 0,1:26:32.63,1:26:33.92,Default,,0,0,0,,Isso é muito errado.
+Dialogue: 0,1:26:35.92,1:26:37.92,Default,,0,0,0,,Estou lhe dizendo, isso é totalmente errado!
+Dialogue: 0,1:26:43.51,1:26:44.51,Default,,0,0,0,,Asuna...
+Dialogue: 0,1:26:44.85,1:26:47.01,Default,,0,0,0,,Sempre foi minha própria escolha.
+Dialogue: 0,1:26:47.93,1:26:51.98,Default,,0,0,0,,Fui eu quem optou por não entrar em uma guilda.
+Dialogue: 0,1:26:51.98,1:26:58.94,Default,,0,0,0,,Não estou lutando porque quero que todos\Nme reconheçam ou me elogiem.
+Dialogue: 0,1:26:59.40,1:27:03.41,Default,,0,0,0,,Contanto que eu possa me manter,\Ne as pessoas próximas a mim em segurança,
+Dialogue: 0,1:27:03.41,1:27:05.78,Default,,0,0,0,,nada mais importa para mim.
+Dialogue: 0,1:27:05.78,1:27:07.03,Default,,0,0,0,,É tudo...
+Dialogue: 0,1:27:08.41,1:27:11.29,Default,,0,0,0,,Para que eu possa sobreviver neste mundo.
+Dialogue: 0,1:27:13.33,1:27:14.63,Default,,0,0,0,,É por isso que...
+Dialogue: 0,1:27:14.63,1:27:16.67,Default,,0,0,0,,Não tenho o direito de ser\Nreconhecido por ninguém...
+Dialogue: 0,1:27:17.25,1:27:20.09,Default,,0,0,0,,Ou para ganhar o elogio de alguém.
+Dialogue: 0,1:27:20.63,1:27:23.18,Default,,0,0,0,,Não precisa chorar por mim...
+Dialogue: 0,1:27:24.39,1:27:27.31,Default,,0,0,0,,Serei eu quem decidirá por quem vou chorar!
+Dialogue: 0,1:27:37.82,1:27:41.53,Default,,0,0,0,,Então, deixe-me elogiá-lo\Nalguns elogios a você, Kirito.
+Dialogue: 0,1:27:42.82,1:27:45.24,Default,,0,0,0,,Se houver algo que eu possa fazer por você...
+Dialogue: 0,1:27:46.24,1:27:47.95,Default,,0,0,0,,Basta dizer a palavra.
+Dialogue: 0,1:27:51.45,1:27:54.46,Default,,0,0,0,,É o suficiente para ouvi-lo dizer essas palavras.
+Dialogue: 0,1:27:54.46,1:27:57.34,Default,,0,0,0,,Não é como se você tivesse\Nfazer nada por mim.
+Dialogue: 0,1:27:57.34,1:27:59.42,Default,,0,0,0,,Muito bem, então, sente-se aí!
+Dialogue: 0,1:28:24.45,1:28:25.49,Default,,0,0,0,,Obrigado.
+Dialogue: 0,1:28:29.37,1:28:32.12,Default,,0,0,0,,Cinco, quatro,
+Dialogue: 0,1:28:32.45,1:28:37.08,Default,,0,0,0,,três, dois, um...
+Dialogue: 0,1:28:37.33,1:28:39.63,Default,,0,0,0,,Zero!
+Dialogue: 0,1:28:39.63,1:28:43.05,Default,,0,0,0,,Feliz Ano Novo!
+Dialogue: 0,1:28:43.63,1:28:46.76,Default,,0,0,0,,Feliz Ano Novo, Kirito!
+Dialogue: 0,1:28:47.13,1:28:48.76,Default,,0,0,0,,Feliz Ano Novo!
+Dialogue: 0,1:28:50.55,1:28:53.60,Default,,0,0,0,,Ainda não acredito que eles\Nconseguiram pegar fogos de artifício.
+Dialogue: 0,1:28:53.60,1:28:55.39,Default,,0,0,0,,Onde eles estavam vendendo?
+Dialogue: 0,1:28:55.39,1:28:59.52,Default,,0,0,0,,Ouvi dizer que você pode comprá-los em uma loja de equipamentos\Nem um canto da Cidade dos Inícios.
+Dialogue: 0,1:28:59.52,1:29:01.44,Default,,0,0,0,,Aparentemente, foi Liten quem os encontrou.
+Dialogue: 0,1:29:01.44,1:29:02.40,Default,,0,0,0,,Sério?
+Dialogue: 0,1:29:02.40,1:29:04.32,Default,,0,0,0,,Então podemos usar esses\Nfogos de artifício contra mon...
+Dialogue: 0,1:29:04.32,1:29:06.86,Default,,0,0,0,,Desculpe, mas só podemos\Nusá-los na zona de segurança.
+Dialogue: 0,1:29:06.86,1:29:09.12,Default,,0,0,0,,Ah, é isso mesmo?
+Dialogue: 0,1:29:11.12,1:29:13.95,Default,,0,0,0,,2023, hein?
+Dialogue: 0,1:29:14.41,1:29:18.50,Default,,0,0,0,,Ainda é um pouco difícil de acreditar\Nque dois meses já se passaram.
+Dialogue: 0,1:29:18.92,1:29:25.34,Default,,0,0,0,,Sim. Quando me fechei em meu quarto na\NTown of Beginnings, todos os dias pareciam tão longos.
+Dialogue: 0,1:29:25.97,1:29:28.72,Default,,0,0,0,,Mas agora é como se cada\Ndia passasse em um piscar de olhos.
+Dialogue: 0,1:29:31.39,1:29:34.18,Default,,0,0,0,,Sabe de uma coisa? Depois que eu\Ndeixei a Cidade dos Inícios,
+Dialogue: 0,1:29:34.18,1:29:38.73,Default,,0,0,0,,e antes de conhecê-lo, eu achava que\Npoderia simplesmente tratar minhas armas como descartáveis.
+Dialogue: 0,1:29:39.15,1:29:41.27,Default,,0,0,0,,Eu compraria o mesmo produto várias vezes,
+Dialogue: 0,1:29:41.27,1:29:42.90,Default,,0,0,0,,e nunca os aprimoram ou prestam serviços.
+Dialogue: 0,1:29:42.90,1:29:45.82,Default,,0,0,0,,Quando a lâmina ficava cega, eu a jogava\Nno chão de alguma masmorra.
+Dialogue: 0,1:29:46.49,1:29:50.49,Default,,0,0,0,,Mas era assim que eu era no passado.
+Dialogue: 0,1:29:51.20,1:29:54.37,Default,,0,0,0,,Mas então Mito me deu o Wind Fleuret,
+Dialogue: 0,1:29:54.37,1:29:57.54,Default,,0,0,0,,e, graças a você, eu o transformei\Nreformado para o que estou usando agora.
+Dialogue: 0,1:29:58.08,1:29:59.79,Default,,0,0,0,,E depois de todas as batalhas\NEu já passei,
+Dialogue: 0,1:29:59.79,1:30:03.17,Default,,0,0,0,,Comecei a perceber\Nalgo, pouco a pouco.
+Dialogue: 0,1:30:03.46,1:30:05.63,Default,,0,0,0,,Que eu deveria me cuidar mais.
+Dialogue: 0,1:30:06.01,1:30:09.93,Default,,0,0,0,,E, portanto, quero que você se cuide\Ncuide de você também, Kirito.
+Dialogue: 0,1:30:10.47,1:30:11.39,Default,,0,0,0,,Está bem.
+Dialogue: 0,1:30:12.85,1:30:17.31,Default,,0,0,0,,Ei, eu vou descer\Ncomprar uma garrafa nova e algo para comer.
+Dialogue: 0,1:30:17.56,1:30:19.44,Default,,0,0,0,,Ah, então vou com você!
+Dialogue: 0,1:30:30.49,1:30:32.53,Default,,0,0,0,,Cuidado com o degrau, ok?
+Dialogue: 0,1:30:33.57,1:30:34.66,Default,,0,0,0,,Com certeza.
+Dialogue: 0,1:30:35.33,1:30:36.12,Default,,0,0,0,,O que é isso?
+Dialogue: 0,1:30:36.12,1:30:38.20,Default,,0,0,0,,O quê? Oh, não é nada.
+Dialogue: 0,1:30:53.72,1:30:54.93,Default,,0,0,0,,Há algum problema?
+Dialogue: 0,1:30:54.93,1:30:57.47,Default,,0,0,0,,Oh, não, não é nada.
+Dialogue: 0,1:30:57.47,1:30:58.93,Default,,0,0,0,,Então vamos em frente.
+Dialogue: 0,1:30:58.93,1:30:59.81,Default,,0,0,0,,Está bem.
+Dialogue: 0,1:31:37.35,1:31:41.14,Default,,0,0,0,,É... hora do show!
+Dialogue: 0,1:31:45.35,1:31:46.15,Default,,0,0,0,,Quem é você?
+Dialogue: 0,1:31:46.15,1:31:49.11,Default,,0,0,0,,Fique quieto, agora.
+Dialogue: 0,1:31:49.11,1:31:53.53,Default,,0,0,0,,Mova-se, e minha faca cortará sua garota.
+Dialogue: 0,1:31:55.41,1:31:57.12,Default,,0,0,0,,Estamos em uma zona segura.
+Dialogue: 0,1:31:57.12,1:31:59.95,Default,,0,0,0,,Suas ameaças não significam nada aqui.
+Dialogue: 0,1:31:59.95,1:32:03.87,Default,,0,0,0,,Ouça o que você tem a dizer. Se controle\Ncontrole, está bem, Blackie?
+Dialogue: 0,1:32:03.87,1:32:09.17,Default,,0,0,0,,A zona de segurança termina no gramado da frente.\NIsso faz parte da masmorra.
+Dialogue: 0,1:32:09.17,1:32:10.13,Default,,0,0,0,,O que...
+Dialogue: 0,1:32:11.71,1:32:13.88,Default,,0,0,0,,Quanto dano você pode causar com uma faca?
+Dialogue: 0,1:32:13.88,1:32:17.14,Default,,0,0,0,,Ah! Não somos mal-humorados?
+Dialogue: 0,1:32:17.64,1:32:23.85,Default,,0,0,0,,Mas e se eu lhe dissesse que mergulhei essa lâmina\Nem venenos paralisantes e danosos de nível 5?
+Dialogue: 0,1:32:29.02,1:32:30.65,Default,,0,0,0,,Por que você está fazendo isso?
+Dialogue: 0,1:32:34.07,1:32:38.03,Default,,0,0,0,,Não é óbvio, mano?\NPorque é divertido!
+Dialogue: 0,1:32:38.03,1:32:39.99,Default,,0,0,0,,Entre... treinamento?
+Dialogue: 0,1:32:39.99,1:32:42.87,Default,,0,0,0,,Sim, eu quero me divertir.
+Dialogue: 0,1:32:42.87,1:32:45.37,Default,,0,0,0,,É melhor assim, neste grande palco, certo?
+Dialogue: 0,1:32:45.37,1:32:48.50,Default,,0,0,0,,Quero preparar tudo\Nbem para que seja uma explosão!
+Dialogue: 0,1:32:48.50,1:32:51.55,Default,,0,0,0,,Tudo bem, eu não gostaria que\Nque algum intruso se intrometa.
+Dialogue: 0,1:32:51.55,1:32:53.26,Default,,0,0,0,,Estamos indo para outro lugar.
+Dialogue: 0,1:32:53.26,1:32:55.38,Default,,0,0,0,,O que você acha das catacumbas?
+Dialogue: 0,1:32:58.14,1:32:59.18,Default,,0,0,0,,Por mim, tudo bem.
+Dialogue: 0,1:32:59.68,1:33:00.60,Default,,0,0,0,,Asuna?
+Dialogue: 0,1:33:11.52,1:33:12.27,Default,,0,0,0,,Kirito!
+Dialogue: 0,1:33:12.27,1:33:13.19,Default,,0,0,0,,Entendi!
+Dialogue: 0,1:33:31.92,1:33:36.42,Default,,0,0,0,,Outra hora, Blackie! Fencer!
+Dialogue: 0,1:33:43.06,1:33:44.97,Default,,0,0,0,,Ele não foi mergulhado em veneno.
+Dialogue: 0,1:33:45.85,1:33:47.94,Default,,0,0,0,,Como suspeitávamos, ele estava mentindo.
+Dialogue: 0,1:33:48.81,1:33:50.85,Default,,0,0,0,,O que você estava pensando agora?
+Dialogue: 0,1:33:51.15,1:33:53.48,Default,,0,0,0,,Se estivéssemos realmente fora\Nda zona de segurança aqui,
+Dialogue: 0,1:33:53.48,1:33:55.73,Default,,0,0,0,,ele não teria se incomodado\Npara mudar de local.
+Dialogue: 0,1:33:55.73,1:33:57.61,Default,,0,0,0,,Ele teria nos esfaqueado na hora.
+Dialogue: 0,1:33:57.61,1:33:59.95,Default,,0,0,0,,Mas e se você tiver errado?
+Dialogue: 0,1:33:59.95,1:34:00.82,Default,,0,0,0,,Teria sido ótimo.
+Dialogue: 0,1:34:02.32,1:34:03.53,Default,,0,0,0,,Porque eu tenho isso.
+Dialogue: 0,1:34:08.87,1:34:09.71,Default,,0,0,0,,Uau!
+Dialogue: 0,1:34:10.17,1:34:11.33,Default,,0,0,0,,De jeito nenhum.
+Dialogue: 0,1:34:11.33,1:34:13.54,Default,,0,0,0,,Isso é de verdade... Asuna?
+Dialogue: 0,1:34:15.96,1:34:18.47,Default,,0,0,0,,Obrigado, Mito.
+Dialogue: 0,1:34:22.80,1:34:25.31,Default,,0,0,0,,De qualquer forma, estou feliz por termos sobrevivido.
+Dialogue: 0,1:34:25.31,1:34:26.81,Default,,0,0,0,,Devemos nos afastar daqui para ficarmos seguros...
+Dialogue: 0,1:34:26.81,1:34:29.94,Default,,0,0,0,,Kirito, aquele cara que acabou de chegar...
+Dialogue: 0,1:34:29.94,1:34:33.73,Default,,0,0,0,,Ele deve ter nos atacado\Npara roubar a bandeira da guilda, você não acha?
+Dialogue: 0,1:34:34.61,1:34:36.19,Default,,0,0,0,,Eu ouvi o que ele disse.
+Dialogue: 0,1:34:36.19,1:34:39.74,Default,,0,0,0,,"Palco grande" e "Eu quero\Npreparar tudo bem para que seja uma explosão".
+Dialogue: 0,1:34:39.74,1:34:45.20,Default,,0,0,0,,Você acha que ele estava falando sobre fazer com que as duas\Ngrandes guildas, ALS e DKB, se matem?
+Dialogue: 0,1:34:45.20,1:34:47.24,Default,,0,0,0,,Se ele foi, não é muito cedo?
+Dialogue: 0,1:34:47.24,1:34:49.50,Default,,0,0,0,,Ninguém sabe sobre nós, mas...
+Dialogue: 0,1:34:49.50,1:34:52.75,Default,,0,0,0,,Fazendo-nos passar por obstáculos impossíveis,\Nquando eles só vão roubar a bandeira...
+Dialogue: 0,1:34:51.25,1:34:54.88,Default,,0,0,0,,Um dos meus rapazes conseguiu\Ninformações muito interessantes.
+Dialogue: 0,1:34:53.21,1:34:58.30,Default,,0,0,0,,O que o Morte quis dizer quando disse que queria que as guildas de\Nas guildas do Kibaou e do Lind se matassem?
+Dialogue: 0,1:34:58.80,1:35:01.30,Default,,0,0,0,,De jeito nenhum! Um grupo PK?
+Dialogue: 0,1:35:01.30,1:35:02.47,Default,,0,0,0,,Os companheiros de Morte?
+Dialogue: 0,1:35:02.47,1:35:05.01,Default,,0,0,0,,Sim, acho que essa é uma boa aposta.
+Dialogue: 0,1:35:06.31,1:35:09.27,Default,,0,0,0,,Eles provavelmente sabem tudo o que nós sabemos.
+Dialogue: 0,1:35:09.73,1:35:13.60,Default,,0,0,0,,Um dia desses, esse mundo\Nserá só para matar jogadores,
+Dialogue: 0,1:35:13.60,1:35:15.61,Default,,0,0,0,,e a liberação do jogo\Nserão deixados de lado.
+Dialogue: 0,1:35:17.61,1:35:20.03,Default,,0,0,0,,É verdade que isso pode realmente acontecer.
+Dialogue: 0,1:35:20.03,1:35:24.53,Default,,0,0,0,,Portanto, é ainda mais crucial que evitemos\Nque a bandeira não caia em suas mãos.
+Dialogue: 0,1:35:24.53,1:35:26.33,Default,,0,0,0,,Se acabarmos tendo que lutar...
+Dialogue: 0,1:35:26.33,1:35:32.67,Default,,0,0,0,,Tenho algum conhecimento dos métodos dos PK-ers,\Ne participei de vários duelos desde os dias da versão beta.
+Dialogue: 0,1:35:35.38,1:35:37.54,Default,,0,0,0,,Então eu também lutarei.
+Dialogue: 0,1:35:37.54,1:35:40.09,Default,,0,0,0,,O quê? Não foi isso que eu quis dizer.
+Dialogue: 0,1:35:40.09,1:35:41.55,Default,,0,0,0,,Não, eu já me decidi.
+Dialogue: 0,1:35:41.55,1:35:45.01,Default,,0,0,0,,De agora em diante, não vou deixar\Nque você faça todos os trabalhos perigosos sozinho.
+Dialogue: 0,1:35:45.84,1:35:49.31,Default,,0,0,0,,Além disso, sou seu parceiro, lembra-se?
+Dialogue: 0,1:35:49.64,1:35:53.89,Default,,0,0,0,,Eu o apoiarei,\Nassim como você me resgatou nas catacumbas.
+Dialogue: 0,1:35:56.61,1:35:58.77,Default,,0,0,0,,Certo, você e eu somos parceiros.
+Dialogue: 0,1:35:58.77,1:36:00.32,Default,,0,0,0,,Estou contando com você!
+Dialogue: 0,1:36:00.32,1:36:01.19,Default,,0,0,0,,Certo.
+Dialogue: 0,1:36:06.24,1:36:08.08,Default,,0,0,0,,Vamos, Kirito.
+Dialogue: 0,1:36:08.70,1:36:10.54,Default,,0,0,0,,Certo, Asuna.
+Dialogue: 0,1:37:20.06,1:37:28.86,Default,,0,0,0,,De alguma forma, você e eu ainda estamos deitados aqui
+Dialogue: 0,1:37:28.86,1:37:35.00,Default,,0,0,0,,Como se nunca conseguíssemos\No suficiente para olhar para o céu
+Dialogue: 0,1:37:35.00,1:37:41.75,Default,,0,0,0,,Quando foi a última vez que nos levantamos?
+Dialogue: 0,1:37:44.05,1:37:51.93,Default,,0,0,0,,Longe, muito longe, alguém está nos chamando
+Dialogue: 0,1:37:54.43,1:37:57.14,Default,,0,0,0,,Bem longe, na distância
+Dialogue: 0,1:37:59.73,1:38:04.57,Default,,0,0,0,,Apresse-se - voe agora mesmo\Ncom a intuição de seu coração
+Dialogue: 0,1:38:04.57,1:38:09.61,Default,,0,0,0,,Todos os meus problemas se desfazem\Ndiante de seus aplausos
+Dialogue: 0,1:38:09.61,1:38:14.83,Default,,0,0,0,,Mais longe, mais alto e mais alto\NOlhando corajosamente para cima
+Dialogue: 0,1:38:14.83,1:38:24.29,Default,,0,0,0,,Em direção ao amanhã\Nque ninguém mais pode ver
+Dialogue: 0,1:38:33.39,1:38:42.10,Default,,0,0,0,,Por que estou sentindo isso novamente, fora do meu corpo?
+Dialogue: 0,1:38:42.10,1:38:48.32,Default,,0,0,0,,Esse batimento cardíaco que me deixa nervoso
+Dialogue: 0,1:38:48.32,1:38:57.12,Default,,0,0,0,,Parece que ainda podemos voar - está vendo?
+Dialogue: 0,1:38:57.12,1:39:05.34,Default,,0,0,0,,Eu rasguei meu coração em dois para\Npara que parecessem asas
+Dialogue: 0,1:39:07.63,1:39:10.42,Default,,0,0,0,,Acredito que
+Dialogue: 0,1:39:12.97,1:39:17.85,Default,,0,0,0,,Ouça rapidamente seus\Nbatimentos cardíacos imaginários cantando
+Dialogue: 0,1:39:17.85,1:39:22.85,Default,,0,0,0,,Depressa - estou arrasado e\Nsinto que vou desaparecer
+Dialogue: 0,1:39:22.85,1:39:28.07,Default,,0,0,0,,Seja forte e vá mais alto\NBata suas asas com ousadia
+Dialogue: 0,1:39:28.07,1:39:37.53,Default,,0,0,0,,Em direção ao amanhã\Nque ninguém mais pode ver
+Dialogue: 0,1:39:45.71,1:39:50.34,Default,,0,0,0,,Eu costumava trilhar esse caminho sozinho
+Dialogue: 0,1:39:50.34,1:39:55.89,Default,,0,0,0,,E isso deveria ter sido suficiente para mim
+Dialogue: 0,1:39:55.89,1:40:06.06,Default,,0,0,0,,Mas agora há dois sons em vez de um
+Dialogue: 0,1:40:08.52,1:40:13.45,Default,,0,0,0,,Apresse-se - voe agora mesmo\Ncom a intuição de seu coração
+Dialogue: 0,1:40:13.45,1:40:18.33,Default,,0,0,0,,Mais alto no céu com\Nvocê, voando além daquele sol
+Dialogue: 0,1:40:18.33,1:40:23.71,Default,,0,0,0,,Mais longe, mais alto e mais alto\NOlhando corajosamente para cima
+Dialogue: 0,1:40:23.71,1:40:33.55,Default,,0,0,0,,Nós dois estamos indo para além das nuvens
+Dialogue: 0,0:01:14.60,0:01:19.52,Default,,0,0,0,,29 DE DEZEMBRO DE 2022\NAINCRAD, QUARTO ANDAR
+Dialogue: 0,0:02:20.58,0:02:23.87,Default,,0,0,0,,GUILDA\NBRIGADA DOS CAVALEIROS DO DRAGÃO (DKB)
+Dialogue: 0,0:02:35.26,0:02:37.89,Default,,0,0,0,,GUILHERME\NESQUADRÃO DE LIBERTAÇÃO DE Aincrad (ALS)
+Dialogue: 0,0:06:25.82,0:06:33.91,Default,,0,0,0,,-PROGRESSIVO-\NSCHERZO DA NOITE PROFUNDA
+Dialogue: 0,0:06:34.08,0:06:38.00,Default,,0,0,0,,29 DE DEZEMBRO DE 2022\NAINCRAD, ANDAR CINCO, KARLUIN
+Dialogue: 0,0:21:23.09,0:21:25.26,Default,,0,0,0,,A PESSOA QUE VOCÊ ESTÁ TENTANDO CONTATAR ESTÁ\NFORA DO ALCANCE OU AINDA NÃO SE CONECTOU
+Dialogue: 0,0:22:06.72,0:22:07.93,Default,,0,0,0,,BRINCO DE ONDULAÇÕES
+Dialogue: 0,0:22:06.72,0:22:07.93,Default,,0,0,0,,BOTAS DE CORRIDA
+Dialogue: 0,0:22:11.85,0:22:13.06,Default,,0,0,0,,RAPIÃO DE FERRO
+Dialogue: 0,0:23:45.53,0:23:48.82,Default,,0,0,0,,MAÇO DE PAPEL
+Dialogue: 0,0:24:17.06,0:24:17.56,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:24:17.56,0:24:17.60,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:24:17.60,0:24:17.64,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:24:17.64,0:24:17.69,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:24:17.69,0:24:17.73,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:24:17.73,0:24:17.77,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:24:17.77,0:24:17.81,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:24:17.81,0:24:17.85,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:24:17.85,0:24:17.89,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:24:17.89,0:24:20.77,Default,,0,0,0,,MAPA (DUNGEON)
+Dialogue: 0,0:33:51.01,0:33:56.22,Default,,0,0,0,,30 DE DEZEMBRO DE 2022\NAINCRAD, FLOOR FIVE, SHIYAYA VILLAGE
+Dialogue: 0,0:51:31.90,0:51:33.45,Default,,0,0,0,,COM RELAÇÃO A ENCONTRAR ALGUÉM
+Dialogue: 0,0:55:17.21,0:55:18.04,Default,,0,0,0,,VOCÊ ACEITA ESSA SOLICITAÇÃO DE DUELO?\NOPONENTE: ASUNA\NTIPO: 1 vs 1
+Dialogue: 0,0:55:32.31,0:55:35.02,Default,,0,0,0,,MODO DE PERDA TOTAL
+Dialogue: 0,0:55:32.31,0:55:35.02,Default,,0,0,0,,MODO DE PRIMEIRO ATAQUE
+Dialogue: 0,0:55:32.31,0:55:35.02,Default,,0,0,0,,MODO DE PERDA PARCIAL
+Dialogue: 0,1:01:45.89,1:01:49.35,Default,,0,0,0,,31 DE DEZEMBRO DE 2022\NAINCRAD, ANDAR CINCO, LABIRINTO
+Dialogue: 0,1:01:56.32,1:01:58.28,Default,,0,0,0,,SHIVATA
+Dialogue: 0,1:01:56.32,1:01:58.28,Default,,0,0,0,,LITEN
+Dialogue: 0,1:01:58.28,1:02:00.49,Default,,0,0,0,,WOLFGANG
+Dialogue: 0,1:01:58.28,1:02:00.49,Default,,0,0,0,,LOBACCA
+Dialogue: 0,1:01:58.28,1:02:00.49,Default,,0,0,0,,NAIJAN
+Dialogue: 0,1:02:00.49,1:02:02.70,Default,,0,0,0,,ARGO
+Dialogue: 0,1:02:00.49,1:02:02.70,Default,,0,0,0,,AGIL
+Dialogue: 0,1:02:59.17,1:03:02.34,Default,,0,0,0,,Aincrad, ANDAR CINCO, LABIRINTO,\NEM FRENTE À SALA DO CHEFE
+Dialogue: 0,1:03:42.55,1:03:48.14,Default,,0,0,0,,DINHEIRO
+Dialogue: 0,1:34:06.50,1:34:08.87,Default,,0,0,0,,CRIADO POR: MITO
+Dialogue: 0,1:34:06.50,1:34:08.87,Default,,0,0,0,,PESO
+Dialogue: 0,1:34:06.50,1:34:08.87,Default,,0,0,0,,QUANDO EQUIPADO
+Dialogue: 0,1:34:06.50,1:34:08.87,Default,,0,0,0,,DEFESA
+Dialogue: 0,1:34:06.50,1:34:08.87,Default,,0,0,0,,AGILIDADE
+Dialogue: 0,1:34:06.50,1:34:08.87,Default,,0,0,0,,DEFESA
+Dialogue: 0,1:34:06.75,1:34:08.87,Default,,0,0,0,,NEUTRALIZA O VENENO DANOSO DE NÍVEL 5\NE O VENENO PARALISANTE DE NÍVEL 5
+Dialogue: 0,1:34:06.75,1:34:08.87,Default,,0,0,0,,(UMA CARGA RESTANTE)
+Dialogue: 0,1:34:06.95,1:34:08.87,Default,,0,0,0,,DEFESA

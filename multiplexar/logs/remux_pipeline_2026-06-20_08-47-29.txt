@@ -1,0 +1,23 @@
+[08:47:29.087] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-20_08-47-29.txt
+[08:47:29.087] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[08:47:29.122] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[08:47:29.123] [DEBUG   ] Validando caminhos de diretórios locais...
+[08:47:29.137] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[08:47:29.138] [DEBUG   ] Escaneando diretório: E:\animes\DETONATOR ORGUN
+[08:47:29.138] [INFO    ] Encontrados 3 arquivos de vídeo com extensão .mkv.
+[08:47:29.138] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[08:47:29.140] [DEBUG   ]   Pareado com sucesso: [AnimesAmrita] Detonador Orgun 01_PTBR.mkv -> [AnimesAmrita] Detonador Orgun 01_PTBR_ENG.srt
+[08:47:29.141] [DEBUG   ]   Pareado com sucesso: [AnimesAmrita] Detonador Orgun 02_PTBR.mkv -> [AnimesAmrita] Detonador Orgun 02_PTBR_ENG.srt
+[08:47:29.143] [DEBUG   ]   Pareado com sucesso: [AnimesAmrita] Detonador Orgun 03_PTBR.mkv -> [AnimesAmrita] Detonador Orgun 03_PTBR_ENG.srt
+[08:47:29.143] [INFO    ] Esteira trancada. Processando 3 episódios em lote via mkvmerge.
+[08:47:29.152] [INFO    ] [1/3] Multiplexando container Matroska: [AnimesAmrita] Detonador Orgun 01_PTBR.mkv
+[08:47:29.152] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:47:30.377] [INFO    ] SUCESSO:   Concluido (0.176 GB) em 1.22s! Legenda adicionada.
+[08:47:30.378] [INFO    ] [2/3] Multiplexando container Matroska: [AnimesAmrita] Detonador Orgun 02_PTBR.mkv
+[08:47:30.378] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:47:31.859] [INFO    ] SUCESSO:   Concluido (0.273 GB) em 1.48s! Legenda adicionada.
+[08:47:31.859] [INFO    ] [3/3] Multiplexando container Matroska: [AnimesAmrita] Detonador Orgun 03_PTBR.mkv
+[08:47:31.859] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[08:47:32.905] [INFO    ] SUCESSO:   Concluido (0.169 GB) em 1.04s! Legenda adicionada.
+[08:47:32.906] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-20_08-47-29.json
+[08:47:32.907] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

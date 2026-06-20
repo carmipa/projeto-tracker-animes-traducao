@@ -1,52 +1,14 @@
 RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE
 ================================================================================
-Mobile.Suit.Z.Gundam.S01E01_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E01_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E02_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E02_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E03_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E03_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E04_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E04_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E05_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E05_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E06_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E06_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E07_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E07_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E08_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E08_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E09_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E09_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E10_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E10_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E11_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E11_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E12_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E12_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E13_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E13_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E14_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E14_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E15_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E15_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E16_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E16_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E17_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E17_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E18_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E18_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E19_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E19_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E20_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E20_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E21_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E21_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E22_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E22_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E23_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E23_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E24_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E24_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E25_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E25_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E26_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E26_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E27_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E27_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E28_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E28_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E29_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E29_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E30_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E30_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E31_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E31_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E32_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E32_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E33_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E33_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E34_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E34_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E35_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E35_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E36_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E36_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E37_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E37_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E38_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E38_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E39_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E39_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E40_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E40_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E41_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E41_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E42_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E42_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E43_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E43_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E44_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E44_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E45_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E45_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E46_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E46_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E47_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E47_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E48_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E48_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E49_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E49_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E50_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E50_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E01 - Conflict [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E01 - Conflict [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E02 - Ability [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E02 - Ability [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E03 - Course [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E03 - Course [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E04 - Rage [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E04 - Rage [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E05 - Desire [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E05 - Desire [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E06 - Launch [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E06 - Launch [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E07 - Rumbling [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E07 - Rumbling [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E08 - Reunion [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E08 - Reunion [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E09 - Duty [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E09 - Duty [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E10 - Entry [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E10 - Entry [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E11 - Random Encounter [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E11 - Random Encounter [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E12 - Decisive Battle [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv | Track ID: 6 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E12 - Decisive Battle [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass

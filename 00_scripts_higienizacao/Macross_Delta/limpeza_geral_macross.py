@@ -23,15 +23,42 @@ LORE_PROPRIO = {
 # A caixa da primeira letra do trecho ORIGINAL é preservada na troca.
 GRAMATICA_E_GAFES = {
     # ----------------------------------------------------
-    # GAFES DE TRADUÇÃO DIRETA DO INGLÊS (LLMs)
+    # GAFES DE TRADUÇÃO DIRETA DO INGLÊS/FRANCÊS (LLMs)
     # ----------------------------------------------------
     "Eu vejo.": "Entendo.",
     "Olhe fora!": "Cuidado!",
+    "Olha fora!": "Cuidado!",
     "Você é direito": "Você tem razão",
+    "Você está direito": "Você tem razão",
     "Que o inferno": "Que diabos",
     "Que inferno": "Que diabos",
     "Merda sagrada": "Puta merda",
     "Oh meu Deus": "Meu Deus",
+    "De nenhuma maneira": "De jeito nenhum",
+    "Atualmente ": "Na verdade ",
+    "atualmente ": "na verdade ",
+    "Desgraçadamente": "Infelizmente",
+    "desgraçadamente": "infelizmente",
+
+    # ----------------------------------------------------
+    # GERUNDISMOS E VÍCIOS DE TRADUÇÃO
+    # ----------------------------------------------------
+    "vou estar fazendo": "vou fazer",
+    "vou estar indo": "vou",
+    "vamos estar fazendo": "vamos fazer",
+    "vou estar ajudando": "vou ajudar",
+
+    # ----------------------------------------------------
+    # MAIS VS MAS (CONFUSÕES COMUNS DO CONTEXTO DE TRADUÇÃO)
+    # ----------------------------------------------------
+    ", mais eu ": ", mas eu ",
+    ", mais você ": ", mas você ",
+    ", mais ele ": ", mas ele ",
+    ", mais ela ": ", mas ela ",
+    ", mais nós ": ", mas nós ",
+    ", mais eles ": ", mas eles ",
+    ", mais não ": ", mas não ",
+    ", mais sim ": ", mas sim ",
 
     # ----------------------------------------------------
     # ESQUIZOFRENIA TU/VOCÊ - VERBOS
@@ -112,22 +139,37 @@ def higienizar_linha(texto):
     texto_original = texto
     t = texto
 
+    eh_grafico = any(tag in t for tag in ["\\pos", "\\move", "\\clip", "\\iclip", "\\org", "{\\p", "|"])
+
     # 1. Resolver as infames barras erráticas e quebra de ASS, e franglês residual
-    t = t.replace('\\N ', '\\N').replace(' \\N', '\\N')
-    t = t.replace('\\n ', '\\N').replace(' \\n', '\\N').replace('\\n', '\\N')
-    t = t.replace('\\ ', ' ')
+    if not eh_grafico:
+        t = t.replace('\\N ', '\\N').replace(' \\N', '\\N')
+        t = t.replace('\\n ', '\\N').replace(' \\n', '\\N').replace('\\n', '\\N')
+        t = t.replace('\\ ', ' ')
+    else:
+        # Se for grafico/efeito, normaliza apenas a quebra de linha minuscula basica sem mexer no espacamento do \N
+        t = t.replace('\\n', '\\N')
+
     t = t.replace('\\Net ', '\\N e ').replace('\\NEt ', '\\N E ')
     t = t.replace('\\NIl ', '\\N Ele ')
-    t = t.replace('\\Nmais ', '\\N mas ')
+    # A regra de substituir \\Nmais por \\N mas foi deletada por ser incorreta em PT-BR
     t = t.replace('\\Nune ', '\\N uma ').replace('\\Nun ', '\\N um ')
-    t = re.sub(r'\beuh\.\.\.', 'hã...', t, flags=re.IGNORECASE)
+    t = re.sub(r'\\beuh\\.\\.\\.', 'hã...', t, flags=re.IGNORECASE)
 
     # 2. Remoção de QUALQUER tag ASS duplicada consecutiva
-    t = re.sub(r'(\{\\[^{}]+\})\1+', r'\1', t)
+    t = re.sub(r'(\\{\\[^{}]+\\})\\1+', r'\\1', t)
 
-    # 3. Normalização de espaçamento e pontuação (preserva "..." de propósito)
-    t = re.sub(r' {2,}', ' ', t)
-    t = re.sub(r' +([,.!?;:])(?!\.\.)', r'\1', t)
+    # 3. Normalização de espaçamento e pontuação (somente se não for gráfico/desenho)
+    if not eh_grafico:
+        t = re.sub(r' {2,}', ' ', t)
+        t = re.sub(r' +([,.!?;:])(?!\\.\\.)', r'\\1', t)
+        # Normaliza 4 ou mais pontos seguidos para exatamente 3 pontos (reticências)
+        t = re.sub(r'\\.\\{4,}', '...', t)
+        # Normaliza exatamente 2 pontos isolados para exatamente 3 pontos (reticências)
+        t = re.sub(r'(?<!\\.)\\.\\.(?!\\.)', '...', t)
+    else:
+        # Para graficos, apenas normaliza espacos duplos comuns para nao quebrar a diagramacao
+        t = re.sub(r' {2,}', ' ', t)
 
     # 4. Alucinações de pipeline (marcações do LLM que escaparam para a legenda)
     t = re.sub(r'Tradução revisada:\s*', '', t, flags=re.IGNORECASE)
@@ -175,7 +217,19 @@ def varrer_tudo():
     pasta_alvo = obter_pasta_alvo()
 
     arquivos = glob.glob(os.path.join(glob.escape(pasta_alvo), '*.ass'))
-    alvos = [arq for arq in arquivos if not arq.endswith('_REVISADO.ass')]
+    for sub in ["legendas_eng", "traducao", "legendas-traduzidas", "legendas_ptbr"]:
+        sub_dir = os.path.join(pasta_alvo, sub)
+        if os.path.isdir(sub_dir):
+            arquivos.extend(glob.glob(os.path.join(glob.escape(sub_dir), '*.ass')))
+            
+    vistos = set()
+    arquivos_unicos = []
+    for arq in arquivos:
+        if arq not in vistos:
+            vistos.add(arq)
+            arquivos_unicos.append(arq)
+
+    alvos = [arq for arq in arquivos_unicos if not arq.endswith('_REVISADO.ass')]
     alvos.sort()
 
     if not alvos:

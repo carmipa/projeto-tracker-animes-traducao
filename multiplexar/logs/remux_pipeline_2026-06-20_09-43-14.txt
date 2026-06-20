@@ -1,0 +1,59 @@
+[09:43:14.002] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-20_09-43-14.txt
+[09:43:14.003] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[09:43:14.034] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[09:43:14.034] [DEBUG   ] Validando caminhos de diretórios locais...
+[09:43:14.049] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[09:43:14.064] [DEBUG   ] Escaneando diretório: E:\animes\KINIGHTS OF SIDONIA\Season 2 - Battle for Planet Nine
+[09:43:14.064] [INFO    ] Encontrados 12 arquivos de vídeo com extensão .mkv.
+[09:43:14.064] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[09:43:14.066] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E01 - Conflict [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E01 - Conflict [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.067] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E02 - Ability [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E02 - Ability [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.069] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E03 - Course [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E03 - Course [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.070] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E04 - Rage [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E04 - Rage [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.071] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E05 - Desire [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E05 - Desire [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.073] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E06 - Launch [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E06 - Launch [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.074] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E07 - Rumbling [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E07 - Rumbling [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.076] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E08 - Reunion [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E08 - Reunion [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.077] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E09 - Duty [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E09 - Duty [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.078] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E10 - Entry [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E10 - Entry [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.080] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E11 - Random Encounter [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E11 - Random Encounter [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.081] [DEBUG   ]   Pareado com sucesso: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E12 - Decisive Battle [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv -> [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E12 - Decisive Battle [BD][1080p][AV1][OPUS][Multi Audio]_PTBR_ENG.ass
+[09:43:14.082] [INFO    ] Esteira trancada. Processando 12 episódios em lote via mkvmerge.
+[09:43:14.092] [INFO    ] [1/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E01 - Conflict [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:14.092] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:16.760] [INFO    ] SUCESSO:   Concluido (0.503 GB) em 2.67s! Legenda adicionada.
+[09:43:16.760] [INFO    ] [2/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E02 - Ability [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:16.760] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:19.199] [INFO    ] SUCESSO:   Concluido (0.440 GB) em 2.44s! Legenda adicionada.
+[09:43:19.199] [INFO    ] [3/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E03 - Course [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:19.199] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:22.196] [INFO    ] SUCESSO:   Concluido (0.542 GB) em 3.00s! Legenda adicionada.
+[09:43:22.197] [INFO    ] [4/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E04 - Rage [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:22.197] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:25.286] [INFO    ] SUCESSO:   Concluido (0.641 GB) em 3.09s! Legenda adicionada.
+[09:43:25.286] [INFO    ] [5/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E05 - Desire [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:25.286] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:27.758] [INFO    ] SUCESSO:   Concluido (0.440 GB) em 2.47s! Legenda adicionada.
+[09:43:27.758] [INFO    ] [6/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E06 - Launch [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:27.758] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:30.155] [INFO    ] SUCESSO:   Concluido (0.436 GB) em 2.40s! Legenda adicionada.
+[09:43:30.156] [INFO    ] [7/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E07 - Rumbling [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:30.156] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:32.849] [INFO    ] SUCESSO:   Concluido (0.449 GB) em 2.69s! Legenda adicionada.
+[09:43:32.850] [INFO    ] [8/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E08 - Reunion [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:32.850] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:35.333] [INFO    ] SUCESSO:   Concluido (0.444 GB) em 2.48s! Legenda adicionada.
+[09:43:35.333] [INFO    ] [9/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E09 - Duty [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:35.333] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:38.108] [INFO    ] SUCESSO:   Concluido (0.526 GB) em 2.77s! Legenda adicionada.
+[09:43:38.108] [INFO    ] [10/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E10 - Entry [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:38.109] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:41.130] [INFO    ] SUCESSO:   Concluido (0.579 GB) em 3.02s! Legenda adicionada.
+[09:43:41.130] [INFO    ] [11/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E11 - Random Encounter [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:41.130] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:48.920] [INFO    ] SUCESSO:   Concluido (0.584 GB) em 7.79s! Legenda adicionada.
+[09:43:48.921] [INFO    ] [12/12] Multiplexando container Matroska: [Sav1or] Sidonia no Kishi (Knights of Sidonia) - S02E12 - Decisive Battle [BD][1080p][AV1][OPUS][Multi Audio]_PTBR.mkv
+[09:43:48.921] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[09:43:59.240] [INFO    ] SUCESSO:   Concluido (0.617 GB) em 10.32s! Legenda adicionada.
+[09:43:59.241] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-20_09-43-14.json
+[09:43:59.242] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

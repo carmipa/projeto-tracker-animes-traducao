@@ -10,13 +10,13 @@ Esteira para **filmes** ou releases com legenda **SRT separada** do vídeo — s
 
 | Situação | Esteira recomendada |
 |:---|:---|
-| Episódios `.mkv` com legenda **ASS embutida** (inglês) | [Esteira A](arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) — Fases 4 → 5 |
-| Episódios `.mkv` com legenda **ASS embutida** (francês, Macross Delta) | [Esteira D](arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread) — Fase 4 → [12] → 5 |
-| Episódios `.mkv` com legenda **ASS embutida** (francês, Gundam Origin) | [Esteira I](arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench) — Fase 4 → 5 |
-| Episódios `.mkv` com legenda **ASS chinesa** (Gundam Origin, Qwen2.5) | [Esteira H](arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25) — Fases 2 → 11 → [12] → 5 |
-| Legenda **SRT externa** (inglês) + `.mkv` | **Esteira B** (este guia) — Fases 4 → 3 → 5 |
-| Legenda **PGS** (bitmap, Blu-ray) | [Esteira C](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) — Fases 2 → OCR → 3 → 5 |
-| Só auditar o vídeo antes | [Fase 1](modulo-fase-1.md) (opcional) |
+| Episódios `.mkv` com legenda **ASS embutida** (inglês) | [Esteira A](arquitetura.md#esteira-a--eighty-six-ass-embutido-inglês) — Fase 05a → 12 |
+| Episódios `.mkv` com legenda **ASS embutida** (francês, Macross Delta) | [Esteira D](arquitetura.md#esteira-d--macross-delta-tv-tradução-francês--pt-br) — Fase 05b → [10] → 12 |
+| Episódios `.mkv` com legenda **ASS embutida** (francês, Gundam Origin) | [Esteira J](arquitetura.md#esteira-j--gundam-origin-legenda-francesa-subfrench) — Fase 05b → 12 |
+| Episódios `.mkv` com legenda **ASS chinesa** (Gundam The Origin, Qwen2.5) | [Esteira I](arquitetura.md#esteira-i--gundam-the-origin-legenda-chinesa-chs) — Fases 02 → 05c → [10] → 12 |
+| Legenda **SRT externa** (inglês) + `.mkv` | **Esteira B** (este guia) — Fases 05a → 04 → 12 |
+| Legenda **PGS** (bitmap, Blu-ray) | [Esteira C](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) — Fases 02 → OCR → 04 → 12 |
+| Só auditar o vídeo antes | [Fase 01](modulo-fase-01.md) (opcional) |
 
 ---
 
@@ -24,17 +24,17 @@ Esteira para **filmes** ou releases com legenda **SRT separada** do vídeo — s
 
 ```mermaid
 flowchart LR
-    SRT["legenda/*.srt EN"] --> P4["Fase 4\ntradutor_srt_direto.py"]
-    P4 --> SRTPT["legenda/*_PTBR.srt"]
-    SRTPT --> P3["Fase 3\nconversor_srt_para_ass.py"]
-    P3 --> ASS["traducao/*_PTBR.ass"]
-    MKV["filme.mkv"] --> P5["Fase 5\nbatch_remuxer.py"]
-    ASS --> P5
-    P5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+    SRT["legenda/*.srt EN"] --> P05A["Fase 05a<br/>tradutor_srt_direto.py"]
+    P05A --> SRTPT["legenda/*_PTBR.srt"]
+    SRTPT --> P04["Fase 04<br/>conversor_srt_para_ass.py"]
+    P04 --> ASS["traducao/*_PTBR.ass"]
+    MKV["filme.mkv"] --> P12["Fase 12<br/>batch_remuxer.py"]
+    ASS --> P12
+    P12 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
 
-    style P4 fill:#4B0082,stroke:#00E5FF,color:#fff
-    style P3 fill:#2d3748,stroke:#00E5FF,color:#fff
-    style P5 fill:#1e4620,stroke:#32CD32,color:#fff
+    style P05A fill:#4B0082,stroke:#00E5FF,color:#fff
+    style P04 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style P12 fill:#1e4620,stroke:#32CD32,color:#fff
 ```
 
 ---
@@ -42,11 +42,11 @@ flowchart LR
 ## Ordem de execução
 
 ```powershell
-# Pré-requisito: LM Studio na porta 1234 (Fase 4)
+# Pré-requisito: LM Studio na porta 1234 (Fase 05a)
 
-python ".\4_tradutor_ia_gemma4\5_tradutor_de_legenda\tradutor_srt_direto.py"
-python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
-python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+python ".\05a_tradutor_llm_gemma4\5_tradutor_de_legenda\tradutor_srt_direto.py"
+python ".\04_conversor_srt_ass\conversor_srt_para_ass.py"
+python ".\12_remuxer_mkvmerge\batch_remuxer.py"
 ```
 
 ---
@@ -57,14 +57,14 @@ python ".\5_juntar_legendas_filmes\batch_remuxer.py"
 C:\TRACKER-ANIMES\animes\md-2\
 ├── [Anime Land] Macross Delta Movie 2....mkv
 │
-├── legenda\                              ← Fase 4 (entrada/saída SRT)
+├── legenda\                              ← Fase 05a (entrada/saída SRT)
 │   ├── filme-en.srt
 │   └── filme_PTBR.srt                    ← gerado
 │
-├── traducao\                             ← Fase 3 (saída ASS)
+├── traducao\                             ← Fase 04 (saída ASS)
 │   └── [Anime Land] Macross Delta Movie 2...._PTBR.ass
 │
-└── mkv_final_ptbr\                       ← Fase 5
+└── mkv_final_ptbr\                       ← Fase 12
     └── [Anime Land] Macross Delta Movie 2...._PTBR.mkv
 ```
 
@@ -74,9 +74,9 @@ C:\TRACKER-ANIMES\animes\md-2\
 
 | Fase | Documentação |
 |:---:|:---|
-| 4 | [modulo-fase-4.md — item 4 (`tradutor_srt_direto.py`)](modulo-fase-4.md#4--tradutor_srt_diretopy-srt-externo) |
-| 3 | [modulo-fase-3.md](modulo-fase-3.md) |
-| 5 | [modulo-fase-5.md](modulo-fase-5.md) |
+| 05a | [modulo-fase-05a.md (`tradutor_srt_direto.py`)](modulo-fase-05a.md#5_tradutor_de_legendatradutor_srt_diretopy-srt-externo) |
+| 04 | [modulo-fase-04.md](modulo-fase-04.md) |
+| 12 | [modulo-fase-12.md](modulo-fase-12.md) |
 
 ---
 

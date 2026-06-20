@@ -1,0 +1,2089 @@
+================================================================================
+PARTE 2 DE 3: REESCRITA DA DOCUMENTAÇÃO PRINCIPAL DO PROJETO
+================================================================================
+Agora que assimilou a estrutura física do projeto, vamos atualizar os arquivos centrais de documentação.
+Você deve reescrever e atualizar o README.md da raiz e os arquivos principais da pasta docs/ listados abaixo.
+
+
+Regras Técnicas, Visuais e de Design exigidas na Documentação:
+1. Mantenha os Shields/Badges de tecnologias no cabeçalho dos documentos.
+2. Todos os DIAGRAMAS DE ARQUITETURA (Mermaid) devem ser adaptados, atualizados e 100% formatados para renderização no GitHub Markdown. Use blocos de código específicos (```mermaid) e certifique-se de que a sintaxe Mermaid seja válida (use aspas duplas em rótulos de nós que contenham parênteses, caracteres especiais ou formatação de quebra de linha para evitar quebras de renderização no GitHub).
+3. Faça uma análise profunda da ordem das etapas de processamento e das dependências entre scripts antes de desenhar os diagramas Mermaid.
+4. Mantenha links funcionais locais para arquivos e scripts usando a sintaxe [nome_do_script](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/...)
+5. Adicione ícones elegantes (emojis) e tabelas informativas para facilitar a navegação do desenvolvedor.
+6. Mantenha as explicações técnicas detalhadas de negócio e infraestrutura presentes na documentação antiga.
+7. NÃO use placeholders ou resumos. Escreva o conteúdo completo de cada arquivo Markdown atualizado.
+
+
+Abaixo estão os arquivos antigos para sua referência:
+--------------------------------------------------------------------------------
+--- INÍCIO DE ARQUIVO: /README.md (Raiz do projeto antigo) ---
+<div align="center">
+
+  <img src="icone.png?v=2" alt="Ícone do Projeto" width="220"/>
+
+  <h1>🌌 Tracker Animes — Pipeline de Tradução & Multiplexação</h1>
+
+  <p><strong>Esteira industrial local (on-premises) para auditar mídia, extrair, traduzir, sincronizar, curar, revisar e remuxar legendas de animes e filmes em PT-BR</strong></p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
+    <img src="https://img.shields.io/badge/LM_Studio-IA_Local-FF6B35?style=for-the-badge&logo=openai&logoColor=white" alt="LM Studio"/>
+    <img src="https://img.shields.io/badge/MKVToolNix-Essencial-4B0082?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="MKVToolNix"/>
+    <img src="https://img.shields.io/badge/FFmpeg-NVENC_HEVC-2E7D32?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg NVENC"/>
+    <img src="https://img.shields.io/badge/Gemma_4B-LLM-00E5FF?style=for-the-badge&logo=google&logoColor=white" alt="Gemma 4B"/>
+    <img src="https://img.shields.io/badge/Mistral_Nemo_2407-GGUF-FF7000?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral Nemo 2407"/>
+    <img src="https://img.shields.io/badge/Qwen2.5--7B-Alibaba-FF6A00?style=for-the-badge&logo=alibabadotcom&logoColor=white" alt="Qwen2.5-7B"/>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="Offline"/>
+    <img src="https://img.shields.io/badge/Remux-Sem_Re--encode-blue?style=flat-square" alt="Remux"/>
+    <img src="https://img.shields.io/badge/12_Fases-1_a_12-blueviolet?style=flat-square" alt="12 Fases"/>
+    <img src="https://img.shields.io/badge/Esteiras-A_a_I-9146FF?style=flat-square" alt="Esteiras A-I"/>
+    <img src="https://img.shields.io/badge/Logs-Auditáveis-informational?style=flat-square" alt="Logs"/>
+  </p>
+
+</div>
+
+> **Documentação completa:** [`docs/`](docs/README.md) — guias por fase, diagramas e troubleshooting.
+
+---
+
+## 🚀 Visão geral
+
+O projeto é organizado em **12 fases numeradas** (pastas `1_` a `12_`). Cada **esteira** (fluxo de trabalho) usa um subconjunto dessas fases, conforme o formato de origem da legenda (ASS embutido, SRT externo, PGS bitmap, ASS chinês), o idioma de origem (inglês, francês, chinês simplificado) e eventuais reparos/revisões pós-tradução específicos do título.
+
+| Fase | Pasta | Função |
+|:---:|:---|:---|
+| 1 | `1_analisador_de_midia/` | Audita mídia: codecs, faixas, sincronia *(opcional)* |
+| 2 | `2_extrator_legenda/` | Extrai legenda original (ASS/SRT/PGS) do `.mkv` |
+| 3 | `3-conversor_str_ass/` | Converte `*_PTBR.srt` → `*_PTBR.ass` com sync de FPS |
+| 4 | `4_tradutor_ia_gemma4/` | Tradução via LM Studio + Gemma 4B (4 variantes, inglês) |
+| 4-B | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/` | 🇫🇷 Tradução via LM Studio + Mistral Nemo 2407 (2 variantes, francês) |
+| 5 | `5_juntar_legendas_filmes/` | Remux: junta vídeo + legenda PT-BR (sem re-encode) |
+| 6 | `6_sincronizacao_legenda/` | Auxiliar: audita/corrige dessincronia |
+| 7 | `7_decodificador/` | Auxiliar: recomprime vídeo (HEVC/NVENC) |
+| 8 | `8_cura_legendas/` | Auxiliar: repara corrupção de tags PT-BR |
+| 9 | `9_reparo_de_traducao/` | 🩹 Reparo: retraduz `[ERRO_TRADUCAO: ...]` via IA/Gemma (batch=1) |
+| 10 | `10_correcao_guilty_crown/` | 🎵 Correção offline de `[ERRO_TRADUCAO:]` e cores/tags de músicas OP/ED |
+| 11 | `11_chines_LLM_alibaba_qwen2/` | 🐉 Tradução chinês simplificado → PT-BR via Qwen2.5-7B-Instruct |
+| 12 | `12_revisao_legenda/` | 🔬 Revisão/correção final por título (lore, resíduos, remux) |
+
+### Diagrama geral
+
+```mermaid
+flowchart LR
+    MKV["Video .mkv"] --> F1["Fase 1\nAnalisador"]
+
+    F1 -->|ASS embutido EN, 86| A4["Fase 4\n86/sub_extractor.py"]
+    F1 -->|ASS embutido FR, Macross Delta| D4["Fase 4-B\nmacross_deslta.py\nMistral Nemo 2407"]
+    F1 -->|ASS embutido FR, Gundam Origin| I4["Fase 4-B\nscript_tradutor_fr_gundam_origin.py\nMistral Nemo 2407"]
+    F1 -->|ASS chines CHS, Gundam Origin| H11["Fase 11\nbatch_translator_origin_zh.py"]
+    F1 -->|SRT externo| B4["Fase 4\ntradutor_srt_direto.py"]
+    F1 -->|PGS bitmap| C2["Fase 2\nextrator_inteligente_pgs.py"]
+    F1 -->|ASS para lote| E2["Fase 2\nextrator_inteligente_ass.py"]
+
+    C2 --> OCR["OCR externo\nSubtitle Edit + Tesseract"]
+    OCR --> C3["Fase 3\nconversor_srt_para_ass.py"]
+    B4 --> B3["Fase 3\nconversor_srt_para_ass.py"]
+
+    E2 --> E4["Fase 4\nbatch_translator_ass.py\nou batch_translator_unicorn.py"]
+    E4 -.->|se TAG corrompido| F8["Fase 8\nCura de legendas"]
+    E4 -.->|se ERRO_TRADUCAO| F9["Fase 9\nReparo via IA avulso"]
+    D4 -.->|se ERRO_TRADUCAO| F9
+    E4 -.->|Guilty Crown| F10["Fase 10\nCorrecao offline GC"]
+    H11 -.->|se ERRO_TRADUCAO| H9["Fase 11\nrepara_erros_origin_zh.py"]
+
+    A4 --> F12{{"Fase 12 (opcional)\nrevisao por titulo"}}
+    D4 --> F12
+    I4 --> F12
+    E4 --> F12
+    H11 --> F12
+    H9 --> F12
+
+    F12 --> F5["Fase 5\nbatch_remuxer.py"]
+    B3 --> F5
+    C3 --> F5
+    F8 --> F5
+    F9 --> F5
+    F10 --> F5
+
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+    OUT -.->|opcional| F6["Fase 6\nSincronizacao"]
+    OUT -.->|opcional, arquivo grande| F7["Fase 7\nOtimizacao GPU"]
+
+    style F1 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+    style OUT fill:#1e4620,stroke:#32CD32,color:#fff
+    style F8 fill:#5c1010,stroke:#ff4444,color:#fff
+    style F9 fill:#5c1010,stroke:#ff4444,color:#fff
+    style F10 fill:#5c1010,stroke:#ff4444,color:#fff
+    style H9 fill:#5c1010,stroke:#ff4444,color:#fff
+    style H11 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style D4 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style I4 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F12 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style OCR fill:#5c1010,stroke:#ff4444,color:#fff
+```
+
+Diagramas detalhados de cada esteira: [docs/arquitetura.md](docs/arquitetura.md).
+
+### Esteiras (fluxos completos)
+
+| Esteira | Fases | Cenário |
+|:---:|:---|:---|
+| **A** | 4 → [12] → 5 | Eighty-Six, ASS embutido (inglês) |
+| **B** | 4 → 3 → 5 | Filme com SRT externo (inglês, Macross) |
+| **C** | 2 → OCR externo → 3 → 5 | Legenda PGS (Blu-ray bitmap) |
+| **D** | 4-B → [12] → 5 | Macross Delta, ASS embutido (francês, Mistral Nemo), multi-thread |
+| **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) |
+| **F** | 2 → 4 → 8 → [12] → 5 | Gundam Unicorn (especializada, com cura de legendas) |
+| **G** | 2 → 4 → 10 → [12] → 5 | Guilty Crown (correção de nomes e cores de músicas) |
+| **H** | 2 → 11 → [12] → 5 | Gundam Origin, legenda chinesa (CHS, Qwen2.5) |
+| **I** | 4-B → 5 | Gundam Origin, legenda francesa (SUBFRENCH, Mistral Nemo) |
+
+| ⚡ Remux ~1,5 s/ep. | 🔒 LLM local | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 | 🎮 Otimização NVENC | 🩹 Reparo `[ERRO_TRADUCAO:]` | 🔬 QA por título |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+
+---
+
+## ⚡ Início rápido
+
+```powershell
+cd C:\TRACKER-ANIMES\projeto-tracker-animes-traducao
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+# LM Studio na porta 1234 — troque o modelo conforme a fase:
+#   Gemma 4B (Fases 4, 9) | Mistral Nemo Instruct 2407 GGUF (Fase 4-B) | Qwen2.5-7B-Instruct (Fase 11)
+```
+
+**Esteira A — Eighty-Six, episódios MKV (ASS embutido EN):**
+
+```powershell
+python ".\1_analisador_de_midia\media_analyzer.py"   # opcional
+python ".\4_tradutor_ia_gemma4\86\sub_extractor.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+**Esteira B — Filme (SRT externo):**
+
+```powershell
+python ".\4_tradutor_ia_gemma4\5_tradutor_de_legenda\tradutor_srt_direto.py"
+python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+**Esteira C — Legenda PGS (Blu-ray):**
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_pgs.py"
+# OCR externo (Subtitle Edit + Tesseract) -> *_PTBR.srt
+python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+**Esteira H — Gundam Origin, legenda chinesa (Qwen2.5):**
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\11_chines_LLM_alibaba_qwen2\batch_translator_origin_zh.py" --entrada "<pasta_chs_ass>" --saida "<pasta_saida>"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+**Esteira D — Macross Delta (legenda francesa, Mistral Nemo):**
+
+```powershell
+python ".\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\macross_deslta.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+Demais esteiras (E, F, G, I) e fases auxiliares/reparos (4-B, 6, 7, 8, 9, 10, 11, 12): [Guia de execução](docs/guia-de-execucao.md).
+
+Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detalhada: **[docs/pipeline-srt.md](docs/pipeline-srt.md)**
+
+---
+
+## 📑 Índice da documentação
+
+### Guias gerais
+
+| Guia | Descrição |
+|:---|:---|
+| **[📖 Índice completo](docs/README.md)** | Hub da documentação |
+| [Arquitetura](docs/arquitetura.md) | 12 fases + diagramas de todas as esteiras (A–I) |
+| [Estrutura do repositório](docs/estrutura-repositorio.md) | Árvore de pastas e pastas legadas |
+| [Pipeline SRT (Esteira B)](docs/pipeline-srt.md) | Filmes e legendas externas |
+| [Instalação](docs/instalacao.md) | Checklist SO, venv, LM Studio, MKVToolNix, FFmpeg |
+| [Dependências Python](docs/dependencias-python.md) | `requirements.txt` por fase |
+| [Guia de execução](docs/guia-de-execucao.md) | Comandos por esteira e layout de pastas |
+| [Logs e auditoria](docs/logs-e-auditoria.md) | Artefatos de log por fase |
+| [Solução de problemas](docs/solucao-de-problemas.md) | Troubleshooting por esteira |
+
+### Módulos por fase
+
+| Fase | Documento | Pasta / script principal |
+|:---:|:---|:---|
+| 1 | [Analisador de mídia](docs/modulo-fase-1.md) | `1_analisador_de_midia/media_analyzer.py` |
+| 2 | [Extração de legendas](docs/modulo-fase-2.md) | `2_extrator_legenda/` (ASS, SRT, PGS) |
+| 3 | [Conversor SRT → ASS](docs/modulo-fase-3.md) | `3-conversor_str_ass/conversor_srt_para_ass.py` |
+| 4 | [Tradução IA (LM Studio/Gemma)](docs/modulo-fase-4.md) | `4_tradutor_ia_gemma4/` (4 variantes, inglês, 1 por título) |
+| 4-B | [Tradução IA (LM Studio/Mistral Nemo)](docs/modulo-fase-4b.md) | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/` (2 variantes, francês) |
+| 5 | [Remuxer](docs/modulo-fase-5.md) | `5_juntar_legendas_filmes/batch_remuxer.py` |
+| 6 | [Sincronização de legendas](docs/modulo-fase-6.md) | `6_sincronizacao_legenda/` |
+| 7 | [Otimização de vídeo (GPU)](docs/modulo-fase-7.md) | `7_decodificador/gpu_video_optimizer.py` |
+| 8 | [Cura de legendas](docs/modulo-fase-8.md) | `8_cura_legendas/` |
+| 9 | [Reparo de tradução](docs/modulo-fase-9.md) | `9_reparo_de_traducao/` |
+| 10 | [Correção Guilty Crown](docs/modulo-fase-10.md) | `10_correcao_guilty_crown/` |
+| 11 | [Tradução chinês (Qwen2.5)](docs/modulo-fase-11.md) | `11_chines_LLM_alibaba_qwen2/` |
+| 12 | [Revisão final por título](docs/modulo-fase-12.md) | `12_revisao_legenda/` |
+
+### Esteiras (fluxos completos)
+
+| Esteira | Fases | Cenário | Documento |
+|:---:|:---|:---|:---|
+| **A** | 4 → [12] → 5 | Eighty-Six, ASS embutido (inglês) | [Arquitetura](docs/arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) |
+| **B** | 4 → 3 → 5 | Filme com SRT externo (inglês) | [Pipeline SRT](docs/pipeline-srt.md) |
+| **C** | 2 → OCR externo → 3 → 5 | Legenda PGS (Blu-ray bitmap) | [Arquitetura](docs/arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) |
+| **D** | 4-B → [12] → 5 | Macross Delta, ASS embutido (francês, Mistral Nemo) | [Arquitetura](docs/arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread) |
+| **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](docs/arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista) |
+| **F** | 2 → 4 → 8 → [12] → 5 | Gundam Unicorn (especializada) | [Arquitetura](docs/arquitetura.md#esteira-f--gundam-unicorn-especializada) |
+| **G** | 2 → 4 → 10 → [12] → 5 | Guilty Crown (correção de nomes e cores) | [Arquitetura](docs/arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
+| **H** | 2 → 11 → [12] → 5 | Gundam Origin, legenda chinesa (CHS, Qwen2.5) | [Arquitetura](docs/arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25) |
+| **I** | 4-B → 5 | Gundam Origin, legenda francesa (SUBFRENCH, Mistral Nemo) | [Arquitetura](docs/arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench) |
+
+---
+
+## 📄 Licença
+
+[LICENSE](LICENSE)
+
+---
+
+<div align="center">
+
+  <p>
+    <strong>Construído por</strong>
+    <a href="https://github.com/carmipa"><strong>Paulo André Carminati</strong></a>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/Antigravity-FF6B35?style=flat-square" alt="Antigravity"/>
+    <img src="https://img.shields.io/badge/Cursor_IDE-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor IDE"/>
+    <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini"/>
+    <img src="https://img.shields.io/badge/Claude-CC785C?style=flat-square" alt="Claude"/>
+  </p>
+
+  <p><sub>Pipeline industrial de tradução local · Junho 2026</sub></p>
+
+</div>
+
+--- FIM DE ARQUIVO: /README.md ---
+
+--- INÍCIO DE ARQUIVO: docs/README.md ---
+# 📚 Documentação — Tracker Animes
+
+Índice central. O [README principal](../README.md) traz visão rápida e links para esta pasta.
+
+<p>
+  <img src="https://img.shields.io/badge/12_Fases-1_a_12-blueviolet?style=flat-square" alt="12 Fases"/>
+  <img src="https://img.shields.io/badge/Esteiras-A_a_I-9146FF?style=flat-square" alt="Esteiras A-I"/>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+"/>
+  <img src="https://img.shields.io/badge/LM_Studio-Gemma_%2B_Qwen2.5-FF6B35?style=flat-square&logo=openai&logoColor=white" alt="LM Studio"/>
+  <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="Offline"/>
+</p>
+
+---
+
+## 🗂️ Guias gerais
+
+| Documento | Conteúdo |
+|:---|:---|
+| [**🏗️ Arquitetura do pipeline**](arquitetura.md) | Mapa das 12 fases + diagramas de todas as esteiras (A–I) |
+| [📦 Estrutura do repositório](estrutura-repositorio.md) | Árvore de pastas (fases 1–12) + pastas legadas |
+| [**🎬 Pipeline SRT (Esteira B)**](pipeline-srt.md) | Filmes e legendas externas |
+| [⚙️ Instalação e pré-requisitos](instalacao.md) | Checklist SO, venv, LM Studio, MKVToolNix, FFmpeg |
+| [🐍 Dependências Python](dependencias-python.md) | `requirements.txt` |
+| [▶️ Guia de execução](guia-de-execucao.md) | Comandos por fase e por esteira |
+| [📊 Logs e auditoria](logs-e-auditoria.md) | Artefatos de log por fase |
+| [⚠️ Solução de problemas](solucao-de-problemas.md) | Troubleshooting |
+
+---
+
+## 🛠️ Módulos por fase
+
+| Fase | Documento | Pasta / script principal |
+|:---:|:---|:---|
+| 1 | [🔍 Analisador de mídia](modulo-fase-1.md) | `1_analisador_de_midia/media_analyzer.py` |
+| 2 | [✂️ Extração de legendas](modulo-fase-2.md) | `2_extrator_legenda/` (ASS, SRT, PGS) |
+| 3 | [🔁 Conversor SRT → ASS](modulo-fase-3.md) | `3-conversor_str_ass/conversor_srt_para_ass.py` |
+| 4 | [🤖 Tradução IA (LM Studio/Gemma)](modulo-fase-4.md) | `4_tradutor_ia_gemma4/` (4 variantes, inglês, 1 por título) |
+| 4-B | [🇫🇷 Tradução IA (LM Studio/Mistral Nemo)](modulo-fase-4b.md) | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/` (2 variantes, francês) |
+| 5 | [🎬 Remuxer](modulo-fase-5.md) | `5_juntar_legendas_filmes/batch_remuxer.py` |
+| 6 | [⏱️ Sincronização de legendas](modulo-fase-6.md) | `6_sincronizacao_legenda/` |
+| 7 | [🎮 Otimização de vídeo (GPU)](modulo-fase-7.md) | `7_decodificador/gpu_video_optimizer.py` |
+| 8 | [🩹 Cura de legendas](modulo-fase-8.md) | `8_cura_legendas/` |
+| 9 | [🩹 Reparo de tradução](modulo-fase-9.md) | `9_reparo_de_traducao/` |
+| 10 | [🎵 Correção Guilty Crown](modulo-fase-10.md) | `10_correcao_guilty_crown/` |
+| 11 | [🐉 Tradução chinês (Qwen2.5)](modulo-fase-11.md) | `11_chines_LLM_alibaba_qwen2/` |
+| 12 | [🔬 Revisão final por título](modulo-fase-12.md) | `12_revisao_legenda/` |
+
+---
+
+## 🔄 Esteiras (fluxos completos)
+
+| Esteira | Fases | Cenário | Documento |
+|:---:|:---|:---|:---|
+| **A** | 4 → [12] → 5 | Eighty-Six, ASS embutido (inglês) | [Arquitetura](arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) |
+| **B** | 4 → 3 → 5 | Filme com SRT externo (inglês, Macross) | [Pipeline SRT](pipeline-srt.md) |
+| **C** | 2 → OCR externo → 3 → 5 | Legenda PGS (Blu-ray bitmap) | [Arquitetura](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) |
+| **D** | 4-B → [12] → 5 | Macross Delta, ASS embutido (francês, Mistral Nemo) | [Arquitetura](arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread) |
+| **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista) |
+| **F** | 2 → 4 → 8 → [12] → 5 | Gundam Unicorn (especializada) | [Arquitetura](arquitetura.md#esteira-f--gundam-unicorn-especializada) |
+| **G** | 2 → 4 → 10 → [12] → 5 | Guilty Crown (correção de nomes e cores) | [Arquitetura](arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
+| **H** | 2 → 11 → [12] → 5 | Gundam Origin, legenda chinesa (CHS, Qwen2.5) | [Arquitetura](arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25) |
+| **I** | 4-B → 5 | Gundam Origin, legenda francesa (SUBFRENCH, Mistral Nemo) | [Arquitetura](arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench) |
+
+`[12]` = passo opcional de QA/correção final por título. Fases **1, 6, 7, 8** são auxiliares e podem ser usadas em qualquer esteira. **Fase 4-B** é a variante em francês da Fase 4 (modelo Mistral Nemo em vez de Gemma). Fases **9, 10, 11** são reparos pós-tradução para falhas `[ERRO_TRADUCAO:]`. A Fase **12** é o catálogo de revisões finais por título.
+
+---
+
+## Ordem de leitura
+
+**Primeira vez:** [Instalação](instalacao.md) → [Arquitetura](arquitetura.md) → [Estrutura do repositório](estrutura-repositorio.md)
+
+**Episódios MKV (Esteira A, inglês):** Fases [1](modulo-fase-1.md) (opcional) → [4](modulo-fase-4.md) → [5](modulo-fase-5.md)
+
+**Episódios MKV (Esteira D, francês):** Fases [1](modulo-fase-1.md) (opcional) → [4-B](modulo-fase-4b.md) → [5](modulo-fase-5.md)
+
+**Filme/SRT (Esteira B):** [Pipeline SRT](pipeline-srt.md) → Fases 4 → 3 → 5
+
+**Gundam Origin (Esteira H, legenda chinesa):** [Fase 2](modulo-fase-2.md) → [Fase 11](modulo-fase-11.md) → [Fase 12](modulo-fase-12.md) → [Fase 5](modulo-fase-5.md)
+
+**Problemas:** [Logs](logs-e-auditoria.md) → [Solução de problemas](solucao-de-problemas.md)
+
+**Falhas `[ERRO_TRADUCAO:]` pós-tradução:** [Fase 9](modulo-fase-9.md) (reparo via IA/Gemma), [Fase 10](modulo-fase-10.md) (correção offline, Guilty Crown) ou [Fase 11](modulo-fase-11.md#repara_erros_origin_zhpy) (reparo via IA/Qwen2.5, Gundam Origin)
+
+**Erros de lore/resíduos após a tradução:** [Fase 12](modulo-fase-12.md) — catálogo de scripts de QA por título
+
+---
+
+## 👤 Autoria
+
+**[Paulo André Carminati](https://github.com/carmipa)** · Python · Antigravity · Cursor IDE · Gemini · Claude
+
+---
+
+[← Voltar ao README principal](../README.md)
+
+--- FIM DE ARQUIVO: docs/README.md ---
+
+--- INÍCIO DE ARQUIVO: docs/arquitetura.md ---
+# 🏗️ Arquitetura do Pipeline
+
+[← Índice da documentação](README.md) · [README principal](../README.md)
+
+<p>
+  <img src="https://img.shields.io/badge/12_Fases-1_a_12-blueviolet?style=flat-square" alt="12 Fases"/>
+  <img src="https://img.shields.io/badge/Esteiras-A_a_I-9146FF?style=flat-square" alt="Esteiras A-I"/>
+  <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="Offline"/>
+  <img src="https://img.shields.io/badge/Remux-Sem_Re--encode-blue?style=flat-square" alt="Remux sem re-encode"/>
+</p>
+
+O projeto é organizado em **12 fases numeradas** (pastas `1_` a `12_`). Cada **esteira** (fluxo de trabalho) usa um subconjunto dessas fases, dependendo do formato de origem da legenda (ASS embutido, SRT externo, PGS bitmap, ASS chinês), do idioma de origem (inglês, francês, chinês simplificado) e de eventuais reparos/revisões pós-tradução específicos do título.
+
+---
+
+## Mapa de fases
+
+| Fase | Pasta | Função | Doc |
+|:---:|:---|:---|:---|
+| **1** | `1_analisador_de_midia/` | Audita mídia: codecs, faixas, sincronia | [Fase 1](modulo-fase-1.md) |
+| **2** | `2_extrator_legenda/` | Extrai legenda original (ASS/SRT/PGS) do `.mkv` | [Fase 2](modulo-fase-2.md) |
+| **3** | `3-conversor_str_ass/` | Converte `*_PTBR.srt` → `*_PTBR.ass` com sync de FPS | [Fase 3](modulo-fase-3.md) |
+| **4** | `4_tradutor_ia_gemma4/` | Tradução via LM Studio + Gemma 4B (4 variantes, inglês) | [Fase 4](modulo-fase-4.md) |
+| **4-B** | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/` | 🇫🇷 Tradução via LM Studio + Mistral Nemo 2407 (2 variantes, francês) | [Fase 4-B](modulo-fase-4b.md) |
+| **5** | `5_juntar_legendas_filmes/` | Remux: junta vídeo + legenda PT-BR | [Fase 5](modulo-fase-5.md) |
+| **6** | `6_sincronizacao_legenda/` | Auxiliar: audita/corrige dessincronia | [Fase 6](modulo-fase-6.md) |
+| **7** | `7_decodificador/` | Auxiliar: recomprime vídeo (HEVC/NVENC) | [Fase 7](modulo-fase-7.md) |
+| **8** | `8_cura_legendas/` | Auxiliar: repara corrupção de tags PT-BR | [Fase 8](modulo-fase-8.md) |
+| **9** | `9_reparo_de_traducao/` | 🩹 Reparo: retraduz linhas `[ERRO_TRADUCAO: ...]` via IA (batch=1) | [Fase 9](modulo-fase-9.md) |
+| **10** | `10_correcao_guilty_crown/` | 🎵 Correção offline de `[ERRO_TRADUCAO:]` e cores/tags de músicas OP/ED | [Fase 10](modulo-fase-10.md) |
+| **11** | `11_chines_LLM_alibaba_qwen2/` | 🐉 Tradução chinês simplificado → PT-BR via Qwen2.5-7B-Instruct (Gundam Origin) | [Fase 11](modulo-fase-11.md) |
+| **12** | `12_revisao_legenda/` | 🔬 Revisão/correção final por título (lore, resíduos, remux) | [Fase 12](modulo-fase-12.md) |
+
+As fases **1, 6, 7 e 8** são **opcionais/auxiliares** e podem ser usadas em qualquer esteira, conforme necessário. As fases **2, 3, 4 e 5** formam o núcleo das esteiras abaixo. A **Fase 4-B** não é uma fase numerada sequencial — é uma **variante de modelo** da Fase 4 (mesmo papel: extrai + traduz), usada para as duas legendas em **francês** (Macross Delta, Gundam Origin) desde que migraram do Gemma 4B para o **Mistral Nemo Instruct 2407**. As fases **9 e 10** são **reparos pós-tradução**, aplicados sobre a saída da Fase 4/4-B quando há marcadores `[ERRO_TRADUCAO:]` — a Fase 9 usa IA local (LM Studio/Gemma), a Fase 10 é especializada para a série *Guilty Crown* e roda 100% offline. A **Fase 11** é uma variante completa da Fase 4 (extração + tradução) para a legenda **chinesa** de Gundam Origin, usando o modelo **Qwen2.5** em vez do Gemma. A **Fase 12** é o catálogo de **scripts de QA por título**, aplicado depois que a tradução/remux já rodou, para corrigir erros de lore e remultiplexar o `.mkv` final.
+
+---
+
+## Visão geral — todas as esteiras
+
+```mermaid
+flowchart LR
+    MKV["Video .mkv"] --> F1["Fase 1\nAnalisador"]
+
+    F1 -->|ASS embutido EN, 86| A4["Fase 4\n86/sub_extractor.py"]
+    F1 -->|ASS embutido FR, Macross Delta| D4["Fase 4-B\nmacross_deslta.py\nMistral Nemo 2407"]
+    F1 -->|ASS embutido FR, Gundam Origin| I4["Fase 4-B\nscript_tradutor_fr_gundam_origin.py\nMistral Nemo 2407"]
+    F1 -->|ASS chines CHS, Gundam Origin| H11["Fase 11\nbatch_translator_origin_zh.py"]
+    F1 -->|SRT externo| B4["Fase 4\ntradutor_srt_direto.py"]
+    F1 -->|PGS bitmap| C2["Fase 2\nextrator_inteligente_pgs.py"]
+    F1 -->|ASS para lote| E2["Fase 2\nextrator_inteligente_ass.py"]
+
+    C2 --> OCR["OCR externo\nSubtitle Edit + Tesseract"]
+    OCR --> C3["Fase 3\nconversor_srt_para_ass.py"]
+    B4 --> B3["Fase 3\nconversor_srt_para_ass.py"]
+
+    E2 --> E4["Fase 4\nbatch_translator_ass.py\nou batch_translator_unicorn.py"]
+    E4 -.->|se TAG corrompido| F8["Fase 8\nCura de legendas"]
+    E4 -.->|se ERRO_TRADUCAO| F9["Fase 9\nReparo via IA avulso"]
+    D4 -.->|se ERRO_TRADUCAO| F9
+    E4 -.->|Guilty Crown| F10["Fase 10\nCorrecao offline GC"]
+    H11 -.->|se ERRO_TRADUCAO| H9["Fase 11\nrepara_erros_origin_zh.py"]
+
+    A4 --> F12{{"Fase 12 (opcional)\nrevisao por titulo"}}
+    D4 --> F12
+    I4 --> F12
+    E4 --> F12
+    H11 --> F12
+    H9 --> F12
+
+    F12 --> F5["Fase 5\nbatch_remuxer.py"]
+    B3 --> F5
+    C3 --> F5
+    F8 --> F5
+    F9 --> F5
+    F10 --> F5
+
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+    OUT -.->|opcional| F6["Fase 6\nSincronizacao"]
+    OUT -.->|opcional, arquivo grande| F7["Fase 7\nOtimizacao GPU"]
+
+    style F1 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+    style OUT fill:#1e4620,stroke:#32CD32,color:#fff
+    style F8 fill:#5c1010,stroke:#ff4444,color:#fff
+    style F9 fill:#5c1010,stroke:#ff4444,color:#fff
+    style F10 fill:#5c1010,stroke:#ff4444,color:#fff
+    style H9 fill:#5c1010,stroke:#ff4444,color:#fff
+    style H11 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F12 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style OCR fill:#5c1010,stroke:#ff4444,color:#fff
+```
+
+---
+
+## Esteira A — Episódio MKV com ASS embutido (inglês)
+
+Fluxo padrão para episódios de série com legenda `S_TEXT/ASS` em inglês embutida no `.mkv`. Implementação atual: **Eighty-Six (86)**, via `4_tradutor_ia_gemma4/86/sub_extractor.py`.
+
+```mermaid
+flowchart LR
+    MKV["episodios/*.mkv"] --> F1["Fase 1 - opcional\nmedia_analyzer.py"]
+    F1 --> F4["Fase 4\n86/sub_extractor.py\n(extrai + traduz)"]
+    F4 --> ASS["traducao/*_PTBR.ass"]
+    ASS -.->|opcional| F12["Fase 12\nrevisao_86.py"]
+    MKV --> F5["Fase 5\nbatch_remuxer.py"]
+    ASS --> F5
+    F12 -.-> F5
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style F4 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F12 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+```powershell
+python ".\1_analisador_de_midia\media_analyzer.py"      # opcional
+python ".\4_tradutor_ia_gemma4\86\sub_extractor.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+python ".\12_revisao_legenda\revisao_86.py"             # opcional, corrige alucinações residuais + remux
+```
+
+---
+
+## Esteira B — Filme com SRT externo (inglês)
+
+Para filmes/releases cuja legenda em inglês vem **separada** em um `.srt`. Detalhes: [Pipeline SRT](pipeline-srt.md).
+
+```mermaid
+flowchart LR
+    SRT["legenda/*.srt EN"] --> F4["Fase 4\ntradutor_srt_direto.py"]
+    F4 --> SRTPT["legenda/*_PTBR.srt"]
+    SRTPT --> F3["Fase 3\nconversor_srt_para_ass.py"]
+    F3 --> ASS["traducao/*_PTBR.ass"]
+
+    MKV["filme.mkv"] --> F5["Fase 5\nbatch_remuxer.py"]
+    ASS --> F5
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style F4 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F3 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+```powershell
+python ".\4_tradutor_ia_gemma4\5_tradutor_de_legenda\tradutor_srt_direto.py"
+python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+---
+
+## Esteira C — Legenda PGS (Blu-ray bitmap)
+
+Para releases cuja única legenda embutida é **PGS** (`S_HDMV/PGS`, imagem). Requer **OCR externo** (não incluso no repositório).
+
+```mermaid
+flowchart LR
+    MKV["filme.mkv (PGS)"] --> F2["Fase 2\nextrator_inteligente_pgs.py"]
+    F2 --> SUP["extraidos_sup/*.sup"]
+    SUP --> OCR["OCR externo\nSubtitle Edit + Tesseract"]
+    OCR --> SRT["*_PTBR.srt"]
+    SRT --> F3["Fase 3\nconversor_srt_para_ass.py"]
+    F3 --> ASS["traducao/*_PTBR.ass"]
+
+    MKV --> F5["Fase 5\nbatch_remuxer.py"]
+    ASS --> F5
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style F2 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style OCR fill:#5c1010,stroke:#ff4444,color:#fff
+    style F3 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_pgs.py"
+# OCR externo (Subtitle Edit + Tesseract) -> *_PTBR.srt
+python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+> O OCR `.sup → .srt` **não faz parte** deste repositório. A legenda traduzida deve ser gerada externamente antes da Fase 3.
+
+---
+
+## Esteira D — Macross Delta, tradução francês → PT-BR (multi-thread)
+
+Mesmo formato da Esteira A, mas para legendas **ASS embutidas em francês**, com glossário e cache dedicados. Implementação atual: **[Fase 4-B](modulo-fase-4b.md)** — `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/macross_deslta.py` (migrado do Gemma 4B para o **Mistral Nemo Instruct 2407 GGUF** em 2026-06-17).
+
+```mermaid
+flowchart LR
+    MKV["episodios/*.mkv (FR)"] --> F1["Fase 1 - opcional"]
+    F1 --> F4B["Fase 4-B\nmacross_deslta.py\nMistral Nemo 2407, 2 threads"]
+    F4B --> ASS["traducao/*_PTBR.ass"]
+    ASS -.->|opcional| F12["Fase 12\nrevisao_legenda_macross_delta.py"]
+    MKV --> F5["Fase 5\nbatch_remuxer.py"]
+    ASS --> F5
+    F12 -.-> F5
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style F4B fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F12 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+```powershell
+# Pré-requisito: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\macross_deslta.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+> Filme avulso da mesma série (Macross Delta — Filme 2): mesma esteira, revisão final com `12_revisao_legenda\micross_delta_filme2.py`.
+
+---
+
+## Esteira E — Lote ASS pré-extraído (Gundam Reconguista)
+
+Para quando a legenda já foi extraída (Fase 2) e a tradução é feita em **lote agrupado** (menos chamadas HTTP).
+
+```mermaid
+flowchart LR
+    MKV["episodios/*.mkv"] --> F2["Fase 2\nextrator_inteligente_ass.py"]
+    F2 --> ENG["legendas_eng/*_ENG.ass"]
+    ENG --> F4["Fase 4\nbatch_translator_ass.py"]
+    F4 --> PT["*_PTBR.ass"]
+    MKV --> F5["Fase 5\nbatch_remuxer.py"]
+    PT --> F5
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style F2 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F4 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\4_tradutor_ia_gemma4\tradutor_ass\batch_translator_ass.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+---
+
+## Esteira F — Gundam Unicorn (especializada)
+
+Igual à Esteira E, com glossário Universal Century e etapa de **cura de legendas** para corrigir corrupção de tags conhecida.
+
+```mermaid
+flowchart LR
+    MKV["episodios/*.mkv"] --> F2["Fase 2\nextrator_inteligente_ass.py"]
+    F2 --> ENG["*_ENG.ass"]
+    ENG --> F4["Fase 4\nbatch_translator_unicorn.py"]
+    F4 --> PT["*_PTBR.ass"]
+    PT -.->|se TAG corrompido| F8["Fase 8\ncura_legendas_tag.py /\ncura_gundam_mkv.py"]
+    F8 --> PTC["traducao_curada/*_PTBR.ass"]
+    PT --> F5["Fase 5\nbatch_remuxer.py"]
+    PTC --> F5
+    MKV --> F5
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style F2 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F4 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F8 fill:#5c1010,stroke:#ff4444,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\4_tradutor_ia_gemma4\tradutor_gundam_unicornio\batch_translator_unicorn.py"
+python ".\8_cura_legendas\cura_legendas_tag.py"          # se necessario
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+python ".\12_revisao_legenda\revisao_legenda_gundam_unicornio.py"   # opcional, corrige ep.1 + letras OP/ED + remux
+```
+
+---
+
+## Esteira G — Guilty Crown (correção de nomes e cores de músicas)
+
+<p>
+  <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="Offline"/>
+  <img src="https://img.shields.io/badge/Especializado-Guilty_Crown-9146FF?style=flat-square" alt="Guilty Crown"/>
+</p>
+
+Igual à Esteira E, mas a saída da Fase 4 fica com marcadores `[ERRO_TRADUCAO: ...]` (nomes próprios) e cores de OP/ED ilegíveis. A **[Fase 10](modulo-fase-10.md)** corrige os dois problemas **sem precisar do LM Studio**.
+
+```mermaid
+flowchart LR
+    MKV["episodios/*.mkv\n(Guilty Crown)"] --> F2["Fase 2\nextrator_inteligente_ass.py"]
+    F2 --> ENG["legendas_eng/*_ENG.ass"]
+    ENG --> F4["Fase 4\nbatch_translator_ass.py\n(ou variante)"]
+    F4 --> PTERR["legendas_eng/*_ENG.ass\ncom marcador ERRO_TRADUCAO"]
+    PTERR --> F10A["Fase 10a\ncorrigir_guilty_crown.py"]
+    F10A --> PT["legendas_ptbr/*_PTBR.ass"]
+    PT --> F10B["Fase 10b\ncorrigir_cores_musicas.py"]
+    F10B --> PTOK["legendas_ptbr/*_PTBR.ass\ncores OP/ED corrigidas"]
+    MKV --> F5["Fase 5\nbatch_remuxer.py"]
+    PTOK --> F5
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style F2 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F4 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F10A fill:#5c1010,stroke:#ff4444,color:#fff
+    style F10B fill:#5c1010,stroke:#ff4444,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+    style OUT fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\4_tradutor_ia_gemma4\tradutor_ass\batch_translator_ass.py"   # ou variante adequada
+python ".\10_correcao_guilty_crown\corrigir_guilty_crown.py"           # remove [ERRO_TRADUCAO:]
+python ".\10_correcao_guilty_crown\corrigir_cores_musicas.py"          # cores/tags OP-ED
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+python ".\12_revisao_legenda\revisao_guild_crown.py"                   # opcional, diálogos + letras OP/ED + remux
+```
+
+> Se preferir retraduzir as falhas via IA em vez de manter o texto em inglês, use a **[Fase 9](modulo-fase-9.md)** (`repara_erros_traducao.py`, requer LM Studio) antes da Fase 10.
+
+---
+
+## Esteira H — Gundam Origin, legenda chinesa (CHS, Qwen2.5)
+
+<p>
+  <img src="https://img.shields.io/badge/Modelo-Qwen2.5--7B--Instruct-FF6A00?style=flat-square" alt="Qwen2.5-7B-Instruct"/>
+  <img src="https://img.shields.io/badge/Especializado-Gundam_The_Origin-9146FF?style=flat-square" alt="Gundam The Origin"/>
+</p>
+
+Fansub **POPGO** com legenda chinesa simplificada embutida (`.chs.ass`). Usa o modelo **Qwen2.5-7B-Instruct** em vez do Gemma 4B — melhor desempenho para o par CHS→PT-BR. Ver **[Fase 11](modulo-fase-11.md)**.
+
+```mermaid
+flowchart LR
+    MKV["episodios/*.mkv\n(POPGO, legenda CHS)"] --> F2["Fase 2\nextrator_inteligente_ass.py"]
+    F2 --> CHS["*.chs.ass"]
+    CHS --> F11["Fase 11\nbatch_translator_origin_zh.py\nQwen2.5-7B-Instruct"]
+    F11 --> PTERR{"Restou\nERRO_TRADUCAO?"}
+    PTERR -->|Sim| F11R["Fase 11\nrepara_erros_origin_zh.py"]
+    PTERR -->|Nao| PT["*_PTBR.ass"]
+    F11R --> PT
+    PT -.->|opcional| F12["Fase 12\nrevisao_legenda_origin.py\n(lore + cache + remux)"]
+    MKV --> F5["Fase 5\nbatch_remuxer.py"]
+    PT --> F5
+    F12 -.-> F5
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style F11 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F11R fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F12 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+    style OUT fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+# Pré-requisito: LM Studio na porta 1234 com Qwen2.5-7B-Instruct carregado
+python ".\11_chines_LLM_alibaba_qwen2\batch_translator_origin_zh.py" --entrada "<pasta_chs_ass>" --saida "<pasta_saida>"
+python ".\11_chines_LLM_alibaba_qwen2\repara_erros_origin_zh.py" --originais "<pasta_chs_ass>" --traduzidas "<pasta_ptbr>"   # se necessario
+python ".\12_revisao_legenda\revisao_legenda_origin.py"     # opcional, corrige lore + cache + remux
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+---
+
+## Esteira I — Gundam Origin, legenda francesa (SUBFRENCH)
+
+Rota alternativa para o mesmo título, quando o release disponível é o `SUBFRENCH` (legenda francesa embutida) em vez do POPGO chinês. Ver **[Fase 4-B](modulo-fase-4b.md)**.
+
+```mermaid
+flowchart LR
+    MKV["episodios/*.mkv\n(release SUBFRENCH)"] --> F1["Fase 1 - opcional"]
+    F1 --> F4B["Fase 4-B\nscript_tradutor_fr_gundam_origin.py\nMistral Nemo 2407, 2 threads"]
+    F4B --> ASS["traducao/*_PTBR.ass"]
+    MKV --> F5["Fase 5\nbatch_remuxer.py"]
+    ASS --> F5
+    F5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style F4B fill:#4B0082,stroke:#00E5FF,color:#fff
+    style F5 fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+```powershell
+# Pré-requisito: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\script_tradutor_fr_gundam_origin.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+> Esteiras H e I traduzem o **mesmo título** a partir de releases/idiomas de origem diferentes — use a que tiver a legenda de melhor qualidade disponível para o release que você possui.
+
+---
+
+## Camadas de dependência (todas as fases)
+
+```mermaid
+flowchart TB
+    subgraph DEP["Dependencias externas"]
+        MKVT["MKVToolNix\nFases 2, 4, 4-B, 5, 8, 12 (remux opcional)"]
+        LM["LM Studio :1234 (Gemma 4B)\nFases 4 e 9"]
+        LMM["LM Studio :1234 (Mistral Nemo 2407)\nFase 4-B"]
+        LMQ["LM Studio :1234 (Qwen2.5-7B)\nFase 11"]
+        MI["MediaInfo\nFase 1"]
+        FF["FFmpeg/FFprobe\nFases 6 e 7"]
+        OCRX["Subtitle Edit + Tesseract\nEsteira C (externo)"]
+    end
+
+    subgraph PY["Scripts Python"]
+        S1["media_analyzer.py"]
+        S2["extrator_inteligente_*.py"]
+        S3["conversor_srt_para_ass.py"]
+        S4["86/sub_extractor.py /\nbatch_translator_*.py / tradutor_srt_direto.py"]
+        S4B["macross_deslta.py /\nscript_tradutor_fr_gundam_origin.py"]
+        S5["batch_remuxer.py"]
+        S6["subtitle_fixer/stretcher/auditor"]
+        S7["gpu_video_optimizer.py"]
+        S8["cura_*.py"]
+        S9["repara_erros_traducao.py /\nlimpa_erros_residuais.py"]
+        S10["corrigir_guilty_crown.py /\ncorrigir_cores_musicas.py"]
+        S11["batch_translator_origin_zh.py /\nrepara_erros_origin_zh.py"]
+        S12["revisao_*.py / micross_delta_filme2.py"]
+    end
+
+    MI --> S1
+    MKVT --> S2
+    MKVT --> S4
+    MKVT --> S4B
+    MKVT --> S5
+    MKVT --> S8
+    MKVT -.-> S12
+    LM --> S4
+    LM --> S9
+    LMM --> S4B
+    LMQ --> S11
+    FF --> S6
+    FF --> S7
+    OCRX -.-> S3
+    S4 -.->|ERRO_TRADUCAO| S9
+    S4 -.->|ERRO_TRADUCAO, Guilty Crown| S10
+    S4B -.->|ERRO_TRADUCAO| S9
+    S11 -.->|ERRO_TRADUCAO| S11
+    S4 -.-> S12
+    S4B -.-> S12
+    S11 -.-> S12
+    S12 -.-> S5
+
+    style DEP fill:#1a1a2e,stroke:#666,color:#fff
+    style PY fill:#2b2b2b,stroke:#00E5FF,color:#fff
+```
+
+---
+
+## Binários externos (Windows)
+
+| Executável | Fases | Caminho padrão |
+|:---|:---|:---|
+| `mkvmerge.exe` | 2, 4, 4-B, 5, 8, 12 (remux opcional) | `C:\Program Files\MKVToolNix\` |
+| `mkvextract.exe` | 2, 4, 4-B, 8 | `C:\Program Files\MKVToolNix\` |
+| `ffmpeg.exe` / `ffprobe.exe` | 6, 7 | PATH do sistema |
+
+[Fase 3](modulo-fase-3.md) **não** usa MKVToolNix nem FFmpeg — conversão pura Python. As **[Fase 9](modulo-fase-9.md)**, **[Fase 10](modulo-fase-10.md)** e **[Fase 11](modulo-fase-11.md)** também não dependem de nenhum binário externo (apenas leitura/escrita de `.ass`/HTTP para o LM Studio). A **[Fase 12](modulo-fase-12.md)** usa MKVToolNix **somente** se o usuário optar por remultiplexar (prompt `s/n`).
+
+---
+
+## Servidor de IA
+
+| Componente | Fase | Observação |
+|:---|:---|:---|
+| **[LM Studio](https://lmstudio.ai/)** porta **1234** | 4, 4-B, 9, 11 | Servidor OpenAI-compatível local |
+| **Gemma 4B** (`google/gemma-4-e4b`) | 4, 9 | Modelo carregado no LM Studio para tradução EN e reparo |
+| **Mistral Nemo Instruct 2407** (GGUF) | 4-B | Modelo carregado no LM Studio para tradução FR (Macross Delta, Gundam Origin) — substituiu o Gemma 4B em 2026-06-17 por qualidade muito superior nesse par de idiomas |
+| **Qwen2.5-7B-Instruct** (Alibaba) | 11 | Modelo carregado no LM Studio para tradução CHS (Gundam Origin) |
+
+As **Fases 3, 6, 7, 8, 10 e 12** **não** usam IA. As Fases **4** e **9** dependem do LM Studio com **Gemma 4B** carregado; a Fase **4-B** depende do **Mistral Nemo Instruct 2407**; a Fase **11** depende do **Qwen2.5-7B-Instruct** — troque o modelo na interface do LM Studio antes de alternar entre essas fases (não é possível ter os três carregados simultaneamente na configuração padrão de VRAM do projeto). Todos os scripts dessas fases **detectam o modelo ativo dinamicamente** via `GET /v1/models` — não há um nome de modelo fixo no código (exceto um rótulo de log desatualizado em `script_tradutor_fr_gundam_origin.py`, ver [Solução de problemas](solucao-de-problemas.md#fase-4-b--mistral-nemo-francês)).
+
+Instalação: [instalacao.md](instalacao.md)
+
+---
+
+[← Índice da documentação](README.md)
+
+--- FIM DE ARQUIVO: docs/arquitetura.md ---
+
+--- INÍCIO DE ARQUIVO: docs/dependencias-python.md ---
+# 🐍 Dependências Python (`requirements.txt`)
+
+[← Índice](README.md) · [Arquivo `requirements.txt`](../requirements.txt)
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+"/>
+  <img src="https://img.shields.io/badge/Fases-1_a_12-blueviolet?style=flat-square" alt="Fases 1-12"/>
+</p>
+
+Versões fixadas para reprodutibilidade no Windows.
+
+---
+
+## Pacotes usados diretamente
+
+| Pacote | Versão | Usado em | Fase | Função |
+|:---|:---:|:---|:---:|:---|
+| **`colorama`** | 0.4.6 | Praticamente todos os scripts | 1–12 | Cores ANSI no terminal |
+| **`tqdm`** | 4.68.3 | Praticamente todos os scripts | 1–5, 7, 9, 10, 11 | Barras de progresso |
+| **`requests`** | 2.34.2 | Scripts de tradução (`4_tradutor_ia_gemma4/`, `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/`) + reparos via IA | 4, 4-B, 9, 11 | HTTP para LM Studio |
+| **`pymediainfo`** | 7.0.1 | `media_analyzer.py` | 1 | Metadados via DLL MediaInfo |
+
+> **MediaInfo (SO):** necessário além do pacote pip. [Download MediaInfo](https://mediaarea.net/en/MediaInfo/Download).
+> **Fases 6 e 7** dependem de **FFmpeg/FFprobe** (binário externo, não é pacote pip) e de `tkinter` (incluso no Python padrão do Windows).
+
+---
+
+## Pacotes transitivos
+
+| Pacote | Versão | Puxado por | Função |
+|:---|:---:|:---|:---|
+| `urllib3` | 2.7.0 | `requests` | Pool HTTP |
+| `certifi` | 2026.6.17 | `requests` | Certificados SSL |
+| `charset-normalizer` | 3.4.7 | `requests` | Encoding HTTP |
+| `idna` | 3.18 | `requests` | Domínios IDN |
+| `httpx` | 0.28.1 | `ollama` | Cliente async |
+| `httpcore` | 1.0.9 | `httpx` | Camada baixa |
+| `h11` | 0.16.0 | `httpcore` | HTTP/1.1 |
+| `anyio` | 4.14.0 | `httpx` | I/O async |
+| `pydantic` | 2.13.4 | `ollama` | Validação |
+| `pydantic_core` | 2.46.4 | `pydantic` | Núcleo |
+| `annotated-types` | 0.7.0 | `pydantic` | Tipos |
+| `typing_extensions` | 4.15.0 | `pydantic` | Backport |
+| `typing-inspection` | 0.4.2 | `pydantic` | Inspeção runtime |
+
+---
+
+## `ollama` — sem uso no pipeline atual
+
+| Pacote | Versão | Observação |
+|:---|:---:|:---|
+| **`ollama`** | 0.6.2 | Listado no `requirements.txt`, mas **nenhum script importa `ollama`**. A Fase 4 usa **LM Studio + `requests`**. |
+
+---
+
+## Mapa por fase
+
+```mermaid
+flowchart LR
+    subgraph F1["Fase 1"]
+        MI[pymediainfo]
+        C1[colorama]
+        T1[tqdm]
+    end
+
+    subgraph F2["Fase 2"]
+        C2[colorama]
+        T2[tqdm]
+        MKVT2[MKVToolNix]
+    end
+
+    subgraph F3["Fase 3"]
+        C3[colorama]
+        T3[tqdm]
+    end
+
+    subgraph F4["Fase 4"]
+        REQ[requests]
+        C4[colorama]
+        T4[tqdm]
+        MKVT4[MKVToolNix]
+    end
+
+    subgraph F4B["Fase 4-B"]
+        REQ4B[requests]
+        C4B[colorama]
+        T4B[tqdm]
+        MKVT4B[MKVToolNix]
+    end
+
+    subgraph F5["Fase 5"]
+        C5[colorama]
+        T5[tqdm]
+        MKVT5[MKVToolNix]
+    end
+
+    subgraph F6["Fase 6"]
+        FF6[FFprobe]
+        TK6[tkinter]
+        C6[colorama]
+    end
+
+    subgraph F7["Fase 7"]
+        FF7[FFmpeg NVENC]
+        C7[colorama]
+        T7[tqdm]
+    end
+
+    subgraph F8["Fase 8"]
+        C8[colorama]
+        MKVT8[MKVToolNix]
+    end
+
+    subgraph F9["Fase 9"]
+        REQ9[requests]
+        C9[colorama]
+        T9[tqdm]
+    end
+
+    subgraph F10["Fase 10"]
+        C10[colorama]
+        T10[tqdm]
+    end
+
+    subgraph F11["Fase 11"]
+        REQ11[requests]
+        C11[colorama]
+        T11[tqdm]
+    end
+
+    subgraph F12["Fase 12"]
+        C12[colorama]
+        MKVT12[MKVToolNix opcional]
+    end
+```
+
+---
+
+## Comandos úteis
+
+```powershell
+pip list
+pip show requests
+pip install -r requirements.txt --force-reinstall
+```
+
+---
+
+[← Instalação](instalacao.md) · [Índice](README.md)
+
+--- FIM DE ARQUIVO: docs/dependencias-python.md ---
+
+--- INÍCIO DE ARQUIVO: docs/estrutura-repositorio.md ---
+# 📦 Estrutura do repositório
+
+[← Índice](README.md)
+
+```text
+projeto-tracker-animes-traducao/
+├── README.md
+├── icone.png
+├── requirements.txt
+├── LICENSE
+│
+├── docs/                                  ← documentação
+│   ├── README.md
+│   ├── arquitetura.md                     ← visão geral + diagramas de todas as esteiras
+│   ├── estrutura-repositorio.md           ← este arquivo
+│   ├── pipeline-srt.md                    ← Esteira B (filme / SRT externo)
+│   ├── modulo-fase-1.md … modulo-fase-12.md
+│   ├── instalacao.md
+│   ├── dependencias-python.md
+│   ├── guia-de-execucao.md
+│   ├── logs-e-auditoria.md
+│   └── solucao-de-problemas.md
+│
+├── 1_analisador_de_midia/                 # Fase 1 — Análise e Auditoria de Mídia
+│   ├── media_analyzer.py
+│   └── relatorio/                         # saída: relatorios *.txt
+│
+├── 2_extrator_legenda/                    # Fase 2 — Extração de Legendas (ASS, SRT, PGS)
+│   ├── extrator_inteligente_ass.py        # -> legendas_eng/*_ENG.ass
+│   ├── extrator_inteligente_srt.py        # -> legendas_eng/*_ENG.srt
+│   ├── extrator_inteligente_pgs.py        # -> extraidos_sup/*.sup
+│   ├── extrator_texto_bruto/
+│   │   └── extrator_texto_bruto.py        # utilitário: dump numerado do roteiro p/ revisão manual
+│   ├── por_tipo/                          # resíduo de execução antiga (apenas info.txt)
+│   └── info.txt                           # log de auditoria das extrações
+│
+├── 3-conversor_str_ass/                   # Fase 3 — Conversor SRT → ASS (sync FPS)
+│   ├── conversor_srt_para_ass.py
+│   └── verificador.py                     # placeholder (vazio)
+│
+├── 4_tradutor_ia_gemma4/                  # Fase 4 — Tradução via LLM Local (LM Studio + Gemma), 1 script por título
+│   ├── 86/
+│   │   ├── sub_extractor.py               # MKV (EN) -> traducao/*_PTBR.ass — Eighty-Six
+│   │   └── traducao_cache_86.json
+│   ├── frances_para_ptbr/                 # residuo: apenas __pycache__ (scripts mudaram para 4_b_.../frances_para_ptbr/)
+│   ├── logs/                              # logs (pipeline_fr_*, erros_fr_*, config_fr_*, stats_fr_*)
+│   ├── tradutor_ass/
+│   │   └── batch_translator_ass.py        # *_ENG.ass -> *_PTBR.ass (lote, Gundam Reconguista)
+│   ├── tradutor_gundam_unicornio/
+│   │   └── batch_translator_unicorn.py    # *_ENG.ass -> *_PTBR.ass (lote, Gundam Unicorn)
+│   └── 5_tradutor_de_legenda/
+│       ├── tradutor_srt_direto.py         # *.srt (EN) -> *_PTBR.srt — Macross (filmes)
+│       └── logs/
+│
+├── 4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/   # Fase 4-B — variante Mistral Nemo (francês), ver Fase 4
+│   └── frances_para_ptbr/
+│       ├── macross_deslta.py              # MKV (FR) -> traducao/*_PTBR.ass — Macross Delta (movido de 4_tradutor_ia_gemma4/, sem alterações)
+│       ├── script_tradutor_fr_gundam_origin.py  # MKV (FR, SUBFRENCH) -> traducao/*_PTBR.ass — Gundam Origin (movido + ajustes de prompt p/ Mistral Nemo)
+│       └── logs/                          # pipeline_fr_*, erros_fr_*, config_fr_*, stats_fr_*, traducoes_detalhadas_fr_*
+│
+├── 5_juntar_legendas_filmes/              # Fase 5 — Remux (MKVMerge)
+│   └── batch_remuxer.py                   # .mkv + traducao/*.ass -> mkv_final_ptbr/*_PTBR.mkv
+│
+├── 6_sincronizacao_legenda/                # Fase 6 — Sincronização (auxiliar)
+│   ├── subtitle_fixer.py                  # shift de legenda embutida no .mkv (FFprobe)
+│   ├── subtitle_stretcher.py              # time-stretch + offset em .srt/.ass
+│   └── auditor_sicronia/
+│       └── auditor_sincronia.py           # audita drift via FFprobe
+│
+├── 7_decodificador/                       # Fase 7 — Otimização de vídeo (auxiliar)
+│   ├── gpu_video_optimizer.py             # recomprime para HEVC/NVENC -> otimizados/*.mkv
+│   └── optimizer_log.txt
+│
+├── 8_cura_legendas/                       # Fase 8 — Cura de legendas (auxiliar)
+│   ├── cura_gundam_mkv.py                 # repara TAG corrompido em .mkv remuxado
+│   └── cura_legendas_tag.py               # repara TAG via casamento ENG/PTBR -> traducao_curada/
+│
+├── 9_reparo_de_traducao/                  # Fase 9 — Reparo de falhas [ERRO_TRADUCAO:] via IA (Gemma)
+│   ├── repara_erros_traducao.py           # retraduz avulso (batch=1) via LM Studio
+│   ├── limpa_erros_residuais.py           # limpeza offline (sem IA) dos resíduos
+│   └── relatorio_reparo.txt               # relatório da última execução
+│
+├── 10_correcao_guilty_crown/              # Fase 10 — Correção offline (Guilty Crown)
+│   ├── corrigir_guilty_crown.py           # remove [ERRO_TRADUCAO:] -> legendas_ptbr/*_PTBR.ass
+│   ├── corrigir_cores_musicas.py          # corrige cores/tags de músicas (OP/ED)
+│   ├── relatorio_correcao.txt             # relatório de corrigir_guilty_crown.py
+│   └── relatorio_cores_musicas.txt        # relatório de corrigir_cores_musicas.py
+│
+├── 11_chines_LLM_alibaba_qwen2/           # Fase 11 — Tradução chinês (CHS) via Qwen2.5, Gundam Origin
+│   ├── batch_translator_origin_zh.py      # *.chs.ass -> *_PTBR.ass (lote, cache, fallback resiliente)
+│   ├── repara_erros_origin_zh.py          # retraduz avulso (batch=1) [ERRO_TRADUCAO:]
+│   ├── test_reparo.py                     # utilitário de depuração manual (fora do pipeline)
+│   ├── traducao_cache_origin_zh.json      # cache persistente (+ .json.bak)
+│   ├── info.txt                           # métricas por arquivo (último lote)
+│   ├── debug_last_failure.txt             # debug da última falha de lote
+│   └── relatorio_reparo_origin_zh.txt     # relatório do reparo avulso
+│
+├── 12_revisao_legenda/                    # Fase 12 — Revisão/correção final por título (QA + remux opcional)
+│   ├── revisao_legenda_origin.py          # Gundam The Origin (Esteira H) — lore + cache + remux
+│   ├── revisao_guild_crown.py             # Guilty Crown (Esteira G) — diálogos + letras OP/ED + remux
+│   ├── revisao_legenda_gundam_unicornio.py  # Gundam Unicorn (Esteira F) — ep.1 + letras OP/ED + remux
+│   ├── revisao_legenda_macross_delta.py   # Macross Delta TV (Esteira D) — lore + tags ASS
+│   ├── micross_delta_filme2.py            # Macross Delta Filme 2 — lore + resíduos de francês + remux
+│   ├── revisao_86.py                      # Eighty-Six Parts 1 & 2 (Esteira A) — alucinações residuais + remux
+│   └── _dialogos_eng_brutos.txt           # roteiro de referência (gerado por extrator_texto_bruto.py)
+│
+├── multiplexar/
+│   └── logs/                              # logs de saída de batch_remuxer.py (Fase 5)
+│
+└── _tmp_test_srt/                         # pasta de teste manual (Fase 11/Esteira H) — não faz parte do pipeline
+```
+
+> As pastas estão numeradas de **1 a 12** seguindo a ordem das fases descritas em [Arquitetura](arquitetura.md), o que também facilita a ordenação no explorador de arquivos do sistema.
+
+---
+
+## Correção de documentação — Fase 4 não usa mais scripts genéricos na raiz
+
+Versões anteriores desta documentação (e do README) citavam `4_tradutor_ia_gemma4/sub_extractor.py` e `4_tradutor_ia_gemma4/script_tradutor_fr.py` na **raiz** da pasta, como scripts genéricos reaproveitáveis para qualquer título. Isso não reflete mais o repositório: o projeto migrou para **um script dedicado por título**, cada um em sua própria subpasta, com glossário, cache e caminhos padrão próprios:
+
+| Script citado nas versões antigas | Caminho real atual | Título |
+|:---|:---|:---|
+| `4_tradutor_ia_gemma4/sub_extractor.py` | `4_tradutor_ia_gemma4/86/sub_extractor.py` | Eighty-Six |
+| `4_tradutor_ia_gemma4/script_tradutor_fr.py` | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/macross_deslta.py` | Macross Delta |
+| *(não existia)* | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/script_tradutor_fr_gundam_origin.py` | Gundam The Origin (francês) |
+
+Veja a tabela completa e atualizada em [Fase 4](modulo-fase-4.md) e [Fase 4-B](modulo-fase-4b.md).
+
+### Segunda migração (2026-06-17): francês saiu da Fase 4 (Gemma) para a Fase 4-B (Mistral Nemo)
+
+Os dois scripts em francês ficaram pouco tempo em `4_tradutor_ia_gemma4/frances_para_ptbr/` antes de serem movidos de novo, agora para `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/`, junto com a troca do modelo de IA de **Gemma 4B** para **Mistral Nemo Instruct 2407 (GGUF)** — qualidade de tradução muito superior para o par francês→português. Detalhes: [Fase 4-B](modulo-fase-4b.md).
+
+---
+
+## Pastas legadas (não usadas pelo pipeline atual)
+
+Restos de reorganizações anteriores do projeto. Mantidas apenas por compatibilidade local — **não são referenciadas pela documentação atual** e podem ser removidas com segurança:
+
+| Pasta | Conteúdo residual | Substituída por |
+|:---|:---|:---|
+| `2_tradutor_ia_gemma4/` | apenas `__pycache__/` | `4_tradutor_ia_gemma4/86/sub_extractor.py` |
+| `3_juntar_legendas_filmes/` | apenas `__pycache__/` | `5_juntar_legendas_filmes/batch_remuxer.py` |
+| `8_sincronizacao_legenda/` | `__pycache__/`, `auditor_sicronia/` | `6_sincronizacao_legenda/` |
+| `extrator_legenda_PGS/` | `__pycache__/`, `log/` | `2_extrator_legenda/extrator_inteligente_pgs.py` |
+| `2_extrator_legenda/por_tipo/` | apenas `info.txt` residual | `2_extrator_legenda/info.txt` |
+| `4_tradutor_ia_gemma4/frances_para_ptbr/` | apenas `__pycache__/` | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/` |
+| `_tmp_test_srt/` | `.chs.ass` de teste + saída avulsa | testes manuais da Fase 11 — pode ser apagada |
+
+---
+
+## Pastas de mídia do usuário (fora do repositório)
+
+O pipeline opera sobre pastas de animes/filmes que ficam **fora** do repositório (ex.: `C:\TRACKER-ANIMES\animes\...`, ou em outros discos como `E:\animes\...`, `D:\PROJETOS-OPEN\animes\...`, conforme o título). Layout típico gerado durante o processamento:
+
+```text
+C:\TRACKER-ANIMES\animes\<titulo>\
+├── episodio_01.mkv
+├── legendas_eng\          ← saída da Fase 2 (também usada como entrada das Fases 9/10)
+├── legenda\                ← entrada/saída SRT (Esteira B/C)
+├── extraidos_sup\          ← saída da Fase 2 (PGS)
+├── traducao\                ← saída das Fases 3 e 4 (*_PTBR.ass)
+├── traducao_curada\         ← saída da Fase 8
+├── legendas_ptbr\           ← saída das Fases 9/10/11 (*_PTBR.ass corrigido) e entrada/saída da Fase 12
+├── corrigidos\               ← saída de remux da Fase 12 (quando habilitado)
+├── mkv_final_ptbr\          ← saída da Fase 5
+└── otimizados\              ← saída da Fase 7
+```
+
+> **Fases 9, 10 e 11** operam sobre `legendas_eng\*_ENG.ass` (ou `*.chs.ass`) + `legendas_ptbr\*_PTBR.ass` (traduzido com `[ERRO_TRADUCAO:]`), sobrescrevendo este último em-place. A **Fase 12** lê o resultado final em `legendas_ptbr\` e, se o usuário confirmar o remux, grava o `.mkv` corrigido em `corrigidos\`.
+
+Layout detalhado por esteira: [Guia de execução](guia-de-execucao.md#layout-de-pastas).
+
+---
+
+[← Índice](README.md)
+
+--- FIM DE ARQUIVO: docs/estrutura-repositorio.md ---
+
+--- INÍCIO DE ARQUIVO: docs/guia-de-execucao.md ---
+# ▶️ Guia de execução
+
+[← Índice](README.md) · [Instalação](instalacao.md) · [Arquitetura](arquitetura.md)
+
+<p>
+  <img src="https://img.shields.io/badge/Esteiras-A_a_I-9146FF?style=flat-square" alt="Esteiras A-I"/>
+</p>
+
+Comandos por esteira (A–I), na ordem de execução. Pré-requisitos detalhados em [instalacao.md](instalacao.md).
+
+---
+
+## Fase 1 — Auditoria (opcional, qualquer esteira)
+
+```powershell
+python ".\1_analisador_de_midia\media_analyzer.py" "C:\TRACKER-ANIMES\animes\Macross Delta"
+```
+
+**Saída:** `relatorio/{arquivo}_{timestamp}.txt` — [Detalhes](modulo-fase-1.md)
+
+---
+
+## Esteira A — Eighty-Six, MKV (ASS embutido, inglês) — Fases 4 → [12] → 5
+
+```powershell
+# Pré-requisito: LM Studio na porta 1234 (Gemma 4B)
+python ".\4_tradutor_ia_gemma4\86\sub_extractor.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+python ".\12_revisao_legenda\revisao_86.py"          # opcional, corrige alucinações residuais + remux
+```
+
+| Item | Local |
+|:---|:---|
+| Entrada | Pasta com `.mkv` (legenda `S_TEXT/ASS` em inglês embutida) |
+| Saída Fase 4 | `traducao\*_PTBR.ass` |
+| Saída Fase 5 | `mkv_final_ptbr\*_PTBR.mkv` |
+| Saída Fase 12 (opcional) | `corrigidos\*_PTBR.mkv` |
+
+[Fase 4](modulo-fase-4.md) · [Fase 5](modulo-fase-5.md) · [Fase 12](modulo-fase-12.md) · [Diagrama](arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês)
+
+---
+
+## Esteira B — Filme / SRT externo (inglês) — Fases 4 → 3 → 5
+
+Visão completa: [Pipeline SRT](pipeline-srt.md)
+
+```powershell
+# Pré-requisito: LM Studio na porta 1234
+python ".\4_tradutor_ia_gemma4\5_tradutor_de_legenda\tradutor_srt_direto.py"
+python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+| Prompt | Exemplo |
+|:---|:---|
+| Pasta ou arquivo `.srt` (Fase 4) | `C:\TRACKER-ANIMES\animes\md-2\legenda` |
+| Tamanho do lote (Fase 4) | ENTER = 20 |
+| Pasta SRT `*_PTBR.srt` (Fase 3) | `...\md-2\legenda` |
+| Pasta saída ASS (Fase 3) | `...\md-2\traducao` |
+| Pasta `.mkv` / pasta `.ass` (Fase 5) | `...\md-2` / `...\md-2\traducao` |
+
+[Fase 4 (item 4)](modulo-fase-4.md#4--tradutor_srt_diretopy-srt-externo) · [Fase 3](modulo-fase-3.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-b--filme-com-srt-externo-inglês)
+
+---
+
+## Esteira C — Legenda PGS (Blu-ray bitmap) — Fases 2 → OCR externo → 3 → 5
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_pgs.py"
+# OCR externo (Subtitle Edit + Tesseract) -> *_PTBR.srt
+python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+> O OCR `.sup → .srt` **não faz parte** deste repositório (use Subtitle Edit + Tesseract ou similar).
+
+[Fase 2](modulo-fase-2.md) · [Fase 3](modulo-fase-3.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap)
+
+---
+
+## Esteira D — Macross Delta, MKV (ASS embutido, francês) — Fase 4-B → [12] → 5
+
+```powershell
+# Pré-requisito: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\macross_deslta.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+python ".\12_revisao_legenda\revisao_legenda_macross_delta.py"   # opcional, lore + tags ASS
+```
+
+Multi-thread (2 threads), glossário e cache persistente (`traducao_cache_fr.json`). Filme avulso (Macross Delta — Filme 2): mesmos passos, revisão final com `12_revisao_legenda\micross_delta_filme2.py`.
+
+[Fase 4-B](modulo-fase-4b.md) · [Fase 5](modulo-fase-5.md) · [Fase 12](modulo-fase-12.md) · [Diagrama](arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread)
+
+---
+
+## Esteira I — Gundam Origin, MKV (ASS embutido, francês — SUBFRENCH) — Fase 4-B → 5
+
+```powershell
+# Pré-requisito: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\4_b_mistrall_nemo_instruct_2407_GGUF_tradutor\frances_para_ptbr\script_tradutor_fr_gundam_origin.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+Rota alternativa para Gundam Origin quando o release disponível tem legenda francesa embutida em vez da chinesa (Esteira H). Mesmo glossário Universal Century usado na Esteira F/E, adaptado para francês.
+
+[Fase 4-B](modulo-fase-4b.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench)
+
+---
+
+## Esteira E — Lote ASS pré-extraído (Gundam Reconguista) — Fases 2 → 4 → 5
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\4_tradutor_ia_gemma4\tradutor_ass\batch_translator_ass.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+[Fase 2](modulo-fase-2.md) · [Fase 4 (item 2)](modulo-fase-4.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista)
+
+---
+
+## Esteira F — Gundam Unicorn (especializada) — Fases 2 → 4 → 8 → [12] → 5
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\4_tradutor_ia_gemma4\tradutor_gundam_unicornio\batch_translator_unicorn.py"
+python ".\8_cura_legendas\cura_legendas_tag.py"          # se necessário (TAG corrompido)
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+python ".\12_revisao_legenda\revisao_legenda_gundam_unicornio.py"   # opcional, ep.1 + letras OP/ED + remux
+```
+
+[Fase 2](modulo-fase-2.md) · [Fase 4 (item 3)](modulo-fase-4.md) · [Fase 8](modulo-fase-8.md) · [Fase 12](modulo-fase-12.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-f--gundam-unicorn-especializada)
+
+---
+
+## Esteira G — Guilty Crown (correção de nomes e cores) — Fases 2 → 4 → 10 → [12] → 5
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+python ".\4_tradutor_ia_gemma4\tradutor_ass\batch_translator_ass.py"   # ou variante adequada
+python ".\10_correcao_guilty_crown\corrigir_guilty_crown.py"           # remove [ERRO_TRADUCAO:]
+python ".\10_correcao_guilty_crown\corrigir_cores_musicas.py"          # cores/tags OP-ED
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+python ".\12_revisao_legenda\revisao_guild_crown.py"                   # opcional, diálogos + letras OP/ED + remux
+```
+
+| Prompt | Exemplo |
+|:---|:---|
+| Pasta com legendas + erros (`corrigir_guilty_crown.py`) | `E:\animes\GUILTY CROWN\1080p\legendas_eng` |
+| Pasta de saída corrigida (`corrigir_guilty_crown.py`) | `E:\animes\GUILTY CROWN\1080p\legendas_ptbr` |
+| Pasta com legendas PT-BR (`corrigir_cores_musicas.py`) | `E:\animes\GUILTY CROWN\1080p\legendas_ptbr` |
+
+[Fase 2](modulo-fase-2.md) · [Fase 4](modulo-fase-4.md) · [Fase 10](modulo-fase-10.md) · [Fase 12](modulo-fase-12.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas)
+
+---
+
+## Esteira H — Gundam Origin, legenda chinesa (CHS, Qwen2.5) — Fases 2 → 11 → [12] → 5
+
+```powershell
+python ".\2_extrator_legenda\extrator_inteligente_ass.py"
+# Pré-requisito: LM Studio na porta 1234 com Qwen2.5-7B-Instruct carregado
+python ".\11_chines_LLM_alibaba_qwen2\batch_translator_origin_zh.py" --entrada "<pasta_chs_ass>" --saida "<pasta_saida>"
+python ".\11_chines_LLM_alibaba_qwen2\repara_erros_origin_zh.py" --originais "<pasta_chs_ass>" --traduzidas "<pasta_ptbr>"  # se necessário
+python ".\12_revisao_legenda\revisao_legenda_origin.py"        # opcional, lore + cache + remux
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+[Fase 2](modulo-fase-2.md) · [Fase 11](modulo-fase-11.md) · [Fase 12](modulo-fase-12.md) · [Fase 5](modulo-fase-5.md) · [Diagrama](arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25)
+
+---
+
+## Pós-processamento — Reparo de `[ERRO_TRADUCAO:]` (Fases 9, 10 e 11, opcionais)
+
+Quando a **Fase 4/11** deixa marcadores `[ERRO_TRADUCAO: <texto>]` em `traducao\*_PTBR.ass`, rode **antes** da Fase 5:
+
+```powershell
+# Fase 9 — reparo via IA/Gemma (requer LM Studio na porta 1234)
+python ".\9_reparo_de_traducao\repara_erros_traducao.py" "<legendas_eng>" "<legendas_ptbr>"
+python ".\9_reparo_de_traducao\limpa_erros_residuais.py" "<legendas_eng>" "<legendas_ptbr>"   # falhas persistentes (sem IA)
+
+# Fase 10 — correção 100% offline (especializada para Guilty Crown)
+python ".\10_correcao_guilty_crown\corrigir_guilty_crown.py"
+python ".\10_correcao_guilty_crown\corrigir_cores_musicas.py"
+
+# Fase 11 — reparo via IA/Qwen2.5 (requer LM Studio na porta 1234, Gundam Origin chinês)
+python ".\11_chines_LLM_alibaba_qwen2\repara_erros_origin_zh.py" --originais "<chs_ass>" --traduzidas "<ptbr>"
+```
+
+[Fase 9](modulo-fase-9.md) · [Fase 10](modulo-fase-10.md) · [Fase 11](modulo-fase-11.md)
+
+---
+
+## Pós-processamento — Revisão final por título (Fase 12, opcional)
+
+Depois do remux (ou antes dele, se o script oferecer remux próprio), rode o patch de QA do título correspondente:
+
+```powershell
+python ".\12_revisao_legenda\revisao_legenda_origin.py"               # Gundam Origin (Esteira H)
+python ".\12_revisao_legenda\revisao_guild_crown.py"                   # Guilty Crown (Esteira G)
+python ".\12_revisao_legenda\revisao_legenda_gundam_unicornio.py"      # Gundam Unicorn (Esteira F)
+python ".\12_revisao_legenda\revisao_legenda_macross_delta.py"         # Macross Delta TV (Esteira D)
+python ".\12_revisao_legenda\micross_delta_filme2.py"                  # Macross Delta Filme 2
+python ".\12_revisao_legenda\revisao_86.py"                            # Eighty-Six (Esteira A)
+```
+
+[Fase 12](modulo-fase-12.md)
+
+---
+
+## Fases auxiliares (pós-remux, opcionais)
+
+```powershell
+# Fase 6 — sincronização (corrige drift de áudio/legenda)
+python ".\6_sincronizacao_legenda\auditor_sicronia\auditor_sincronia.py"
+python ".\6_sincronizacao_legenda\subtitle_fixer.py"
+
+# Fase 7 — otimização de vídeo (HEVC/NVENC)
+python ".\7_decodificador\gpu_video_optimizer.py"
+```
+
+[Fase 6](modulo-fase-6.md) · [Fase 7](modulo-fase-7.md)
+
+---
+
+## Layout de pastas
+
+### Esteira A/D — Episódios MKV
+
+```text
+C:\TRACKER-ANIMES\animes\Macross Delta\
+├── episodio_01.mkv
+├── traducao\              ← Fase 4
+│   └── episodio_01_PTBR.ass
+└── mkv_final_ptbr\        ← Fase 5
+    └── episodio_01_PTBR.mkv
+```
+
+### Esteira B — Filme / SRT externo
+
+```text
+C:\TRACKER-ANIMES\animes\md-2\
+├── filme.mkv
+├── legenda\
+│   ├── filme-en.srt
+│   └── filme_PTBR.srt     ← Fase 4
+├── traducao\
+│   └── filme_PTBR.ass     ← Fase 3
+└── mkv_final_ptbr\
+    └── filme_PTBR.mkv     ← Fase 5
+```
+
+### Esteira C — PGS
+
+```text
+C:\TRACKER-ANIMES\animes\filme-bluray\
+├── filme.mkv (PGS)
+├── extraidos_sup\          ← Fase 2
+│   └── filme.sup
+├── legenda\
+│   └── filme_PTBR.srt      ← OCR externo
+├── traducao\
+│   └── filme_PTBR.ass      ← Fase 3
+└── mkv_final_ptbr\
+    └── filme_PTBR.mkv      ← Fase 5
+```
+
+### Esteira E/F — Lote ASS (Gundam)
+
+```text
+C:\TRACKER-ANIMES\animes\Gundam Reconguista\
+├── episodio_01.mkv
+├── legendas_eng\           ← Fase 2
+│   └── episodio_01_ENG.ass
+├── traducao\               ← Fase 4
+│   └── episodio_01_PTBR.ass
+├── traducao_curada\        ← Fase 8 (apenas Esteira F, se necessário)
+│   └── episodio_01_PTBR.ass
+├── legendas_ptbr\          ← Fase 9 (opcional, reparo [ERRO_TRADUCAO:] via IA)
+│   └── episodio_01_PTBR.ass
+├── corrigidos\             ← Fase 12 (revisao_legenda_gundam_unicornio.py), se remux habilitado
+│   └── episodio_01_PTBR.mkv
+└── mkv_final_ptbr\         ← Fase 5
+    └── episodio_01_PTBR.mkv
+```
+
+### Esteira G — Guilty Crown
+
+```text
+E:\animes\GUILTY CROWN\1080p\
+├── episodio_01.mkv
+├── legendas_eng\            ← Fase 2 + saída da Fase 4 (com [ERRO_TRADUCAO:])
+│   └── episodio_01_ENG.ass
+├── legendas_ptbr\           ← Fase 10a (corrigir_guilty_crown.py) e Fase 10b (cores OP/ED)
+│   └── episodio_01_PTBR.ass
+├── corrigidos\              ← Fase 12 (revisao_guild_crown.py), se remux habilitado
+│   └── episodio_01_PTBR.mkv
+└── mkv_final_ptbr\          ← Fase 5
+    └── episodio_01_PTBR.mkv
+```
+
+### Esteira H — Gundam Origin (legenda chinesa, Qwen2.5)
+
+```text
+C:\TRACKER-ANIMES\animes\Gundam Origin (POPGO)\
+├── episodio_01.mkv
+├── episodio_01.chs.ass      ← Fase 2 (extrator_inteligente_ass.py)
+├── legendas_ptbr\           ← Fase 11 (batch_translator_origin_zh.py / repara_erros_origin_zh.py)
+│   └── episodio_01_PTBR.ass
+├── corrigidos\              ← Fase 12 (revisao_legenda_origin.py), se remux habilitado
+│   └── episodio_01_PTBR.mkv
+└── mkv_final_ptbr\          ← Fase 5
+    └── episodio_01_PTBR.mkv
+```
+
+### Saídas auxiliares (Fases 6 e 7)
+
+```text
+C:\TRACKER-ANIMES\animes\<titulo>\
+├── mkv_final_ptbr\
+│   └── episodio_01_PTBR.mkv
+└── otimizados\             ← Fase 7
+    └── episodio_01_PTBR.mkv
+```
+
+---
+
+[← Índice](README.md) · [Logs →](logs-e-auditoria.md)
+
+--- FIM DE ARQUIVO: docs/guia-de-execucao.md ---
+
+--- INÍCIO DE ARQUIVO: docs/instalacao.md ---
+# ✅ Instalação e pré-requisitos
+
+[← Índice](README.md) · [README principal](../README.md) · [Arquitetura](arquitetura.md)
+
+---
+
+## Checklist rápido
+
+| # | Tipo | Item | Obrigatório para |
+|:---:|:---|:---|:---|
+| 1 | **SO** | [MKVToolNix](https://mkvtoolnix.download/downloads.html) (`mkvmerge`, `mkvextract`) | Fases **2, 4, 4-B, 5, 8, 12 (opcional)** |
+| 2 | **SO** | [MediaInfo](https://mediaarea.net/en/MediaInfo/Download) | Fase **1** |
+| 3 | **SO** | [LM Studio](https://lmstudio.ai/) + **Gemma 4B** na porta **1234** | Fases **4, 9** |
+| 3b | **SO** | [LM Studio](https://lmstudio.ai/) + **Mistral Nemo Instruct 2407 (GGUF)** na porta **1234** | Fase **4-B** (Macross Delta e Gundam Origin, legenda francesa) |
+| 3c | **SO** | [LM Studio](https://lmstudio.ai/) + **Qwen2.5-7B-Instruct** na porta **1234** | Fase **11** (Gundam Origin, legenda chinesa) |
+| 4 | **SO** | [FFmpeg/FFprobe](https://ffmpeg.org/download.html) (build com `hevc_nvenc` para Fase 7) | Fases **6, 7** |
+| 5 | **Python** | 3.10+ | Todas |
+| 6 | **pip** | [`requirements.txt`](../requirements.txt) | Todas |
+
+| Esteira | Fases | MKVToolNix | LM Studio | FFmpeg |
+|:---|:---|:---:|:---:|:---:|
+| A — Eighty-Six (ASS embutido EN) | 4 → [12] → 5 | ✅ | ✅ Gemma (Fase 4) | — |
+| B — Filme/SRT externo (Macross) | 4 → 3 → 5 | ✅ (Fase 5) | ✅ Gemma (Fase 4) | — |
+| C — Legenda PGS (Blu-ray) | 2 → 3 → 5 | ✅ | — | — |
+| D — Macross Delta (ASS embutido FR) | 4-B → [12] → 5 | ✅ | ✅ **Mistral Nemo** (Fase 4-B) | — |
+| E/F — Lote ASS (Gundam) | 2 → 4 → 5 (+8, +12) | ✅ | ✅ Gemma (Fase 4) | — |
+| G — Guilty Crown | 2 → 4 → 10 → [12] → 5 | ✅ | ✅ Gemma (Fase 4) | — |
+| H — Gundam Origin (legenda chinesa) | 2 → 11 → [12] → 5 | ✅ (12 opcional) | ✅ **Qwen2.5** (Fase 11) | — |
+| I — Gundam Origin (legenda francesa) | 4-B → 5 | ✅ | ✅ **Mistral Nemo** (Fase 4-B) | — |
+| 6 — Sincronização (auxiliar) | 6 | — | — | ✅ |
+| 7 — Otimização GPU (auxiliar) | 7 | — | — | ✅ NVENC |
+
+> Esteira C também depende de uma ferramenta de **OCR externa** (ex.: Subtitle Edit + Tesseract) entre as Fases 2 e 3 — não incluída neste repositório.
+> Esteiras D/I (Fase 4-B) e H (Fase 11) usam modelos **diferentes** do Gemma 4B usado nas demais — troque o modelo carregado no LM Studio antes de alternar entre essas esteiras (Gemma 4B ↔ Mistral Nemo Instruct 2407 ↔ Qwen2.5-7B-Instruct).
+
+---
+
+## MKVToolNix
+
+```text
+C:\Program Files\MKVToolNix\
+├── mkvextract.exe    ← extração de legendas (Fases 2, 4, 8)
+└── mkvmerge.exe      ← identificação de tracks e remux (Fases 2, 4, 5, 8)
+```
+
+---
+
+## FFmpeg / FFprobe
+
+Necessário para a **Fase 6** (sincronização) e **Fase 7** (otimização de vídeo). Adicione `ffmpeg.exe`/`ffprobe.exe` ao `PATH` do Windows.
+
+- Fase 6 (`subtitle_fixer.py`, `auditor_sincronia.py`): apenas `ffprobe`.
+- Fase 7 (`gpu_video_optimizer.py`): `ffmpeg` com encoder `hevc_nvenc` (requer **GPU NVIDIA** com suporte a NVENC).
+
+Verifique com:
+
+```powershell
+ffmpeg -encoders | Select-String nvenc
+```
+
+---
+
+## Ambiente Python (venv)
+
+```powershell
+cd C:\TRACKER-ANIMES\projeto-tracker-animes-traducao
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+Instalação mínima (pacotes diretos):
+
+```powershell
+pip install colorama tqdm requests pymediainfo
+```
+
+> `tkinter` (usado pelos seletores de arquivo da Fase 6) já vem incluso na instalação padrão do Python no Windows — nenhuma instalação extra é necessária.
+
+Referência completa dos pacotes: [Dependências Python](dependencias-python.md).
+
+---
+
+## LM Studio
+
+1. Instale o [LM Studio](https://lmstudio.ai/).
+2. Carregue **`google/gemma-4-e4b`** (ou Gemma 4B equivalente) para as **Fases 4 e 9**.
+3. Inicie o servidor em **`http://127.0.0.1:1234`**.
+4. Todos os scripts das **Fases 4, 4-B, 9 e 11** validam `GET /v1/models` antes de processar e usam o **modelo detectado dinamicamente** — não há nome de modelo fixo no código.
+5. Para a **[Fase 4-B](modulo-fase-4b.md)** (Macross Delta e Gundam Origin, legenda francesa), descarregue o Gemma e carregue **`mistralai/mistral-nemo-instruct-2407`** (GGUF) — substituiu o Gemma 4B em 2026-06-17 por qualidade de tradução muito superior no par francês→português.
+6. Para a **[Fase 11](modulo-fase-11.md)** (Gundam Origin, legenda chinesa), carregue **`qwen2.5-7b-instruct`** antes de rodar `batch_translator_origin_zh.py` ou `repara_erros_origin_zh.py` — o desempenho do Qwen2.5 para o par chinês→português é muito superior ao do Gemma 4B.
+
+---
+
+## Pronto para rodar
+
+| Objetivo | Guia |
+|:---|:---|
+| Episódios `.mkv` (ASS embutido) | [Guia de execução — Esteira A](guia-de-execucao.md#esteira-a--episódios-mkv-ass-embutido-fases-4--5) |
+| Filme / SRT externo | [Pipeline SRT (Esteira B)](pipeline-srt.md) |
+| Visão completa de todas as esteiras | [Arquitetura](arquitetura.md) |
+
+Requisitos mínimos: **venv** + **`requirements.txt`** + **LM Studio** (Fase 4, com Gemma 4B) + **MKVToolNix** (Fases 2, 4, 5, 8). FFmpeg só é necessário se for usar as Fases 6/7. Para as Esteiras D/I ([Fase 4-B](modulo-fase-4b.md)), troque o modelo do LM Studio para Mistral Nemo Instruct 2407 (GGUF); para a Esteira H ([Fase 11](modulo-fase-11.md)), troque para Qwen2.5-7B-Instruct.
+
+---
+
+[← Índice](README.md)
+
+--- FIM DE ARQUIVO: docs/instalacao.md ---
+
+--- INÍCIO DE ARQUIVO: docs/logs-e-auditoria.md ---
+# 📊 Logs e auditoria
+
+[← Índice](README.md) · [Guia de execução](guia-de-execucao.md)
+
+<p>
+  <img src="https://img.shields.io/badge/Fases-1_a_12-blueviolet?style=flat-square" alt="Fases 1-12"/>
+  <img src="https://img.shields.io/badge/Auditoria-Logs_%2B_Relatórios-informational?style=flat-square" alt="Auditoria"/>
+</p>
+
+---
+
+## Fase 1 — Analisador de mídia (`media_analyzer.py`)
+
+| Local | Arquivo |
+|:---|:---|
+| `1_analisador_de_midia/relatorio/` | `{arquivo}_{timestamp}.txt` — relatório técnico (codecs, faixas, sincronia) |
+
+---
+
+## Fase 2 — Extração de legendas
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `extrator_inteligente_ass.py` / `_srt.py` / `_pgs.py` | `2_extrator_legenda/` | `info.txt` — auditoria das extrações (faixas detectadas, fallback usado) |
+| `extrator_inteligente_pgs.py` | `2_extrator_legenda/log/` | `extracao_pgs_*.log` |
+
+---
+
+## Fase 4 — Tradução IA (LM Studio/Gemma)
+
+### `86/sub_extractor.py` (Eighty-Six)
+
+Quatro artefatos por execução em `4_tradutor_ia_gemma4/86/logs/`:
+
+| Arquivo | Conteúdo |
+|:---|:---|
+| `pipeline_86_*.txt` | Fluxo completo da execução |
+| `config_86_*.txt` | Snapshot de infraestrutura (binários, modelo, pastas) |
+| `erros_86_*.txt` | Erros e stack traces |
+| `stats_86_*.json` | Telemetria: encodings detectados, cache, requisições |
+
+Persiste também `4_tradutor_ia_gemma4/86/traducao_cache_86.json` (cache de traduções entre execuções).
+
+---
+
+## Fase 4-B — Tradução IA (LM Studio/Mistral Nemo, francês)
+
+### `frances_para_ptbr/macross_deslta.py` e `frances_para_ptbr/script_tradutor_fr_gundam_origin.py`
+
+Quatro artefatos por execução em `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/logs/`:
+
+| Arquivo | Conteúdo |
+|:---|:---|
+| `pipeline_fr_*.txt` | Fluxo completo da execução — inclui a linha `Usando modelo: <id>` com o modelo real detectado via `/v1/models` (ex.: `mistralai/mistral-nemo-instruct-2407`) |
+| `config_fr_*.txt` | Snapshot de infraestrutura (binários, pastas) — ⚠️ o rótulo "Modelo" neste arquivo está hardcoded como "Gemma 4B" em ambos os scripts, mesmo após a migração; não reflete o modelo real (ver [Solução de problemas](solucao-de-problemas.md#fase-4-b--mistral-nemo-francês)) |
+| `erros_fr_*.txt` | Erros e stack traces |
+| `stats_fr_*.json` | Telemetria: encodings detectados, cache, requisições |
+| `traducoes_detalhadas_fr_*.txt` | **Apenas em `script_tradutor_fr_gundam_origin.py`** — auditoria lado a lado: linha original em francês + tradução PT-BR (ou "MANTIDO ORIGINAL"), por diálogo, por episódio |
+
+Cada script persiste sua própria instância de `traducao_cache_fr.json` na pasta `frances_para_ptbr/` (cache de traduções entre execuções).
+
+### `tradutor_srt_direto.py`
+
+Um arquivo por execução em `4_tradutor_ia_gemma4/5_tradutor_de_legenda/logs/`:
+
+| Arquivo | Conteúdo |
+|:---|:---|
+| `pipeline_direct_srt_*.txt` | Auditoria completa: blocos, lotes, encoding, caminho de saída |
+
+### `batch_translator_ass.py` e `batch_translator_unicorn.py`
+
+Saída via console (`tqdm` + `colorama`); retry logic registrado inline no terminal.
+
+---
+
+## Fase 5 — Remuxer (`batch_remuxer.py`)
+
+Quatro artefatos em `multiplexar/logs/`:
+
+| Arquivo | Conteúdo |
+|:---|:---|
+| `remux_pipeline_*.txt` | Fluxo do remux |
+| `remux_config_*.txt` | Caminhos e binário `mkvmerge` |
+| `remux_erros_*.txt` | Dumps de erro |
+| `remux_stats_*.json` | Bytes gerados, pareamentos, falhas |
+
+---
+
+## Fase 6 — Sincronização
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `subtitle_fixer.py` | `6_sincronizacao_legenda/` | `processamento_log.txt` |
+| `subtitle_stretcher.py` | — | apenas console |
+| `auditor_sincronia.py` | `6_sincronizacao_legenda/auditor_sicronia/` | apenas console (relatório de drift via FFprobe) |
+
+---
+
+## Fase 7 — Otimização de vídeo (GPU)
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `gpu_video_optimizer.py` | `7_decodificador/` | `optimizer_log.txt` |
+
+---
+
+## Fase 8 — Cura de legendas
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `cura_gundam_mkv.py` / `cura_legendas_tag.py` | `8_cura_legendas/` | `info.txt` |
+
+---
+
+## Fase 9 — Reparo de tradução
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `repara_erros_traducao.py` | `9_reparo_de_traducao/` | `relatorio_reparo.txt` — falhas encontradas/reparadas/persistentes por arquivo, linhas com falha, tempo total |
+| `limpa_erros_residuais.py` | `9_reparo_de_traducao/` | Apenas console (sem relatório próprio) |
+
+---
+
+## Fase 10 — Correção Guilty Crown
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `corrigir_guilty_crown.py` | `10_correcao_guilty_crown/` | `relatorio_correcao.txt` — arquivo de origem/destino e correções `[ERRO_TRADUCAO:]` aplicadas |
+| `corrigir_cores_musicas.py` | `10_correcao_guilty_crown/` | `relatorio_cores_musicas.txt` — estilos OP/ED redefinidos, linhas com cor corrigida, resíduos `TAG` removidos |
+
+---
+
+## Fase 11 — Tradução chinês (Qwen2.5, Gundam Origin)
+
+| Script | Local | Arquivo |
+|:---|:---|:---|
+| `batch_translator_origin_zh.py` | `11_chines_LLM_alibaba_qwen2/` | `info.txt` — métricas por arquivo (diálogos, cache hits, chamadas, fallbacks, tempo); `debug_last_failure.txt` na primeira falha de lote |
+| `repara_erros_origin_zh.py` | `11_chines_LLM_alibaba_qwen2/` | `relatorio_reparo_origin_zh.txt` |
+| `test_reparo.py` (dev/debug) | `11_chines_LLM_alibaba_qwen2/` | `debug_test.txt` (recriado a cada execução) |
+
+Ambos os scripts de tradução persistem `traducao_cache_origin_zh.json` (+ backup `.json.bak`).
+
+---
+
+## Fase 12 — Revisão final por título
+
+| Script | Local | Saída |
+|:---|:---|:---|
+| `revisao_legenda_origin.py` | `12_revisao_legenda/` | Atualiza `traducao_cache_origin_zh.json`; opcional `_relatorio_sem_traducao.txt` (auditoria de resíduos) |
+| `revisao_guild_crown.py` / `revisao_legenda_gundam_unicornio.py` / `revisao_legenda_macross_delta.py` / `micross_delta_filme2.py` / `revisao_86.py` | `12_revisao_legenda/` | Apenas console (`colorama`); `.mkv` corrigido em `corrigidos/` quando o remux é confirmado |
+
+---
+
+## Níveis no console (colorama)
+
+| Tag | Cor | Significado |
+|:---:|:---:|:---|
+| `[SUCESSO]` | 🟢 Verde | Operação concluída |
+| `[INFO]` / `[DEBUG]` | ⚪ / 🔵 | Fluxo normal / detalhe |
+| `[AVISO]` | 🟡 Amarelo | Situação recuperável |
+| `[ERRO]` | 🔴 Vermelho | Falha ou aborto |
+
+Esses níveis aparecem em praticamente todos os scripts (Fases 1–12).
+
+---
+
+[← Guia de execução](guia-de-execucao.md) · [Solução de problemas →](solucao-de-problemas.md)
+
+--- FIM DE ARQUIVO: docs/logs-e-auditoria.md ---
+
+--- INÍCIO DE ARQUIVO: docs/pipeline-srt.md ---
+# 🎬 Pipeline SRT (Esteira B — legendas externas)
+
+[← Índice](README.md) · [README principal](../README.md) · [Arquitetura](arquitetura.md#esteira-b--filme-com-srt-externo-inglês)
+
+Esteira para **filmes** ou releases com legenda **SRT separada** do vídeo — sem extração do container MKV.
+
+---
+
+## Quando usar
+
+| Situação | Esteira recomendada |
+|:---|:---|
+| Episódios `.mkv` com legenda **ASS embutida** (inglês) | [Esteira A](arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) — Fases 4 → 5 |
+| Episódios `.mkv` com legenda **ASS embutida** (francês, Macross Delta) | [Esteira D](arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread) — Fase 4 → [12] → 5 |
+| Episódios `.mkv` com legenda **ASS embutida** (francês, Gundam Origin) | [Esteira I](arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench) — Fase 4 → 5 |
+| Episódios `.mkv` com legenda **ASS chinesa** (Gundam Origin, Qwen2.5) | [Esteira H](arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25) — Fases 2 → 11 → [12] → 5 |
+| Legenda **SRT externa** (inglês) + `.mkv` | **Esteira B** (este guia) — Fases 4 → 3 → 5 |
+| Legenda **PGS** (bitmap, Blu-ray) | [Esteira C](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) — Fases 2 → OCR → 3 → 5 |
+| Só auditar o vídeo antes | [Fase 1](modulo-fase-1.md) (opcional) |
+
+---
+
+## Fluxo completo
+
+```mermaid
+flowchart LR
+    SRT["legenda/*.srt EN"] --> P4["Fase 4\ntradutor_srt_direto.py"]
+    P4 --> SRTPT["legenda/*_PTBR.srt"]
+    SRTPT --> P3["Fase 3\nconversor_srt_para_ass.py"]
+    P3 --> ASS["traducao/*_PTBR.ass"]
+    MKV["filme.mkv"] --> P5["Fase 5\nbatch_remuxer.py"]
+    ASS --> P5
+    P5 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
+
+    style P4 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style P3 fill:#2d3748,stroke:#00E5FF,color:#fff
+    style P5 fill:#1e4620,stroke:#32CD32,color:#fff
+```
+
+---
+
+## Ordem de execução
+
+```powershell
+# Pré-requisito: LM Studio na porta 1234 (Fase 4)
+
+python ".\4_tradutor_ia_gemma4\5_tradutor_de_legenda\tradutor_srt_direto.py"
+python ".\3-conversor_str_ass\conversor_srt_para_ass.py"
+python ".\5_juntar_legendas_filmes\batch_remuxer.py"
+```
+
+---
+
+## Layout de pastas (exemplo filme)
+
+```text
+C:\TRACKER-ANIMES\animes\md-2\
+├── [Anime Land] Macross Delta Movie 2....mkv
+│
+├── legenda\                              ← Fase 4 (entrada/saída SRT)
+│   ├── filme-en.srt
+│   └── filme_PTBR.srt                    ← gerado
+│
+├── traducao\                             ← Fase 3 (saída ASS)
+│   └── [Anime Land] Macross Delta Movie 2...._PTBR.ass
+│
+└── mkv_final_ptbr\                       ← Fase 5
+    └── [Anime Land] Macross Delta Movie 2...._PTBR.mkv
+```
+
+---
+
+## Módulos desta esteira
+
+| Fase | Documentação |
+|:---:|:---|
+| 4 | [modulo-fase-4.md — item 4 (`tradutor_srt_direto.py`)](modulo-fase-4.md#4--tradutor_srt_diretopy-srt-externo) |
+| 3 | [modulo-fase-3.md](modulo-fase-3.md) |
+| 5 | [modulo-fase-5.md](modulo-fase-5.md) |
+
+---
+
+[← Índice](README.md) · [Arquitetura](arquitetura.md)
+
+--- FIM DE ARQUIVO: docs/pipeline-srt.md ---
+
+--- INÍCIO DE ARQUIVO: docs/solucao-de-problemas.md ---
+# ⚠️ Solução de problemas
+
+[← Índice](README.md) · [Logs](logs-e-auditoria.md)
+
+<p>
+  <img src="https://img.shields.io/badge/Esteiras-A_a_I-9146FF?style=flat-square" alt="Esteiras A-I"/>
+  <img src="https://img.shields.io/badge/Troubleshooting-Geral_%2B_por_esteira-informational?style=flat-square" alt="Troubleshooting"/>
+</p>
+
+---
+
+## Geral (todas as esteiras)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `mkvextract.exe`/`mkvmerge.exe não encontrados` | MKVToolNix ausente | Instale em `C:\Program Files\MKVToolNix\` |
+| `LM Studio não responde` / `LM Studio offline` | Servidor parado ou modelo não carregado | Inicie LM Studio na porta **1234** com `google/gemma-4-e4b` |
+| `pymediainfo nao esta instalado` | Pacote/DLL ausente | `pip install pymediainfo` + instale [MediaInfo](https://mediaarea.net/en/MediaInfo/Download) |
+| Caracteres estranhos na legenda traduzida | Encoding legado (Latin-1/CP1252) mal detectado | Verifique `encodings_detectados` em `stats_*.json` (Fase 4) |
+
+---
+
+## Esteira A/D — Episódios MKV (Fases 4 / 4-B → 5)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `Nenhuma faixa S_TEXT/ASS encontrada` | Legenda é PGS (bitmap) ou hardsub | Use [Esteira C](#esteira-c--pgs-fases-2--ocr--3--5) ou audite com [Fase 1](modulo-fase-1.md) |
+| Episódio ignorado no remux (Fase 5) | Nome do `.ass` não casa com o `.mkv` | Garanta `{base}_PTBR.ass` em `traducao\` com o mesmo nome base do vídeo |
+| Tradução muito lenta (Esteira D) | Multi-thread limitado a 2 | Esperado — `macross_deslta.py`/`script_tradutor_fr_gundam_origin.py` usam `ThreadPoolExecutor(max_workers=2)` |
+
+---
+
+## Esteira B — Filme / SRT externo (Fases 4 → 3 → 5)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `Nenhum arquivo .srt localizado` | Pasta vazia ou caminho errado | Confira o caminho informado ao `tradutor_srt_direto.py` |
+| `Nenhuma legenda *_PTBR.srt` (Fase 3) | Fase 4 não rodou ou saída sem sufixo `_PTBR` | Execute a Fase 4 (tradução SRT) primeiro |
+| Legenda dessincronizada no filme final | FPS 25 vs 23.976 | Fase 3 aplica `FATOR_SINCRO = 1.042709`; ajuste no script se a fonte tiver outro FPS |
+| Remux sem par (Fase 5) | Nome `.ass` ≠ nome `.mkv` | Edite `nome_base_filme` em `conversor_srt_para_ass.py` (Fase 3) |
+| Múltiplos `.srt` na pasta | Ambiguidade no prompt | Selecione o número correto no menu interativo da Fase 4 |
+
+---
+
+## Esteira C — PGS (Fases 2 → OCR → 3 → 5)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `Nenhuma faixa S_HDMV/PGS encontrada` | Release não tem legenda PGS | Use Esteira A/B/D conforme o formato real |
+| OCR com muitos erros de caractere | Fonte PGS de baixa resolução | Ajuste o motor/idioma do OCR (Subtitle Edit + Tesseract) antes da Fase 3 |
+| Fase 3 não encontra `*_PTBR.srt` | OCR não gerou sufixo correto | Renomeie a saída do OCR para `{base}_PTBR.srt` |
+
+---
+
+## Esteira E/F — Lote ASS / Gundam (Fases 2 → 4 → [8] → 5)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `[ABORTO]` ao extrair faixa (Fase 2) | Track IDs 4/5 não existem nesse release | Ajuste os IDs de fallback em `extrator_inteligente_ass.py` |
+| Tags `\N`, `{\i1}` etc. quebradas após tradução | Falha no mascaramento `[T0]`/`[T1]` ou `___TAG___` | Rode [Fase 8](modulo-fase-8.md) (`cura_legendas_tag.py` ou `cura_gundam_mkv.py`) |
+| Texto "TAG" literal aparecendo no MKV final (Gundam) | Corrupção conhecida do `batch_translator_unicorn.py` | `cura_gundam_mkv.py` — modo perfect-match (com `*_ENG.ass`) ou regex cego |
+| Retry constante / poucas respostas da IA | Lote (`batch`) grande demais para o contexto do modelo | Reduza o tamanho do lote no script (`batch_translator_ass.py` / `_unicorn.py`) |
+
+---
+
+## Fase 4-B — Mistral Nemo (francês)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `config_fr_*.txt` mostra "Modelo: Gemma 4B (google/gemma-4-e4b)" mas a tradução está correta | **Bug cosmético conhecido** — o rótulo do relatório está hardcoded e não foi atualizado na migração para Mistral Nemo | Ignore o rótulo; confira o modelo real na linha `Usando modelo: ...` do `pipeline_fr_*.txt` |
+| Qualidade de tradução ruim/inconsistente em francês | Gemma 4B ainda carregado no LM Studio, em vez do Mistral Nemo | Carregue `mistralai/mistral-nemo-instruct-2407` (ou equivalente GGUF) no LM Studio antes de rodar os scripts de `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/` |
+| `VALIDAÇÃO REJEITOU idx N` no log (`script_tradutor_fr_gundam_origin.py`) | A tradução do LLM para aquela linha falhou a validação anti-resíduo/anti-alucinação | Normal em baixo volume — o fallback linha a linha tenta de novo; se persistir, revise o glossário/prompt para o termo específico |
+| `RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO)` no log de erros | Nenhuma linha do lote pôde ser extraída/validada | Verifique se o modelo carregado é realmente o Mistral Nemo (não outro modelo incompatível com o formato de prompt indexado `[0]`, `[1]`...) |
+| `macross_deslta.py` com qualidade inferior ao esperado | Esse script **não recebeu** os ajustes de prompt feitos em `script_tradutor_fr_gundam_origin.py` durante a migração (continua com o prompt original) | Replique manualmente os ajustes — ver [Fase 4-B](modulo-fase-4b.md#ajustes-feitos-em-script_tradutor_fr_gundam_originpy-durante-a-migração) |
+| Pasta `4_tradutor_ia_gemma4/frances_para_ptbr/` aparece vazia | Esperado — os scripts foram **movidos** para `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/frances_para_ptbr/` em 2026-06-17 | Use o novo caminho; a pasta antiga é só resíduo (`__pycache__`) |
+
+---
+
+## Esteira H — Gundam Origin, legenda chinesa (Fases 2 → 11 → [12] → 5)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `validar_traducao()` rejeita a saída (texto ainda com CJK) | Qwen2.5 não está carregado no LM Studio (Gemma respondeu em vez dele) | Confira o modelo ativo em `GET /v1/models`; carregue `qwen2.5-7b-instruct` |
+| Tradução muito lenta ou travando | `MAX_THREADS = 2` é o limite seguro para 8GB VRAM | Reduza `--batch-size` ou rode com `--threads 1` se a GPU tiver pouca VRAM livre |
+| Linhas `[ERRO_TRADUCAO: ...]` persistem após `repara_erros_origin_zh.py` | Termo protegido/nome próprio sem tradução válida em PT-BR | Corrija manualmente ou adicione a regra em [Fase 12](modulo-fase-12.md#revisao_legenda_originpy-gundam-the-origin) (`revisao_legenda_origin.py`) |
+| Erro de lore conhecido (ex.: "Guerra de cem anos", "Gólgota"/"Lucifer") sobrevive à tradução | Falha recorrente do modelo para esses termos específicos | Rode [Fase 12](modulo-fase-12.md) — já corrige esses casos e atualiza o cache |
+| `test_reparo.py` não reflete o comportamento do pipeline real | Script é um utilitário de depuração isolado (3 linhas fixas) | Use apenas para validar rapidamente prompt/modelo; não é parte do pipeline regular |
+
+---
+
+## Esteira I — Gundam Origin, legenda francesa SUBFRENCH (Fase 4 → 5)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| Nomes da família Deikun aparecem como "Daikun" | Grafia do release francês não normalizada | O script já normaliza via regex; se persistir, verifique se está usando `script_tradutor_fr_gundam_origin.py` e não `macross_deslta.py` |
+| Track francesa não detectada | Faixa `lang` diferente de `fre`/`fra`/`fr` no release | Ajuste a lista de prioridade em `script_tradutor_fr_gundam_origin.py` ou use a [Esteira H](#esteira-h--gundam-origin-legenda-chinesa-fases-2--11--12--5) (legenda chinesa) como alternativa |
+
+---
+
+## Fase 12 — Revisão final por título (todas as esteiras com QA)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| Script não encontra a pasta de legendas | `PASTA_ANIME`/`PASTA_LEGENDA` no topo do script apontam para a árvore de mídia do autor (`E:\animes\...`, `D:\PROJETOS-OPEN\...`, `C:\animes\...`) | Edite essas constantes no script para o caminho real do seu título |
+| `mkvmerge não encontrado. Remuxing abortado` | MKVToolNix ausente ou fora do PATH | Instale MKVToolNix ou responda `n` ao prompt de remux para apenas corrigir a legenda |
+| Correção não copia para um título diferente | Cada script tem a lista de patches (regex/dicionário) hardcoded para um título específico | Copie o script mais próximo (mesmo idioma/Esteira) e adapte os patches — não reaproveite entre séries diferentes sem revisar |
+
+---
+
+## Fases 9/10 — Reparo de tradução e Esteira G (Guilty Crown)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| Linhas `[ERRO_TRADUCAO: ...]` em `traducao\*_PTBR.ass` | Fase 4 não conseguiu traduzir aquela linha dentro do lote | Rode [Fase 9](modulo-fase-9.md#repara_erros_traducaopy) (`repara_erros_traducao.py`, requer LM Studio) |
+| `[ABORTADO] 5 falhas consecutivas` (Fase 9) | LM Studio offline/instável durante o reparo | Verifique LM Studio na porta 1234 e rode novamente — arquivos já reparados são preservados |
+| Marcador `[ERRO_TRADUCAO:]` persiste após `repara_erros_traducao.py` | Termo protegido/nome próprio cuja tradução correta é igual ao inglês | Rode `limpa_erros_residuais.py` (sem IA) para restaurar o texto original com as tags |
+| `desalinhamento físico de linhas com o original` (Fase 9) | `.ass` traduzido tem nº de linhas diferente do `.ass` original (`_ENG.ass`) | Garanta que a Fase 4 não removeu/duplicou linhas; reextraia com [Fase 2](modulo-fase-2.md) se necessário |
+| Texto `TAG` nas letras de OP/ED (Guilty Crown) ou cores ilegíveis | Resíduo de mascaramento da Fase 4 + estilo `OP`/`ED` original | Rode [Fase 10](modulo-fase-10.md) (`corrigir_cores_musicas.py`) |
+| `corrigir_guilty_crown.py` não encontra `.ass` | Pasta de origem informada no prompt está errada | Confirme o caminho (padrão `E:\animes\GUILTY CROWN\1080p\legendas_eng`) |
+
+---
+
+## Fase 6 — Sincronização
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `ffprobe não encontrado` | FFmpeg não está no PATH | Adicione `ffmpeg.exe`/`ffprobe.exe` ao PATH ([instalação](instalacao.md#ffmpeg--ffprobe)) |
+| Drift reportado pelo `auditor_sincronia.py` | Legenda gerada com FPS diferente do vídeo | Use `subtitle_fixer.py` (shift) ou `subtitle_stretcher.py` (ratio+offset) |
+| Diálogo de seleção de arquivo não abre | `tkinter` ausente (raro) | Reinstale Python com "tcl/tk" marcado no instalador oficial |
+
+---
+
+## Fase 7 — Otimização de vídeo (GPU)
+
+| Sintoma | Causa provável | Ação |
+|:---|:---|:---|
+| `hevc_nvenc não disponível` | GPU sem suporte NVENC ou driver desatualizado | `ffmpeg -encoders \| Select-String nvenc`; atualize driver NVIDIA |
+| Vídeo não recomprimido | Não atende critério (já é H.264 ≤3Mbps, não Hi10P) | Comportamento esperado — script só recomprime H.264 Hi10P ou bitrate >3Mbps |
+| Saída maior que o original | `maxrate` não respeitado por preset | Ajuste `preset`/`maxrate` em `gpu_video_optimizer.py` |
+
+---
+
+## Qual esteira usar?
+
+| Cenário | Esteira | Fases |
+|:---|:---|:---|
+| Legenda **ASS embutida** (inglês) | A | 4 → 5 |
+| Legenda **SRT externa** (inglês) | B | 4 → 3 → 5 |
+| Legenda **PGS** (Blu-ray bitmap) | C | 2 → OCR → 3 → 5 |
+| Legenda **ASS embutida** (francês, Macross Delta) | D | 4-B → [12] → 5 |
+| Lote ASS pré-extraído (Gundam Reconguista) | E | 2 → 4 → 5 |
+| Gundam Unicorn (especializada) | F | 2 → 4 → 8 → [12] → 5 |
+| Guilty Crown (correção de nomes e cores) | G | 2 → 4 → 10 → [12] → 5 |
+| Gundam Origin, legenda **chinesa** (Qwen2.5) | H | 2 → 11 → [12] → 5 |
+| Gundam Origin, legenda **francesa** (SUBFRENCH) | I | 4-B → 5 |
+
+Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 4/4-B/11, aplique a [Fase 9](modulo-fase-9.md) (via IA/Gemma), [Fase 10](modulo-fase-10.md) (offline) ou [Fase 11 — reparo](modulo-fase-11.md#repara_erros_origin_zhpy) (via IA/Qwen2.5) antes da Fase 5. Erros de lore residuais: [Fase 12](modulo-fase-12.md).
+
+[Arquitetura](arquitetura.md) · [Pipeline SRT](pipeline-srt.md)
+
+---
+
+## Stack resumida
+
+| Camada | Tecnologia | Fases |
+|:---|:---|:---|
+| Orquestração | Python 3.10+ | Todas |
+| Container/Remux | MKVToolNix | 2, 4, 4-B, 5, 8, 12 (opcional) |
+| Metadados | pymediainfo + MediaInfo | 1 |
+| Tradução IA (inglês) | LM Studio + Gemma 4B | 4, 9 |
+| Tradução IA (francês) | LM Studio + Mistral Nemo Instruct 2407 | 4-B |
+| Tradução IA (chinês) | LM Studio + Qwen2.5-7B-Instruct | 11 |
+| Conversão legenda | SRT → ASS + sync FPS | 3 |
+| Sincronização/Otimização | FFmpeg/FFprobe (NVENC) | 6, 7 |
+| Reparo pós-tradução | Regex + restauração de tags ASS (9/11 com IA, 10 offline) | 9, 10, 11 |
+| Revisão final por título | Regex/dicionário hardcoded por série + remux opcional | 12 |
+| Terminal | colorama + tqdm | Todas |
+
+---
+
+[← Logs](logs-e-auditoria.md) · [Instalação](instalacao.md)
+
+--- FIM DE ARQUIVO: docs/solucao-de-problemas.md ---
+
+--------------------------------------------------------------------------------
+TAREFAS ESPECÍFICAS DE REESCRITA (Gere estes arquivos na íntegra):
+1. REESCREVA o `/README.md` raiz adaptando as esteiras (A-I) e a tabela de fases para o padrão 00 a 12.
+   - Atualize o 'Diagrama geral' do Mermaid de forma que seja 100% renderizável e compatível com o GitHub.
+2. REESCREVA o `/docs/README.md` para servir de hub da documentação.
+3. REESCREVA o `/docs/arquitetura.md` atualizando os diagramas detalhados das esteiras.
+4. REESCREVA o `/docs/guia-de-execucao.md` com os novos caminhos e parâmetros de comandos.
+5. REESCREVA o `/docs/estrutura-repositorio.md` refletindo a nova árvore de diretórios.
+
+Por favor, responda com os arquivos reescritos inteiros, separados por blocos de código markdown.

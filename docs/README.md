@@ -3,10 +3,10 @@
 Índice central. O [README principal](../README.md) traz visão rápida e links para esta pasta.
 
 <p>
-  <img src="https://img.shields.io/badge/12_Fases-1_a_12-blueviolet?style=flat-square" alt="12 Fases"/>
-  <img src="https://img.shields.io/badge/Esteiras-A_a_I-9146FF?style=flat-square" alt="Esteiras A-I"/>
+  <img src="https://img.shields.io/badge/Fases-00_a_12-blueviolet?style=flat-square" alt="Fases 00 a 12"/>
+  <img src="https://img.shields.io/badge/Esteiras-A_a_N-9146FF?style=flat-square" alt="Esteiras A-N"/>
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+"/>
-  <img src="https://img.shields.io/badge/LM_Studio-Gemma_%2B_Qwen2.5-FF6B35?style=flat-square&logo=openai&logoColor=white" alt="LM Studio"/>
+  <img src="https://img.shields.io/badge/LM_Studio-4_modelos-FF6B35?style=flat-square&logo=openai&logoColor=white" alt="LM Studio"/>
   <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="Offline"/>
 </p>
 
@@ -16,8 +16,8 @@
 
 | Documento | Conteúdo |
 |:---|:---|
-| [**🏗️ Arquitetura do pipeline**](arquitetura.md) | Mapa das 12 fases + diagramas de todas as esteiras (A–I) |
-| [📦 Estrutura do repositório](estrutura-repositorio.md) | Árvore de pastas (fases 1–12) + pastas legadas |
+| [**🏗️ Arquitetura do pipeline**](arquitetura.md) | Mapa das fases 00–12 + diagramas de todas as esteiras (A–N) |
+| [📦 Estrutura do repositório](estrutura-repositorio.md) | Árvore de pastas real do projeto |
 | [**🎬 Pipeline SRT (Esteira B)**](pipeline-srt.md) | Filmes e legendas externas |
 | [⚙️ Instalação e pré-requisitos](instalacao.md) | Checklist SO, venv, LM Studio, MKVToolNix, FFmpeg |
 | [🐍 Dependências Python](dependencias-python.md) | `requirements.txt` |
@@ -31,19 +31,22 @@
 
 | Fase | Documento | Pasta / script principal |
 |:---:|:---|:---|
-| 1 | [🔍 Analisador de mídia](modulo-fase-1.md) | `1_analisador_de_midia/media_analyzer.py` |
-| 2 | [✂️ Extração de legendas](modulo-fase-2.md) | `2_extrator_legenda/` (ASS, SRT, PGS) |
-| 3 | [🔁 Conversor SRT → ASS](modulo-fase-3.md) | `3-conversor_str_ass/conversor_srt_para_ass.py` |
-| 4 | [🤖 Tradução IA (LM Studio/Gemma)](modulo-fase-4.md) | `4_tradutor_ia_gemma4/` (4 variantes, inglês, 1 por título) |
-| 4-B | [🇫🇷 Tradução IA (LM Studio/Mistral Nemo)](modulo-fase-4b.md) | `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/` (2 variantes, francês) |
-| 5 | [🎬 Remuxer](modulo-fase-5.md) | `5_juntar_legendas_filmes/batch_remuxer.py` |
-| 6 | [⏱️ Sincronização de legendas](modulo-fase-6.md) | `6_sincronizacao_legenda/` |
-| 7 | [🎮 Otimização de vídeo (GPU)](modulo-fase-7.md) | `7_decodificador/gpu_video_optimizer.py` |
-| 8 | [🩹 Cura de legendas](modulo-fase-8.md) | `8_cura_legendas/` |
-| 9 | [🩹 Reparo de tradução](modulo-fase-9.md) | `9_reparo_de_traducao/` |
-| 10 | [🎵 Correção Guilty Crown](modulo-fase-10.md) | `10_correcao_guilty_crown/` |
-| 11 | [🐉 Tradução chinês (Qwen2.5)](modulo-fase-11.md) | `11_chines_LLM_alibaba_qwen2/` |
-| 12 | [🔬 Revisão final por título](modulo-fase-12.md) | `12_revisao_legenda/` |
+| 00 | [🧹 Higienização](modulo-fase-00.md) | `00_scripts_higienizacao/<Título>/` |
+| 01 | [🔍 Analisador de mídia](modulo-fase-01.md) | `01_analisador_midia/media_analyzer.py` |
+| 02 | [✂️ Extração de legendas](modulo-fase-02.md) | `02_extrator_legenda/` (ASS, SRT, PGS) |
+| 03 | [🎮 Otimização de vídeo (GPU)](modulo-fase-03.md) | `03_decodificador_caracteres/gpu_video_optimizer.py` |
+| 04 | [🔁 Conversor SRT → ASS](modulo-fase-04.md) | `04_conversor_srt_ass/conversor_srt_para_ass.py` |
+| 05a | [🤖 Tradução IA (Gemma 4B)](modulo-fase-05a.md) | `05a_tradutor_llm_gemma4/` (multi-título, inglês) |
+| 05b | [🇫🇷 Tradução IA (Mistral Nemo)](modulo-fase-05b.md) | `05b_tradutor_llm_mistral_nemo/` (francês + inglês) |
+| 05c | [🐉 Tradução IA (Qwen2.5)](modulo-fase-05c.md) | `05c_tradutor_llm_qwen2/` (chinês simplificado) |
+| 05c-2 | [🌐 Tradução/Revisão IA (TranslateGemma)](modulo-fase-05c2.md) | `05c_tradutor_llm_translategemma/` (inglês) |
+| 06 | [🩹 Cura de legendas](modulo-fase-06.md) | `06_cura_legendas/` |
+| 07 | [🩹 Reparo de tradução](modulo-fase-07.md) | `07_reparo_traducao/` |
+| 08 | [⏱️ Sincronização de legendas](modulo-fase-08.md) | `08_sincronizacao_legenda/` |
+| 09 | [🎵 Injetor de músicas](modulo-fase-09.md) | `09_injetor_musicas/injetor_de_musicas.py` |
+| 10 | [🔬 Auditoria e revisão final](modulo-fase-10.md) | `10_auditoria_e_revisao/` |
+| 11 | [🎨 Correção de projetos legados](modulo-fase-11.md) | `11_correcao_projetos_legados/` |
+| 12 | [🎬 Remuxer](modulo-fase-12.md) | `12_remuxer_mkvmerge/batch_remuxer.py` |
 
 ---
 
@@ -51,17 +54,22 @@
 
 | Esteira | Fases | Cenário | Documento |
 |:---:|:---|:---|:---|
-| **A** | 4 → [12] → 5 | Eighty-Six, ASS embutido (inglês) | [Arquitetura](arquitetura.md#esteira-a--episódio-mkv-com-ass-embutido-inglês) |
-| **B** | 4 → 3 → 5 | Filme com SRT externo (inglês, Macross) | [Pipeline SRT](pipeline-srt.md) |
-| **C** | 2 → OCR externo → 3 → 5 | Legenda PGS (Blu-ray bitmap) | [Arquitetura](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) |
-| **D** | 4-B → [12] → 5 | Macross Delta, ASS embutido (francês, Mistral Nemo) | [Arquitetura](arquitetura.md#esteira-d--macross-delta-tradução-francês--pt-br-multi-thread) |
-| **E** | 2 → 4 → 5 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](arquitetura.md#esteira-e--lote-ass-pré-extraído-gundam-reconguista) |
-| **F** | 2 → 4 → 8 → [12] → 5 | Gundam Unicorn (especializada) | [Arquitetura](arquitetura.md#esteira-f--gundam-unicorn-especializada) |
-| **G** | 2 → 4 → 10 → [12] → 5 | Guilty Crown (correção de nomes e cores) | [Arquitetura](arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
-| **H** | 2 → 11 → [12] → 5 | Gundam Origin, legenda chinesa (CHS, Qwen2.5) | [Arquitetura](arquitetura.md#esteira-h--gundam-origin-legenda-chinesa-chs-qwen25) |
-| **I** | 4-B → 5 | Gundam Origin, legenda francesa (SUBFRENCH, Mistral Nemo) | [Arquitetura](arquitetura.md#esteira-i--gundam-origin-legenda-francesa-subfrench) |
+| **A** | 00 → 05a → 12 → [10] | Eighty-Six, ASS embutido (inglês) | [Arquitetura](arquitetura.md#esteira-a--eighty-six-ass-embutido-inglês) |
+| **B** | 05a → 04 → 12 | Filme com SRT externo (inglês, Macross) | [Pipeline SRT](pipeline-srt.md) |
+| **C** | 02 → OCR externo → 04 → 12 | Legenda PGS (Blu-ray bitmap) | [Arquitetura](arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) |
+| **D** | 05b → 12 → [10] | Macross Delta TV, ASS embutido (francês) | [Arquitetura](arquitetura.md#esteira-d--macross-delta-tv-tradução-francês--pt-br) |
+| **E** | 05b → 12 → 10 | Macross Delta Filme 2 (francês) | [Arquitetura](arquitetura.md#esteira-e--macross-delta-filme-2-francês) |
+| **F** | 02 → 05a → 12 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](arquitetura.md#esteira-f--lote-ass-pré-extraído-gundam-reconguista) |
+| **G** | 02 → 05a → [06] → [10] → 12 | Gundam Unicorn (especializada) | [Arquitetura](arquitetura.md#esteira-g--gundam-unicorn-especializada) |
+| **H** | 02 → 05a → 11 → [10] → 12 | Guilty Crown (correção de nomes e cores) | [Arquitetura](arquitetura.md#esteira-h--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
+| **I** | 02 → 05c → [10] → 12 | Gundam The Origin, legenda chinesa (CHS) | [Arquitetura](arquitetura.md#esteira-i--gundam-the-origin-legenda-chinesa-chs) |
+| **J** | 05b → [07] → 12 | Gundam Origin, legenda francesa (SUBFRENCH) | [Arquitetura](arquitetura.md#esteira-j--gundam-origin-legenda-francesa-subfrench) |
+| **K** | 05c-2 → 12 | Gundam Zeta | [Arquitetura](arquitetura.md#esteira-k--gundam-zeta) |
+| **L** | 05c-2 → 12 | Gundam ZZ | [Arquitetura](arquitetura.md#esteira-l--gundam-zz) |
+| **M** | 05b → 12 | Detonator Orgun | [Arquitetura](arquitetura.md#esteira-m--detonator-orgun) |
+| **N** | 05a → 12 | Knights of Sidonia | [Arquitetura](arquitetura.md#esteira-n--knights-of-sidonia) |
 
-`[12]` = passo opcional de QA/correção final por título. Fases **1, 6, 7, 8** são auxiliares e podem ser usadas em qualquer esteira. **Fase 4-B** é a variante em francês da Fase 4 (modelo Mistral Nemo em vez de Gemma). Fases **9, 10, 11** são reparos pós-tradução para falhas `[ERRO_TRADUCAO:]`. A Fase **12** é o catálogo de revisões finais por título.
+`[10]`/`[06]`/`[07]` = passo opcional/condicional. **Fase 00** é transversal — normaliza lore/gramática de legendas já traduzidas, independente da esteira. **Fases 01, 03, 08, 09** são auxiliares, usadas conforme necessário em qualquer esteira. **Fases 05a/05b/05c/05c-2** são variantes de motor de IA do mesmo papel (extrai/traduz), escolhidas pelo idioma de origem e pelo título. **Fases 06, 07, 11** são reparos pós-tradução. A **Fase 10** é o catálogo de revisões finais por título.
 
 ---
 
@@ -69,19 +77,19 @@
 
 **Primeira vez:** [Instalação](instalacao.md) → [Arquitetura](arquitetura.md) → [Estrutura do repositório](estrutura-repositorio.md)
 
-**Episódios MKV (Esteira A, inglês):** Fases [1](modulo-fase-1.md) (opcional) → [4](modulo-fase-4.md) → [5](modulo-fase-5.md)
+**Episódios MKV (Esteira A, inglês, Gemma 4B):** Fases [01](modulo-fase-01.md) (opcional) → [05a](modulo-fase-05a.md) → [12](modulo-fase-12.md)
 
-**Episódios MKV (Esteira D, francês):** Fases [1](modulo-fase-1.md) (opcional) → [4-B](modulo-fase-4b.md) → [5](modulo-fase-5.md)
+**Episódios MKV (Esteira D, francês, Mistral Nemo):** Fases [01](modulo-fase-01.md) (opcional) → [05b](modulo-fase-05b.md) → [12](modulo-fase-12.md)
 
-**Filme/SRT (Esteira B):** [Pipeline SRT](pipeline-srt.md) → Fases 4 → 3 → 5
+**Filme/SRT (Esteira B):** [Pipeline SRT](pipeline-srt.md) → Fases 05a → 04 → 12
 
-**Gundam Origin (Esteira H, legenda chinesa):** [Fase 2](modulo-fase-2.md) → [Fase 11](modulo-fase-11.md) → [Fase 12](modulo-fase-12.md) → [Fase 5](modulo-fase-5.md)
+**Gundam The Origin (Esteira I, legenda chinesa):** [Fase 02](modulo-fase-02.md) → [Fase 05c](modulo-fase-05c.md) → [Fase 10](modulo-fase-10.md) → [Fase 12](modulo-fase-12.md)
 
 **Problemas:** [Logs](logs-e-auditoria.md) → [Solução de problemas](solucao-de-problemas.md)
 
-**Falhas `[ERRO_TRADUCAO:]` pós-tradução:** [Fase 9](modulo-fase-9.md) (reparo via IA/Gemma), [Fase 10](modulo-fase-10.md) (correção offline, Guilty Crown) ou [Fase 11](modulo-fase-11.md#repara_erros_origin_zhpy) (reparo via IA/Qwen2.5, Gundam Origin)
+**Falhas `[ERRO_TRADUCAO:]` pós-tradução:** [Fase 07](modulo-fase-07.md) (reparo via IA/Gemma) ou [Fase 11](modulo-fase-11.md) (correção offline, Guilty Crown)
 
-**Erros de lore/resíduos após a tradução:** [Fase 12](modulo-fase-12.md) — catálogo de scripts de QA por título
+**Erros de lore/resíduos após a tradução:** [Fase 00](modulo-fase-00.md) (higienização por título) e [Fase 10](modulo-fase-10.md) (catálogo de scripts de QA + remux)
 
 ---
 

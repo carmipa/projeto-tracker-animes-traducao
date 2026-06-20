@@ -1,0 +1,595 @@
+================================================================================
+PARTE 1 DE 3: ESTRUTURA FÍSICA E MAPEAMENTO DE ARQUITETURA
+================================================================================
+Você é um redator técnico sênior especializado em arquiteturas de pipelines de dados e IA.
+Este é o primeiro prompt de um processo de 3 etapas para atualizar a documentação do projeto.
+Nesta primeira etapa, assimile a nova estrutura física do projeto, as pastas e os scripts reais.
+
+
+Equivalência de Fases e Estrutura de Pastas (De/Para):
+--------------------------------------------------------------------------------
+* FASE 00 (Inédita): '00_scripts_higienizacao/' (Higienização/normalização de termos/lore e reticências)
+* FASE 01 (Antiga 1): '01_analisador_midia/' (Auditoria de codecs, faixas e metadados de vídeo)
+* FASE 02 (Antiga 2): '02_extrator_legenda/' (Extração inteligente de legendas ASS/SRT/PGS do mkv)
+* FASE 03 (Antiga 7): '03_decodificador_caracteres/' (Recompressão/Otimização de vídeo e ajustes de encoding/caracteres)
+* FASE 04 (Antiga 3): '04_conversor_srt_ass/' (Conversão SRT -> ASS com compensação de frame rate/sync)
+* FASE 05a (Antiga 4): '05a_tradutor_llm_gemma4/' (Tradução em lote/multithread via Gemma 4B)
+* FASE 05b (Antiga 4-B): '05b_tradutor_llm_mistral_nemo/' (Tradução especializada do Francês via Mistral Nemo)
+* FASE 05c (Antiga 11): '05c_tradutor_llm_qwen2/' (Tradução do Chinês Simplificado via Qwen2.5)
+* FASE 05c2 (Inédita): '05c_tradutor_llm_translategemma/' (Tradução e correção contextual via TranslateGemma)
+* FASE 06 (Antiga 8): '06_cura_legendas/' (Cura offline ultra-rápida de tags corrompidas e strings 'TAG')
+* FASE 07 (Antiga 9): '07_reparo_traducao/' (Módulo de reparo avulso batch=1 para consertar tags e [ERRO_TRADUCAO])
+* FASE 08 (Antiga 6): '08_sincronizacao_legenda/' (Auditoria de drifts de áudio/vídeo e estiramento de tempo)
+* FASE 09 (Antiga 10): '09_injetor_musicas/' (Extração e injeção de karaokês OP/ED/Insert Songs de fansubs)
+* FASE 10 (Antiga 12): '10_auditoria_e_revisao/' (Revisão final por título de lore, resíduos de tradução e controle de QA)
+* FASE 11 (Inédita): '11_correcao_projetos_legados/' (Limpeza de tags de cores de músicas e marcadores em legendas antigas)
+* FASE 12 (Antiga 5): '12_remuxer_mkvmerge/' (Multiplexação final rápida sem re-encode com mkvmerge)
+--------------------------------------------------------------------------------
+
+
+Abaixo está o mapa estrutural com os scripts e docstrings atuais:
+--------------------------------------------------------------------------------
+# MAPA ESTRUTURAL DO PROJETO - TRACKER ANIMES
+Gerado em: projeto-tracker-animes-traducao
+Este documento serve como mapa de contexto para LLMs atualizarem a documentação oficial.
+---
+
+## 📁 Pasta: `00_scripts_higienizacao/`
+### 📄 Arquivo: `00_scripts_higienizacao\86_Eighty_Six\audit_86.py`
+```text
+Patentes e jargões icônicos de 86
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\86_Eighty_Six\limpeza_geral_86.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Detonator_Orgun\limpeza_geral_orgun.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Guilty_Crown\limpeza_geral_guilty.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Origin\limpeza_origin_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Origin\limpeza_origin_finais.py`
+```text
+Correção do erro de barra (\N com espaço ou minúsculo)
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Origin\limpeza_origin_gramatica_profunda.py`
+```text
+O "Cérebro do Antigravity" - Dicionário de Correção Contextual de Francês para PT-BR Nativo
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Origin\limpeza_origin_total.py`
+```text
+Francesismos & Vocabulário
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Gundam_The_Origin\limpeza_geral_origin.py`
+```text
+PASTA ALVO DE GUNDAM THE ORIGIN
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Unicorn\limpeza_geral_unicorn.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Zeta\limpeza_zeta_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa (Traje Móvel / traje móvel / TRAJE MÓVEL) e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Knights_of_Sidonia\limpeza_sidonia_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Macross_Delta\limpeza_geral_macross.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Macross_Delta_Filme_1\limpeza_macross_filme1_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Macross_Delta_Filme_2\limpeza_macross_filme2_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `00_scripts_higienizacao\Sword_Art_Online_Filme_2\limpeza_sao_filme2_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+---
+## 📁 Pasta: `01_analisador_midia/`
+### 📄 Arquivo: `01_analisador_midia\media_analyzer.py`
+```text
+MÓDULO: media_analyzer.py
+Responsável por realizar uma auditoria técnica profunda em arquivos de vídeo (MKV, MP4, etc).
+Ele utiliza a biblioteca pymediainfo para ler os metadados do container, fluxos de vídeo, 
+áudio e legendas (incluindo detecção de legendas embudidas como PGS vs ASS).
+Gera relatórios de texto detalhados na pasta 'relatorio'.
+```
+
+---
+## 📁 Pasta: `02_extrator_legenda/`
+### 📄 Arquivo: `02_extrator_legenda\extrator_inteligente_ass.py`
+```text
+MÓDULO: extractor_inteligente.py
+Extrai dinamicamente as legendas de diálogo em inglês de Gundam Unicorn RE:0096,
+tratando a variação de Track IDs automaticamente através do binário local do MKVExtract.
+
+Author: Paulo + Gemini
+Data: Maio 2026
+Status: PRODUCTION READY (Bugfix aplicado)
+```
+
+### 📄 Arquivo: `02_extrator_legenda\extrator_inteligente_pgs.py`
+```text
+MÓDULO: extrator_pgs.py
+Responsável por escanear arquivos MKV, identificar faixas de legenda PGS (imagem/bitmap)
+e extraí-las automaticamente para arquivos .sup usando o mkvextract.
+```
+
+### 📄 Arquivo: `02_extrator_legenda\extrator_inteligente_srt.py`
+```text
+MÓDULO: extrator_inteligente_srt.py
+Extrai dinamicamente as legendas de diálogo em inglês no formato SRT,
+tratando a variação de Track IDs automaticamente através do binário local do MKVExtract.
+
+Author: Paulo + Gemini
+Data: Junho 2026
+Status: PRODUCTION READY
+```
+
+### 📄 Arquivo: `02_extrator_legenda\extrator_texto_bruto\extrator_texto_bruto.py`
+```text
+Extrator de Texto Bruto com Numeração de Linhas (versão inteligente)
+=====================================================================
+Este script percorre uma pasta contendo arquivos ``.mkv``,
+extrai o texto das legendas já geradas pelo *extrator inteligente*
+(`extrator_inteligente_ass.py`) e salva, **na mesma pasta do vídeo**,
+um arquivo chamado ``texto_bruto_extraido_<nome_do_capítulo>.txt``
+com cada linha numerada e o total de linhas ao final.
+
+Uso:
+    python extrator_texto_bruto.py -p <pasta_videos>
+
+Se a pasta não for informada, o script solicitará interativamente.
+```
+
+---
+## 📁 Pasta: `03_decodificador_caracteres/`
+### 📄 Arquivo: `03_decodificador_caracteres\gpu_video_optimizer.py`
+```text
+Retorna (bitrate_mbps, codec, pix_fmt, profile) ou lança RuntimeError.
+    cmd = ["ffprobe", "-v", "quiet", "-print_format", "json", "-show_streams", "-show_format", caminho]
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    if res.returncode != 0:
+        raise RuntimeError(f"ffprobe exit {res.returncode}: {res.stderr.strip()[:200]}")
+
+    try:
+        dados = json.loads(res.stdout)
+    except json.JSONDecodeError as e:
+        raise RuntimeError(f"ffprobe retornou JSON invalido: {e}")
+```
+
+---
+## 📁 Pasta: `04_conversor_srt_ass/`
+### 📄 Arquivo: `04_conversor_srt_ass\conversor_srt_para_ass.py`
+```text
+MÓDULO: conversor_srt_para_ass.py (Modo Dinâmico com Correção de FPS)
+Responsável por converter a legenda SRT traduzida para o formato estruturado ASS,
+permitindo a escolha dinâmica de diretórios via console e aplicando correção matemática
+de sincronismo progressivo (fator de escala de frame rate 25fps -> 23.976fps).
+
+Author: Paulo + Gemini
+Data: Maio 2026
+Status: PRODUCTION SYNC CORRECTED
+```
+
+### 📄 Arquivo: `04_conversor_srt_ass\verificador.py`
+*(Sem docstring ou cabeçalho explicativo)*
+
+---
+## 📁 Pasta: `05a_tradutor_llm_gemma4/`
+### 📄 Arquivo: `05a_tradutor_llm_gemma4\5_tradutor_de_legenda\tradutor_srt_direto.py`
+```text
+PIPELINE INDUSTRIAL DE TRADUÇÃO DE LEGENDA SEPARADA - MODELO DIRECT SRT
+Lê arquivo SRT externo → Traduz via LM Studio (Gemma 4B) → Salva localmente em PT-BR
+
+Author: Paulo + Claude
+Data: Maio 2026
+Status: PRODUCTION DIRECT SRT
+```
+
+### 📄 Arquivo: `05a_tradutor_llm_gemma4\86\sub_extractor.py`
+```text
+PIPELINE INDUSTRIAL UNIFICADO - VERSÃO 86 (EN -> PT-BR)
+Extrai .ass dos .mkv → Detecta Encoding → Traduz do Inglês via LM Studio → Salva
+
+Recursos Industriais:
+  - Cache persistente em disco (traducao_cache_86.json)
+  - Mascaramento avançado de tags ASS [T0], [T1]... para evitar corrupções
+  - Concorrência multithread controlada (ThreadPoolExecutor)
+  - Fallback resiliente linha a linha em caso de falha de lote
+  - Detecção automática de faixas ASS priorizando inglês
+  - Temporizadores de precisão por arquivo e execução total
+```
+
+### 📄 Arquivo: `05a_tradutor_llm_gemma4\tradutor_ass\batch_translator_ass.py`
+```text
+MÓDULO: batch_translator_ass.py (Batch Mode v4 - ASS Translation Edition)
+Otimizado para RTX 5600 8GB VRAM (LM Studio com 2 concorrências max / max precision).
+Traduz em lotes usando threads em paralelo para velocidade máxima sem perda de tags ASS.
+
+Author: Paulo + Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `05a_tradutor_llm_gemma4\tradutor_ass\batch_translator_sidonia.py`
+```text
+MÓDULO: batch_translator_sidonia.py (Batch Mode v4 - ASS Translation Edition)
+Otimizado para RTX 5600 8GB VRAM (LM Studio com 2 concorrências max / max precision).
+Traduz em lotes usando threads em paralelo para velocidade máxima sem perda de tags ASS.
+
+Author: Paulo + Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `05a_tradutor_llm_gemma4\tradutor_gundam_unicornio\batch_translator_unicorn.py`
+```text
+MODULO: batch_translator_unicorn.py (Batch Mode v4)
+Otimizado para Ryzen 7 5800X3D + RX 7800 XT + 64GB RAM.
+Traduz BATCH_SIZE linhas por chamada de API, reduzindo o numero de requisicoes
+de ~400 para ~40 por episodio e maximizando a utilizacao da GPU.
+
+Author: Paulo + Claude
+Data: Maio 2026
+```
+
+---
+## 📁 Pasta: `05b_tradutor_llm_mistral_nemo/`
+### 📄 Arquivo: `05b_tradutor_llm_mistral_nemo\Detonator_Orgun\script_tradutor_en_detonator_orgun.py`
+```text
+PIPELINE INDUSTRIAL UNIFICADO - VERSÃO INGLÊS (EN -> PT-BR)
+Alvo: Detonator Orgun (1991)
+Extrai .ass e .srt → Traduz do Inglês via LM Studio (Mistral Nemo) → Salva PT-BR
+
+Sistema de Logs Auditável com Temporizadores de Precisão e Validador Anti-Alucinação Inglês.
+```
+
+### 📄 Arquivo: `05b_tradutor_llm_mistral_nemo\frances_para_ptbr\macross_deslta.py`
+```text
+PIPELINE INDUSTRIAL UNIFICADO - VERSÃO FRANCÊS (FR -> PT-BR)
+Extrai .ass dos .mkv → Detecta Encoding → Traduz do Francês via LM Studio → Salva
+
+Sistema de Logs Auditável com Temporizadores de Precisão:
+  Mede o tempo decorrido por arquivo e o tempo total de execução.
+Otimizado com cache persistente em disco, mascaramento de tags ASS e concorrência multithread.
+```
+
+### 📄 Arquivo: `05b_tradutor_llm_mistral_nemo\frances_para_ptbr\script_tradutor_fr_gundam_origin.py`
+```text
+PIPELINE INDUSTRIAL UNIFICADO - VERSÃO FRANCÊS (FR -> PT-BR)
+Extrai .ass dos .mkv → Detecta Encoding → Traduz do Francês via LM Studio → Salva
+
+Sistema de Logs Auditável com Temporizadores de Precisão:
+  Mede o tempo decorrido por arquivo e o tempo total de execução.
+Otimizado com cache persistente em disco, mascaramento de tags ASS e concorrência multithread.
+```
+
+---
+## 📁 Pasta: `05c_tradutor_llm_qwen2/`
+### 📄 Arquivo: `05c_tradutor_llm_qwen2\batch_translator_origin_zh.py`
+```text
+MODULO: batch_translator_origin_zh.py (Batch Mode v5 - Resiliente)
+Otimizado para tradução de Chinês Simplificado (CHS) para Português do Brasil (PT-BR)
+usando o modelo local Qwen2.5 via LM Studio.
+Inclui:
+- Cache persistente em disco (traducao_cache_origin_zh.json) baseado em linhas mascaradas.
+- Fallback resiliente automático linha por linha se a chamada em lote falhar.
+- Limpeza avançada contra preâmbulos/postamblos conversacionais do LLM.
+- Métricas de tempo detalhadas por arquivo e acumuladas.
+
+Author: Paulo + Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `05c_tradutor_llm_qwen2\repara_erros_origin_zh.py`
+```text
+MODULO: repara_erros_origin_zh.py
+Verifica legendas traduzidas (*_PTBR.ass) de Gundam The Origin em busca de marcadores "[ERRO_TRADUCAO: ...]"
+e as re-traduz avulsamente (lote = 1) com suporte a raciocínio (CoT) via LM Studio.
+Garante o salvamento das traduções reparadas no cache persistente (traducao_cache_origin_zh.json) e
+restauração perfeita das tags Aegisub.
+
+Author: Antigravity + Paulo
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `05c_tradutor_llm_qwen2\test_reparo.py`
+```text
+extrair_traducao_final
+```
+
+---
+## 📁 Pasta: `05c_tradutor_llm_translategemma/`
+### 📄 Arquivo: `05c_tradutor_llm_translategemma\Gundam_Origin\script_revisor_ptbr_gundam_origin.py`
+```text
+PIPELINE INDUSTRIAL UNIFICADO - REVISÃO GRAMATICAL
+Alvo: Mobile Suit Gundam Origin (Correção de PT-BR corrompido)
+Motor: TranslateGemma 12B (Operando como Corretor Ortográfico)
+```
+
+### 📄 Arquivo: `05c_tradutor_llm_translategemma\Gundam_ZZ\script_tradutor_en_gundam_zz.py`
+```text
+PIPELINE INDUSTRIAL UNIFICADO - VERSÃO INGLÊS (EN -> PT-BR)
+Alvo: Mobile Suit Gundam ZZ (1986)
+Motor: TranslateGemma 12B (Otimizado para preservação de Tags/Lore)
+```
+
+### 📄 Arquivo: `05c_tradutor_llm_translategemma\Gundam_Zeta\script_tradutor_en_gundam_zeta.py`
+```text
+PIPELINE INDUSTRIAL UNIFICADO - VERSÃO INGLÊS (EN -> PT-BR)
+Alvo: Mobile Suit Zeta Gundam (1985)
+Motor: TranslateGemma 12B (Otimizado para preservação de Tags/Lore)
+```
+
+---
+## 📁 Pasta: `06_cura_legendas/`
+### 📄 Arquivo: `06_cura_legendas\cura_gundam_mkv.py`
+```text
+MÓDULO: cura_gundam_mkv.py
+Extrai, corrige (cura offline de tags) e remuxa de volta os episódios do Gundam Unicorn
+que já estão multiplexados e contêm o erro de 'TAG' nas legendas embutidas.
+
+Suporta dois modos:
+1. Cura com correspondência (Perfeita): Se as legendas ENG originais forem fornecidas.
+2. Cura Cega (Blind Remedy): Se você não tiver as legendas ENG. Limpa cirurgicamente a palavra 'TAG'
+   do início e do meio dos diálogos em português diretamente.
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `06_cura_legendas\cura_legendas_tag.py`
+```text
+MÓDULO: cura_legendas_tag.py
+Corrige de forma offline e instantânea o erro em que a palavra 'TAG' (ou '_TAG_')
+aparece grudada no início ou no meio das legendas traduzidas, restaurando as tags ASS originais.
+Processamento 100% offline, sem uso de IA (segundos para a temporada completa).
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+---
+## 📁 Pasta: `07_reparo_traducao/`
+### 📄 Arquivo: `07_reparo_traducao\aplica_linhas_revisadas.py`
+```text
+MÓDULO: aplica_linhas_revisadas.py
+Lê as linhas corrigidas em linhas_revisadas.json e as grava de volta
+nos arquivos .ass correspondentes, além de atualizar o cache global.
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `07_reparo_traducao\extrai_linhas_suspeitas.py`
+```text
+MÓDULO: extrai_linhas_suspeitas.py
+Varre as legendas e gera um JSON consolidado contendo apenas as falas que
+precisam de refinamento de gênero, pronomes, resíduos de francês ou patentes.
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `07_reparo_traducao\limpa_erros_residuais.py`
+```text
+MODULO: limpa_erros_residuais.py
+Faz uma varredura nas legendas PT-BR em busca de marcadores "[ERRO_TRADUCAO: ...]"
+remanescentes. Como esses erros persistentes geralmente são compostos por termos
+protegidos e números (cujo correto é ser idêntico ao inglês), este script substitui
+diretamente o erro pelo texto original com as tags ASS restauradas, sem chamar a IA.
+
+Author: Antigravity + Paulo
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `07_reparo_traducao\refina_traducao_fr.py`
+```text
+MÓDULO: refina_traducao_fr.py
+Revisa e refina as legendas traduzidas (*_ENG.ass na pasta legendas_ptbr) via LM Studio.
+- Utiliza engenharia reversa no cache traducao_cache_fr.json para obter o francês original.
+- Corrige erros de gênero, concordância, patentes, pronomes e resíduos do francês.
+- Atualiza o cache e gera um relatório detalhado de alterações.
+
+Author: Antigravity + Paulo
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `07_reparo_traducao\repara_erros_traducao.py`
+```text
+MODULO: repara_erros_traducao.py
+Verifica as legendas traduzidas (*_PTBR.ass) em busca de marcadores "[ERRO_TRADUCAO: ...]"
+e as traduz de forma individual (batch size = 1) recorrendo ao LM Studio,
+garantindo que todas as tags e posições originais sejam perfeitamente restauradas.
+
+Author: Antigravity + Paulo
+Data: Junho 2026
+```
+
+---
+## 📁 Pasta: `08_sincronizacao_legenda/`
+### 📄 Arquivo: `08_sincronizacao_legenda\auditor_sicronia\auditor_sincronia.py`
+```text
+MÓDULO: auditor_sincronia.py
+Realiza uma auditoria avançada e inteligente de sincronia entre os fluxos de vídeo 
+e as legendas embutidas em arquivos de vídeo (como MKV), calculando drift (desvio),
+identificando FPS mismatch e sugerindo a correção adequada.
+```
+
+### 📄 Arquivo: `08_sincronizacao_legenda\subtitle_fixer.py`
+```text
+Inicialização do colorama para terminal colorido (se disponível)
+```
+
+### 📄 Arquivo: `08_sincronizacao_legenda\subtitle_stretcher.py`
+```text
+MÓDULO: subtitle_stretcher.py
+Realiza o estiramento de tempo (Time Stretch) matemático de arquivos de legenda (SRT e ASS)
+em Python puro, sem dependências de binários ou programas externos.
+```
+
+---
+## 📁 Pasta: `09_injetor_musicas/`
+### 📄 Arquivo: `09_injetor_musicas\injetor_de_musicas.py`
+```text
+MÓDULO: injetor_de_musicas.py
+Extrai as linhas de karaokê (OP/ED/Insert Songs) de uma legenda fonte (ex: Fansub)
+e injeta nas legendas de destino (ex: Tradução Oficial/Crunchyroll).
+```
+
+---
+## 📁 Pasta: `10_auditoria_e_revisao/`
+### 📄 Arquivo: `10_auditoria_e_revisao\micross_delta_filme2.py`
+```text
+MÓDULO: micross_delta_filme2.py
+Revisa e corrige erros de lore, resíduos de francês e formatação na legenda do Filme 2
+de Macross Delta, salvando a legenda limpa e re-multiplexando o vídeo MKV final.
+
+Author: Antigravity + Paulo
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `10_auditoria_e_revisao\revisao_86.py`
+```text
+MÓDULO: revisao_86.py
+Revisa as legendas traduzidas de Eighty-Six (Part 1 & Part 2), corrige
+alucinações residuais (como [T0] não restaurado) e padroniza termos.
+Por fim, realiza o remux com mkvmerge gerando arquivos limpos *_PTBR.mkv.
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `10_auditoria_e_revisao\revisao_guild_crown.py`
+```text
+MÓDULO: revisao_guild_crown.py
+Revisa e corrige erros de tradução em diálogos (ex: Funerária -> Sepolcro),
+expurga notas de tradutor (chaves {...}) e padroniza as letras das músicas
+de abertura e encerramento de todos os 22 episódios de Guilty Crown.
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `10_auditoria_e_revisao\revisao_legenda_gundam_unicornio.py`
+```text
+MÓDULO: revisao_legenda_gundam_unicornio.py
+Revisa e corrige erros de tradução em diálogos do Episódio 1 e padroniza as letras 
+das músicas (Into the Sky e RE:I AM) de todos os 22 episódios de Gundam Unicorn RE:0096,
+re-multiplexando o vídeo MKV final.
+
+Author: Antigravity + Paulo
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `10_auditoria_e_revisao\revisao_legenda_macross_delta.py`
+```text
+MÓDULO: revisao_legenda_macross_delta.py
+Revisa e corrige erros de lore, traduções em inglês faltantes e tags ASS corrompidas 
+nas legendas de Macross Delta, salvando os resultados em uma nova pasta para compartilhamento.
+
+Author: Antigravity + Paulo
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `10_auditoria_e_revisao\revisao_legenda_origin.py`
+```text
+MÓDULO: revisao_legenda_origin.py (Adaptado para pipeline Francês)
+Revisa e corrige erros específicos de lore/tradução nas legendas de Gundam Origin.
+- Corrige os arquivos de legenda .ass na pasta legendas_fr/traducao.
+- Opcionalmente remuxa de volta para os MKVs originais em uma pasta 'corrigidos'.
+- Gera um Log de Auditoria ao final.
+
+Author: Antigravity + Paulo
+Data: Junho 2026
+```
+
+---
+## 📁 Pasta: `11_correcao_projetos_legados/`
+### 📄 Arquivo: `11_correcao_projetos_legados\corrigir_cores_musicas.py`
+```text
+MÓDULO: corrigir_cores_musicas.py
+Corrige a coloração das músicas (OP/ED) de Guilty Crown nas legendas ASS,
+alterando a cor principal das fontes para branco (\c&HFFFFFF&) e o contorno
+para preto (\3c&H000000&) para máxima legibilidade na TV. Além disso, remove
+os resíduos da palavra 'TAG' das letras das músicas.
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `11_correcao_projetos_legados\corrigir_guilty_crown.py`
+```text
+MÓDULO: corrigir_guilty_crown.py
+Remove de forma offline e instantânea os marcadores "[ERRO_TRADUCAO: ...]" das
+legendas traduzidas de Guilty Crown, restaurando o texto original (geralmente nomes
+próprios) e preservando a estrutura da legenda.
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+---
+## 📁 Pasta: `12_remuxer_mkvmerge/`
+### 📄 Arquivo: `12_remuxer_mkvmerge\batch_remuxer.py`
+```text
+MÓDULO: batch_remuxer.py (Fase 2 do Pipeline — Otimizado)
+Responsável por orquestrar o processo de multiplexação (remuxing) em lote.
+Ele recebe os arquivos de vídeo originais (.mkv) e as legendas traduzidas (.ass),
+e utiliza o mkvmerge para uni-los sem re-encodar o vídeo ou áudio.
+As novas legendas são definidas como faixa padrão (Default Track) em Português.
+
+Author: Paulo + Gemini
+Data: Maio 2026
+Status: PRODUCTION READY (High Performance)
+```
+
+---
+
+--------------------------------------------------------------------------------
+
+INSTRUÇÃO DE RESPOSTA:
+Por favor, apenas responda confirmando que você assimilou a nova arquitetura física do projeto, 
+os scripts contidos em cada pasta (de 00_ a 12_) e que está pronto para receber a 'PARTE 2 DE 3'.
+Não gere nenhuma documentação ou resumo técnico ainda. Responda apenas com a confirmação curta.

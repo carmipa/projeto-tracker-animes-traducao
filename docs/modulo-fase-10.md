@@ -1,111 +1,43 @@
-# 🎵 Módulo — Fase 10 (Correção Guilty Crown)
+# 🔬 Fase 10 — Auditoria e revisão final
 
-[← Índice](README.md) · [`10_correcao_guilty_crown/`](../10_correcao_guilty_crown/)
+[← Índice](README.md) · [Arquitetura](arquitetura.md) · [Guia de execução](guia-de-execucao.md)
 
-<p>
-  <img src="https://img.shields.io/badge/Fase-10-4B0082?style=flat-square" alt="Fase 10"/>
-  <img src="https://img.shields.io/badge/Tipo-Correção_offline-orange?style=flat-square" alt="Correção offline"/>
-  <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="100% Offline"/>
-  <img src="https://img.shields.io/badge/Interativo-prompts_de_pasta-blue?style=flat-square" alt="Interativo"/>
-  <img src="https://img.shields.io/badge/Especializado-Guilty_Crown-9146FF?style=flat-square" alt="Guilty Crown"/>
-</p>
-
-**Fases:** [1](modulo-fase-1.md) · [2](modulo-fase-2.md) · [3](modulo-fase-3.md) · [4](modulo-fase-4.md) · [4-B](modulo-fase-4b.md) · [5](modulo-fase-5.md) · [6](modulo-fase-6.md) · [7](modulo-fase-7.md) · [8](modulo-fase-8.md) · [9](modulo-fase-9.md) · **10** · [11](modulo-fase-11.md) · [12](modulo-fase-12.md)
-
-**Especialização por série.** Pós-processamento **100% offline** (sem LM Studio) das legendas traduzidas de *Guilty Crown* (Esteira G): remove marcadores `[ERRO_TRADUCAO: ...]` residuais e ajusta cores/tags das músicas (OP/ED).
+**Pasta:** [`10_auditoria_e_revisao/`](../10_auditoria_e_revisao/)
 
 ---
 
-## Scripts
+## O que faz
 
-| Script | Atua sobre | Estratégia |
+Catálogo de scripts de **QA por título** — corrigem erros de lore, resíduos de tradução e alucinações residuais específicas de cada série/filme, e opcionalmente remultiplexam o `.mkv` final via `mkvmerge`. Roda depois (ou antes, dependendo do script) do remux principal da [Fase 12](modulo-fase-12.md). Cada script tem a lista de patches (regex/dicionário) **hardcoded para um título específico** — não reaproveite entre séries diferentes sem revisar.
+
+---
+
+## Scripts por título
+
+| Script | Título / Esteira | Função |
 |:---|:---|:---|
-| [`corrigir_guilty_crown.py`](../10_correcao_guilty_crown/corrigir_guilty_crown.py) | `.ass` traduzidos com `[ERRO_TRADUCAO: texto]` | Substitui o marcador pelo `texto` capturado via regex, instantâneo, sem IA |
-| [`corrigir_cores_musicas.py`](../10_correcao_guilty_crown/corrigir_cores_musicas.py) | `.ass` corrigidos, linhas de estilo `OP*`/`ED*` | Normaliza cores (`\c`, `\1c`, `\3c`) para branco/preto e remove resíduos da palavra `TAG` |
+| `revisao_86.py` | Eighty-Six (Esteira A) | Corrige alucinações residuais (ex.: `[T0]` não restaurado), padroniza termos, remux final |
+| `revisao_legenda_macross_delta.py` | Macross Delta TV (Esteira D) | Lore, traduções em inglês faltantes, tags ASS corrompidas |
+| `micross_delta_filme2.py` | Macross Delta Filme 2 (Esteira E) | Lore + resíduos de francês + remux do filme |
+| `revisao_legenda_gundam_unicornio.py` | Gundam Unicorn (Esteira G) | Episódio 1 + letras OP/ED (Into the Sky, RE:I AM), remux dos 22 episódios |
+| `revisao_guild_crown.py` | Guilty Crown (Esteira H) | Diálogos (ex.: "Funerária" → "Sepolcro"), remove notas de tradutor (`{...}`), padroniza letras OP/ED |
+| `revisao_legenda_origin.py` | Gundam The Origin (Esteira I) | Lore/tradução, atualiza `traducao_cache_origin_zh.json`, remux opcional para `corrigidos/` |
 
----
-
-## Diagrama de fluxo
-
-```mermaid
-flowchart TB
-    A0(["legendas_eng/*.ass\ntraduzido com marcador ERRO_TRADUCAO"]) --> P1["corrigir_guilty_crown.py\nprompt: pasta origem / pasta destino"]
-
-    P1 --> SCAN["Para cada Dialogue:\nregex captura o texto dentro do marcador ERRO_TRADUCAO"]
-    SCAN --> REPL["Substitui o marcador\npelo texto capturado"]
-    REPL --> RENAME["Renomeia arquivos de _ENG.ass para _PTBR.ass"]
-    RENAME --> OUT1["legendas_ptbr/*_PTBR.ass\n+ relatorio_correcao.txt"]
-
-    OUT1 --> P2["corrigir_cores_musicas.py\nprompt: pasta legendas_ptbr"]
-    P2 --> STYLE{"Linha Style comeca\ncom OP ou ED?"}
-    STYLE -->|Sim| FIXSTYLE["PrimaryColour = branco\nOutlineColour = preto"]
-    STYLE -->|Nao| KEEP1["mantem estilo"]
-
-    P2 --> DLG{"Dialogue ou Comment\ncom estilo OP/ED?"}
-    DLG -->|Sim| CLEANTAG["remove residuo da palavra TAG\nfora das tags ASS"]
-    CLEANTAG --> FIXCOLOR["normaliza tags de cor ASS:\nc e 1c para branco, 3c para preto"]
-    DLG -->|Nao| KEEP2["mantem linha"]
-
-    FIXSTYLE --> OUT2["legendas_ptbr/*.ass atualizado\n+ relatorio_cores_musicas.txt"]
-    FIXCOLOR --> OUT2
-    KEEP1 --> OUT2
-    KEEP2 --> OUT2
-
-    OUT2 --> NEXT["Fase 5 - Remux"]
-
-    style P1 fill:#4B0082,stroke:#00E5FF,color:#fff
-    style P2 fill:#4B0082,stroke:#00E5FF,color:#fff
-    style OUT1 fill:#1e4620,stroke:#32CD32,color:#fff
-    style OUT2 fill:#1e4620,stroke:#32CD32,color:#fff
-```
-
----
-
-## `corrigir_guilty_crown.py`
-
-| Item | Detalhe |
-|:---|:---|
-| Entrada | Pasta com `.ass` traduzidos contendo `[ERRO_TRADUCAO: texto]` (padrão: `E:\animes\GUILTY CROWN\1080p\legendas_eng`) |
-| Saída | Pasta de destino (padrão: `E:\animes\GUILTY CROWN\1080p\legendas_ptbr`), criada automaticamente |
-| Processo | `regex_erro = r'\[ERRO_TRADUCAO:\s*(.*?)\s*\]'` — substitui cada ocorrência pelo grupo capturado (texto original, geralmente nomes próprios) |
-| Renomeio | `*_ENG.ass` → `*_PTBR.ass`; outros nomes recebem sufixo `_PTBR` |
-| Relatório | `relatorio_correcao.txt` — lista arquivos processados, correções por arquivo, total geral |
-| Dependências | `colorama`, `tqdm` |
+Roteiro de referência usado em apoio manual: `_dialogos_eng_brutos.txt` (gerado pela [Fase 02](modulo-fase-02.md), `extrator_texto_bruto.py`).
 
 ```powershell
-python ".\10_correcao_guilty_crown\corrigir_guilty_crown.py"
-# Prompts interativos:
-#   Pasta com as legendas extraídas (com erros de tradução): [ENTER = padrão E:\animes\GUILTY CROWN\1080p\legendas_eng]
-#   Pasta onde deseja salvar as legendas corrigidas:          [ENTER = padrão E:\animes\GUILTY CROWN\1080p\legendas_ptbr]
+python ".\10_auditoria_e_revisao\revisao_86.py"
+python ".\10_auditoria_e_revisao\revisao_legenda_origin.py"
 ```
 
----
-
-## `corrigir_cores_musicas.py`
-
-| Item | Detalhe |
-|:---|:---|
-| Entrada | Pasta com `.ass` já corrigidos pela etapa anterior (padrão: `E:\animes\GUILTY CROWN\1080p\legendas_ptbr`) |
-| Estilos `OP*`/`ED*` | Campo `PrimaryColour` → `&H00FFFFFF` (branco) e `OutlineColour` → `&H00000000` (preto) |
-| Diálogos `OP*`/`ED*` | Remove resíduos da palavra `TAG`/`tag` fora de blocos `{...}`; normaliza `\c`/`\1c` → `\c&HFFFFFF&` e `\3c` → `\3c&H000000&` |
-| Saída | Sobrescreve os `.ass` na mesma pasta + `relatorio_cores_musicas.txt` |
-| Relatório | Estilos redefinidos, linhas com correção de cor, resíduos de `TAG` removidos, tempo total |
-| Dependências | `colorama`, `tqdm` |
-
-```powershell
-python ".\10_correcao_guilty_crown\corrigir_cores_musicas.py"
-# Prompt interativo:
-#   Pasta com as legendas PT-BR corrigidas: [ENTER = padrão E:\animes\GUILTY CROWN\1080p\legendas_ptbr]
-```
+Cada script tem constantes `PASTA_ANIME`/`PASTA_LEGENDA` hardcoded no topo apontando para a árvore de mídia do autor — edite para o caminho real antes de rodar.
 
 ---
 
-## Quando usar
+## Logs e troubleshooting
 
-- Série **Guilty Crown** (ou similar) cuja tradução em lote (Fase 4) deixou marcadores `[ERRO_TRADUCAO: ...]` que correspondem a **nomes próprios/termos que devem permanecer como no inglês** — não requer LM Studio, ao contrário da [Fase 9](modulo-fase-9.md).
-- Músicas (OP/ED) com cores de fonte ilegíveis ou com a palavra `TAG` aparecendo na letra — rode `corrigir_cores_musicas.py` após `corrigir_guilty_crown.py`.
-- Faz parte da **Esteira G**: ver [Arquitetura — Esteira G](arquitetura.md#esteira-g--guilty-crown-correção-de-nomes-e-cores-de-músicas).
+[Logs e auditoria — Fase 10](logs-e-auditoria.md#fase-10--auditoria-e-revisão-final) · [Solução de problemas](solucao-de-problemas.md#fase-10--revisão-final-por-título-todas-as-esteiras-com-qa)
 
 ---
 
-[← Fase 9](modulo-fase-9.md) · [Arquitetura](arquitetura.md)
+[← Fase 09](modulo-fase-09.md) · [Índice](README.md) · [Fase 11 →](modulo-fase-11.md)

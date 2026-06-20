@@ -4,7 +4,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+"/>
-  <img src="https://img.shields.io/badge/Fases-1_a_12-blueviolet?style=flat-square" alt="Fases 1-12"/>
+  <img src="https://img.shields.io/badge/Fases-00_a_12-blueviolet?style=flat-square" alt="Fases 00-12"/>
 </p>
 
 Versões fixadas para reprodutibilidade no Windows.
@@ -15,13 +15,13 @@ Versões fixadas para reprodutibilidade no Windows.
 
 | Pacote | Versão | Usado em | Fase | Função |
 |:---|:---:|:---|:---:|:---|
-| **`colorama`** | 0.4.6 | Praticamente todos os scripts | 1–12 | Cores ANSI no terminal |
-| **`tqdm`** | 4.68.3 | Praticamente todos os scripts | 1–5, 7, 9, 10, 11 | Barras de progresso |
-| **`requests`** | 2.34.2 | Scripts de tradução (`4_tradutor_ia_gemma4/`, `4_b_mistrall_nemo_instruct_2407_GGUF_tradutor/`) + reparos via IA | 4, 4-B, 9, 11 | HTTP para LM Studio |
-| **`pymediainfo`** | 7.0.1 | `media_analyzer.py` | 1 | Metadados via DLL MediaInfo |
+| **`colorama`** | 0.4.6 | Praticamente todos os scripts | 00–12 | Cores ANSI no terminal |
+| **`tqdm`** | 4.68.3 | Praticamente todos os scripts | 01–05c-2, 07, 10, 11 | Barras de progresso |
+| **`requests`** | 2.34.2 | Scripts de tradução (`05a_tradutor_llm_gemma4/`, `05b_tradutor_llm_mistral_nemo/`, `05c_tradutor_llm_qwen2/`, `05c_tradutor_llm_translategemma/`) + reparos via IA | 05a, 05b, 05c, 05c-2, 07 | HTTP para LM Studio |
+| **`pymediainfo`** | 7.0.1 | `media_analyzer.py` | 01 | Metadados via DLL MediaInfo |
 
 > **MediaInfo (SO):** necessário além do pacote pip. [Download MediaInfo](https://mediaarea.net/en/MediaInfo/Download).
-> **Fases 6 e 7** dependem de **FFmpeg/FFprobe** (binário externo, não é pacote pip) e de `tkinter` (incluso no Python padrão do Windows).
+> **Fases 08 e 03** dependem de **FFmpeg/FFprobe** (binário externo, não é pacote pip) e de `tkinter` (incluso no Python padrão do Windows).
 
 ---
 
@@ -49,7 +49,7 @@ Versões fixadas para reprodutibilidade no Windows.
 
 | Pacote | Versão | Observação |
 |:---|:---:|:---|
-| **`ollama`** | 0.6.2 | Listado no `requirements.txt`, mas **nenhum script importa `ollama`**. A Fase 4 usa **LM Studio + `requests`**. |
+| **`ollama`** | 0.6.2 | Listado no `requirements.txt`, mas **nenhum script importa `ollama`**. As Fases 05a/05b/05c/05c-2 usam **LM Studio + `requests`**. Mantido deliberadamente na cadeia de dependências (decisão do usuário em 2026-06-20). |
 
 ---
 
@@ -57,80 +57,85 @@ Versões fixadas para reprodutibilidade no Windows.
 
 ```mermaid
 flowchart LR
-    subgraph F1["Fase 1"]
-        MI[pymediainfo]
-        C1[colorama]
-        T1[tqdm]
+    subgraph F01["Fase 01"]
+        MI["pymediainfo"]
+        C01["colorama"]
+        T01["tqdm"]
     end
 
-    subgraph F2["Fase 2"]
-        C2[colorama]
-        T2[tqdm]
-        MKVT2[MKVToolNix]
+    subgraph F02["Fase 02"]
+        C02["colorama"]
+        T02["tqdm"]
+        MKVT02["MKVToolNix"]
     end
 
-    subgraph F3["Fase 3"]
-        C3[colorama]
-        T3[tqdm]
+    subgraph F04["Fase 04"]
+        C04["colorama"]
+        T04["tqdm"]
     end
 
-    subgraph F4["Fase 4"]
-        REQ[requests]
-        C4[colorama]
-        T4[tqdm]
-        MKVT4[MKVToolNix]
+    subgraph F05A["Fase 05a"]
+        REQ05A["requests"]
+        C05A["colorama"]
+        T05A["tqdm"]
+        MKVT05A["MKVToolNix"]
     end
 
-    subgraph F4B["Fase 4-B"]
-        REQ4B[requests]
-        C4B[colorama]
-        T4B[tqdm]
-        MKVT4B[MKVToolNix]
+    subgraph F05B["Fase 05b"]
+        REQ05B["requests"]
+        C05B["colorama"]
+        T05B["tqdm"]
+        MKVT05B["MKVToolNix"]
     end
 
-    subgraph F5["Fase 5"]
-        C5[colorama]
-        T5[tqdm]
-        MKVT5[MKVToolNix]
+    subgraph F05C["Fase 05c"]
+        REQ05C["requests"]
+        C05C["colorama"]
+        T05C["tqdm"]
     end
 
-    subgraph F6["Fase 6"]
-        FF6[FFprobe]
-        TK6[tkinter]
-        C6[colorama]
+    subgraph F05C2["Fase 05c-2"]
+        REQ05C2["requests"]
+        C05C2["colorama"]
+        T05C2["tqdm"]
     end
 
-    subgraph F7["Fase 7"]
-        FF7[FFmpeg NVENC]
-        C7[colorama]
-        T7[tqdm]
+    subgraph F06["Fase 06"]
+        C06["colorama"]
+        MKVT06["MKVToolNix"]
     end
 
-    subgraph F8["Fase 8"]
-        C8[colorama]
-        MKVT8[MKVToolNix]
+    subgraph F07["Fase 07"]
+        REQ07["requests"]
+        C07["colorama"]
+        T07["tqdm"]
     end
 
-    subgraph F9["Fase 9"]
-        REQ9[requests]
-        C9[colorama]
-        T9[tqdm]
+    subgraph F08["Fase 08"]
+        FF08["FFprobe"]
+        TK08["tkinter"]
+        C08["colorama"]
+    end
+
+    subgraph F03["Fase 03"]
+        FF03["FFmpeg NVENC"]
+        C03["colorama"]
+        T03["tqdm"]
     end
 
     subgraph F10["Fase 10"]
-        C10[colorama]
-        T10[tqdm]
+        C10["colorama"]
+        MKVT10["MKVToolNix opcional"]
     end
 
     subgraph F11["Fase 11"]
-        REQ11[requests]
-        C11[colorama]
-        T11[tqdm]
+        C11["colorama"]
+        T11["tqdm"]
     end
 
     subgraph F12["Fase 12"]
-        C12[colorama]
-        MKVT12[MKVToolNix opcional]
+        C12["colorama"]
+        MKVT12["MKVToolNix"]
     end
 ```
 

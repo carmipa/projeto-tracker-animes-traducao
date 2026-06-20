@@ -316,32 +316,43 @@ def executar_reparo():
     if not verificar_lm_studio():
         return
 
-    if args.pasta_originais and args.pasta_traduzidos:
-        pasta_originais = args.pasta_originais
-        pasta_traduzidos = args.pasta_traduzidos
-    elif args.modo == "zh":
-        pasta_originais = (
-            r"D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]"
-            r"\[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][1080p][Webrip][ASS][CHS_CHT]"
-        )
-        pasta_traduzidos = (
-            r"D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]"
-            r"\legendas_ptbr"
-        )
-    else:
-        pasta_originais = (
-            r"D:\PROJETOS-OPEN\animes"
-            r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
-            r"\Season 1\legendas_eng"
-        )
-        pasta_traduzidos = (
-            r"D:\PROJETOS-OPEN\animes"
-            r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
-            r"\Season 1\legendas_ptbr"
-        )
+    pasta_originais = args.pasta_originais
+    pasta_traduzidos = args.pasta_traduzidos
+
+    if not pasta_originais or not pasta_traduzidos:
+        if args.modo == "zh":
+            padrao_orig = (
+                r"D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]"
+                r"\[POPGO][Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet][1080p][Webrip][ASS][CHS_CHT]"
+            )
+            padrao_trad = (
+                r"D:\PROJETOS-OPEN\animes\[POPGO][Gundam_The_Origin_TV][MKV+ASS]"
+                r"\legendas_ptbr"
+            )
+        else:
+            padrao_orig = (
+                r"D:\PROJETOS-OPEN\animes"
+                r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+                r"\Season 1\legendas_eng"
+            )
+            padrao_trad = (
+                r"D:\PROJETOS-OPEN\animes"
+                r"\Mobile Suit Gundam Unicorn Re0096 (2016) [Season 1] [BD 1080p HEVC OPUS] [Dual-Audio]"
+                r"\Season 1\legendas_ptbr"
+            )
+
+        if not pasta_originais:
+            entrada = input(f"{Fore.CYAN}Pasta com as legendas ORIGINAIS (ENTER = {padrao_orig}): {Style.RESET_ALL}").strip(' "\'')
+            pasta_originais = entrada if entrada else padrao_orig
+            
+        if not pasta_traduzidos:
+            entrada = input(f"{Fore.CYAN}Pasta com as legendas TRADUZIDAS PT-BR (ENTER = {padrao_trad}): {Style.RESET_ALL}").strip(' "\'')
+            pasta_traduzidos = entrada if entrada else padrao_trad
 
     if not os.path.exists(pasta_originais) or not os.path.exists(pasta_traduzidos):
         print(f"{Fore.RED}[ERRO] Pastas de legendas não encontradas.")
+        print(f"Originais: {pasta_originais}")
+        print(f"Traduzidas: {pasta_traduzidos}")
         return
 
     arquivos_ptbr = sorted([f for f in os.listdir(pasta_traduzidos) if f.lower().endswith('.ass')])

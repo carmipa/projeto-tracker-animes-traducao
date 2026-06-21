@@ -8,7 +8,6 @@ Nesta primeira etapa, assimile a nova estrutura física do projeto, as pastas e 
 
 Equivalência de Fases e Estrutura de Pastas (De/Para):
 --------------------------------------------------------------------------------
-* FASE 00 (Inédita): '00_scripts_higienizacao/' (Higienização/normalização de termos/lore e reticências)
 * FASE 01 (Antiga 1): '01_analisador_midia/' (Auditoria de codecs, faixas e metadados de vídeo)
 * FASE 02 (Antiga 2): '02_extrator_legenda/' (Extração inteligente de legendas ASS/SRT/PGS do mkv)
 * FASE 03 (Antiga 7): '03_decodificador_caracteres/' (Recompressão/Otimização de vídeo e ajustes de encoding/caracteres)
@@ -18,7 +17,7 @@ Equivalência de Fases e Estrutura de Pastas (De/Para):
 * FASE 05c (Antiga 11): '05c_tradutor_llm_qwen2/' (Tradução do Chinês Simplificado via Qwen2.5)
 * FASE 05c2 (Inédita): '05c_tradutor_llm_translategemma/' (Tradução e correção contextual via TranslateGemma)
 * FASE 06 (Antiga 8): '06_cura_legendas/' (Cura offline ultra-rápida de tags corrompidas e strings 'TAG')
-* FASE 07 (Antiga 9): '07_reparo_traducao/' (Módulo de reparo avulso batch=1 para consertar tags e [ERRO_TRADUCAO])
+* FASE 07 (Antiga 9): '07_higienizacao_e_reparo_de_traducao/' (Higienização por título e módulo de reparo via IA)
 * FASE 08 (Antiga 6): '08_sincronizacao_legenda/' (Auditoria de drifts de áudio/vídeo e estiramento de tempo)
 * FASE 09 (Antiga 10): '09_injetor_musicas/' (Extração e injeção de karaokês OP/ED/Insert Songs de fansubs)
 * FASE 10 (Antiga 12): '10_auditoria_e_revisao/' (Revisão final por título de lore, resíduos de tradução e controle de QA)

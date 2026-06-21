@@ -1,0 +1,59 @@
+[19:46:22.742] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-21_19-46-22.txt
+[19:46:22.742] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[19:46:22.774] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[19:46:22.774] [DEBUG   ] Validando caminhos de diretórios locais...
+[19:46:22.790] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[19:46:22.790] [DEBUG   ] Escaneando diretório: C:\animes\86\86 Part2
+[19:46:22.790] [INFO    ] Encontrados 12 arquivos de vídeo com extensão .mkv.
+[19:46:22.790] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[19:46:22.790] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [DEBUG   ]   Pareado com sucesso: [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv -> [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[19:46:22.791] [INFO    ] Esteira trancada. Processando 12 episódios em lote via mkvmerge.
+[19:46:22.799] [INFO    ] [1/12] Multiplexando container Matroska: [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:22.799] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:23.826] [INFO    ] SUCESSO:   Concluido (0.323 GB) em 1.03s! Legenda adicionada.
+[19:46:23.826] [INFO    ] [2/12] Multiplexando container Matroska: [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:23.826] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:27.439] [INFO    ] SUCESSO:   Concluido (0.287 GB) em 3.61s! Legenda adicionada.
+[19:46:27.440] [INFO    ] [3/12] Multiplexando container Matroska: [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:27.440] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:32.779] [INFO    ] SUCESSO:   Concluido (0.368 GB) em 5.34s! Legenda adicionada.
+[19:46:32.779] [INFO    ] [4/12] Multiplexando container Matroska: [DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:32.779] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:33.696] [INFO    ] SUCESSO:   Concluido (0.265 GB) em 0.92s! Legenda adicionada.
+[19:46:33.696] [INFO    ] [5/12] Multiplexando container Matroska: [DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:33.696] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:35.090] [INFO    ] SUCESSO:   Concluido (0.583 GB) em 1.39s! Legenda adicionada.
+[19:46:35.091] [INFO    ] [6/12] Multiplexando container Matroska: [DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:35.091] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:39.204] [INFO    ] SUCESSO:   Concluido (0.321 GB) em 4.11s! Legenda adicionada.
+[19:46:39.205] [INFO    ] [7/12] Multiplexando container Matroska: [DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:39.205] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:40.127] [INFO    ] SUCESSO:   Concluido (0.263 GB) em 0.92s! Legenda adicionada.
+[19:46:40.127] [INFO    ] [8/12] Multiplexando container Matroska: [DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:40.127] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:49.849] [INFO    ] SUCESSO:   Concluido (0.484 GB) em 9.72s! Legenda adicionada.
+[19:46:49.849] [INFO    ] [9/12] Multiplexando container Matroska: [DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:49.849] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:54.081] [INFO    ] SUCESSO:   Concluido (0.287 GB) em 4.23s! Legenda adicionada.
+[19:46:54.081] [INFO    ] [10/12] Multiplexando container Matroska: [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:54.081] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:46:55.435] [INFO    ] SUCESSO:   Concluido (0.615 GB) em 1.35s! Legenda adicionada.
+[19:46:55.435] [INFO    ] [11/12] Multiplexando container Matroska: [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:46:55.435] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:47:02.169] [INFO    ] SUCESSO:   Concluido (0.477 GB) em 6.73s! Legenda adicionada.
+[19:47:02.169] [INFO    ] [12/12] Multiplexando container Matroska: [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv
+[19:47:02.169] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[19:47:03.114] [INFO    ] SUCESSO:   Concluido (0.336 GB) em 0.94s! Legenda adicionada.
+[19:47:03.115] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-21_19-46-22.json
+[19:47:03.115] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

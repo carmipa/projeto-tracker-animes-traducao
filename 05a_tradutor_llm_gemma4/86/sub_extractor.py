@@ -490,22 +490,28 @@ class Pipeline:
     # ── tags ASS ──────────────────────────────────────────────────────────────
 
     def mascarar_tags(self, texto_bruto: str):
-        """Mapeia as tags ASS originais para marcadores temporários [T0], [T1], etc."""
-        tags = re.findall(r'\{[^}]+\}', texto_bruto)
-        texto_limpo = texto_bruto
+        """Mapeia as tags ASS originais para marcadores temporários [T0], [T1], etc. Protege quebras de linha \\N."""
+        # Trata quebras de linha \N como tags normais transformando-as em {\N} temporariamente
+        texto_preparado = re.sub(r'\\N', '{\\\\N}', texto_bruto, flags=re.IGNORECASE)
+        
+        tags = re.findall(r'\{[^}]+\}', texto_preparado)
+        texto_limpo = texto_preparado
         for idx_tag, tag in enumerate(tags):
             texto_limpo = texto_limpo.replace(tag, f"[T{idx_tag}]", 1)
         return texto_limpo, tags
 
     def restaurar_tags(self, texto_traduzido: str, tags: list):
-        """Restaura as tags ASS originais nos marcadores de destino."""
+        """Restaura as tags ASS originais nos marcadores de destino e reverte \\N."""
         trad = texto_traduzido
         for idx_tag, tag in enumerate(tags):
             marcador = f"[T{idx_tag}]"
             if marcador in trad:
                 trad = trad.replace(marcador, tag, 1)
             else:
-                trad = re.sub(rf'\[?[Tt]\s*{idx_tag}\]?', tag, trad, count=1)
+                trad = re.sub(rf'\[?[Tt]\s*{idx_tag}\]?', lambda m: tag, trad, count=1)
+        
+        # Converte as tags {\N} restauradas de volta para \N literal
+        trad = re.sub(r'\{[\\/]N\}', r'\\N', trad, flags=re.IGNORECASE)
         return trad
 
     # ── tradução ──────────────────────────────────────────────────────────────

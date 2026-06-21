@@ -1,6 +1,6 @@
 # 📦 Estrutura do repositório
 
-[← Índice](README.md)
+[← Índice](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/README.md)
 
 ```text
 projeto-tracker-animes-traducao/
@@ -14,32 +14,12 @@ projeto-tracker-animes-traducao/
 │   ├── arquitetura.md                     ← visão geral + diagramas de todas as esteiras
 │   ├── estrutura-repositorio.md           ← este arquivo
 │   ├── pipeline-srt.md                    ← Esteira B (filme / SRT externo)
-│   ├── modulo-fase-00.md … modulo-fase-12.md
+│   ├── modulo-fase-01.md … modulo-fase-12.md
 │   ├── instalacao.md
 │   ├── dependencias-python.md
 │   ├── guia-de-execucao.md
 │   ├── logs-e-auditoria.md
 │   └── solucao-de-problemas.md
-│
-├── 00_scripts_higienizacao/                # Fase 00 — Higienização de lore/gramática (pós-tradução, por título)
-│   ├── 86_Eighty_Six/
-│   │   ├── audit_86.py                     # auditoria de patentes/jargões de 86
-│   │   └── limpeza_geral_86.py             # normalização de termos de lore
-│   ├── Detonator_Orgun/limpeza_geral_orgun.py
-│   ├── Guilty_Crown/limpeza_geral_guilty.py
-│   ├── Gundam_Origin/                      # 4 scripts — pipeline francês (Esteira J)
-│   │   ├── limpeza_origin_extrema.py
-│   │   ├── limpeza_origin_finais.py        # correção de barra \N mal formatada
-│   │   ├── limpeza_origin_gramatica_profunda.py  # dicionário de correção contextual FR→PT-BR
-│   │   └── limpeza_origin_total.py         # francesismos & vocabulário
-│   ├── Gundam_The_Origin/limpeza_geral_origin.py   # pipeline chinês (Esteira I)
-│   ├── Gundam_Unicorn/limpeza_geral_unicorn.py
-│   ├── Gundam_Zeta/limpeza_zeta_extrema.py
-│   ├── Knights_of_Sidonia/limpeza_sidonia_extrema.py
-│   ├── Macross_Delta/limpeza_geral_macross.py
-│   ├── Macross_Delta_Filme_1/limpeza_macross_filme1_extrema.py
-│   ├── Macross_Delta_Filme_2/limpeza_macross_filme2_extrema.py
-│   └── Sword_Art_Online_Filme_2/limpeza_sao_filme2_extrema.py
 │
 ├── 01_analisador_midia/                    # Fase 01 — Análise e Auditoria de Mídia
 │   ├── media_analyzer.py
@@ -120,14 +100,32 @@ projeto-tracker-animes-traducao/
 │   ├── cura_gundam_mkv.py                  # repara TAG corrompido em .mkv já remuxado (Gundam Unicorn)
 │   └── cura_legendas_tag.py                # repara TAG via casamento ENG/PTBR -> traducao_curada/
 │
-├── 07_reparo_traducao/                      # Fase 07 — Reparo avulso (batch=1) + refino
-│   ├── repara_erros_traducao.py            # retraduz [ERRO_TRADUCAO:] avulso via LM Studio (Gemma)
-│   ├── limpa_erros_residuais.py            # limpeza offline (sem IA) dos resíduos persistentes
-│   ├── refina_traducao_fr.py               # revisão/refino de *_ENG.ass traduzido via engenharia reversa do cache FR
-│   ├── extrai_linhas_suspeitas.py          # varre legendas e exporta linhas_para_revisar.json
-│   ├── aplica_linhas_revisadas.py          # aplica linhas_revisadas.json de volta nos .ass + cache
-│   ├── linhas_para_revisar.json / linhas_revisadas.json
-│   └── relatorio_reparo.txt                # relatório da última execução
+├── 07_higienizacao_e_reparo_de_traducao/    # Fase 07 — Higienização por título + Reparo de tradução
+│   ├── 86_Eighty_Six/
+│   │   ├── audit_86.py                     # auditoria de patentes/jargões de 86
+│   │   └── limpeza_geral_86.py             # normalização de termos de lore
+│   ├── Detonator_Orgun/limpeza_geral_orgun.py
+│   ├── Guilty_Crown/limpeza_geral_guilty.py
+│   ├── Gundam_Origin/                      # 4 scripts — pipeline francês (Esteira J)
+│   │   ├── limpeza_origin_extrema.py
+│   │   ├── limpeza_origin_finais.py        # correção de barra \N mal formatada
+│   │   ├── limpeza_origin_gramatica_profunda.py # dicionário contextual FR→PT-BR
+│   │   └── limpeza_origin_total.py         # francesismos & vocabulário
+│   ├── Gundam_The_Origin/limpeza_geral_origin.py # pipeline chinês (Esteira I)
+│   ├── Gundam_Unicorn/limpeza_geral_unicorn.py
+│   ├── Gundam_Zeta/limpeza_zeta_extrema.py
+│   ├── Knights_of_Sidonia/limpeza_sidonia_extrema.py
+│   ├── Macross_Delta/limpeza_geral_macross.py
+│   ├── Macross_Delta_Filme_1/limpeza_macross_filme1_extrema.py
+│   ├── Macross_Delta_Filme_2/limpeza_macross_filme2_extrema.py
+│   ├── Sword_Art_Online_Filme_2/limpeza_sao_filme2_extrema.py
+│   ├── refino_frances_origin/              # scripts de refino de tradução francesa
+│   │   ├── aplica_linhas_revisadas.py
+│   │   ├── extrai_linhas_suspeitas.py
+│   │   └── refina_traducao_fr.py
+│   ├── limpa_erros_residuais.py            # limpeza offline rápida de falhas
+│   ├── relatorio_reparo.txt                # relatório da última execução de reparo
+│   └── repara_erros_traducao.py            # reparo de erros via IA (LM Studio)
 │
 ├── 08_sincronizacao_legenda/                 # Fase 08 — Sincronização (auxiliar)
 │   ├── subtitle_fixer.py                   # shift de legenda embutida no .mkv (FFprobe)
@@ -172,13 +170,13 @@ projeto-tracker-animes-traducao/
     └── SAO_filme_2_ptbr/
 ```
 
-> As pastas de fase estão prefixadas `00` a `12` (com variantes `a`/`b`/`c` na Fase 05) seguindo a ordem descrita em [Arquitetura](arquitetura.md), o que também facilita a ordenação no explorador de arquivos do sistema. A Fase **00** é a única exceção de ordem real de execução — ver nota na [Fase 00](modulo-fase-00.md).
+> As pastas de fase estão prefixadas `01` a `12` (com variantes `a`/`b`/`c` na Fase 05) seguindo a ordem descrita em [Arquitetura](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/arquitetura.md), o que também facilita a ordenação no explorador de arquivos do sistema.
 
 ---
 
 ## Nota — logs de remux duplicados (`12_remuxer_mkvmerge/logs/` vs `multiplexar/logs/`)
 
-O `batch_remuxer.py` grava seus logs em `multiplexar/logs/` (caminho hardcoded no script, relativo à raiz do projeto — `self.pasta_logs = os.path.join(pasta_raiz_projeto, "multiplexar", "logs")`), **não** em `12_remuxer_mkvmerge/logs/`. A pasta `12_remuxer_mkvmerge/logs/` contém apenas registros residuais de execuções anteriores a uma reorganização de pastas e pode ser ignorada — a fonte de verdade para auditoria de remux é sempre `multiplexar/logs/`. Detalhes: [Logs e auditoria](logs-e-auditoria.md#fase-12--remuxer).
+O `batch_remuxer.py` grava seus logs em `multiplexar/logs/` (caminho hardcoded no script, relativo à raiz do projeto — `self.pasta_logs = os.path.join(pasta_raiz_projeto, "multiplexar", "logs")`), **não** em `12_remuxer_mkvmerge/logs/`. A pasta `12_remuxer_mkvmerge/logs/` contém apenas registros residuais de execuções anteriores a uma reorganização de pastas e pode ser ignorada — a fonte de verdade para auditoria de remux é sempre `multiplexar/logs/`. Detalhes: [Logs e auditoria](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/logs-e-auditoria.md#fase-12--remuxer).
 
 ---
 
@@ -200,10 +198,10 @@ C:\TRACKER-ANIMES\animes\<titulo>\
 └── otimizados\               ← saída da Fase 03
 ```
 
-> **Fases 07 e 11** operam sobre `legendas_eng\*_ENG.ass` (ou `*.chs.ass`) + `legendas_ptbr\*_PTBR.ass` (traduzido com `[ERRO_TRADUCAO:]`), sobrescrevendo este último em-place. A **Fase 10** lê o resultado final em `legendas_ptbr\` e, se o usuário confirmar o remux, grava o `.mkv` corrigido em `corrigidos\`. A **Fase 00** roda sobre o conteúdo de `legendas_ptbr\` (ou direto sobre o `.ass` final), normalizando lore/gramática por título.
+> **Fases 07 e 11** operam sobre `legendas_eng\*_ENG.ass` (ou `*.chs.ass`) + `legendas_ptbr\*_PTBR.ass` (traduzido com `[ERRO_TRADUCAO:]`), sobrescrevendo este último em-place. A **Fase 10** lê o resultado final em `legendas_ptbr\` e, se o usuário confirmar o remux, grava o `.mkv` corrigido em `corrigidos\`. A **Fase 07** roda sobre o conteúdo de `legendas_ptbr\` (ou direto sobre o `.ass` final), normalizando lore/gramática por título (higienização) e reparando erros via IA.
 
-Layout detalhado por esteira: [Guia de execução](guia-de-execucao.md#layout-de-pastas).
+Layout detalhado por esteira: [Guia de execução](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/guia-de-execucao.md#layout-de-pastas).
 
 ---
 
-[← Índice](README.md)
+[← Índice](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/README.md)

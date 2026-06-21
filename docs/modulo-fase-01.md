@@ -31,4 +31,4 @@ python ".\01_analisador_midia\media_analyzer.py" "C:\TRACKER-ANIMES\animes\Macro
 
 ---
 
-[← Fase 00](modulo-fase-00.md) · [Índice](README.md) · [Fase 02 →](modulo-fase-02.md)
+[← Índice](README.md) · [Fase 02 →](modulo-fase-02.md)

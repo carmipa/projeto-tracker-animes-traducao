@@ -16,7 +16,7 @@ import sys
 
 # Caminhos
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
-PASTA_RAIZ = os.path.dirname(PASTA_SCRIPT)
+PASTA_RAIZ = os.path.dirname(os.path.dirname(PASTA_SCRIPT))
 CAMINHO_CACHE = os.path.join(PASTA_RAIZ, "05b_tradutor_llm_mistral_nemo", "frances_para_ptbr", "traducao_cache_fr.json")
 PASTA_LEGENDAS = r"C:\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet\legendas_ptbr"
 CAMINHO_SAIDA_JSON = os.path.join(PASTA_SCRIPT, "linhas_para_revisar.json")

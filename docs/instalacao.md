@@ -1,6 +1,6 @@
 # ✅ Instalação e pré-requisitos
 
-[← Índice](README.md) · [README principal](../README.md) · [Arquitetura](arquitetura.md)
+[← Índice](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/README.md) · [README principal](../README.md) · [Arquitetura](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/arquitetura.md)
 
 ---
 
@@ -20,24 +20,24 @@
 
 | Esteira | Fases | MKVToolNix | LM Studio | FFmpeg |
 |:---|:---|:---:|:---:|:---:|
-| A — Eighty-Six (ASS embutido EN) | 05a → [10] → 12 | ✅ | ✅ Gemma (05a) | — |
+| A — Eighty-Six (ASS embutido EN) | 05a → [07] → 12 → [10] | ✅ | ✅ Gemma (05a/07) | — |
 | B — Filme/SRT externo (Macross) | 05a → 04 → 12 | ✅ (Fase 12) | ✅ Gemma (05a) | — |
 | C — Legenda PGS (Blu-ray) | 02 → 04 → 12 | ✅ | — | — |
-| D — Macross Delta TV (ASS embutido FR) | 05b → [10] → 12 | ✅ | ✅ **Mistral Nemo** (05b) | — |
-| E — Macross Delta Filme 2 (FR) | 05b → 00 → 10 → 12 | ✅ | ✅ **Mistral Nemo** (05b) | — |
-| F/G — Lote ASS (Gundam) | 02 → 05a → 12 (+06, +10) | ✅ | ✅ Gemma (05a) | — |
-| H — Guilty Crown | 02 → 05a → 11 → [10] → 12 | ✅ | ✅ Gemma (05a) | — |
-| I — Gundam The Origin (legenda chinesa) | 02 → 05c → [10] → 12 | ✅ (10 opcional) | ✅ **Qwen2.5** (05c) | — |
+| D — Macross Delta TV (ASS embutido FR) | 05b → [07] → 12 → [10] | ✅ | ✅ **Mistral Nemo** (05b) | — |
+| E — Macross Delta Filme 2 (FR) | 05b → 07 → 10 → 12 | ✅ | ✅ **Mistral Nemo** (05b) | — |
+| F/G — Lote ASS (Gundam) | 02 → 05a → [06] → [07] → 12 → [10] | ✅ | ✅ Gemma (05a/07) | — |
+| H — Guilty Crown | 02 → 05a → [07] → 11 → 12 → [10] | ✅ | ✅ Gemma (05a/07) | — |
+| I — Gundam The Origin (legenda chinesa) | 02 → 05c → [07] → 12 → [10] | ✅ (10 opcional) | ✅ **Qwen2.5** (05c) | — |
 | J — Gundam Origin (legenda francesa) | 05b → [07] → 12 | ✅ | ✅ **Mistral Nemo** (05b) | — |
-| K — Gundam Zeta | 05c-2 → 12 | ✅ | ✅ **TranslateGemma** (05c-2) | — |
-| L — Gundam ZZ | 05c-2 → 12 | ✅ | ✅ **TranslateGemma** (05c-2) | — |
-| M — Detonator Orgun | 05b → 12 | ✅ | ✅ **Mistral Nemo** (05b) | — |
-| N — Knights of Sidonia | 02 → 05a → 12 | ✅ | ✅ Gemma (05a) | — |
+| K — Gundam Zeta | 05c-2 → [07] → 12 | ✅ | ✅ **TranslateGemma** (05c-2) | — |
+| L — Gundam ZZ | 05c-2 → [07] → 12 | ✅ | ✅ **TranslateGemma** (05c-2) | — |
+| M — Detonator Orgun | 05b → [07] → 12 | ✅ | ✅ **Mistral Nemo** (05b) | — |
+| N — Knights of Sidonia | 05a → [07] → 12 | ✅ | ✅ Gemma (05a/07) | — |
 | 08 — Sincronização (auxiliar) | 08 | — | — | ✅ |
 | 03 — Otimização GPU (auxiliar) | 03 | — | — | ✅ NVENC |
 
 > Esteira C também depende de uma ferramenta de **OCR externa** (ex.: Subtitle Edit + Tesseract) entre as Fases 02 e 04 — não incluída neste repositório.
-> Esteiras D/E/J/M (Fase 05b), I (Fase 05c) e K/L (Fase 05c-2) usam modelos **diferentes** do Gemma 4B usado nas demais — troque o modelo carregado no LM Studio antes de alternar entre essas esteiras (Gemma 4B ↔ Mistral Nemo Instruct 2407 ↔ Qwen2.5-7B-Instruct ↔ TranslateGemma 12B).
+> As esteiras e ferramentas que indicam a **Fase 07** usam scripts de higienização de lore específicos do título e/ou reparos de tradução via IA. Troque o modelo carregado no LM Studio antes de alternar entre esteiras com idiomas de origem diferentes (Gemma 4B ↔ Mistral Nemo Instruct 2407 ↔ Qwen2.5-7B-Instruct ↔ TranslateGemma 12B).
 
 ---
 
@@ -83,7 +83,7 @@ pip install colorama tqdm requests pymediainfo
 
 > `tkinter` (usado pelos seletores de arquivo da Fase 08) já vem incluso na instalação padrão do Python no Windows — nenhuma instalação extra é necessária.
 
-Referência completa dos pacotes: [Dependências Python](dependencias-python.md).
+Referência completa dos pacotes: [Dependências Python](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/dependencias-python.md).
 
 ---
 
@@ -93,9 +93,9 @@ Referência completa dos pacotes: [Dependências Python](dependencias-python.md)
 2. Carregue **`google/gemma-4-e4b`** (ou Gemma 4B equivalente) para as **Fases 05a e 07**.
 3. Inicie o servidor em **`http://127.0.0.1:1234`**.
 4. Todos os scripts das **Fases 05a, 05b, 05c, 05c-2 e 07** validam `GET /v1/models` antes de processar e usam o **modelo detectado dinamicamente** — não há nome de modelo fixo no código.
-5. Para a **[Fase 05b](modulo-fase-05b.md)** (Macross Delta, Gundam Origin francês, Detonator Orgun), descarregue o Gemma e carregue **`mistralai/mistral-nemo-instruct-2407`** (GGUF) — qualidade de tradução muito superior no par francês→português e usado também para o inglês de Detonator Orgun.
-6. Para a **[Fase 05c](modulo-fase-05c.md)** (Gundam The Origin, legenda chinesa), carregue **`qwen2.5-7b-instruct`** antes de rodar `batch_translator_origin_zh.py` ou `repara_erros_origin_zh.py` — o desempenho do Qwen2.5 para o par chinês→português é muito superior ao do Gemma 4B.
-7. Para a **[Fase 05c-2](modulo-fase-05c2.md)** (Gundam Zeta, Gundam ZZ, revisão de PT-BR), carregue o modelo **TranslateGemma 12B**.
+5. Para a **[Fase 05b](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05b.md)** (Macross Delta, Gundam Origin francês, Detonator Orgun), descarregue o Gemma e carregue **`mistralai/mistral-nemo-instruct-2407`** (GGUF) — qualidade de tradução muito superior no par francês→português e usado também para o inglês de Detonator Orgun.
+6. Para a **[Fase 05c](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c.md)** (Gundam The Origin, legenda chinesa), carregue **`qwen2.5-7b-instruct`** antes de rodar `batch_translator_origin_zh.py` ou `repara_erros_origin_zh.py` — o desempenho do Qwen2.5 para o par chinês→português é muito superior ao do Gemma 4B.
+7. Para a **[Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md)** (Gundam Zeta, Gundam ZZ, revisão de PT-BR), carregue o modelo **TranslateGemma 12B**.
 
 ---
 
@@ -103,12 +103,12 @@ Referência completa dos pacotes: [Dependências Python](dependencias-python.md)
 
 | Objetivo | Guia |
 |:---|:---|
-| Episódios `.mkv` (ASS embutido) | [Guia de execução — Esteira A](guia-de-execucao.md#esteira-a--eighty-six-mkv-ass-embutido-inglês--fases-05a--10--12) |
-| Filme / SRT externo | [Pipeline SRT (Esteira B)](pipeline-srt.md) |
-| Visão completa de todas as esteiras | [Arquitetura](arquitetura.md) |
+| Episódios `.mkv` (ASS embutido) | [Guia de execução — Esteira A](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/guia-de-execucao.md#esteira-a--eighty-six-mkv-ass-embutido-inglês--fases-05a--10--12) |
+| Filme / SRT externo | [Pipeline SRT (Esteira B)](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/pipeline-srt.md) |
+| Visão completa de todas as esteiras | [Arquitetura](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/arquitetura.md) |
 
-Requisitos mínimos: **venv** + **`requirements.txt`** + **LM Studio** (Fase 05a, com Gemma 4B) + **MKVToolNix** (Fases 02, 05a, 12, 06). FFmpeg só é necessário se for usar as Fases 08/03. Para as Esteiras D/E/J/M ([Fase 05b](modulo-fase-05b.md)), troque o modelo do LM Studio para Mistral Nemo Instruct 2407 (GGUF); para a Esteira I ([Fase 05c](modulo-fase-05c.md)), troque para Qwen2.5-7B-Instruct; para as Esteiras K/L ([Fase 05c-2](modulo-fase-05c2.md)), troque para TranslateGemma 12B.
+Requisitos mínimos: **venv** + **`requirements.txt`** + **LM Studio** (Fase 05a, com Gemma 4B) + **MKVToolNix** (Fases 02, 05a, 12, 06). FFmpeg só é necessário se for usar as Fases 08/03. Para as Esteiras D/E/J/M ([Fase 05b](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05b.md)), troque o modelo do LM Studio para Mistral Nemo Instruct 2407 (GGUF); para a Esteira I ([Fase 05c](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c.md)), troque para Qwen2.5-7B-Instruct; para as Esteiras K/L ([Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md)), troque para TranslateGemma 12B.
 
 ---
 
-[← Índice](README.md)
+[← Índice](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/README.md)

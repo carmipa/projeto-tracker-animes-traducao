@@ -28,7 +28,7 @@ python ".\05c_tradutor_llm_translategemma\Gundam_Zeta\script_tradutor_en_gundam_
 python ".\05c_tradutor_llm_translategemma\Gundam_ZZ\script_tradutor_en_gundam_zz.py"
 ```
 
-> Gundam ZZ ainda não tem script de higienização ([Fase 00](modulo-fase-00.md)) dedicado.
+> Gundam ZZ ainda não tem script de higienização de lore ([Fase 07](modulo-fase-07.md)) dedicado.
 
 ---
 

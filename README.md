@@ -21,7 +21,7 @@
   <p>
     <img src="https://img.shields.io/badge/100%25-Offline-success?style=flat-square" alt="Offline"/>
     <img src="https://img.shields.io/badge/Remux-Sem_Re--encode-blue?style=flat-square" alt="Remux"/>
-    <img src="https://img.shields.io/badge/Fases-00_a_12-blueviolet?style=flat-square" alt="Fases 00 a 12"/>
+    <img src="https://img.shields.io/badge/Fases-01_a_12-blueviolet?style=flat-square" alt="Fases 01 a 12"/>
     <img src="https://img.shields.io/badge/Esteiras-A_a_N-9146FF?style=flat-square" alt="Esteiras A-N"/>
     <img src="https://img.shields.io/badge/Logs-Auditáveis-informational?style=flat-square" alt="Logs"/>
   </p>
@@ -34,11 +34,10 @@
 
 ## 🚀 Visão geral
 
-O projeto é organizado em **fases numeradas de `00` a `12`** (algumas com variantes de motor de IA, sufixadas `a`/`b`/`c`). Cada **esteira** (fluxo de trabalho) usa um subconjunto dessas fases, conforme o formato de origem da legenda (ASS embutido, SRT externo, PGS bitmap, ASS chinês), o idioma de origem (inglês, francês, chinês simplificado) e o título específico — cada anime/filme tem script(s) próprio(s) de tradução e, em vários casos, um patch de higienização/revisão dedicado.
+O projeto é organizado em **fases numeradas de `01` a `12`** (algumas com variantes de motor de IA, sufixadas `a`/`b`/`c`). Cada **esteira** (fluxo de trabalho) usa um subconjunto dessas fases, conforme o formato de origem da legenda (ASS embutido, SRT externo, PGS bitmap, ASS chinês), o idioma de origem (inglês, francês, chinês simplificado) e o título específico — cada anime/filme tem script(s) próprio(s) de tradução e, em vários casos, um patch de higienização/revisão dedicado.
 
 | Fase | Pasta | Função |
 |:---:|:---|:---|
-| 00 | [`00_scripts_higienizacao/`](00_scripts_higienizacao/) | Normalização de lore/gramática por título (pós-tradução) |
 | 01 | [`01_analisador_midia/`](01_analisador_midia/) | Audita mídia: codecs, faixas, sincronia *(opcional)* |
 | 02 | [`02_extrator_legenda/`](02_extrator_legenda/) | Extrai legenda original (ASS/SRT/PGS) do `.mkv` |
 | 03 | [`03_decodificador_caracteres/`](03_decodificador_caracteres/) | Auxiliar: recomprime vídeo (HEVC/NVENC) |
@@ -48,14 +47,14 @@ O projeto é organizado em **fases numeradas de `00` a `12`** (algumas com varia
 | 05c | [`05c_tradutor_llm_qwen2/`](05c_tradutor_llm_qwen2/) | 🐉 Tradução via LM Studio + Qwen2.5-7B (chinês simplificado) |
 | 05c-2 | [`05c_tradutor_llm_translategemma/`](05c_tradutor_llm_translategemma/) | 🌐 Tradução/revisão via LM Studio + TranslateGemma 12B (inglês) |
 | 06 | [`06_cura_legendas/`](06_cura_legendas/) | 🩹 Auxiliar: cura offline de tags ASS corrompidas |
-| 07 | [`07_reparo_traducao/`](07_reparo_traducao/) | 🩹 Reparo avulso (batch=1) de `[ERRO_TRADUCAO:]` via IA |
+| 07 | [`07_higienizacao_e_reparo_de_traducao/`](07_higienizacao_e_reparo_de_traducao/) | 🧹 Higienização de lore/gramática por título + Reparo de falhas via IA |
 | 08 | [`08_sincronizacao_legenda/`](08_sincronizacao_legenda/) | ⏱️ Auxiliar: audita/corrige dessincronia áudio×legenda |
 | 09 | [`09_injetor_musicas/`](09_injetor_musicas/) | 🎵 Injeta karaokê OP/ED/Insert Songs de fansubs |
 | 10 | [`10_auditoria_e_revisao/`](10_auditoria_e_revisao/) | 🔬 Revisão/correção final por título (lore, resíduos, remux) |
 | 11 | [`11_correcao_projetos_legados/`](11_correcao_projetos_legados/) | 🎨 Correção offline de cores/marcadores em legendas antigas |
 | 12 | [`12_remuxer_mkvmerge/`](12_remuxer_mkvmerge/) | 🎬 Remux: junta vídeo + legenda PT-BR (sem re-encode) |
 
-> A pasta **`00_scripts_higienizacao/`** não roda "antes" das demais — o prefixo `00` é só ordenação alfabética. Na prática ela normaliza lore/gramática de uma legenda **já traduzida**, em paralelo às fases 06/07/10/11. Detalhes: [Fase 00](docs/modulo-fase-00.md).
+> A fase **`07_higienizacao_e_reparo_de_traducao`** unifica a normalização ortográfica/lore de cada título com a correção automática de falhas de tradução `[ERRO_TRADUCAO:]` via IA (raciocínio passo a passo no LM Studio). Detalhes: [Fase 07](docs/modulo-fase-07.md).
 
 ### Diagrama geral
 
@@ -86,24 +85,22 @@ flowchart LR
     OCR --> F04["Fase 04<br/>conversor_srt_para_ass.py"]
     B05A --> F04
 
-    A05A --> HYG["Fase 00<br/>Higienização por título"]
-    N05A --> HYG
-    E05A --> HYG
-    G05A --> HYG
-    H05A --> HYG
-    F06 --> HYG
-    F11 --> HYG
-    D05B --> HYG
-    J05B --> HYG
-    I05C --> HYG
-    K05C2 --> HYG
-    L05C2 --> HYG
-    M05B --> HYG
-    F04 --> HYG
+    A05A --> F07["Fase 07<br/>Higienização e Reparo"]
+    N05A --> F07
+    E05A --> F07
+    G05A --> F07
+    H05A --> F07
+    F06 --> F07
+    F11 --> F07
+    D05B --> F07
+    J05B --> F07
+    I05C --> F07
+    K05C2 --> F07
+    L05C2 --> F07
+    M05B --> F07
+    F04 --> F07
 
-    HYG -.->|"se restar ERRO_TRADUCAO"| F07["Fase 07<br/>Reparo avulso via IA"]
     F07 --> F10["Fase 10<br/>Revisão final (opcional)"]
-    HYG --> F10
 
     F10 --> F12["Fase 12<br/>batch_remuxer.py"]
     F12 --> OUT["mkv_final_ptbr/*_PTBR.mkv"]
@@ -135,22 +132,22 @@ Diagramas detalhados de cada esteira: [docs/arquitetura.md](docs/arquitetura.md)
 
 | Esteira | Título | Fases | Motor de IA |
 |:---:|:---|:---|:---|
-| **A** | Eighty-Six | 00 → 05a → 12 → [10] | Gemma 4B |
+| **A** | Eighty-Six | 05a → [07] → 12 → [10] | Gemma 4B |
 | **B** | Filme/SRT externo (genérico, Macross) | 05a → 04 → 12 | Gemma 4B |
 | **C** | Legenda PGS — Blu-ray (ex.: SAO Filme 2) | 02 → OCR externo → 04 → 12 | — |
-| **D** | Macross Delta (TV, francês) | 05b → 12 → [10] | Mistral Nemo 2407 |
-| **E** | Macross Delta Filme 2 (francês) | 05b → 12 → 10 | Mistral Nemo 2407 |
-| **F** | Lote ASS pré-extraído (Gundam Reconguista) | 02 → 05a → 12 | Gemma 4B |
-| **G** | Gundam Unicorn (especializada) | 02 → 05a → [06] → [10] → 12 | Gemma 4B |
-| **H** | Guilty Crown (correção de nomes e cores) | 02 → 05a → 11 → [10] → 12 | Gemma 4B |
-| **I** | Gundam The Origin, legenda chinesa (CHS) | 02 → 05c → [10] → 12 | Qwen2.5-7B |
+| **D** | Macross Delta (TV, francês) | 05b → [07] → 12 → [10] | Mistral Nemo 2407 |
+| **E** | Macross Delta Filme 2 (francês) | 05b → [07] → 12 → 10 | Mistral Nemo 2407 |
+| **F** | Lote ASS pré-extraído (Gundam Reconguista) | 02 → 05a → [07] → 12 | Gemma 4B |
+| **G** | Gundam Unicorn (especializada) | 02 → 05a → [06] → [07] → 12 → [10] | Gemma 4B |
+| **H** | Guilty Crown (correção de nomes e cores) | 02 → 05a → [07] → 11 → 12 → [10] | Gemma 4B |
+| **I** | Gundam The Origin, legenda chinesa (CHS) | 02 → 05c → [07] → 12 → [10] | Qwen2.5-7B |
 | **J** | Gundam Origin, legenda francesa (SUBFRENCH) | 05b → [07] → 12 | Mistral Nemo 2407 |
-| **K** | Gundam Zeta | 05c-2 → 12 | TranslateGemma 12B |
-| **L** | Gundam ZZ | 05c-2 → 12 | TranslateGemma 12B |
-| **M** | Detonator Orgun | 05b → 12 | Mistral Nemo 2407 |
-| **N** | Knights of Sidonia | 05a → 12 | Gemma 4B |
+| **K** | Gundam Zeta | 05c-2 → [07] → 12 | TranslateGemma 12B |
+| **L** | Gundam ZZ | 05c-2 → [07] → 12 | TranslateGemma 12B |
+| **M** | Detonator Orgun | 05b → [07] → 12 | Mistral Nemo 2407 |
+| **N** | Knights of Sidonia | 05a → [07] → 12 | Gemma 4B |
 
-`[10]`/`[06]`/`[07]` = passo opcional/condicional. Fases **00, 01, 03, 06, 07, 08, 09, 10, 11** são auxiliares/transversais e podem ser usadas em qualquer esteira quando aplicável.
+`[10]`/`[06]`/`[07]` = passo opcional/condicional/higienização. Fases **01, 03, 06, 07, 08, 09, 10, 11** são auxiliares/transversais e podem ser usadas em qualquer esteira quando aplicável.
 
 | ⚡ Remux ~1,5 s/ep. | 🔒 4 LLMs locais | 📺 PT-BR faixa padrão | 🎬 Sync FPS 25→23.976 | 🎮 Otimização NVENC | 🩹 Reparo `[ERRO_TRADUCAO:]` | 🔬 QA por título |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -226,7 +223,6 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 
 | Fase | Documento | Pasta / script principal |
 |:---:|:---|:---|
-| 00 | [Higienização](docs/modulo-fase-00.md) | `00_scripts_higienizacao/<Título>/` |
 | 01 | [Analisador de mídia](docs/modulo-fase-01.md) | `01_analisador_midia/media_analyzer.py` |
 | 02 | [Extração de legendas](docs/modulo-fase-02.md) | `02_extrator_legenda/` (ASS, SRT, PGS) |
 | 03 | [Otimização de vídeo (GPU)](docs/modulo-fase-03.md) | `03_decodificador_caracteres/gpu_video_optimizer.py` |
@@ -236,7 +232,7 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | 05c | [Tradução IA (Qwen2.5, chinês)](docs/modulo-fase-05c.md) | `05c_tradutor_llm_qwen2/` |
 | 05c-2 | [Tradução/Revisão IA (TranslateGemma)](docs/modulo-fase-05c2.md) | `05c_tradutor_llm_translategemma/` |
 | 06 | [Cura de legendas](docs/modulo-fase-06.md) | `06_cura_legendas/` |
-| 07 | [Reparo de tradução](docs/modulo-fase-07.md) | `07_reparo_traducao/` |
+| 07 | [Higienização e reparo](docs/modulo-fase-07.md) | `07_higienizacao_e_reparo_de_traducao/` |
 | 08 | [Sincronização de legendas](docs/modulo-fase-08.md) | `08_sincronizacao_legenda/` |
 | 09 | [Injetor de músicas](docs/modulo-fase-09.md) | `09_injetor_musicas/injetor_de_musicas.py` |
 | 10 | [Auditoria e revisão final](docs/modulo-fase-10.md) | `10_auditoria_e_revisao/` |
@@ -247,20 +243,20 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 
 | Esteira | Fases | Cenário | Documento |
 |:---:|:---|:---|:---|
-| **A** | 00 → 05a → 12 → [10] | Eighty-Six, ASS embutido (inglês) | [Arquitetura](docs/arquitetura.md#esteira-a--eighty-six-ass-embutido-inglês) |
+| **A** | 05a → [07] → 12 → [10] | Eighty-Six, ASS embutido (inglês) | [Arquitetura](docs/arquitetura.md#esteira-a--eighty-six-ass-embutido-inglês) |
 | **B** | 05a → 04 → 12 | Filme com SRT externo (inglês) | [Pipeline SRT](docs/pipeline-srt.md) |
 | **C** | 02 → OCR externo → 04 → 12 | Legenda PGS (Blu-ray bitmap) | [Arquitetura](docs/arquitetura.md#esteira-c--legenda-pgs-bluray-bitmap) |
-| **D** | 05b → 12 → [10] | Macross Delta, ASS embutido (francês) | [Arquitetura](docs/arquitetura.md#esteira-d--macross-delta-tv-tradução-francês--pt-br) |
-| **E** | 05b → 12 → 10 | Macross Delta Filme 2 (francês) | [Arquitetura](docs/arquitetura.md#esteira-e--macross-delta-filme-2-francês) |
-| **F** | 02 → 05a → 12 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](docs/arquitetura.md#esteira-f--lote-ass-pré-extraído-gundam-reconguista) |
-| **G** | 02 → 05a → [06] → [10] → 12 | Gundam Unicorn (especializada) | [Arquitetura](docs/arquitetura.md#esteira-g--gundam-unicorn-especializada) |
-| **H** | 02 → 05a → 11 → [10] → 12 | Guilty Crown (correção de nomes e cores) | [Arquitetura](docs/arquitetura.md#esteira-h--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
-| **I** | 02 → 05c → [10] → 12 | Gundam The Origin, legenda chinesa (CHS) | [Arquitetura](docs/arquitetura.md#esteira-i--gundam-the-origin-legenda-chinesa-chs) |
+| **D** | 05b → [07] → 12 → [10] | Macross Delta, ASS embutido (francês) | [Arquitetura](docs/arquitetura.md#esteira-d--macross-delta-tv-tradução-francês--pt-br) |
+| **E** | 05b → [07] → 12 → 10 | Macross Delta Filme 2 (francês) | [Arquitetura](docs/arquitetura.md#esteira-e--macross-delta-filme-2-francês) |
+| **F** | 02 → 05a → [07] → 12 | Lote ASS pré-extraído (Gundam Reconguista) | [Arquitetura](docs/arquitetura.md#esteira-f--lote-ass-pré-extraído-gundam-reconguista) |
+| **G** | 02 → 05a → [06] → [07] → 12 → [10] | Gundam Unicorn (especializada) | [Arquitetura](docs/arquitetura.md#esteira-g--gundam-unicorn-especializada) |
+| **H** | 02 → 05a → [07] → 11 → 12 → [10] | Guilty Crown (correção de nomes e cores) | [Arquitetura](docs/arquitetura.md#esteira-h--guilty-crown-correção-de-nomes-e-cores-de-músicas) |
+| **I** | 02 → 05c → [07] → 12 → [10] | Gundam The Origin, legenda chinesa (CHS) | [Arquitetura](docs/arquitetura.md#esteira-i--gundam-the-origin-legenda-chinesa-chs) |
 | **J** | 05b → [07] → 12 | Gundam Origin, legenda francesa (SUBFRENCH) | [Arquitetura](docs/arquitetura.md#esteira-j--gundam-origin-legenda-francesa-subfrench) |
-| **K** | 05c-2 → 12 | Gundam Zeta | [Arquitetura](docs/arquitetura.md#esteira-k--gundam-zeta) |
-| **L** | 05c-2 → 12 | Gundam ZZ | [Arquitetura](docs/arquitetura.md#esteira-l--gundam-zz) |
-| **M** | 05b → 12 | Detonator Orgun | [Arquitetura](docs/arquitetura.md#esteira-m--detonator-orgun) |
-| **N** | 05a → 12 | Knights of Sidonia | [Arquitetura](docs/arquitetura.md#esteira-n--knights-of-sidonia) |
+| **K** | 05c-2 → [07] → 12 | Gundam Zeta | [Arquitetura](docs/arquitetura.md#esteira-k--gundam-zeta) |
+| **L** | 05c-2 → [07] → 12 | Gundam ZZ | [Arquitetura](docs/arquitetura.md#esteira-l--gundam-zz) |
+| **M** | 05b → [07] → 12 | Detonator Orgun | [Arquitetura](docs/arquitetura.md#esteira-m--detonator-orgun) |
+| **N** | 05a → [07] → 12 | Knights of Sidonia | [Arquitetura](docs/arquitetura.md#esteira-n--knights-of-sidonia) |
 
 ---
 

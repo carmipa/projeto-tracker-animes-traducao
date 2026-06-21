@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Arquivos de trabalho dinâmicos de revisão de francês
+07_higienizacao_e_reparo_de_traducao/refino_frances_origin/linhas_para_revisar.json
+07_higienizacao_e_reparo_de_traducao/refino_frances_origin/linhas_revisadas.json

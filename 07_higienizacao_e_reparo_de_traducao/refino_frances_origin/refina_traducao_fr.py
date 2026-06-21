@@ -16,6 +16,7 @@ import re
 import json
 import time
 import sys
+import argparse
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from colorama import init, Fore, Style
@@ -42,9 +43,8 @@ MODELO_ATIVO = "local-model"
 
 # Caminhos padrão
 PASTA_SCRIPT = os.path.dirname(os.path.abspath(__file__))
-PASTA_RAIZ = os.path.dirname(PASTA_SCRIPT)
+PASTA_RAIZ = os.path.dirname(os.path.dirname(PASTA_SCRIPT))
 CAMINHO_CACHE = os.path.join(PASTA_RAIZ, "05b_tradutor_llm_mistral_nemo", "frances_para_ptbr", "traducao_cache_fr.json")
-PASTA_LEGENDAS = r"C:\animes\Mobile_Suit_Gundam_The_Origin_Advent_of_the_Red_Comet\legendas_ptbr"
 CAMINHO_RELATORIO = os.path.join(PASTA_SCRIPT, "relatorio_refino.txt")
 
 # Padrão de resíduo francês para detecção direta
@@ -89,6 +89,14 @@ SYSTEM_PROMPT = (
     "- Responda APENAS com a tradução final em PT-BR corrigida, sem explicações, preâmbulos, notas ou markdown.\n"
     "- Preserve exatamente os marcadores de tag ASS (ex: [T0], [T1]) e escapes de quebra de linha (\\\\N, \\\\n) em seus devidos lugares lógicos na frase."
 )
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Refina legendas traduzidas (FR -> PT-BR) via LM Studio, usando o cache de tradução como referência."
+    )
+    parser.add_argument("pasta_legendas", nargs="?", help="Pasta com os arquivos .ass em PT-BR a refinar")
+    return parser.parse_args()
 
 
 def verificar_lm_studio() -> bool:
@@ -295,18 +303,21 @@ def precisa_de_refinamento(texto_pt: str, texto_fr: str) -> bool:
 
 
 def refinar_legendas():
+    args = parse_args()
+    pasta_legendas = args.pasta_legendas or input(f"{Fore.CYAN}Pasta com os arquivos .ass em PT-BR a refinar: {Style.RESET_ALL}").strip('" ')
+
     if not verificar_lm_studio():
         return
 
     cache_original, cache_reverso = carregar_e_inverter_cache()
-    
-    if not os.path.exists(PASTA_LEGENDAS):
-        print(f"{Fore.RED}[ERRO] Pasta de legendas não encontrada: {PASTA_LEGENDAS}")
+
+    if not os.path.exists(pasta_legendas):
+        print(f"{Fore.RED}[ERRO] Pasta de legendas não encontrada: {pasta_legendas}")
         return
 
-    arquivos_ass = sorted([f for f in os.listdir(PASTA_LEGENDAS) if f.lower().endswith('.ass')])
+    arquivos_ass = sorted([f for f in os.listdir(pasta_legendas) if f.lower().endswith('.ass')])
     if not arquivos_ass:
-        print(f"{Fore.YELLOW}[AVISO] Nenhum arquivo .ass em: {PASTA_LEGENDAS}")
+        print(f"{Fore.YELLOW}[AVISO] Nenhum arquivo .ass em: {pasta_legendas}")
         return
 
     print(f"\n{Fore.GREEN}[OK] Encontrados {len(arquivos_ass)} arquivos .ass para refinamento.")
@@ -321,7 +332,7 @@ def refinar_legendas():
     max_workers = 2
     
     for idx_arq, arquivo in enumerate(arquivos_ass, 1):
-        caminho_file = os.path.join(PASTA_LEGENDAS, arquivo)
+        caminho_file = os.path.join(pasta_legendas, arquivo)
         print(f"\n{Fore.YELLOW}=== [{idx_arq}/{len(arquivos_ass)}] PROCESSANDO: {arquivo} ===")
         
         with open(caminho_file, 'r', encoding='utf-8-sig') as f:

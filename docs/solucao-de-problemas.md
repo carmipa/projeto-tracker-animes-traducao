@@ -1,6 +1,6 @@
 # ⚠️ Solução de problemas
 
-[← Índice](README.md) · [Logs](logs-e-auditoria.md)
+[← Índice](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/README.md) · [Logs](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/logs-e-auditoria.md)
 
 <p>
   <img src="https://img.shields.io/badge/Esteiras-A_a_N-9146FF?style=flat-square" alt="Esteiras A-N"/>
@@ -27,10 +27,10 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 
 | Sintoma | Causa provável | Ação |
 |:---|:---|:---|
-| `Nenhuma faixa S_TEXT/ASS encontrada` | Legenda é PGS (bitmap) ou hardsub | Use [Esteira C](#esteira-c--pgs-fases-02--ocr--04--12) ou audite com [Fase 01](modulo-fase-01.md) |
+| `Nenhuma faixa S_TEXT/ASS encontrada` | Legenda é PGS (bitmap) ou hardsub | Use [Esteira C](#esteira-c--pgs-fases-02--ocr--04--12) ou audite com [Fase 01](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-01.md) |
 | Episódio ignorado no remux (Fase 12) | Nome do `.ass` não casa com o `.mkv` | Garanta `{base}_PTBR.ass` em `traducao\` com o mesmo nome base do vídeo |
 | Tradução muito lenta (Esteira D) | Multi-thread limitado a 2 | Esperado — `macross_deslta.py`/`script_tradutor_fr_gundam_origin.py` usam `ThreadPoolExecutor(max_workers=2)` |
-| Faixa em inglês não detectada (Sidonia, Detonator Orgun) | Faixa `lang` diferente do esperado no release | Ajuste a lista de prioridade de idioma no script correspondente |
+| Faixa em inglês não detectada (Sidonia, Detonator Orgun) | Faixa `lang` diferente do esperado no release | Ajuste a lista de prioridade no script correspondente |
 
 ---
 
@@ -56,12 +56,12 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 
 ---
 
-## Esteira F/G — Lote ASS / Gundam (Fases 02 → 05a → [06] → 12)
+## Esteira F/G — Lote ASS / Gundam (Fases 02 → 05a → [06] → [07] → 12)
 
 | Sintoma | Causa provável | Ação |
 |:---|:---|:---|
 | `[ABORTO]` ao extrair faixa (Fase 02) | Track IDs 4/5 não existem nesse release | Ajuste os IDs de fallback em `extrator_inteligente_ass.py` |
-| Tags `\N`, `{\i1}` etc. quebradas após tradução | Falha no mascaramento `[T0]`/`[T1]` ou `___TAG___` | Rode [Fase 06](modulo-fase-06.md) (`cura_legendas_tag.py` ou `cura_gundam_mkv.py`) |
+| Tags `\N`, `{\i1}` etc. quebradas após tradução | Falha no mascaramento `[T0]`/`[T1]` ou `___TAG___` | Rode [Fase 06](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-06.md) (`cura_legendas_tag.py` or `cura_gundam_mkv.py`) |
 | Texto "TAG" literal aparecendo no MKV final (Gundam Unicorn) | Corrupção conhecida do `batch_translator_unicorn.py` | `cura_gundam_mkv.py` — modo perfect-match (com `*_ENG.ass`) ou regex cego |
 | Retry constante / poucas respostas da IA | Lote (`batch`) grande demais para o contexto do modelo | Reduza o tamanho do lote no script (`batch_translator_ass.py` / `_unicorn.py` / `_sidonia.py`) |
 
@@ -80,14 +80,14 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 
 ---
 
-## Esteira I — Gundam The Origin, legenda chinesa (Fases 02 → 05c → [10] → 12)
+## Esteira I — Gundam The Origin, legenda chinesa (Fases 02 → 05c → [07] → 12 → [10])
 
 | Sintoma | Causa provável | Ação |
 |:---|:---|:---|
-| `validar_traducao()` rejeita a saída (texto ainda com CJK) | Qwen2.5 não está carregado no LM Studio (outro modelo respondeu) | Confira o modelo ativo em `GET /v1/models`; carregue `qwen2.5-7b-instruct` |
+| `validar_traducao()` rejeita a saída (texto ainda com CJK) | Qwen2.5 não está carregado no LM Studio (outro modelo respondeu) | Confira o modelo active em `GET /v1/models`; carregue `qwen2.5-7b-instruct` |
 | Tradução muito lenta ou travando | `MAX_THREADS = 2` é o limite seguro para 8GB VRAM | Reduza `--batch-size` ou rode com `--threads 1` se a GPU tiver pouca VRAM livre |
-| Linhas `[ERRO_TRADUCAO: ...]` persistem após `repara_erros_origin_zh.py` | Termo protegido/nome próprio sem tradução válida em PT-BR | Corrija manualmente ou adicione a regra em [Fase 10](modulo-fase-10.md#revisao_legenda_originpy) (`revisao_legenda_origin.py`) |
-| Erro de lore conhecido (ex.: "Guerra de cem anos", "Gólgota"/"Lucifer") sobrevive à tradução | Falha recorrente do modelo para esses termos específicos | Rode [Fase 10](modulo-fase-10.md) — já corrige esses casos e atualiza o cache |
+| Linhas `[ERRO_TRADUCAO: ...]` persistem após `repara_erros_origin_zh.py` | Termo protegido/nome próprio sem tradução válida em PT-BR | Corrija manualmente ou adicione a regra em [Fase 10](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-10.md#revisao_legenda_originpy) (`revisao_legenda_origin.py`) |
+| Erro de lore conhecido (ex.: "Guerra de cem anos", "Gólgota"/"Lucifer") sobrevive à tradução | Falha recorrente do modelo para esses termos específicos | Rode [Fase 10](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-10.md) — já corrige esses casos e atualiza o cache |
 | `test_reparo.py` não reflete o comportamento do pipeline real | Script é um utilitário de depuração isolado (3 linhas fixas) | Use apenas para validar rapidamente prompt/modelo; não é parte do pipeline regular |
 
 ---
@@ -96,9 +96,9 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 
 | Sintoma | Causa provável | Ação |
 |:---|:---|:---|
-| Nomes da família Deikun aparecem como "Daikun" | Grafia do release francês não normalizada | O script já normaliza via regex; se persistir, rode [Fase 00](modulo-fase-00.md) (`Gundam_Origin/limpeza_origin_*.py`) ou verifique se está usando `script_tradutor_fr_gundam_origin.py` e não `macross_deslta.py` |
-| Track francesa não detectada | Faixa `lang` diferente de `fre`/`fra`/`fr` no release | Ajuste a lista de prioridade em `script_tradutor_fr_gundam_origin.py` ou use a [Esteira I](#esteira-i--gundam-the-origin-legenda-chinesa-fases-02--05c--10--12) (legenda chinesa) como alternativa |
-| Tradução com resíduos de francês/lore que sobrevivem ao 05b | Caso conhecido pré-Fase 00 | Rode [Fase 00](modulo-fase-00.md) (4 scripts em `Gundam_Origin/`) ou [Fase 07](modulo-fase-07.md) (`refina_traducao_fr.py`) |
+| Nomes da família Deikun aparecem como "Daikun" | Grafia do release francês não normalizada | O script já normaliza via regex; se persistir, rode [Fase 07](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-07.md) (`Gundam_Origin/limpeza_origin_*.py`) ou verifique se está usando `script_tradutor_fr_gundam_origin.py` e não `macross_deslta.py` |
+| Track francesa não detectada | Faixa `lang` diferente de `fre`/`fra`/`fr` no release | Ajuste a lista de prioridade em `script_tradutor_fr_gundam_origin.py` ou use a [Esteira I](#esteira-i--gundam-the-origin-legenda-chinesa-fases-02--05c--07--12--10) (legenda chinesa) como alternativa |
+| Tradução com resíduos de francês/lore que sobrevivem ao 05b | Caso conhecido pré-higienização | Rode a higienização de lore da Fase 07 (4 scripts em `Gundam_Origin/`) ou o refino da Fase 07 (`refina_traducao_fr.py`) |
 
 ---
 
@@ -112,15 +112,15 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 
 ---
 
-## Fases 07/11 — Reparo de tradução e Esteira H (Guilty Crown)
+## Fases 07/11 — Higienização, Reparo de Tradução e Esteira H (Guilty Crown)
 
 | Sintoma | Causa provável | Ação |
 |:---|:---|:---|
-| Linhas `[ERRO_TRADUCAO: ...]` em `traducao\*_PTBR.ass` | Fase 05a/05b/05c não conseguiu traduzir aquela linha dentro do lote | Rode [Fase 07](modulo-fase-07.md#repara_erros_traducaopy) (`repara_erros_traducao.py`, requer LM Studio) |
+| Linhas `[ERRO_TRADUCAO: ...]` em `traducao\*_PTBR.ass` | Fase 05a/05b/05c não conseguiu traduzir aquela linha dentro do lote | Rode o reparo de erros da [Fase 07](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-07.md#1-scripts-de-reparo-geral) (`repara_erros_traducao.py`, requer LM Studio) |
 | `[ABORTADO] 5 falhas consecutivas` (Fase 07) | LM Studio offline/instável durante o reparo | Verifique LM Studio na porta 1234 e rode novamente — arquivos já reparados são preservados |
 | Marcador `[ERRO_TRADUCAO:]` persiste após `repara_erros_traducao.py` | Termo protegido/nome próprio cuja tradução correta é igual ao inglês | Rode `limpa_erros_residuais.py` (sem IA) para restaurar o texto original com as tags |
-| Desalinhamento físico de linhas com o original (Fase 07) | `.ass` traduzido tem nº de linhas diferente do `.ass` original (`_ENG.ass`) | Garanta que a Fase 05a não removeu/duplicou linhas; reextraia com [Fase 02](modulo-fase-02.md) se necessário |
-| Texto `TAG` nas letras de OP/ED (Guilty Crown) ou cores ilegíveis | Resíduo de mascaramento da Fase 05a + estilo `OP`/`ED` original | Rode [Fase 11](modulo-fase-11.md) (`corrigir_cores_musicas.py`) |
+| Desalinhamento físico de linhas com o original (Fase 07) | `.ass` traduzido tem nº de linhas diferente do `.ass` original (`_ENG.ass`) | Garanta que a Fase 05a não removeu/duplicou linhas; reextraia com [Fase 02](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-02.md) se necessário |
+| Texto `TAG` nas letras de OP/ED (Guilty Crown) ou cores ilegíveis | Resíduo de mascaramento da Fase 05a + estilo `OP`/`ED` original | Rode [Fase 11](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-11.md) (`corrigir_cores_musicas.py`) |
 | `corrigir_guilty_crown.py` não encontra `.ass` | Pasta de origem informada no prompt está errada | Confirme o caminho (padrão `E:\animes\GUILTY CROWN\1080p\legendas_eng`) |
 
 ---
@@ -129,7 +129,7 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 
 | Sintoma | Causa provável | Ação |
 |:---|:---|:---|
-| `ffprobe não encontrado` | FFmpeg não está no PATH | Adicione `ffmpeg.exe`/`ffprobe.exe` ao PATH ([instalação](instalacao.md#ffmpeg--ffprobe)) |
+| `ffprobe não encontrado` | FFmpeg não está no PATH | Adicione `ffmpeg.exe`/`ffprobe.exe` ao PATH ([instalação](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/instalacao.md#ffmpeg--ffprobe)) |
 | Drift reportado pelo `auditor_sincronia.py` | Legenda gerada com FPS diferente do vídeo | Use `subtitle_fixer.py` (shift) ou `subtitle_stretcher.py` (ratio+offset) |
 | Diálogo de seleção de arquivo não abre | `tkinter` ausente (raro) | Reinstale Python com "tcl/tk" marcado no instalador oficial |
 
@@ -149,24 +149,24 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 
 | Cenário | Esteira | Fases |
 |:---|:---|:---|
-| Legenda **ASS embutida** (inglês, Eighty-Six) | A | 05a → [10] → 12 |
+| Legenda **ASS embutida** (inglês, Eighty-Six) | A | 05a → [07] → 12 → [10] |
 | Legenda **SRT externa** (inglês) | B | 05a → 04 → 12 |
 | Legenda **PGS** (Blu-ray bitmap) | C | 02 → OCR → 04 → 12 |
-| Legenda **ASS embutida** (francês, Macross Delta TV) | D | 05b → [10] → 12 |
-| Macross Delta Filme 2 (francês) | E | 05b → 00 → 10 → 12 |
-| Lote ASS pré-extraído (Gundam Reconguista) | F | 02 → 05a → 12 |
-| Gundam Unicorn (especializada) | G | 02 → 05a → [06] → [10] → 12 |
-| Guilty Crown (correção de nomes e cores) | H | 02 → 05a → 11 → [10] → 12 |
-| Gundam The Origin, legenda **chinesa** (Qwen2.5) | I | 02 → 05c → [10] → 12 |
+| Legenda **ASS embutida** (francês, Macross Delta TV) | D | 05b → [07] → 12 → [10] |
+| Macross Delta Filme 2 (francês) | E | 05b → 07 → 10 → 12 |
+| Lote ASS pré-extraído (Gundam Reconguista) | F | 02 → 05a → [07] → 12 |
+| Gundam Unicorn (especializada) | G | 02 → 05a → [06] → [07] → 12 → [10] |
+| Guilty Crown (correção de nomes e cores) | H | 02 → 05a → [07] → 11 → 12 → [10] |
+| Gundam The Origin, legenda **chinesa** (Qwen2.5) | I | 02 → 05c → [07] → 12 → [10] |
 | Gundam Origin, legenda **francesa** (SUBFRENCH) | J | 05b → [07] → 12 |
-| Gundam Zeta (TranslateGemma) | K | 05c-2 → 12 |
-| Gundam ZZ (TranslateGemma) | L | 05c-2 → 12 |
-| Detonator Orgun (Mistral Nemo, inglês) | M | 05b → 12 |
-| Knights of Sidonia | N | 02 → 05a → 12 |
+| Gundam Zeta (TranslateGemma) | K | 05c-2 → [07] → 12 |
+| Gundam ZZ (TranslateGemma) | L | 05c-2 → [07] → 12 |
+| Detonator Orgun (Mistral Nemo, inglês) | M | 05b → [07] → 12 |
+| Knights of Sidonia | N | 05a → [07] → 12 |
 
-Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 05a/05b/05c, aplique a [Fase 07](modulo-fase-07.md) (via IA/Gemma), [Fase 11](modulo-fase-11.md) (offline, Guilty Crown) ou o reparo da [Fase 05c](modulo-fase-05c.md#repara_erros_origin_zhpy) (via IA/Qwen2.5). Erros de lore residuais: [Fase 00](modulo-fase-00.md) (higienização por título) e [Fase 10](modulo-fase-10.md) (QA final).
+Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a tradução, aplique a [Fase 07](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-07.md) (reparo via IA), [Fase 11](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-11.md) (offline, Guilty Crown) ou o reparo da [Fase 05c](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c.md#repara_erros_origin_zhpy) (Gundam The Origin chinês). Erros de lore residuais e gramática por título: [Fase 07](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-07.md) (higienização por título) e [Fase 10](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-10.md) (QA final).
 
-[Arquitetura](arquitetura.md) · [Pipeline SRT](pipeline-srt.md)
+[Arquitetura](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/arquitetura.md) · [Pipeline SRT](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/pipeline-srt.md)
 
 ---
 
@@ -182,13 +182,12 @@ Em qualquer esteira, se restarem `[ERRO_TRADUCAO:]` após a Fase 05a/05b/05c, ap
 | Tradução IA (chinês) | LM Studio + Qwen2.5-7B-Instruct | 05c |
 | Tradução/Revisão IA (inglês) | LM Studio + TranslateGemma 12B | 05c-2 |
 | Conversão legenda | SRT → ASS + sync FPS | 04 |
-| Higienização | Regex/dicionário de lore por título | 00 |
+| Higienização e Reparos | Regex/dicionário de lore + reparo de falhas (07 com IA, 11 offline) | 07, 11 |
 | Sincronização/Otimização | FFmpeg/FFprobe (NVENC) | 08, 03 |
-| Reparo pós-tradução | Regex + restauração de tags ASS (07/05c com IA, 11 offline) | 07, 11 |
 | Karaokê | Extração/injeção de linhas OP/ED entre legendas | 09 |
 | Revisão final por título | Regex/dicionário hardcoded por série + remux opcional | 10 |
 | Terminal | colorama + tqdm | Todas |
 
 ---
 
-[← Logs](logs-e-auditoria.md) · [Instalação](instalacao.md)
+[← Logs](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/logs-e-auditoria.md) · [Instalação](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/instalacao.md)

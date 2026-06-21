@@ -1,9 +1,9 @@
 # 📊 Logs e auditoria
 
-[← Índice](README.md) · [Guia de execução](guia-de-execucao.md)
+[← Índice](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/README.md) · [Guia de execução](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/guia-de-execucao.md)
 
 <p>
-  <img src="https://img.shields.io/badge/Fases-00_a_12-blueviolet?style=flat-square" alt="Fases 00-12"/>
+  <img src="https://img.shields.io/badge/Fases-01_a_12-blueviolet?style=flat-square" alt="Fases 01-12"/>
   <img src="https://img.shields.io/badge/Auditoria-Logs_%2B_Relatórios-informational?style=flat-square" alt="Auditoria"/>
 </p>
 
@@ -134,15 +134,16 @@ Cada um persiste seu próprio cache (`traducao_cache_gundam_zz_en.json` / `tradu
 
 ---
 
-## Fase 07 — Reparo de tradução
+## Fase 07 — Higienização e Reparo de Tradução
 
 | Script | Local | Arquivo |
 |:---|:---|:---|
-| `repara_erros_traducao.py` | `07_reparo_traducao/` | `relatorio_reparo.txt` — falhas encontradas/reparadas/persistentes por arquivo, linhas com falha, tempo total |
-| `limpa_erros_residuais.py` | `07_reparo_traducao/` | Apenas console (sem relatório próprio) |
-| `extrai_linhas_suspeitas.py` | `07_reparo_traducao/` | `linhas_para_revisar.json` |
-| `aplica_linhas_revisadas.py` | `07_reparo_traducao/` | Lê `linhas_revisadas.json` (entrada manual) e atualiza o cache global |
-| `refina_traducao_fr.py` | `07_reparo_traducao/` | Apenas console + relatório de alterações no terminal |
+| [repara_erros_traducao.py](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/07_higienizacao_e_reparo_de_traducao/repara_erros_traducao.py) | `07_higienizacao_e_reparo_de_traducao/` | `relatorio_reparo.txt` — falhas encontradas/reparadas/persistentes por arquivo, linhas com falha, tempo total |
+| [limpa_erros_residuais.py](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/07_higienizacao_e_reparo_de_traducao/limpa_erros_residuais.py) | `07_higienizacao_e_reparo_de_traducao/` | Apenas console (sem relatório próprio) |
+| [extrai_linhas_suspeitas.py](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/07_higienizacao_e_reparo_de_traducao/refino_frances_origin/) | `07_higienizacao_e_reparo_de_traducao/refino_frances_origin/` | `linhas_para_revisar.json` |
+| [aplica_linhas_revisadas.py](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/07_higienizacao_e_reparo_de_traducao/refino_frances_origin/) | `07_higienizacao_e_reparo_de_traducao/refino_frances_origin/` | Lê `linhas_revisadas.json` (entrada manual) e atualiza o cache global |
+| [refina_traducao_fr.py](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/07_higienizacao_e_reparo_de_traducao/refino_frances_origin/) | `07_higienizacao_e_reparo_de_traducao/refino_frances_origin/` | Apenas console + relatório de alterações no terminal |
+| `limpeza_*.py` / `limpeza_geral_*.py` | `07_higienizacao_e_reparo_de_traducao/<Título>/` | Apenas console (substituições em-place nas legendas `legendas_ptbr/`) |
 
 ---
 
@@ -192,7 +193,7 @@ Quatro artefatos por execução em **`multiplexar/logs/`** (caminho hardcoded no
 | `remux_erros_*.txt` | Dumps de erro |
 | `remux_stats_*.json` | Bytes gerados, pareamentos, falhas |
 
-> A pasta `12_remuxer_mkvmerge/logs/` tem o mesmo padrão de nomes, porém é **resíduo de execuções antigas** — não é mais escrita pelo script atual. Veja [Estrutura do repositório](estrutura-repositorio.md#nota--logs-de-remux-duplicados-12_remuxer_mkvmergelogs-vs-multiplexarlogs).
+> A pasta `12_remuxer_mkvmerge/logs/` tem o mesmo padrão de nomes, porém é **resíduo de execuções antigas** — não é mais escrita pelo script atual. Veja [Estrutura do repositório](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/estrutura-repositorio.md#nota--logs-de-remux-duplicados-12_remuxer_mkvmergelogs-vs-multiplexarlogs).
 
 ---
 
@@ -205,8 +206,8 @@ Quatro artefatos por execução em **`multiplexar/logs/`** (caminho hardcoded no
 | `[AVISO]` | 🟡 Amarelo | Situação recuperável |
 | `[ERRO]` | 🔴 Vermelho | Falha ou aborto |
 
-Esses níveis aparecem em praticamente todos os scripts (Fases 00–12).
+Esses níveis aparecem em praticamente todos os scripts (Fases 01–12).
 
 ---
 
-[← Guia de execução](guia-de-execucao.md) · [Solução de problemas →](solucao-de-problemas.md)
+[← Guia de execução](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/guia-de-execucao.md) · [Solução de problemas →](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/solucao-de-problemas.md)

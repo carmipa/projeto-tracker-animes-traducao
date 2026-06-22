@@ -1,14 +1,12 @@
 RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE
 ================================================================================
-[DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_01_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_02_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_03_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_04_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_05_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_06_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_07_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_08_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_09_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_10_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_11_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
-[DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR.mkv | Track ID: 3 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: [DB]86 Part 2_-_12_(Dual Audio_10bit_BD1080p_x265)_PTBR_ENG.ass
+[AntBnecn] Macross 7 Dynamite - 01 [720p BD] [4A0F1A6B].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Dynamite - 01 [720p BD] [4A0F1A6B]_ENG.ass
+[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_ENG.ass
+[AntBnecn] Macross 7 Dynamite - 03 [720p BD] [97F91179].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Dynamite - 03 [720p BD] [97F91179]_ENG.ass
+[AntBnecn] Macross 7 Dynamite - 04 [720p BD] [7D4497DA].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Dynamite - 04 [720p BD] [7D4497DA]_ENG.ass
+[AntBnecn] Macross 7 Encore - 01 [720p BD] [22B79A37].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Encore - 01 [720p BD] [22B79A37]_ENG.ass
+[AntBnecn] Macross 7 Encore - 02 [720p BD] [B97EBA6D].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Encore - 02 [720p BD] [B97EBA6D]_ENG.ass
+[AntBnecn] Macross 7 Encore - 03 [720p BD] [ED0FAD06].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Encore - 03 [720p BD] [ED0FAD06]_ENG.ass
+[AntBnecn] Macross 7 Movie - The Galaxy Is Calling Me! [720p BD] [D4062C67].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Movie - The Galaxy Is Calling Me! [720p BD] [D4062C67]_ENG.ass
+[AntBnecn] Macross 7 Plus - 01-06 [720p BD] [3B4CF25A].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Plus - 01-06 [720p BD] [3B4CF25A]_ENG.ass
+[AntBnecn] Macross 7 Plus - 07-11 [720p BD] [971E14B8].mkv | Track ID: 3 | Nome: Without Karaoke Effects | Formato: ASS | Saída: [AntBnecn] Macross 7 Plus - 07-11 [720p BD] [971E14B8]_ENG.ass

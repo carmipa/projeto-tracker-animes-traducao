@@ -1,0 +1,53 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO EN -> PT-BR | MACROSS 7
+================================================================================
+Início    : 2026-06-22 09:01:44
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Macross_7\logs
+================================================================================
+
+
+================================================================================
+            PIPELINE INDUSTRIAL UNIFICADO — MACROSS 7 (EN -> PT-BR)             
+================================================================================
+
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[09:01:44.405] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[09:01:44.425] [SUCESSO ] LM Studio OK — 5 modelo(s) carregado(s)
+[09:01:44.425] [INFO    ] Usando modelo ativo: mistralai/mistral-nemo-instruct-2407
+
+================================================================================
+                             DIRETÓRIOS DE TRABALHO                             
+================================================================================
+
+[09:01:57.589] [INFO    ] Pasta de entrada: C:\animes\[AntBnecn] Macross 7 - Dynamite + Encore + Plus + Movie [720p BD]\legendas_eng
+[09:02:06.954] [INFO    ] Pasta de saída: C:\animes\[AntBnecn] Macross 7 - Dynamite + Encore + Plus + Movie [720p BD]\legendas_ptbr
+[09:02:06.954] [INFO    ] Carregados 10 arquivos de legenda.
+[09:02:06.954] [DEBUG   ] Config salvo: config_en_macross7_2026-06-22_09-01-44.txt
+
+================================================================================
+                          PROCESSANDO TRADUÇÃO EM LOTE                          
+================================================================================
+
+[09:02:06.957] [INFO    ] Cache hits neste arquivo: 0 | Misses a traduzir: 416
+[09:06:30.496] [INFO    ] Cache hits neste arquivo: 105 | Misses a traduzir: 318
+[09:09:33.222] [INFO    ] Cache hits neste arquivo: 112 | Misses a traduzir: 329
+[09:12:06.187] [INFO    ] Cache hits neste arquivo: 110 | Misses a traduzir: 386
+[09:17:02.610] [INFO    ] Cache hits neste arquivo: 11 | Misses a traduzir: 364
+[09:21:56.826] [INFO    ] Cache hits neste arquivo: 67 | Misses a traduzir: 367
+[09:25:28.655] [INFO    ] Cache hits neste arquivo: 111 | Misses a traduzir: 293
+[09:28:32.980] [INFO    ] Cache hits neste arquivo: 83 | Misses a traduzir: 510
+[09:30:25.053] [AVISO   ] Lote parcial 4/8. Retraduzindo 4 linha(s) individualmente...
+[09:34:25.551] [INFO    ] Cache hits neste arquivo: 32 | Misses a traduzir: 92
+[09:35:18.439] [INFO    ] Cache hits neste arquivo: 2 | Misses a traduzir: 122
+
+================================================================================
+                              MÉTRICAS DA EXECUÇÃO                              
+================================================================================
+
+[09:37:02.937] [DEBUG   ] Stats salvo: stats_en_macross7_2026-06-22_09-01-44.json

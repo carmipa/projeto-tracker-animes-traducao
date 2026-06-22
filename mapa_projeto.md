@@ -3,99 +3,6 @@ Gerado em: projeto-tracker-animes-traducao
 Este documento serve como mapa de contexto para LLMs atualizarem a documentação oficial.
 ---
 
-## 📁 Pasta: `00_scripts_higienizacao/`
-### 📄 Arquivo: `00_scripts_higienizacao\86_Eighty_Six\audit_86.py`
-```text
-Patentes e jargões icônicos de 86
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\86_Eighty_Six\limpeza_geral_86.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Detonator_Orgun\limpeza_geral_orgun.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Guilty_Crown\limpeza_geral_guilty.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Origin\limpeza_origin_extrema.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Origin\limpeza_origin_finais.py`
-```text
-Correção do erro de barra (\N com espaço ou minúsculo)
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Origin\limpeza_origin_gramatica_profunda.py`
-```text
-O "Cérebro do Antigravity" - Dicionário de Correção Contextual de Francês para PT-BR Nativo
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Origin\limpeza_origin_total.py`
-```text
-Francesismos & Vocabulário
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Gundam_The_Origin\limpeza_geral_origin.py`
-```text
-PASTA ALVO DE GUNDAM THE ORIGIN
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Unicorn\limpeza_geral_unicorn.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Gundam_Zeta\limpeza_zeta_extrema.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa (Traje Móvel / traje móvel / TRAJE MÓVEL) e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Knights_of_Sidonia\limpeza_sidonia_extrema.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Macross_Delta\limpeza_geral_macross.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Macross_Delta_Filme_1\limpeza_macross_filme1_extrema.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Macross_Delta_Filme_2\limpeza_macross_filme2_extrema.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
-### 📄 Arquivo: `00_scripts_higienizacao\Sword_Art_Online_Filme_2\limpeza_sao_filme2_extrema.py`
-```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa e posição na frase.
-```
-
----
 ## 📁 Pasta: `01_analisador_midia/`
 ### 📄 Arquivo: `01_analisador_midia\media_analyzer.py`
 ```text
@@ -254,6 +161,16 @@ Extrai .ass e .srt → Traduz do Inglês via LM Studio (Mistral Nemo) → Salva 
 Sistema de Logs Auditável com Temporizadores de Precisão e Validador Anti-Alucinação Inglês.
 ```
 
+### 📄 Arquivo: `05b_tradutor_llm_mistral_nemo\Macross_7\script_tradutor_en_macross7.py`
+```text
+PIPELINE INDUSTRIAL UNIFICADO - VERSÃO INGLÊS (EN -> PT-BR)
+Alvo: [AntBnecn] Macross 7 - Dynamite + Encore + Plus + Movie
+Extrai .ass e .srt → Traduz do Inglês via LM Studio (Mistral Nemo) → Salva PT-BR
+
+Sistema de Logs Auditável com Temporizadores de Precisão e Validador Anti-Alucinação Inglês.
+Otimizado com cache persistente em disco, mascaramento de tags ASS e concorrência multithread.
+```
+
 ### 📄 Arquivo: `05b_tradutor_llm_mistral_nemo\frances_para_ptbr\macross_deslta.py`
 ```text
 PIPELINE INDUSTRIAL UNIFICADO - VERSÃO FRANCÊS (FR -> PT-BR)
@@ -360,28 +277,100 @@ Data: Junho 2026
 ```
 
 ---
-## 📁 Pasta: `07_reparo_traducao/`
-### 📄 Arquivo: `07_reparo_traducao\aplica_linhas_revisadas.py`
+## 📁 Pasta: `07_higienizacao_e_reparo_de_traducao/`
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\86_Eighty_Six\audit_86.py`
 ```text
-MÓDULO: aplica_linhas_revisadas.py
-Lê as linhas corrigidas em linhas_revisadas.json e as grava de volta
-nos arquivos .ass correspondentes, além de atualizar o cache global.
-
-Author: Antigravity
-Data: Junho 2026
+Patentes e jargões icônicos de 86
 ```
 
-### 📄 Arquivo: `07_reparo_traducao\extrai_linhas_suspeitas.py`
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\86_Eighty_Six\limpeza_geral_86.py`
 ```text
-MÓDULO: extrai_linhas_suspeitas.py
-Varre as legendas e gera um JSON consolidado contendo apenas as falas que
-precisam de refinamento de gênero, pronomes, resíduos de francês ou patentes.
-
-Author: Antigravity
-Data: Junho 2026
+Higienização V3 — 86 Eighty-Six (PT-BR)
+Corrige artefatos do LLM local: \\N órfão, \\n colado, tags ASS inválidas,
+lore Spearhead, flexão Lena/handler e gafes gramaticais do Mistral/Gemma.
 ```
 
-### 📄 Arquivo: `07_reparo_traducao\limpa_erros_residuais.py`
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Detonator_Orgun\limpeza_geral_orgun.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Guilty_Crown\limpeza_geral_guilty.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_Origin\limpeza_origin_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_Origin\limpeza_origin_finais.py`
+```text
+Correção do erro de barra (\N com espaço ou minúsculo)
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_Origin\limpeza_origin_gramatica_profunda.py`
+```text
+O "Cérebro do Antigravity" - Dicionário de Correção Contextual de Francês para PT-BR Nativo
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_Origin\limpeza_origin_total.py`
+```text
+Francesismos & Vocabulário
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_The_Origin\limpeza_geral_origin.py`
+```text
+PASTA ALVO DE GUNDAM THE ORIGIN
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_Unicorn\limpeza_geral_unicorn.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_Zeta\limpeza_zeta_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa (Traje Móvel / traje móvel / TRAJE MÓVEL) e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Knights_of_Sidonia\limpeza_sidonia_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Macross_Delta\limpeza_geral_macross.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Macross_Delta_Filme_1\limpeza_macross_filme1_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Macross_Delta_Filme_2\limpeza_macross_filme2_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Sword_Art_Online_Filme_2\limpeza_sao_filme2_extrema.py`
+```text
+Termos de lore/marca: sempre normalizados para a grafia oficial,
+em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\limpa_erros_residuais.py`
 ```text
 MODULO: limpa_erros_residuais.py
 Faz uma varredura nas legendas PT-BR em busca de marcadores "[ERRO_TRADUCAO: ...]"
@@ -393,7 +382,27 @@ Author: Antigravity + Paulo
 Data: Junho 2026
 ```
 
-### 📄 Arquivo: `07_reparo_traducao\refina_traducao_fr.py`
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\refino_frances_origin\aplica_linhas_revisadas.py`
+```text
+MÓDULO: aplica_linhas_revisadas.py
+Lê as linhas corrigidas em linhas_revisadas.json e as grava de volta
+nos arquivos .ass correspondentes, além de atualizar o cache global.
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\refino_frances_origin\extrai_linhas_suspeitas.py`
+```text
+MÓDULO: extrai_linhas_suspeitas.py
+Varre as legendas e gera um JSON consolidado contendo apenas as falas que
+precisam de refinamento de gênero, pronomes, resíduos de francês ou patentes.
+
+Author: Antigravity
+Data: Junho 2026
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\refino_frances_origin\refina_traducao_fr.py`
 ```text
 MÓDULO: refina_traducao_fr.py
 Revisa e refina as legendas traduzidas (*_ENG.ass na pasta legendas_ptbr) via LM Studio.
@@ -405,7 +414,7 @@ Author: Antigravity + Paulo
 Data: Junho 2026
 ```
 
-### 📄 Arquivo: `07_reparo_traducao\repara_erros_traducao.py`
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\repara_erros_traducao.py`
 ```text
 MODULO: repara_erros_traducao.py
 Verifica as legendas traduzidas (*_PTBR.ass) em busca de marcadores "[ERRO_TRADUCAO: ...]"
@@ -555,3 +564,6 @@ Status: PRODUCTION READY (High Performance)
 ```
 
 ---
+## 📁 Pasta: `legendas-corrigidas-ptbr/`
+*(Nenhum script Python nesta pasta)*
+

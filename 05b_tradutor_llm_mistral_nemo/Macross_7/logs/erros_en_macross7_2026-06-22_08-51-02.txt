@@ -1,0 +1,10 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO EN -> PT-BR | MACROSS 7
+================================================================================
+Início    : 2026-06-22 08:51:02
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Macross_7\logs
+================================================================================
+
+[08:51:24.555] [ERRO    ] Nenhum arquivo de legenda (.ass ou .srt) encontrado em: C:\animes\[AntBnecn] Macross 7 - Dynamite + Encore + Plus + Movie [720p BD]\legendas_eng

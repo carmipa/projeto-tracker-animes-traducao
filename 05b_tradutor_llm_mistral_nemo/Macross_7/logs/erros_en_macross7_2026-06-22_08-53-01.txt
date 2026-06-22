@@ -1,0 +1,24 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO EN -> PT-BR | MACROSS 7
+================================================================================
+Início    : 2026-06-22 08:53:01
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Macross_7\logs
+================================================================================
+
+[08:53:14.427] [ERRO    ] Falha crítica inesperada na execução do pipeline.
+
+================================================================================
+TRACEBACK COMPLETO
+================================================================================
+Contexto : executar_pipeline()
+
+Traceback (most recent call last):
+  File "d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Macross_7\script_tradutor_en_macross7.py", line 732, in executar_pipeline
+    pipe.salvar_config(pipe.LM_URL, pipe.modelo_ativo, pasta_entrada, pasta_saida)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'PipelineMacross7' object has no attribute 'salvar_config'
+
+--------------------------------------------------------------------------------
+

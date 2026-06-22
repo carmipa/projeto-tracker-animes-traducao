@@ -1,0 +1,126 @@
+RELATÓRIO REVISÃO EXTREMA MACROSS 7 (PRODUÇÃO)
+Executado: 2026-06-22 13:33:11
+  arquivos_processados: 10
+  linhas_modificadas: 29
+  karaoke_restaurado: 0
+  lore_corrigido: 0
+  higienizacao_geral: 29
+  correcoes_manuais: 0
+====================================================================================================
+
+[[AntBnecn] Macross 7 Dynamite - 01 [720p BD] [4A0F1A6B]_PTBR.ass L113 D63] Higienização estrutural / gramática
+  Antes : Certo.  Então, pessoas não imunes\N poderiam morrer.
+  Depois: Certo. Então, pessoas não imunes\N poderiam morrer.
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 01 [720p BD] [4A0F1A6B]_PTBR.ass L152 D102] Higienização estrutural / gramática
+  Antes : Não!  Eu apliquei\N teptramiracine!
+  Depois: Não! Eu apliquei\N teptramiracine!
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass L46 D1] Higienização estrutural / gramática
+  Antes : {\a6\pos(439.5,178.5)}{\c&HFFFFFF&}{\i1}Macross
+  Depois: {\a6\pos(439.5,178.5)}{\c&HFFFFFF&}{\i1}Macross{\i0}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass L110 D65] Higienização estrutural / gramática
+  Antes : Sim, eles responderam\N à sua música.
+  Depois: Sim, eles responderam\Nà sua música.
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass L149 D104] Higienização estrutural / gramática
+  Antes : {\c&HFFFF80&}Por que você não vem\N à minha casa em Macross 11?
+  Depois: {\c&HFFFF80&}Por que você não vem\Nà minha casa em Macross 11?
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass L174 D129] Higienização estrutural / gramática
+  Antes : Batendo palmas ou ouvindo um rádio... {Lillian:  That cute thing.}
+  Depois: Batendo palmas ou ouvindo um rádio... {Lillian: That cute thing.}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass L190 D145] Higienização estrutural / gramática
+  Antes : Você está solitário? {Hiro:   Oops, watch out, Mylene.}
+  Depois: Você está solitário? {Hiro: Oops, watch out, Mylene.}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass L191 D146] Higienização estrutural / gramática
+  Antes : Desculpe, Guvava,\N você não pode entrar. {Lillian:  Guvava, go get help.}
+  Depois: Desculpe, Guvava,\N você não pode entrar. {Lillian: Guvava, go get help.}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass L238 D193] Higienização estrutural / gramática
+  Antes : Eu gosto de garotas fofas\N como você. {Lillian:  ewwww.}
+  Depois: Eu gosto de garotas fofas\N como você. {Lillian: ewwww.}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass L270 D225] Higienização estrutural / gramática
+  Antes : Você está ainda mais fofa. {Lillian:  Ewwww.}
+  Depois: Você está ainda mais fofa. {Lillian: Ewwww.}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass L308 D263] Higienização estrutural / gramática
+  Antes : {\c&HFFFF80&}Eu já te falei antes.  Você ainda é\N apenas uma criança, então tome cuidado.
+  Depois: {\c&HFFFF80&}Eu já te falei antes. Você ainda é\N apenas uma criança, então tome cuidado.
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 03 [720p BD] [97F91179]_PTBR.ass L42 D1] Higienização estrutural / gramática
+  Antes : {\a6\pos(421.5,174)}{\c&HFFFFFF&}{\i1}Macross
+  Depois: {\a6\pos(421.5,174)}{\c&HFFFFFF&}{\i1}Macross{\i0}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 03 [720p BD] [97F91179]_PTBR.ass L76 D35] Higienização estrutural / gramática
+  Antes : Incrível.  Então este é\N O cemitério das baleias.
+  Depois: Incrível. Então este é\N O cemitério das baleias.
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 03 [720p BD] [97F91179]_PTBR.ass L320 D279] Higienização estrutural / gramática
+  Antes : ...então está triste por ter que ver seus amigos preciosos partirem. {Hiro:  Now I see it.  Good plot.}
+  Depois: ...então está triste por ter que ver seus amigos preciosos partirem. {Hiro: Now I see it. Good plot.}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 04 [720p BD] [7D4497DA]_PTBR.ass L62 D1] Higienização estrutural / gramática
+  Antes : {\a6\pos(426,172.5)}{\c&HFFFFFF&}{\i1}Macross
+  Depois: {\a6\pos(426,172.5)}{\c&HFFFFFF&}{\i1}Macross{\i0}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 04 [720p BD] [7D4497DA]_PTBR.ass L148 D87] Higienização estrutural / gramática
+  Antes : Sim.  Fui informado de que\N otavós ancestrais desenharam isso.
+  Depois: Sim. Fui informado de que\N otavós ancestrais desenharam isso.
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Dynamite - 04 [720p BD] [7D4497DA]_PTBR.ass L192 D131] Higienização estrutural / gramática
+  Antes : {\c&HFFFF80&}Então, a imagem de uma gaivota veio\N à mente vazia de Zomeo.
+  Depois: {\c&HFFFF80&}Então, a imagem de uma gaivota veio\Nà mente vazia de Zomeo.
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Encore - 01 [720p BD] [22B79A37]_PTBR.ass L152 D111] Higienização estrutural / gramática
+  Antes : Não!  Eu não\N quero ir embora!
+  Depois: Não! Eu não\N quero ir embora!
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Encore - 02 [720p BD] [B97EBA6D]_PTBR.ass L235 D190] Higienização estrutural / gramática
+  Antes : Huh?  Está infeliz\N com alguma coisa aqui?
+  Depois: Huh? Está infeliz\N com alguma coisa aqui?
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Encore - 02 [720p BD] [B97EBA6D]_PTBR.ass L270 D225] Higienização estrutural / gramática
+  Antes : De jeito nenhum!  Não é\N assim que funciona!
+  Depois: De jeito nenhum! Não é\N assim que funciona!
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Encore - 02 [720p BD] [B97EBA6D]_PTBR.ass L342 D297] Higienização estrutural / gramática
+  Antes : Huh?  O que é isso...?
+  Depois: Huh? O que é isso...?
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Encore - 03 [720p BD] [ED0FAD06]_PTBR.ass L264 D221] Higienização estrutural / gramática
+  Antes : Coordenadas do alvo\N 09-EX 21-FY 88-SZ.
+  Depois: Coordenadas do alvo\N09-EX 21-FY 88-SZ.
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Encore - 03 [720p BD] [ED0FAD06]_PTBR.ass L268 D225] Higienização estrutural / gramática
+  Antes : Coordenadas do alvo do Macross Cannon:\N 09-EX 21-FY 88-SZ.
+  Depois: Coordenadas do alvo do Macross Cannon:\N09-EX 21-FY 88-SZ.
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Movie - The Galaxy Is Calling Me! [720p BD] [D4062C67]_PTBR.ass L109 D5] Higienização estrutural / gramática
+  Antes : {\a6\fscx78.75\fscy67.5\pos(483,505.5)}{\c&HFFFFFF&}O universo me chama{\i1}!
+  Depois: {\a6\fscx78.75\fscy67.5\pos(483,505.5)}{\c&HFFFFFF&}O universo me chama{\i1}!{\i0}
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Movie - The Galaxy Is Calling Me! [720p BD] [D4062C67]_PTBR.ass L141 D37] Higienização estrutural / gramática
+  Antes : {\a6\pos(426,366)}{\c&HFFFFFF&}Diretor:       Tetsuro Amino
+  Depois: {\a6\pos(426,366)}{\c&HFFFFFF&}Diretor: Tetsuro Amino
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Movie - The Galaxy Is Calling Me! [720p BD] [D4062C67]_PTBR.ass L520 D416] Higienização estrutural / gramática
+  Antes : {\fad(500,500)\blur0.4}{\k29}{\k29}O {\k38}retat{\k24}chi {\k28}no {\k18}pa{\k28}wa {\k48}dois {\k15}tsu{\k22}ta{\k21}te{\k22}i
+  Depois: {\fad(500,500)\blur0.4}{\k29}O {\k38}retat{\k24}chi {\k28}no {\k18}pa{\k28}wa {\k48}dois {\k15}tsu{\k22}ta{\k21}te{\k22}i
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Plus - 01-06 [720p BD] [3B4CF25A]_PTBR.ass L73 D1] Higienização estrutural / gramática
+  Antes : {\a6\pos(430.5,75)}{\c&HFFFFFF&}{\c&HFFFFFF&}Bom dia
+  Depois: {\a6\pos(430.5,75)}{\c&HFFFFFF&}Bom dia
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Plus - 01-06 [720p BD] [3B4CF25A]_PTBR.ass L74 D2] Higienização estrutural / gramática
+  Antes : {\a6\pos(658.5,360)}{\c&HFFFFFF&}{\c&HFFFFFF&}Mylene
+  Depois: {\a6\pos(658.5,360)}{\c&HFFFFFF&}Mylene
+----------------------------------------------------------------------------------------------------
+[[AntBnecn] Macross 7 Plus - 01-06 [720p BD] [3B4CF25A]_PTBR.ass L162 D90] Higienização estrutural / gramática
+  Antes : {\fad(100,100)}{\fad(100,100)}{\k32}a{\k14}ta{\k22}shi {\k36}no {\k33}he{\k44}a{\k40}rt {\k84}wa {\k35}ko{\k19}ko {\k20}ni {\k36}a{\k38}ru {\k40}yo {\k36}i{\k39}tsu{\k95}da{\k54}tte
+  Depois: {\fad(100,100)}{\k32}a{\k14}ta{\k22}shi {\k36}no {\k33}he{\k44}a{\k40}rt {\k84}wa {\k35}ko{\k19}ko {\k20}ni {\k36}a{\k38}ru {\k40}yo {\k36}i{\k39}tsu{\k95}da{\k54}tte
+----------------------------------------------------------------------------------------------------

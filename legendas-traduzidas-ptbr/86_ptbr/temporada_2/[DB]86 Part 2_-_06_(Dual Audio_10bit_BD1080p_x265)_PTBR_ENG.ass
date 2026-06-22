@@ -37,87 +37,87 @@ Dialogue: 10,0:02:54.86,0:02:56.66,Default,,0,0,0,,Anju, se você puder.
 Dialogue: 10,0:02:56.66,0:02:57.41,Default,,0,0,0,,Claro que sim.
 Dialogue: 10,0:02:58.57,0:03:01.12,Default,,0,0,0,,Kiri... fez isso?
 Dialogue: 10,0:03:01.12,0:03:02.29,Default,,0,0,0,,Vamos.
-Dialogue: 10,0:03:02.29,0:03:07.38,Default,,0,0,0,,Shinei, você não vai acabar assim, certo?
+Dialogue: 10,0:03:02.29,0:03:07.38,Default,,0,0,0,,Shinei, você não vai\Nacabar assim, certo?
 Dialogue: 10,0:03:08.08,0:03:10.29,Default,,0,0,0,,O mesmo de Kiri...
 Dialogue: 10,0:03:12.80,0:03:13.76,Default,,0,0,0,,É.
-Dialogue: 10,0:03:14.80,0:03:18.64,Default,,0,0,0,,{\q2}O bombardeio inicial atingiu a base de operações avançada do Corpo do 8º Exército.\N
-Dialogue: 10,0:03:18.64,0:03:23.14,Default,,0,0,0,,{\q2}A BOA14 foi atacada primeiro. Setenta e dois\Nminutos depois, a BOA13 foi atingida.
-Dialogue: 10,0:03:23.14,0:03:28.90,Default,,0,0,0,,{\q2}Quinze horas depois, o Corpo de Infantaria 5º\NFOB28 e FOB30 também foram atacados.
-Dialogue: 10,0:03:29.15,0:03:32.48,Default,,0,0,0,,{\an8}Dessa forma, os FOBs mencionados foram aniquilados.
-Dialogue: 10,0:03:32.48,0:03:35.03,Default,,0,0,0,,{\an8}Em relação aos quatro regimentos estacionados nessas bases...
-Dialogue: 10,0:03:35.82,0:03:39.41,Default,,0,0,0,,Aproximadamente 20.000 militares foram dizimados.
-Dialogue: 10,0:03:39.41,0:03:43.04,Default,,0,0,0,,{\q2}A artilharia de ultra longo alcance por trás desses ataques\Né considerada um novo modelo de Legião,
+Dialogue: 10,0:03:14.80,0:03:18.64,Default,,0,0,0,,{\q2}O bombardeio inicial atingiu\Na base de operações avançada\Ndo Corpo do 8º Exército.
+Dialogue: 10,0:03:18.64,0:03:23.14,Default,,0,0,0,,{\q2}A BOA14 foi atacada\Nprimeiro. Setenta e dois\N minutos depois, a BOA13 foi atingida.
+Dialogue: 10,0:03:23.14,0:03:28.90,Default,,0,0,0,,{\q2}Quinze horas depois,\No Corpo de Infantaria 5º\N FOB28 e FOB30 também foram atacados.
+Dialogue: 10,0:03:29.15,0:03:32.48,Default,,0,0,0,,{\an8}Dessa forma, os FOBs mencionados\Nforam aniquilados.
+Dialogue: 10,0:03:32.48,0:03:35.03,Default,,0,0,0,,{\an8}Em relação aos quatro regimentos\Nestacionados nessas bases...
+Dialogue: 10,0:03:35.82,0:03:39.41,Default,,0,0,0,,Aproximadamente 20.000 militares\Nforam dizimados.
+Dialogue: 10,0:03:39.41,0:03:43.04,Default,,0,0,0,,{\q2}A artilharia de ultra longo\Nalcance por trás desses ataques\N é considerada um novo modelo de Legião,
 Dialogue: 10,0:03:43.04,0:03:45.50,Default,,0,0,0,,que nós apelidamos de "Morpho".
-Dialogue: 10,0:03:45.96,0:03:49.42,Default,,0,0,0,,{\q2}Com base em nossa análise, as especificações estimadas\Ns são: um canhão de calibre 800 mm,
+Dialogue: 10,0:03:45.96,0:03:49.42,Default,,0,0,0,,{\q2}Com base em nossa análise,\Nas especificações estimadas\N s são: um canhão de calibre 800 mm,
 Dialogue: 10,0:03:49.42,0:03:51.34,Default,,0,0,0,,e um alcance efetivo de 400 km.
-Dialogue: 10,0:03:51.34,0:03:54.46,Default,,0,0,0,,e uma velocidade de saída inicial de 8.000 metros por segundo.
-Dialogue: 10,0:03:54.46,0:03:56.63,Default,,0,0,0,,{\q2}Essas especificações são impossíveis\Npara canhões convencionais.
-Dialogue: 10,0:03:56.63,0:03:59.47,Default,,0,0,0,,Concluímos que eles utilizaram um railgun.
+Dialogue: 10,0:03:51.34,0:03:54.46,Default,,0,0,0,,e uma velocidade de saída inicial\Nde 8.000 metros por segundo.
+Dialogue: 10,0:03:54.46,0:03:56.63,Default,,0,0,0,,{\q2}Essas especificações são impossíveis\N para canhões convencionais.
+Dialogue: 10,0:03:56.63,0:03:59.47,Default,,0,0,0,,Concluímos que eles utilizaram\Num railgun.
 Dialogue: 10,0:03:59.80,0:04:01.51,Default,,0,0,0,,Um railgun.
-Dialogue: 10,0:04:01.51,0:04:04.97,Default,,0,0,0,,{\q2}Eles também relataram algo\Nsemelhante quando os analisamos.
+Dialogue: 10,0:04:01.51,0:04:04.97,Default,,0,0,0,,{\q2}Eles também relataram algo\N semelhante quando os analisamos.
 Dialogue: 10,0:04:04.97,0:04:05.93,Default,,0,0,0,,Sim.
 Dialogue: 10,0:04:05.93,0:04:08.23,Default,,0,0,0,,É incrivelmente poderoso.
-Dialogue: 10,0:04:08.23,0:04:13.86,Default,,0,0,0,,{\q2}Acreditamos que as 15 horas entre o segundo\Ne o terceiro ataque foram usadas para substituir o cano.
-Dialogue: 10,0:04:13.86,0:04:19.03,Default,,0,0,0,,{\q2}Durante esse tempo, as forças na\Nfronteira oeste prepararam todos os mísseis de cruzeiro disponíveis
-Dialogue: 10,0:04:19.03,0:04:23.12,Default,,0,0,0,,{\q2}e lançou um ataque de saturação\Napós o quarto golpe.
-Dialogue: 10,0:04:23.12,0:04:28.75,Default,,0,0,0,,{\q2}Foi infligido um dano considerável,\Nmas não conseguimos eliminar o alvo.
-Dialogue: 10,0:04:31.79,0:04:34.13,Default,,0,0,0,,{\an8}Em relação ao ataque de mísseis de cruzeiro,
-Dialogue: 10,0:04:34.13,0:04:40.72,Default,,0,0,0,,{\q2\an8}nossas unidades autônomas também\Nconfirmaram a sobrevivência do Morpho.
-Dialogue: 10,0:04:40.72,0:04:44.97,Default,,0,0,0,,{\an8}Não houve acertos diretos, mas ele foi gravemente danificado.
+Dialogue: 10,0:04:08.23,0:04:13.86,Default,,0,0,0,,{\q2}Acreditamos que as\N15 horas entre o segundo\N e o terceiro ataque foram usadas\Npara substituir o cano.
+Dialogue: 10,0:04:13.86,0:04:19.03,Default,,0,0,0,,{\q2}Durante esse tempo, as forças na\N fronteira oeste prepararam todos os\Nmísseis de cruzeiro disponíveis
+Dialogue: 10,0:04:19.03,0:04:23.12,Default,,0,0,0,,{\q2}e lançou um ataque de saturação\N após o quarto golpe.
+Dialogue: 10,0:04:23.12,0:04:28.75,Default,,0,0,0,,{\q2}Foi infligido um dano considerável,\N mas não conseguimos eliminar o alvo.
+Dialogue: 10,0:04:31.79,0:04:34.13,Default,,0,0,0,,{\an8}Em relação ao ataque\Nde mísseis de cruzeiro,
+Dialogue: 10,0:04:34.13,0:04:40.72,Default,,0,0,0,,{\q2\an8}nossas unidades autônomas também\N confirmaram a sobrevivência do Morpho.
+Dialogue: 10,0:04:40.72,0:04:44.97,Default,,0,0,0,,{\an8}Não houve acertos diretos, mas\Nele foi gravemente danificado.
 Dialogue: 10,0:04:46.06,0:04:48.39,Default,,0,0,0,,{\an8}Se você pudesse chegar tão perto,
 Dialogue: 10,0:04:48.39,0:04:52.94,Default,,0,0,0,,{\an8}não poderia ter eliminado o Morpho?
-Dialogue: 10,0:04:54.44,0:04:57.74,Default,,0,0,0,,Infelizmente, eles não carregam esse tipo de carga útil.
-Dialogue: 10,0:04:57.74,0:05:02.20,Default,,0,0,0,,E muitas unidades foram perdidas só para chegar tão perto.
+Dialogue: 10,0:04:54.44,0:04:57.74,Default,,0,0,0,,Infelizmente, eles não carregam\Nesse tipo de carga útil.
+Dialogue: 10,0:04:57.74,0:05:02.20,Default,,0,0,0,,E muitas unidades foram perdidas\Nsó para chegar tão perto.
 Dialogue: 10,0:05:03.16,0:05:04.58,Default,,0,0,0,,Compreendo.
-Dialogue: 10,0:05:04.58,0:05:06.83,Default,,0,0,0,,Isso é uma demonstração de força considerável.
-Dialogue: 10,0:05:06.83,0:05:10.21,Default,,0,0,0,,Estamos prestes a embarcar em uma operação conjunta.
+Dialogue: 10,0:05:04.58,0:05:06.83,Default,,0,0,0,,Isso é uma demonstração\Nde força considerável.
+Dialogue: 10,0:05:06.83,0:05:10.21,Default,,0,0,0,,Estamos prestes a embarcar\Nem uma operação conjunta.
 Dialogue: 10,0:05:10.21,0:05:12.54,Default,,0,0,0,,Não há sentido em esconder nada.
-Dialogue: 10,0:05:12.54,0:05:18.63,Default,,0,0,0,,{\q2}A confiança é o maior adesivo que existe\Nentre seres humanos e nações.
-Dialogue: 10,0:05:20.13,0:05:29.18,Default,,0,0,0,,{\q2}A questão em pauta é como lidamos com o Morpho\Ne estas Legiões supostamente sencientes.
-Dialogue: 10,0:05:29.18,0:05:33.60,Default,,0,0,0,,{\q2}Comandantes de Legiões sencientes.\NEncontramos eles aqui.
-Dialogue: 10,0:05:33.94,0:05:40.61,Default,,0,0,0,,{\q2}A fraqueza da Legião era que eles simplesmente contavam com\Nnúmeros e força, e só empregavam táticas simples.
-Dialogue: 10,0:05:40.61,0:05:47.62,Default,,0,0,0,,{\q2}O ataque em grande escala poderia ter sido uma manobra\Npara concentrar nossas forças na linha de frente.
+Dialogue: 10,0:05:12.54,0:05:18.63,Default,,0,0,0,,{\q2}A confiança é o maior adesivo que existe\N entre seres humanos e nações.
+Dialogue: 10,0:05:20.13,0:05:29.18,Default,,0,0,0,,{\q2}A questão em pauta é\Ncomo lidamos com o Morpho\N e estas Legiões supostamente sencientes.
+Dialogue: 10,0:05:29.18,0:05:33.60,Default,,0,0,0,,{\q2}Comandantes de Legiões sencientes.\N Encontramos eles aqui.
+Dialogue: 10,0:05:33.94,0:05:40.61,Default,,0,0,0,,{\q2}A fraqueza da Legião era que\Neles simplesmente contavam com\N números e força, e só empregavam\Ntáticas simples.
+Dialogue: 10,0:05:40.61,0:05:47.62,Default,,0,0,0,,{\q2}O ataque em grande escala\Npoderia ter sido uma manobra\N para concentrar nossas forças\Nna linha de frente.
 Dialogue: 10,0:05:47.62,0:05:49.79,Default,,0,0,0,,Isso está me dando dor de cabeça.
 Dialogue: 10,0:05:52.50,0:05:53.62,Default,,0,0,0,,Continuando...
-Dialogue: 10,0:05:53.62,0:05:56.96,Default,,0,0,0,,Com base na velocidade máxima e nos padrões de disparo do Morpho,
-Dialogue: 10,0:05:56.96,0:06:01.63,Default,,0,0,0,,{\q2}É provável que seja uma arma baseada em trilhos, utilizando\Na antiga rede ferroviária de alta velocidade.
-Dialogue: 10,0:06:01.63,0:06:05.93,Default,,0,0,0,,Dada as antigas rotas ferroviárias e seu alcance de tiro,
-Dialogue: 10,0:06:06.64,0:06:09.97,Default,,0,0,0,,é provável que consiga atacar as capitais de todas as nossas nações.
-Dialogue: 10,0:06:10.39,0:06:14.77,Default,,0,0,0,,{\q2}Atualmente, ele está localizado no terminal ferroviário da cidade de Kreutzbeck.
-Dialogue: 10,0:06:14.77,0:06:20.61,Default,,0,0,0,,{\q2}Estimamos que levará pelo menos oito semanas\Nantes que os reparos sejam concluídos e esteja pronto para o combate.
-Dialogue: 10,0:06:20.61,0:06:23.28,Default,,0,0,0,,Se não encontrarmos uma maneira de neutralizá-lo até lá...
+Dialogue: 10,0:05:53.62,0:05:56.96,Default,,0,0,0,,Com base na velocidade máxima e nos\Npadrões de disparo do Morpho,
+Dialogue: 10,0:05:56.96,0:06:01.63,Default,,0,0,0,,{\q2}É provável que seja uma arma\Nbaseada em trilhos, utilizando\N a antiga rede ferroviária\Nde alta velocidade.
+Dialogue: 10,0:06:01.63,0:06:05.93,Default,,0,0,0,,Dada as antigas rotas ferroviárias\Ne seu alcance de tiro,
+Dialogue: 10,0:06:06.64,0:06:09.97,Default,,0,0,0,,é provável que consiga atacar as capitais\Nde todas as nossas nações.
+Dialogue: 10,0:06:10.39,0:06:14.77,Default,,0,0,0,,{\q2}Atualmente, ele está\Nlocalizado no terminal\Nferroviário da cidade de Kreutzbeck.
+Dialogue: 10,0:06:14.77,0:06:20.61,Default,,0,0,0,,{\q2}Estimamos que levará\Npelo menos oito semanas\N antes que os reparos sejam concluídos\Ne esteja pronto para o combate.
+Dialogue: 10,0:06:20.61,0:06:23.28,Default,,0,0,0,,Se não encontrarmos uma maneira\Nde neutralizá-lo até lá...
 Dialogue: 10,0:06:24.32,0:06:26.37,Default,,0,0,0,,seremos derrotados.
 Dialogue: 10,0:06:28.03,0:06:30.49,Default,,0,0,0,,Temos alguma contramedida?
-Dialogue: 10,0:06:30.49,0:06:32.83,Default,,0,0,0,,Não temos contramedidas eficazes neste momento.
-Dialogue: 10,0:06:34.50,0:06:40.05,Default,,0,0,0,,{\q2}Não temos capacidade para rastrear o projétil\Nnem poder de fogo suficiente para derrubá-lo.
-Dialogue: 10,0:06:40.05,0:06:43.67,Default,,0,0,0,,{\q2}Por enquanto, estamos recebendo\NMísseis de cruzeiro de outras frentes,
-Dialogue: 10,0:06:43.67,0:06:47.09,Default,,0,0,0,,{\q2}mas devido à interferência da Legião,\No guia do míssil se mostrou ineficaz.
-Dialogue: 10,0:06:47.09,0:06:51.47,Default,,0,0,0,,{\q2}E sua velocidade lenta os torna\Ne alvos fáceis para o anti-aéreo da Legião.
-Dialogue: 10,0:06:51.47,0:06:55.81,Default,,0,0,0,,{\q2}O próprio Morpho parece possuir\Npoderosas defesas anti-aéreas também.
-Dialogue: 10,0:06:56.15,0:06:58.73,Default,,0,0,0,,Outro ataque aéreo provavelmente terminará em um resultado semelhante.
-Dialogue: 10,0:06:58.73,0:07:04.15,Default,,0,0,0,,{\q2}Sem superioridade aérea, um ataque de ar a terra\Né quase impossível,
-Dialogue: 10,0:07:04.15,0:07:08.07,Default,,0,0,0,,e nossa artilharia não tem nem perto do alcance.
-Dialogue: 10,0:07:08.32,0:07:13.20,Default,,0,0,0,,{\q2}Então nosso único recurso é atacar\Ndiretamente usando forças terrestres.
-Dialogue: 10,0:07:18.75,0:07:24.22,Default,,0,0,0,,{\q2}Uma ofensiva total por cada soldado na\Nfrente oeste em território controlado pela Legião.
-Dialogue: 10,0:07:24.76,0:07:30.81,Default,,0,0,0,,{\q2}Um ataque a 100 km de profundidade no\Nterritório inimigo, repleto de Legiões.
-Dialogue: 10,0:07:32.35,0:07:36.73,Default,,0,0,0,,{\q2}A frente ocidental, mesmo com a inclusão de reforços,
-Dialogue: 10,0:07:36.73,0:07:39.90,Default,,0,0,0,,{\q2}perdeu 26% de nossas forças na ofensiva em grande escala anterior.
-Dialogue: 10,0:07:39.90,0:07:43.57,Default,,0,0,0,,Também não podemos transferir tropas de outras frentes,
-Dialogue: 10,0:07:43.57,0:07:46.95,Default,,0,0,0,,{\q2}o que significa que só podemos empregar as forças já presentes.\N
-Dialogue: 10,0:07:46.95,0:07:51.70,Default,,0,0,0,,{\q2}Também causamos perdas semelhantes na Legião, no entanto...
-Dialogue: 10,0:07:51.70,0:07:53.95,Default,,0,0,0,,Mesmo após essas perdas, eles ainda nos superam.
-Dialogue: 10,0:07:54.20,0:07:57.37,Default,,0,0,0,,Além disso, suas fábricas ainda estão intactas.
-Dialogue: 10,0:07:57.37,0:08:01.38,Default,,0,0,0,,Então, em dois meses, esperamos números ainda maiores.
+Dialogue: 10,0:06:30.49,0:06:32.83,Default,,0,0,0,,Não temos contramedidas\Neficazes neste momento.
+Dialogue: 10,0:06:34.50,0:06:40.05,Default,,0,0,0,,{\q2}Não temos capacidade\Npara rastrear o projétil\N nem poder de fogo suficiente\Npara derrubá-lo.
+Dialogue: 10,0:06:40.05,0:06:43.67,Default,,0,0,0,,{\q2}Por enquanto, estamos recebendo\N Mísseis de cruzeiro de outras frentes,
+Dialogue: 10,0:06:43.67,0:06:47.09,Default,,0,0,0,,{\q2}mas devido à interferência da Legião,\N o guia do míssil se mostrou ineficaz.
+Dialogue: 10,0:06:47.09,0:06:51.47,Default,,0,0,0,,{\q2}E sua velocidade lenta os torna\N e alvos fáceis para o\Nanti-aéreo da Legião.
+Dialogue: 10,0:06:51.47,0:06:55.81,Default,,0,0,0,,{\q2}O próprio Morpho parece possuir\N poderosas defesas anti-aéreas também.
+Dialogue: 10,0:06:56.15,0:06:58.73,Default,,0,0,0,,Outro ataque aéreo provavelmente\Nterminará em um\Nresultado semelhante.
+Dialogue: 10,0:06:58.73,0:07:04.15,Default,,0,0,0,,{\q2}Sem superioridade aérea,\Num ataque de ar a terra\N é quase impossível,
+Dialogue: 10,0:07:04.15,0:07:08.07,Default,,0,0,0,,e nossa artilharia não tem\Nnem perto do alcance.
+Dialogue: 10,0:07:08.32,0:07:13.20,Default,,0,0,0,,{\q2}Então nosso único recurso é atacar\N diretamente usando forças terrestres.
+Dialogue: 10,0:07:18.75,0:07:24.22,Default,,0,0,0,,{\q2}Uma ofensiva total por cada soldado na\N frente oeste em território\Ncontrolado pela Legião.
+Dialogue: 10,0:07:24.76,0:07:30.81,Default,,0,0,0,,{\q2}Um ataque a 100 km de profundidade no\N território inimigo, repleto de Legiões.
+Dialogue: 10,0:07:32.35,0:07:36.73,Default,,0,0,0,,{\q2}A frente ocidental, mesmo\Ncom a inclusão de reforços,
+Dialogue: 10,0:07:36.73,0:07:39.90,Default,,0,0,0,,{\q2}perdeu 26% de nossas forças na\Nofensiva em grande escala anterior.
+Dialogue: 10,0:07:39.90,0:07:43.57,Default,,0,0,0,,Também não podemos transferir\Ntropas de outras frentes,
+Dialogue: 10,0:07:43.57,0:07:46.95,Default,,0,0,0,,{\q2}o que significa que só podemos\Nempregar as forças já presentes.
+Dialogue: 10,0:07:46.95,0:07:51.70,Default,,0,0,0,,{\q2}Também causamos perdas semelhantes\Nna Legião, no entanto...
+Dialogue: 10,0:07:51.70,0:07:53.95,Default,,0,0,0,,Mesmo após essas perdas,\Neles ainda nos superam.
+Dialogue: 10,0:07:54.20,0:07:57.37,Default,,0,0,0,,Além disso, suas fábricas\Nainda estão intactas.
+Dialogue: 10,0:07:57.37,0:08:01.38,Default,,0,0,0,,Então, em dois meses, esperamos\Nnúmeros ainda maiores.
 Dialogue: 10,0:08:01.38,0:08:03.46,Default,,0,0,0,,É algo muito conveniente de se ter...
-Dialogue: 10,0:08:03.46,0:08:06.72,Default,,0,0,0,,Um poder capaz apenas de prever a destruição.
+Dialogue: 10,0:08:03.46,0:08:06.72,Default,,0,0,0,,Um poder capaz apenas de\Nprever a destruição.
 Dialogue: 10,0:08:06.72,0:08:11.64,Default,,0,0,0,,As unidades que enviarmos não voltarão.
 Dialogue: 10,0:08:11.64,0:08:12.76,Default,,0,0,0,,Sim.
-Dialogue: 10,0:08:13.26,0:08:16.14,Default,,0,0,0,,{\q2}É por isso que devemos escolher aqueles\Nque têm mais chances de sucesso
+Dialogue: 10,0:08:13.26,0:08:16.14,Default,,0,0,0,,{\q2}É por isso que devemos escolher aqueles\N que têm mais chances de sucesso
 Dialogue: 10,0:08:16.89,0:08:19.15,Default,,0,0,0,,e menos chance de serem perdidos.
 Dialogue: 10,0:08:25.07,0:08:27.40,Default,,0,0,0,,{\an8}Então vocês são os Eighty-Six?
-Dialogue: 10,0:08:28.11,0:08:32.87,Default,,0,0,0,,Claro que vi as suas idades, mas vocês ainda são crianças.
+Dialogue: 10,0:08:28.11,0:08:32.87,Default,,0,0,0,,Claro que vi as suas idades,\Nmas vocês ainda são crianças.
 Dialogue: 10,0:08:35.45,0:08:38.54,Default,,0,0,0,,Sinto muito. Eu li os relatórios.
-Dialogue: 10,0:08:38.83,0:08:43.88,Default,,0,0,0,,{\q2}Você tem habilidades de combate incrivelmente fortes\Ne sequer tem medo da morte.
+Dialogue: 10,0:08:38.83,0:08:43.88,Default,,0,0,0,,{\q2}Você tem habilidades de\Ncombate incrivelmente fortes\N e sequer tem medo da morte.
 Dialogue: 10,0:08:44.88,0:08:47.88,Default,,0,0,0,,Mas você não está mais na República.
 Dialogue: 10,0:08:47.88,0:08:50.43,Default,,0,0,0,,Não faça nada de imprudente.
 Dialogue: 10,0:08:50.43,0:08:52.97,Default,,0,0,0,,A Federação não é como a República.
@@ -126,38 +126,38 @@ Dialogue: 10,0:08:56.14,0:08:57.85,Default,,0,0,0,,Para o bem ou para o mal.
 Dialogue: 10,0:09:00.52,0:09:03.11,Default,,0,0,0,,Shinei, o que houve?
 Dialogue: 10,0:09:04.06,0:09:04.82,Default,,0,0,0,,Nada.
 Dialogue: 10,0:09:04.82,0:09:07.82,Default,,0,0,0,,O quê? Você ainda está cansado?
-Dialogue: 10,0:09:07.82,0:09:11.36,Default,,0,0,0,,Aposto que aquela última luta foi muito barulhenta para você.
-Dialogue: 10,0:09:11.36,0:09:14.03,Default,,0,0,0,,Você não se sentiu sobrecarregado perto do final?
+Dialogue: 10,0:09:07.82,0:09:11.36,Default,,0,0,0,,Aposto que aquela última luta foi\Nmuito barulhenta para você.
+Dialogue: 10,0:09:11.36,0:09:14.03,Default,,0,0,0,,Você não se sentiu sobrecarregado\Nperto do final?
 Dialogue: 10,0:09:14.03,0:09:17.16,Default,,0,0,0,,Você nem notou o recuo da Legião.
-Dialogue: 10,0:09:17.16,0:09:21.62,Default,,0,0,0,,Eu sabia. Você não costuma lutar desse jeito.
-Dialogue: 10,0:09:21.96,0:09:26.13,Default,,0,0,0,,Eu sincronizei com você, mas você não respondeu em nada.
+Dialogue: 10,0:09:17.16,0:09:21.62,Default,,0,0,0,,Eu sabia. Você não costuma\Nlutar desse jeito.
+Dialogue: 10,0:09:21.96,0:09:26.13,Default,,0,0,0,,Eu sincronizei com você, mas\Nvocê não respondeu em nada.
 Dialogue: 10,0:09:26.13,0:09:27.30,Default,,0,0,0,,Sincronizar?
 Dialogue: 10,0:09:27.30,0:09:29.47,Default,,0,0,0,,Você nem notou?
-Dialogue: 10,0:09:30.26,0:09:34.85,Default,,0,0,0,,Vocês todos deveriam descansar um pouco, inclusive você, Shinei.
-Dialogue: 10,0:09:34.85,0:09:38.14,Default,,0,0,0,,{\q2}Você sabe, no fundo do seu coração,\Nque todos vocês estão exaustos.
+Dialogue: 10,0:09:30.26,0:09:34.85,Default,,0,0,0,,Vocês todos deveriam descansar um\Npouco, inclusive você, Shinei.
+Dialogue: 10,0:09:34.85,0:09:38.14,Default,,0,0,0,,{\q2}Você sabe, no fundo do seu coração,\N que todos vocês estão exaustos.
 Dialogue: 10,0:09:38.14,0:09:39.85,Default,,0,0,0,,Em um momento como este?
 Dialogue: 10,0:09:39.85,0:09:42.06,Default,,0,0,0,,Seria duro.
-Dialogue: 10,0:09:42.06,0:09:45.56,Default,,0,0,0,,{\q2}Manter a saúde mental de um soldado\Né uma parte importante do militar.
-Dialogue: 10,0:09:45.56,0:09:51.78,Default,,0,0,0,,{\q2}Principalmente porque vocês são Eighty-Six,\Nreceberão alguma consideração especial...
+Dialogue: 10,0:09:42.06,0:09:45.56,Default,,0,0,0,,{\q2}Manter a saúde mental de um soldado\N é uma parte importante do militar.
+Dialogue: 10,0:09:45.56,0:09:51.78,Default,,0,0,0,,{\q2}Principalmente porque\Nvocês são Eighty-Six,\N receberão alguma consideração\Nespecial...
 Dialogue: 10,0:09:52.15,0:09:54.11,Default,,0,0,0,,Eu não quero isso.
-Dialogue: 10,0:09:54.11,0:09:57.28,Default,,0,0,0,,Não quero ser tratado de forma diferente por pena!
+Dialogue: 10,0:09:54.11,0:09:57.28,Default,,0,0,0,,Não quero ser tratado de\Nforma diferente por pena!
 Dialogue: 10,0:10:00.41,0:10:02.16,Default,,0,0,0,,Eighty-Six...
 Dialogue: 10,0:10:03.37,0:10:04.46,Default,,0,0,0,,Kurena.
 Dialogue: 10,0:10:04.46,0:10:07.00,Default,,0,0,0,,Eu preferia ser vista assim.
 Dialogue: 10,0:10:07.00,0:10:08.13,Default,,0,0,0,,Afinal, estou acostumada com isso.
 Dialogue: 10,0:10:09.34,0:10:10.01,Default,,0,0,0,,Bem...
-Dialogue: 10,0:10:10.01,0:10:15.14,Default,,0,0,0,,{\q2}Tivemos sorte desta vez, mas toda a base\Npoderia ser detonada a qualquer momento.
+Dialogue: 10,0:10:10.01,0:10:15.14,Default,,0,0,0,,{\q2}Tivemos sorte desta vez, mas toda a base\N poderia ser detonada a qualquer momento.
 Dialogue: 10,0:10:15.14,0:10:17.05,Default,,0,0,0,,Todos estão em alerta.
-Dialogue: 10,0:10:17.05,0:10:20.22,Default,,0,0,0,,{\q2}Disseram que levaria\Na dois meses para consertar o Morpho,
-Dialogue: 10,0:10:20.22,0:10:23.89,Default,,0,0,0,,e que não devemos esperar mais ataques até então.
-Dialogue: 10,0:10:23.89,0:10:28.44,Default,,0,0,0,,{\q2}Essa estimativa é baseada em cinco segundos de filmagem de algum\Npaís estrangeiro suspeito e um poder psíquico estranho.
-Dialogue: 10,0:10:28.44,0:10:32.03,Default,,0,0,0,,Aposto que eles acham que não podem confiar nisso.
+Dialogue: 10,0:10:17.05,0:10:20.22,Default,,0,0,0,,{\q2}Disseram que levaria\N a dois meses para consertar o Morpho,
+Dialogue: 10,0:10:20.22,0:10:23.89,Default,,0,0,0,,e que não devemos esperar\Nmais ataques até então.
+Dialogue: 10,0:10:23.89,0:10:28.44,Default,,0,0,0,,{\q2}Essa estimativa é baseada em cinco\Nsegundos de filmagem de algum\N país estrangeiro suspeito e\Num poder psíquico estranho.
+Dialogue: 10,0:10:28.44,0:10:32.03,Default,,0,0,0,,Aposto que eles acham que\Nnão podem confiar nisso.
 Dialogue: 10,0:10:32.03,0:10:34.41,Default,,0,0,0,,Mas Shin sabe a verdade.
-Dialogue: 10,0:10:34.41,0:10:37.70,Default,,0,0,0,,Eles não acreditaram até ouvirem as vozes.
+Dialogue: 10,0:10:34.41,0:10:37.70,Default,,0,0,0,,Eles não acreditaram\Naté ouvirem as vozes.
 Dialogue: 10,0:10:37.70,0:10:39.16,Default,,0,0,0,,É...
-Dialogue: 10,0:10:39.45,0:10:42.79,Default,,0,0,0,,Mesmo depois de tudo isso, não houve pânico em massa.
-Dialogue: 10,0:10:42.79,0:10:46.25,Default,,0,0,0,,A Federação treina seus soldados muito bem.
-Dialogue: 10,0:10:46.25,0:10:49.17,Default,,0,0,0,,Os soldados da República teriam feito uma fuga em pânico.
+Dialogue: 10,0:10:39.45,0:10:42.79,Default,,0,0,0,,Mesmo depois de tudo isso,\Nnão houve pânico em massa.
+Dialogue: 10,0:10:42.79,0:10:46.25,Default,,0,0,0,,A Federação treina seus\Nsoldados muito bem.
+Dialogue: 10,0:10:46.25,0:10:49.17,Default,,0,0,0,,Os soldados da República teriam\Nfeito uma fuga em pânico.
 Dialogue: 10,0:10:50.34,0:10:53.63,Default,,0,0,0,,Será que a major ainda está viva?
 Dialogue: 10,0:10:54.34,0:10:55.51,Default,,0,0,0,,Theo!
 Dialogue: 10,0:10:55.51,0:10:56.22,Default,,0,0,0,,Droga.
@@ -165,9 +165,9 @@ Dialogue: 10,0:10:56.22,0:10:58.10,Default,,0,0,0,,É claro que ela não fugiria
 Dialogue: 10,0:10:58.10,0:10:59.56,Default,,0,0,0,,Kurena!
 Dialogue: 10,0:11:05.23,0:11:06.15,Default,,0,0,0,,O quê?
 Dialogue: 10,0:11:07.02,0:11:09.52,Default,,0,0,0,,Não me diga que ele ainda não percebe...
-Dialogue: 10,0:11:10.52,0:11:13.82,Default,,0,0,0,,Há algo que possamos fazer em relação ao Morpho?
+Dialogue: 10,0:11:10.52,0:11:13.82,Default,,0,0,0,,Há algo que possamos fazer\Nem relação ao Morpho?
 Dialogue: 10,0:11:13.82,0:11:15.36,Default,,0,0,0,,Bem, nós temos dois meses.
-Dialogue: 10,0:11:15.36,0:11:17.99,Default,,0,0,0,,Por mais que criemos um plano, provavelmente não terá um bom final.
+Dialogue: 10,0:11:15.36,0:11:17.99,Default,,0,0,0,,Por mais que criemos um plano, provavelmente\Nnão terá um bom final.
 Dialogue: 10,0:11:17.99,0:11:20.53,Default,,0,0,0,,Vai acabar sendo a gente de novo, certo?
 Dialogue: 10,0:11:20.53,0:11:21.58,Default,,0,0,0,,Provavelmente.
 Dialogue: 10,0:11:21.58,0:11:24.04,Default,,0,0,0,,Você está bem com isso?
@@ -175,7 +175,7 @@ Dialogue: 10,0:11:24.04,0:11:28.00,Default,,0,0,0,,Eu acabei de te dizer!
 Dialogue: 10,0:11:32.59,0:11:34.92,Default,,0,0,0,,{\an8}Você quer que eu dê isso a ele de novo?
 Dialogue: 10,0:11:35.51,0:11:37.05,Default,,0,0,0,,{\an8}Ele não respondeu.
 Dialogue: 10,0:11:38.18,0:11:39.60,Default,,0,0,0,,Posso dar uma olhada?
-Dialogue: 10,0:11:50.36,0:11:54.11,Default,,0,0,0,,Acho que é mais fácil culpar outra pessoa.
+Dialogue: 10,0:11:50.36,0:11:54.11,Default,,0,0,0,,Acho que é mais fácil\Nculpar outra pessoa.
 Dialogue: 10,0:11:56.45,0:11:58.74,Default,,0,0,0,,Tenha cuidado no caminho de volta.
 Dialogue: 10,0:12:03.74,0:12:05.96,Default,,0,0,0,,Eu vou garantir que ele receba isso.
 Dialogue: 10,0:12:33.98,0:12:35.61,Default,,0,0,0,,Por que você o abandonou?
@@ -188,12 +188,12 @@ Dialogue: 10,0:12:55.05,0:12:57.21,Default,,0,0,0,,Devolve meu irmão!
 Dialogue: 10,0:12:57.46,0:12:58.88,Default,,0,0,0,,Por que sempre tem que ser você?
 Dialogue: 10,0:12:58.88,0:13:01.97,Default,,0,0,0,,Por que é você quem deveria sobreviver?
 Dialogue: 10,0:13:02.30,0:13:05.14,Default,,0,0,0,,Você não tem o direito de viver!
-Dialogue: 10,0:13:05.14,0:13:08.39,Default,,0,0,0,,Você não tem ninguém esperando seu retorno!
+Dialogue: 10,0:13:05.14,0:13:08.39,Default,,0,0,0,,Você não tem ninguém esperando\Nseu retorno!
 Dialogue: 10,0:13:10.60,0:13:11.98,Default,,0,0,0,,Isso mesmo.
 Dialogue: 10,0:13:12.48,0:13:16.44,Default,,0,0,0,,Se você tivesse morrido em vez dele...
 Dialogue: 10,0:13:17.19,0:13:18.57,Default,,0,0,0,,Eu não vou esquecer!
 Dialogue: 10,0:13:22.53,0:13:23.70,Default,,0,0,0,,Major...
-Dialogue: 10,0:13:26.74,0:13:29.96,Default,,0,0,0,,{\q2}Primeiro Tenente Nouzen, General de Brigada\NO Richard quer falar com você.
+Dialogue: 10,0:13:26.74,0:13:29.96,Default,,0,0,0,,{\q2}Primeiro Tenente Nouzen,\NGeneral de Brigada\N O Richard quer falar com você.
 Dialogue: 10,0:13:31.04,0:13:31.83,Default,,0,0,0,,Certo.
 Dialogue: 10,0:13:37.59,0:13:40.17,Default,,0,0,0,,Você consegue ouvir as vozes da Legião.
 Dialogue: 10,0:13:40.59,0:13:42.80,Default,,0,0,0,,E você sabe onde elas estão.
@@ -203,37 +203,37 @@ Dialogue: 10,0:13:46.31,0:13:47.85,Default,,0,0,0,,Onde elas estão localizadas?
 Dialogue: 10,0:14:11.08,0:14:12.58,Default,,0,0,0,,Esqueça a República.
 Dialogue: 10,0:14:13.17,0:14:14.08,Default,,0,0,0,,Basta.
 Dialogue: 10,0:14:14.71,0:14:16.38,Default,,0,0,0,,Parece que você está dizendo a verdade.
-Dialogue: 10,0:14:16.88,0:14:21.92,Default,,0,0,0,,{\q2}Se você tem essa habilidade, você está ainda mais apto para esta operação.\N
+Dialogue: 10,0:14:16.88,0:14:21.92,Default,,0,0,0,,{\q2}Se você tem essa habilidade,\Nvocê está ainda mais\Napto para esta operação.
 Dialogue: 10,0:14:21.92,0:14:24.01,Default,,0,0,0,,A operação é direta.
-Dialogue: 10,0:14:24.26,0:14:28.85,Default,,0,0,0,,{\q2}As três nações lançarão um ataque simultâneo como distração\N
-Dialogue: 10,0:14:28.85,0:14:32.52,Default,,0,0,0,,{\q2}e engajar decisivamente os reforços da Legião em cada frente, para que não possam recuar.\N
-Dialogue: 10,0:14:32.52,0:14:35.27,Default,,0,0,0,,Durante este tempo, uma força de ataque especial
-Dialogue: 10,0:14:35.27,0:14:38.07,Default,,0,0,0,,será aterrissado em um território da Legião com pouca defesa.
+Dialogue: 10,0:14:24.26,0:14:28.85,Default,,0,0,0,,{\q2}As três nações lançarão um\Nataque simultâneo como distração
+Dialogue: 10,0:14:28.85,0:14:32.52,Default,,0,0,0,,{\q2}e engajar decisivamente os\Nreforços da Legião em cada frente,\Npara que não possam recuar.
+Dialogue: 10,0:14:32.52,0:14:35.27,Default,,0,0,0,,Durante este tempo, uma\Nforça de ataque especial
+Dialogue: 10,0:14:35.27,0:14:38.07,Default,,0,0,0,,será aterrissado em um território\Nda Legião com pouca defesa.
 Dialogue: 10,0:14:39.11,0:14:40.86,Default,,0,0,0,,O que destruirá o Morpho.
-Dialogue: 10,0:14:41.49,0:14:49.03,Default,,0,0,0,,{\q2}O Primeiro Tenente Shinei Nouzen, juntamente com quinze unidades do\NNordlicht Squadron, será designado para a força de ataque especial.
-Dialogue: 10,0:14:49.66,0:14:53.54,Default,,0,0,0,,{\q2}Vocês estarão na vanguarda da maior\Noperação conjunta na história da humanidade.
-Dialogue: 10,0:14:53.54,0:14:57.96,Default,,0,0,0,,A Spearhead que perfurará as defesas da Legião.
+Dialogue: 10,0:14:41.49,0:14:49.03,Default,,0,0,0,,{\q2}O Primeiro Tenente Shinei Nouzen,\Njuntamente com quinze unidades do\N Nordlicht Squadron, será designado\Npara a força de ataque especial.
+Dialogue: 10,0:14:49.66,0:14:53.54,Default,,0,0,0,,{\q2}Vocês estarão na vanguarda da maior\N operação conjunta na história\Nda humanidade.
+Dialogue: 10,0:14:53.54,0:14:57.96,Default,,0,0,0,,A Spearhead que perfurará\Nas defesas da Legião.
 Dialogue: 10,0:14:57.96,0:14:59.75,Default,,0,0,0,,Uma Spearhead.
 Dialogue: 10,0:14:59.75,0:15:01.26,Default,,0,0,0,,Dediquem-se totalmente a isso.
-Dialogue: 10,0:15:02.05,0:15:05.38,Default,,0,0,0,,Posso fazer uma pergunta, General de Brigada?
+Dialogue: 10,0:15:02.05,0:15:05.38,Default,,0,0,0,,Posso fazer uma pergunta,\NGeneral de Brigada?
 Dialogue: 10,0:15:05.38,0:15:07.30,Default,,0,0,0,,O que houve, Tenente Coronel Wenzel?
 Dialogue: 10,0:15:07.30,0:15:10.68,Default,,0,0,0,,Você não está os enviando para a morte?
 Dialogue: 10,0:15:10.68,0:15:12.35,Default,,0,0,0,,Por que eles—
 Dialogue: 10,0:15:13.43,0:15:15.56,Default,,0,0,0,,Porque você é um Eighty-Six!
-Dialogue: 10,0:15:16.48,0:15:18.52,Default,,0,0,0,,Eu não acho que seja o que ele quer dizer.
+Dialogue: 10,0:15:16.48,0:15:18.52,Default,,0,0,0,,Eu não acho que seja\No que ele quer dizer.
 Dialogue: 10,0:15:18.52,0:15:20.90,Default,,0,0,0,,Bem, é isso que ele quer dizer.
-Dialogue: 10,0:15:20.90,0:15:26.28,Default,,0,0,0,,{\q2}Não podemos mandar ninguém com família\Npara esta missão insana, né?
-Dialogue: 10,0:15:26.28,0:15:30.12,Default,,0,0,0,,{\q2}Acho que Eighty-Six não são bem-vindos,\Nnão importa para onde vão.
-Dialogue: 10,0:15:30.12,0:15:32.54,Default,,0,0,0,,Ela sabe disso, e ainda assim está ficando brava.
+Dialogue: 10,0:15:20.90,0:15:26.28,Default,,0,0,0,,{\q2}Não podemos mandar ninguém com família\N para esta missão insana, né?
+Dialogue: 10,0:15:26.28,0:15:30.12,Default,,0,0,0,,{\q2}Acho que Eighty-Six não são bem-vindos,\N não importa para onde vão.
+Dialogue: 10,0:15:30.12,0:15:32.54,Default,,0,0,0,,Ela sabe disso, e ainda assim\Nestá ficando brava.
 Dialogue: 10,0:15:32.54,0:15:34.54,Default,,0,0,0,,Ela não consegue mudar!
 Dialogue: 10,0:15:34.54,0:15:36.71,Default,,0,0,0,,Como aquela princesa.
 Dialogue: 10,0:15:36.71,0:15:38.50,Default,,0,0,0,,Eu não sei nada sobre isso!
-Dialogue: 10,0:15:38.50,0:15:42.88,Default,,0,0,0,,{\q2}Uau, eu consigo ouvir as vozes da Legião\Naté no coração da capital da República.
+Dialogue: 10,0:15:38.50,0:15:42.88,Default,,0,0,0,,{\q2}Uau, eu consigo ouvir as vozes da Legião\N até no coração da capital da República.
 Dialogue: 10,0:15:42.88,0:15:45.13,Default,,0,0,0,,Todos os porcos brancos morreram?
 Dialogue: 10,0:15:45.13,0:15:46.76,Default,,0,0,0,,Eles estão a caminho do inferno!
-Dialogue: 10,0:15:46.76,0:15:50.35,Default,,0,0,0,,{\q2}Eu não sei se o inferno existe,\Nmas é tudo igual quando você está morto.
-Dialogue: 10,0:15:50.35,0:15:53.14,Default,,0,0,0,,Morrer como escória, ou morrer com orgulho.
-Dialogue: 10,0:15:53.72,0:15:55.98,Default,,0,0,0,,É o jeito que você vive que é importante, não é?
+Dialogue: 10,0:15:46.76,0:15:50.35,Default,,0,0,0,,{\q2}Eu não sei se o inferno existe,\N mas é tudo igual quando você está morto.
+Dialogue: 10,0:15:50.35,0:15:53.14,Default,,0,0,0,,Morrer como escória, ou\Nmorrer com orgulho.
+Dialogue: 10,0:15:53.72,0:15:55.98,Default,,0,0,0,,É o jeito que você vive\Nque é importante, não é?
 Dialogue: 10,0:15:55.98,0:16:00.56,Default,,0,0,0,,Nós vivemos com orgulho! Até o fim!
 Dialogue: 10,0:16:01.23,0:16:06.15,Default,,0,0,0,,Mas foi só por sua causa, Undertaker.
 Dialogue: 10,0:16:06.15,0:16:08.07,Default,,0,0,0,,Nosso Ceifador!
@@ -242,72 +242,72 @@ Dialogue: 10,0:16:10.24,0:16:11.78,Default,,0,0,0,,Obrigado!
 Dialogue: 10,0:16:13.83,0:16:15.95,Default,,0,0,0,,Obrigado!
 Dialogue: 10,0:16:22.00,0:16:25.55,Default,,0,0,0,,Fui deixado para trás... como sempre.
 Dialogue: 10,0:16:27.76,0:16:29.22,Default,,0,0,0,,Eu não vou deixar você morrer.
-Dialogue: 10,0:16:32.26,0:16:34.72,Default,,0,0,0,,Então eu queria que você vivesse mais do que nós.
+Dialogue: 10,0:16:32.26,0:16:34.72,Default,,0,0,0,,Então eu queria que você\Nvivesse mais do que nós.
 Dialogue: 10,0:16:35.18,0:16:36.64,Default,,0,0,0,,Não me deixe para trás.
 Dialogue: 10,0:16:37.23,0:16:39.65,Default,,0,0,0,,Esse era o meu desejo.
 Dialogue: 10,0:16:45.61,0:16:46.90,Default,,0,0,0,,Eu não vou esquecer.
 Dialogue: 10,0:16:53.16,0:16:54.45,Default,,0,0,0,,Adeus.
 Dialogue: 10,0:16:59.75,0:17:02.25,Default,,0,0,0,,Alguém tem que fazer isso.
-Dialogue: 10,0:17:02.25,0:17:06.51,Default,,0,0,0,,{\q2}Nesse aspecto, você já tem experiência\Ninfiltrando território controlado pela Legião.
-Dialogue: 10,0:17:06.51,0:17:09.26,Default,,0,0,0,,Se já fez uma vez, poderá fazê-lo novamente.
-Dialogue: 10,0:17:09.63,0:17:14.72,Default,,0,0,0,,A Federação salvou você do campo de batalha.
-Dialogue: 10,0:17:14.72,0:17:18.02,Default,,0,0,0,,Visto que você retornou voluntariamente para ele,
-Dialogue: 10,0:17:18.35,0:17:20.27,Default,,0,0,0,,então você estava preparado para algo assim.
+Dialogue: 10,0:17:02.25,0:17:06.51,Default,,0,0,0,,{\q2}Nesse aspecto, você já tem experiência\N infiltrando território controlado\Npela Legião.
+Dialogue: 10,0:17:06.51,0:17:09.26,Default,,0,0,0,,Se já fez uma vez, poderá\Nfazê-lo novamente.
+Dialogue: 10,0:17:09.63,0:17:14.72,Default,,0,0,0,,A Federação salvou você\Ndo campo de batalha.
+Dialogue: 10,0:17:14.72,0:17:18.02,Default,,0,0,0,,Visto que você retornou voluntariamente\Npara ele,
+Dialogue: 10,0:17:18.35,0:17:20.27,Default,,0,0,0,,então você estava preparado\Npara algo assim.
 Dialogue: 10,0:17:20.73,0:17:23.36,Default,,0,0,0,,Guerra é o trabalho de um soldado.
 Dialogue: 10,0:17:23.36,0:17:25.02,Default,,0,0,0,,Morrer em batalha...
 Dialogue: 10,0:17:27.36,0:17:29.03,Default,,0,0,0,,faz parte do trabalho.
 Dialogue: 10,0:17:32.86,0:17:34.37,Default,,0,0,0,,Entendido.
 Dialogue: 10,0:17:37.79,0:17:40.16,Default,,0,0,0,,Você está desiludido, Primeiro Tenente?
-Dialogue: 10,0:17:40.66,0:17:44.58,Default,,0,0,0,,Que o lugar onde você terminou sua jornada é assim?
-Dialogue: 10,0:17:44.58,0:17:47.55,Default,,0,0,0,,Eu acho que foi a melhor solução dadas as circunstâncias.
-Dialogue: 10,0:17:48.01,0:17:50.59,Default,,0,0,0,,Se não colocarmos tudo em destruir o Morpho,
-Dialogue: 10,0:17:50.59,0:17:53.39,Default,,0,0,0,,{\q2}Será impossível para a Federação\Nmanter a linha de frente.
+Dialogue: 10,0:17:40.66,0:17:44.58,Default,,0,0,0,,Que o lugar onde você terminou\Nsua jornada é assim?
+Dialogue: 10,0:17:44.58,0:17:47.55,Default,,0,0,0,,Eu acho que foi a melhor solução\Ndadas as circunstâncias.
+Dialogue: 10,0:17:48.01,0:17:50.59,Default,,0,0,0,,Se não colocarmos tudo\Nem destruir o Morpho,
+Dialogue: 10,0:17:50.59,0:17:53.39,Default,,0,0,0,,{\q2}Será impossível para a Federação\N manter a linha de frente.
 Dialogue: 10,0:17:53.89,0:17:54.68,Default,,0,0,0,,Sim.
-Dialogue: 10,0:17:55.55,0:17:59.56,Default,,0,0,0,,Contudo, só precisamos do seu poder nesta missão.
-Dialogue: 10,0:17:59.56,0:18:04.19,Default,,0,0,0,,{\q2}Desde que o Morpho seja destruído,\Neu poderei alterar os detalhes da operação como eu julgar mais conveniente.
-Dialogue: 10,0:18:04.77,0:18:08.73,Default,,0,0,0,,Enviarei os mercenários para esta missão.
+Dialogue: 10,0:17:55.55,0:17:59.56,Default,,0,0,0,,Contudo, só precisamos do\Nseu poder nesta missão.
+Dialogue: 10,0:17:59.56,0:18:04.19,Default,,0,0,0,,{\q2}Desde que o Morpho seja destruído,\N eu poderei alterar os detalhes\Nda operação como eu\Njulgar mais conveniente.
+Dialogue: 10,0:18:04.77,0:18:08.73,Default,,0,0,0,,Enviarei os mercenários\Npara esta missão.
 Dialogue: 10,0:18:08.73,0:18:11.07,Default,,0,0,0,,Você não precisa ir pessoalmente.
-Dialogue: 10,0:18:11.07,0:18:12.82,Default,,0,0,0,,Você e seus amigos devem permanecer aqui.
-Dialogue: 10,0:18:14.07,0:18:18.91,Default,,0,0,0,,E quando tudo terminar, saiam das forças militares.
-Dialogue: 10,0:18:18.91,0:18:24.29,Default,,0,0,0,,{\q2}Você já lutou o suficiente por sua pátria,\Nque se negou a lhe proteger.
+Dialogue: 10,0:18:11.07,0:18:12.82,Default,,0,0,0,,Você e seus amigos devem\Npermanecer aqui.
+Dialogue: 10,0:18:14.07,0:18:18.91,Default,,0,0,0,,E quando tudo terminar, saiam\Ndas forças militares.
+Dialogue: 10,0:18:18.91,0:18:24.29,Default,,0,0,0,,{\q2}Você já lutou o suficiente\Npor sua pátria,\N que se negou a lhe proteger.
 Dialogue: 10,0:18:24.29,0:18:24.71,Default,,0,0,0,,Então...
 Dialogue: 10,0:18:24.71,0:18:25.33,Default,,0,0,0,,E daí?
-Dialogue: 10,0:18:26.84,0:18:30.09,Default,,0,0,0,,Você quer que nos voltem as costas uns para os outros?
+Dialogue: 10,0:18:26.84,0:18:30.09,Default,,0,0,0,,Você quer que nos voltem as\Ncostas uns para os outros?
 Dialogue: 10,0:18:30.09,0:18:32.38,Default,,0,0,0,,pelo seu senso de "pena" e "justiça"?
 Dialogue: 10,0:18:32.38,0:18:34.05,Default,,0,0,0,,É isso que você está dizendo?
 Dialogue: 10,0:18:34.63,0:18:36.93,Default,,0,0,0,,Sou grato por você ter me salvado.
-Dialogue: 10,0:18:37.43,0:18:41.22,Default,,0,0,0,,Mas isso não significa que você precise ter pena de nós.
-Dialogue: 10,0:18:41.85,0:18:44.19,Default,,0,0,0,,Nem significa que você possa nos proibir de lutar,
-Dialogue: 10,0:18:44.77,0:18:47.44,Default,,0,0,0,,{\q2}ou fazer com que outra pessoa lute por nós\Nenquanto nós tremeremos diante da batalha.
+Dialogue: 10,0:18:37.43,0:18:41.22,Default,,0,0,0,,Mas isso não significa que você\Nprecise ter pena de nós.
+Dialogue: 10,0:18:41.85,0:18:44.19,Default,,0,0,0,,Nem significa que você possa\Nnos proibir de lutar,
+Dialogue: 10,0:18:44.77,0:18:47.44,Default,,0,0,0,,{\q2}ou fazer com que outra\Npessoa lute por nós\N enquanto nós tremeremos\Ndiante da batalha.
 Dialogue: 10,0:18:47.44,0:18:50.78,Default,,0,0,0,,Eu me recuso a agir como a República
-Dialogue: 10,0:18:50.78,0:18:54.15,Default,,0,0,0,,{\q2}e desviar meus olhos da guerra\Naté o dia em que ela finalmente chegar.
+Dialogue: 10,0:18:50.78,0:18:54.15,Default,,0,0,0,,{\q2}e desviar meus olhos da guerra\N até o dia em que ela finalmente chegar.
 Dialogue: 10,0:18:54.65,0:18:55.70,Default,,0,0,0,,É tudo o que nós...
-Dialogue: 10,0:19:04.50,0:19:06.92,Default,,0,0,0,,Qualquer atraso na comunicação pode ser fatal.
-Dialogue: 10,0:19:07.46,0:19:10.84,Default,,0,0,0,,Assumirei o comando direto da força de ataque especial.
-Dialogue: 10,0:19:20.06,0:19:23.93,Default,,0,0,0,,{\an8}Acho que não conseguimos mais reprimir isso.
-Dialogue: 10,0:19:25.81,0:19:29.82,Default,,0,0,0,,Sinto muito por lhe impor esta monstruosidade, Major General.
+Dialogue: 10,0:19:04.50,0:19:06.92,Default,,0,0,0,,Qualquer atraso na comunicação\Npode ser fatal.
+Dialogue: 10,0:19:07.46,0:19:10.84,Default,,0,0,0,,Assumirei o comando direto da\Nforça de ataque especial.
+Dialogue: 10,0:19:20.06,0:19:23.93,Default,,0,0,0,,{\an8}Acho que não conseguimos\Nmais reprimir isso.
+Dialogue: 10,0:19:25.81,0:19:29.82,Default,,0,0,0,,Sinto muito por lhe impor esta\Nmonstruosidade, Major General.
 Dialogue: 10,0:19:29.82,0:19:31.19,Default,,0,0,0,,Não me importa.
-Dialogue: 10,0:19:31.19,0:19:33.82,Default,,0,0,0,,É responsabilidade do comandante de divisão.
-Dialogue: 10,0:19:35.86,0:19:39.45,Default,,0,0,0,,Você acha que eles conseguirão retornar? Até mesmo um?
-Dialogue: 10,0:19:39.45,0:19:43.45,Default,,0,0,0,,{\q2}O quartel-general diz que as probabilidades de sobrevivência são próximas de zero.\N
-Dialogue: 10,0:19:44.00,0:19:49.29,Default,,0,0,0,,{\q2}Nossos soldados ficariam furiosos se seus camaradas fossem enviados em uma missão como esta.\N
-Dialogue: 10,0:19:49.29,0:19:52.92,Default,,0,0,0,,{\q2}Mas eles nem piscarão se enviarmos os monstros da República em seu lugar.\N
-Dialogue: 10,0:19:53.55,0:19:58.09,Default,,0,0,0,,Eles sorrirão e dirão que é uma missão adequada para os Eighty-Six.
-Dialogue: 10,0:20:00.39,0:20:04.85,Default,,0,0,0,,{\q2}Se você é um par para um monstro,\Nisso significa que você também é um monstro.\N
-Dialogue: 10,0:20:04.85,0:20:10.90,Default,,0,0,0,,{\q2}Se a morte é tão atraente para eles,\Npor que não os deixamos tê-la?\N
+Dialogue: 10,0:19:31.19,0:19:33.82,Default,,0,0,0,,É responsabilidade do\Ncomandante de divisão.
+Dialogue: 10,0:19:35.86,0:19:39.45,Default,,0,0,0,,Você acha que eles conseguirão\Nretornar? Até mesmo um?
+Dialogue: 10,0:19:39.45,0:19:43.45,Default,,0,0,0,,{\q2}O quartel-general diz que\Nas probabilidades de sobrevivência\Nsão próximas de zero.
+Dialogue: 10,0:19:44.00,0:19:49.29,Default,,0,0,0,,{\q2}Nossos soldados ficariam furiosos\Nse seus camaradas fossem enviados\Nem uma missão como esta.
+Dialogue: 10,0:19:49.29,0:19:52.92,Default,,0,0,0,,{\q2}Mas eles nem piscarão\Nse enviarmos os monstros\Nda República em seu lugar.
+Dialogue: 10,0:19:53.55,0:19:58.09,Default,,0,0,0,,Eles sorrirão e dirão que é uma missão\Nadequada para os Eighty-Six.
+Dialogue: 10,0:20:00.39,0:20:04.85,Default,,0,0,0,,{\q2}Se você é um par para um monstro,\N isso significa que você\Ntambém é um monstro.
+Dialogue: 10,0:20:04.85,0:20:10.90,Default,,0,0,0,,{\q2}Se a morte é tão atraente para eles,\N por que não os deixamos tê-la?
 Dialogue: 10,0:20:23.54,0:20:25.00,Default,,0,0,0,,Alguma pergunta?
 Dialogue: 10,0:20:37.01,0:20:38.05,Default,,0,0,0,,Comandante,
-Dialogue: 10,0:20:39.13,0:20:43.18,Default,,0,0,0,,Agradeço que você tenha decidido ficar conosco, mas...
-Dialogue: 10,0:20:43.93,0:20:51.19,Default,,0,0,0,,{\q2}Não posso apenas assistir crianças da minha idade, e das de meus parentes, irem a morrer.\N
+Dialogue: 10,0:20:39.13,0:20:43.18,Default,,0,0,0,,Agradeço que você tenha decidido\Nficar conosco, mas...
+Dialogue: 10,0:20:43.93,0:20:51.19,Default,,0,0,0,,{\q2}Não posso apenas assistir crianças\Nda minha idade, e das de\Nmeus parentes, irem a morrer.
 Dialogue: 10,0:20:52.19,0:20:54.15,Default,,0,0,0,,Se você mudar de ideia, tudo bem.
 Dialogue: 10,0:20:55.03,0:20:57.82,Default,,0,0,0,,Por favor, ordene que lutemos sem você.
-Dialogue: 10,0:21:12.54,0:21:16.46,Default,,0,0,0,,Cara, o plano é tão ruim que até ele está nos dizendo isso.
-Dialogue: 10,0:21:17.63,0:21:21.22,Default,,0,0,0,,O tenente-coronel nos disse que podemos recusar.
+Dialogue: 10,0:21:12.54,0:21:16.46,Default,,0,0,0,,Cara, o plano é tão ruim que até\Nele está nos dizendo isso.
+Dialogue: 10,0:21:17.63,0:21:21.22,Default,,0,0,0,,O tenente-coronel nos disse\Nque podemos recusar.
 Dialogue: 10,0:21:21.22,0:21:22.68,Default,,0,0,0,,Ela está brincando?
-Dialogue: 10,0:21:22.68,0:21:25.22,Default,,0,0,0,,Se fugirmos agora, não seremos nada diferente daqueles porcos brancos.
+Dialogue: 10,0:21:22.68,0:21:25.22,Default,,0,0,0,,Se fugirmos agora, não seremos\Nnada diferente daqueles\Nporcos brancos.
 Dialogue: 10,0:21:25.22,0:21:28.18,Default,,0,0,0,,Foi você quem gritou com ela, não foi?
 Dialogue: 10,0:21:28.60,0:21:30.64,Default,,0,0,0,,Todos nós nos sentimos assim.
-Dialogue: 10,0:21:33.23,0:21:39.36,Default,,0,0,0,,{\q2}Mas fomos escolhidos para a parte mais perigosa\Nporque somos os Eighty-Six, certo?
+Dialogue: 10,0:21:33.23,0:21:39.36,Default,,0,0,0,,{\q2}Mas fomos escolhidos\Npara a parte mais perigosa\N porque somos os Eighty-Six, certo?
 Dialogue: 10,0:21:39.36,0:21:40.70,Default,,0,0,0,,É.
 Dialogue: 10,0:21:40.70,0:21:44.95,Default,,0,0,0,,Bem, nós vamos porque somos Eighty-Six.
 Dialogue: 10,0:21:45.83,0:21:47.70,Default,,0,0,0,,Mas eu me sinto um pouco solitário.
@@ -4732,9 +4732,9 @@ Dialogue: 0,0:22:31.67,0:22:35.47,Ending,,0,0,0,,{\fad(120,0)\blur1.6\bord5.5\po
 Dialogue: 1,0:22:31.67,0:22:36.47,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1518.95,30)\c&H80F3FAFF&}ii
 Dialogue: 2,0:22:31.67,0:22:36.47,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1518.95,30)\bord0\c&H80F3FAFF&}ii
 Dialogue: 0,0:22:35.47,0:22:36.22,Ending,,0,0,0,,{=257}{\blur1.6\bord5.5\c&H80F3FAFF&\alpha0\3c&H80F3FAFF&\move(1518.95,30.5,1516.95,-12.5,5,760)\t(\blur4\alphaFF)}ii
-Dialogue: 0,0:22:31.67,0:22:36.47,Ending,,0,0,0,,{=106}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2}Não se preocupe, você pode resolver seus problemas primeiro
-Dialogue: 1,0:22:31.67,0:22:36.47,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2}Não se preocupe, você pode resolver seus problemas primeiro
-Dialogue: 2,0:22:31.67,0:22:36.47,Ending,,0,0,0,,{=107}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2}Não se preocupe, você pode resolver seus problemas primeiro
+Dialogue: 0,0:22:31.67,0:22:36.47,Ending,,0,0,0,,{=106}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2}Não\Nse preocupe, você pode resolver seus problemas primeiro
+Dialogue: 1,0:22:31.67,0:22:36.47,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2}Não se\Npreocupe, você pode resolver seus problemas primeiro
+Dialogue: 2,0:22:31.67,0:22:36.47,Ending,,0,0,0,,{=107}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2}Não\Nse preocupe, você pode resolver seus problemas primeiro
 Dialogue: 0,0:22:36.47,0:22:36.59,Ending,,0,0,0,,{=108}{\fad(120,0)\blur1.6\bord5.5\pos(600.6484375,30)\alpha0\c&H80F3FAFF&\3c&H80F3FAFF&}se
 Dialogue: 1,0:22:36.47,0:22:41.10,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(600.6484375,30)\c&H80F3FAFF&}se
 Dialogue: 2,0:22:36.47,0:22:41.10,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(600.6484375,30)\bord0\c&H80F3FAFF&}se
@@ -5019,9 +5019,9 @@ Dialogue: 0,0:23:03.58,0:23:09.33,Ending,,0,0,0,,{\fad(120,0)\blur1.6\bord5.5\po
 Dialogue: 1,0:23:03.58,0:23:10.63,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1313.9921875,30)\c&H80F3FAFF&}kai
 Dialogue: 2,0:23:03.58,0:23:10.63,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1313.9921875,30)\bord0\c&H80F3FAFF&}kai
 Dialogue: 0,0:23:09.33,0:23:10.67,Ending,,0,0,0,,{=265}{\blur1.6\bord5.5\c&H80F3FAFF&\alpha0\3c&H80F3FAFF&\move(1313.9921875,30.5,1318.9921875,-16.5,5,1330)\t(\blur4\alphaFF)}Kai.
-Dialogue: 0,0:23:03.58,0:23:10.63,Ending,,0,0,0,,{=266}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2}Boa noite, mundo paralelo. Boa noite, mundo paralelo.
-Dialogue: 1,0:23:03.58,0:23:10.63,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2}Boa noite, mundo paralelo. Boa noite, mundo paralelo.
-Dialogue: 2,0:23:03.58,0:23:10.63,Ending,,0,0,0,,{=267}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2}Boa noite, mundo paralelo. Boa noite, mundo paralelo.
+Dialogue: 0,0:23:03.58,0:23:10.63,Ending,,0,0,0,,{=266}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2}Boa\Nnoite, mundo paralelo. Boa noite, mundo paralelo.
+Dialogue: 1,0:23:03.58,0:23:10.63,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2}Boa\Nnoite, mundo paralelo. Boa noite, mundo paralelo.
+Dialogue: 2,0:23:03.58,0:23:10.63,Ending,,0,0,0,,{=267}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2}Boa\Nnoite, mundo paralelo. Boa noite, mundo paralelo.
 Dialogue: 0,0:23:10.63,0:23:10.75,Ending,,0,0,0,,{=268}{\fad(120,0)\blur1.6\bord5.5\pos(797.546875,30)\alpha0\c&H80F3FAFF&\3c&H80F3FAFF&}Sa
 Dialogue: 1,0:23:10.63,0:23:26.52,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(797.546875,30)\c&H80F3FAFF&}sa
 Dialogue: 2,0:23:10.63,0:23:26.52,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(797.546875,30)\bord0\c&H80F3FAFF&}sa

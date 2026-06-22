@@ -22,73 +22,73 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 
 Dialogue: 10,0:00:06.95,0:00:08.82,Default,,0,0,0,,Cyclops para Handler One:
-Dialogue: 10,0:00:08.82,0:00:13.16,Default,,0,0,0,,{\q2}Eles já alcançaram o antigo terminal de trânsito de alta velocidade no ponto de grade 122.\N
-Dialogue: 10,0:00:13.16,0:00:17.58,Default,,0,0,0,,{\q2}Desculpe, nossos radares foram bloqueados,\Ne não os detectamos até ser tarde demais.
-Dialogue: 10,0:00:17.58,0:00:20.88,Default,,0,0,0,,Este será um combate difícil para os novatos.
+Dialogue: 10,0:00:08.82,0:00:13.16,Default,,0,0,0,,{\q2}Eles já alcançaram o antigo\Nterminal de trânsito de alta velocidade\Nno ponto de grade 122.
+Dialogue: 10,0:00:13.16,0:00:17.58,Default,,0,0,0,,{\q2}Desculpe, nossos radares\Nforam bloqueados,\N e não os detectamos até\Nser tarde demais.
+Dialogue: 10,0:00:17.58,0:00:20.88,Default,,0,0,0,,Este será um combate difícil\Npara os novatos.
 Dialogue: 10,0:00:21.96,0:00:23.29,Default,,0,0,0,,Qual é o seu movimento?
-Dialogue: 10,0:00:23.29,0:00:27.30,Default,,0,0,0,,{\q2}Desdobrem nossas forças para o ponto de grade 062\Ne separem uma unidade para atraí-los.
-Dialogue: 10,0:00:27.30,0:00:30.30,Default,,0,0,0,,Isso os trará ao alcance da artilharia restante.
-Dialogue: 10,0:00:30.72,0:00:33.10,Default,,0,0,0,,Então vamos lutar contra eles bem na frente da nossa base, é isso?
-Dialogue: 10,0:00:33.10,0:00:37.06,Default,,0,0,0,,{\q2}Se eles romperem, tudo o que resta são os campos minados e a artilharia para contê-los, certo?
-Dialogue: 10,0:00:37.77,0:00:42.69,Default,,0,0,0,,Correto, mas se quisermos sobreviver, essa é a nossa melhor opção.
+Dialogue: 10,0:00:23.29,0:00:27.30,Default,,0,0,0,,{\q2}Desdobrem nossas forças\Npara o ponto de grade 062\N e separem uma unidade para atraí-los.
+Dialogue: 10,0:00:27.30,0:00:30.30,Default,,0,0,0,,Isso os trará ao alcance\Nda artilharia restante.
+Dialogue: 10,0:00:30.72,0:00:33.10,Default,,0,0,0,,Então vamos lutar contra eles bem\Nna frente da nossa base, é isso?
+Dialogue: 10,0:00:33.10,0:00:37.06,Default,,0,0,0,,{\q2}Se eles romperem, tudo\No que resta são os campos\Nminados e a artilharia\Npara contê-los, certo?
+Dialogue: 10,0:00:37.77,0:00:42.69,Default,,0,0,0,,Correto, mas se quisermos sobreviver,\Nessa é a nossa melhor opção.
 Dialogue: 10,0:00:44.27,0:00:47.36,Default,,0,0,0,,Copiado!, Vossa Majestade!
-Dialogue: 10,0:00:51.95,0:00:57.16,Default,,0,0,0,,{\q2}Agora, a atualização de hoje sobre a guerra\Na partir do Quartel-General Militar de San Magnolia!
-Dialogue: 10,0:00:57.16,0:01:05.71,Default,,0,0,0,,{\q2\an8}O orgulho da nossa nação—o Juggernaut—interceptou\Ne dizimou suas forças, forçando-as a recuar.
-Dialogue: 10,0:01:05.71,0:01:09.01,Default,,0,0,0,,{\q2}Defender a nação com nossos\Ndrones avançados e éticos
-Dialogue: 10,0:01:09.01,0:01:12.34,Default,,0,0,0,,resultou em zero baixas para a República!
-Dialogue: 10,0:01:12.68,0:01:18.81,Default,,0,0,0,,{\q2}O dia em que a retidão de nossa nação esmagará\Nos restos malignos do império perverso não está longe!
-Dialogue: 10,0:01:18.81,0:01:20.81,Default,,0,0,0,,Todos os louvores à República de San Magnolia!
+Dialogue: 10,0:00:51.95,0:00:57.16,Default,,0,0,0,,{\q2}Agora, a atualização\Nde hoje sobre a guerra\N a partir do Quartel-General\NMilitar de San Magnolia!
+Dialogue: 10,0:00:57.16,0:01:05.71,Default,,0,0,0,,{\q2\an8}O orgulho da nossa nação—o\NJuggernaut—interceptou\N e dizimou suas forças,\Nforçando-as a recuar.
+Dialogue: 10,0:01:05.71,0:01:09.01,Default,,0,0,0,,{\q2}Defender a nação com nossos\N drones avançados e éticos
+Dialogue: 10,0:01:09.01,0:01:12.34,Default,,0,0,0,,resultou em zero baixas\Npara a República!
+Dialogue: 10,0:01:12.68,0:01:18.81,Default,,0,0,0,,{\q2}O dia em que a retidão\Nde nossa nação esmagará\N os restos malignos do império\Nperverso não está longe!
+Dialogue: 10,0:01:18.81,0:01:20.81,Default,,0,0,0,,Todos os louvores à República\Nde San Magnolia!
 Dialogue: 10,0:01:20.81,0:01:23.10,Default,,0,0,0,,Glória à bandeira de cinco cores!
 Dialogue: 10,0:01:26.48,0:01:30.36,Default,,0,0,0,,Ei, é a princesa que esmaga bonecas!
-Dialogue: 10,0:01:30.36,0:01:33.28,Default,,0,0,0,,Ouvi dizer que você conseguiu vencer a Legião de novo hoje,
-Dialogue: 10,0:01:33.28,0:01:35.16,Default,,0,0,0,,uma vitória manchada pelo sangue de porcos.
-Dialogue: 10,0:01:35.16,0:01:39.70,Default,,0,0,0,,É por isso que ela é a Rainha Manchada de Sangue, a sangrenta Regina!
-Dialogue: 10,0:01:40.00,0:01:44.08,Default,,0,0,0,,Você já descobriu a diferença entre homens e porcos?
+Dialogue: 10,0:01:30.36,0:01:33.28,Default,,0,0,0,,Ouvi dizer que você conseguiu\Nvencer a Legião de novo hoje,
+Dialogue: 10,0:01:33.28,0:01:35.16,Default,,0,0,0,,uma vitória manchada pelo\Nsangue de porcos.
+Dialogue: 10,0:01:35.16,0:01:39.70,Default,,0,0,0,,É por isso que ela é a Rainha Manchada\Nde Sangue, a sangrenta Regina!
+Dialogue: 10,0:01:40.00,0:01:44.08,Default,,0,0,0,,Você já descobriu a diferença\Nentre homens e porcos?
 Dialogue: 10,0:01:44.08,0:01:46.92,Default,,0,0,0,,Cara, ela sempre usa a mesma expressão.
 Dialogue: 10,0:01:46.92,0:01:48.96,Default,,0,0,0,,O que será que ela está pensando?
-Dialogue: 10,0:01:48.96,0:01:54.47,Default,,0,0,0,,{\q2}Ser rebaixada por causa desses porcos e\Nusar um uniforme preto quando ninguém mais usa...
-Dialogue: 10,0:01:54.47,0:01:58.68,Default,,0,0,0,,A Legião nem estará por aqui em dois anos!
-Dialogue: 10,0:01:58.68,0:02:00.68,Default,,0,0,0,,Ela é de uma família rica e famosa, certo?
-Dialogue: 10,0:02:00.68,0:02:04.02,Default,,0,0,0,,Se ela tivesse se comportado, teria tido uma vida fácil.
+Dialogue: 10,0:01:48.96,0:01:54.47,Default,,0,0,0,,{\q2}Ser rebaixada por causa desses porcos e\N usar um uniforme preto quando\Nninguém mais usa...
+Dialogue: 10,0:01:54.47,0:01:58.68,Default,,0,0,0,,A Legião nem estará por\Naqui em dois anos!
+Dialogue: 10,0:01:58.68,0:02:00.68,Default,,0,0,0,,Ela é de uma família\Nrica e famosa, certo?
+Dialogue: 10,0:02:00.68,0:02:04.02,Default,,0,0,0,,Se ela tivesse se comportado,\Nteria tido uma vida fácil.
 Dialogue: 10,0:02:09.11,0:02:10.49,Default,,0,0,0,,Bom dia.
 Dialogue: 10,0:02:10.49,0:02:11.99,Default,,0,0,0,,Bom dia.
-Dialogue: 10,0:02:11.99,0:02:15.53,Default,,0,0,0,,{\q2}Quanto à coisa que você perguntou,\Nhá algo que preciso confirmar.
-Dialogue: 10,0:02:15.53,0:02:17.95,Default,,0,0,0,,As configurações adicionais do Dispositivo Para-RAID.
+Dialogue: 10,0:02:11.99,0:02:15.53,Default,,0,0,0,,{\q2}Quanto à coisa que você perguntou,\N há algo que preciso confirmar.
+Dialogue: 10,0:02:15.53,0:02:17.95,Default,,0,0,0,,As configurações adicionais\Ndo Dispositivo Para-RAID.
 Dialogue: 10,0:02:17.95,0:02:19.37,Default,,0,0,0,,Certo.
 Dialogue: 10,0:02:19.37,0:02:21.12,Default,,0,0,0,,Estarei lá em duas horas.
 Dialogue: 10,0:02:21.12,0:02:22.83,Default,,0,0,0,,Certo, nos vemos então.
-Dialogue: 10,0:02:28.13,0:02:32.09,Default,,0,0,0,,Quantas vezes eu tenho que te dizer, Capitão Milizé?
-Dialogue: 10,0:02:33.38,0:02:40.85,Default,,0,0,0,,{\q2}Uso não autorizado de artilharia, rotas de suprimento sem agendamento,\Ne dar ordens a unidades que não estão sob seu comando.
-Dialogue: 10,0:02:41.52,0:02:44.19,Default,,0,0,0,,Você tem ideia de quantas reclamações eu estou recebendo?
-Dialogue: 10,0:02:44.60,0:02:48.82,Default,,0,0,0,,{\q2}Não me force a fazer trabalho extra\NPelo bem desses malditos Eighty-Six.
+Dialogue: 10,0:02:28.13,0:02:32.09,Default,,0,0,0,,Quantas vezes eu tenho que\Nte dizer, Capitão Milizé?
+Dialogue: 10,0:02:33.38,0:02:40.85,Default,,0,0,0,,{\q2}Uso não autorizado de\Nartilharia, rotas de suprimento\Nsem agendamento,\N e dar ordens a unidades que\Nnão estão sob seu comando.
+Dialogue: 10,0:02:41.52,0:02:44.19,Default,,0,0,0,,Você tem ideia de quantas reclamações\Neu estou recebendo?
+Dialogue: 10,0:02:44.60,0:02:48.82,Default,,0,0,0,,{\q2}Não me force a fazer trabalho extra\N Pelo bem desses malditos Eighty-Six.
 Dialogue: 10,0:02:48.82,0:02:51.90,Default,,0,0,0,,Se você me desse permissão antes,
-Dialogue: 10,0:02:51.90,0:02:54.90,Default,,0,0,0,,{\q2}Você não precisaria se incomodar com\Nnada disso, Tenente Coronel.
+Dialogue: 10,0:02:51.90,0:02:54.90,Default,,0,0,0,,{\q2}Você não precisaria se incomodar com\N nada disso, Tenente Coronel.
 Dialogue: 10,0:02:54.90,0:02:56.11,Default,,0,0,0,,O que você quer dizer?
-Dialogue: 10,0:02:56.11,0:02:59.95,Default,,0,0,0,,Você e todo mundo estão livres para reclamar à vontade,
-Dialogue: 10,0:02:59.95,0:03:02.20,Default,,0,0,0,,mas eu simplesmente não dou a mínima para o que vocês falam.
+Dialogue: 10,0:02:56.11,0:02:59.95,Default,,0,0,0,,Você e todo mundo estão livres\Npara reclamar à vontade,
+Dialogue: 10,0:02:59.95,0:03:02.20,Default,,0,0,0,,mas eu simplesmente não dou a\Nmínima para o que vocês falam.
 Dialogue: 10,0:03:02.20,0:03:03.96,Default,,0,0,0,,Seu moleque!
 Dialogue: 10,0:03:04.37,0:03:06.50,Default,,0,0,0,,Saiba o seu lugar! Você é só um capitão!
-Dialogue: 10,0:03:06.50,0:03:08.46,Default,,0,0,0,,Tem certeza de que você quer que eu saiba o meu lugar?
-Dialogue: 10,0:03:09.29,0:03:12.88,Default,,0,0,0,,{\q2}Seus feitos se baseiam no\Ndesempenho dos seus subordinados.
+Dialogue: 10,0:03:06.50,0:03:08.46,Default,,0,0,0,,Tem certeza de que você quer\Nque eu saiba o meu lugar?
+Dialogue: 10,0:03:09.29,0:03:12.88,Default,,0,0,0,,{\q2}Seus feitos se baseiam no\N desempenho dos seus subordinados.
 Dialogue: 10,0:03:12.88,0:03:14.22,Default,,0,0,0,,O quê?
-Dialogue: 10,0:03:14.22,0:03:18.55,Default,,0,0,0,,Eu tenho o melhor desempenho de todos os Handlers.
-Dialogue: 10,0:03:18.55,0:03:21.72,Default,,0,0,0,,Se eu começar a matar menos Legião, sua promoção está em risco.
+Dialogue: 10,0:03:14.22,0:03:18.55,Default,,0,0,0,,Eu tenho o melhor desempenho\Nde todos os Handlers.
+Dialogue: 10,0:03:18.55,0:03:21.72,Default,,0,0,0,,Se eu começar a matar menos Legião,\Nsua promoção está em risco.
 Dialogue: 10,0:03:22.39,0:03:23.27,Default,,0,0,0,,Não é mesmo?
 Dialogue: 10,0:03:28.90,0:03:32.40,Default,,0,0,0,,Cuidado com o que fala, Capitão.
 Dialogue: 10,0:03:32.40,0:03:35.03,Default,,0,0,0,,Com licença, Tenente-Coronel.
-Dialogue: 10,0:04:07.19,0:04:10.65,Default,,0,0,0,,Vou deixá-lo responsável pelos suprimentos.
+Dialogue: 10,0:04:07.19,0:04:10.65,Default,,0,0,0,,Vou deixá-lo responsável\Npelos suprimentos.
 Dialogue: 10,0:04:10.65,0:04:11.69,Default,,0,0,0,,Certo.
-Dialogue: 10,0:04:11.69,0:04:17.36,Default,,0,0,0,,{\q2}Capitão, eu revisei a artilharia na\Nretaguarda do oitavo distrito da frente sul.
-Dialogue: 10,0:04:17.36,0:04:19.91,Default,,0,0,0,,Como esperado, apenas vinte por cento estavam operacionais.
+Dialogue: 10,0:04:11.69,0:04:17.36,Default,,0,0,0,,{\q2}Capitão, eu revisei a artilharia na\N retaguarda do oitavo distrito\Nda frente sul.
+Dialogue: 10,0:04:17.36,0:04:19.91,Default,,0,0,0,,Como esperado, apenas vinte por\Ncento estavam operacionais.
 Dialogue: 10,0:04:19.91,0:04:21.70,Default,,0,0,0,,Exatamente como eu pensava.
-Dialogue: 10,0:04:22.28,0:04:23.66,Default,,0,0,0,,E a taxa de desgaste nas linhas de frente—
+Dialogue: 10,0:04:22.28,0:04:23.66,Default,,0,0,0,,E a taxa de desgaste\Nnas linhas de frente—
 Dialogue: 10,0:04:23.66,0:04:26.54,Default,,0,0,0,,Ei, olha!
 Dialogue: 10,0:04:26.54,0:04:28.04,Default,,0,0,0,,Olha! Neve!
 Dialogue: 10,0:04:31.63,0:04:33.67,Default,,0,0,0,,O inverno chegou mesmo, hein?
 Dialogue: 10,0:04:36.38,0:04:38.01,Default,,0,0,0,,Cyclops para Handler One:
 Dialogue: 10,0:04:38.01,0:04:39.34,Default,,0,0,0,,Você recebe?
 Dialogue: 10,0:04:39.34,0:04:41.34,Default,,0,0,0,,Sim. O que é?
-Dialogue: 10,0:04:41.34,0:04:43.85,Default,,0,0,0,,Encontramos uma formação inimiga durante o patrulhamento.
+Dialogue: 10,0:04:41.34,0:04:43.85,Default,,0,0,0,,Encontramos uma formação inimiga\Ndurante o patrulhamento.
 Dialogue: 10,0:04:43.85,0:04:45.35,Default,,0,0,0,,Precisamos de suas ordens.
 Dialogue: 10,0:04:45.35,0:04:46.81,Default,,0,0,0,,Entendido.
 Dialogue: 10,0:04:47.43,0:04:49.06,Default,,0,0,0,,Por favor, prossiga com a investigação.
@@ -98,46 +98,46 @@ Dialogue: 10,0:05:04.53,0:05:06.58,Default,,0,0,0,,Você está bem cedo, não é
 Dialogue: 10,0:05:10.75,0:05:15.13,Default,,0,0,0,,Vamos começar nossa conversa, Lena.
 Dialogue: 10,0:05:18.09,0:05:18.92,Default,,0,0,0,,É.
 Dialogue: 10,0:05:23.97,0:05:27.31,Default,,0,0,0,,Entendido. Obrigado pelo relatório.
-Dialogue: 10,0:05:27.31,0:05:31.77,Default,,0,0,0,,{\q2}Sim. Estarei aguardando essas estimativas\Nsobre a força da Legião, Vossa Majestade.
+Dialogue: 10,0:05:27.31,0:05:31.77,Default,,0,0,0,,{\q2}Sim. Estarei aguardando\Nessas estimativas\N sobre a força da Legião,\NVossa Majestade.
 Dialogue: 10,0:05:31.77,0:05:33.94,Default,,0,0,0,,Sim, farei o que puder.
-Dialogue: 10,0:05:34.73,0:05:38.82,Default,,0,0,0,,Vamos trabalhar juntos e fazer o nosso melhor.
+Dialogue: 10,0:05:34.73,0:05:38.82,Default,,0,0,0,,Vamos trabalhar juntos\Ne fazer o nosso melhor.
 Dialogue: 10,0:05:40.15,0:05:41.95,Default,,0,0,0,,Claro que sim.
-Dialogue: 10,0:05:41.95,0:05:46.45,Default,,0,0,0,,Você é o nosso Handler. Nós contamos com você.
+Dialogue: 10,0:05:41.95,0:05:46.45,Default,,0,0,0,,Você é o nosso Handler.\NNós contamos com você.
 Dialogue: 10,0:05:46.74,0:05:47.99,Default,,0,0,0,,Você também.
-Dialogue: 10,0:05:47.99,0:05:52.08,Default,,0,0,0,,{\q2}Eu preciso das informações que você traz\Ndo campo de batalha, Cyclops.
-Dialogue: 10,0:05:53.67,0:05:58.00,Default,,0,0,0,,{\q2}Sabe, não é hora\Nde você me chamar pelo meu nome verdadeiro?
-Dialogue: 10,0:05:58.00,0:06:01.34,Default,,0,0,0,,{\q2}Se você não vai fazer isso,\Npor que sequer perguntou para começar?
+Dialogue: 10,0:05:47.99,0:05:52.08,Default,,0,0,0,,{\q2}Eu preciso das informações que você traz\N do campo de batalha, Cyclops.
+Dialogue: 10,0:05:53.67,0:05:58.00,Default,,0,0,0,,{\q2}Sabe, não é hora\N de você me chamar pelo\Nmeu nome verdadeiro?
+Dialogue: 10,0:05:58.00,0:06:01.34,Default,,0,0,0,,{\q2}Se você não vai fazer isso,\N por que sequer perguntou para começar?
 Dialogue: 10,0:06:02.59,0:06:04.01,Default,,0,0,0,,Porque isso é...
 Dialogue: 10,0:06:06.89,0:06:10.98,Default,,0,0,0,,minha responsabilidade como Handler.
 Dialogue: 10,0:06:11.23,0:06:15.98,Default,,0,0,0,,Você é sempre tão sério e formal, sabia?
 Dialogue: 10,0:06:17.65,0:06:19.94,Default,,0,0,0,,Pense no que quiser.
-Dialogue: 10,0:06:21.65,0:06:26.32,Default,,0,0,0,,Mas graças a você, podemos sobreviver por mais algum tempo.
-Dialogue: 10,0:06:26.87,0:06:30.29,Default,,0,0,0,,{\q2}Eu aprecio o esforço, mas acabaremos\Njuntando-nos à Spearhead em poucos meses.
-Dialogue: 10,0:06:31.12,0:06:37.42,Default,,0,0,0,,{\q2}O homem mais forte que eu conheci foi finalmente enviado\Npara a missão de reconhecimento especial há um tempo.
+Dialogue: 10,0:06:21.65,0:06:26.32,Default,,0,0,0,,Mas graças a você, podemos sobreviver\Npor mais algum tempo.
+Dialogue: 10,0:06:26.87,0:06:30.29,Default,,0,0,0,,{\q2}Eu aprecio o esforço, mas acabaremos\N juntando-nos à Spearhead\Nem poucos meses.
+Dialogue: 10,0:06:31.12,0:06:37.42,Default,,0,0,0,,{\q2}O homem mais forte que eu\Nconheci foi finalmente enviado\N para a missão de reconhecimento\Nespecial há um tempo.
 Dialogue: 10,0:06:37.79,0:06:40.80,Default,,0,0,0,,Ele deve estar morto agora.
-Dialogue: 10,0:06:40.80,0:06:45.26,Default,,0,0,0,,O Ceifador sem cabeça, que sempre preferiu suas lâminas.
-Dialogue: 10,0:06:48.22,0:06:54.52,Default,,0,0,0,,{\q2}Qual você acha que vai acontecer primeiro?\NNossa missão de reconhecimento ou o ataque da Legião?
+Dialogue: 10,0:06:40.80,0:06:45.26,Default,,0,0,0,,O Ceifador sem cabeça, que sempre\Npreferiu suas lâminas.
+Dialogue: 10,0:06:48.22,0:06:54.52,Default,,0,0,0,,{\q2}Qual você acha que\Nvai acontecer primeiro?\N Nossa missão de reconhecimento\Nou o ataque da Legião?
 Dialogue: 10,0:06:55.39,0:06:56.69,Default,,0,0,0,,Eu não sei.
-Dialogue: 10,0:06:58.06,0:07:04.70,Default,,0,0,0,,{\q2}Mas meu trabalho agora é me preparar para o\Ngrande ataque em escala da Legião que deve vir.
+Dialogue: 10,0:06:58.06,0:07:04.70,Default,,0,0,0,,{\q2}Mas meu trabalho agora\Né me preparar para o\N grande ataque em escala\Nda Legião que deve vir.
 Dialogue: 10,0:07:05.78,0:07:09.37,Default,,0,0,0,,Eu já decidi te ajudar, mas...
-Dialogue: 10,0:07:09.37,0:07:11.33,Default,,0,0,0,,no fim das contas, não vai fazer diferença.
+Dialogue: 10,0:07:09.37,0:07:11.33,Default,,0,0,0,,no fim das contas, não\Nvai fazer diferença.
 Dialogue: 10,0:07:11.95,0:07:13.58,Default,,0,0,0,,Você fará isso mesmo assim?
 Dialogue: 10,0:07:17.83,0:07:19.09,Default,,0,0,0,,Eu farei isso.
-Dialogue: 10,0:07:22.00,0:07:27.26,Default,,0,0,0,,{\q2}Mas Cyclops, não esqueça de me enviar\Nseu relatório da patrulha.
+Dialogue: 10,0:07:22.00,0:07:27.26,Default,,0,0,0,,{\q2}Mas Cyclops, não esqueça de me enviar\N seu relatório da patrulha.
 Dialogue: 10,0:07:27.26,0:07:28.55,Default,,0,0,0,,Copiado!
 Dialogue: 10,0:07:33.52,0:07:34.81,Default,,0,0,0,,De qualquer forma,
 Dialogue: 10,0:07:37.02,0:07:39.86,Default,,0,0,0,,eles me disseram para sobreviver.
-Dialogue: 10,0:07:42.19,0:07:45.90,Default,,0,0,0,,Eles acreditaram em mim e mandaram eu lutar e sobreviver.
-Dialogue: 10,0:07:54.75,0:07:58.87,Default,,0,0,0,,{\q2}Viver à altura das esperanças daqueles\Nque não estão mais conosco...
+Dialogue: 10,0:07:42.19,0:07:45.90,Default,,0,0,0,,Eles acreditaram em mim e mandaram\Neu lutar e sobreviver.
+Dialogue: 10,0:07:54.75,0:07:58.87,Default,,0,0,0,,{\q2}Viver à altura das esperanças daqueles\N que não estão mais conosco...
 Dialogue: 10,0:08:06.51,0:08:07.38,Default,,0,0,0,,Shin!
 Dialogue: 10,0:08:28.03,0:08:29.66,Default,,0,0,0,,É até aqui que eu consigo chegar.
-Dialogue: 10,0:08:30.99,0:08:33.87,Default,,0,0,0,,Você consegue terminar o caminho sozinha, certo?
+Dialogue: 10,0:08:30.99,0:08:33.87,Default,,0,0,0,,Você consegue terminar o\Ncaminho sozinha, certo?
 Dialogue: 10,0:08:34.49,0:08:36.87,Default,,0,0,0,,Você tem seus camaradas com você agora.
 Dialogue: 10,0:08:42.08,0:08:44.59,Default,,0,0,0,,Você realmente amadureceu também.
-Dialogue: 10,0:08:45.92,0:08:49.47,Default,,0,0,0,,Não deixe que a minha memória te arraste.
+Dialogue: 10,0:08:45.92,0:08:49.47,Default,,0,0,0,,Não deixe que a minha\Nmemória te arraste.
 Dialogue: 10,0:08:50.22,0:08:52.76,Default,,0,0,0,,Você pode me esquecer.
 Dialogue: 10,0:08:56.02,0:08:58.77,Default,,0,0,0,,Na verdade...
-Dialogue: 10,0:08:59.69,0:09:03.40,Default,,0,0,0,,Eu quero que você se lembre de mim de vez em quando.
+Dialogue: 10,0:08:59.69,0:09:03.40,Default,,0,0,0,,Eu quero que você se lembre\Nde mim de vez em quando.
 Dialogue: 10,0:09:04.61,0:09:08.61,Default,,0,0,0,,Viva livre e encontre a felicidade...
 Dialogue: 10,0:09:10.03,0:09:11.78,Default,,0,0,0,,E de vez em quando, sabe?
 Dialogue: 10,0:09:12.74,0:09:14.12,Default,,0,0,0,,Apenas de vez em quando.
@@ -146,98 +146,98 @@ Dialogue: 10,0:09:19.29,0:09:22.71,Default,,0,0,0,,E, por favor, seja feliz.
 Dialogue: 10,0:09:32.43,0:09:33.55,Default,,0,0,0,,Irmão!
 Dialogue: 10,0:10:08.05,0:10:11.92,Default,,0,0,0,,Eu sei, são apenas algumas palavras.
 Dialogue: 10,0:10:15.72,0:10:18.43,Default,,0,0,0,,Você acabou de acordar? Saudações.
-Dialogue: 10,0:10:18.93,0:10:22.06,Default,,0,0,0,,Para começar, você poderia me dizer o seu nome?
+Dialogue: 10,0:10:18.93,0:10:22.06,Default,,0,0,0,,Para começar, você poderia\Nme dizer o seu nome?
 Dialogue: 10,0:10:25.35,0:10:26.02,Default,,0,0,0,,Exatamente!
-Dialogue: 10,0:10:26.27,0:10:32.03,Default,,0,0,0,,{\q2}Sabe, os generais são muito cautelosos\Ne me obrigaram a usar esse traje de proteção.
-Dialogue: 10,0:10:32.61,0:10:35.03,Default,,0,0,0,,Mas isso não é uma forma de cumprimentar alguém, certo?
+Dialogue: 10,0:10:26.27,0:10:32.03,Default,,0,0,0,,{\q2}Sabe, os generais são muito cautelosos\N e me obrigaram a usar esse\Ntraje de proteção.
+Dialogue: 10,0:10:32.61,0:10:35.03,Default,,0,0,0,,Mas isso não é uma forma de\Ncumprimentar alguém, certo?
 Dialogue: 10,0:10:38.53,0:10:40.87,Default,,0,0,0,,Meu nome é Ernst.
 Dialogue: 10,0:10:40.87,0:10:42.04,Default,,0,0,0,,E o seu?
 Dialogue: 10,0:10:44.42,0:10:47.42,Default,,0,0,0,,Shinei Nouzen.
-Dialogue: 10,0:10:49.55,0:10:52.42,Default,,0,0,0,,Seja bem-vindo à República Federal de Giad!
+Dialogue: 10,0:10:49.55,0:10:52.42,Default,,0,0,0,,Seja bem-vindo à República\NFederal de Giad!
 Dialogue: 10,0:10:53.13,0:10:54.01,Default,,0,0,0,,"Giad"?
 Dialogue: 10,0:10:54.01,0:10:56.43,Default,,0,0,0,,Ah, eu deveria explicar.
-Dialogue: 10,0:10:56.43,0:11:02.35,Default,,0,0,0,,{\q2}O Império de Giad que criou a Legião foi\Nderrubado e reformado em uma República Federal.
-Dialogue: 10,0:11:02.35,0:11:06.65,Default,,0,0,0,,{\q2}Por causa disso, ainda estamos lutando\Na Legião restante, no entanto.
-Dialogue: 10,0:11:08.06,0:11:13.32,Default,,0,0,0,,{\q2}Quando encontramos você, você havia sido capturado \Pela Legião em nossa frente oeste.
+Dialogue: 10,0:10:56.43,0:11:02.35,Default,,0,0,0,,{\q2}O Império de Giad que criou a Legião foi\N derrubado e reformado em\Numa República Federal.
+Dialogue: 10,0:11:02.35,0:11:06.65,Default,,0,0,0,,{\q2}Por causa disso, ainda estamos lutando\N a Legião restante, no entanto.
+Dialogue: 10,0:11:08.06,0:11:13.32,Default,,0,0,0,,{\q2}Quando encontramos você, você havia sido\Ncapturado \Pela Legião\Nem nossa frente oeste.
 Dialogue: 10,0:11:16.91,0:11:18.37,Default,,0,0,0,,Desculpe, desculpe.
 Dialogue: 10,0:11:18.37,0:11:20.87,Default,,0,0,0,,É claro que você estaria preocupado.
-Dialogue: 10,0:11:24.79,0:11:28.88,Default,,0,0,0,,Você estava dormindo, então nós deixamos as janelas opacas.
-Dialogue: 10,0:11:32.38,0:11:38.18,Default,,0,0,0,,Ainda não temos certeza do que aconteceu antes de encontrá-lo(a).
+Dialogue: 10,0:11:24.79,0:11:28.88,Default,,0,0,0,,Você estava dormindo, então nós\Ndeixamos as janelas opacas.
+Dialogue: 10,0:11:32.38,0:11:38.18,Default,,0,0,0,,Ainda não temos certeza do que aconteceu\Nantes de encontrá-lo(a).
 Dialogue: 10,0:11:38.18,0:11:40.30,Default,,0,0,0,,Se por acaso você se lembrar de algo...
 Dialogue: 10,0:11:40.30,0:11:42.60,Default,,0,0,0,,Senhor! Por enquanto, já é o suficiente.
 Dialogue: 10,0:11:43.72,0:11:44.60,Default,,0,0,0,,Desculpe!
-Dialogue: 10,0:11:45.14,0:11:49.02,Default,,0,0,0,,A senhora assustadora vai ficar brava comigo, então eu vou indo.
+Dialogue: 10,0:11:45.14,0:11:49.02,Default,,0,0,0,,A senhora assustadora vai ficar\Nbrava comigo, então eu vou indo.
 Dialogue: 10,0:11:49.02,0:11:50.48,Default,,0,0,0,,Mas lembre-se disso.
-Dialogue: 10,0:11:50.90,0:11:56.28,Default,,0,0,0,,{\q2}Vocês são os primeiros visitantes estrangeiros que temos\Ndesde a fundação da nossa nação.
-Dialogue: 10,0:11:56.28,0:12:01.83,Default,,0,0,0,,{\q2}E estávamos muito ocupados lutando contra a Legião,\Npor isso não temos procedimentos para isso.
-Dialogue: 10,0:12:01.83,0:12:04.12,Default,,0,0,0,,Mas não se preocupe, nós não faremos mal a você.
+Dialogue: 10,0:11:50.90,0:11:56.28,Default,,0,0,0,,{\q2}Vocês são os primeiros visitantes\Nestrangeiros que temos\N desde a fundação da nossa nação.
+Dialogue: 10,0:11:56.28,0:12:01.83,Default,,0,0,0,,{\q2}E estávamos muito ocupados\Nlutando contra a Legião,\N por isso não temos procedimentos\Npara isso.
+Dialogue: 10,0:12:01.83,0:12:04.12,Default,,0,0,0,,Mas não se preocupe, nós\Nnão faremos mal a você.
 Dialogue: 10,0:12:05.25,0:12:08.75,Default,,0,0,0,,Eu sou Ernst Zimmerman,
-Dialogue: 10,0:12:09.42,0:12:13.75,Default,,0,0,0,,o presidente interino da República Federal de Giad.
+Dialogue: 10,0:12:09.42,0:12:13.75,Default,,0,0,0,,o presidente interino da República\NFederal de Giad.
 Dialogue: 10,0:12:14.96,0:12:16.13,Default,,0,0,0,,O que nossa análise mostra?
-Dialogue: 10,0:12:16.55,0:12:22.51,Default,,0,0,0,,{\q2}É seguro dizer que eles não são agentes de San Magnolia nem de nenhum outro país.
-Dialogue: 10,0:12:22.51,0:12:24.64,Default,,0,0,0,,E quanto a eles serem um novo tipo de Legião?
-Dialogue: 10,0:12:24.64,0:12:28.39,Default,,0,0,0,,Ou carregarem um novo tipo de arma biológica da Legião?
-Dialogue: 10,0:12:28.39,0:12:32.98,Default,,0,0,0,,Nossas varreduras e testes iniciais não mostram anormalidades.
+Dialogue: 10,0:12:16.55,0:12:22.51,Default,,0,0,0,,{\q2}É seguro dizer que eles não são agentes\Nde San Magnolia nem de\Nnenhum outro país.
+Dialogue: 10,0:12:22.51,0:12:24.64,Default,,0,0,0,,E quanto a eles serem um\Nnovo tipo de Legião?
+Dialogue: 10,0:12:24.64,0:12:28.39,Default,,0,0,0,,Ou carregarem um novo tipo de\Narma biológica da Legião?
+Dialogue: 10,0:12:28.39,0:12:32.98,Default,,0,0,0,,Nossas varreduras e testes iniciais\Nnão mostram anormalidades.
 Dialogue: 10,0:12:32.98,0:12:34.53,Default,,0,0,0,,E a unidade da Legião que os capturou?
-Dialogue: 10,0:12:34.86,0:12:38.95,Default,,0,0,0,,É um modelo mais antigo, mas é inegavelmente uma Dinosauria.
+Dialogue: 10,0:12:34.86,0:12:38.95,Default,,0,0,0,,É um modelo mais antigo, mas é\Ninegavelmente uma Dinosauria.
 Dialogue: 10,0:12:39.49,0:12:42.53,Default,,0,0,0,,E o objeto preso aos ouvidos deles?
-Dialogue: 10,0:12:42.99,0:12:46.04,Default,,0,0,0,,Eles afirmaram que era um dispositivo de comunicação.
-Dialogue: 10,0:12:46.33,0:12:51.04,Default,,0,0,0,,{\q2}Ele cria um vínculo mental entre dispositivos e\Nque lembra a habilidade daquela família em particular.
+Dialogue: 10,0:12:42.99,0:12:46.04,Default,,0,0,0,,Eles afirmaram que era um dispositivo\Nde comunicação.
+Dialogue: 10,0:12:46.33,0:12:51.04,Default,,0,0,0,,{\q2}Ele cria um vínculo mental\Nentre dispositivos e\N que lembra a habilidade daquela\Nfamília em particular.
 Dialogue: 10,0:12:51.04,0:12:52.17,Default,,0,0,0,,Que revolucionário.
-Dialogue: 10,0:12:52.88,0:12:57.67,Default,,0,0,0,,{\q2}A opção mais segura para a Federácia\Nseria eliminá-los.
+Dialogue: 10,0:12:52.88,0:12:57.67,Default,,0,0,0,,{\q2}A opção mais segura para a Federácia\N seria eliminá-los.
 Dialogue: 10,0:13:04.68,0:13:05.60,Default,,0,0,0,,Shin,
 Dialogue: 10,0:13:06.31,0:13:08.85,Default,,0,0,0,,Você sumiu por três dias inteiros.
-Dialogue: 10,0:13:08.85,0:13:12.60,Default,,0,0,0,,Sério, a Kurena estava desmanchando em lágrimas.
+Dialogue: 10,0:13:08.85,0:13:12.60,Default,,0,0,0,,Sério, a Kurena estava desmanchando\Nem lágrimas.
 Dialogue: 10,0:13:12.60,0:13:13.69,Default,,0,0,0,,E-Eu não estava!
-Dialogue: 10,0:13:15.73,0:13:20.57,Default,,0,0,0,,Shin, eu sei que agora não é um bom momento,
-Dialogue: 10,0:13:20.57,0:13:24.20,Default,,0,0,0,,mas é melhor você se preparar quando estiver recuperado.
-Dialogue: 10,0:13:25.70,0:13:28.37,Default,,0,0,0,,Desculpe, mas todos nós sentimos o mesmo.
-Dialogue: 10,0:13:28.37,0:13:31.71,Default,,0,0,0,,Se você aprontar isso de novo, eu vou acabar com você.
+Dialogue: 10,0:13:15.73,0:13:20.57,Default,,0,0,0,,Shin, eu sei que agora\Nnão é um bom momento,
+Dialogue: 10,0:13:20.57,0:13:24.20,Default,,0,0,0,,mas é melhor você se preparar\Nquando estiver recuperado.
+Dialogue: 10,0:13:25.70,0:13:28.37,Default,,0,0,0,,Desculpe, mas todos nós\Nsentimos o mesmo.
+Dialogue: 10,0:13:28.37,0:13:31.71,Default,,0,0,0,,Se você aprontar isso de novo,\Neu vou acabar com você.
 Dialogue: 10,0:13:33.88,0:13:35.21,Default,,0,0,0,,Eu não queria morrer—
 Dialogue: 10,0:13:35.21,0:13:36.42,Default,,0,0,0,,Você vai me tirar do sério.
-Dialogue: 10,0:13:36.42,0:13:41.47,Default,,0,0,0,,{\q2}Mesmo que você não tenha tido a intenção de morrer, você sabia que\Nvocê provavelmente teria morrido se tivesse ido para lá.
-Dialogue: 10,0:13:41.80,0:13:45.18,Default,,0,0,0,,Tenho certeza de que todos nós passamos por isso pelo menos uma vez...
+Dialogue: 10,0:13:36.42,0:13:41.47,Default,,0,0,0,,{\q2}Mesmo que você não tenha tido a\Nintenção de morrer, você sabia que\N você provavelmente teria morrido\Nse tivesse ido para lá.
+Dialogue: 10,0:13:41.80,0:13:45.18,Default,,0,0,0,,Tenho certeza de que todos\Nnós passamos por isso\Npelo menos uma vez...
 Dialogue: 10,0:13:45.18,0:13:47.35,Default,,0,0,0,,Mas é por isso que não podemos perdoar!
 Dialogue: 10,0:13:47.35,0:13:50.14,Default,,0,0,0,,Porque nós entendemos! Não é justo.
 Dialogue: 10,0:13:51.19,0:13:52.85,Default,,0,0,0,,Nunca mais faça isso!
 Dialogue: 10,0:13:53.60,0:13:55.81,Default,,0,0,0,,Eu fiquei tão preocupado(a)!
 Dialogue: 10,0:14:00.86,0:14:02.03,Default,,0,0,0,,Desculpe.
 Dialogue: 10,0:14:04.95,0:14:09.54,Default,,0,0,0,,Mas quem sabe o que acontece agora...
-Dialogue: 10,0:14:13.04,0:14:18.17,Default,,0,0,0,,{\q2}Então sim, vocês cinco serão cidadãos\Nda Federácia a partir de hoje.
+Dialogue: 10,0:14:13.04,0:14:18.17,Default,,0,0,0,,{\q2}Então sim, vocês cinco serão cidadãos\N da Federácia a partir de hoje.
 Dialogue: 10,0:14:21.17,0:14:22.51,Default,,0,0,0,,Hã?
-Dialogue: 10,0:14:22.51,0:14:28.18,Default,,0,0,0,,{\q2}Não nos veem há um mês,\Ne a primeira coisa que você diz é: "Então sim"?
+Dialogue: 10,0:14:22.51,0:14:28.18,Default,,0,0,0,,{\q2}Não nos veem há um mês,\N e a primeira coisa que você\Ndiz é: "Então sim"?
 Dialogue: 10,0:14:28.18,0:14:29.35,Default,,0,0,0,,Sério?
-Dialogue: 10,0:14:29.35,0:14:34.44,Default,,0,0,0,,{\q2}Tem certeza que quer transformar um bando de crianças estranhas\Nque foram expulsas do país delas em cidadãos?
+Dialogue: 10,0:14:29.35,0:14:34.44,Default,,0,0,0,,{\q2}Tem certeza que quer transformar\Num bando de crianças estranhas\N que foram expulsas do país\Ndelas em cidadãos?
 Dialogue: 10,0:14:35.27,0:14:38.44,Default,,0,0,0,,Não seria mais seguro apenas nos matar?
 Dialogue: 10,0:14:38.44,0:14:40.28,Default,,0,0,0,,É isso que você quer?
 Dialogue: 10,0:14:41.44,0:14:44.53,Default,,0,0,0,,Que benefício você tira de nos salvar?
-Dialogue: 10,0:14:44.53,0:14:49.74,Default,,0,0,0,,{\q2}Uma sociedade que se recusa a salvar crianças\Nporque não há "benefício"
-Dialogue: 10,0:14:49.74,0:14:52.16,Default,,0,0,0,,é uma sociedade que não beneficia ninguém.
-Dialogue: 10,0:14:52.58,0:14:58.79,Default,,0,0,0,,{\q2}E se a humanidade não consegue sobreviver sem matar crianças por serem "estranhas",\N
-Dialogue: 10,0:15:00.17,0:15:03.30,Default,,0,0,0,,então a humanidade não merece sobreviver.
-Dialogue: 10,0:15:08.30,0:15:12.02,Default,,0,0,0,,{\q2}Enfim, por enquanto, eu servirei como seu tutor legal.
-Dialogue: 10,0:15:12.77,0:15:15.60,Default,,0,0,0,,Descanse um pouco e conheça o país por conta própria.
-Dialogue: 10,0:15:16.23,0:15:19.77,Default,,0,0,0,,Assim, você poderá decidir o que deseja fazer.
-Dialogue: 10,0:15:28.12,0:15:31.49,Default,,0,0,0,,{\an8}As máquinas de guerra que recuperamos, os "Juggernauts"...
-Dialogue: 10,0:15:31.49,0:15:35.62,Default,,0,0,0,,{\an8}Deixando de lado os recursos, seus registros de combate são impressionantes.
+Dialogue: 10,0:14:44.53,0:14:49.74,Default,,0,0,0,,{\q2}Uma sociedade que se\Nrecusa a salvar crianças\N porque não há "benefício"
+Dialogue: 10,0:14:49.74,0:14:52.16,Default,,0,0,0,,é uma sociedade que não\Nbeneficia ninguém.
+Dialogue: 10,0:14:52.58,0:14:58.79,Default,,0,0,0,,{\q2}E se a humanidade não consegue\Nsobreviver sem matar crianças\Npor serem "estranhas",
+Dialogue: 10,0:15:00.17,0:15:03.30,Default,,0,0,0,,então a humanidade não\Nmerece sobreviver.
+Dialogue: 10,0:15:08.30,0:15:12.02,Default,,0,0,0,,{\q2}Enfim, por enquanto, eu servirei\Ncomo seu tutor legal.
+Dialogue: 10,0:15:12.77,0:15:15.60,Default,,0,0,0,,Descanse um pouco e conheça\No país por conta própria.
+Dialogue: 10,0:15:16.23,0:15:19.77,Default,,0,0,0,,Assim, você poderá decidir\No que deseja fazer.
+Dialogue: 10,0:15:28.12,0:15:31.49,Default,,0,0,0,,{\an8}As máquinas de guerra que\Nrecuperamos, os "Juggernauts"...
+Dialogue: 10,0:15:31.49,0:15:35.62,Default,,0,0,0,,{\an8}Deixando de lado os recursos,\Nseus registros de combate\Nsão impressionantes.
 Dialogue: 10,0:15:35.62,0:15:37.46,Default,,0,0,0,,Gostaria de conversar com eles.
-Dialogue: 10,0:15:37.46,0:15:41.17,Default,,0,0,0,,{\q2}Ei, nós já estamos envolvidos com eles.\NNão vamos deixar que você fique com eles.
+Dialogue: 10,0:15:37.46,0:15:41.17,Default,,0,0,0,,{\q2}Ei, nós já estamos envolvidos com eles.\N Não vamos deixar que\Nvocê fique com eles.
 Dialogue: 10,0:15:41.17,0:15:42.00,Default,,0,0,0,,O quê?
-Dialogue: 10,0:15:42.00,0:15:46.09,Default,,0,0,0,,{\q2}Dados de combate de alta mobilidade e o\Npessoal que gerou esses dados.
-Dialogue: 10,0:15:46.09,0:15:48.76,Default,,0,0,0,,Eles são perfeitos para operar meus protótipos.
-Dialogue: 10,0:15:49.18,0:15:51.64,Default,,0,0,0,,Eles seriam um desperdício com aqueles lentos Vánagandrs.
+Dialogue: 10,0:15:42.00,0:15:46.09,Default,,0,0,0,,{\q2}Dados de combate de alta mobilidade e o\N pessoal que gerou esses dados.
+Dialogue: 10,0:15:46.09,0:15:48.76,Default,,0,0,0,,Eles são perfeitos para\Noperar meus protótipos.
+Dialogue: 10,0:15:49.18,0:15:51.64,Default,,0,0,0,,Eles seriam um desperdício com\Naqueles lentos Vánagandrs.
 Dialogue: 10,0:15:51.64,0:15:53.14,Default,,0,0,0,,O que você disse, mulher-teia?
 Dialogue: 10,0:15:53.14,0:15:54.47,Default,,0,0,0,,O que você disse, besouro drone?
-Dialogue: 10,0:15:54.47,0:15:57.56,Default,,0,0,0,,Vocês estão livres para conversar com eles.
-Dialogue: 10,0:15:57.56,0:15:59.81,Default,,0,0,0,,Mas eu não vou deixar que eles se tornem Operadores.
-Dialogue: 10,0:15:59.81,0:16:02.15,Default,,0,0,0,,Se fizéssemos, não seríamos diferentes da República.
-Dialogue: 10,0:16:02.15,0:16:04.61,Default,,0,0,0,,Mas todos estão dizendo em suas sessões de aconselhamento
-Dialogue: 10,0:16:04.61,0:16:07.49,Default,,0,0,0,,que querem voltar para o campo de batalha.
-Dialogue: 10,0:16:08.99,0:16:14.12,Default,,0,0,0,,Isso porque o campo de batalha é tudo que eles conhecem agora.
+Dialogue: 10,0:15:54.47,0:15:57.56,Default,,0,0,0,,Vocês estão livres para\Nconversar com eles.
+Dialogue: 10,0:15:57.56,0:15:59.81,Default,,0,0,0,,Mas eu não vou deixar que\Neles se tornem Operadores.
+Dialogue: 10,0:15:59.81,0:16:02.15,Default,,0,0,0,,Se fizéssemos, não seríamos\Ndiferentes da República.
+Dialogue: 10,0:16:02.15,0:16:04.61,Default,,0,0,0,,Mas todos estão dizendo em suas\Nsessões de aconselhamento
+Dialogue: 10,0:16:04.61,0:16:07.49,Default,,0,0,0,,que querem voltar para\No campo de batalha.
+Dialogue: 10,0:16:08.99,0:16:14.12,Default,,0,0,0,,Isso porque o campo de batalha\Né tudo que eles conhecem agora.
 Dialogue: 10,0:16:14.91,0:16:17.37,Default,,0,0,0,,Ações devem ser recompensadas.
-Dialogue: 10,0:16:17.71,0:16:22.00,Default,,0,0,0,,{\q2}Desde que lutaram por tanto tempo,\Ndeveriam receber uma chance de paz.
-Dialogue: 10,0:16:22.63,0:16:26.01,Default,,0,0,0,,Especialmente porque sua terra natal se recusou a fazer isso.
-Dialogue: 10,0:16:28.05,0:16:31.22,Default,,0,0,0,,Eu quero que a Federação seja justa, pelo menos.
+Dialogue: 10,0:16:17.71,0:16:22.00,Default,,0,0,0,,{\q2}Desde que lutaram por tanto tempo,\N deveriam receber uma chance de paz.
+Dialogue: 10,0:16:22.63,0:16:26.01,Default,,0,0,0,,Especialmente porque sua terra\Nnatal se recusou a fazer isso.
+Dialogue: 10,0:16:28.05,0:16:31.22,Default,,0,0,0,,Eu quero que a Federação\Nseja justa, pelo menos.
 Dialogue: 10,0:16:31.22,0:16:32.01,Default,,0,0,0,,Porque...
 Dialogue: 10,0:16:33.43,0:16:36.39,Default,,0,0,0,,esse é o ideal da humanidade.
 Dialogue: 10,0:17:03.63,0:17:05.92,Default,,0,0,0,,Vamos salvar nossos patéticos camaradas!
@@ -245,73 +245,73 @@ Dialogue: 10,0:17:05.92,0:17:07.67,Default,,0,0,0,,Vamos salvá-los!
 Dialogue: 10,0:17:07.67,0:17:10.68,Default,,0,0,0,,Os Eighty-Six são vítimas!
 Dialogue: 10,0:17:10.68,0:17:12.30,Default,,0,0,0,,Vítimas!
 Dialogue: 10,0:17:12.30,0:17:15.18,Default,,0,0,0,,Vamos salvar nossos patéticos camaradas!
-Dialogue: 10,0:17:15.18,0:17:20.23,Default,,0,0,0,,Eles ficaram todos felizes quando você foi resgatado.
+Dialogue: 10,0:17:15.18,0:17:20.23,Default,,0,0,0,,Eles ficaram todos felizes\Nquando você foi resgatado.
 Dialogue: 10,0:17:15.18,0:17:17.60,Default,,0,0,0,,{\an8}Vamos salvá-los!
-Dialogue: 10,0:17:20.23,0:17:24.31,Default,,0,0,0,,{\q2}porque descobriram\Nque outro país sobreviveu.
+Dialogue: 10,0:17:20.23,0:17:24.31,Default,,0,0,0,,{\q2}porque descobriram\N que outro país sobreviveu.
 Dialogue: 10,0:17:24.86,0:17:27.82,Default,,0,0,0,,Mas ao saberem como você foi tratado,
-Dialogue: 10,0:17:27.82,0:17:32.32,Default,,0,0,0,,{\q2}eles foram tomados pelo\Ndesejo de salvar você e seus companheiros.
-Dialogue: 10,0:17:36.16,0:17:42.62,Default,,0,0,0,,Esta é a minha casa, mas, de agora em diante, será o seu lar.
+Dialogue: 10,0:17:27.82,0:17:32.32,Default,,0,0,0,,{\q2}eles foram tomados pelo\N desejo de salvar você\Ne seus companheiros.
+Dialogue: 10,0:17:36.16,0:17:42.62,Default,,0,0,0,,Esta é a minha casa, mas, de agora\Nem diante, será o seu lar.
 Dialogue: 10,0:17:46.17,0:17:47.50,Default,,0,0,0,,Bem-vindos!
 Dialogue: 10,0:17:46.59,0:17:48.26,Default - Alt,,0,0,0,,{\pos(960,940)}Depressa!
 Dialogue: 10,0:17:48.26,0:17:49.92,Default,,0,0,0,,Empurra aquela mesa!
 Dialogue: 10,0:17:49.92,0:17:51.55,Default,,0,0,0,,Precisamos nos apressar!
-Dialogue: 10,0:17:54.93,0:17:59.06,Default,,0,0,0,,{\q2}Bem-vindos, almas pobres que foram\Nbanidas de seu país!
-Dialogue: 10,0:18:02.52,0:18:07.44,Default,,0,0,0,,{\q2}O grande Giad os recebe\Ncom pena e compaixão!
-Dialogue: 10,0:18:07.44,0:18:10.36,Default,,0,0,0,,{\q2}Não esperamos nenhum tipo de\Nrecompensa de nascidos humildes como vocês,
-Dialogue: 10,0:18:10.36,0:18:13.16,Default,,0,0,0,,então seus agradecimentos são suficientes!
+Dialogue: 10,0:17:54.93,0:17:59.06,Default,,0,0,0,,{\q2}Bem-vindos, almas pobres que foram\N banidas de seu país!
+Dialogue: 10,0:18:02.52,0:18:07.44,Default,,0,0,0,,{\q2}O grande Giad os recebe\N com pena e compaixão!
+Dialogue: 10,0:18:07.44,0:18:10.36,Default,,0,0,0,,{\q2}Não esperamos nenhum tipo de\N recompensa de nascidos\Nhumildes como vocês,
+Dialogue: 10,0:18:10.36,0:18:13.16,Default,,0,0,0,,então seus agradecimentos\Nsão suficientes!
 Dialogue: 10,0:18:14.16,0:18:15.78,Default,,0,0,0,,Ei, olhos vermelhos!
 Dialogue: 10,0:18:15.78,0:18:17.95,Default,,0,0,0,,Por que você está desviando o olhar?
 Dialogue: 10,0:18:17.95,0:18:19.41,Default,,0,0,0,,Eu pensei que havia mais alguém aqui.
 Dialogue: 10,0:18:19.41,0:18:21.87,Default,,0,0,0,,Você já fechou a porta!
 Dialogue: 10,0:18:21.87,0:18:23.33,Default,,0,0,0,,Você está debochando de mim?
 Dialogue: 10,0:18:23.33,0:18:23.92,Default,,0,0,0,,Sim.
-Dialogue: 10,0:18:25.25,0:18:28.30,Default,,0,0,0,,{\q2}Este é o problema das pessoas de baixa linhagem\Nda República.
+Dialogue: 10,0:18:25.25,0:18:28.30,Default,,0,0,0,,{\q2}Este é o problema das\Npessoas de baixa linhagem\N da República.
 Dialogue: 10,0:18:28.30,0:18:29.38,Default,,0,0,0,,Esta é sua filha?
-Dialogue: 10,0:18:29.38,0:18:32.92,Default,,0,0,0,,{\q2}Pode ser indelicado da minha parte dizer isso,\Nmas você provavelmente precisa discipliná-la melhor.
+Dialogue: 10,0:18:29.38,0:18:32.92,Default,,0,0,0,,{\q2}Pode ser indelicado da\Nminha parte dizer isso,\N mas você provavelmente precisa\Ndiscipliná-la melhor.
 Dialogue: 10,0:18:32.92,0:18:35.72,Default,,0,0,0,,Ah, não. Ela não é minha filha—
-Dialogue: 10,0:18:35.72,0:18:39.10,Default,,0,0,0,,{\q2}Você realmente acha que eu sou a\Nfilha deste burocrata insignificante?
+Dialogue: 10,0:18:35.72,0:18:39.10,Default,,0,0,0,,{\q2}Você realmente acha que eu sou a\N filha deste burocrata insignificante?
 Dialogue: 10,0:18:39.10,0:18:39.64,Default,,0,0,0,,Eu sou—
 Dialogue: 10,0:18:39.64,0:18:41.68,Default,,0,0,0,,Frederica Rosenfort.
-Dialogue: 10,0:18:41.93,0:18:45.06,Default,,0,0,0,,{\q2}Devido a circunstâncias particulares,\Nela foi colocada sob meus cuidados.
+Dialogue: 10,0:18:41.93,0:18:45.06,Default,,0,0,0,,{\q2}Devido a circunstâncias particulares,\N ela foi colocada sob meus cuidados.
 Dialogue: 10,0:18:48.90,0:18:51.53,Default,,0,0,0,,É um incômodo explicar a todos,
-Dialogue: 10,0:18:51.86,0:18:54.95,Default,,0,0,0,,então, oficialmente falando, ela é minha filha.
-Dialogue: 10,0:18:54.95,0:18:58.99,Default,,0,0,0,,Mas independentemente disso, vocês vão morar juntos por um tempo.
-Dialogue: 10,0:18:58.99,0:19:04.66,Default,,0,0,0,,{\q2}Então eu agradeceria se vocês pensassem nela\Ncomo uma irmãzinha um pouco ingênua.
+Dialogue: 10,0:18:51.86,0:18:54.95,Default,,0,0,0,,então, oficialmente falando,\Nela é minha filha.
+Dialogue: 10,0:18:54.95,0:18:58.99,Default,,0,0,0,,Mas independentemente disso, vocês\Nvão morar juntos por um tempo.
+Dialogue: 10,0:18:58.99,0:19:04.66,Default,,0,0,0,,{\q2}Então eu agradeceria\Nse vocês pensassem nela\N como uma irmãzinha um pouco ingênua.
 Dialogue: 10,0:19:05.92,0:19:07.25,Default,,0,0,0,,"Irmãzinha", é?
 Dialogue: 10,0:19:07.25,0:19:12.09,Default,,0,0,0,,Ah, no papel, eu adotei vocês também.
-Dialogue: 10,0:19:12.09,0:19:15.30,Default,,0,0,0,,Então você pode me chamar de "Pai", se quiser.
+Dialogue: 10,0:19:12.09,0:19:15.30,Default,,0,0,0,,Então você pode me chamar\Nde "Pai", se quiser.
 Dialogue: 10,0:19:21.93,0:19:23.56,Default,,0,0,0,,Estou apenas brincando.
 Dialogue: 10,0:19:28.52,0:19:31.69,Default,,0,0,0,,O que é isso no seu pescoço?
 Dialogue: 10,0:19:32.03,0:19:34.49,Default,,0,0,0,,Pare com isso, Frederica.
 Dialogue: 10,0:19:34.49,0:19:36.45,Default,,0,0,0,,Eu já expliquei a situação deles.
-Dialogue: 10,0:19:36.99,0:19:40.45,Default,,0,0,0,,Você também tem feridas que prefere manter em segredo.
-Dialogue: 10,0:19:44.58,0:19:50.09,Default,,0,0,0,,{\q2}Eu sou a irmãzinha fofa que lhes foi dada para curar suas feridas.\N
-Dialogue: 10,0:19:50.09,0:19:53.88,Default,,0,0,0,,A família, o lar e a felicidade que você perdeu...
-Dialogue: 10,0:19:53.88,0:19:58.34,Default,,0,0,0,,{\q2}A nobre e compassiva Federacy está disposta a lhe conceder.
+Dialogue: 10,0:19:36.99,0:19:40.45,Default,,0,0,0,,Você também tem feridas que\Nprefere manter em segredo.
+Dialogue: 10,0:19:44.58,0:19:50.09,Default,,0,0,0,,{\q2}Eu sou a irmãzinha fofa que lhes\Nfoi dada para curar suas feridas.
+Dialogue: 10,0:19:50.09,0:19:53.88,Default,,0,0,0,,A família, o lar e a felicidade\Nque você perdeu...
+Dialogue: 10,0:19:53.88,0:19:58.34,Default,,0,0,0,,{\q2}A nobre e compassiva Federacy\Nestá disposta a lhe conceder.
 Dialogue: 10,0:19:58.34,0:20:01.10,Default,,0,0,0,,Seja muito gentil comigo!
 Dialogue: 10,0:20:01.43,0:20:02.56,Default,,0,0,0,,Meus irmãos e minhas irmãs!
 Dialogue: 10,0:20:05.81,0:20:09.81,Default,,0,0,0,,Theresa, eles estão sendo cruéis!
 Dialogue: 10,0:20:09.81,0:20:10.98,Default,,0,0,0,,Certo, certo.
-Dialogue: 10,0:20:10.98,0:20:16.03,Default,,0,0,0,,{\q2}Frederica, tudo o que acabou de\Nacontecer foi culpa sua.
+Dialogue: 10,0:20:10.98,0:20:16.03,Default,,0,0,0,,{\q2}Frederica, tudo o que acabou de\N acontecer foi culpa sua.
 Dialogue: 10,0:20:16.03,0:20:18.95,Default,,0,0,0,,{\an8}Não foi! Não foi!
 Dialogue: 10,0:20:17.65,0:20:21.83,Default,,0,0,0,,Eu sou Theresa. Vou cuidar de você.
 Dialogue: 10,0:20:24.16,0:20:27.16,Default,,0,0,0,,Sejam bem-vindos em casa.
-Dialogue: 10,0:20:31.75,0:20:34.80,Default,,0,0,0,,Estou entediado(a). Todos foram dormir tão cedo.
-Dialogue: 10,0:20:41.14,0:20:43.89,Default,,0,0,0,,Desculpa, eu sei que você está cansado(a).
+Dialogue: 10,0:20:31.75,0:20:34.80,Default,,0,0,0,,Estou entediado(a). Todos\Nforam dormir tão cedo.
+Dialogue: 10,0:20:41.14,0:20:43.89,Default,,0,0,0,,Desculpa, eu sei que\Nvocê está cansado(a).
 Dialogue: 10,0:20:43.89,0:20:45.93,Default,,0,0,0,,Eu estava guardando isso.
 Dialogue: 10,0:20:45.93,0:20:47.68,Default,,0,0,0,,Estava na sua máquina de guerra.
 Dialogue: 10,0:20:48.77,0:20:49.94,Default,,0,0,0,,É seu?
 Dialogue: 10,0:20:54.86,0:20:55.82,Default,,0,0,0,,Sim.
-Dialogue: 10,0:20:59.32,0:21:01.70,Default,,0,0,0,,Obrigado(a), Theresa.
+Dialogue: 10,0:20:59.32,0:21:01.70,Default,,0,0,0,,Obrigada, Theresa.
 Dialogue: 10,0:21:01.70,0:21:03.45,Default,,0,0,0,,De jeito nenhum, senhor.
-Dialogue: 10,0:21:03.45,0:21:08.08,Default,,0,0,0,,Crianças dessa idade comem muito. É divertido cozinhar para elas.
-Dialogue: 10,0:21:08.37,0:21:12.33,Default,,0,0,0,,Me desculpe. Isso provavelmente será difícil.
-Dialogue: 10,0:21:12.33,0:21:18.55,Default,,0,0,0,,De forma alguma. Servir você é o meu trabalho.
-Dialogue: 10,0:21:19.80,0:21:25.81,Default,,0,0,0,,{\q2}Você me despreza por tentar\Ncompensar coisas como isso?
+Dialogue: 10,0:21:03.45,0:21:08.08,Default,,0,0,0,,Crianças dessa idade comem muito.\NÉ divertido cozinhar para elas.
+Dialogue: 10,0:21:08.37,0:21:12.33,Default,,0,0,0,,Me desculpe. Isso provavelmente\Nserá difícil.
+Dialogue: 10,0:21:12.33,0:21:18.55,Default,,0,0,0,,De forma alguma. Servir\Nvocê é o meu trabalho.
+Dialogue: 10,0:21:19.80,0:21:25.81,Default,,0,0,0,,{\q2}Você me despreza por tentar\N compensar coisas como isso?
 Dialogue: 10,0:21:26.81,0:21:29.77,Default,,0,0,0,,Por estar usando eles como substitutos?
 Dialogue: 10,0:21:29.77,0:21:33.65,Default,,0,0,0,,Não. Eles jamais poderiam substituí-los.
-Dialogue: 10,0:21:33.65,0:21:39.44,Default,,0,0,0,,Toda pessoa é um indivíduo irreplicável em sua própria essência.
-Dialogue: 10,0:21:39.44,0:21:43.49,Default,,0,0,0,,Mas mesmo assim, as pessoas tentam enterrar o passado.
+Dialogue: 10,0:21:33.65,0:21:39.44,Default,,0,0,0,,Toda pessoa é um indivíduo irreplicável\Nem sua própria essência.
+Dialogue: 10,0:21:39.44,0:21:43.49,Default,,0,0,0,,Mas mesmo assim, as pessoas\Ntentam enterrar o passado.
 Dialogue: 10,0:21:43.49,0:21:46.24,Default,,0,0,0,,Por qualquer meio que seja possível.
 Dialogue: 10,0:21:46.24,0:21:48.33,Default,,0,0,0,,A quem você está falando?
 Dialogue: 10,0:21:49.08,0:21:50.37,Default,,0,0,0,,Imperatriz?

@@ -24,22 +24,22 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 Dialogue: 10,0:00:07.57,0:00:08.45,Default,,0,0,0,,Tenente Coronel.
 Dialogue: 10,0:00:08.45,0:00:10.70,Default,,0,0,0,,Sim. Acabei de avistá-los.
-Dialogue: 10,0:00:10.70,0:00:12.62,Default,,0,0,0,,Eles estão tentando bloquear nossa passagem.
+Dialogue: 10,0:00:10.70,0:00:12.62,Default,,0,0,0,,Eles estão tentando bloquear\Nnossa passagem.
 Dialogue: 10,0:00:12.62,0:00:13.49,Default,,0,0,0,,Conseguimos nos esquivar deles?
 Dialogue: 10,0:00:13.49,0:00:15.12,Default,,0,0,0,,Seria difícil.
-Dialogue: 10,0:00:15.12,0:00:18.50,Default,,0,0,0,,Eu não te falei? Ela é ruim em manobras de curva.
+Dialogue: 10,0:00:15.12,0:00:18.50,Default,,0,0,0,,Eu não te falei? Ela é ruim\Nem manobras de curva.
 Dialogue: 10,0:00:18.87,0:00:21.42,Default,,0,0,0,,Deixo com esses caras.
-Dialogue: 10,0:00:21.42,0:00:24.09,Default,,0,0,0,,Não se preocupe, você só precisa focar no Morpho.
+Dialogue: 10,0:00:21.42,0:00:24.09,Default,,0,0,0,,Não se preocupe, você só\Nprecisa focar no Morpho.
 Dialogue: 10,0:00:24.09,0:00:25.26,Default,,0,0,0,,Como?
-Dialogue: 10,0:00:25.26,0:00:28.51,Default,,0,0,0,,Eu esperava pousar e deixar vocês aí, mas...
+Dialogue: 10,0:00:25.26,0:00:28.51,Default,,0,0,0,,Eu esperava pousar e deixar\Nvocês aí, mas...
 Dialogue: 10,0:00:28.76,0:00:30.18,Default,,0,0,0,,Vocês vão nos largar aqui?
 Dialogue: 10,0:00:30.18,0:00:31.34,Default,,0,0,0,,Dessa altitude?
-Dialogue: 10,0:00:31.34,0:00:36.39,Default,,0,0,0,,{\q2}Não se preocupem, montamos isso em cima da hora,\Nmas deve funcionar perfeitamente!
+Dialogue: 10,0:00:31.34,0:00:36.39,Default,,0,0,0,,{\q2}Não se preocupem, montamos\Nisso em cima da hora,\N mas deve funcionar perfeitamente!
 Dialogue: 10,0:00:36.89,0:00:39.39,Default,,0,0,0,,Não se preocupem conosco.
-Dialogue: 10,0:00:39.69,0:00:42.02,Default,,0,0,0,,Eu trouxe uma unidade sobressalente para mim.
-Dialogue: 10,0:00:42.44,0:00:46.03,Default,,0,0,0,,{\q2}Tenente Coronel, se o senhor está criando uma distração,\No senhor não precisa continuar lutando.
-Dialogue: 10,0:00:46.03,0:00:49.11,Default,,0,0,0,,Assim que fizer contato, recue para a floresta.
-Dialogue: 10,0:00:49.11,0:00:51.03,Default,,0,0,0,,Bem, obrigado(a).
+Dialogue: 10,0:00:39.69,0:00:42.02,Default,,0,0,0,,Eu trouxe uma unidade sobressalente\Npara mim.
+Dialogue: 10,0:00:42.44,0:00:46.03,Default,,0,0,0,,{\q2}Tenente Coronel, se o senhor\Nestá criando uma distração,\N o senhor não precisa continuar lutando.
+Dialogue: 10,0:00:46.03,0:00:49.11,Default,,0,0,0,,Assim que fizer contato,\Nrecue para a floresta.
+Dialogue: 10,0:00:49.11,0:00:51.03,Default,,0,0,0,,Bem, obrigada.
 Dialogue: 10,0:00:51.03,0:00:55.24,Default,,0,0,0,,Mas não subestime o meu poder, pirralho.
 Dialogue: 10,0:00:58.29,0:01:00.42,Default,,0,0,0,,Que a velocidade dos deuses nos proteja!
 Dialogue: 10,0:01:22.69,0:01:24.81,Default,,0,0,0,,O Nachzehrer...
@@ -47,15 +47,15 @@ Dialogue: 10,0:01:24.81,0:01:27.53,Default,,0,0,0,,Todos, preparem-se para o imp
 Dialogue: 10,0:01:41.25,0:01:42.54,Default,,0,0,0,,Tenente Coronel...
 Dialogue: 10,0:01:44.88,0:01:45.92,Default,,0,0,0,,Vamos.
 Dialogue: 10,0:03:26.48,0:03:27.98,Default,,0,0,0,,Nachzehrer, sinal perdido!
-Dialogue: 10,0:03:27.98,0:03:32.61,Default,,0,0,0,,{\q2}Todas as unidades foram implantadas antes da perda,\Ne confirmamos que estão intactas.
-Dialogue: 10,0:03:32.86,0:03:37.28,Default,,0,0,0,,{\q2}No entanto, recebemos informações do Primeiro Tenente\NNouzen de que encontraram o inimigo.
-Dialogue: 10,0:03:37.28,0:03:39.62,Default,,0,0,0,,O inimigo estabeleceu um perímetro defensivo.
+Dialogue: 10,0:03:27.98,0:03:32.61,Default,,0,0,0,,{\q2}Todas as unidades foram\Nimplantadas antes da perda,\N e confirmamos que estão intactas.
+Dialogue: 10,0:03:32.86,0:03:37.28,Default,,0,0,0,,{\q2}No entanto, recebemos informações\Ndo Primeiro Tenente\N Nouzen de que encontraram o inimigo.
+Dialogue: 10,0:03:37.28,0:03:39.62,Default,,0,0,0,,O inimigo estabeleceu um\Nperímetro defensivo.
 Dialogue: 10,0:03:39.99,0:03:41.83,Default,,0,0,0,,Qual é o status do Esquadrão Nordlicht?
-Dialogue: 10,0:03:42.16,0:03:46.08,Default,,0,0,0,,{\q2}O esquadrão está se engajando com\Nas forças defensivas do Morpho
+Dialogue: 10,0:03:42.16,0:03:46.08,Default,,0,0,0,,{\q2}O esquadrão está se engajando com\N as forças defensivas do Morpho
 Dialogue: 10,0:03:46.08,0:03:47.75,Default,,0,0,0,,e está se aproximando do alvo.
-Dialogue: 10,0:03:53.21,0:03:55.38,Default,,0,0,0,,Ei, eles estão nos conduzindo a algum lugar?
+Dialogue: 10,0:03:53.21,0:03:55.38,Default,,0,0,0,,Ei, eles estão nos conduzindo\Na algum lugar?
 Dialogue: 10,0:03:55.38,0:03:56.97,Default,,0,0,0,,O que faremos agora, Comandante?
-Dialogue: 10,0:03:56.97,0:04:00.85,Default,,0,0,0,,{\q2}Com eles enxameando assim,\Nnão podemos contar apenas com os ouvidos de Shin.
+Dialogue: 10,0:03:56.97,0:04:00.85,Default,,0,0,0,,{\q2}Com eles enxameando assim,\N não podemos contar apenas\Ncom os ouvidos de Shin.
 Dialogue: 10,0:04:00.85,0:04:03.43,Default,,0,0,0,,Temos que continuar avançando!
 Dialogue: 10,0:04:16.19,0:04:17.36,Default,,0,0,0,,Mais um está vindo!
 Dialogue: 10,0:04:19.86,0:04:20.70,Default,,0,0,0,,Shin!
@@ -63,12 +63,12 @@ Dialogue: 10,0:04:32.04,0:04:33.13,Default,,0,0,0,,É isso.
 Dialogue: 10,0:04:33.13,0:04:35.92,Default,,0,0,0,,Nossa... ele é desse tamanho?
 Dialogue: 10,0:04:35.92,0:04:38.42,Default,,0,0,0,,O Morpho parece um milípede.
 Dialogue: 10,0:04:38.42,0:04:40.97,Default,,0,0,0,,Não é como um centopeiu?
-Dialogue: 10,0:04:40.97,0:04:43.39,Default,,0,0,0,,Ele tem pernas compridas e está se contorcendo por aí.
-Dialogue: 10,0:04:43.39,0:04:45.85,Default,,0,0,0,,Não importa. De qualquer jeito, é nojento.
-Dialogue: 10,0:04:45.85,0:04:51.19,Default,,0,0,0,,{\q2}Læraðr HQ: Localizamos o alvo perto do\Nterminal ferroviário de alta velocidade em Kreutzbek City.
+Dialogue: 10,0:04:40.97,0:04:43.39,Default,,0,0,0,,Ele tem pernas compridas e\Nestá se contorcendo por aí.
+Dialogue: 10,0:04:43.39,0:04:45.85,Default,,0,0,0,,Não importa. De qualquer\Njeito, é nojento.
+Dialogue: 10,0:04:45.85,0:04:51.19,Default,,0,0,0,,{\q2}Læraðr HQ: Localizamos o alvo perto do\N terminal ferroviário de alta velocidade\Nem Kreutzbek City.
 Dialogue: 10,0:04:51.73,0:04:53.98,Default,,0,0,0,,Os reparos não parecem estar completos.
 Dialogue: 10,0:04:53.98,0:04:56.03,Default,,0,0,0,,Læraðr HQ: Copiado!
-Dialogue: 10,0:04:56.03,0:04:59.40,Default,,0,0,0,,Um drone de reconhecimento do Reino Unido está por perto.
+Dialogue: 10,0:04:56.03,0:04:59.40,Default,,0,0,0,,Um drone de reconhecimento do\NReino Unido está por perto.
 Dialogue: 10,0:04:59.40,0:05:02.16,Default,,0,0,0,,Copiado. Vamos iniciar o ataque agora.
 Dialogue: 10,0:05:06.70,0:05:07.62,Default,,0,0,0,,Ele se moveu!
 Dialogue: 10,0:05:09.87,0:05:12.12,Default,,0,0,0,,Eu vou matar você! Eu vou matar você!
@@ -84,52 +84,52 @@ Dialogue: 10,0:05:53.46,0:05:54.38,Default,,0,0,0,,Comandante!
 Dialogue: 10,0:05:55.13,0:05:57.75,Default,,0,0,0,,Eu vou te matar! Eu vou te matar!
 Dialogue: 10,0:05:57.75,0:05:58.50,Default,,0,0,0,,Eu...
 Dialogue: 10,0:06:10.22,0:06:11.39,Default,,0,0,0,,Recua, Shinei!
-Dialogue: 10,0:06:11.39,0:06:13.85,Default,,0,0,0,,Aquilo que você está olhando não é mais a Kiri!
+Dialogue: 10,0:06:11.39,0:06:13.85,Default,,0,0,0,,Aquilo que você está olhando\Nnão é mais a Kiri!
 Dialogue: 10,0:06:14.19,0:06:15.35,Default,,0,0,0,,Eu vou te matar!
 Dialogue: 10,0:06:15.61,0:06:18.90,Default,,0,0,0,,Eu vou matar todos vocês!
 Dialogue: 10,0:06:22.74,0:06:25.16,Default,,0,0,0,,Todas as unidades, recuem agora!
 Dialogue: 10,0:06:25.16,0:06:25.74,Default,,0,0,0,,O que houve?
 Dialogue: 10,0:06:25.74,0:06:27.12,Default,,0,0,0,,Eu explico depois!
 Dialogue: 10,0:06:27.12,0:06:28.28,Default,,0,0,0,,Copiado!
-Dialogue: 10,0:06:53.77,0:06:57.02,Default,,0,0,0,,Impacto detectado perto do terminal de Kreutzbek City!
+Dialogue: 10,0:06:53.77,0:06:57.02,Default,,0,0,0,,Impacto detectado perto do\Nterminal de Kreutzbek City!
 Dialogue: 10,0:06:57.02,0:06:58.56,Default,,0,0,0,,Ataque Morpho provável!
 Dialogue: 10,0:06:58.56,0:06:59.44,Default,,0,0,0,,Impossível!
 Dialogue: 10,0:06:59.44,0:07:01.36,Default,,0,0,0,,Não deveria ter sido reparado ainda!
-Dialogue: 10,0:07:02.15,0:07:04.95,Default,,0,0,0,,Se não foi um reparo, então foi uma transferência...
-Dialogue: 10,0:07:05.57,0:07:08.62,Default,,0,0,0,,{\q2}Seria mais rápido transferir\No núcleo para uma unidade de reserva.
+Dialogue: 10,0:07:02.15,0:07:04.95,Default,,0,0,0,,Se não foi um reparo, então\Nfoi uma transferência...
+Dialogue: 10,0:07:05.57,0:07:08.62,Default,,0,0,0,,{\q2}Seria mais rápido transferir\N o núcleo para uma unidade de reserva.
 Dialogue: 10,0:07:09.74,0:07:12.50,Default,,0,0,0,,Então, eles conseguiram nos atrair...
-Dialogue: 10,0:07:13.12,0:07:18.04,Default,,0,0,0,,Todos os drones de reconhecimento do Reino Unido foram perdidos no ataque.
+Dialogue: 10,0:07:13.12,0:07:18.04,Default,,0,0,0,,Todos os drones de reconhecimento\Ndo Reino Unido foram\Nperdidos no ataque.
 Dialogue: 10,0:07:18.04,0:07:21.00,Default,,0,0,0,,Aqueles latões malditos!
-Dialogue: 10,0:07:21.00,0:07:24.59,Default,,0,0,0,,Tudo o que podemos fazer agora é lançar o ataque de mísseis de saturação.
+Dialogue: 10,0:07:21.00,0:07:24.59,Default,,0,0,0,,Tudo o que podemos fazer\Nagora é lançar o ataque\Nde mísseis de saturação.
 Dialogue: 10,0:07:24.59,0:07:25.38,Default,,0,0,0,,Não adianta nada.
 Dialogue: 10,0:07:26.38,0:07:29.80,Default,,0,0,0,,Onde você atiraria esses mísseis?
 Dialogue: 10,0:07:29.80,0:07:33.18,Default,,0,0,0,,Não sabemos a localização do inimigo.
-Dialogue: 10,0:07:33.18,0:07:36.10,Default,,0,0,0,,Nossos radares não conseguem detectar, e os drones de reconhecimento foram perdidos.
+Dialogue: 10,0:07:33.18,0:07:36.10,Default,,0,0,0,,Nossos radares não conseguem\Ndetectar, e os drones de reconhecimento\Nforam perdidos.
 Dialogue: 10,0:07:36.10,0:07:37.73,Default,,0,0,0,,É um canhão de trilhos!
 Dialogue: 10,0:07:37.73,0:07:40.11,Default,,0,0,0,,Se conseguirmos destruir os trilhos...
-Dialogue: 10,0:07:40.11,0:07:43.94,Default,,0,0,0,,{\q2}Ele ainda pode atacar nossas bases operacionais avançadas a partir da posição atual, certo?\N
-Dialogue: 10,0:07:43.94,0:07:47.03,Default,,0,0,0,,E não demoraria muito para os trilhos serem reparados.
+Dialogue: 10,0:07:40.11,0:07:43.94,Default,,0,0,0,,{\q2}Ele ainda pode atacar nossas\Nbases operacionais avançadas a\Npartir da posição atual, certo?
+Dialogue: 10,0:07:43.94,0:07:47.03,Default,,0,0,0,,E não demoraria muito para\Nos trilhos serem reparados.
 Dialogue: 10,0:07:47.03,0:07:49.03,Default,,0,0,0,,Será apenas um desperdício de mísseis.
-Dialogue: 10,0:07:49.32,0:07:53.24,Default,,0,0,0,,{\q2}Agora que o Esquadrão Nordlicht fracassou,\Nnão temos mais opções.
-Dialogue: 10,0:07:53.58,0:07:56.87,Default,,0,0,0,,{\q2}Precisamos proteger a frente ocidental\Ndo ataque de artilharia,
-Dialogue: 10,0:07:56.87,0:07:58.54,Default,,0,0,0,,mesmo que seja só para ganhar tempo agora.
-Dialogue: 10,0:07:58.54,0:08:01.38,Default,,0,0,0,,E o que faremos quando este "agora" acabar?
+Dialogue: 10,0:07:49.32,0:07:53.24,Default,,0,0,0,,{\q2}Agora que o Esquadrão\NNordlicht fracassou,\N não temos mais opções.
+Dialogue: 10,0:07:53.58,0:07:56.87,Default,,0,0,0,,{\q2}Precisamos proteger a frente ocidental\N do ataque de artilharia,
+Dialogue: 10,0:07:56.87,0:07:58.54,Default,,0,0,0,,mesmo que seja só para\Nganhar tempo agora.
+Dialogue: 10,0:07:58.54,0:08:01.38,Default,,0,0,0,,E o que faremos quando\Neste "agora" acabar?
 Dialogue: 10,0:08:01.84,0:08:04.13,Default,,0,0,0,,Enviar mais uma equipe?
-Dialogue: 10,0:08:04.13,0:08:08.09,Default,,0,0,0,,Mas sem chance alguma de que voltemem segurança?
-Dialogue: 10,0:08:08.09,0:08:11.97,Default,,0,0,0,,{\q2}Abandonar os soldados que mandamos\Npara o território inimigo só para nos proteger,
+Dialogue: 10,0:08:04.13,0:08:08.09,Default,,0,0,0,,Mas sem chance alguma de\Nque voltemem segurança?
+Dialogue: 10,0:08:08.09,0:08:11.97,Default,,0,0,0,,{\q2}Abandonar os soldados que mandamos\N para o território inimigo\Nsó para nos proteger,
 Dialogue: 10,0:08:11.97,0:08:14.35,Default,,0,0,0,,desistir do resto do plano...
-Dialogue: 10,0:08:14.35,0:08:17.77,Default,,0,0,0,,Esse é um comportamento repugnante e indigno da humanidade.
-Dialogue: 10,0:08:17.77,0:08:25.78,Default,,0,0,0,,{\q2}Como o presidente substituto da Federacy e comandante supremo de seu exército, você acha que eu permitiria isso?
-Dialogue: 10,0:08:26.61,0:08:29.45,Default,,0,0,0,,A Federacy tem ideais mais elevados para defender.
-Dialogue: 10,0:08:30.95,0:08:38.16,Default,,0,0,0,,{\q2}Se estamos falando em desistir disso,\Nestaríamos melhor destruídos.
+Dialogue: 10,0:08:14.35,0:08:17.77,Default,,0,0,0,,Esse é um comportamento repugnante\Ne indigno da humanidade.
+Dialogue: 10,0:08:17.77,0:08:25.78,Default,,0,0,0,,{\q2}Como o presidente substituto\Nda Federacy e comandante\Nsupremo de seu exército, você\Nacha que eu permitiria isso?
+Dialogue: 10,0:08:26.61,0:08:29.45,Default,,0,0,0,,A Federacy tem ideais mais\Nelevados para defender.
+Dialogue: 10,0:08:30.95,0:08:38.16,Default,,0,0,0,,{\q2}Se estamos falando em desistir disso,\N estaríamos melhor destruídos.
 Dialogue: 10,0:08:42.29,0:08:45.55,Default,,0,0,0,,Você me permitiu ser presidente,
-Dialogue: 10,0:08:45.55,0:08:47.88,Default,,0,0,0,,e agora você terá que viver com as consequências!
-Dialogue: 10,0:08:47.88,0:08:51.68,Default,,0,0,0,,{\q2}Se você insiste que a única maneira de sobreviver é ir contra os meus ideais,
-Dialogue: 10,0:08:52.30,0:08:55.77,Default,,0,0,0,,então você morrerá junto com esses ideais.
+Dialogue: 10,0:08:45.55,0:08:47.88,Default,,0,0,0,,e agora você terá que viver\Ncom as consequências!
+Dialogue: 10,0:08:47.88,0:08:51.68,Default,,0,0,0,,{\q2}Se você insiste que a única maneira\Nde sobreviver é ir contra\Nos meus ideais,
+Dialogue: 10,0:08:52.30,0:08:55.77,Default,,0,0,0,,então você morrerá junto\Ncom esses ideais.
 Dialogue: 10,0:09:00.81,0:09:03.31,Default,,0,0,0,,Parece que isso pode ser desnecessário.
-Dialogue: 10,0:09:03.73,0:09:06.61,Default,,0,0,0,,Todos os membros do Esquadrão Nordlicht sobreviveram!
-Dialogue: 10,0:09:07.23,0:09:10.07,Default,,0,0,0,,Eles ainda estão tentando destruir o Morpho!
-Dialogue: 10,0:09:21.96,0:09:25.13,Default,,0,0,0,,Pensar que o verdadeiro estava em outro lugar...
+Dialogue: 10,0:09:03.73,0:09:06.61,Default,,0,0,0,,Todos os membros do Esquadrão\NNordlicht sobreviveram!
+Dialogue: 10,0:09:07.23,0:09:10.07,Default,,0,0,0,,Eles ainda estão tentando\Ndestruir o Morpho!
+Dialogue: 10,0:09:21.96,0:09:25.13,Default,,0,0,0,,Pensar que o verdadeiro\Nestava em outro lugar...
 Dialogue: 10,0:09:25.13,0:09:27.76,Default,,0,0,0,,Nem você sabia?
 Dialogue: 10,0:09:28.01,0:09:30.84,Default,,0,0,0,,Todas as unidades: Nosso alvo mudou.
 Dialogue: 10,0:09:30.84,0:09:33.68,Default,,0,0,0,,Curso 2-8-0. Distância 5.000.
@@ -139,20 +139,20 @@ Dialogue: 10,0:09:37.14,0:09:38.47,Default,,0,0,0,,Copiado!
 Dialogue: 10,0:09:49.11,0:09:49.78,Default,,0,0,0,,Fogo!
 Dialogue: 10,0:09:59.33,0:10:00.16,Default,,0,0,0,,Maldita seja!
 Dialogue: 10,0:10:26.44,0:10:28.73,Default,,0,0,0,,Pale Rider para No Face:
-Dialogue: 10,0:10:28.73,0:10:31.11,Default,,0,0,0,,O cronograma de disparos foi executado com sucesso.
-Dialogue: 10,0:10:31.40,0:10:36.32,Default,,0,0,0,,{\q2}Um alvo especial com o código "Báleygr"\Nfoi atraído e destruído com sucesso.
+Dialogue: 10,0:10:28.73,0:10:31.11,Default,,0,0,0,,O cronograma de disparos foi\Nexecutado com sucesso.
+Dialogue: 10,0:10:31.40,0:10:36.32,Default,,0,0,0,,{\q2}Um alvo especial com o código "Báleygr"\N foi atraído e destruído com sucesso.
 Dialogue: 10,0:10:36.32,0:10:38.16,Default,,0,0,0,,A análise estava correta.
-Dialogue: 10,0:10:38.16,0:10:41.54,Default,,0,0,0,,{\q2}O Báleygr não conseguiu detectar a unidade de apoio\Nquando ela estava em modo hibernação.
+Dialogue: 10,0:10:38.16,0:10:41.54,Default,,0,0,0,,{\q2}O Báleygr não conseguiu\Ndetectar a unidade de apoio\N quando ela estava em modo hibernação.
 Dialogue: 10,0:10:41.54,0:10:43.87,Default,,0,0,0,,No Face para Pale Rider:
-Dialogue: 10,0:10:43.87,0:10:46.13,Default,,0,0,0,,Solicitando confirmação da destruição de Báleygr.
-Dialogue: 10,0:10:48.46,0:10:51.88,Default,,0,0,0,,Pale Rider para No Face: Confirmação desnecessária.
+Dialogue: 10,0:10:43.87,0:10:46.13,Default,,0,0,0,,Solicitando confirmação da\Ndestruição de Báleygr.
+Dialogue: 10,0:10:48.46,0:10:51.88,Default,,0,0,0,,Pale Rider para No Face: Confirmação\Ndesnecessária.
 Dialogue: 10,0:10:51.88,0:10:54.13,Default,,0,0,0,,Báleygr foi sem dúvida destruído.
 Dialogue: 10,0:10:55.22,0:10:57.01,Default,,0,0,0,,No Face: Copiado!
-Dialogue: 10,0:10:57.01,0:11:01.81,Default,,0,0,0,,Abandonem a posição de tiro e se realoquem para a região designada.
+Dialogue: 10,0:10:57.01,0:11:01.81,Default,,0,0,0,,Abandonem a posição de tiro e se realoquem\Npara a região designada.
 Dialogue: 10,0:11:05.48,0:11:06.48,Default,,0,0,0,,Copiado!
 Dialogue: 10,0:11:14.65,0:11:16.66,Default,,0,0,0,,Acho que alguns sobreviveram, hein?
 Dialogue: 10,0:11:24.66,0:11:26.21,Default,,0,0,0,,Vermes.
-Dialogue: 10,0:11:26.54,0:11:29.04,Default,,0,0,0,,Você acha que seus atiradores de ervilha podem me derrotar?
+Dialogue: 10,0:11:26.54,0:11:29.04,Default,,0,0,0,,Você acha que seus atiradores\Nde ervilha podem me derrotar?
 Dialogue: 10,0:11:35.59,0:11:37.26,Default,,0,0,0,,Báleygr!
 Dialogue: 10,0:11:37.26,0:11:38.93,Default,,0,0,0,,Ele ainda consegue se mover?
 Dialogue: 10,0:11:39.26,0:11:40.35,Default,,0,0,0,,Impossível...
@@ -163,27 +163,27 @@ Dialogue: 10,0:11:52.94,0:11:54.28,Default,,0,0,0,,Ainda está muito longe...
 Dialogue: 10,0:11:58.86,0:12:03.08,Default,,0,0,0,,E agora? Atirar de novo, Shin?
 Dialogue: 10,0:12:05.16,0:12:06.16,Default,,0,0,0,,Shin!
 Dialogue: 10,0:12:07.41,0:12:09.75,Default,,0,0,0,,Sem Rosto para o Cavaleiro Pálido:
-Dialogue: 10,0:12:09.75,0:12:13.25,Default,,0,0,0,,{\q2}Deixe os inimigos sobreviventes para suas forças de escolta\Ne retire imediatamente.
+Dialogue: 10,0:12:09.75,0:12:13.25,Default,,0,0,0,,{\q2}Deixe os inimigos sobreviventes\Npara suas forças de escolta\N e retire imediatamente.
 Dialogue: 10,0:12:13.55,0:12:15.63,Default,,0,0,0,,Pale Rider para No Face:
 Dialogue: 10,0:12:15.63,0:12:18.05,Default,,0,0,0,,Impossível acatar o comando.
-Dialogue: 10,0:12:18.05,0:12:20.05,Default,,0,0,0,,A unidade hostil será eliminada imediatamente.
+Dialogue: 10,0:12:18.05,0:12:20.05,Default,,0,0,0,,A unidade hostil será eliminada\Nimediatamente.
 Dialogue: 10,0:12:20.05,0:12:22.18,Default,,0,0,0,,No Face para Pale Rider:
 Dialogue: 10,0:12:22.18,0:12:23.26,Default,,0,0,0,,Repito:
-Dialogue: 10,0:12:23.26,0:12:25.77,Default,,0,0,0,,Deixe os inimigos sobreviventes para suas forças de escolta
+Dialogue: 10,0:12:23.26,0:12:25.77,Default,,0,0,0,,Deixe os inimigos sobreviventes\Npara suas forças de escolta
 Dialogue: 10,0:12:25.77,0:12:27.94,Default,,0,0,0,,e retire imediatamente do setor.
 Dialogue: 10,0:12:28.89,0:12:31.19,Default,,0,0,0,,{\an8}Eu vou matar você!
 Dialogue: 10,0:12:30.81,0:12:31.86,Default - Alt,,0,0,0,,{\an8\pos(960,140)}Shin!
-Dialogue: 10,0:12:31.23,0:12:35.03,Default,,0,0,0,,Se você tornar o desejo de me matar tão óbvio, é fácil.
+Dialogue: 10,0:12:31.23,0:12:35.03,Default,,0,0,0,,Se você tornar o desejo de me\Nmatar tão óbvio, é fácil.
 Dialogue: 10,0:12:33.15,0:12:35.03,Default,,0,0,0,,{\an8}Eu vou te matar!
 Dialogue: 10,0:12:33.44,0:12:35.03,Default - Alt,,0,0,0,,{\an8\pos(960,140)}O que houve? Shin!
-Dialogue: 10,0:12:35.32,0:12:39.41,Default,,0,0,0,,O inimigo Feldreß tem a vantagem no alcance atual.
-Dialogue: 10,0:12:39.82,0:12:45.91,Default,,0,0,0,,{\q2}Além disso, suas armas têm uma\Nalta probabilidade de matar Báleygr.
+Dialogue: 10,0:12:35.32,0:12:39.41,Default,,0,0,0,,O inimigo Feldreß tem a vantagem\Nno alcance atual.
+Dialogue: 10,0:12:39.82,0:12:45.91,Default,,0,0,0,,{\q2}Além disso, suas armas têm uma\N alta probabilidade de matar Báleygr.
 Dialogue: 10,0:12:46.62,0:12:48.87,Default,,0,0,0,,{\an8}Shin! O que houve?
 Dialogue: 10,0:12:50.21,0:12:50.58,Default,,0,0,0,,{\an8}Shin!
 Dialogue: 10,0:12:50.58,0:12:53.59,Default,,0,0,0,,{\an8}Eu vou te matar!
-Dialogue: 10,0:12:53.79,0:12:59.34,Default,,0,0,0,,{\q2}Pelos motivos citados,\Na participação no setor atual é proibida.
-Dialogue: 10,0:12:59.68,0:13:05.18,Default,,0,0,0,,{\q2}Mover-se para o setor designado e\Natacar os alvos designados.
-Dialogue: 10,0:13:18.53,0:13:22.28,Default,,0,0,0,,Repito: Retire imediatamente do setor atual.
+Dialogue: 10,0:12:53.79,0:12:59.34,Default,,0,0,0,,{\q2}Pelos motivos citados,\N a participação no setor\Natual é proibida.
+Dialogue: 10,0:12:59.68,0:13:05.18,Default,,0,0,0,,{\q2}Mover-se para o setor designado e\N atacar os alvos designados.
+Dialogue: 10,0:13:18.53,0:13:22.28,Default,,0,0,0,,Repito: Retire imediatamente\Ndo setor atual.
 Dialogue: 10,0:13:25.91,0:13:26.99,Default,,0,0,0,,Copiado!
 Dialogue: 10,0:13:34.96,0:13:36.09,Default,,0,0,0,,Não vou deixar ele escapar!
 Dialogue: 10,0:13:36.84,0:13:37.92,Default,,0,0,0,,Shin!
@@ -196,73 +196,73 @@ Dialogue: 10,0:13:43.76,0:13:45.35,Default,,0,0,0,,Eles vão nos cercar!
 Dialogue: 10,0:13:45.35,0:13:46.89,Default,,0,0,0,,O que fazemos, Shin?!
 Dialogue: 10,0:13:46.89,0:13:51.94,Default,,0,0,0,,Shin! Shin! Shin!
 Dialogue: 10,0:13:55.65,0:13:58.03,Default,,0,0,0,,Seguir o Morpho? Você enlouqueceu?
-Dialogue: 10,0:13:58.28,0:14:02.53,Default,,0,0,0,,Se nos reagruparmos, conseguiremos resistir até a força de resgate!
-Dialogue: 10,0:14:02.99,0:14:07.53,Default,,0,0,0,,{\q2}Nosso objetivo é destruir o Morpho,\Nnão tomar esta cidade.
+Dialogue: 10,0:13:58.28,0:14:02.53,Default,,0,0,0,,Se nos reagruparmos, conseguiremos\Nresistir até a força de resgate!
+Dialogue: 10,0:14:02.99,0:14:07.53,Default,,0,0,0,,{\q2}Nosso objetivo é destruir o Morpho,\N não tomar esta cidade.
 Dialogue: 10,0:14:08.16,0:14:08.99,Default,,0,0,0,,Vamos.
-Dialogue: 10,0:14:11.04,0:14:18.84,Default,,0,0,0,,Por que vocês, Eighty-Six, estão tão dispostos a arriscar suas\Nvidas por um país que nem é de vocês?
+Dialogue: 10,0:14:11.04,0:14:18.84,Default,,0,0,0,,Por que vocês, Eighty-Six, estão\Ntão dispostos a arriscar suas\N vidas por um país que nem é de vocês?
 Dialogue: 10,0:14:19.88,0:14:21.63,Default,,0,0,0,,Nossa...
-Dialogue: 10,0:14:21.63,0:14:24.47,Default,,0,0,0,,Minha sorte acabou quando comecei a trabalhar com você!
+Dialogue: 10,0:14:21.63,0:14:24.47,Default,,0,0,0,,Minha sorte acabou quando comecei\Na trabalhar com você!
 Dialogue: 10,0:14:24.47,0:14:26.18,Default,,0,0,0,,Com isso eu vou morrer.
 Dialogue: 10,0:14:26.80,0:14:29.31,Default,,0,0,0,,Atenção, todos! Estamos recuando!
-Dialogue: 10,0:14:30.10,0:14:33.81,Default,,0,0,0,,Vocês tiveram sorte. Vocês amam o inferno, e vão recebê-lo!
+Dialogue: 10,0:14:30.10,0:14:33.81,Default,,0,0,0,,Vocês tiveram sorte. Vocês amam\No inferno, e vão recebê-lo!
 Dialogue: 10,0:14:35.19,0:14:36.86,Default,,0,0,0,,Nós vamos controlar esta área.
-Dialogue: 10,0:14:36.86,0:14:40.48,Default,,0,0,0,,{\q2}É difícil dizer, mas nem nós\Nconseguimos acompanhar a mobilidade de vocês.
-Dialogue: 10,0:14:40.48,0:14:43.82,Default,,0,0,0,,Não quero ser quem vai frear vocês, crianças.
+Dialogue: 10,0:14:36.86,0:14:40.48,Default,,0,0,0,,{\q2}É difícil dizer, mas nem nós\N conseguimos acompanhar\Na mobilidade de vocês.
+Dialogue: 10,0:14:40.48,0:14:43.82,Default,,0,0,0,,Não quero ser quem vai\Nfrear vocês, crianças.
 Dialogue: 10,0:14:43.82,0:14:44.99,Default,,0,0,0,,Boa sorte.
-Dialogue: 10,0:14:52.91,0:14:53.71,Default,,0,0,0,,Obrigado(a).
+Dialogue: 10,0:14:52.91,0:14:53.71,Default,,0,0,0,,Obrigada.
 Dialogue: 10,0:15:02.30,0:15:03.72,Default,,0,0,0,,Essa marca...
 Dialogue: 10,0:15:04.76,0:15:07.22,Default,,0,0,0,,Pertence ao clã Nouzen.
 Dialogue: 10,0:15:09.10,0:15:11.22,Default,,0,0,0,,Me siga, Báleygr.
 Dialogue: 10,0:15:11.72,0:15:12.98,Default,,0,0,0,,Você é como eu.
-Dialogue: 10,0:15:12.98,0:15:16.23,Default,,0,0,0,,Você não tem lugar senão no campo de batalha...
-Dialogue: 10,0:15:16.73,0:15:19.82,Default,,0,0,0,,Mas se você ainda pretende agarrar-se à sua patética vida...
+Dialogue: 10,0:15:12.98,0:15:16.23,Default,,0,0,0,,Você não tem lugar senão\Nno campo de batalha...
+Dialogue: 10,0:15:16.73,0:15:19.82,Default,,0,0,0,,Mas se você ainda pretende agarrar-se\Nà sua patética vida...
 Dialogue: 10,0:16:15.33,0:16:17.16,Default,,0,0,0,,Eu vou te ensinar...
-Dialogue: 10,0:16:17.92,0:16:22.00,Default,,0,0,0,,{\q2}Vou destruir os camaradas que você comanda,\Na terra que você chama de lar...
+Dialogue: 10,0:16:17.92,0:16:22.00,Default,,0,0,0,,{\q2}Vou destruir os camaradas\Nque você comanda,\N a terra que você chama de lar...
 Dialogue: 10,0:16:22.00,0:16:26.34,Default,,0,0,0,,Eu vou queimá-los bem na sua frente!
-Dialogue: 10,0:16:32.51,0:16:34.68,Default,,0,0,0,,Vou fazer com que você fique completamente sozinho.
+Dialogue: 10,0:16:32.51,0:16:34.68,Default,,0,0,0,,Vou fazer com que você fique\Ncompletamente sozinho.
 Dialogue: 10,0:16:36.60,0:16:38.69,Default,,0,0,0,,{\an8}Gostaria de confirmar.
-Dialogue: 10,0:16:38.69,0:16:43.57,Default,,0,0,0,,{\q2\an8}Sua esquadra tem uma mobilidade muito maior\Nque nossa força principal.
-Dialogue: 10,0:16:44.19,0:16:46.94,Default,,0,0,0,,{\an8}E não podemos fornecer apoio de artilharia ou aéreo.
+Dialogue: 10,0:16:38.69,0:16:43.57,Default,,0,0,0,,{\q2\an8}Sua esquadra tem\Numa mobilidade muito maior\N que nossa força principal.
+Dialogue: 10,0:16:44.19,0:16:46.94,Default,,0,0,0,,{\an8}E não podemos fornecer\Napoio de artilharia ou aéreo.
 Dialogue: 10,0:16:46.94,0:16:48.53,Default,,0,0,0,,{\an8}Ou enviar reforços.
-Dialogue: 10,0:16:49.28,0:16:51.99,Default,,0,0,0,,{\an8}Tem certeza de que deseja continuar sua perseguição?
-Dialogue: 10,0:16:51.99,0:16:54.62,Default,,0,0,0,,{\an8}Apoio de fogo e reforços da força principal
+Dialogue: 10,0:16:49.28,0:16:51.99,Default,,0,0,0,,{\an8}Tem certeza de que deseja\Ncontinuar sua perseguição?
+Dialogue: 10,0:16:51.99,0:16:54.62,Default,,0,0,0,,{\an8}Apoio de fogo e reforços\Nda força principal
 Dialogue: 10,0:16:54.62,0:16:57.20,Default,,0,0,0,,{\an8}nunca fizeram parte do plano.
 Dialogue: 10,0:16:57.20,0:16:58.83,Default,,0,0,0,,Não há outra maneira.
-Dialogue: 10,0:16:58.83,0:17:03.50,Default,,0,0,0,,Ouvir você dizer isso nos coloca em um grande dilema, porém.
-Dialogue: 10,0:17:03.50,0:17:05.67,Default,,0,0,0,,Apenas porque você já se comprometeu com isso antes
-Dialogue: 10,0:17:05.67,0:17:09.30,Default,,0,0,0,,{\q2}não significa que você tenha que seguir em frente,\Nagora que a situação mudou.
-Dialogue: 10,0:17:09.72,0:17:13.85,Default,,0,0,0,,{\q2}O que eu quero dizer é que você tem a opção\Nde recuar se mudar de ideia.
+Dialogue: 10,0:16:58.83,0:17:03.50,Default,,0,0,0,,Ouvir você dizer isso nos coloca\Nem um grande dilema, porém.
+Dialogue: 10,0:17:03.50,0:17:05.67,Default,,0,0,0,,Apenas porque você já se comprometeu\Ncom isso antes
+Dialogue: 10,0:17:05.67,0:17:09.30,Default,,0,0,0,,{\q2}não significa que você\Ntenha que seguir em frente,\N agora que a situação mudou.
+Dialogue: 10,0:17:09.72,0:17:13.85,Default,,0,0,0,,{\q2}O que eu quero dizer\Né que você tem a opção\N de recuar se mudar de ideia.
 Dialogue: 10,0:17:13.85,0:17:15.01,Default,,0,0,0,,Você deve estar brincando.
-Dialogue: 10,0:17:15.60,0:17:20.27,Default,,0,0,0,,Cada minuto que gastamos recuando,\No Morpho avança para um território mais profundo da Legião
-Dialogue: 10,0:17:20.81,0:17:22.94,Default,,0,0,0,,e se torna mais difícil de ser destruído.
-Dialogue: 10,0:17:22.94,0:17:28.36,Default,,0,0,0,,{\q2}Se você se retirar e for enviado para casa,\Nnão importará o quão difícil será cumprir a missão.
-Dialogue: 10,0:17:29.44,0:17:34.53,Default,,0,0,0,,Se não pudermos derrotar o Morpho, nós morremos mesmo assim.
-Dialogue: 10,0:17:35.49,0:17:38.54,Default,,0,0,0,,Recuar hoje, só para morrer amanhã, é sem sentido.
+Dialogue: 10,0:17:15.60,0:17:20.27,Default,,0,0,0,,Cada minuto que gastamos recuando,\N o Morpho avança para um território\Nmais profundo da Legião
+Dialogue: 10,0:17:20.81,0:17:22.94,Default,,0,0,0,,e se torna mais difícil\Nde ser destruído.
+Dialogue: 10,0:17:22.94,0:17:28.36,Default,,0,0,0,,{\q2}Se você se retirar\Ne for enviado para casa,\N não importará o quão difícil\Nserá cumprir a missão.
+Dialogue: 10,0:17:29.44,0:17:34.53,Default,,0,0,0,,Se não pudermos derrotar o Morpho,\Nnós morremos mesmo assim.
+Dialogue: 10,0:17:35.49,0:17:38.54,Default,,0,0,0,,Recuar hoje, só para morrer\Namanhã, é sem sentido.
 Dialogue: 10,0:17:39.79,0:17:41.08,Default,,0,0,0,,Compreendo.
 Dialogue: 10,0:17:41.87,0:17:43.04,Default,,0,0,0,,Muito bem.
 Dialogue: 10,0:17:43.63,0:17:45.17,Default,,0,0,0,,Por minha parte, é só isso.
 Dialogue: 10,0:17:45.17,0:17:46.25,Default,,0,0,0,,Alguma pergunta?
 Dialogue: 10,0:17:48.63,0:17:49.34,Default,,0,0,0,,Não.
 Dialogue: 10,0:18:06.86,0:18:08.73,Default,,0,0,0,,Eles realmente não são crianças.
-Dialogue: 10,0:18:08.73,0:18:11.86,Default,,0,0,0,,Além disso, eles têm muito em cima de si.
-Dialogue: 10,0:18:12.32,0:18:15.32,Default,,0,0,0,,{\q2}Eu odeio dizer, mas eles vão\Nmorrer em combate mais cedo ou mais tarde.
-Dialogue: 10,0:18:15.87,0:18:19.45,Default,,0,0,0,,Lamento dizer, mas eles nem se preocuparam com você.
+Dialogue: 10,0:18:08.73,0:18:11.86,Default,,0,0,0,,Além disso, eles têm\Nmuito em cima de si.
+Dialogue: 10,0:18:12.32,0:18:15.32,Default,,0,0,0,,{\q2}Eu odeio dizer, mas eles vão\N morrer em combate mais\Ncedo ou mais tarde.
+Dialogue: 10,0:18:15.87,0:18:19.45,Default,,0,0,0,,Lamento dizer, mas eles nem\Nse preocuparam com você.
 Dialogue: 10,0:18:19.45,0:18:21.12,Default,,0,0,0,,Claro que não.
-Dialogue: 10,0:18:21.12,0:18:24.21,Default,,0,0,0,,Se eu tivesse filhos dez anos mais jovens se preocupando comigo,
+Dialogue: 10,0:18:21.12,0:18:24.21,Default,,0,0,0,,Se eu tivesse filhos dez anos mais\Njovens se preocupando comigo,
 Dialogue: 10,0:18:24.21,0:18:26.46,Default,,0,0,0,,Eu morreria de vergonha.
-Dialogue: 10,0:18:26.96,0:18:29.13,Default,,0,0,0,,Tenho certeza que você conseguiu evitar o combate,
-Dialogue: 10,0:18:29.13,0:18:31.42,Default,,0,0,0,,mas ainda estou impressionado por você ter voltado ileso.
-Dialogue: 10,0:18:32.34,0:18:35.59,Default,,0,0,0,,Vejo que suas habilidades estão afiadas como sempre, mulher-teia.
+Dialogue: 10,0:18:26.96,0:18:29.13,Default,,0,0,0,,Tenho certeza que você conseguiu\Nevitar o combate,
+Dialogue: 10,0:18:29.13,0:18:31.42,Default,,0,0,0,,mas ainda estou impressionado\Npor você ter voltado ileso.
+Dialogue: 10,0:18:32.34,0:18:35.59,Default,,0,0,0,,Vejo que suas habilidades estão afiadas\Ncomo sempre, mulher-teia.
 Dialogue: 10,0:18:36.22,0:18:38.47,Default,,0,0,0,,A Legião matando a Viúva Negra.
 Dialogue: 10,0:18:38.47,0:18:41.02,Default,,0,0,0,,Chega, Killer Mantis.
-Dialogue: 10,0:18:41.02,0:18:43.69,Default,,0,0,0,,Você se lembra como eu ganhei esse nome, não é?
-Dialogue: 10,0:18:43.69,0:18:47.56,Default,,0,0,0,,Claro que fui eu quem inventou tudo no final das contas.
-Dialogue: 10,0:18:48.07,0:18:54.45,Default,,0,0,0,,{\q2}Não há muitas noivas que tiveram que usar roupas de luto para o funeral do marido\Nantes de poder usar um vestido de noiva.
+Dialogue: 10,0:18:41.02,0:18:43.69,Default,,0,0,0,,Você se lembra como eu ganhei\Nesse nome, não é?
+Dialogue: 10,0:18:43.69,0:18:47.56,Default,,0,0,0,,Claro que fui eu quem inventou\Ntudo no final das contas.
+Dialogue: 10,0:18:48.07,0:18:54.45,Default,,0,0,0,,{\q2}Não há muitas noivas que\Ntiveram que usar roupas de luto\Npara o funeral do marido\N antes de poder usar um vestido de noiva.
 Dialogue: 10,0:18:54.45,0:18:55.86,Default,,0,0,0,,Você é terrível.
-Dialogue: 10,0:18:55.86,0:19:00.58,Default,,0,0,0,,{\q2}O General e eu estávamos prontos para te irritar\Nenchendo o salão de festas com rosas.
-Dialogue: 10,0:19:01.16,0:19:05.62,Default,,0,0,0,,{\q2}É isso que você leva por me rejeitar e\Nseguir aquele idiota que deixou a esposa para trás.
+Dialogue: 10,0:18:55.86,0:19:00.58,Default,,0,0,0,,{\q2}O General e eu estávamos\Nprontos para te irritar\N enchendo o salão de festas com rosas.
+Dialogue: 10,0:19:01.16,0:19:05.62,Default,,0,0,0,,{\q2}É isso que você leva por me rejeitar e\N seguir aquele idiota que deixou\Na esposa para trás.
 Dialogue: 10,0:19:06.42,0:19:08.46,Default,,0,0,0,,Eu não ligo para aquele monstro.
-Dialogue: 10,0:19:09.21,0:19:13.05,Default,,0,0,0,,Mas eu detestaria te ver chorando por ele de novo.
+Dialogue: 10,0:19:09.21,0:19:13.05,Default,,0,0,0,,Mas eu detestaria te ver\Nchorando por ele de novo.
 Dialogue: 10,0:19:15.43,0:19:19.30,Default,,0,0,0,,Miau! Miau! Miau!
 Dialogue: 10,0:19:19.30,0:19:20.51,Default,,0,0,0,,Um gato?
 Dialogue: 10,0:19:20.51,0:19:21.68,Default,,0,0,0,,Você é burro?
@@ -274,43 +274,43 @@ Dialogue: 10,0:19:30.61,0:19:31.90,Default,,0,0,0,,Não, Fido!
 Dialogue: 10,0:19:31.90,0:19:33.44,Default,,0,0,0,,Não abre isso!
 Dialogue: 10,0:19:41.28,0:19:42.49,Default,,0,0,0,,O que você está fazendo?!
 Dialogue: 10,0:19:43.25,0:19:44.70,Default,,0,0,0,,Por que vocês nos seguiram?!
-Dialogue: 10,0:19:44.70,0:19:46.79,Default,,0,0,0,,Se o pior acontecer, você morrerá conosco!
-Dialogue: 10,0:19:46.79,0:19:50.63,Default,,0,0,0,,Porque eu não gosto do jeito que vocês pensam, seus idiotas!
-Dialogue: 10,0:19:50.63,0:19:59.18,Default,,0,0,0,,{\q2}Até quando vocês vão pensar que estão no\NSetor Eighty-Six, onde a morte é certa?
+Dialogue: 10,0:19:44.70,0:19:46.79,Default,,0,0,0,,Se o pior acontecer,\Nvocê morrerá conosco!
+Dialogue: 10,0:19:46.79,0:19:50.63,Default,,0,0,0,,Porque eu não gosto do jeito que\Nvocês pensam, seus idiotas!
+Dialogue: 10,0:19:50.63,0:19:59.18,Default,,0,0,0,,{\q2}Até quando vocês vão pensar que estão no\N Setor Eighty-Six, onde a morte é certa?
 Dialogue: 10,0:19:59.18,0:20:03.56,Default,,0,0,0,,Até o Ernst mandou você voltar!
 Dialogue: 10,0:20:03.56,0:20:08.10,Default,,0,0,0,,Essa é a sua tarefa agora.
 Dialogue: 10,0:20:10.86,0:20:12.61,Default,,0,0,0,,Eu sou um refém.
-Dialogue: 10,0:20:12.86,0:20:15.11,Default,,0,0,0,,Não para impedir que vocês fujam do campo de batalha,
-Dialogue: 10,0:20:15.11,0:20:18.74,Default,,0,0,0,,{\q2}Mas para impedi-lo de fugir do seu dever e voltar para casa vivo!
-Dialogue: 10,0:20:19.57,0:20:25.50,Default,,0,0,0,,{\q2}Até você não gostaria que uma garota tão frágil quanto eu morresse com você, certo?
-Dialogue: 10,0:20:33.09,0:20:36.01,Default,,0,0,0,,Raiden, se eu mandasse você trazê-la de volta...
+Dialogue: 10,0:20:12.86,0:20:15.11,Default,,0,0,0,,Não para impedir que vocês\Nfujam do campo de batalha,
+Dialogue: 10,0:20:15.11,0:20:18.74,Default,,0,0,0,,{\q2}Mas para impedi-lo de fugir do\Nseu dever e voltar para casa vivo!
+Dialogue: 10,0:20:19.57,0:20:25.50,Default,,0,0,0,,{\q2}Até você não gostaria que uma garota tão\Nfrágil quanto eu morresse\Ncom você, certo?
+Dialogue: 10,0:20:33.09,0:20:36.01,Default,,0,0,0,,Raiden, se eu mandasse você\Ntrazê-la de volta...
 Dialogue: 10,0:20:36.01,0:20:37.34,Default,,0,0,0,,Não seja ridículo.
-Dialogue: 10,0:20:37.34,0:20:39.51,Default,,0,0,0,,Você é o único que tem chance de conseguir fazer isso.
+Dialogue: 10,0:20:37.34,0:20:39.51,Default,,0,0,0,,Você é o único que tem chance\Nde conseguir fazer isso.
 Dialogue: 10,0:20:39.51,0:20:40.80,Default,,0,0,0,,Nem brincando.
-Dialogue: 10,0:20:40.80,0:20:44.47,Default,,0,0,0,,{\q2}Não tem como eu passar por toda a\NLegião que está entre nós e o grosso das forças.
+Dialogue: 10,0:20:40.80,0:20:44.47,Default,,0,0,0,,{\q2}Não tem como eu passar por toda a\N Legião que está entre nós\Ne o grosso das forças.
 Dialogue: 10,0:20:44.47,0:20:47.10,Default,,0,0,0,,Quer ir com o Fido, então?
 Dialogue: 10,0:20:47.10,0:20:49.14,Default,,0,0,0,,Não vejo que isso funcione.
 Dialogue: 10,0:20:51.19,0:20:54.11,Default,,0,0,0,,Tudo bem. Eu cuido dela.
-Dialogue: 10,0:20:54.11,0:20:56.90,Default,,0,0,0,,Ela não vai servir para mais ninguém, certo?
+Dialogue: 10,0:20:54.11,0:20:56.90,Default,,0,0,0,,Ela não vai servir para\Nmais ninguém, certo?
 Dialogue: 10,0:20:56.90,0:20:57.90,Default,,0,0,0,,Ela está sob seus cuidados.
 Dialogue: 10,0:21:00.36,0:21:01.57,Default,,0,0,0,,Não faça isso nunca mais.
-Dialogue: 10,0:21:02.70,0:21:06.50,Default,,0,0,0,,Você não precisava ter feito isso. Nós não vamos morrer.
+Dialogue: 10,0:21:02.70,0:21:06.50,Default,,0,0,0,,Você não precisava ter feito\Nisso. Nós não vamos morrer.
 Dialogue: 10,0:21:08.46,0:21:09.54,Default,,0,0,0,,Certo...
 Dialogue: 10,0:21:09.54,0:21:10.75,Default,,0,0,0,,Desculpe.
 Dialogue: 10,0:21:11.79,0:21:13.46,Default,,0,0,0,,Certo, vamos almoçar.
-Dialogue: 10,0:21:13.46,0:21:15.75,Default,,0,0,0,,Pois sim, acabamos de terminar de preparar.
+Dialogue: 10,0:21:13.46,0:21:15.75,Default,,0,0,0,,Pois sim, acabamos de\Nterminar de preparar.
 Dialogue: 10,0:21:15.75,0:21:17.38,Default,,0,0,0,,Vamos precisar fazer outro.
 Dialogue: 10,0:21:17.38,0:21:18.01,Default,,0,0,0,,Frederica.
 Dialogue: 10,0:21:19.80,0:21:21.22,Default,,0,0,0,,Você sabe usar, não é?
-Dialogue: 10,0:21:22.43,0:21:26.93,Default,,0,0,0,,{\q2}Se formos eliminados e você não conseguir\Nse reunir com o grupo principal...
+Dialogue: 10,0:21:22.43,0:21:26.93,Default,,0,0,0,,{\q2}Se formos eliminados\Ne você não conseguir\N se reunir com o grupo principal...
 Dialogue: 10,0:21:27.56,0:21:29.56,Default,,0,0,0,,Use em você mesmo.
 Dialogue: 10,0:21:31.35,0:21:32.73,Default,,0,0,0,,Você tem certeza?
-Dialogue: 10,0:21:32.73,0:21:37.90,Default,,0,0,0,,Esta é a arma que você usou contra Eugene e seus companheiros.
+Dialogue: 10,0:21:32.73,0:21:37.90,Default,,0,0,0,,Esta é a arma que você usou contra\NEugene e seus companheiros.
 Dialogue: 10,0:21:37.90,0:21:39.82,Default,,0,0,0,,Eu te ordenei que fechasse os olhos.
 Dialogue: 10,0:21:39.82,0:21:42.82,Default,,0,0,0,,Tolo. Eu vi as suas memórias.
 Dialogue: 10,0:21:43.49,0:21:46.87,Default,,0,0,0,,Você carrega tudo isso.
-Dialogue: 10,0:21:51.87,0:21:56.80,Default,,0,0,0,,É muito pesado para uma garotinha frágil como eu.
-Dialogue: 10,0:21:56.80,0:21:59.59,Default,,0,0,0,,Eu devolvo isso para você quando voltarmos à base.
+Dialogue: 10,0:21:51.87,0:21:56.80,Default,,0,0,0,,É muito pesado para uma garotinha\Nfrágil como eu.
+Dialogue: 10,0:21:56.80,0:21:59.59,Default,,0,0,0,,Eu devolvo isso para você\Nquando voltarmos à base.
 Dialogue: 10,0:22:00.59,0:22:03.55,Default,,0,0,0,,{\an8}Então, certifique-se de vir comigo.
 Dialogue: 10,0:23:36.73,0:23:38.31,Default,,0,0,0,,Juntos até a morte.
 Dialogue: 1,0:01:59.64,0:01:59.68,Opening,,0,0,0,,{=156}{\fad(200,0)\blur0.6\pos(487.328125,30)\c&H000F0E0E&}d
@@ -4450,9 +4450,9 @@ Dialogue: 2,0:03:17.30,0:03:22.06,Opening,,0,0,0,,{=219}{\fad(200,80)\blur0.6\po
 Dialogue: 0,0:16:36.23,0:16:52.24,Signs,,0,0,0,,{=126}{\an2\pos(960,845)\fnLunchtype 21\fs46\fsp2\bord2\1a&HFF&\3a&H70&\blur5\fad(1000,1000)}Tempo Desde o Início da Operação
 Dialogue: 1,0:16:36.23,0:16:52.24,Signs,,0,0,0,,{\an2\pos(960,845)\fnLunchtype 21\fs46\fsp2\bord1\c&H000000&\1a&HFF&\blur0.5\fad(1000,1000)\t(1000,1000,\1a&H00&)\t(15010,15010,\1a&HFF&)}Tempo Desde o Início da Operação
 Dialogue: 2,0:16:36.23,0:16:52.24,Signs,,0,0,0,,{=127}{\an2\pos(960,845)\fnLunchtype 21\fs46\fsp2\blur0.5\fad(1000,1000)}Tempo Desde o Início da Operação
-Dialogue: 0,0:17:53.64,0:17:58.14,Signs,,0,0,0,,{=128}{\an2\pos(960,930)\fscx90\fnNewCinemaB Std D\fs80\fsp2\bord2\1a&HFF&\3a&H30&\blur5}Posto de Comando Temporário de Eastern Kreutzbek
-Dialogue: 1,0:17:53.64,0:17:58.14,Signs,,0,0,0,,{\an2\pos(960,930)\fscx90\fnNewCinemaB Std D\fs80\fsp2\bord1\c&H000000&\blur0.5}Posto de Comando Temporário de Eastern Kreutzbek
-Dialogue: 2,0:17:53.64,0:17:58.14,Signs,,0,0,0,,{=129}{\an2\pos(960,930)\fscx90\fnNewCinemaB Std D\fs80\fsp2\blur0.5}Posto de Comando Temporário de Eastern Kreutzbek
+Dialogue: 0,0:17:53.64,0:17:58.14,Signs,,0,0,0,,{=128}{\an2\pos(960,930)\fscx90\fnNewCinemaB Std D\fs80\fsp2\bord2\1a&HFF&\3a&H30&\blur5}Posto\Nde Comando Temporário de Eastern Kreutzbek
+Dialogue: 1,0:17:53.64,0:17:58.14,Signs,,0,0,0,,{\an2\pos(960,930)\fscx90\fnNewCinemaB Std D\fs80\fsp2\bord1\c&H000000&\blur0.5}Posto\Nde Comando Temporário de Eastern Kreutzbek
+Dialogue: 2,0:17:53.64,0:17:58.14,Signs,,0,0,0,,{=129}{\an2\pos(960,930)\fscx90\fnNewCinemaB Std D\fs80\fsp2\blur0.5}Posto\Nde Comando Temporário de Eastern Kreutzbek
 Dialogue: 0,0:22:14.06,0:22:14.19,Ending,,0,0,0,,{=0}{\fad(120,0)\blur1.6\bord5.5\pos(511.2265625,30)\alpha0\c&H80F3FAFF&\3c&H80F3FAFF&}ne
 Dialogue: 1,0:22:14.06,0:22:19.32,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(511.2265625,30)\c&H80F3FAFF&}ne
 Dialogue: 2,0:22:14.06,0:22:19.32,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(511.2265625,30)\bord0\c&H80F3FAFF&}ne
@@ -4709,9 +4709,9 @@ Dialogue: 0,0:22:33.04,0:22:36.84,Ending,,0,0,0,,{\fad(120,0)\blur1.6\bord5.5\po
 Dialogue: 1,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1518.95,30)\c&H80F3FAFF&}ii
 Dialogue: 2,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1518.95,30)\bord0\c&H80F3FAFF&}ii
 Dialogue: 0,0:22:36.84,0:22:37.59,Ending,,0,0,0,,{=17}{\blur1.6\bord5.5\c&H80F3FAFF&\alpha0\3c&H80F3FAFF&\move(1518.95,30.5,1516.95,-12.5,5,760)\t(\blur4\alphaFF)}ii
-Dialogue: 0,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{=18}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não se preocupe, você pode resolver seus problemas primeiro
-Dialogue: 1,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não se preocupe, você pode resolver seus problemas primeiro
-Dialogue: 2,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{=19}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não se preocupe, você pode resolver seus problemas primeiro
+Dialogue: 0,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{=18}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não\Nse preocupe, você pode resolver seus problemas primeiro
+Dialogue: 1,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não\Nse preocupe, você pode resolver seus problemas primeiro
+Dialogue: 2,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{=19}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não\Nse preocupe, você pode resolver seus problemas primeiro
 Dialogue: 0,0:22:37.84,0:22:37.96,Ending,,0,0,0,,{=20}{\fad(120,0)\blur1.6\bord5.5\pos(600.6484375,30)\alpha0\c&H80F3FAFF&\3c&H80F3FAFF&}se
 Dialogue: 1,0:22:37.84,0:22:42.47,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(600.6484375,30)\c&H80F3FAFF&}se
 Dialogue: 2,0:22:37.84,0:22:42.47,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(600.6484375,30)\bord0\c&H80F3FAFF&}se
@@ -4996,9 +4996,9 @@ Dialogue: 0,0:23:04.95,0:23:10.70,Ending,,0,0,0,,{\fad(120,0)\blur1.6\bord5.5\po
 Dialogue: 1,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1313.9921875,30)\c&H80F3FAFF&}kai
 Dialogue: 2,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1313.9921875,30)\bord0\c&H80F3FAFF&}kai
 Dialogue: 0,0:23:10.70,0:23:12.04,Ending,,0,0,0,,{=37}{\blur1.6\bord5.5\c&H80F3FAFF&\alpha0\3c&H80F3FAFF&\move(1313.9921875,30.5,1318.9921875,-16.5,5,1330)\t(\blur4\alphaFF)}Kai.
-Dialogue: 0,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{=38}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa noite, mundo paralelo. Boa noite, mundo paralelo.
-Dialogue: 1,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa noite, mundo paralelo. Boa noite, mundo paralelo.
-Dialogue: 2,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{=39}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa noite, mundo paralelo. Boa noite, mundo paralelo.
+Dialogue: 0,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{=38}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa\Nnoite, mundo paralelo. Boa noite, mundo paralelo.
+Dialogue: 1,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa\Nnoite, mundo paralelo. Boa noite, mundo paralelo.
+Dialogue: 2,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{=39}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa\Nnoite, mundo paralelo. Boa noite, mundo paralelo.
 Dialogue: 0,0:23:12.00,0:23:12.12,Ending,,0,0,0,,{=40}{\fad(120,0)\blur1.6\bord5.5\pos(797.546875,30)\alpha0\c&H80F3FAFF&\3c&H80F3FAFF&}Sa
 Dialogue: 1,0:23:12.00,0:23:27.89,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(797.546875,30)\c&H80F3FAFF&}sa
 Dialogue: 2,0:23:12.00,0:23:27.89,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(797.546875,30)\bord0\c&H80F3FAFF&}sa

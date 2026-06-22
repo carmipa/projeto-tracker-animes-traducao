@@ -23,16 +23,16 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 Dialogue: 10,0:00:06.15,0:00:06.90,Default,,0,0,0,,{\an8}Vamos.
 Dialogue: 10,0:00:21.71,0:00:22.79,Default,,0,0,0,,Frederica.
-Dialogue: 10,0:00:24.00,0:00:30.13,Default,,0,0,0,,{\q2}Se eu mandasse você esquecer a gente\Ne ir atrás daquele idiota, você conseguiria?
+Dialogue: 10,0:00:24.00,0:00:30.13,Default,,0,0,0,,{\q2}Se eu mandasse você esquecer a gente\N e ir atrás daquele idiota,\Nvocê conseguiria?
 Dialogue: 10,0:00:36.98,0:00:37.81,Default,,0,0,0,,Sim.
 Dialogue: 10,0:02:21.37,0:02:23.04,Default,,0,0,0,,Eles simplesmente não desistem.
 Dialogue: 10,0:02:23.58,0:02:24.83,Default,,0,0,0,,E os Löwes?
 Dialogue: 10,0:02:24.83,0:02:26.38,Default,,0,0,0,,Eles ainda estão nos perseguindo.
-Dialogue: 10,0:02:26.92,0:02:29.30,Default,,0,0,0,,Estão avançando pelo rio, na base do penhasco.
+Dialogue: 10,0:02:26.92,0:02:29.30,Default,,0,0,0,,Estão avançando pelo rio,\Nna base do penhasco.
 Dialogue: 10,0:02:29.88,0:02:31.71,Default,,0,0,0,,Qual é a nossa distância até o Morpho?
 Dialogue: 10,0:02:31.71,0:02:33.76,Default,,0,0,0,,Quinze mil metros, de ponto a ponto.
-Dialogue: 10,0:02:33.76,0:02:35.89,Default,,0,0,0,,Ele se moveu um pouco antes de parar novamente.
-Dialogue: 10,0:02:36.76,0:02:39.56,Default,,0,0,0,,{\q2}Não sei por quê, mas usaremos esta chance para diminuir a distância.\N
+Dialogue: 10,0:02:33.76,0:02:35.89,Default,,0,0,0,,Ele se moveu um pouco antes\Nde parar novamente.
+Dialogue: 10,0:02:36.76,0:02:39.56,Default,,0,0,0,,{\q2}Não sei por quê, mas usaremos esta\Nchance para diminuir a distância.
 Dialogue: 10,0:02:40.52,0:02:43.14,Default,,0,0,0,,Parece que está mirando em algo.
 Dialogue: 10,0:02:43.14,0:02:45.19,Default,,0,0,0,,Abaixo de nós! Eles estão disparando!
 Dialogue: 10,0:02:52.44,0:02:53.65,Default,,0,0,0,,Anju!
@@ -40,13 +40,13 @@ Dialogue: 10,0:02:56.78,0:02:57.49,Default,,0,0,0,,Anju!
 Dialogue: 10,0:02:58.16,0:02:59.24,Default,,0,0,0,,Anju!
 Dialogue: 10,0:03:01.33,0:03:02.62,Default,,0,0,0,,Estou bem.
 Dialogue: 10,0:03:02.62,0:03:04.29,Default,,0,0,0,,Minha unidade não está muito danificada.
-Dialogue: 10,0:03:04.79,0:03:08.63,Default,,0,0,0,,Embora... eu não acho que vou conseguir subir de novo.
+Dialogue: 10,0:03:04.79,0:03:08.63,Default,,0,0,0,,Embora... eu não acho que vou\Nconseguir subir de novo.
 Dialogue: 10,0:03:08.96,0:03:11.00,Default,,0,0,0,,Espera! Eu vou usar meu arame para...
 Dialogue: 10,0:03:11.88,0:03:13.59,Default,,0,0,0,,Nosso tempo está acabando.
 Dialogue: 10,0:03:14.09,0:03:16.80,Default,,0,0,0,,Eu dou conta desses daqui.
 Dialogue: 10,0:03:16.80,0:03:17.84,Default,,0,0,0,,Pessoal, avancem.
 Dialogue: 10,0:03:18.43,0:03:19.30,Default,,0,0,0,,Fido.
-Dialogue: 10,0:03:20.39,0:03:23.72,Default,,0,0,0,,Me passe todos os pacotes de mísseis sobressalentes que você tiver.
+Dialogue: 10,0:03:20.39,0:03:23.72,Default,,0,0,0,,Me passe todos os pacotes de mísseis\Nsobressalentes que você tiver.
 Dialogue: 10,0:03:29.48,0:03:30.48,Default,,0,0,0,,Mais estão vindo.
 Dialogue: 10,0:03:30.94,0:03:31.69,Default,,0,0,0,,Vamos.
 Dialogue: 10,0:03:32.48,0:03:33.07,Default,,0,0,0,,É.
@@ -54,40 +54,40 @@ Dialogue: 10,0:03:38.95,0:03:39.91,Default,,0,0,0,,Fiquem seguros.
 Dialogue: 10,0:03:41.74,0:03:42.91,Default,,0,0,0,,E agora...
 Dialogue: 10,0:03:50.29,0:03:51.67,Default,,0,0,0,,É hora de trabalhar.
 Dialogue: 10,0:04:02.85,0:04:03.72,Default,,0,0,0,,Qual o nosso status?
-Dialogue: 10,0:04:04.22,0:04:08.48,Default,,0,0,0,,{\q2}Perdemos o rastro deles, mas há outro grupo\Nque está se movendo para bloquear nosso caminho.
+Dialogue: 10,0:04:04.22,0:04:08.48,Default,,0,0,0,,{\q2}Perdemos o rastro deles,\Nmas há outro grupo\N que está se movendo para\Nbloquear nosso caminho.
 Dialogue: 10,0:04:08.48,0:04:10.35,Default,,0,0,0,,Eles realmente não desistem.
-Dialogue: 10,0:04:11.06,0:04:14.69,Default,,0,0,0,,{\q2}Eles vão nos atrapalhar quando estivermos\Nenfrentando o Morpho, não vão?
-Dialogue: 10,0:04:21.07,0:04:23.24,Default,,0,0,0,,À nossa frente há planícies abertas, correto?
-Dialogue: 10,0:04:24.54,0:04:27.79,Default,,0,0,0,,Eu não sou muito útil fora de locais como este.
+Dialogue: 10,0:04:11.06,0:04:14.69,Default,,0,0,0,,{\q2}Eles vão nos atrapalhar\Nquando estivermos\N enfrentando o Morpho, não vão?
+Dialogue: 10,0:04:21.07,0:04:23.24,Default,,0,0,0,,À nossa frente há planícies\Nabertas, correto?
+Dialogue: 10,0:04:24.54,0:04:27.79,Default,,0,0,0,,Eu não sou muito útil fora\Nde locais como este.
 Dialogue: 10,0:04:27.79,0:04:29.50,Default,,0,0,0,,Então, ficarei para trás como distração.
-Dialogue: 10,0:04:29.96,0:04:33.09,Default,,0,0,0,,Serei cauteloso, então cuidem do restante por mim.
-Dialogue: 10,0:04:36.59,0:04:39.38,Default,,0,0,0,,Eles decidiram deixar mais uma unidade para trás?
-Dialogue: 10,0:04:39.72,0:04:42.05,Default,,0,0,0,,Pensar que meros soldados comuns poderiam me encontrar
+Dialogue: 10,0:04:29.96,0:04:33.09,Default,,0,0,0,,Serei cauteloso, então cuidem\Ndo restante por mim.
+Dialogue: 10,0:04:36.59,0:04:39.38,Default,,0,0,0,,Eles decidiram deixar mais\Numa unidade para trás?
+Dialogue: 10,0:04:39.72,0:04:42.05,Default,,0,0,0,,Pensar que meros soldados comuns\Npoderiam me encontrar
 Dialogue: 10,0:04:42.64,0:04:45.89,Default,,0,0,0,,é algo que desonra o clã Nouzen.
 Dialogue: 10,0:04:46.64,0:04:47.64,Default,,0,0,0,,Contudo...
-Dialogue: 10,0:04:48.06,0:04:52.86,Default,,0,0,0,,{\q2}Sua decisão de deixar seus camaradas\Npara servirem como iscas é louvável.
-Dialogue: 10,0:04:54.36,0:04:57.11,Default,,0,0,0,,Cavaleiro Pálido para rede de área ampla:
-Dialogue: 10,0:04:57.11,0:05:00.03,Default,,0,0,0,,Iniciando o cronograma de disparos determinado.
-Dialogue: 10,0:05:00.28,0:05:03.87,Default,,0,0,0,,{\q2}Com efeito imediato, todas as comunicações serão\Nbloqueadas até que o cronograma de disparos seja concluído.
+Dialogue: 10,0:04:48.06,0:04:52.86,Default,,0,0,0,,{\q2}Sua decisão de deixar seus camaradas\N para servirem como iscas é louvável.
+Dialogue: 10,0:04:54.36,0:04:57.11,Default,,0,0,0,,Cavaleiro Pálido para\Nrede de área ampla:
+Dialogue: 10,0:04:57.11,0:05:00.03,Default,,0,0,0,,Iniciando o cronograma de\Ndisparos determinado.
+Dialogue: 10,0:05:00.28,0:05:03.87,Default,,0,0,0,,{\q2}Com efeito imediato, todas\Nas comunicações serão\N bloqueadas até que o cronograma\Nde disparos seja concluído.
 Dialogue: 10,0:05:05.03,0:05:07.66,Default,,0,0,0,,Estou prestes a encontrar um camarada.
 Dialogue: 10,0:05:07.66,0:05:10.04,Default,,0,0,0,,Não vou deixar ninguém no meu caminho!
 Dialogue: 10,0:05:10.50,0:05:11.71,Default,,0,0,0,,Ninguém!
 Dialogue: 10,0:05:12.54,0:05:13.21,Default,,0,0,0,,Desvie!
-Dialogue: 10,0:05:17.88,0:05:19.84,Default,,0,0,0,,Droga, essa coisa consegue disparar rajadas contínuas também?
+Dialogue: 10,0:05:17.88,0:05:19.84,Default,,0,0,0,,Droga, essa coisa consegue disparar\Nrajadas contínuas também?
 Dialogue: 10,0:05:19.84,0:05:21.34,Default,,0,0,0,,O quê?
 Dialogue: 10,0:05:23.84,0:05:25.10,Default,,0,0,0,,Anda logo, vai!
-Dialogue: 10,0:05:25.43,0:05:28.22,Default,,0,0,0,,Era munição de dispersão, então não causou muito dano!
-Dialogue: 10,0:05:28.22,0:05:30.14,Default,,0,0,0,,O contra-ataque deles estará aqui em breve!
+Dialogue: 10,0:05:25.43,0:05:28.22,Default,,0,0,0,,Era munição de dispersão, então\Nnão causou muito dano!
+Dialogue: 10,0:05:28.22,0:05:30.14,Default,,0,0,0,,O contra-ataque deles\Nestará aqui em breve!
 Dialogue: 10,0:05:30.14,0:05:31.56,Default,,0,0,0,,E você?
-Dialogue: 10,0:05:31.56,0:05:34.02,Default,,0,0,0,,{\q2}Tenho boa visão daqui e\Nposso fornecer um suporte de fogo melhor.
+Dialogue: 10,0:05:31.56,0:05:34.02,Default,,0,0,0,,{\q2}Tenho boa visão daqui e\N posso fornecer um suporte\Nde fogo melhor.
 Dialogue: 10,0:05:34.36,0:05:37.61,Default,,0,0,0,,Cheguem enquanto ele estiver distraído!
 Dialogue: 10,0:05:37.61,0:05:38.48,Default,,0,0,0,,Rápido!
 Dialogue: 10,0:05:40.82,0:05:41.86,Default,,0,0,0,,Entendido.
-Dialogue: 10,0:05:44.74,0:05:45.58,Default,,0,0,0,,Obrigado(a).
+Dialogue: 10,0:05:44.74,0:05:45.58,Default,,0,0,0,,Obrigada.
 Dialogue: 10,0:05:47.16,0:05:48.24,Default,,0,0,0,,Deixe comigo.
 Dialogue: 10,0:05:53.12,0:05:55.04,Default,,0,0,0,,Essas moscas irritantes.
-Dialogue: 10,0:05:55.54,0:05:58.55,Default,,0,0,0,,A este ritmo, aqueles ratos não convidados também vão atrapalhar meu caminho.
-Dialogue: 10,0:05:59.30,0:06:01.63,Default,,0,0,0,,Qualquer um que interfira deve ser eliminado imediatamente!
+Dialogue: 10,0:05:55.54,0:05:58.55,Default,,0,0,0,,A este ritmo, aqueles ratos\Nnão convidados também vão\Natrapalhar meu caminho.
+Dialogue: 10,0:05:59.30,0:06:01.63,Default,,0,0,0,,Qualquer um que interfira deve\Nser eliminado imediatamente!
 Dialogue: 10,0:06:19.23,0:06:20.44,Default,,0,0,0,,Kurena!
 Dialogue: 10,0:06:21.90,0:06:23.95,Default,,0,0,0,,Raiden, acima de nós.
 Dialogue: 10,0:06:35.46,0:06:36.88,Default,,0,0,0,,Raiden!
@@ -96,7 +96,7 @@ Dialogue: 10,0:06:37.50,0:06:39.46,Default,,0,0,0,,Ele estava tentando me proteg
 Dialogue: 10,0:06:39.46,0:06:40.46,Default,,0,0,0,,Não se preocupe.
 Dialogue: 10,0:06:40.84,0:06:42.97,Default,,0,0,0,,Não é nada que me mate,
 Dialogue: 10,0:06:42.97,0:06:45.05,Default,,0,0,0,,mas... desculpe,
-Dialogue: 10,0:06:45.38,0:06:47.30,Default,,0,0,0,,este é o ponto em que vou desistir da corrida.
+Dialogue: 10,0:06:45.38,0:06:47.30,Default,,0,0,0,,este é o ponto em que vou\Ndesistir da corrida.
 Dialogue: 10,0:06:52.27,0:06:54.64,Default,,0,0,0,,Frederica, embarque no Fido.
 Dialogue: 10,0:06:55.27,0:06:57.69,Default,,0,0,0,,Wehrwolf perdeu as duas pernas direitas.
 Dialogue: 10,0:06:57.69,0:06:59.32,Default,,0,0,0,,Não consegue avançar mais.
@@ -113,11 +113,11 @@ Dialogue: 10,0:07:37.81,0:07:39.48,Default,,0,0,0,,O que você está fazendo?
 Dialogue: 10,0:07:39.77,0:07:41.23,Default,,0,0,0,,Você vai ficar aqui.
 Dialogue: 10,0:07:42.65,0:07:44.74,Default,,0,0,0,,O Fido vai ficar e se esconder.
 Dialogue: 10,0:07:44.74,0:07:45.49,Default,,0,0,0,,Shinei!
-Dialogue: 10,0:07:45.49,0:07:48.86,Default,,0,0,0,,Se algo acontecer comigo, leve a Frederica de volta à base.
+Dialogue: 10,0:07:45.49,0:07:48.86,Default,,0,0,0,,Se algo acontecer comigo, leve\Na Frederica de volta à base.
 Dialogue: 10,0:07:49.45,0:07:51.70,Default,,0,0,0,,Não se preocupe em recuperar os outros.
 Dialogue: 10,0:07:52.12,0:07:54.29,Default,,0,0,0,,Traga-a de volta para a Federação.
 Dialogue: 10,0:07:55.08,0:07:56.12,Default,,0,0,0,,Fido, abre!
-Dialogue: 10,0:07:56.12,0:07:57.87,Default,,0,0,0,,Eu preciso falar isso diretamente para aquele idiota.
+Dialogue: 10,0:07:56.12,0:07:57.87,Default,,0,0,0,,Eu preciso falar isso diretamente\Npara aquele idiota.
 Dialogue: 10,0:07:57.87,0:07:58.54,Default,,0,0,0,,Frederica.
 Dialogue: 10,0:07:59.50,0:08:00.92,Default,,0,0,0,,Você tem medo de perdê-lo,
 Dialogue: 10,0:08:01.84,0:08:03.88,Default,,0,0,0,,mas ainda quer salvá-lo, não é?
@@ -145,33 +145,33 @@ Dialogue: 10,0:09:33.34,0:09:37.06,Default,,0,0,0,,Eu vou te matar! Eu vou te ma
 Dialogue: 10,0:09:56.74,0:09:58.24,Default,,0,0,0,,Movimentos incríveis...
 Dialogue: 10,0:10:06.46,0:10:08.84,Default,,0,0,0,,Exatamente o que eu esperava!
 Dialogue: 10,0:10:09.55,0:10:10.97,Default,,0,0,0,,Eu ainda estou muito longe?
-Dialogue: 10,0:10:10.97,0:10:16.30,Default,,0,0,0,,Eu vou te matar! Eu vou te matar! Eu vou te matar!
-Dialogue: 10,0:10:18.31,0:10:21.52,Default,,0,0,0,,Em combate, eu consigo esquecer de qualquer coisa e de tudo.
+Dialogue: 10,0:10:10.97,0:10:16.30,Default,,0,0,0,,Eu vou te matar! Eu vou te\Nmatar! Eu vou te matar!
+Dialogue: 10,0:10:18.31,0:10:21.52,Default,,0,0,0,,Em combate, eu consigo esquecer\Nde qualquer coisa e de tudo.
 Dialogue: 10,0:10:22.94,0:10:26.11,Default,,0,0,0,,Isso mesmo. Eu estou em paz.
 Dialogue: 10,0:10:30.65,0:10:32.03,Default,,0,0,0,,Desculpe.
 Dialogue: 10,0:10:32.90,0:10:35.70,Default,,0,0,0,,Você quer ir ajudar seu mestre, certo?
 Dialogue: 10,0:10:36.20,0:10:38.37,Default,,0,0,0,,Se não fosse por mim...
-Dialogue: 10,0:10:39.24,0:10:44.37,Default,,0,0,0,,Pelo menos, vamos assistir à batalha deles até o fim.
-Dialogue: 10,0:11:02.43,0:11:04.69,Default,,0,0,0,,Você acha que consegue se esconder de mim no meu ponto cego?
-Dialogue: 10,0:11:17.95,0:11:20.83,Default,,0,0,0,,{\q2}Ele estava tentando fazer eu\Nsuperaquecê-los desde o começo?
-Dialogue: 10,0:11:20.83,0:11:23.04,Default,,0,0,0,,Como esperado do filho mais velho dos Nouzens.
-Dialogue: 10,0:11:23.79,0:11:30.59,Default,,0,0,0,,Se você estivesse ao meu lado, o Império ainda se manteria.
+Dialogue: 10,0:10:39.24,0:10:44.37,Default,,0,0,0,,Pelo menos, vamos assistir\Nà batalha deles até o fim.
+Dialogue: 10,0:11:02.43,0:11:04.69,Default,,0,0,0,,Você acha que consegue se esconder\Nde mim no meu ponto cego?
+Dialogue: 10,0:11:17.95,0:11:20.83,Default,,0,0,0,,{\q2}Ele estava tentando fazer eu\N superaquecê-los desde o começo?
+Dialogue: 10,0:11:20.83,0:11:23.04,Default,,0,0,0,,Como esperado do filho\Nmais velho dos Nouzens.
+Dialogue: 10,0:11:23.79,0:11:30.59,Default,,0,0,0,,Se você estivesse ao meu lado,\No Império ainda se manteria.
 Dialogue: 10,0:11:31.13,0:11:35.55,Default,,0,0,0,,Eu adoraria ter seu poder do nosso lado.
-Dialogue: 10,0:11:37.51,0:11:39.60,Default,,0,0,0,,Mas acho que você é muito forte para correr esse risco.
-Dialogue: 10,0:11:40.01,0:11:45.06,Default,,0,0,0,,{\q2}Sim, você tem que chegar perto para perfurar\Nminha armadura com essas pistolas de brinquedo.
-Dialogue: 10,0:11:45.35,0:11:48.73,Default,,0,0,0,,Mas você não acha que está sendo um pouco imprudente?
-Dialogue: 10,0:11:52.02,0:11:55.24,Default,,0,0,0,,Você ouviu falar da lendária corrida de ponto zero do Shin?
-Dialogue: 10,0:11:55.86,0:11:59.91,Default,,0,0,0,,Ele fez um Vánagandr voar durante uma batalha simulada na escola.
+Dialogue: 10,0:11:37.51,0:11:39.60,Default,,0,0,0,,Mas acho que você é muito forte\Npara correr esse risco.
+Dialogue: 10,0:11:40.01,0:11:45.06,Default,,0,0,0,,{\q2}Sim, você tem que chegar\Nperto para perfurar\N minha armadura com essas\Npistolas de brinquedo.
+Dialogue: 10,0:11:45.35,0:11:48.73,Default,,0,0,0,,Mas você não acha que está\Nsendo um pouco imprudente?
+Dialogue: 10,0:11:52.02,0:11:55.24,Default,,0,0,0,,Você ouviu falar da lendária corrida\Nde ponto zero do Shin?
+Dialogue: 10,0:11:55.86,0:11:59.91,Default,,0,0,0,,Ele fez um Vánagandr voar durante\Numa batalha simulada na escola.
 Dialogue: 10,0:12:00.24,0:12:02.58,Default,,0,0,0,,Ele fez isso para evitar uma colisão,
-Dialogue: 10,0:12:02.58,0:12:05.20,Default,,0,0,0,,mas ele falhou por causa de um voo perigoso.
+Dialogue: 10,0:12:02.58,0:12:05.20,Default,,0,0,0,,mas ele falhou por causa\Nde um voo perigoso.
 Dialogue: 10,0:12:05.66,0:12:08.79,Default,,0,0,0,,Ah, é mesmo? Conte-me mais.
 Dialogue: 10,0:12:10.13,0:12:11.13,Default,,0,0,0,,Isso mesmo.
-Dialogue: 10,0:12:11.13,0:12:13.67,Default,,0,0,0,,Algo assim não me surpreendeu naquela época.
+Dialogue: 10,0:12:11.13,0:12:13.67,Default,,0,0,0,,Algo assim não me surpreendeu\Nnaquela época.
 Dialogue: 10,0:12:13.67,0:12:15.38,Default,,0,0,0,,Porque eu já sabia...
-Dialogue: 10,0:12:15.76,0:12:23.35,Default,,0,0,0,,{\q2}Havia outra pessoa por aí\Nque podia fazer o impossível em um Feldreß.
+Dialogue: 10,0:12:15.76,0:12:23.35,Default,,0,0,0,,{\q2}Havia outra pessoa por aí\N que podia fazer o impossível\Nem um Feldreß.
 Dialogue: 10,0:12:24.39,0:12:26.06,Default,,0,0,0,,Não, Shinei!
 Dialogue: 10,0:12:26.06,0:12:28.06,Default,,0,0,0,,Não chegue perto dele!
-Dialogue: 10,0:12:28.06,0:12:32.15,Default,,0,0,0,,Kiri era exatamente como você! Combate corpo a corpo era sua especialidade!
+Dialogue: 10,0:12:28.06,0:12:32.15,Default,,0,0,0,,Kiri era exatamente como\Nvocê! Combate corpo a corpo\Nera sua especialidade!
 Dialogue: 10,0:12:52.00,0:12:52.54,Default,,0,0,0,,Shin!
 Dialogue: 10,0:12:52.92,0:12:53.75,Default,,0,0,0,,Afasta-te!
 Dialogue: 10,0:12:56.46,0:12:57.88,Default,,0,0,0,,Não interfira!
@@ -180,10 +180,10 @@ Dialogue: 10,0:13:04.85,0:13:06.47,Default,,0,0,0,,Já chega, Raiden!
 Dialogue: 10,0:13:06.47,0:13:07.56,Default,,0,0,0,,Sai daqui!
 Dialogue: 10,0:13:39.42,0:13:40.97,Default,,0,0,0,,Resta mais uma rodada.
 Dialogue: 10,0:13:41.38,0:13:43.26,Default,,0,0,0,,Suspensão no limite máximo.
-Dialogue: 10,0:13:43.89,0:13:45.80,Default,,0,0,0,,Todos os companheiros de esquadrão foram neutralizados.
+Dialogue: 10,0:13:43.89,0:13:45.80,Default,,0,0,0,,Todos os companheiros de esquadrão\Nforam neutralizados.
 Dialogue: 10,0:13:45.80,0:13:47.56,Default,,0,0,0,,Sou só o que sobrou.
 Dialogue: 10,0:13:48.14,0:13:50.06,Default,,0,0,0,,O inimigo está ileso.
-Dialogue: 10,0:13:50.06,0:13:53.56,Default,,0,0,0,,{\q2}As armas primária e secundária\Nainda estão operacionais.
+Dialogue: 10,0:13:50.06,0:13:53.56,Default,,0,0,0,,{\q2}As armas primária e secundária\N ainda estão operacionais.
 Dialogue: 10,0:13:54.73,0:13:58.03,Default,,0,0,0,,Isso... pode ser o fim.
 Dialogue: 10,0:14:02.03,0:14:03.03,Default,,0,0,0,,{\i1}Vão, todos.{\i0}
 Dialogue: 10,0:14:03.03,0:14:04.20,Default,,0,0,0,,{\i1}Eu conto com vocês.{\i0}
@@ -193,29 +193,29 @@ Dialogue: 10,0:14:06.66,0:14:07.87,Default,,0,0,0,,{\i1}Eu não vou esquecer!{\i
 Dialogue: 10,0:14:37.40,0:14:39.65,Default,,0,0,0,,Enquanto você puder, hein?
 Dialogue: 10,0:14:41.07,0:14:42.61,Default,,0,0,0,,Mais interferência?!
 Dialogue: 10,0:14:45.74,0:14:49.79,Default,,0,0,0,,Não me subestime!
-Dialogue: 10,0:15:14.10,0:15:17.27,Default,,0,0,0,,Você não vai deixar eu chegar perto, não importa o quê, hein?
+Dialogue: 10,0:15:14.10,0:15:17.27,Default,,0,0,0,,Você não vai deixar eu chegar perto,\Nnão importa o quê, hein?
 Dialogue: 10,0:15:40.54,0:15:45.34,Default,,0,0,0,,Eu vou te matar! Eu vou te matar!
 Dialogue: 10,0:15:45.34,0:15:46.88,Default,,0,0,0,,Eu consigo lutar!
-Dialogue: 10,0:15:46.88,0:15:52.06,Default,,0,0,0,,{\q2}Mesmo que você me atravesse com uma saraivada de balas\Ne rasgue meu corpo em pedaços, eu ainda consigo lutar!
+Dialogue: 10,0:15:46.88,0:15:52.06,Default,,0,0,0,,{\q2}Mesmo que você me atravesse\Ncom uma saraivada de balas\N e rasgue meu corpo em pedaços,\Neu ainda consigo lutar!
 Dialogue: 10,0:15:52.06,0:15:54.93,Default,,0,0,0,,Talvez eu morra aqui, mas...
 Dialogue: 10,0:15:54.93,0:15:58.56,Default,,0,0,0,,Mas eu ainda consigo matar todos vocês!
 Dialogue: 10,0:15:59.44,0:16:00.44,Default,,0,0,0,,Por quê?
 Dialogue: 10,0:16:00.94,0:16:03.48,Default,,0,0,0,,Por que você insiste em lutar?
 Dialogue: 10,0:16:03.48,0:16:07.03,Default,,0,0,0,,Por que você tenta matar a todos?
-Dialogue: 10,0:16:07.45,0:16:10.70,Default,,0,0,0,,Você não conhece o nome dele. Você não conhece o rosto dele.
-Dialogue: 10,0:16:10.70,0:16:15.29,Default,,0,0,0,,Mas ele compartilha o seu sangue. Ele é o único camarada que você tem!
+Dialogue: 10,0:16:07.45,0:16:10.70,Default,,0,0,0,,Você não conhece o nome dele.\NVocê não conhece o rosto dele.
+Dialogue: 10,0:16:10.70,0:16:15.29,Default,,0,0,0,,Mas ele compartilha o seu\Nsangue. Ele é o único\Ncamarada que você tem!
 Dialogue: 10,0:16:17.66,0:16:19.92,Default,,0,0,0,,Você sabe por quê...
 Dialogue: 10,0:16:20.79,0:16:24.63,Default,,0,0,0,,Porque tudo o que me resta...
 Dialogue: 10,0:16:25.34,0:16:26.51,Default,,0,0,0,,está lutando.
-Dialogue: 10,0:16:27.59,0:16:30.14,Default,,0,0,0,,O campo de batalha que arde em minhas veias.
+Dialogue: 10,0:16:27.59,0:16:30.14,Default,,0,0,0,,O campo de batalha que\Narde em minhas veias.
 Dialogue: 10,0:16:31.05,0:16:32.89,Default,,0,0,0,,Ele incinera minha alma até cinzas,
-Dialogue: 10,0:16:33.64,0:16:38.14,Default,,0,0,0,,de modo que restam apenas as chamas vazias e fumegantes da guerra.
+Dialogue: 10,0:16:33.64,0:16:38.14,Default,,0,0,0,,de modo que restam apenas as chamas\Nvazias e fumegantes da guerra.
 Dialogue: 10,0:16:39.23,0:16:40.15,Default,,0,0,0,,Sim...
 Dialogue: 10,0:16:40.85,0:16:45.23,Default,,0,0,0,,Naquele dia, eu perdi tudo!
 Dialogue: 10,0:16:47.11,0:16:48.65,Default,,0,0,0,,Até você!
 Dialogue: 10,0:16:54.91,0:16:56.04,Default,,0,0,0,,Se você...
 Dialogue: 10,0:16:56.50,0:16:57.91,Default,,0,0,0,,Se você vai ser o mesmo...
-Dialogue: 10,0:16:58.16,0:17:01.00,Default,,0,0,0,,Se você vai ser como eu, então é melhor que...
+Dialogue: 10,0:16:58.16,0:17:01.00,Default,,0,0,0,,Se você vai ser como eu,\Nentão é melhor que...
 Dialogue: 10,0:17:12.09,0:17:13.68,Default,,0,0,0,,Tolo!
 Dialogue: 10,0:17:17.47,0:17:19.77,Default,,0,0,0,,Você esqueceu o rosto do seu mestre?
 Dialogue: 10,0:17:21.02,0:17:22.48,Default,,0,0,0,,Kiriya Nouzen?
@@ -227,12 +227,12 @@ Dialogue: 10,0:17:36.16,0:17:37.45,Default,,0,0,0,,Chega...
 Dialogue: 10,0:17:37.45,0:17:39.04,Default,,0,0,0,,Você já fez o suficiente.
 Dialogue: 10,0:17:39.66,0:17:42.87,Default,,0,0,0,,Você se saiu bem, meu cavaleiro.
 Dialogue: 10,0:17:45.92,0:17:47.63,Default,,0,0,0,,Você!
-Dialogue: 10,0:17:50.26,0:17:53.51,Default,,0,0,0,,Não só você destruiu meu Império e roubou sua coroa,
-Dialogue: 10,0:17:53.93,0:17:56.56,Default,,0,0,0,,mas agora está usando a jovem princesa como refém?!
+Dialogue: 10,0:17:50.26,0:17:53.51,Default,,0,0,0,,Não só você destruiu meu Império\Ne roubou sua coroa,
+Dialogue: 10,0:17:53.93,0:17:56.56,Default,,0,0,0,,mas agora está usando a jovem\Nprincesa como refém?!
 Dialogue: 10,0:18:03.15,0:18:04.94,Default,,0,0,0,,Kiri! Pare com isso, Kiri!
-Dialogue: 10,0:18:05.31,0:18:08.36,Default,,0,0,0,,{\an8}Eu vou te matar! Eu vou te matar! Eu vou te matar!
-Dialogue: 10,0:18:08.73,0:18:12.28,Default,,0,0,0,,{\an8}Eu vou te matar! Eu vou te matar! Eu vou te matar!
-Dialogue: 10,0:18:12.28,0:18:32.84,Default,,0,0,0,,{\an8}Eu vou te matar! Eu vou te matar! Eu vou te matar!
+Dialogue: 10,0:18:05.31,0:18:08.36,Default,,0,0,0,,{\an8}Eu vou te matar! Eu vou\Nte matar! Eu vou te matar!
+Dialogue: 10,0:18:08.73,0:18:12.28,Default,,0,0,0,,{\an8}Eu vou te matar! Eu vou\Nte matar! Eu vou te matar!
+Dialogue: 10,0:18:12.28,0:18:32.84,Default,,0,0,0,,{\an8}Eu vou te matar! Eu vou\Nte matar! Eu vou te matar!
 Dialogue: 10,0:18:17.91,0:18:18.87,Default,,0,0,0,,Kiri...
 Dialogue: 10,0:18:20.50,0:18:21.25,Default,,0,0,0,,Kiri...
 Dialogue: 10,0:18:23.21,0:18:24.08,Default,,0,0,0,,Kiri...
@@ -244,7 +244,7 @@ Dialogue: 10,0:18:31.97,0:18:32.84,Default,,0,0,0,,Kiri...
 Dialogue: 10,0:18:39.47,0:18:44.27,Default,,0,0,0,,Olhe para mim, Kiri!
 Dialogue: 10,0:19:01.04,0:19:03.66,Default,,0,0,0,,O que houve, meu cavaleiro?
 Dialogue: 10,0:19:03.66,0:19:05.50,Default,,0,0,0,,Por favor. Me salve.
-Dialogue: 10,0:19:05.75,0:19:08.38,Default,,0,0,0,,Princesa! O que você está fazendo, Princesa?
+Dialogue: 10,0:19:05.75,0:19:08.38,Default,,0,0,0,,Princesa! O que você está\Nfazendo, Princesa?
 Dialogue: 10,0:19:08.38,0:19:10.80,Default,,0,0,0,,Princesa! Princesa!
 Dialogue: 10,0:19:11.42,0:19:13.97,Default,,0,0,0,,Finalmente nos reencontramos, e você...
 Dialogue: 10,0:19:15.26,0:19:16.05,Default,,0,0,0,,Kiri!
@@ -4654,9 +4654,9 @@ Dialogue: 0,0:22:33.04,0:22:36.84,Ending,,0,0,0,,{\fad(120,0)\blur1.6\bord5.5\po
 Dialogue: 1,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1518.95,30)\c&H80F3FAFF&}ii
 Dialogue: 2,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1518.95,30)\bord0\c&H80F3FAFF&}ii
 Dialogue: 0,0:22:36.84,0:22:37.59,Ending,,0,0,0,,{=25}{\blur1.6\bord5.5\c&H80F3FAFF&\alpha0\3c&H80F3FAFF&\move(1518.95,30.5,1516.95,-12.5,5,760)\t(\blur4\alphaFF)}ii
-Dialogue: 0,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{=26}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não se preocupe, você pode resolver seus problemas primeiro
-Dialogue: 1,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não se preocupe, você pode resolver seus problemas primeiro
-Dialogue: 2,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{=27}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não se preocupe, você pode resolver seus problemas primeiro
+Dialogue: 0,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{=26}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não\Nse preocupe, você pode resolver seus problemas primeiro
+Dialogue: 1,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não\Nse preocupe, você pode resolver seus problemas primeiro
+Dialogue: 2,0:22:33.04,0:22:37.84,Ending,,0,0,0,,{=27}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Não\Nse preocupe, você pode resolver seus problemas primeiro
 Dialogue: 0,0:22:37.84,0:22:37.96,Ending,,0,0,0,,{=28}{\fad(120,0)\blur1.6\bord5.5\pos(600.6484375,30)\alpha0\c&H80F3FAFF&\3c&H80F3FAFF&}se
 Dialogue: 1,0:22:37.84,0:22:42.47,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(600.6484375,30)\c&H80F3FAFF&}se
 Dialogue: 2,0:22:37.84,0:22:42.47,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(600.6484375,30)\bord0\c&H80F3FAFF&}se
@@ -4941,9 +4941,9 @@ Dialogue: 0,0:23:04.95,0:23:10.70,Ending,,0,0,0,,{\fad(120,0)\blur1.6\bord5.5\po
 Dialogue: 1,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1313.9921875,30)\c&H80F3FAFF&}kai
 Dialogue: 2,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(1313.9921875,30)\bord0\c&H80F3FAFF&}kai
 Dialogue: 0,0:23:10.70,0:23:12.04,Ending,,0,0,0,,{=45}{\blur1.6\bord5.5\c&H80F3FAFF&\alpha0\3c&H80F3FAFF&\move(1313.9921875,30.5,1318.9921875,-16.5,5,1330)\t(\blur4\alphaFF)}Kai.
-Dialogue: 0,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{=46}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa noite, mundo paralelo. Boa noite, mundo paralelo.
-Dialogue: 1,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa noite, mundo paralelo. Boa noite, mundo paralelo.
-Dialogue: 2,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{=47}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa noite, mundo paralelo. Boa noite, mundo paralelo.
+Dialogue: 0,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{=46}{\fad(120,120)\blur1.6\bord5.5\alpha0\c&H26F3FAFF&\3c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa\Nnoite, mundo paralelo. Boa noite, mundo paralelo.
+Dialogue: 1,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{\fad(120,120)\blur0.6\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa\Nnoite, mundo paralelo. Boa noite, mundo paralelo.
+Dialogue: 2,0:23:04.95,0:23:12.00,Ending,,0,0,0,,{=47}{\fad(120,120)\blur0.6\bord0\c&H26F3FAFF&\1a&H26&\an2\pos(960,1050)}Boa\Nnoite, mundo paralelo. Boa noite, mundo paralelo.
 Dialogue: 0,0:23:12.00,0:23:12.12,Ending,,0,0,0,,{=48}{\fad(120,0)\blur1.6\bord5.5\pos(797.546875,30)\alpha0\c&H80F3FAFF&\3c&H80F3FAFF&}Sa
 Dialogue: 1,0:23:12.00,0:23:27.89,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(797.546875,30)\c&H80F3FAFF&}sa
 Dialogue: 2,0:23:12.00,0:23:27.89,Ending,,0,0,0,,{\fad(120,120)\blur0.6\pos(797.546875,30)\bord0\c&H80F3FAFF&}sa

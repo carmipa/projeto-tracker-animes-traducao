@@ -1,0 +1,51 @@
+[13:34:57.958] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-22_13-34-57.txt
+[13:34:57.958] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[13:34:57.989] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[13:34:57.989] [DEBUG   ] Validando caminhos de diretórios locais...
+[13:34:57.990] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[13:34:57.990] [DEBUG   ] Escaneando diretório: C:\animes\[AntBnecn] Macross 7 - Dynamite + Encore + Plus + Movie [720p BD]
+[13:34:57.990] [INFO    ] Encontrados 10 arquivos de vídeo com extensão .mkv.
+[13:34:57.990] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[13:34:57.990] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Dynamite - 01 [720p BD] [4A0F1A6B].mkv -> [AntBnecn] Macross 7 Dynamite - 01 [720p BD] [4A0F1A6B]_PTBR.ass
+[13:34:57.991] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6].mkv -> [AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6]_PTBR.ass
+[13:34:57.991] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Dynamite - 03 [720p BD] [97F91179].mkv -> [AntBnecn] Macross 7 Dynamite - 03 [720p BD] [97F91179]_PTBR.ass
+[13:34:57.991] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Dynamite - 04 [720p BD] [7D4497DA].mkv -> [AntBnecn] Macross 7 Dynamite - 04 [720p BD] [7D4497DA]_PTBR.ass
+[13:34:57.991] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Encore - 01 [720p BD] [22B79A37].mkv -> [AntBnecn] Macross 7 Encore - 01 [720p BD] [22B79A37]_PTBR.ass
+[13:34:57.992] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Encore - 02 [720p BD] [B97EBA6D].mkv -> [AntBnecn] Macross 7 Encore - 02 [720p BD] [B97EBA6D]_PTBR.ass
+[13:34:57.992] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Encore - 03 [720p BD] [ED0FAD06].mkv -> [AntBnecn] Macross 7 Encore - 03 [720p BD] [ED0FAD06]_PTBR.ass
+[13:34:57.992] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Movie - The Galaxy Is Calling Me! [720p BD] [D4062C67].mkv -> [AntBnecn] Macross 7 Movie - The Galaxy Is Calling Me! [720p BD] [D4062C67]_PTBR.ass
+[13:34:57.993] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Plus - 01-06 [720p BD] [3B4CF25A].mkv -> [AntBnecn] Macross 7 Plus - 01-06 [720p BD] [3B4CF25A]_PTBR.ass
+[13:34:57.993] [DEBUG   ]   Pareado com sucesso: [AntBnecn] Macross 7 Plus - 07-11 [720p BD] [971E14B8].mkv -> [AntBnecn] Macross 7 Plus - 07-11 [720p BD] [971E14B8]_PTBR.ass
+[13:34:57.993] [INFO    ] Esteira trancada. Processando 10 episódios em lote via mkvmerge.
+[13:34:58.004] [INFO    ] [1/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Dynamite - 01 [720p BD] [4A0F1A6B].mkv
+[13:34:58.004] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:34:59.256] [INFO    ] SUCESSO:   Concluido (0.954 GB) em 1.25s! Legenda adicionada.
+[13:34:59.257] [INFO    ] [2/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Dynamite - 02 [720p BD] [1A2A2ED6].mkv
+[13:34:59.257] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:35:05.654] [INFO    ] SUCESSO:   Concluido (1.096 GB) em 6.40s! Legenda adicionada.
+[13:35:05.654] [INFO    ] [3/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Dynamite - 03 [720p BD] [97F91179].mkv
+[13:35:05.654] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:35:06.775] [INFO    ] SUCESSO:   Concluido (0.782 GB) em 1.12s! Legenda adicionada.
+[13:35:06.776] [INFO    ] [4/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Dynamite - 04 [720p BD] [7D4497DA].mkv
+[13:35:06.776] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:35:07.898] [INFO    ] SUCESSO:   Concluido (0.731 GB) em 1.12s! Legenda adicionada.
+[13:35:07.898] [INFO    ] [5/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Encore - 01 [720p BD] [22B79A37].mkv
+[13:35:07.899] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:35:08.772] [INFO    ] SUCESSO:   Concluido (0.594 GB) em 0.87s! Legenda adicionada.
+[13:35:08.772] [INFO    ] [6/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Encore - 02 [720p BD] [B97EBA6D].mkv
+[13:35:08.773] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:35:09.726] [INFO    ] SUCESSO:   Concluido (0.619 GB) em 0.95s! Legenda adicionada.
+[13:35:09.727] [INFO    ] [7/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Encore - 03 [720p BD] [ED0FAD06].mkv
+[13:35:09.727] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:35:10.740] [INFO    ] SUCESSO:   Concluido (0.668 GB) em 1.01s! Legenda adicionada.
+[13:35:10.741] [INFO    ] [8/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Movie - The Galaxy Is Calling Me! [720p BD] [D4062C67].mkv
+[13:35:10.741] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:35:19.176] [INFO    ] SUCESSO:   Concluido (1.089 GB) em 8.43s! Legenda adicionada.
+[13:35:19.176] [INFO    ] [9/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Plus - 01-06 [720p BD] [3B4CF25A].mkv
+[13:35:19.176] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:35:19.740] [INFO    ] SUCESSO:   Concluido (0.332 GB) em 0.56s! Legenda adicionada.
+[13:35:19.741] [INFO    ] [10/10] Multiplexando container Matroska: [AntBnecn] Macross 7 Plus - 07-11 [720p BD] [971E14B8].mkv
+[13:35:19.741] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[13:35:20.274] [INFO    ] SUCESSO:   Concluido (0.317 GB) em 0.53s! Legenda adicionada.
+[13:35:20.275] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-22_13-34-57.json
+[13:35:20.276] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

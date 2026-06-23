@@ -281,6 +281,25 @@ CORRECOES_REGEX_GERAIS = [
     (re.compile(r"(?i)(^|\\N)Hurry up and get on that bus!"), r"\1Depressa, entre naquele ônibus!"),
     (re.compile(r"(?i)(^|\\N)H-Hold on a sec!"), r"\1E-Espere um pouco!"),
     (re.compile(r"(?i)(^|\\N)Y-You're right\. If this works out,"), r"\1V-Você tem razão. Se isso der certo,"),
+    (re.compile(r"\[ERRO_TRADUCAO:\s*It\s+\{\\i1\}is\{\\i0\}\s+you,\s+Roux Louka!\]", re.I), "É você, Roux Louka!"),
+    (re.compile(r"\[ERRO_TRADUCAO:\s*(\{\\i1\})?Women are scary!\](\{\\i0\})?", re.I), r"\1Mulheres são assustadoras!\2"),
+    (re.compile(r"\[ERRO_TRADUCAO:\s*(\{\\i1\})?Something's definitely wrong with Judau!\](\{\\i0\})?", re.I), r"\1Há algo muito errado com Judau!\2"),
+    (re.compile(r"\[ERRO_TRADUCAO:\s*(.*?)\]", re.I), r"\1"),
+    (re.compile(r"\bNext EPISÓDIO\b", re.I), "Próximo Episódio"),
+    (re.compile(r"\bNext Episode\b", re.I), "Próximo Episódio"),
+    (re.compile(r"\bBlue Corps\b", re.I), "Corpo Azul"),
+    (re.compile(r"\(Part 1\)", re.I), "(Parte 1)"),
+    (re.compile(r"\(Part 2\)", re.I), "(Parte 2)"),
+    (re.compile(r"\bespaço\\Njerk\b", re.I), r"idiota\\Nespacial"),
+    (re.compile(r"\bIsto sou da Corpo Azul\b", re.I), "Eu sou do Corpo Azul"),
+    (re.compile(r"\bda Corpo Azul\b", re.I), "do Corpo Azul"),
+    (re.compile(r"\ba Corpo Azul\b", re.I), "o Corpo Azul"),
+    (re.compile(r"\bMalditos those da Argama\b", re.I), "Malditos sejam aqueles da Argama"),
+    (re.compile(r"\bCom a ajuda do Corpo Azul,\\NI finalmente consegui me reunir com você\b", re.I), r"Com a ajuda do Corpo Azul,\\Nfinalmente consegui me reunir com você"),
+    (re.compile(r"\bCorpo Azul espalhará\\Nnome Tuareg\b", re.I), r"Corpo Azul espalhará\\No nome Tuareg"),
+    (re.compile(r"\bcidade Frank\b", re.I), "cidade franca"),
+    (re.compile(r"\bo Corpo Azul esteja\\Ndestruindo uma cidade franca\b", re.I), r"o Corpo Azul esteja\\Ndestruindo uma cidade franca"),
+    (re.compile(r"\bQue se danem o Corpo Azul\b", re.I), "Que se dane o Corpo Azul"),
     (re.compile(r"(^|\\N)Cause para preocupação\b"), r"\1motivo de preocupação"),
     (re.compile(r"\bSide 1 immediately\b", re.I), "Side 1 imediatamente"),
     (re.compile(r"(?i)(^|\\N)W-Wait a minute\.\.\."), r"\1E-Espere um pouco..."),
@@ -345,6 +364,7 @@ CORRECOES_REGEX_GERAIS = [
 PADRAO_RESIDUO_IDIOMA = re.compile(
     r"\b(only|kidnapping|can go back|moon and see|again|nous|i decido|"
     r"where|what|when|why|because|yourself|big brother|fool|miss milly|immediately|"
+    r"women are scary|something's definitely wrong|space jerk|those da argama|i finally|"
     r"halloi stampa|grande irmão)\b",
     re.I,
 )
@@ -353,7 +373,7 @@ PADRAO_FRAGMENTO_QUEBRADO = re.compile(
     r"\bI\s+[a-záéíóúâêôãõç]+\b|\b[Nn]ovo Tipos\b|"
     r"\\Ndo Federação\b|\\Nenão\b|\buma conceito\b|\\Na um reino\b|"
     r"\bseria\\Nelefante\b|\\Nsujeira sala\b|quem\\Ne se aliaram\b|"
-    r"\bimprinting\b|\\NCabeça vai estourar|\\Nsomente lhe ordenaram|"
+    r"\bimprinting\b|\\NCabeça vai estourar|\\Nsomente lhe ordenaram|ERRO_TRADUCAO|"
     r"\bCause para preocupação\b|'Cause não podemos|\bexactly como\b|\bonly\s+(fique|não|espere)\b)",
     re.I,
 )
@@ -487,6 +507,12 @@ def _preservar_caixa(correto, encontrado):
 def _balancear_tag(texto, abre, fecha):
     if texto.count(abre) > texto.count(fecha):
         texto += fecha * (texto.count(abre) - texto.count(fecha))
+    return texto
+
+
+def _remover_fechamento_sobrando(texto, abre, fecha):
+    while texto.count(fecha) > texto.count(abre):
+        texto = texto.replace(fecha, "", 1)
     return texto
 
 
@@ -678,11 +704,26 @@ def listar_arquivos_ass(pasta):
 
 
 def _normalizar_barras_tag_ass(texto):
+    texto = re.sub(r"(\{[^{}]*\\pos\([^{}]*?\))(?=\\h)", r"\1}", texto)
+
     def _fix_bloco(match):
         bloco = match.group(0)
         return re.sub(r"\\\\([a-zA-Z])", r"\\\1", bloco)
 
     return re.sub(r"\{[^{}]*\}", _fix_bloco, texto)
+
+
+def _normalizar_barras_texto_ass(texto):
+    """Corrige barras soltas no texto visível sem alterar comandos dentro de tags ASS."""
+    partes = re.split(r"(\{[^{}]*\})", texto)
+    for i, parte in enumerate(partes):
+        if not parte or parte.startswith("{"):
+            continue
+        parte = re.sub(r"\\\\+[Nn]", r"\\N", parte)
+        parte = re.sub(r"\\([!?.,;:])", r"\1", parte)
+        parte = re.sub(r"\\(?![Nnh])(?=\S)", r"\\N", parte)
+        partes[i] = parte
+    return "".join(partes)
 
 
 def _estilo_karaoke(estilo):
@@ -693,6 +734,7 @@ def higienizar_texto(texto, eh_grafico=False):
     t = texto
 
     t = _normalizar_barras_tag_ass(t)
+    t = _normalizar_barras_texto_ass(t)
     t = re.sub(r"\bnh[aã]o\b", "não", t, flags=re.I)
     t = re.sub(r"\bnh[aã]oes\b", "nões", t, flags=re.I)
 
@@ -730,7 +772,13 @@ def higienizar_texto(texto, eh_grafico=False):
     t = re.sub(r"\bÉPISODE\b", "EPISÓDIO", t, flags=re.I)
     t = re.sub(r"\bEPISODE\b", "EPISÓDIO", t, flags=re.I)
     t = re.sub(r"(?<!\\)\\Para\b", r"\\Npara", t)
+    t = re.sub(r"\\não\b", r"\\Nnão", t, flags=re.I)
     t = re.sub(r"\\+\s*$", "", t)
+    t = re.sub(r"\?!!", "?!", t)
+    t = re.sub(r"\\NSPara\b", r"\\NPara", t)
+    t = re.sub(r"\\NMPorém\b", r"\\NPorém", t)
+    t = re.sub(r"\\NEspace aéreo\b", r"\\Nespaço aéreo", t, flags=re.I)
+    t = re.sub(r"\\NAo sei\b", r"\\NNão sei", t)
 
     for padrao, subst in SUBSTITUICOES_LORE:
         t = padrao.sub(subst, t)
@@ -745,6 +793,8 @@ def higienizar_texto(texto, eh_grafico=False):
     t = re.sub(r"(\{\\i1\})(.*?)(\{\\i1\})", r"\1\2", t)
     t = re.sub(r"!\s*(Aguente firme)", r"! \1", t)
 
+    t = _remover_fechamento_sobrando(t, "{\\i1}", "{\\i0}")
+    t = _remover_fechamento_sobrando(t, "{\\b1}", "{\\b0}")
     t = _balancear_tag(t, "{\\i1}", "{\\i0}")
     t = _balancear_tag(t, "{\\b1}", "{\\b0}")
     t = re.sub(r"\s*\{\\i1\}\{\\i0\}", "", t)

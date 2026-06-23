@@ -1,0 +1,349 @@
+RELATÓRIO REVISÃO EXTREMA GUNDAM ZZ (PRODUÇÃO)
+Executado: 2026-06-23 00:28:47
+PT-BR : C:\animes\[Joseki] Mobile Suit Z Gundam COMPLETE (1985)(BD AV1 1080p Opus)[Sub Eng][v2]\corrigidas_ptbr
+Saída : C:\animes\[Joseki] Mobile Suit Z Gundam COMPLETE (1985)(BD AV1 1080p Opus)[Sub Eng][v2]\corrigidas2
+  arquivos_processados: 50
+  arquivos_pulados: 0
+  linhas_modificadas: 84
+  karaoke_restaurado: 0
+  lore_corrigido: 84
+  higienizacao_geral: 0
+  correcoes_manuais: 0
+====================================================================================================
+
+[Mobile.Suit.Z.Gundam.S01E01_PTBR_ENG.ass L175 D133] Correção de lore Gundam ZZ
+  Antes : Se você não tem nada a ver com a A.E.U.G.
+  Depois: Se você não tem nada a ver com a A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E02_PTBR_ENG.ass L65 D28] Correção de lore Gundam ZZ
+  Antes : Você está dizendo que a A.E.U.G. estão atacando?
+  Depois: Você está dizendo que a A.E.U.G.. estão atacando?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E02_PTBR_ENG.ass L91 D54] Correção de lore Gundam ZZ
+  Antes : O A.E.U.G.
+  Depois: O A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E03_PTBR_ENG.ass L50 D14] Correção de lore Gundam ZZ
+  Antes : As tropas que vêm atrás de nós são\N indubitavelmente do A.E.U.G.
+  Depois: As tropas que vêm atrás de nós são\N indubitavelmente do A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E03_PTBR_ENG.ass L131 D95] Correção de lore Gundam ZZ
+  Antes : Não conseguimos ver o A.E.U.G.?
+  Depois: Não conseguimos ver o A.E.U.G..?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E03_PTBR_ENG.ass L188 D152] Correção de lore Gundam ZZ
+  Antes : Somos o A.E.U.G.\N Seus ordens são inúteis!
+  Depois: Somos o A.E.U.G..\N Seus ordens são inúteis!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E03_PTBR_ENG.ass L261 D225] Correção de lore Gundam ZZ
+  Antes : Ah! A.E.U.G.!
+  Depois: Ah! A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E04_PTBR_ENG.ass L45 D10] Correção de lore Gundam ZZ
+  Antes : E-Esse cara! Ele é do A.E.U.G.?
+  Depois: E-Esse cara! Ele é do A.E.U.G..?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E04_PTBR_ENG.ass L326 D291] Correção de lore Gundam ZZ
+  Antes : É um mobile suit da A.E.U.G.!
+  Depois: É um mobile suit da A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E05_PTBR_ENG.ass L53 D18] Correção de lore Gundam ZZ
+  Antes : Agora, nossa prioridade deve ser\N em eliminar os simpatizantes da A.E.U.G.
+  Depois: Agora, nossa prioridade deve ser\N em eliminar os simpatizantes da A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E05_PTBR_ENG.ass L258 D223] Correção de lore Gundam ZZ
+  Antes : Não espere que a suposta base secreta da A.E.U.G. esteja em Granada.
+  Depois: Não espere que a suposta base secreta da A.E.U.G.. esteja em Granada.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E06_PTBR_ENG.ass L136 D101] Correção de lore Gundam ZZ
+  Antes : Para a A.E.U.G.?
+  Depois: Para a A.E.U.G..?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E07_PTBR_ENG.ass L184 D149] Correção de lore Gundam ZZ
+  Antes : Por que a A.E.U.G. queria visitar aqui?
+  Depois: Por que a A.E.U.G.. queria visitar aqui?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E07_PTBR_ENG.ass L185 D150] Correção de lore Gundam ZZ
+  Antes : Será que este é o esconderijo secreto da A.E.U.G.?
+  Depois: Será que este é o esconderijo secreto da A.E.U.G..?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E07_PTBR_ENG.ass L205 D170] Correção de lore Gundam ZZ
+  Antes : Tem eletricidade. Está o A.E.U.G. usando esta colônia?
+  Depois: Tem eletricidade. Está o A.E.U.G.. usando esta colônia?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E07_PTBR_ENG.ass L208 D173] Correção de lore Gundam ZZ
+  Antes : Isso significa que será a colônia perfeita para a A.E.U.G. usar como uma base secreta.
+  Depois: Isso significa que será a colônia perfeita para a A.E.U.G.. usar como uma base secreta.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E07_PTBR_ENG.ass L212 D177] Correção de lore Gundam ZZ
+  Antes : Tenente, você pode sentir que\N o A.E.U.G.
+  Depois: Tenente, você pode sentir que\N o A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E07_PTBR_ENG.ass L332 D297] Correção de lore Gundam ZZ
+  Antes : {\i1}Enquanto isso, a A.E.U.G.\N estava tentando prosseguir...{\i0}
+  Depois: {\i1}Enquanto isso, a A.E.U.G..\N estava tentando prosseguir...{\i0}
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E08_PTBR_ENG.ass L66 D31] Correção de lore Gundam ZZ
+  Antes : Fui aceito\N como membro da tripulação do A.E.U.G.
+  Depois: Fui aceito\N como membro da tripulação do A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E08_PTBR_ENG.ass L272 D237] Correção de lore Gundam ZZ
+  Antes : Eu nunca esperei encontrar uma cidade perto\N de Granada que apoie o A.E.U.G.
+  Depois: Eu nunca esperei encontrar uma cidade perto\N de Granada que apoie o A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E08_PTBR_ENG.ass L307 D272] Correção de lore Gundam ZZ
+  Antes : Além disso, o mundo teria que reconhecer a A.E.U.G. e a opinião pública estaria do nosso lado.
+  Depois: Além disso, o mundo teria que reconhecer a A.E.U.G.. e a opinião pública estaria do nosso lado.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E08_PTBR_ENG.ass L315 D280] Correção de lore Gundam ZZ
+  Antes : {\i0}{\i1}{\i0}{\i1}Por que você está ajudando a A.E.U.G., Tenente Emma?
+  Depois: {\i0}{\i1}{\i0}{\i1}Por que você está ajudando a A.E.U.G.., Tenente Emma?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E09_PTBR_ENG.ass L63 D28] Correção de lore Gundam ZZ
+  Antes : Não é porque toda Granada está tomando partido para a A.E.U.G.?
+  Depois: Não é porque toda Granada está tomando partido para a A.E.U.G..?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E09_PTBR_ENG.ass L152 D117] Correção de lore Gundam ZZ
+  Antes : Ele é um investidor na A.E.U.G. É uma pessoa muito importante.
+  Depois: Ele é um investidor na A.E.U.G.. É uma pessoa muito importante.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E10_PTBR_ENG.ass L214 D178] Correção de lore Gundam ZZ
+  Antes : Aqueles A.E.U.G.!
+  Depois: Aqueles A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E10_PTBR_ENG.ass L338 D302] Correção de lore Gundam ZZ
+  Antes : {\i1}...Messala de Scirocco impede\N a A.E.U.G. de entrar na atmosfera.{\i0}
+  Depois: {\i1}...Messala de Scirocco impede\N a A.E.U.G.. de entrar na atmosfera.{\i0}
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E11_PTBR_ENG.ass L135 D100] Correção de lore Gundam ZZ
+  Antes : E eu conversei com ela sobre\N assumir uma posição com o A.E.U.G.
+  Depois: E eu conversei com ela sobre\N assumir uma posição com o A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E13_PTBR_ENG.ass L150 D116] Correção de lore Gundam ZZ
+  Antes : Eu o saúdo,\N como membro do A.E.U.G.!
+  Depois: Eu o saúdo,\N como membro do A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E15_PTBR_ENG.ass L251 D216] Correção de lore Gundam ZZ
+  Antes : Isso é o Tenente Quattro do A.E.U.G.
+  Depois: Isso é o Tenente Quattro do A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E16_PTBR_ENG.ass L294 D259] Correção de lore Gundam ZZ
+  Antes : Lieutenant Quattro, você é muito importante para a A.E.U.G.
+  Depois: Lieutenant Quattro, você é muito importante para a A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E18_PTBR_ENG.ass L93 D58] Correção de lore Gundam ZZ
+  Antes : Aquelas pessoas não são nem da A.E.U.G.\N nem militares.
+  Depois: Aquelas pessoas não são nem da A.E.U.G..\N nem militares.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E18_PTBR_ENG.ass L161 D126] Correção de lore Gundam ZZ
+  Antes : Essa é a nossa chance de deter a A.E.U.G. de uma vez por todas.
+  Depois: Essa é a nossa chance de deter a A.E.U.G.. de uma vez por todas.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E19_PTBR_ENG.ass L245 D209] Correção de lore Gundam ZZ
+  Antes : Kamille, você está levando as batalhas\N de Karaba e da A.E.U.G. a sério?!
+  Depois: Kamille, você está levando as batalhas\N de Karaba e da A.E.U.G.. a sério?!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E19_PTBR_ENG.ass L296 D260] Correção de lore Gundam ZZ
+  Antes : Com a tecnologia da A.E.U.G., Four,\N Tenho certeza de que sua memória pode ser reestimulada.
+  Depois: Com a tecnologia da A.E.U.G.., Four,\N Tenho certeza de que sua memória pode ser reestimulada.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E21_PTBR_ENG.ass L309 D274] Correção de lore Gundam ZZ
+  Antes : É um dos modelos novos da A.E.U.G.?!
+  Depois: É um dos modelos novos da A.E.U.G..?!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E22_PTBR_ENG.ass L87 D52] Correção de lore Gundam ZZ
+  Antes : O A.E.U.G. tem prosseguido com sua construção na Lua
+  Depois: O A.E.U.G.. tem prosseguido com sua construção na Lua
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E22_PTBR_ENG.ass L186 D151] Correção de lore Gundam ZZ
+  Antes : Odeio te corrigir, mas nosso inimigo\N é todo o A.E.U.G.!
+  Depois: Odeio te corrigir, mas nosso inimigo\N é todo o A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E22_PTBR_ENG.ass L187 D152] Correção de lore Gundam ZZ
+  Antes : Estou dizendo que o A.E.U.G. depende\N do Argama mais do Gundam Mk-II...
+  Depois: Estou dizendo que o A.E.U.G.. depende\N do Argama mais do Gundam Mk-II...
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E22_PTBR_ENG.ass L199 D164] Correção de lore Gundam ZZ
+  Antes : É alguma nova armadura Mobile Suit do A.E.U.G.?
+  Depois: É alguma nova armadura Mobile Suit do A.E.U.G..?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E23_PTBR_ENG.ass L276 D241] Correção de lore Gundam ZZ
+  Antes : Então, você está deixando o A.E.U.G. para\N Jamaican cuidar de...
+  Depois: Então, você está deixando o A.E.U.G.. para\N Jamaican cuidar de...
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E23_PTBR_ENG.ass L412 D377] Correção de lore Gundam ZZ
+  Antes : {\i1}O A.E.U.G. consegue recapturar\N Von Braun City?{\i0}
+  Depois: {\i1}O A.E.U.G.. consegue recapturar\N Von Braun City?{\i0}
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E24_PTBR_ENG.ass L164 D129] Correção de lore Gundam ZZ
+  Antes : Certo. Detenhar este garoto seria\N uma perda para o A.E.U.G., não é?
+  Depois: Certo. Detenhar este garoto seria\N uma perda para o A.E.U.G.., não é?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E24_PTBR_ENG.ass L166 D131] Correção de lore Gundam ZZ
+  Antes : O A.E.U.G. não terá problemas\N em lutar sem mim.
+  Depois: O A.E.U.G.. não terá problemas\N em lutar sem mim.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E24_PTBR_ENG.ass L196 D161] Correção de lore Gundam ZZ
+  Antes : Se torne líder da A.E.U.G.
+  Depois: Se torne líder da A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E24_PTBR_ENG.ass L386 D351] Correção de lore Gundam ZZ
+  Antes : {\i1}Isto ocorre porque, se Granada se tornar um mar de fogo, isso sinalizará a derrota da A.E.U.G.{\i0}
+  Depois: {\i1}Isto ocorre porque, se Granada se tornar um mar de fogo, isso sinalizará a derrota da A.E.U.G..{\i0}
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E25_PTBR_ENG.ass L41 D6] Correção de lore Gundam ZZ
+  Antes : Trouxe informações que serão úteis para a A.E.U.G.
+  Depois: Trouxe informações que serão úteis para a A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E25_PTBR_ENG.ass L297 D262] Correção de lore Gundam ZZ
+  Antes : ...e isso será o fim\N para os Titãs e A.E.U.G.
+  Depois: ...e isso será o fim\N para os Titãs e A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E25_PTBR_ENG.ass L299 D264] Correção de lore Gundam ZZ
+  Antes : Portanto, a A.E.U.G. vencerá.
+  Depois: Portanto, a A.E.U.G.. vencerá.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E25_PTBR_ENG.ass L301 D266] Correção de lore Gundam ZZ
+  Antes : ...o que pode fazer com que os cidadãos\N duvidem das capacidades da A.E.U.G.
+  Depois: ...o que pode fazer com que os cidadãos\N duvidem das capacidades da A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E27_PTBR_ENG.ass L223 D188] Correção de lore Gundam ZZ
+  Antes : Karaba, a A.E.U.G., e também o Axis.
+  Depois: Karaba, a A.E.U.G.., e também o Axis.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E29_PTBR_ENG.ass L190 D155] Correção de lore Gundam ZZ
+  Antes : Se pudermos forçar o A.E.U.G. a se render à custa de apenas uma colônia...
+  Depois: Se pudermos forçar o A.E.U.G.. a se render à custa de apenas uma colônia...
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E29_PTBR_ENG.ass L233 D198] Correção de lore Gundam ZZ
+  Antes : Perdemos comunicação com\N o navio de guerra da A.E.U.G.
+  Depois: Perdemos comunicação com\N o navio de guerra da A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E30_PTBR_ENG.ass L36 D1] Correção de lore Gundam ZZ
+  Antes : Você não acha que o A.E.U.G.'s\N está focando demais na defesa ultimamente?
+  Depois: Você não acha que o A.E.U.G..'s\N está focando demais na defesa ultimamente?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E30_PTBR_ENG.ass L37 D2] Correção de lore Gundam ZZ
+  Antes : Táticas agressivas reforçarão a\N falsa percepção do A.E.U.G. como terroristas.
+  Depois: Táticas agressivas reforçarão a\N falsa percepção do A.E.U.G.. como terroristas.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E31_PTBR_ENG.ass L148 D108] Correção de lore Gundam ZZ
+  Antes : ...que como uma Newtype, eu deveria estar\N com o A.E.U.G.
+  Depois: ...que como uma Newtype, eu deveria estar\N com o A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E32_PTBR_ENG.ass L61 D21] Correção de lore Gundam ZZ
+  Antes : E nem mesmo eu tenho ideia se\N eles vão do lado dos Titãs ou da A.E.U.G.
+  Depois: E nem mesmo eu tenho ideia se\N eles vão do lado dos Titãs ou da A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E33_PTBR_ENG.ass L125 D85] Correção de lore Gundam ZZ
+  Antes : Char não deveria ser um membro do A.E.U.G.!
+  Depois: Char não deveria ser um membro do A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E34_PTBR_ENG.ass L132 D92] Correção de lore Gundam ZZ
+  Antes : E pouco tempo depois,\N acabei na A.E.U.G.
+  Depois: E pouco tempo depois,\N acabei na A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E36_PTBR_ENG.ass L108 D68] Correção de lore Gundam ZZ
+  Antes : {\i1}Odeio o A.E.U.G.!{\i0}
+  Depois: {\i1}Odeio o A.E.U.G..!{\i0}
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E36_PTBR_ENG.ass L223 D183] Correção de lore Gundam ZZ
+  Antes : Você é conhecido como um combatente principal\N da A.E.U.G.
+  Depois: Você é conhecido como um combatente principal\N da A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E36_PTBR_ENG.ass L236 D196] Correção de lore Gundam ZZ
+  Antes : Droga de A.E.U.G.
+  Depois: Droga de A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E37_PTBR_ENG.ass L182 D142] Correção de lore Gundam ZZ
+  Antes : Até onde é que o A.E.U.G. está?
+  Depois: Até onde é que o A.E.U.G.. está?
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E37_PTBR_ENG.ass L193 D153] Correção de lore Gundam ZZ
+  Antes : Somos do A.E.U.G.!
+  Depois: Somos do A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E37_PTBR_ENG.ass L198 D158] Correção de lore Gundam ZZ
+  Antes : Eu sou o Tenente Quattro Bajeena\N do A.E.U.G.
+  Depois: Eu sou o Tenente Quattro Bajeena\N do A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E39_PTBR_ENG.ass L63 D23] Correção de lore Gundam ZZ
+  Antes : Por favor, fique descansado, um simples toque meu e a A.E.U.G. deixará de existir.
+  Depois: Por favor, fique descansado, um simples toque meu e a A.E.U.G.. deixará de existir.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E39_PTBR_ENG.ass L101 D61] Correção de lore Gundam ZZ
+  Antes : Há uma nave da A.E.U.G.\N que me causa uma pressão muito forte.
+  Depois: Há uma nave da A.E.U.G..\N que me causa uma pressão muito forte.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E39_PTBR_ENG.ass L333 D293] Correção de lore Gundam ZZ
+  Antes : {\i1}Ela tem o cheiro da A.E.U.G.{\i0}
+  Depois: {\i1}Ela tem o cheiro da A.E.U.G..{\i0}
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E42_PTBR_ENG.ass L85 D45] Correção de lore Gundam ZZ
+  Antes : Nós precisamos que eles entendam\N que o A.E.U.G. salvou Side 2.
+  Depois: Nós precisamos que eles entendam\N que o A.E.U.G.. salvou Side 2.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E43_PTBR_ENG.ass L66 D26] Correção de lore Gundam ZZ
+  Antes : But Axis de Haman é inimigo da N.A.E.U.G.!
+  Depois: But Axis de Haman é inimigo da N.A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E43_PTBR_ENG.ass L183 D143] Correção de lore Gundam ZZ
+  Antes : Sim, acreditamos que pertencem ao\N A.E.U.G.
+  Depois: Sim, acreditamos que pertencem ao\N A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E43_PTBR_ENG.ass L223 D183] Correção de lore Gundam ZZ
+  Antes : Então o Bask está jogando direto nas mãos do\N A.E.U.G.
+  Depois: Então o Bask está jogando direto nas mãos do\N A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E43_PTBR_ENG.ass L337 D297] Correção de lore Gundam ZZ
+  Antes : Lady Mineva. Com isso, o A.E.U.G.\N agora pertence ao Axis.
+  Depois: Lady Mineva. Com isso, o A.E.U.G..\N agora pertence ao Axis.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E44_PTBR_ENG.ass L279 D239] Correção de lore Gundam ZZ
+  Antes : Um dia ela também vai\N trair o A.E.U.G.!
+  Depois: Um dia ela também vai\N trair o A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E44_PTBR_ENG.ass L321 D281] Correção de lore Gundam ZZ
+  Antes : O A.E.U.G.!
+  Depois: O A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E45_PTBR_ENG.ass L41 D1] Correção de lore Gundam ZZ
+  Antes : {\i1}Haman Karn se encontrou com Jamitov\N apesar de colaborar com o A.E.U.G.{\i0}
+  Depois: {\i1}Haman Karn se encontrou com Jamitov\N apesar de colaborar com o A.E.U.G..{\i0}
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E45_PTBR_ENG.ass L55 D15] Correção de lore Gundam ZZ
+  Antes : Temos observado luzes emitidas pelo Eixo.
+  Depois: Temos observado luzes emitidas pelo Axis.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E45_PTBR_ENG.ass L63 D23] Correção de lore Gundam ZZ
+  Antes : Não é como se fosse o A.E.U.G. um bando de preguiçosos
+  Depois: Não é como se fosse o A.E.U.G.. um bando de preguiçosos
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E45_PTBR_ENG.ass L126 D86] Correção de lore Gundam ZZ
+  Antes : Vamos deixar o A.E.U.G. para a frota lá fora!
+  Depois: Vamos deixar o A.E.U.G.. para a frota lá fora!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E45_PTBR_ENG.ass L300 D260] Correção de lore Gundam ZZ
+  Antes : Este navio agora está sob o controle da A.E.U.G.!
+  Depois: Este navio agora está sob o controle da A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E46_PTBR_ENG.ass L62 D23] Correção de lore Gundam ZZ
+  Antes : Se eu tivesse desertado da A.E.U.G.
+  Depois: Se eu tivesse desertado da A.E.U.G..
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E47_PTBR_ENG.ass L154 D114] Correção de lore Gundam ZZ
+  Antes : Malditos A.E.U.G.!\N Eles podem implantar sua frota rapidamente.
+  Depois: Malditos A.E.U.G..!\N Eles podem implantar sua frota rapidamente.
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E47_PTBR_ENG.ass L376 D336] Correção de lore Gundam ZZ
+  Antes : {\i1}...e a A.E.U.G. tomou controle de Gryps 2.{\i0}
+  Depois: {\i1}...e a A.E.U.G.. tomou controle de Gryps 2.{\i0}
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E50_PTBR_ENG.ass L338 D298] Correção de lore Gundam ZZ
+  Antes : N-Nós não conseguimos mais vencer a A.E.U.G.!
+  Depois: N-Nós não conseguimos mais vencer a A.E.U.G..!
+----------------------------------------------------------------------------------------------------
+[Mobile.Suit.Z.Gundam.S01E50_PTBR_ENG.ass L341 D301] Correção de lore Gundam ZZ
+  Antes : Vou parar o A.E.U.G. mesmo que signifique a minha vida.
+  Depois: Vou parar o A.E.U.G.. mesmo que signifique a minha vida.
+----------------------------------------------------------------------------------------------------

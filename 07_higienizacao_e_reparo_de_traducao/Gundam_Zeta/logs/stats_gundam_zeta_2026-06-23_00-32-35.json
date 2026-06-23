@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-23_00-32-35",
+  "modo": "PRODUÇÃO",
+  "pastas": {
+    "ptbr": "C:\\animes\\[Joseki] Mobile Suit Z Gundam COMPLETE (1985)(BD AV1 1080p Opus)[Sub Eng][v2]\\corrigidas_ptbr",
+    "eng": null,
+    "saida": "C:\\animes\\[Joseki] Mobile Suit Z Gundam COMPLETE (1985)(BD AV1 1080p Opus)[Sub Eng][v2]\\corrigidas_finais"
+  },
+  "stats": {
+    "arquivos_processados": 50,
+    "arquivos_pulados": 0,
+    "linhas_modificadas": 14,
+    "karaoke_restaurado": 0,
+    "lore_corrigido": 11,
+    "higienizacao_geral": 3,
+    "correcoes_manuais": 0
+  },
+  "total_modificacoes": 14
+}

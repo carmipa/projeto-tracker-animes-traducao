@@ -379,6 +379,8 @@ def indexar_dialogos_eng(linhas):
 
 
 def achar_legenda_eng(caminho_ptbr, pasta_eng, pasta_ptbr_base=None):
+    if not pasta_eng:
+        return None
     nome_ptbr = nome_arquivo_seguro(os.path.basename(caminho_ptbr))
     if not nome_ptbr:
         return None
@@ -846,7 +848,7 @@ def remuxar_mkv(pasta_mkv, pasta_legendas_corrigidas):
             MKVMERGE_PATH, "-o", caminho_out,
             "--no-subtitles", caminho_mkv,
             "--language", "0:por",
-            "--track-name", "0:Português (Revisão Gundam ZZ)",
+            "--track-name", "0:Português (Mistral)",
             "--default-track", "0:yes",
             "--forced-display-flag", "0:no",
             caminho_leg,

@@ -84,21 +84,43 @@ SUBSTITUICOES_LORE = [
     (re.compile(r"Cibernovo Tipo", re.I), "Cyber-Newtype"),
     (re.compile(r"Cibernovos Tipos", re.I), "Cyber-Newtypes"),
     (re.compile(r"ciber-novo tipo", re.I), "Cyber-Newtype"),
-    (re.compile(r"ciber-novos tipos", re.I), "Cyber-Newtypes"),
-    (re.compile(r"Gundam Psíquico", re.I), "Psycho Gundam"),
-    (re.compile(r"Gundam Psíquicos", re.I), "Psycho Gundams"),
-    (re.compile(r"Gundam Psicótico", re.I), "Psycho Gundam"),
-    (re.compile(r"Noa Verde", re.I), "Green Noa"),
+    (re.compile(r" Traje Móvel ", re.I), "Mobile Suit"),
+    (re.compile(r" Trajes Móveis ", re.I), "Mobile Suits"),
+    (re.compile(r" Novo Tipo ", re.I), "Newtype"),
+    (re.compile(r" Novos Tipos ", re.I), "Newtypes"),
+    (re.compile(r" Base Branca ", re.I), "White Base"),
+    (re.compile(r" Cometa Rubro ", re.I), "Cometa Vermelho"),
+    (re.compile(r" vaso almirante ", re.I), "nave capitânia"),
+    (re.compile(r" vaso de guerra ", re.I), "nave de guerra"),
+    (re.compile(r" Federação da Terra ", re.I), "Federação Terrestre"),
+    (re.compile(r" Forças Terrestres ", re.I), "Forças da Federação"),
+    (re.compile(r" Titans ", re.I), "Titãs"),
+    (re.compile(r" Ciber-Novo Tipo ", re.I), "Cyber-Newtype"),
+    (re.compile(r" Ciber-Novos Tipos ", re.I), "Cyber-Newtypes"),
+    (re.compile(r" Cibernovo Tipo ", re.I), "Cyber-Newtype"),
+    (re.compile(r" Cibernovos Tipos ", re.I), "Cyber-Newtypes"),
+    (re.compile(r" ciber-novo tipo ", re.I), "Cyber-Newtype"),
+    (re.compile(r" ciber-novos tipos ", re.I), "Cyber-Newtypes"),
+    (re.compile(r" Gundam Psíquico ", re.I), "Psycho Gundam"),
+    (re.compile(r" Gundam Psíquicos ", re.I), "Psycho Gundams"),
+    (re.compile(r" Gundam Psicótico ", re.I), "Psycho Gundam"),
+    (re.compile(r" Noa Verde ", re.I), "Green Noa"),
     # Locais Padronizados Universais
-    (re.compile(r"O Eixo", re.I), "Axis"),
-    (re.compile(r"au Eixo", re.I), "a Axis"),
-    (re.compile(r"do Eixo", re.I), "de Axis"),
-    (re.compile(r"no Eixo", re.I), "em Axis"),
-    (re.compile(r"eixo", re.IGNORECASE), "Axis"),
+    (re.compile(r"\bO Eixo\b", re.I), "Axis"),
+    (re.compile(r"\bau Eixo\b", re.I), "a Axis"),
+    (re.compile(r"\bdo Eixo\b", re.I), "de Axis"),
+    (re.compile(r"\bno Eixo\b", re.I), "em Axis"),
+    (re.compile(r"\bpelo Eixo\b", re.I), "por Axis"),
+    (re.compile(r"\beixo\b", re.IGNORECASE), "Axis"),
+    (re.compile(r"\bLady Haman\b", re.IGNORECASE), "Senhorita Haman"),
 ]
 
 GRAMATICA_E_GAFES = {
     "Eu vejo.": "Entendo.",
+    "Eu vejo que": "Percebo que",
+    "Eu vejo.": "Entendo.",
+    "Eu vejo!": "Entendo!",
+    "Eu vejo isso!": "Estou vendo!",
     "Eu vejo que": "Percebo que",
     "eu vejo que": "percebo que",
     "Olhe fora!": "Cuidado!",
@@ -304,6 +326,8 @@ def indexar_dialogos_eng(linhas):
 
 
 def achar_legenda_eng(caminho_ptbr, pasta_eng, pasta_ptbr_base=None):
+    if not pasta_eng:
+        return None
     nome_ptbr = nome_arquivo_seguro(os.path.basename(caminho_ptbr))
     if not nome_ptbr:
         return None
@@ -771,7 +795,7 @@ def remuxar_mkv(pasta_mkv, pasta_legendas_corrigidas):
             MKVMERGE_PATH, "-o", caminho_out,
             "--no-subtitles", caminho_mkv,
             "--language", "0:por",
-            "--track-name", "0:Português (Revisão Zeta Gundam)",
+            "--track-name", "0:Português (Mistral)",
             "--default-track", "0:yes",
             "--forced-display-flag", "0:no",
             caminho_leg,

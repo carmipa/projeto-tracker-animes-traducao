@@ -292,7 +292,7 @@ class IndustrialRemuxerV2:
                     "--no-subtitles",
                     item['caminho_mkv'],
                     "--language", "0:por",
-                    "--track-name", "0:Português (Gemma 4B)",
+                    "--track-name", "0:Português (Mistral)",
                     "--default-track", "0:yes",
                     item['caminho_legenda']
                 ]

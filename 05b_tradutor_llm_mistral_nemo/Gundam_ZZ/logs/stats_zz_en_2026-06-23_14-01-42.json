@@ -1,0 +1,459 @@
+{
+  "timestamp": "2026-06-23_14-01-42",
+  "data_hora": "2026-06-23T16:00:41.892639",
+  "stats": {
+    "ass_total": 47,
+    "ass_ok": 47,
+    "ass_falha": 0,
+    "ass_pulados": 0,
+    "linhas_traduzidas": 14811,
+    "linhas_com_erro": 4,
+    "erros_traducao": 4,
+    "cache_hits": 5756,
+    "requisicoes": 1523,
+    "dialogos_pulados": 0,
+    "tempo_inicio": 17641.4387712,
+    "abortado_lm_offline": false,
+    "tempo_total_seg": 7123.87
+  },
+  "auditoria": {
+    "tempo_total_api_seg": 7084.16,
+    "tempo_medio_api_seg": 4.65,
+    "tempo_medio_lote_seg": 7.04,
+    "tempo_io_seg": 0.09,
+    "tempo_parse_seg": 0.75,
+    "requisicoes_api": 1523,
+    "retentativas_api": 1,
+    "lotes_parciais": 85,
+    "fallbacks_individuais": 498,
+    "rejeicoes_validacao": 556,
+    "falhas_definitivas": 4,
+    "falhas_por_motivo": {
+      "Tags desalinhadas: ['[T0]'] vs []": 502,
+      "Tags desalinhadas: [] vs ['[T0]']": 10,
+      "Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']": 15,
+      "Resíduo de inglês não presente no original: 'this'": 1,
+      "Tags desalinhadas: ['[T0]', '[T1]', '[T2]'] vs ['[T0]', '[T1]']": 1,
+      "Tags desalinhadas: ['[T0]', '[T1]'] vs []": 12,
+      "Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T0]']": 1,
+      "Resíduo de inglês não presente no original: 'the'": 1,
+      "falha_definitiva:falha_apos_3_tentativas_individuais": 4,
+      "Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']": 7,
+      "Preâmbulo conversacional do LLM": 1,
+      "Resíduo de inglês não presente no original: 'with'": 1,
+      "Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T1]', '[T2]', '[T3]', '[T4]']": 4
+    },
+    "tempos_por_arquivo": [
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass",
+        "duracao_seg": 337.22,
+        "dialogos_novos": 528,
+        "cache_hits": 177,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E02_ENG.ass",
+        "duracao_seg": 118.87,
+        "dialogos_novos": 283,
+        "cache_hits": 122,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass",
+        "duracao_seg": 140.05,
+        "dialogos_novos": 317,
+        "cache_hits": 134,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E04_ENG.ass",
+        "duracao_seg": 150.72,
+        "dialogos_novos": 329,
+        "cache_hits": 146,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass",
+        "duracao_seg": 151.99,
+        "dialogos_novos": 342,
+        "cache_hits": 153,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass",
+        "duracao_seg": 136.44,
+        "dialogos_novos": 306,
+        "cache_hits": 150,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass",
+        "duracao_seg": 146.76,
+        "dialogos_novos": 294,
+        "cache_hits": 152,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E08_ENG.ass",
+        "duracao_seg": 150.79,
+        "dialogos_novos": 317,
+        "cache_hits": 162,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass",
+        "duracao_seg": 168.28,
+        "dialogos_novos": 338,
+        "cache_hits": 179,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass",
+        "duracao_seg": 164.84,
+        "dialogos_novos": 338,
+        "cache_hits": 156,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E11_ENG.ass",
+        "duracao_seg": 144.86,
+        "dialogos_novos": 335,
+        "cache_hits": 154,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E12_ENG.ass",
+        "duracao_seg": 152.93,
+        "dialogos_novos": 332,
+        "cache_hits": 158,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass",
+        "duracao_seg": 162.62,
+        "dialogos_novos": 348,
+        "cache_hits": 167,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E14_ENG.ass",
+        "duracao_seg": 159.96,
+        "dialogos_novos": 351,
+        "cache_hits": 173,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass",
+        "duracao_seg": 159.16,
+        "dialogos_novos": 334,
+        "cache_hits": 163,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E16_ENG.ass",
+        "duracao_seg": 150.28,
+        "dialogos_novos": 337,
+        "cache_hits": 182,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass",
+        "duracao_seg": 140.13,
+        "dialogos_novos": 311,
+        "cache_hits": 176,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E18_ENG.ass",
+        "duracao_seg": 138.18,
+        "dialogos_novos": 302,
+        "cache_hits": 170,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass",
+        "duracao_seg": 142.73,
+        "dialogos_novos": 301,
+        "cache_hits": 184,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass",
+        "duracao_seg": 241.08,
+        "dialogos_novos": 481,
+        "cache_hits": 175,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E21_ENG.ass",
+        "duracao_seg": 158.4,
+        "dialogos_novos": 342,
+        "cache_hits": 165,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass",
+        "duracao_seg": 163.3,
+        "dialogos_novos": 338,
+        "cache_hits": 163,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass",
+        "duracao_seg": 152.62,
+        "dialogos_novos": 312,
+        "cache_hits": 165,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass",
+        "duracao_seg": 155.71,
+        "dialogos_novos": 332,
+        "cache_hits": 165,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E25_ENG.ass",
+        "duracao_seg": 118.13,
+        "dialogos_novos": 249,
+        "cache_hits": 178,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass",
+        "duracao_seg": 155.66,
+        "dialogos_novos": 331,
+        "cache_hits": 61,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass",
+        "duracao_seg": 118.61,
+        "dialogos_novos": 241,
+        "cache_hits": 77,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E28_ENG.ass",
+        "duracao_seg": 120.69,
+        "dialogos_novos": 269,
+        "cache_hits": 87,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass",
+        "duracao_seg": 169.73,
+        "dialogos_novos": 306,
+        "cache_hits": 68,
+        "erros": 2,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass",
+        "duracao_seg": 170.41,
+        "dialogos_novos": 328,
+        "cache_hits": 77,
+        "erros": 1,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E31_ENG.ass",
+        "duracao_seg": 139.72,
+        "dialogos_novos": 288,
+        "cache_hits": 53,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass",
+        "duracao_seg": 137.32,
+        "dialogos_novos": 271,
+        "cache_hits": 63,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E33_ENG.ass",
+        "duracao_seg": 154.17,
+        "dialogos_novos": 343,
+        "cache_hits": 88,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E34_ENG.ass",
+        "duracao_seg": 138.02,
+        "dialogos_novos": 311,
+        "cache_hits": 85,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass",
+        "duracao_seg": 133.6,
+        "dialogos_novos": 263,
+        "cache_hits": 62,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E36_ENG.ass",
+        "duracao_seg": 111.15,
+        "dialogos_novos": 244,
+        "cache_hits": 64,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass",
+        "duracao_seg": 153.64,
+        "dialogos_novos": 328,
+        "cache_hits": 71,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass",
+        "duracao_seg": 175.42,
+        "dialogos_novos": 337,
+        "cache_hits": 70,
+        "erros": 1,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass",
+        "duracao_seg": 140.89,
+        "dialogos_novos": 283,
+        "cache_hits": 74,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E40_ENG.ass",
+        "duracao_seg": 154.38,
+        "dialogos_novos": 348,
+        "cache_hits": 89,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E41_ENG.ass",
+        "duracao_seg": 115.06,
+        "dialogos_novos": 250,
+        "cache_hits": 82,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass",
+        "duracao_seg": 165.2,
+        "dialogos_novos": 333,
+        "cache_hits": 107,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E43_ENG.ass",
+        "duracao_seg": 141.76,
+        "dialogos_novos": 313,
+        "cache_hits": 91,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass",
+        "duracao_seg": 140.58,
+        "dialogos_novos": 282,
+        "cache_hits": 74,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass",
+        "duracao_seg": 141.93,
+        "dialogos_novos": 262,
+        "cache_hits": 59,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E46_ENG.ass",
+        "duracao_seg": 124.29,
+        "dialogos_novos": 264,
+        "cache_hits": 93,
+        "erros": 0,
+        "ok": true
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass",
+        "duracao_seg": 115.43,
+        "dialogos_novos": 223,
+        "cache_hits": 92,
+        "erros": 0,
+        "ok": true
+      }
+    ],
+    "falhas_detalhadas": [
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass",
+        "indice_lote": 6,
+        "motivo": "falha_apos_3_tentativas_individuais",
+        "tentativas": 3,
+        "tempo_seg": 7.14,
+        "texto_en": "It [T0]is[T1] you, Roux Louka!"
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass",
+        "indice_lote": 0,
+        "motivo": "falha_apos_3_tentativas_individuais",
+        "tentativas": 3,
+        "tempo_seg": 7.21,
+        "texto_en": "[T0]Women are scary!"
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass",
+        "indice_lote": 12,
+        "motivo": "falha_apos_3_tentativas_individuais",
+        "tentativas": 3,
+        "tempo_seg": 17.75,
+        "texto_en": "[T0]\\h\\h\\h[T1]Next Episode \\N\\N\\N\\N\\N\\N\\N\\N\\N\\N[T2]\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h[T3]Blue Corps\\N[T4]\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h(Part 2)"
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass",
+        "indice_lote": 0,
+        "motivo": "falha_apos_3_tentativas_individuais",
+        "tentativas": 3,
+        "tempo_seg": 7.47,
+        "texto_en": "[T0]Something's definitely wrong with Judau!"
+      }
+    ]
+  }
+}

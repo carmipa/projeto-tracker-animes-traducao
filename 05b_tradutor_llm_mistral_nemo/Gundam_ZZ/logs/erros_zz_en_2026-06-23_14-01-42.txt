@@ -1,0 +1,17 @@
+
+================================================================================
+PIPELINE DE TRADUÇÃO GUNDAM ZZ / DOUBLE ZETA (EN -> PT-BR)
+================================================================================
+Início    : 2026-06-23 14:01:42
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\logs
+================================================================================
+
+[15:17:24.015] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=6 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.1s
+  EN: It [T0]is[T1] you, Roux Louka!
+[15:17:38.383] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.2s
+  EN: [T0]Women are scary!
+[15:20:59.248] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | idx=12 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=17.8s
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:38:45.430] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.5s
+  EN: [T0]Something's definitely wrong with Judau!

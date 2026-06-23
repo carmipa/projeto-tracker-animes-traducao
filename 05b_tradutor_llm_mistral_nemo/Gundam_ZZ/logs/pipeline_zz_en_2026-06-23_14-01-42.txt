@@ -1,0 +1,2042 @@
+
+================================================================================
+PIPELINE DE TRADUÇÃO GUNDAM ZZ / DOUBLE ZETA (EN -> PT-BR)
+================================================================================
+Início    : 2026-06-23 14:01:42
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\logs
+================================================================================
+
+
+================================================================================
+                TRADUTOR GUNDAM ZZ — EN -> PT-BR (MISTRAL NEMO)                 
+================================================================================
+
+[14:01:42.770] [INFO    ] Cache carregado: 171 itens.
+[14:01:42.777] [INFO    ] Testando LM Studio em http://127.0.0.1:1234...
+[14:01:42.804] [SUCESSO ] LM Studio OK. Modelo: mistralai/mistral-nemo-instruct-2407
+
+================================================================================
+                             PROCESSAMENTO EM LOTE                              
+================================================================================
+
+[14:01:58.017] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass
+[14:01:58.018] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E01_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass            
+================================================================================
+
+[14:01:58.019] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:01:58.022] [INFO    ] Traduzindo 528 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass (36 lote(s) de até 15)
+[14:02:47.152] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...and even control of its rotational\Nspeed has become unreliable.
+[14:02:47.152] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Each Side consists of a group of\Naround 40 colonies,
+[14:02:47.152] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]with each colony successively\Nnumbered, starting from 1.
+[14:02:47.152] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The space cities from Side 1 to Side\N7 are located...
+[14:02:47.152] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...at points where the gravity of the\NEarth, moon, and sun is in balance.
+[14:02:47.153] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]They move in elliptical orbits\Naround these Lagrange points.
+[14:02:47.153] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]These colonies, which represent the\Npeak of science and technology,
+[14:02:47.153] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]include numerous facilities that\Nsupport life in space,
+[14:02:47.153] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]as well as a variety of safety systems.
+[14:02:47.153] [AVISO   ] Lote parcial 6/15 em 0.0s. Retraduzindo 9 linha(s) individualmente...
+[14:02:48.721] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Each Side consists of a group of\Naround 40 colonies,
+[14:02:48.721] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Each Side consists of a group of\Naround 40 colonies,
+[14:02:48.721] [DEBUG   ] Lote vazio após 0.7s: [0] Cada Side consiste em um grupo de\Ncerca de 40 colônias
+[14:03:17.483] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I wish he'd cure that reckless\Nstreak of his.
+[14:03:17.483] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Oh, I'm sick of all the\Ntrouble he gets into.
+[14:03:17.484] [AVISO   ] Lote parcial 13/15 em 0.0s. Retraduzindo 2 linha(s) individualmente...
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"Children have forgotten their dreams,"
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...is what they say
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Ah, the times are crying
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]At night when everyone was fast asleep,
+[14:03:42.990] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]At night when everyone was fast asleep,
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I looked at the sky through the window,
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I looked at the sky through the window,
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And I saw something magical!
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And I saw something magical!
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"Children have forgotten their dreams,"
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...is what they say
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Ah, the times are crying
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]At night when everyone was fast asleep,
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]At night when everyone was fast asleep,
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I looked at the sky through the window,
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I looked at the sky through the window,
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And I saw something magical!
+[14:03:42.991] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And I saw something magical!
+[14:03:42.991] [DEBUG   ] Lote vazio após 4.9s: [0] "As crianças esqueceram seus sonhos,"
+[1] ...é o que dizem
+[2] Ah, os tempos estão chorando
+[3] Não é um anime.
+[4] Não é um anime.
+[5] Não é um anime.
+[6] Não é um anime.
+[7] É verdade!
+[8] É verdade!
+[9] À noite, quando todos estavam dormindo,
+[10] À noite, quando todos estavam dormindo,
+[11] 
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Sneaking out of the room at dawn
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Sneaking out of the room at dawn
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I kept on waiting at the beach,
+[14:04:08.363] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I kept on waiting at the beach,
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]and I saw such a great things.
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Sneaking out of the room at dawn
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Sneaking out of the room at dawn
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I kept on waiting at the beach,
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I kept on waiting at the beach,
+[14:04:08.364] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]and I saw such a great things.
+[14:04:08.364] [DEBUG   ] Lote vazio após 4.7s: [0] Não é um anime.
+[1] Não é um anime.
+[2] Que sensação maravilhosa!
+[3] Que sensação maravilhosa!
+[4] Não é um anime.
+[5] Não é um anime.
+[6] Não é um anime.
+[7] Não é um anime.
+[8] É verdade!
+[9] É verdade!
+[10] Saindo sorrateiramente do quarto ao amanhecer
+[11] Saindo sorrateiramente do quarto a
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]and I saw such a great things.
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Everytime we share secrets.
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Everytime we share secrets.
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]People say "You read too much manga".
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]People say "You read too much manga".
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I never, ever...
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I never, ever...
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]this world can't be measured,
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]this world can't be measured,
+[14:04:21.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's lovely world.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's lovely world.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]and I saw such a great things.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Everytime we share secrets.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Everytime we share secrets.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]People say "You read too much manga".
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]People say "You read too much manga".
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I never, ever...
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I never, ever...
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]this world can't be measured,
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]this world can't be measured,
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's lovely world.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's lovely world.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:21.195] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:21.195] [DEBUG   ] Lote vazio após 5.5s: [0] E eu vi coisas tão incríveis.
+[1] Todo o tempo que compartilhamos segredos.
+[2] Todo o tempo que compartilhamos segredos.
+[3] As pessoas dizem "Você lê muitos mangás".
+[4] As pessoas dizem "Você lê muitos mangás".
+[5] Mas eu nunca, jamais...
+[6] Mas eu nunca, jamais...
+[7] Este mundo não pode se
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's reality.
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's reality.
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:33.283] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's reality.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's reality.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:33.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:33.284] [DEBUG   ] Lote vazio após 4.2s: [0] Não é um anime.
+[1] Não é um anime.
+[2] É realidade.
+[3] É realidade.
+[4] Não é um anime.
+[5] Não é um anime.
+[6] Não é um anime.
+[7] Não é um anime.
+[8] Que sensação maravilhosa!
+[9] Que sensação maravilhosa!
+[10] Não é um anime.
+[11] Não é um anime.
+[12] Não é um anime.
+[13] Não é um anime.
+[1
+[14:04:44.551] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:44.551] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's lovely world.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's lovely world.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's reality.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's reality.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's lovely world.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's lovely world.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's reality.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's reality.
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:04:44.552] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:44.553] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:04:44.553] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.553] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:04:44.553] [DEBUG   ] Lote vazio após 4.3s: [0] Não é anime, não é anime!
+[1] É um mundo lindo.
+[2] É um mundo lindo.
+[3] Não é anime.
+[4] Não é anime.
+[5] Não é anime.
+[6] Não é anime.
+[7] É a realidade.
+[8] É a realidade.
+[9] Não é anime, não é anime!
+[10] Não é anime, não é anime!
+[11] Que sensação maravilhosa!
+[12] Que sensação maravilhos
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]At night when everyone was fast asleep,
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]At night when everyone was fast asleep,
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I looked at the sky through the window,
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I looked at the sky through the window,
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And I saw something magical!
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And I saw something magical!
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]All adults say with a laugh,
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]All adults say with a laugh,
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"You watch too much television,"
+[14:05:13.157] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"You watch too much television,"
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I never, ever...
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I never, ever...
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...tell any lies
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]At night when everyone was fast asleep,
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]At night when everyone was fast asleep,
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I looked at the sky through the window,
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I looked at the sky through the window,
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And I saw something magical!
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And I saw something magical!
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]All adults say with a laugh,
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]All adults say with a laugh,
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"You watch too much television,"
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"You watch too much television,"
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I never, ever...
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I never, ever...
+[14:05:13.158] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...tell any lies
+[14:05:13.158] [DEBUG   ] Lote vazio após 5.4s: [0] É verdade!
+[1] É verdade!
+[2] À noite, quando todos estavam profundamente dormindo,
+[3] À noite, quando todos estavam profundamente dormindo,
+[4] Pelo vidro da janela, olhei para o céu,
+[5] Pelo vidro da janela, olhei para o céu,
+[6] E vi algo mágico!
+[7] E vi algo mágico!
+[8] Todos os adultos d
+[14:05:25.994] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...tell any lies
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]This world of ours...
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]This world of ours...
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...cannot be viewed through...
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...cannot be viewed through...
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...the glasses of common sense
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...the glasses of common sense
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You old Earthlings,
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You old Earthlings,
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]you've forgotten your dreams!
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]you've forgotten your dreams!
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...tell any lies
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]This world of ours...
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]This world of ours...
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...cannot be viewed through...
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...cannot be viewed through...
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...the glasses of common sense
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...the glasses of common sense
+[14:05:25.995] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You old Earthlings,
+[14:05:25.996] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You old Earthlings,
+[14:05:25.996] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]you've forgotten your dreams!
+[14:05:25.996] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]you've forgotten your dreams!
+[14:05:25.996] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:05:25.996] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime, not an anime!
+[14:05:25.996] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:05:25.996] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Such a wonderful feeling!
+[14:05:25.996] [DEBUG   ] Lote vazio após 5.2s: [0] ...contar mentiras
+[1] Este mundo nosso...
+[2] Este mundo nosso...
+[3] ...não pode ser visto através de...
+[4] ...não pode ser visto através de...
+[5] ...os óculos do senso comum
+[6] ...os óculos do senso comum
+[7] Vocês, velhos terráqueos,
+[8] Vocês, velhos terráqueos,
+[9] ...vocês esqueceram s
+[14:05:39.252] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:05:39.252] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:05:39.253] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:05:39.253] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Not an anime.
+[14:05:39.253] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:05:39.253] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:05:39.253] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:05:39.253] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It's true!
+[14:05:39.253] [AVISO   ] Lote parcial 7/15 em 0.0s. Retraduzindo 8 linha(s) individualmente...
+[14:06:31.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You old Earthlings,
+[14:06:31.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]furui chikyuu-jin yo
+[14:06:31.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]you've forgotten your dreams!
+[14:06:31.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]furui chikyuu-jin yo
+[14:06:31.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]you've forgotten your dreams!
+[14:06:31.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai! Anime Ja Nai!
+[14:06:31.194] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai! Anime Ja Nai!
+[14:06:31.195] [AVISO   ] Lote parcial 8/15 em 0.0s. Retraduzindo 7 linha(s) individualmente...
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Genjitsu na no sa
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Genjitsu na no sa
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai! Anime Ja Nai!
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai! Anime Ja Nai!
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Fushigi na kimochi
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Fushigi na kimochi
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Hontou no koto sa
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Hontou no koto sa
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Genjitsu na no sa
+[14:06:46.491] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Genjitsu na no sa
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai! Anime Ja Nai!
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai! Anime Ja Nai!
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Fushigi na kimochi
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Fushigi na kimochi
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Anime Ja Nai
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Hontou no koto sa
+[14:06:46.492] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Hontou no koto sa
+[14:06:46.492] [DEBUG   ] Lote vazio após 4.4s: [0] Anime já não é
+[1] Anime já não é
+[2] Anime já não é
+[3] É a realidade agora
+[4] É a realidade agora
+[5] Anime já não é! Anime já não é!
+[6] Anime já não é! Anime já não é!
+[7] Uma sensação misteriosa
+[8] Uma sensação misteriosa
+[9] Anime já não é
+[10] Anime já não é
+[11] Anime já não é
+[12] Ani
+[14:07:10.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I wanna have a pure time!
+[14:07:10.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Everyone's a noble mind!
+[14:07:10.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Everyone's a noble mind!
+[14:07:10.086] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[14:07:35.235] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass: lotes em 5m 37s | traduzidas=528 erros=0
+[14:07:35.238] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E01_PTBR.ass | Tempo: 5m 37s | novos=528 cache=177 erros=0
+[14:07:35.240] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E02_ENG.ass
+[14:07:35.240] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E02_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E02_ENG.ass            
+================================================================================
+
+[14:07:35.241] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:07:35.243] [INFO    ] Traduzindo 283 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E02_ENG.ass (19 lote(s) de até 15)
+[14:09:34.094] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E02_ENG.ass: lotes em 1m 58s | traduzidas=283 erros=0
+[14:09:34.107] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E02_PTBR.ass | Tempo: 1m 58s | novos=283 cache=122 erros=0
+[14:09:34.109] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass
+[14:09:34.109] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E03_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass            
+================================================================================
+
+[14:09:34.110] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:09:34.112] [INFO    ] Traduzindo 317 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass (22 lote(s) de até 15)
+[14:11:18.384] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You sure about this?
+[14:11:18.385] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:11:24.875] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Thank you!
+[14:11:24.876] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:11:27.809] [AVISO   ] Lote parcial 6/15 em 0.0s. Retraduzindo 9 linha(s) individualmente...
+[14:11:54.161] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass: lotes em 2m 20s | traduzidas=317 erros=0
+[14:11:54.165] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E03_PTBR.ass | Tempo: 2m 20s | novos=317 cache=134 erros=0
+[14:11:54.167] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E04_ENG.ass
+[14:11:54.167] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E04_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E04_ENG.ass            
+================================================================================
+
+[14:11:54.168] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:11:54.170] [INFO    ] Traduzindo 329 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E04_ENG.ass (22 lote(s) de até 15)
+[14:12:06.853] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:13:24.105] [AVISO   ] Lote parcial 6/15 em 0.0s. Retraduzindo 9 linha(s) individualmente...
+[14:14:24.884] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E04_ENG.ass: lotes em 2m 30s | traduzidas=329 erros=0
+[14:14:24.887] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E04_PTBR.ass | Tempo: 2m 30s | novos=329 cache=146 erros=0
+[14:14:24.889] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass
+[14:14:24.890] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E05_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass            
+================================================================================
+
+[14:14:24.891] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:14:24.893] [INFO    ] Traduzindo 342 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass (23 lote(s) de até 15)
+[14:14:39.422] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Keep that in mind.
+[14:14:39.422] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]That's right...
+[14:14:39.422] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]This man is a citizen of this colony.
+[14:14:39.423] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[14:15:08.477] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass | idx=1 | Tags desalinhadas: [] vs ['[T0]']
+  EN: Good. You understand how things work.
+[14:15:08.477] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:16:56.880] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass: lotes em 2m 31s | traduzidas=342 erros=0
+[14:16:56.884] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E05_PTBR.ass | Tempo: 2m 31s | novos=342 cache=153 erros=0
+[14:16:56.885] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass
+[14:16:56.886] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E06_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass            
+================================================================================
+
+[14:16:56.886] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:16:56.888] [INFO    ] Traduzindo 306 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass (21 lote(s) de até 15)
+[14:18:49.358] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]- Roger!\N- Roger!
+[14:18:49.358] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:19:12.517] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But when they say I have to give my\Nlife in exchange,
+[14:19:12.518] [AVISO   ] Lote parcial 5/6 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:19:13.320] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass: lotes em 2m 16s | traduzidas=306 erros=0
+[14:19:13.324] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E06_PTBR.ass | Tempo: 2m 16s | novos=306 cache=150 erros=0
+[14:19:13.326] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass
+[14:19:13.326] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E07_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass            
+================================================================================
+
+[14:19:13.327] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:19:13.329] [INFO    ] Traduzindo 294 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass (20 lote(s) de até 15)
+[14:19:21.779] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The type of person who becomes an enemy\Ntends to be stubborn.
+[14:19:21.780] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The enemy commander, who shouldn't\Nhave acted so hastily,
+[14:19:21.780] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]came after us in a half-completed mobile suit.
+[14:19:21.780] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And I beat him good!\NFor the time being, at least.
+[14:19:21.780] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It wasn't the Zeta Gundam's\Npower that did it, either.
+[14:19:21.780] [AVISO   ] Lote parcial 10/15 em 0.0s. Retraduzindo 5 linha(s) individualmente...
+[14:20:11.262] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Calm down, Torres!
+[14:20:11.262] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You think so?
+[14:20:11.262] [AVISO   ] Lote parcial 13/15 em 0.0s. Retraduzindo 2 linha(s) individualmente...
+[14:20:25.728] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[14:21:33.085] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Some people are always hopeless.
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Yazan is that guy we originally saved, right?
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Well, this time, he's attacking us\Nwith two Gezes.
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]For my part, the Zeta isn't doing\Nwhat I want. Come on, work!
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I'm a Newtype! That's easy to believe!
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"The Funeral Bell Tolls Twice."
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Grim title, huh?
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Gaza Storm
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]\h\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]The Funeral Bell Tolls Twice
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Some people are always hopeless.
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Yazan is that guy we originally saved, right?
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Well, this time, he's attacking us\Nwith two Gezes.
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]For my part, the Zeta isn't doing\Nwhat I want. Come on, work!
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I'm a Newtype! That's easy to believe!
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"The Funeral Bell Tolls Twice."
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Grim title, huh?
+[14:21:33.086] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Gaza Storm
+[14:21:33.087] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]\h\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]The Funeral Bell Tolls Twice
+[14:21:33.087] [DEBUG   ] Lote vazio após 5.4s: [0] Algumas pessoas são sempre sem esperança.
+[1] Yazan é aquele cara que salvamos originalmente, certo?
+[2] Bem, dessa vez, ele está nos atacando\ncom dois Gezes.
+[3] Pelo meu lado, o Zeta não está fazendo\No que eu quero. Vamos, funcione!
+[4] Eu sou um Newtype! Isso é fácil de acreditar!
+[5] "O Si
+[14:21:40.080] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass: lotes em 2m 26s | traduzidas=294 erros=0
+[14:21:40.084] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E07_PTBR.ass | Tempo: 2m 26s | novos=294 cache=152 erros=0
+[14:21:40.087] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E08_ENG.ass
+[14:21:40.087] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E08_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E08_ENG.ass            
+================================================================================
+
+[14:21:40.088] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:21:40.089] [INFO    ] Traduzindo 317 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E08_ENG.ass (22 lote(s) de até 15)
+[14:21:48.347] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[14:22:16.014] [AVISO   ] Lote parcial 9/15 em 0.0s. Retraduzindo 6 linha(s) individualmente...
+[14:23:16.713] [AVISO   ] Lote parcial 6/15 em 0.0s. Retraduzindo 9 linha(s) individualmente...
+[14:24:00.136] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E08_ENG.ass | idx=12 | Resíduo de inglês não presente no original: 'this'
+  EN: Just that?
+[14:24:00.136] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:24:10.877] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E08_ENG.ass: lotes em 2m 30s | traduzidas=317 erros=0
+[14:24:10.882] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E08_PTBR.ass | Tempo: 2m 30s | novos=317 cache=162 erros=0
+[14:24:10.883] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass
+[14:24:10.883] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E09_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass            
+================================================================================
+
+[14:24:10.884] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:24:10.886] [INFO    ] Traduzindo 338 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass (23 lote(s) de até 15)
+[14:24:20.470] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]We can laugh about it now\Nthat it's all over,
+[14:24:20.471] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:26:28.632] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Coward!
+[14:26:28.633] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:26:53.081] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And it looks like there's someone\Naboard the Argama who's helping Mashymre!
+[14:26:53.081] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Roux is smart, though,
+[14:26:53.081] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]and brings us a new fighter from the\NLa Vie en Rose.
+[14:26:53.081] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You can't count on dummy asteroids, after all!
+[14:26:53.081] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"Sayonara, Fa."
+[14:26:53.081] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Poor Fa.
+[14:26:53.081] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Judau in Space
+[14:26:53.082] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]Next Episode \N\N\N\N\N\N\N\N[T1]\h\h\h\h\h\h\h\hSayonara, Fa
+[14:26:53.082] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And it looks like there's someone\Naboard the Argama who's helping Mashymre!
+[14:26:53.082] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Roux is smart, though,
+[14:26:53.082] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]and brings us a new fighter from the\NLa Vie en Rose.
+[14:26:53.082] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You can't count on dummy asteroids, after all!
+[14:26:53.082] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"Sayonara, Fa."
+[14:26:53.082] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Poor Fa.
+[14:26:53.082] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Judau in Space
+[14:26:53.082] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]Next Episode \N\N\N\N\N\N\N\N[T1]\h\h\h\h\h\h\h\hSayonara, Fa
+[14:26:53.082] [DEBUG   ] Lote vazio após 4.5s: [0] Parece que tem alguém a bordo da Argama ajudando Mashymre!
+[1] Roux é esperto,
+[2] e nos traz um novo lutador do La Vie en Rose.
+[3] Afinal, não se pode confiar em asteroides falsos!
+[4] "Sayonara, Fa."
+[5] Pobre Fa.
+[6] Judau no Espaço
+[7] Próximo Episódio \N\N\N\N\N\N\N\N[T1]\h\h\h\h\h\h\h\hSa
+[14:26:59.163] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass: lotes em 2m 48s | traduzidas=338 erros=0
+[14:26:59.168] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E09_PTBR.ass | Tempo: 2m 48s | novos=338 cache=179 erros=0
+[14:26:59.171] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass
+[14:26:59.171] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E10_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass            
+================================================================================
+
+[14:26:59.172] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:26:59.174] [INFO    ] Traduzindo 338 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass (23 lote(s) de até 15)
+[14:29:38.001] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And Mashymre shows up, too!
+[14:29:38.001] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But Iino's no fool!
+[14:29:38.001] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]He's brought us more parts from the\NLa Vie en Rose!
+[14:29:38.001] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Good for him! And then, this little\Nfighter-looking thing is finally, finally!
+[14:29:38.001] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Did you see how I sliced that asteroid?!
+[14:29:38.002] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]Next Episode \N\N\N\N\N\N\N\N[T1]\h\h\h\h\h\h\h\h\h\h\h\hActivate! ZZ.
+[14:29:38.002] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Sayonara, Fa
+[14:29:38.002] [AVISO   ] Lote parcial 1/8 em 0.0s. Retraduzindo 7 linha(s) individualmente...
+[14:29:44.006] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass: lotes em 2m 44s | traduzidas=338 erros=0
+[14:29:44.011] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E10_PTBR.ass | Tempo: 2m 44s | novos=338 cache=156 erros=0
+[14:29:44.013] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E11_ENG.ass
+[14:29:44.014] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E11_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E11_ENG.ass            
+================================================================================
+
+[14:29:44.014] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:29:44.016] [INFO    ] Traduzindo 335 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E11_ENG.ass (23 lote(s) de até 15)
+[14:31:04.020] [AVISO   ] Lote parcial 6/15 em 0.0s. Retraduzindo 9 linha(s) individualmente...
+[14:31:56.436] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:32:08.870] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E11_ENG.ass: lotes em 2m 24s | traduzidas=335 erros=0
+[14:32:08.875] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E11_PTBR.ass | Tempo: 2m 24s | novos=335 cache=154 erros=0
+[14:32:08.877] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E12_ENG.ass
+[14:32:08.877] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E12_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E12_ENG.ass            
+================================================================================
+
+[14:32:08.878] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:32:08.880] [INFO    ] Traduzindo 332 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E12_ENG.ass (23 lote(s) de até 15)
+[14:32:36.078] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E12_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]This Zaku is still usable.
+[14:32:36.078] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:34:41.803] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E12_ENG.ass: lotes em 2m 32s | traduzidas=332 erros=0
+[14:34:41.808] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E12_PTBR.ass | Tempo: 2m 32s | novos=332 cache=158 erros=0
+[14:34:41.809] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass
+[14:34:41.810] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E13_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass            
+================================================================================
+
+[14:34:41.810] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:34:41.812] [INFO    ] Traduzindo 348 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass (24 lote(s) de até 15)
+[14:36:06.113] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:36:59.868] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The ZZ's pilot must be Leina's brother.
+[14:36:59.869] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:37:18.931] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]There's nothing scarier than a big\Nfish in a little pond.
+[14:37:18.931] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]'] vs ['[T0]', '[T1]']
+  EN: [T0]Next Episode \N\N\N\N\N\N\N\N[T1]\N\h\h\h\h\hThe Phantom Colony\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 1)
+[14:37:18.931] [AVISO   ] Lote parcial 1/3 em 0.0s. Retraduzindo 2 linha(s) individualmente...
+[14:37:24.427] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass: lotes em 2m 42s | traduzidas=348 erros=0
+[14:37:24.433] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E13_PTBR.ass | Tempo: 2m 42s | novos=348 cache=167 erros=0
+[14:37:24.435] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E14_ENG.ass
+[14:37:24.435] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E14_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E14_ENG.ass            
+================================================================================
+
+[14:37:24.436] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:37:24.438] [INFO    ] Traduzindo 351 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E14_ENG.ass (24 lote(s) de até 15)
+[14:40:04.385] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E14_ENG.ass: lotes em 2m 39s | traduzidas=351 erros=0
+[14:40:04.392] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E14_PTBR.ass | Tempo: 2m 39s | novos=351 cache=173 erros=0
+[14:40:04.394] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass
+[14:40:04.395] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E15_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass            
+================================================================================
+
+[14:40:04.396] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:40:04.398] [INFO    ] Traduzindo 334 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass (23 lote(s) de até 15)
+[14:42:20.744] [AVISO   ] Lote parcial 6/15 em 0.0s. Retraduzindo 9 linha(s) individualmente...
+[14:42:38.032] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"Melee Aboard the Argama."
+[14:42:38.032] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]When will I see Leina again?
+[14:42:38.032] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: [T0]The Phantom Colony\N[T1]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[14:42:38.032] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: [T0]\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]Melee Aboard the Argama
+[14:42:38.032] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]"Melee Aboard the Argama."
+[14:42:38.032] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]When will I see Leina again?
+[14:42:38.032] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: [T0]The Phantom Colony\N[T1]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[14:42:38.032] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: [T0]\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]Melee Aboard the Argama
+[14:42:38.032] [DEBUG   ] Lote vazio após 3.6s: [0] "Luta a bordo da Argama."
+[1] Quando verei Leina novamente?
+[2] A Colônia Fantasma\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+(Parte 2)
+[3] \nPróximo Episódio \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuta a bordo da Argama
+[14:42:43.551] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass: lotes em 2m 39s | traduzidas=334 erros=0
+[14:42:43.560] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E15_PTBR.ass | Tempo: 2m 39s | novos=334 cache=163 erros=0
+[14:42:43.562] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E16_ENG.ass
+[14:42:43.562] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E16_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E16_ENG.ass            
+================================================================================
+
+[14:42:43.563] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:42:43.565] [INFO    ] Traduzindo 337 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E16_ENG.ass (23 lote(s) de até 15)
+[14:43:19.789] [AVISO   ] Lote parcial 6/15 em 0.0s. Retraduzindo 9 linha(s) individualmente...
+[14:45:13.837] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E16_ENG.ass: lotes em 2m 30s | traduzidas=337 erros=0
+[14:45:13.844] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E16_PTBR.ass | Tempo: 2m 30s | novos=337 cache=182 erros=0
+[14:45:13.846] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass
+[14:45:13.847] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E17_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass            
+================================================================================
+
+[14:45:13.848] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:45:13.850] [INFO    ] Traduzindo 311 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass (21 lote(s) de até 15)
+[14:46:45.189] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T0]']
+  EN: [T0]Ow! You let me[T1] go!
+[14:46:45.189] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:47:05.152] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Gottn! Don't shoot!
+[14:47:05.153] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:47:05.558] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Gottn! Don't shoot!
+[14:47:05.558] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Gottn! Don't shoot!
+[14:47:05.558] [DEBUG   ] Lote vazio após 0.4s: [0] Gottn! Não atire!
+[14:47:33.968] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass: lotes em 2m 20s | traduzidas=311 erros=0
+[14:47:33.976] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E17_PTBR.ass | Tempo: 2m 20s | novos=311 cache=176 erros=0
+[14:47:33.978] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E18_ENG.ass
+[14:47:33.979] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E18_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E18_ENG.ass            
+================================================================================
+
+[14:47:33.980] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:47:33.982] [INFO    ] Traduzindo 302 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E18_ENG.ass (21 lote(s) de até 15)
+[14:49:39.966] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E18_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I'm not wearing one, either, so we're even!
+[14:49:39.967] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:49:52.149] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E18_ENG.ass: lotes em 2m 18s | traduzidas=302 erros=0
+[14:49:52.157] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E18_PTBR.ass | Tempo: 2m 18s | novos=302 cache=170 erros=0
+[14:49:52.160] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass
+[14:49:52.160] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E19_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass            
+================================================================================
+
+[14:49:52.161] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:49:52.163] [INFO    ] Traduzindo 301 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass (21 lote(s) de até 15)
+[14:50:52.884] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]If you're abandoning your sister to\Nescape alone, then I've misjudged you!
+[14:50:52.885] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:51:34.925] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]You're lying again!
+[14:51:34.926] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:51:49.759] [AVISO   ] Lote parcial 2/15 em 0.0s. Retraduzindo 13 linha(s) individualmente...
+[14:52:14.884] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass: lotes em 2m 22s | traduzidas=301 erros=0
+[14:52:14.890] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E19_PTBR.ass | Tempo: 2m 22s | novos=301 cache=184 erros=0
+[14:52:14.892] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass
+[14:52:14.893] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E20_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass            
+================================================================================
+
+[14:52:14.894] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:52:14.898] [INFO    ] Traduzindo 481 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass (33 lote(s) de até 15)
+[14:52:46.604] [AVISO   ] Lote parcial 8/15 em 0.0s. Retraduzindo 7 linha(s) individualmente...
+[14:55:55.198] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kanarazu aeru to ano hi kara shinjiteita
+[14:55:55.198] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kitto yobiau kokoro ga areba
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kitto yobiau kokoro ga areba
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]sora ni aa shupuuru
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]sora ni aa shupuuru
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]sore ha nani yori
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]sore ha nani yori
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]tsuyoi inori no sain nano
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]tsuyoi inori no sain nano
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mugen no Energy yobisamasu
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mugen no Energy yobisamasu
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]aa kizutsukeau mae ni
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]aa kizutsukeau mae ni
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]dekiru koto sagashite Please
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]dekiru koto sagashite Please
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kanarazu aeru to ano hi kara shinjiteita
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kitto yobiau kokoro ga areba
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kitto yobiau kokoro ga areba
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]sora ni aa shupuuru
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]sora ni aa shupuuru
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]sore ha nani yori
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]sore ha nani yori
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]tsuyoi inori no sain nano
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]tsuyoi inori no sain nano
+[14:55:55.199] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mugen no Energy yobisamasu
+[14:55:55.200] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mugen no Energy yobisamasu
+[14:55:55.200] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]aa kizutsukeau mae ni
+[14:55:55.200] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]aa kizutsukeau mae ni
+[14:55:55.200] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]dekiru koto sagashite Please
+[14:55:55.200] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]dekiru koto sagashite Please
+[14:55:55.200] [DEBUG   ] Lote vazio após 5.7s: [0] Eu acreditava que o sol nasceria amanhã.
+[1] Se eu tivesse um coração que me chamasse.
+[2] Se eu tivesse um coração que me chamasse.
+[3] Lá no céu, há uma esperança.
+[4] Lá no céu, há uma esperança.
+[5] O que é isso?
+[6] O que é isso?
+[7] Uma poderosa oração para a vitória.
+[8] Uma poderosa oraç
+[14:56:12.604] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Oh, I can't help believing you
+[14:56:12.604] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Oh, I can't help believing you
+[14:56:12.605] [AVISO   ] Lote parcial 13/15 em 0.0s. Retraduzindo 2 linha(s) individualmente...
+[14:56:15.965] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass: lotes em 4m 1s | traduzidas=481 erros=0
+[14:56:15.977] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E20_PTBR.ass | Tempo: 4m 1s | novos=481 cache=175 erros=0
+[14:56:15.980] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E21_ENG.ass
+[14:56:15.980] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E21_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E21_ENG.ass            
+================================================================================
+
+[14:56:15.981] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:56:15.984] [INFO    ] Traduzindo 342 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E21_ENG.ass (23 lote(s) de até 15)
+[14:58:54.374] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E21_ENG.ass: lotes em 2m 38s | traduzidas=342 erros=0
+[14:58:54.382] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E21_PTBR.ass | Tempo: 2m 38s | novos=342 cache=165 erros=0
+[14:58:54.384] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass
+[14:58:54.384] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E22_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass            
+================================================================================
+
+[14:58:54.385] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[14:58:54.387] [INFO    ] Traduzindo 338 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass (23 lote(s) de até 15)
+[14:59:58.953] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=3 | Tags desalinhadas: [] vs ['[T0]']
+  EN: J-Judau! Are those hand grenades?!
+[14:59:58.953] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=4 | Tags desalinhadas: [] vs ['[T0]']
+  EN: Yup! Doesn't it look cool!?
+[14:59:58.953] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=6 | Tags desalinhadas: [] vs ['[T0]']
+  EN: W-What?! You mean, all those\Ncontainers are full of bombs?!
+[14:59:58.954] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[15:00:07.399] [AVISO   ] Lote parcial 2/15 em 0.0s. Retraduzindo 13 linha(s) individualmente...
+[15:01:30.538] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]They were just stalling while their\Nagents took action on Earth.
+[15:01:30.538] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Since Bright's a straightforward guy, he wants\Nto use the Argama to sink the Sadalahn.
+[15:01:30.538] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But fighting while you're entering\Nthe atmosphere is pretty tough!
+[15:01:30.538] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Dammit, even Ple is here?!
+[15:01:30.538] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]Next time on [T1]Gundam ZZ:\N"The Burning Earth."
+[15:01:30.538] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Ple, don't leave my side!
+[15:01:30.538] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Judau, Launch!!
+[15:01:30.538] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]\h\h\h\h\h\h\hThe Burning Earth
+[15:01:30.538] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]They were just stalling while their\Nagents took action on Earth.
+[15:01:30.539] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Since Bright's a straightforward guy, he wants\Nto use the Argama to sink the Sadalahn.
+[15:01:30.539] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But fighting while you're entering\Nthe atmosphere is pretty tough!
+[15:01:30.539] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Dammit, even Ple is here?!
+[15:01:30.539] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]Next time on [T1]Gundam ZZ:\N"The Burning Earth."
+[15:01:30.539] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Ple, don't leave my side!
+[15:01:30.539] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Judau, Launch!!
+[15:01:30.539] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]\h\h\h\h\h\h\hThe Burning Earth
+[15:01:30.539] [DEBUG   ] Lote vazio após 5.4s: [0] Eles estavam apenas ganhando tempo enquanto seus agentes agiam na Terra.
+[1] Como Bright é um cara direto, ele quer usar o Argama para afundar o Sadalahn.
+[2] Mas lutar enquanto se entra na atmosfera é bem difícil!
+[3] Droga, até Ple está aqui?!
+[4] Próximo episódio de [T1]Gundam ZZ: "A Terra em
+[15:01:37.676] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass: lotes em 2m 43s | traduzidas=338 erros=0
+[15:01:37.685] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E22_PTBR.ass | Tempo: 2m 43s | novos=338 cache=163 erros=0
+[15:01:37.687] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass
+[15:01:37.687] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E23_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass            
+================================================================================
+
+[15:01:37.688] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:01:37.690] [INFO    ] Traduzindo 312 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass (21 lote(s) de até 15)
+[15:01:46.669] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I was invited aboard it!
+[15:01:46.669] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]That Haman woman... no,\NMiss Haman... wanted to size me up!
+[15:01:46.669] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]She must've thought I was a\Nfirst-class Newtype or something.
+[15:01:46.669] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But all I cared about was finding\NLeina... and that woman tricked me!
+[15:01:46.670] [AVISO   ] Lote parcial 11/15 em 0.0s. Retraduzindo 4 linha(s) individualmente...
+[15:03:08.163] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass | idx=12 | Resíduo de inglês não presente no original: 'the'
+  EN: I'm not chicken! I'm just not convinced yet.
+[15:03:08.164] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:03:42.665] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Ple! Don't you want to eat a\Nchocolate parfait?
+[15:03:42.665] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:03:52.634] [AVISO   ] Lote parcial 10/15 em 0.0s. Retraduzindo 5 linha(s) individualmente...
+[15:04:10.299] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass: lotes em 2m 32s | traduzidas=312 erros=0
+[15:04:10.308] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E23_PTBR.ass | Tempo: 2m 32s | novos=312 cache=165 erros=0
+[15:04:10.309] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass
+[15:04:10.310] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E24_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass            
+================================================================================
+
+[15:04:10.311] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:04:10.313] [INFO    ] Traduzindo 332 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass (23 lote(s) de até 15)
+[15:04:33.237] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]After this, the Argama will\Nnever rise to space again.
+[15:04:33.238] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:05:18.769] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:06:43.550] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Sibling Love Blooms \Nin the Southern Seas.
+[15:06:43.550] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]\h\h\h\h\hThe Face of Rommel
+[15:06:43.551] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Sibling Love Blooms \Nin the Southern Seas.
+[15:06:43.551] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]\h\h\h\h\hThe Face of Rommel
+[15:06:43.551] [DEBUG   ] Lote vazio após 1.2s: [0] Amor Fraterno Desabrocha \Nnas os Mares do Sul.
+[1] [T1]O Rosto de Rommel
+[15:06:46.015] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass: lotes em 2m 35s | traduzidas=332 erros=0
+[15:06:46.024] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E24_PTBR.ass | Tempo: 2m 35s | novos=332 cache=165 erros=0
+[15:06:46.025] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E25_ENG.ass
+[15:06:46.026] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E25_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E25_ENG.ass            
+================================================================================
+
+[15:06:46.027] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:06:46.028] [INFO    ] Traduzindo 249 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E25_ENG.ass (17 lote(s) de até 15)
+[15:08:44.145] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E25_ENG.ass: lotes em 1m 58s | traduzidas=249 erros=0
+[15:08:44.153] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E25_PTBR.ass | Tempo: 1m 58s | novos=249 cache=178 erros=0
+[15:08:44.155] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass
+[15:08:44.155] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E26_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass            
+================================================================================
+
+[15:08:44.172] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:08:44.174] [INFO    ] Traduzindo 331 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass (23 lote(s) de até 15)
+[15:08:51.961] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The teamwork of that guy Rommel's\Nold mobile suits was just amazing.
+[15:08:51.961] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]They had real power.
+[15:08:51.962] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]They taught me that fighting spirit\Nisn't about mobile suit performance.
+[15:08:51.962] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I imagine there's an\Noasis near that battlefield,
+[15:08:51.962] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]where someone's crying now.
+[15:08:51.962] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]That's why we...
+[15:08:51.962] [AVISO   ] Lote parcial 9/15 em 0.0s. Retraduzindo 6 linha(s) individualmente...
+[15:08:53.239] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]They had real power.
+[15:08:53.239] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]They had real power.
+[15:08:53.239] [DEBUG   ] Lote vazio após 0.4s: [0] Eles tinham poder de verdade.
+[15:10:16.694] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]We're playing tag in the desert?!
+[15:10:16.695] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:11:14.005] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:11:19.805] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass: lotes em 2m 35s | traduzidas=331 erros=0
+[15:11:19.814] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E26_PTBR.ass | Tempo: 2m 35s | novos=331 cache=61 erros=0
+[15:11:19.816] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass
+[15:11:19.816] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E27_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass            
+================================================================================
+
+[15:11:19.817] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:11:19.819] [INFO    ] Traduzindo 241 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass (17 lote(s) de até 15)
+[15:12:16.764] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]He's here... He's definitely nearby!
+[15:12:16.764] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]This sensation...
+[15:12:16.764] [AVISO   ] Lote parcial 13/15 em 0.0s. Retraduzindo 2 linha(s) individualmente...
+[15:13:18.409] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass: lotes em 1m 58s | traduzidas=241 erros=0
+[15:13:18.430] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E27_PTBR.ass | Tempo: 1m 58s | novos=241 cache=77 erros=0
+[15:13:18.432] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E28_ENG.ass
+[15:13:18.433] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E28_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E28_ENG.ass            
+================================================================================
+
+[15:13:18.433] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:13:18.435] [INFO    ] Traduzindo 269 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E28_ENG.ass (18 lote(s) de até 15)
+[15:15:19.110] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E28_ENG.ass: lotes em 2m 0s | traduzidas=269 erros=0
+[15:15:19.120] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E28_PTBR.ass | Tempo: 2m 0s | novos=269 cache=87 erros=0
+[15:15:19.122] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass
+[15:15:19.122] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E29_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass            
+================================================================================
+
+[15:15:19.123] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:15:19.125] [INFO    ] Traduzindo 306 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass (21 lote(s) de até 15)
+[15:15:26.731] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The place where I left Leina\Nwas engulfed in flames.
+[15:15:26.731] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But I can't hold Ple responsible.
+[15:15:26.731] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]In any era, children are\Nalways the victims of war.
+[15:15:26.732] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]To escape from Haman's fleet,\Nthe Argama made a hasty retreat.
+[15:15:26.732] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The Gundam Team had to return to the\Nship. We couldn't search for Leina's body.
+[15:15:26.732] [AVISO   ] Lote parcial 10/15 em 0.0s. Retraduzindo 5 linha(s) individualmente...
+[15:16:40.693] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=6 | Tags desalinhadas: [] vs ['[T0]']
+  EN: "What appears to be a Neo Zeon mobile suit\Nteam is attacking a base near El Golea."
+[15:16:40.693] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:17:05.241] [AVISO   ] Lote parcial 5/15 em 0.0s. Retraduzindo 10 linha(s) individualmente...
+[15:17:16.869] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: It [T0]is[T1] you, Roux Louka!
+[15:17:16.870] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:17:17.311] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: It [T0]is[T1] you, Roux Louka!
+[15:17:17.311] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: It [T0]is[T1] you, Roux Louka!
+[15:17:17.311] [DEBUG   ] Lote vazio após 0.4s: [0] É você, Roux Louka!
+[15:17:19.667] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: It [T0]is[T1] you, Roux Louka!
+[15:17:19.668] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: It [T0]is[T1] you, Roux Louka!
+[15:17:19.668] [DEBUG   ] Lote vazio após 0.4s: [0] É você, Roux Louka!
+[15:17:22.013] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: It [T0]is[T1] you, Roux Louka!
+[15:17:22.014] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: It [T0]is[T1] you, Roux Louka!
+[15:17:22.014] [DEBUG   ] Lote vazio após 0.3s: [0] É você, Roux Louka!
+[15:17:24.015] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=6 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.1s
+  EN: It [T0]is[T1] you, Roux Louka!
+[15:17:31.167] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Women are scary!
+[15:17:31.167] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]That's not true!
+[15:17:31.168] [AVISO   ] Lote parcial 13/15 em 0.0s. Retraduzindo 2 linha(s) individualmente...
+[15:17:31.604] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Women are scary!
+[15:17:31.604] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Women are scary!
+[15:17:31.604] [DEBUG   ] Lote vazio após 0.4s: [0] Mulheres são assustadoras!
+[15:17:34.006] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Women are scary!
+[15:17:34.006] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Women are scary!
+[15:17:34.006] [DEBUG   ] Lote vazio após 0.4s: [0] Mulheres são assustadoras!
+[15:17:36.381] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Women are scary!
+[15:17:36.381] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Women are scary!
+[15:17:36.381] [DEBUG   ] Lote vazio após 0.4s: [0] Mulheres são assustadoras!
+[15:17:38.383] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.2s
+  EN: [T0]Women are scary!
+[15:17:45.855] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]If you're mad about all this, then\Nrediscover your will to fight!
+[15:17:45.857] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:18:08.840] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass: lotes em 2m 49s | traduzidas=304 erros=2
+[15:18:08.850] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E29_PTBR.ass | Tempo: 2m 49s | novos=306 cache=68 erros=2
+[15:18:08.852] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass
+[15:18:08.852] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E30_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass            
+================================================================================
+
+[15:18:08.854] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:18:08.855] [INFO    ] Traduzindo 328 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass (22 lote(s) de até 15)
+[15:20:41.496] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:20:41.496] [AVISO   ] Lote parcial 12/13 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:20:45.620] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:20:45.621] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:20:45.621] [DEBUG   ] Lote vazio após 4.1s: [0] [T0]\h\h\h[T1]Próximo Episódio \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Parte 2)
+[15:20:51.371] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:20:51.372] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:20:51.372] [DEBUG   ] Lote vazio após 3.7s: [0] [T0]\h\h\h[T1]Próximo Episódio \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Parte 2)
+[15:20:57.246] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:20:57.246] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:20:57.246] [DEBUG   ] Lote vazio após 3.9s: [0] [T0]\h\h\h[T1]Próximo Episódio \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Parte 2)
+[15:20:59.248] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | idx=12 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=17.8s
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:20:59.251] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass: lotes em 2m 50s | traduzidas=327 erros=1
+[15:20:59.261] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E30_PTBR.ass | Tempo: 2m 50s | novos=328 cache=77 erros=1
+[15:20:59.263] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E31_ENG.ass
+[15:20:59.263] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E31_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E31_ENG.ass            
+================================================================================
+
+[15:20:59.264] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:20:59.266] [INFO    ] Traduzindo 288 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E31_ENG.ass (20 lote(s) de até 15)
+[15:22:09.253] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:23:18.340] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E31_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Is the water bitter or just salty?
+[15:23:18.340] [AVISO   ] Lote parcial 2/3 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:23:18.977] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E31_ENG.ass: lotes em 2m 19s | traduzidas=288 erros=0
+[15:23:18.987] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E31_PTBR.ass | Tempo: 2m 19s | novos=288 cache=53 erros=0
+[15:23:18.989] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass
+[15:23:18.989] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E32_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass            
+================================================================================
+
+[15:23:18.990] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:23:18.992] [INFO    ] Traduzindo 271 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass (19 lote(s) de até 15)
+[15:23:28.267] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Glemy's underling August teamed up\Nwith the Blue Corps to take over Ghardaia.
+[15:23:28.267] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Even Glemy probably never expected that.
+[15:23:28.267] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But thanks to that, we were\Nable to bring Roux back.
+[15:23:28.267] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I don't know anything about that\Nweird artist, though.
+[15:23:28.267] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I guess he'd be Roux's personal problem.
+[15:23:28.268] [AVISO   ] Lote parcial 10/15 em 0.0s. Retraduzindo 5 linha(s) individualmente...
+[15:25:36.300] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass: lotes em 2m 17s | traduzidas=271 erros=0
+[15:25:36.311] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E32_PTBR.ass | Tempo: 2m 17s | novos=271 cache=63 erros=0
+[15:25:36.313] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E33_ENG.ass
+[15:25:36.313] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E33_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E33_ENG.ass            
+================================================================================
+
+[15:25:36.314] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:25:36.316] [INFO    ] Traduzindo 343 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E33_ENG.ass (23 lote(s) de até 15)
+[15:27:22.064] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E33_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]', '[T1]'] vs []
+  EN: And yet, you think we [T0]want[T1] to keep fighting?
+[15:27:22.064] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:28:10.471] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E33_ENG.ass: lotes em 2m 34s | traduzidas=343 erros=0
+[15:28:10.481] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E33_PTBR.ass | Tempo: 2m 34s | novos=343 cache=88 erros=0
+[15:28:10.483] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E34_ENG.ass
+[15:28:10.484] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E34_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E34_ENG.ass            
+================================================================================
+
+[15:28:10.485] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:28:10.487] [INFO    ] Traduzindo 311 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E34_ENG.ass (21 lote(s) de até 15)
+[15:29:08.219] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E34_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]If you don't, who knows where he'll go!
+[15:29:08.219] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:30:28.491] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E34_ENG.ass: lotes em 2m 18s | traduzidas=311 erros=0
+[15:30:28.503] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E34_PTBR.ass | Tempo: 2m 18s | novos=311 cache=85 erros=0
+[15:30:28.505] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass
+[15:30:28.505] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E35_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass            
+================================================================================
+
+[15:30:28.506] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:30:28.508] [INFO    ] Traduzindo 263 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass (18 lote(s) de até 15)
+[15:32:19.959] [AVISO   ] Lote parcial 7/15 em 0.0s. Retraduzindo 8 linha(s) individualmente...
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Because Glemy, hoping to redeem\Nhimself, has sent out Ple-Two.
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Ple seems to understand what I'm unable to.
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And while we're horrified by this\Ngigantic monster...
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Ple! What are you doing out here?!
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]Next time, on [T1]Gundam ZZ:\N"Ple-Two Under Gravity."
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]How much worse can this get?!
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Falling Sky
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]\h\h\hPle-Two Under Gravity.
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Because Glemy, hoping to redeem\Nhimself, has sent out Ple-Two.
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Ple seems to understand what I'm unable to.
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And while we're horrified by this\Ngigantic monster...
+[15:32:35.344] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Ple! What are you doing out here?!
+[15:32:35.345] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]Next time, on [T1]Gundam ZZ:\N"Ple-Two Under Gravity."
+[15:32:35.345] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]How much worse can this get?!
+[15:32:35.345] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Falling Sky
+[15:32:35.345] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+  EN: [T0]\h\h\hNext Episode \N\N\N\N\N\N\N\N[T1]\h\h\hPle-Two Under Gravity.
+[15:32:35.345] [DEBUG   ] Lote vazio após 5.2s: [0] Por causa de Glemy, que esperava se redimir,\nmandou Ple-Two.
+[1] Parece que Ple entende algo que eu não consigo.
+[2] E enquanto estamos horrorizados com esse\nmonstro gigante...
+[3] Ple! O que você está fazendo aqui?!
+[4] Próximo episódio de [T1]Gundam ZZ:\n"Ple-Two sob Gravidade."
+[5] Quanto p
+[15:32:42.091] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass: lotes em 2m 13s | traduzidas=263 erros=0
+[15:32:42.104] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E35_PTBR.ass | Tempo: 2m 13s | novos=263 cache=62 erros=0
+[15:32:42.106] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E36_ENG.ass
+[15:32:42.107] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E36_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E36_ENG.ass            
+================================================================================
+
+[15:32:42.108] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:32:42.109] [INFO    ] Traduzindo 244 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E36_ENG.ass (17 lote(s) de até 15)
+[15:33:52.064] [AVISO   ] Lote parcial 7/15 em 0.0s. Retraduzindo 8 linha(s) individualmente...
+[15:34:33.247] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E36_ENG.ass: lotes em 1m 51s | traduzidas=244 erros=0
+[15:34:33.259] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E36_PTBR.ass | Tempo: 1m 51s | novos=244 cache=64 erros=0
+[15:34:33.261] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass
+[15:34:33.261] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E37_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass            
+================================================================================
+
+[15:34:33.262] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:34:33.264] [INFO    ] Traduzindo 328 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass (22 lote(s) de até 15)
+[15:36:37.798] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]If I try fighting at its pace,\NI'll exhaust myself.
+[15:36:37.798] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]How do I play this...?
+[15:36:37.798] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Is he ever coming out?
+[15:36:37.798] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Why does that pilot irritate me so?
+[15:36:37.799] [AVISO   ] Lote parcial 11/15 em 0.0s. Retraduzindo 4 linha(s) individualmente...
+[15:37:06.892] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass: lotes em 2m 33s | traduzidas=328 erros=0
+[15:37:06.906] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E37_PTBR.ass | Tempo: 2m 33s | novos=328 cache=71 erros=0
+[15:37:06.908] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass
+[15:37:06.908] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E38_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass            
+================================================================================
+
+[15:37:06.910] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:37:06.911] [INFO    ] Traduzindo 337 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass (23 lote(s) de até 15)
+[15:37:13.411] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Somehow or other, we made it back to space.
+[15:37:13.411] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But that guy Madchar and the others...
+[15:37:13.412] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...didn't think people like us belonged\Non the Nahel Argama.
+[15:37:13.412] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]That made us kind of mad, so we took\Nthe Nahel Argama for ourselves.
+[15:37:13.412] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Still... does this mean we have to\Ncarry on the fight on our own now?
+[15:37:13.412] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=12 | Preâmbulo conversacional do LLM
+  EN: Here's that message.
+[15:37:13.412] [AVISO   ] Lote parcial 9/15 em 0.0s. Retraduzindo 6 linha(s) individualmente...
+[15:38:04.139] [AVISO   ] Lote parcial 10/15 em 0.0s. Retraduzindo 5 linha(s) individualmente...
+[15:38:29.400] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Elle. Roux. Keithron. Torres.
+[15:38:29.400] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=13 | Tags desalinhadas: [] vs ['[T0]']
+  EN: there's a high probability the\Nenemy will target us. Understand?
+[15:38:29.400] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[15:38:37.957] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Something's definitely wrong with Judau!
+[15:38:37.958] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:38:38.505] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Something's definitely wrong with Judau!
+[15:38:38.505] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Something's definitely wrong with Judau!
+[15:38:38.505] [DEBUG   ] Lote vazio após 0.5s: [0] Tem alguma coisa definitivamente errada com o Judau!
+[15:38:40.964] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Something's definitely wrong with Judau!
+[15:38:40.964] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Something's definitely wrong with Judau!
+[15:38:40.964] [DEBUG   ] Lote vazio após 0.5s: [0] Tem alguma coisa definitivamente errada com o Judau!
+[15:38:43.429] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Something's definitely wrong with Judau!
+[15:38:43.429] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Something's definitely wrong with Judau!
+[15:38:43.429] [DEBUG   ] Lote vazio após 0.5s: [0] Tem alguma coisa definitivamente errada com o Judau!
+[15:38:45.430] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | idx=0 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.5s
+  EN: [T0]Something's definitely wrong with Judau!
+[15:39:17.134] [AVISO   ] Lote parcial 10/15 em 0.0s. Retraduzindo 5 linha(s) individualmente...
+[15:39:37.265] [AVISO   ] Lote parcial 7/15 em 0.0s. Retraduzindo 8 linha(s) individualmente...
+[15:40:02.318] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass: lotes em 2m 55s | traduzidas=336 erros=1
+[15:40:02.331] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E38_PTBR.ass | Tempo: 2m 55s | novos=337 cache=70 erros=1
+[15:40:02.333] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass
+[15:40:02.334] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E39_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass            
+================================================================================
+
+[15:40:02.335] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:40:02.337] [INFO    ] Traduzindo 283 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass (19 lote(s) de até 15)
+[15:40:10.321] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The La Vie en Rose was attacked\Nby three Jamru Fins,
+[15:40:10.321] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mainly because of Emary's\Nfeelings for Captain Bright.
+[15:40:10.322] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Beecha was having doubts about me,
+[15:40:10.322] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]but that was because I hadn't\Nexplained things to him.
+[15:40:10.322] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]In the end, the mobile armors were\Njust toying with the ZZ.
+[15:40:10.322] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Way to go, Leina!
+[15:40:10.322] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]With all this, are we going to make\Nit to Side 3, where Haman is?
+[15:40:10.322] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I can't be as optimistic as Lord Mashymre.
+[15:40:10.322] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Especially about that pilot. Judau, was it?
+[15:40:10.322] [AVISO   ] Lote parcial 6/15 em 0.0s. Retraduzindo 9 linha(s) individualmente...
+[15:42:23.212] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass: lotes em 2m 20s | traduzidas=283 erros=0
+[15:42:23.224] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E39_PTBR.ass | Tempo: 2m 20s | novos=283 cache=74 erros=0
+[15:42:23.227] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E40_ENG.ass
+[15:42:23.227] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E40_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E40_ENG.ass            
+================================================================================
+
+[15:42:23.229] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:42:23.231] [INFO    ] Traduzindo 348 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E40_ENG.ass (24 lote(s) de até 15)
+[15:43:22.371] [AVISO   ] Lote parcial 10/15 em 0.0s. Retraduzindo 5 linha(s) individualmente...
+[15:44:57.599] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E40_ENG.ass: lotes em 2m 34s | traduzidas=348 erros=0
+[15:44:57.611] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E40_PTBR.ass | Tempo: 2m 34s | novos=348 cache=89 erros=0
+[15:44:57.614] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E41_ENG.ass
+[15:44:57.615] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E41_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E41_ENG.ass            
+================================================================================
+
+[15:44:57.616] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:44:57.617] [INFO    ] Traduzindo 250 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E41_ENG.ass (17 lote(s) de até 15)
+[15:45:06.162] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E41_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Stampa's tastes aren't abnormal but\Nactually kinda gaudy.
+[15:45:06.163] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:46:52.659] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E41_ENG.ass: lotes em 1m 55s | traduzidas=250 erros=0
+[15:46:52.672] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E41_PTBR.ass | Tempo: 1m 55s | novos=250 cache=82 erros=0
+[15:46:52.675] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass
+[15:46:52.675] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E42_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass            
+================================================================================
+
+[15:46:52.677] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:46:52.678] [INFO    ] Traduzindo 333 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass (23 lote(s) de até 15)
+[15:47:16.546] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass | idx=2 | Tags desalinhadas: [] vs ['[T0]']
+  EN: but don't overdo it, Ple-Two.
+[15:47:16.546] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Wait and see, Judau. This time, I'll finish you!
+[15:47:16.546] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[15:49:17.341] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass | idx=2 | Resíduo de inglês não presente no original: 'with'
+  EN: Have you forgotten what\Nhappened to Miss Rasara?!
+[15:49:17.342] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:49:27.726] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I'm powerful!
+[15:49:27.726] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T1]', '[T2]', '[T3]', '[T4]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h[T3]The Girl From Core 3[T4]\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:49:27.726] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T1]', '[T2]', '[T3]', '[T4]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h[T3]The Girl From Core 3[T4]\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:49:27.726] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I'm powerful!
+[15:49:27.726] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T1]', '[T2]', '[T3]', '[T4]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h[T3]The Girl From Core 3[T4]\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:49:27.727] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T1]', '[T2]', '[T3]', '[T4]']
+  EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h[T3]The Girl From Core 3[T4]\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Part 2)
+[15:49:27.727] [DEBUG   ] Lote vazio após 9.7s: [0] Sou poderoso!
+[1] \h\h\h[T1]Próximo Episódio \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h[T3]A Garota de Core 3[T4]\N\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h(Parte 2)
+[2] \h\h\h[T1]Próximo Episódio \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h[T3]A Garota de Core 3[T4]\N\h\h
+[15:49:37.867] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass: lotes em 2m 45s | traduzidas=333 erros=0
+[15:49:37.879] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E42_PTBR.ass | Tempo: 2m 45s | novos=333 cache=107 erros=0
+[15:49:37.881] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E43_ENG.ass
+[15:49:37.881] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E43_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E43_ENG.ass            
+================================================================================
+
+[15:49:37.882] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:49:37.884] [INFO    ] Traduzindo 313 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E43_ENG.ass (21 lote(s) de até 15)
+[15:51:59.625] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E43_ENG.ass: lotes em 2m 21s | traduzidas=313 erros=0
+[15:51:59.639] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E43_PTBR.ass | Tempo: 2m 21s | novos=313 cache=91 erros=0
+[15:51:59.641] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass
+[15:51:59.641] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E44_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass            
+================================================================================
+
+[15:51:59.642] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:51:59.644] [INFO    ] Traduzindo 282 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass (19 lote(s) de até 15)
+[15:52:16.058] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Understood. Go for it.
+[15:52:16.058] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]But regardless of the mission's success,
+[15:52:16.058] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]get back here within the time limit. Is that clear?
+[15:52:16.058] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[15:52:16.465] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Understood. Go for it.
+[15:52:16.465] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Understood. Go for it.
+[15:52:16.465] [DEBUG   ] Lote vazio após 0.4s: [0] Entendido. Vá em frente.
+[15:52:27.989] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I'm disturbed that the Argama is\Nmoving with Chara's fleet.
+[15:52:27.990] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:54:20.207] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass: lotes em 2m 20s | traduzidas=282 erros=0
+[15:54:20.220] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E44_PTBR.ass | Tempo: 2m 20s | novos=282 cache=74 erros=0
+[15:54:20.221] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass
+[15:54:20.222] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E45_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass            
+================================================================================
+
+[15:54:20.223] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:54:20.224] [INFO    ] Traduzindo 262 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass (18 lote(s) de até 15)
+[15:54:29.327] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]A clash began between Chara's fleet...
+[15:54:29.327] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...and Glemy's fleet, which had Axis at its back.
+[15:54:29.327] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]As the battle zone enlarged,\Nthe Nahel Argama fell into danger.
+[15:54:29.328] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]And it was Deputy Captain Emary...
+[15:54:29.328] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...who made herself our shield because\Nshe missed Bright so much.
+[15:54:29.328] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]I made a terrible mistake.
+[15:54:29.328] [AVISO   ] Lote parcial 9/15 em 0.0s. Retraduzindo 6 linha(s) individualmente...
+[15:56:20.918] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass | idx=2 | Tags desalinhadas: [] vs ['[T0]']
+  EN: Of course! It'll take more than that\Nto kill Cat-Eyed Chara!
+[15:56:20.918] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass | idx=5 | Tags desalinhadas: [] vs ['[T0]']
+  EN: Oh... that's a good attitude to have.
+[15:56:20.918] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass | idx=7 | Tags desalinhadas: [] vs ['[T0]']
+  EN: Mistress Chara! What's wrong?!
+[15:56:20.918] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[15:56:42.142] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass: lotes em 2m 21s | traduzidas=262 erros=0
+[15:56:42.156] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E45_PTBR.ass | Tempo: 2m 21s | novos=262 cache=59 erros=0
+[15:56:42.159] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E46_ENG.ass
+[15:56:42.159] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E46_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E46_ENG.ass            
+================================================================================
+
+[15:56:42.160] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:56:42.162] [INFO    ] Traduzindo 264 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E46_ENG.ass (18 lote(s) de até 15)
+[15:58:11.986] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E46_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]...born from your intuition becomes\Nyour reason to fight!
+[15:58:11.987] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[15:58:46.441] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E46_ENG.ass: lotes em 2m 4s | traduzidas=264 erros=0
+[15:58:46.454] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E46_PTBR.ass | Tempo: 2m 4s | novos=264 cache=93 erros=0
+[15:58:46.456] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass
+[15:58:46.456] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E47_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass            
+================================================================================
+
+[15:58:46.457] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[15:58:46.459] [INFO    ] Traduzindo 223 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass (15 lote(s) de até 15)
+[15:59:59.806] [AVISO   ] Lote parcial 12/15 em 0.0s. Retraduzindo 3 linha(s) individualmente...
+[16:00:26.829] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The time of beginning, the time that every heartbeat is longing for.
+[16:00:26.830] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]We can still stop it, because life is still answering
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mada tomerareru seimei no kotae dakara
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]We can still stop it, because life is still answering
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]hoshi no kazu dake inochi wo takuwareba
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]hoshi no kazu dake inochi wo takuwareba
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]ginga no mure no hikari wo kaete misero
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]ginga no mure no hikari wo kaete misero
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kono te ga tsukamu inochi no omosa ni naru
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kono te ga tsukamu inochi no omosa ni naru
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mada meinai yo sora no michishirude wa
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mada meinai yo sora no michishirude wa
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kono te ni saware hikari isenmanen
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kono te ni saware hikari isenmanen
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]We can still stop it, because life is still answering
+[16:00:33.679] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mada tomerareru seimei no kotae dakara
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]We can still stop it, because life is still answering
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]hoshi no kazu dake inochi wo takuwareba
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]hoshi no kazu dake inochi wo takuwareba
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]ginga no mure no hikari wo kaete misero
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]ginga no mure no hikari wo kaete misero
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kono te ga tsukamu inochi no omosa ni naru
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kono te ga tsukamu inochi no omosa ni naru
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mada meinai yo sora no michishirude wa
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]mada meinai yo sora no michishirude wa
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kono te ni saware hikari isenmanen
+[16:00:33.680] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]kono te ni saware hikari isenmanen
+[16:00:33.680] [DEBUG   ] Lote vazio após 5.9s: [0] Ainda podemos pará-lo, pois a vida ainda responde.
+[1] Ainda podemos pará-lo, pois a vida ainda responde.
+[2] Ainda podemos pará-lo, pois a vida ainda responde.
+[3] Ainda podemos pará-lo, pois ainda há vidas para salvar.
+[4] Ainda podemos pará-lo, pois ainda há vidas para salvar.
+[5] Mudemos a l
+[16:00:41.872] [INFO    ] Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass: lotes em 1m 55s | traduzidas=223 erros=0
+[16:00:41.888] [SUCESSO ] Salvo: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E47_PTBR.ass | Tempo: 1m 55s | novos=223 cache=92 erros=0
+
+================================================================================
+                              ESTATÍSTICAS FINAIS                               
+================================================================================
+
+[16:00:41.890] [INFO    ] Tempo total           : 1h 58m 43s
+[16:00:41.890] [INFO    ] Arquivos OK           : 47/47
+[16:00:41.890] [INFO    ] Linhas traduzidas     : 14811
+[16:00:41.890] [INFO    ] Linhas com erro       : 4
+[16:00:41.890] [INFO    ] Cache hits            : 5756
+[16:00:41.890] [INFO    ] Requisições LLM       : 1523
+[16:00:41.890] [INFO    ] Tempo em API          : 1h 58m 4s
+[16:00:41.891] [INFO    ] Média API/requisição  : 4.7s
+[16:00:41.891] [INFO    ] Média por lote        : 7.0s
+[16:00:41.891] [INFO    ] Retentativas API      : 1
+[16:00:41.891] [INFO    ] Fallbacks individuais : 498
+[16:00:41.891] [INFO    ] Rejeições validação   : 556
+[16:00:41.891] [INFO    ] Falhas por motivo:
+[16:00:41.891] [INFO    ]    502x  Tags desalinhadas: ['[T0]'] vs []
+[16:00:41.891] [INFO    ]     15x  Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+[16:00:41.891] [INFO    ]     12x  Tags desalinhadas: ['[T0]', '[T1]'] vs []
+[16:00:41.891] [INFO    ]     10x  Tags desalinhadas: [] vs ['[T0]']
+[16:00:41.891] [INFO    ]      7x  Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+[16:00:41.891] [INFO    ]      4x  falha_definitiva:falha_apos_3_tentativas_individuais
+[16:00:41.891] [INFO    ]      4x  Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T1]', '[T2]', '[T3]', '[T4]']
+[16:00:41.892] [INFO    ]      1x  Resíduo de inglês não presente no original: 'this'
+[16:00:41.892] [INFO    ]      1x  Tags desalinhadas: ['[T0]', '[T1]', '[T2]'] vs ['[T0]', '[T1]']
+[16:00:41.892] [INFO    ]      1x  Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T0]']
+[16:00:41.892] [INFO    ]      1x  Resíduo de inglês não presente no original: 'the'
+[16:00:41.892] [INFO    ]      1x  Preâmbulo conversacional do LLM
+[16:00:41.892] [INFO    ]      1x  Resíduo de inglês não presente no original: 'with'
+
+================================================================================
+RELATÓRIO FINAL — GUNDAM ZZ (EN -> PT-BR)
+================================================================================
+
+Tempo total de execução : 1h 58m 43s
+Arquivos processados    : 47/47
+Arquivos com falha      : 0
+Arquivos pulados        : 0
+Linhas traduzidas       : 14811
+Linhas com erro         : 4
+Cache hits              : 5756
+Diálogos pulados        : 0
+Requisições API         : 1523
+
+--- TEMPOS ---
+Tempo total em API      : 1h 58m 4s
+Média por requisição    : 4.7s
+Média por lote          : 7.0s
+Tempo I/O (leitura/grav) : 0s
+Retentativas API        : 1
+Lotes parciais          : 85
+Fallbacks individuais   : 498
+Rejeições validação     : 556
+Falhas definitivas      : 4
+
+--- FALHAS POR MOTIVO ---
+   502x  Tags desalinhadas: ['[T0]'] vs []
+    15x  Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+    12x  Tags desalinhadas: ['[T0]', '[T1]'] vs []
+    10x  Tags desalinhadas: [] vs ['[T0]']
+     7x  Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+     4x  falha_definitiva:falha_apos_3_tentativas_individuais
+     4x  Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T1]', '[T2]', '[T3]', '[T4]']
+     1x  Resíduo de inglês não presente no original: 'this'
+     1x  Tags desalinhadas: ['[T0]', '[T1]', '[T2]'] vs ['[T0]', '[T1]']
+     1x  Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T0]']
+     1x  Resíduo de inglês não presente no original: 'the'
+     1x  Preâmbulo conversacional do LLM
+     1x  Resíduo de inglês não presente no original: 'with'
+
+--- TEMPO POR ARQUIVO ---
+  Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass: 5m 37s | novos=528 cache=177 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E02_ENG.ass: 1m 58s | novos=283 cache=122 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass: 2m 20s | novos=317 cache=134 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E04_ENG.ass: 2m 30s | novos=329 cache=146 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass: 2m 31s | novos=342 cache=153 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass: 2m 16s | novos=306 cache=150 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass: 2m 26s | novos=294 cache=152 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E08_ENG.ass: 2m 30s | novos=317 cache=162 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass: 2m 48s | novos=338 cache=179 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass: 2m 44s | novos=338 cache=156 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E11_ENG.ass: 2m 24s | novos=335 cache=154 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E12_ENG.ass: 2m 32s | novos=332 cache=158 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass: 2m 42s | novos=348 cache=167 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E14_ENG.ass: 2m 39s | novos=351 cache=173 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass: 2m 39s | novos=334 cache=163 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E16_ENG.ass: 2m 30s | novos=337 cache=182 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass: 2m 20s | novos=311 cache=176 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E18_ENG.ass: 2m 18s | novos=302 cache=170 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass: 2m 22s | novos=301 cache=184 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass: 4m 1s | novos=481 cache=175 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E21_ENG.ass: 2m 38s | novos=342 cache=165 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass: 2m 43s | novos=338 cache=163 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass: 2m 32s | novos=312 cache=165 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass: 2m 35s | novos=332 cache=165 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E25_ENG.ass: 1m 58s | novos=249 cache=178 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass: 2m 35s | novos=331 cache=61 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass: 1m 58s | novos=241 cache=77 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E28_ENG.ass: 2m 0s | novos=269 cache=87 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass: 2m 49s | novos=306 cache=68 erros=2 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass: 2m 50s | novos=328 cache=77 erros=1 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E31_ENG.ass: 2m 19s | novos=288 cache=53 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass: 2m 17s | novos=271 cache=63 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E33_ENG.ass: 2m 34s | novos=343 cache=88 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E34_ENG.ass: 2m 18s | novos=311 cache=85 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass: 2m 13s | novos=263 cache=62 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E36_ENG.ass: 1m 51s | novos=244 cache=64 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass: 2m 33s | novos=328 cache=71 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass: 2m 55s | novos=337 cache=70 erros=1 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass: 2m 20s | novos=283 cache=74 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E40_ENG.ass: 2m 34s | novos=348 cache=89 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E41_ENG.ass: 1m 55s | novos=250 cache=82 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass: 2m 45s | novos=333 cache=107 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E43_ENG.ass: 2m 21s | novos=313 cache=91 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass: 2m 20s | novos=282 cache=74 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass: 2m 21s | novos=262 cache=59 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E46_ENG.ass: 2m 4s | novos=264 cache=93 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass: 1m 55s | novos=223 cache=92 erros=0 [OK]
+
+--- LINHAS NÃO TRADUZIDAS (amostra) ---
+  Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | L6 | falha_apos_3_tentativas_individuais
+    EN: It [T0]is[T1] you, Roux Louka!
+  Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | L0 | falha_apos_3_tentativas_individuais
+    EN: [T0]Women are scary!
+  Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | L12 | falha_apos_3_tentativas_individuais
+    EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\
+  Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | L0 | falha_apos_3_tentativas_individuais
+    EN: [T0]Something's definitely wrong with Judau!
+
+Arquivos de log:
+  d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\logs
+  pipeline_zz_en_2026-06-23_14-01-42.txt
+  erros_zz_en_2026-06-23_14-01-42.txt
+  falhas_zz_en_2026-06-23_14-01-42.txt
+  stats_zz_en_2026-06-23_14-01-42.json
+  relatorio_zz_en_2026-06-23_14-01-42.txt
+[16:00:41.895] [INFO    ] Relatório espelhado em: C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\relatorio_traducao_zz_2026-06-23_14-01-42.txt
+[16:00:41.895] [SUCESSO ] Finalizado.

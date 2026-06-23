@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-06-23_13-57-51",
+  "data_hora": "2026-06-23T14:01:27.816929",
+  "stats": {
+    "ass_total": 1,
+    "ass_ok": 0,
+    "ass_falha": 0,
+    "ass_pulados": 0,
+    "linhas_traduzidas": 177,
+    "linhas_com_erro": 3,
+    "erros_traducao": 3,
+    "cache_hits": 0,
+    "requisicoes": 70,
+    "dialogos_pulados": 0,
+    "tempo_inicio": 17409.9773452,
+    "abortado_lm_offline": false,
+    "tempo_total_seg": 216.51
+  },
+  "auditoria": {
+    "tempo_total_api_seg": 184.06,
+    "tempo_medio_api_seg": 2.67,
+    "tempo_medio_lote_seg": 15.3,
+    "tempo_io_seg": 0.0,
+    "tempo_parse_seg": 0.02,
+    "requisicoes_api": 69,
+    "retentativas_api": 0,
+    "lotes_parciais": 6,
+    "fallbacks_individuais": 51,
+    "rejeicoes_validacao": 100,
+    "falhas_definitivas": 3,
+    "falhas_por_motivo": {
+      "Tags desalinhadas: ['[T0]'] vs []": 41,
+      "Tags desalinhadas: ['[T0]', '\\\\N'] vs ['\\\\N']": 32,
+      "Tags desalinhadas: ['[T0]', '\\\\N'] vs ['[T0]']": 20,
+      "falha_definitiva:falha_apos_3_tentativas_individuais": 3,
+      "Tags desalinhadas: ['[T0]', '\\\\N'] vs ['\\\\n']": 2,
+      "Tags desalinhadas: ['[T0]', '\\\\N'] vs []": 4,
+      "Tags desalinhadas: ['\\\\N'] vs ['\\\\n']": 1
+    },
+    "tempos_por_arquivo": [],
+    "falhas_detalhadas": [
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass",
+        "indice_lote": 5,
+        "motivo": "falha_apos_3_tentativas_individuais",
+        "tentativas": 3,
+        "tempo_seg": 7.78,
+        "texto_en": "[T0]where forests and lakes have\\Nbeen constructed."
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass",
+        "indice_lote": 14,
+        "motivo": "falha_apos_3_tentativas_individuais",
+        "tentativas": 3,
+        "tempo_seg": 7.79,
+        "texto_en": "[T0]stole tens of millions\\Nof lives in an instant."
+      },
+      {
+        "arquivo": "Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass",
+        "indice_lote": 7,
+        "motivo": "falha_apos_3_tentativas_individuais",
+        "tentativas": 3,
+        "tempo_seg": 8.0,
+        "texto_en": "[T0]the Gundam became feared\\Nas the \"White Mobile Suit.\""
+      }
+    ]
+  }
+}

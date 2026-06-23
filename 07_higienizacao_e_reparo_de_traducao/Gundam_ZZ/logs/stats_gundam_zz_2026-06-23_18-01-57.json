@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-23_18-01-57",
+  "modo": "PRODUÇÃO",
+  "pastas": {
+    "ptbr": "C:\\animes\\zeta_zz\\TRADUZIDAS_ZZ",
+    "eng": "C:\\animes\\zeta_zz\\legendas_eng",
+    "saida": "C:\\animes\\zeta_zz\\revisao"
+  },
+  "stats": {
+    "arquivos_processados": 47,
+    "arquivos_pulados": 0,
+    "linhas_modificadas": 4332,
+    "karaoke_restaurado": 0,
+    "lore_corrigido": 504,
+    "higienizacao_geral": 3828,
+    "correcoes_manuais": 0
+  },
+  "total_modificacoes": 4332
+}

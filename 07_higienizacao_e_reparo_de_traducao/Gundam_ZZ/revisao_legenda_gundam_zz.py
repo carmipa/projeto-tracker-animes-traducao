@@ -73,7 +73,7 @@ SUBSTITUICOES_LORE = [
     (re.compile(r"\bNovo Zeon\b", re.I), "Neo Zeon"),
     (re.compile(r"\bZeon Novo\b", re.I), "Neo Zeon"),
     (re.compile(r"\bZeon Nova\b", re.I), "Neo Zeon"),
-    (re.compile(r"\bA\.E\.U\.G\b", re.I), "A.E.U.G."),
+    (re.compile(r"\bA\.E\.U\.G\.?\b", re.I), "A.E.U.G."),
     (re.compile(r"\bEletrônica Anaheim\b", re.I), "Anaheim Electronics"),
     (re.compile(r"\bEletrônicos Anaheim\b", re.I), "Anaheim Electronics"),
     
@@ -159,7 +159,7 @@ SUBSTITUICOES_LORE = [
     (re.compile(r"\bDöven\s+Wolf\b", re.I), "Doven Wolf"),
     (re.compile(r"\bDoven\s+Wolf\b", re.I), "Doven Wolf"),
     (re.compile(r"\bLobo\s+Doven\b", re.I), "Doven Wolf"),
-    (re.compile(r"\bQuin\s+Mantha\b", re.I), "Queen Mansa"), # Ajustado para Queen Mansa que é mais legível, ou Quin Mantha dependendo do purismo. Vamos de Quin Mantha que é o oficial do kit
+    (re.compile(r"\bQuin\s+Mantha\b", re.I), "Quin Mantha"),
     (re.compile(r"\bRainha\s+Mansa\b", re.I), "Quin Mantha"),
     (re.compile(r"\bQueen\s+Mansa\b", re.I), "Quin Mantha"),
     (re.compile(r"\bGeymalk\b", re.I), "Geymalk"),
@@ -173,6 +173,22 @@ SUBSTITUICOES_LORE = [
 ]
 
 GRAMATICA_E_GAFES = {
+    "only be honest with yourself!": "Seja honesta consigo mesma!",
+    "Kidnapping Mineva Zabi": "Sequestrar Mineva Zabi",
+    "I can go back to the moon and see": "Posso voltar para a Lua e ver",
+    "Nous terminaremos": "Nós terminaremos",
+    "I decido": "eu decido",
+    "Novo Tipos": "Newtypes",
+    "Novo Tipo": "Newtype",
+    "Tenente-Capital": "Tenente-Capitão",
+    "mariône": "marionete",
+    "Big Brother": "Irmãozão",
+    "Fool!": "idiota!",
+    "Fool": "idiota",
+    "Miss Milly": "Srta. Milly",
+    "Mistress Chara": "Lady Chara",
+    "Muitas unidades móveis": "Muitos mobile suits",
+    "E-Escutado": "E-Entendido",
     "Eu vejo.": "Entendo.",
     "Eu vejo que": "Percebo que",
     "eu vejo que": "percebo que",
@@ -205,6 +221,86 @@ GRAMATICA_E_GAFES = {
     "Roger.": "Copiado.",
     "Copy that": "Entendido",
 }
+
+CORRECOES_REGEX_GERAIS = [
+    (re.compile(r"(?i)\bonly\s+(Fique|Depressa|atraiam|fazendo|segure-o)\b"), r"\1"),
+    (re.compile(r"(?i)\bonly\s+because\."), "Só por isso."),
+    (re.compile(r"(?i)\bonly\s+needs to move\."), "Só precisa se mover."),
+    (re.compile(r"(?i)\bonly\s+get dressed!"), "Vista-se logo!"),
+    (re.compile(r"(?i)\bonly\s+shut up and come!"), "Cale a boca e venha!"),
+    (re.compile(r"(?i)\bonly\s+shut up and get in!"), "Cale a boca e entre!"),
+    (re.compile(r"(?i)\bonly\s+shut up!"), "Cale a boca!"),
+    (re.compile(r"(?i)\bonly\s+relax, Leina\."), "Relaxe, Leina."),
+    (re.compile(r"(?i)\bonly\s+leave him alone!"), "Deixe-o em paz!"),
+    (re.compile(r"(?i)\bonly\s+you wait, Lady Haman!"), "Espere só, Lady Haman!"),
+    (re.compile(r"(?i)\bonly\s+follow the boat da frente\."), "Siga o barco da frente."),
+    (re.compile(r"(?i)\bonly\s+go make contact with the La Vie en Rose!"), "Vá fazer contato com a La Vie en Rose!"),
+    (re.compile(r"(?i)\bonly\s+go!"), "Vá!"),
+    (re.compile(r"(?i)\bonly\s+wait for a chance nossa\."), "Espere por uma chance nossa."),
+    (re.compile(r"(?i)\bonly\s+children\?!"), "Só crianças?!"),
+    (re.compile(r"(?i)\bonly\s+do what I say and seja meu, Zeta!"), "Faça só o que eu digo e seja meu, Zeta!"),
+    (re.compile(r"(?i)\bonly\s+do it!"), "Faça isso!"),
+    (re.compile(r"(?i)\bonly\s+proves\\Nque\b"), r"só prova\\Nque"),
+    (re.compile(r"(?i)\bonly\s+watch\. I'm going to rescue\\NLeina on my own!"), r"Observe. Eu vou resgatar\\NLeina sozinho!"),
+    (re.compile(r"(?i)\bonly\s+because you're Neo Zeon\.\.\.!"), "Só porque vocês são Neo Zeon...!"),
+    (re.compile(r"(?i)\bonly\s+hang in there -> Fique firme!"), "Fique firme!"),
+    (re.compile(r"(?i)\bonly\s+hang in there, Leina\."), "Fique firme, Leina."),
+    (re.compile(r"(?i)\bonly\s+hurry up and dock!"), "Apresse-se e acople!"),
+    (re.compile(r"(?i)\bonly\s+hurry\."), "Depressa."),
+    (re.compile(r"(?i)\bonly\s+be careful!"), "Cuidado!"),
+    (re.compile(r"(?i)\bonly\s+because you have a little\\Nskill de pilotagem de mobile suit!"), r"Só porque você tem um pouco de\\Nhabilidade pilotando mobile suits!"),
+    (re.compile(r"(?i)\bonly\s+keep up the surveillance here,\\NTorres\."), r"Continue vigiando aqui,\\NTorres."),
+    (re.compile(r"(?i)\\N\s*Fool!"), r"\\Nidiota!"),
+    (re.compile(r"(?i)\\N\s*Miss Milly\b"), r"\\NSrta. Milly"),
+    (re.compile(r"(?i)\\N\s*Captão Bright again!"), r"\\No Capitão Bright de novo!"),
+    (re.compile(r"(?i)\bonly\s+hang in there\\Naté chegarmos ao Argama!"), r"Aguente firme\\Naté chegarmos ao Argama!"),
+    (re.compile(r"(?i)\bonly\s+volta com o Argama para Dublin!"), "Volte com o Argama para Dublin!"),
+    (re.compile(r"(?i)(^|\\N)only be honest with yourself!"), r"\1Seja honesta consigo mesma!"),
+    (re.compile(r"(?i)(^|\\N)W-What\?!"), r"\1O-o quê?!"),
+    (re.compile(r"(?i)Isso é exactly what I'm doing!"), "É exatamente isso que estou fazendo!"),
+    (re.compile(r"(?i)exactly what I'm doing!"), "exatamente isso que estou fazendo!"),
+    (re.compile(r"(?i)maybe we should come back here\\Nafter I get Leina back\."), r"talvez devêssemos voltar aqui\\Ndepois que eu trouxer Leina de volta."),
+    (re.compile(r"(?i)(^|\\N)kidnapping Mineva Zabi"), r"\1Sequestrar Mineva Zabi"),
+    (re.compile(r"(?i)(^|\\N)I can go back to the moon and see"), r"\1Posso voltar para a Lua e ver"),
+    (re.compile(r"(?i)(^|\\N)Nous terminaremos"), r"\1Nós terminaremos"),
+    (re.compile(r"(?i)(^|\\N)I decido"), r"\1Eu decido"),
+    (re.compile(r"\\N\s+ão\b", re.I), r"\\Nnão"),
+    (re.compile(r"\b[Nn]ão\s+volte\b"), "não volte"),
+    (re.compile(r"\\Ndo Federação\b", re.I), r"\\Nda Federação"),
+    (re.compile(r"\\Nenão\b", re.I), r"\\Ne então"),
+    (re.compile(r"\buma conceito\b", re.I), "um conceito"),
+    (re.compile(r"\\Na um reino\b", re.I), r"\\Num reino"),
+    (re.compile(r"pelo\\Na vontade\b", re.I), r"pela\\Nvontade"),
+    (re.compile(r"\\NComo investidora\b"), r"\\Ncomo investidora"),
+    (re.compile(r"\\NOnde ele está\b"), r"\\Nonde ele está"),
+    (re.compile(r"\\NFicassem apenas\b"), r"\\Nficassem apenas"),
+    (re.compile(r"\\NPara Lady Haman\b"), r"\\Npara Lady Haman"),
+    (re.compile(r"\\NSob ordens\b"), r"\\Nsob ordens"),
+    (re.compile(r"\\NDoou esta\b"), r"\\Ndoou esta"),
+    (re.compile(r"\\NQue senti\b"), r"\\Nque senti"),
+    (re.compile(r"\\NPoderei\b"), r"\\Npoderei"),
+    (re.compile(r"\\NTer algum\b"), r"\\Nter algum"),
+    (re.compile(r"\b[Dd]a tão fácil\b"), "tão fácil"),
+    (re.compile(r"\bque infiltrada em\b", re.I), "que se infiltrou em"),
+    (re.compile(r"\btem\\Na um lugar\b", re.I), r"tem\\Num lugar"),
+    (re.compile(r"\busar\\Na um traje\b", re.I), r"usar\\Num traje"),
+    (re.compile(r"\\MAS\b"), r"\\NMas"),
+    (re.compile(r"\\[Mm]as\b"), r"\\NMas"),
+    (re.compile(r"\bA\.E\.U\.G\.{2,}"), "A.E.U.G."),
+    (re.compile(r"(?i)(^|\\N)seja honesta consigo mesma!"), r"\1Seja honesta consigo mesma!"),
+]
+
+PADRAO_RESIDUO_IDIOMA = re.compile(
+    r"\b(only|kidnapping|can go back|moon and see|again|nous|i decido|"
+    r"where|what|when|why|because|yourself|big brother|fool|miss milly)\b",
+    re.I,
+)
+PADRAO_FRAGMENTO_QUEBRADO = re.compile(
+    r"(\\N\s+ão\b|\\MAS\b|A\.E\.U\.G\.{2,}|"
+    r"\bI\s+[a-záéíóúâêôãõç]+\b|\b[Nn]ovo Tipos\b|"
+    r"\\Ndo Federação\b|\\Nenão\b|\buma conceito\b|\\Na um reino\b)",
+    re.I,
+)
 
 # Correções cirúrgicas: chave = número da linha no arquivo .ass (1-indexed)
 CORRECOES_ESPECIFICAS = {}
@@ -483,7 +579,9 @@ def higienizar_texto(texto, eh_grafico=False):
 
     t = re.sub(r"\\N\s*$", "", t)
     t = re.sub(r"\\N\s*([.!?;:])\s*$", r"\1", t)
-    t = re.sub(r"\\N([a-zA-ZáéíóúâêôãõçÁÉÍÓÚÂÊÔÃÕÇ])", r"\\N \1", t)
+    # Em ASS, "\Ntexto" é a forma limpa; inserir espaço depois do \N gera
+    # milhares de alterações cosméticas e pode criar fragmentos como "\N ão".
+    t = re.sub(r"\\N\s+", r"\\N", t)
 
     t = re.sub(r"(\{[^{}]+\})\1+", r"\1", t)
     t = re.sub(r"\[T\d+\]", "", t)
@@ -500,6 +598,8 @@ def higienizar_texto(texto, eh_grafico=False):
     t = re.sub(r"Traduction:\s*", "", t, flags=re.I)
     t = re.sub(r"\bÉPISODE\b", "EPISÓDIO", t, flags=re.I)
     t = re.sub(r"\bEPISODE\b", "EPISÓDIO", t, flags=re.I)
+    t = re.sub(r"(?<!\\)\\Para\b", r"\\Npara", t)
+    t = re.sub(r"\\+\s*$", "", t)
 
     for padrao, subst in SUBSTITUICOES_LORE:
         t = padrao.sub(subst, t)
@@ -507,10 +607,26 @@ def higienizar_texto(texto, eh_grafico=False):
     for padrao, correto in _GRAMATICA_COMPILADO:
         t = padrao.sub(lambda m, c=correto: _preservar_caixa(c, m.group(0)), t)
 
+    for padrao, subst in CORRECOES_REGEX_GERAIS:
+        t = padrao.sub(subst, t)
+
+    t = re.sub(r"\bA\.E\.U\.G\.(?=\.)", "A.E.U.G", t)
+    t = re.sub(r"(\{\\i1\})(.*?)(\{\\i1\})", r"\1\2", t)
+    t = re.sub(r"!\s*(Aguente firme)", r"! \1", t)
+
     t = _balancear_tag(t, "{\\i1}", "{\\i0}")
     t = _balancear_tag(t, "{\\b1}", "{\\b0}")
 
     return t
+
+
+def detectar_suspeita_qualidade(texto):
+    """Retorna motivo de revisão manual quando a linha ainda parece problemática."""
+    if PADRAO_RESIDUO_IDIOMA.search(texto):
+        return "possível resíduo de inglês/francês"
+    if PADRAO_FRAGMENTO_QUEBRADO.search(texto):
+        return "possível fragmento quebrado"
+    return ""
 
 
 def processar_legendas(
@@ -574,6 +690,7 @@ def processar_legendas(
         "lore_corrigido": 0,
         "higienizacao_geral": 0,
         "correcoes_manuais": 0,
+        "linhas_suspeitas": 0,
     }
 
     tempo_inicio = time.time()
@@ -697,6 +814,21 @@ def processar_legendas(
                     "linha_arquivo": idx_linha,
                     "dialogo": indice_dialogo,
                     "motivo": motivo,
+                    "antes": texto_original,
+                    "depois": texto_final,
+                })
+
+            motivo_suspeita = detectar_suspeita_qualidade(texto_final)
+            if motivo_suspeita:
+                stats["linhas_suspeitas"] += 1
+                _emit(
+                    f"  {Fore.MAGENTA}[REVISAR] L{idx_linha} D{indice_dialogo} — {motivo_suspeita}: {texto_final}"
+                )
+                log_modificacoes.append({
+                    "arquivo": arq,
+                    "linha_arquivo": idx_linha,
+                    "dialogo": indice_dialogo,
+                    "motivo": f"REVISAR: {motivo_suspeita}",
                     "antes": texto_original,
                     "depois": texto_final,
                 })
@@ -1114,6 +1246,7 @@ def main():
         _emit(f"    Lore corrigido         : {stats['lore_corrigido']}")
         _emit(f"    Higienização / gramática: {stats['higienizacao_geral']}")
         _emit(f"    Correções manuais      : {stats['correcoes_manuais']}")
+        _emit(f"    Linhas suspeitas       : {stats.get('linhas_suspeitas', 0)}")
         _emit("=" * 80)
 
         if not args.dry_run and not args.no_remux:

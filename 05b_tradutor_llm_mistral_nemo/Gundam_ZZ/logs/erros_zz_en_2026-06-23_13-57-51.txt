@@ -1,0 +1,15 @@
+
+================================================================================
+PIPELINE DE TRADUÇÃO GUNDAM ZZ / DOUBLE ZETA (EN -> PT-BR)
+================================================================================
+Início    : 2026-06-23 13:57:51
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\logs
+================================================================================
+
+[13:59:39.998] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.8s
+  EN: [T0]where forests and lakes have\Nbeen constructed.
+[14:00:04.869] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.8s
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[14:00:21.547] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=8.0s
+  EN: [T0]the Gundam became feared\Nas the "White Mobile Suit."

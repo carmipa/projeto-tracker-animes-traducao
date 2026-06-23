@@ -1,0 +1,107 @@
+
+================================================================================
+RELATÓRIO FINAL — GUNDAM ZZ (EN -> PT-BR)
+================================================================================
+
+Tempo total de execução : 1h 58m 43s
+Arquivos processados    : 47/47
+Arquivos com falha      : 0
+Arquivos pulados        : 0
+Linhas traduzidas       : 14811
+Linhas com erro         : 4
+Cache hits              : 5756
+Diálogos pulados        : 0
+Requisições API         : 1523
+
+--- TEMPOS ---
+Tempo total em API      : 1h 58m 4s
+Média por requisição    : 4.7s
+Média por lote          : 7.0s
+Tempo I/O (leitura/grav) : 0s
+Retentativas API        : 1
+Lotes parciais          : 85
+Fallbacks individuais   : 498
+Rejeições validação     : 556
+Falhas definitivas      : 4
+
+--- FALHAS POR MOTIVO ---
+   502x  Tags desalinhadas: ['[T0]'] vs []
+    15x  Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T1]']
+    12x  Tags desalinhadas: ['[T0]', '[T1]'] vs []
+    10x  Tags desalinhadas: [] vs ['[T0]']
+     7x  Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T0]', '[T1]', '[T2]']
+     4x  falha_definitiva:falha_apos_3_tentativas_individuais
+     4x  Tags desalinhadas: ['[T0]', '[T1]', '[T2]', '[T3]', '[T4]'] vs ['[T1]', '[T2]', '[T3]', '[T4]']
+     1x  Resíduo de inglês não presente no original: 'this'
+     1x  Tags desalinhadas: ['[T0]', '[T1]', '[T2]'] vs ['[T0]', '[T1]']
+     1x  Tags desalinhadas: ['[T0]', '[T1]'] vs ['[T0]']
+     1x  Resíduo de inglês não presente no original: 'the'
+     1x  Preâmbulo conversacional do LLM
+     1x  Resíduo de inglês não presente no original: 'with'
+
+--- TEMPO POR ARQUIVO ---
+  Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass: 5m 37s | novos=528 cache=177 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E02_ENG.ass: 1m 58s | novos=283 cache=122 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass: 2m 20s | novos=317 cache=134 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E04_ENG.ass: 2m 30s | novos=329 cache=146 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass: 2m 31s | novos=342 cache=153 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass: 2m 16s | novos=306 cache=150 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass: 2m 26s | novos=294 cache=152 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E08_ENG.ass: 2m 30s | novos=317 cache=162 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass: 2m 48s | novos=338 cache=179 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass: 2m 44s | novos=338 cache=156 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E11_ENG.ass: 2m 24s | novos=335 cache=154 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E12_ENG.ass: 2m 32s | novos=332 cache=158 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass: 2m 42s | novos=348 cache=167 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E14_ENG.ass: 2m 39s | novos=351 cache=173 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass: 2m 39s | novos=334 cache=163 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E16_ENG.ass: 2m 30s | novos=337 cache=182 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass: 2m 20s | novos=311 cache=176 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E18_ENG.ass: 2m 18s | novos=302 cache=170 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass: 2m 22s | novos=301 cache=184 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass: 4m 1s | novos=481 cache=175 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E21_ENG.ass: 2m 38s | novos=342 cache=165 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass: 2m 43s | novos=338 cache=163 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass: 2m 32s | novos=312 cache=165 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass: 2m 35s | novos=332 cache=165 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E25_ENG.ass: 1m 58s | novos=249 cache=178 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass: 2m 35s | novos=331 cache=61 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass: 1m 58s | novos=241 cache=77 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E28_ENG.ass: 2m 0s | novos=269 cache=87 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass: 2m 49s | novos=306 cache=68 erros=2 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass: 2m 50s | novos=328 cache=77 erros=1 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E31_ENG.ass: 2m 19s | novos=288 cache=53 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass: 2m 17s | novos=271 cache=63 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E33_ENG.ass: 2m 34s | novos=343 cache=88 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E34_ENG.ass: 2m 18s | novos=311 cache=85 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass: 2m 13s | novos=263 cache=62 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E36_ENG.ass: 1m 51s | novos=244 cache=64 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass: 2m 33s | novos=328 cache=71 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass: 2m 55s | novos=337 cache=70 erros=1 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass: 2m 20s | novos=283 cache=74 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E40_ENG.ass: 2m 34s | novos=348 cache=89 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E41_ENG.ass: 1m 55s | novos=250 cache=82 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass: 2m 45s | novos=333 cache=107 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E43_ENG.ass: 2m 21s | novos=313 cache=91 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass: 2m 20s | novos=282 cache=74 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass: 2m 21s | novos=262 cache=59 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E46_ENG.ass: 2m 4s | novos=264 cache=93 erros=0 [OK]
+  Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass: 1m 55s | novos=223 cache=92 erros=0 [OK]
+
+--- LINHAS NÃO TRADUZIDAS (amostra) ---
+  Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | L6 | falha_apos_3_tentativas_individuais
+    EN: It [T0]is[T1] you, Roux Louka!
+  Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass | L0 | falha_apos_3_tentativas_individuais
+    EN: [T0]Women are scary!
+  Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass | L12 | falha_apos_3_tentativas_individuais
+    EN: [T0]\h\h\h[T1]Next Episode \N\N\N\N\N\N\N\N\N\N[T2]\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h[T3]Blue Corps\N[T4]\h\h\h\h\h\h\h\h\
+  Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass | L0 | falha_apos_3_tentativas_individuais
+    EN: [T0]Something's definitely wrong with Judau!
+
+Arquivos de log:
+  d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\logs
+  pipeline_zz_en_2026-06-23_14-01-42.txt
+  erros_zz_en_2026-06-23_14-01-42.txt
+  falhas_zz_en_2026-06-23_14-01-42.txt
+  stats_zz_en_2026-06-23_14-01-42.json
+  relatorio_zz_en_2026-06-23_14-01-42.txt

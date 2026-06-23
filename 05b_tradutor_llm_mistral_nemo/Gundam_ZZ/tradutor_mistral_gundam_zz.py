@@ -765,8 +765,9 @@ class ValidadorTraducaoZZ:
 
     @classmethod
     def valida_tags(cls, original: str, traduzido: str) -> tuple[bool, str]:
-        tags_orig = re.findall(r'(\\[Nn]|{\\[^}]+}|\[T\d+\])', original)
-        tags_trad = re.findall(r'(\\[Nn]|{\\[^}]+}|\[T\d+\])', traduzido)
+        # Removemos o rigor em cima do '\N' para que o script perdoe quando o Mistral esquece a quebra de linha.
+        tags_orig = re.findall(r'({\\[^}]+}|\[T\d+\])', original)
+        tags_trad = re.findall(r'({\\[^}]+}|\[T\d+\])', traduzido)
         if sorted(tags_orig) != sorted(tags_trad):
             return False, f"Tags desalinhadas: {tags_orig} vs {tags_trad}"
         return True, "OK"

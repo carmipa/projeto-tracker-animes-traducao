@@ -1,0 +1,265 @@
+
+================================================================================
+PIPELINE DE TRADUÇÃO GUNDAM ZZ / DOUBLE ZETA (EN -> PT-BR)
+================================================================================
+Início    : 2026-06-23 13:57:51
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\logs
+================================================================================
+
+
+================================================================================
+                TRADUTOR GUNDAM ZZ — EN -> PT-BR (MISTRAL NEMO)                 
+================================================================================
+
+[13:57:51.308] [INFO    ] Testando LM Studio em http://127.0.0.1:1234...
+[13:57:51.326] [SUCESSO ] LM Studio OK. Modelo: mistralai/mistral-nemo-instruct-2407
+
+================================================================================
+                             PROCESSAMENTO EM LOTE                              
+================================================================================
+
+[13:58:04.869] [INFO    ] Entrada: C:\animes\zeta_zz\legendas_eng\Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass
+[13:58:04.869] [INFO    ] Saída  : C:\animes\zeta_zz\legendas_eng\TRADUZIDAS_ZZ\Mobile.Suit.Gundam.ZZ.S01E01_PTBR.ass
+
+================================================================================
+            Iniciando Episódio: Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass            
+================================================================================
+
+[13:58:04.874] [DEBUG   ] Encoding: utf-8-sig | leitura: 0.0s
+[13:58:04.877] [INFO    ] Traduzindo 705 diálogos novos em Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass (47 lote(s) de até 15)
+[13:59:13.659] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]MONDO AGAKE
+[13:59:13.659] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]BEECHA OLEG
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]LEINA ASHTA
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]ELLE VIANNO
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]GUNDAM
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]GUNDAM
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]MOBILE SUIT
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]MOBILE SUIT
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Space.
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The second home of humanity.
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]After Earth could no longer support\Nits overflowing population,
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]people created a new homeland for\Nthemselves, building cities in space.
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]These were the space colonies.
+[13:59:13.660] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Once nearly forty million people were\Nliving in the first large-scale colony,
+[13:59:13.660] [AVISO   ] Lote parcial 1/15 em 0.0s. Retraduzindo 14 linha(s) individualmente...
+[13:59:32.218] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]where forests and lakes have\Nbeen constructed.
+[13:59:32.219] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[13:59:32.874] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]where forests and lakes have\Nbeen constructed.
+[13:59:32.874] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]where forests and lakes have\Nbeen constructed.
+[13:59:32.874] [DEBUG   ] Lote vazio após 0.7s: [0] [T0]onde florestas e lagos foram construídos.
+[13:59:35.430] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]where forests and lakes have\Nbeen constructed.
+[13:59:35.430] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]where forests and lakes have\Nbeen constructed.
+[13:59:35.430] [DEBUG   ] Lote vazio após 0.6s: [0] [T0]onde florestas e lagos foram construídos.
+[13:59:37.996] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]where forests and lakes have\Nbeen constructed.
+[13:59:37.996] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]where forests and lakes have\Nbeen constructed.
+[13:59:37.996] [DEBUG   ] Lote vazio após 0.6s: [0] [T0]onde florestas e lagos foram construídos.
+[13:59:39.998] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.8s
+  EN: [T0]where forests and lakes have\Nbeen constructed.
+[13:59:47.506] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]people became ambitious to wage wars.
+[13:59:47.506] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Universal Century 0079.
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The space colony nation of Side 3,
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]had developed the Zaku, the first\Nmass-produced mobile suit.
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Calling itself the Principality of Zeon,
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]it declared independence from the\NEarth Federation.
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\n']
+  EN: [T0]This ushered in the first war in\Nhistory pitting Earth against space.
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Take your sorrow and turn it into anger! \NRise, my people!
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Never forget that we, the citizens\Nof Zeon, are the chosen!
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]We, the superior race, shall save mankind!
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]SIEG ZEON!
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]SIEG ZEON! SIEG ZEON!
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]A colony fell.
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]', '\\N'] vs []
+  EN: [T0]This operation, which demonstrated\Nthe threat posed by the Zaku,
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]', '\\N'] vs []
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[13:59:47.507] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]people became ambitious to wage wars.
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Universal Century 0079.
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The space colony nation of Side 3,
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]had developed the Zaku, the first\Nmass-produced mobile suit.
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Calling itself the Principality of Zeon,
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]it declared independence from the\NEarth Federation.
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\n']
+  EN: [T0]This ushered in the first war in\Nhistory pitting Earth against space.
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Take your sorrow and turn it into anger! \NRise, my people!
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Never forget that we, the citizens\Nof Zeon, are the chosen!
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]We, the superior race, shall save mankind!
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]SIEG ZEON!
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]SIEG ZEON! SIEG ZEON!
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]A colony fell.
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]', '\\N'] vs []
+  EN: [T0]This operation, which demonstrated\Nthe threat posed by the Zaku,
+[13:59:47.508] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]', '\\N'] vs []
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[13:59:47.509] [DEBUG   ] Lote vazio após 7.5s: [0] As pessoas tornaram-se ambiciosas para guerrear.
+[1] Século Universal 0079.
+[2] A nação de colônia espacial Side 3
+[3] havia desenvolvido o Zaku, a primeira\Nfome de mobile suit produzida em massa.
+[4] Chamando-se de Principado de Zeon,
+[5] declarou independência da\NFederação Terrestre.
+[6] Iss
+[13:59:57.717] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[13:59:57.718] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[13:59:57.718] [DEBUG   ] Lote vazio após 0.6s: [0] [T0]roubou milhões em um piscar de olhos.
+[14:00:00.278] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[14:00:00.278] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[14:00:00.278] [DEBUG   ] Lote vazio após 0.6s: [0] [T0]roubou milhões em um piscar de olhos.
+[14:00:02.868] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[14:00:02.868] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[14:00:02.868] [DEBUG   ] Lote vazio após 0.6s: [0] [T0]roubou milhões em um piscar de olhos.
+[14:00:04.869] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=7.8s
+  EN: [T0]stole tens of millions\Nof lives in an instant.
+[14:00:13.542] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]the Gundam became feared\Nas the "White Mobile Suit."
+[14:00:13.543] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:00:14.269] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]the Gundam became feared\Nas the "White Mobile Suit."
+[14:00:14.269] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]the Gundam became feared\Nas the "White Mobile Suit."
+[14:00:14.269] [DEBUG   ] Lote vazio após 0.7s: [0] [T0]o Gundam ficou temido como o "Mobile Suit Branco"
+[14:00:16.922] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]the Gundam became feared\Nas the "White Mobile Suit."
+[14:00:16.922] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]the Gundam became feared\Nas the "White Mobile Suit."
+[14:00:16.922] [DEBUG   ] Lote vazio após 0.7s: [0] [T0]o Gundam se tornou temido como o "Mobile Suit Branco"
+[14:00:19.546] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]the Gundam became feared\Nas the "White Mobile Suit."
+[14:00:19.546] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['[T0]']
+  EN: [T0]the Gundam became feared\Nas the "White Mobile Suit."
+[14:00:19.546] [DEBUG   ] Lote vazio após 0.6s: [0] [T0]o Gundam ficou temido como o "Mobile Suit Branco"
+[14:00:21.547] [DEFINITIVA] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | falha_apos_3_tentativas_individuais | tentativas=3 | tempo=8.0s
+  EN: [T0]the Gundam became feared\Nas the "White Mobile Suit."
+[14:00:31.243] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]they committed even greater atrocities than the Principality of Zeon...
+[14:00:31.243] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]as they oppressed the populace.
+[14:00:31.243] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Meanwhile, Char Aznable,\Nthe former Red Comet of Zeon,
+[14:00:31.243] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]joined the A.E.U.G., a group formed\Nto oppose the Titans.
+[14:00:31.244] [AVISO   ] Lote parcial 11/15 em 0.0s. Retraduzindo 4 linha(s) individualmente...
+[14:00:42.794] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]...and destroyed the Jupitris,\Nbut the cost was great.
+[14:00:42.795] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:00:55.047] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['\\N'] vs ['\\n']
+  EN: But it's odd. I had forgotten all\Nabout you until just a moment ago.
+[14:00:55.047] [AVISO   ] Lote parcial 14/15 em 0.0s. Retraduzindo 1 linha(s) individualmente...
+[14:01:17.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]With its high combat capabilities, the Hyaku Shiki is one of the most famous mobile suits of this series.
+[14:01:17.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Silhouette quiz, question 2:\NWhich one is this?
+[14:01:17.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The Rick Dias!
+[14:01:17.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]A highly maneuverable mobile suit\Ndeveloped by the A.E.U.G.
+[14:01:17.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]The "Rick" in "Rick Dias"\Nmeans it's for space use.
+[14:01:17.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]And it's called "Dias" in honor of\NBartolomeu Dias,
+[14:01:17.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]the man who discovered the\NCape of Good Hope.
+[14:01:17.284] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It was Lt. Quattro who named it that!
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]It's said that the Rick Dias, made\Nfrom Gundarium alloy,
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]began the second generation\Nof mobile suits.
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Yay! The Gundam Mk-II!
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]No, it's not. That's the Super Gundam!
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Because it's got the\NG-Defenser attached to it.
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]The Gundam Mk-II was secretly\Ndeveloped by the Titans,
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]but fell into the A.E.U.G.'s hands, thanks to the efforts of Kamille and Lt. Quattro.
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=0 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]With its high combat capabilities, the Hyaku Shiki is one of the most famous mobile suits of this series.
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=1 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Silhouette quiz, question 2:\NWhich one is this?
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=2 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]The Rick Dias!
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=3 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]A highly maneuverable mobile suit\Ndeveloped by the A.E.U.G.
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=4 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]The "Rick" in "Rick Dias"\Nmeans it's for space use.
+[14:01:17.285] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=5 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]And it's called "Dias" in honor of\NBartolomeu Dias,
+[14:01:17.286] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=6 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]the man who discovered the\NCape of Good Hope.
+[14:01:17.286] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=7 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]It was Lt. Quattro who named it that!
+[14:01:17.286] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=8 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]It's said that the Rick Dias, made\Nfrom Gundarium alloy,
+[14:01:17.286] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=9 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]began the second generation\Nof mobile suits.
+[14:01:17.286] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=10 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]Yay! The Gundam Mk-II!
+[14:01:17.286] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=11 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]No, it's not. That's the Super Gundam!
+[14:01:17.286] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=12 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]Because it's got the\NG-Defenser attached to it.
+[14:01:17.286] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=13 | Tags desalinhadas: ['[T0]', '\\N'] vs ['\\N']
+  EN: [T0]The Gundam Mk-II was secretly\Ndeveloped by the Titans,
+[14:01:17.286] [VALIDACAO ] Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass | idx=14 | Tags desalinhadas: ['[T0]'] vs []
+  EN: [T0]but fell into the A.E.U.G.'s hands, thanks to the efforts of Kamille and Lt. Quattro.
+[14:01:17.286] [DEBUG   ] Lote vazio após 8.8s: [0] Com suas altas capacidades de combate, o Hyaku Shiki é um dos mobile suits mais famosos desta série.
+[1] Silhueta quiz, pergunta 2:\NQual é esse?
+[2] O Rick Dias!
+[3] Um mobile suit altamente manobrável\NDesenvolvido pela A.E.U.G.
+[4] O "Rick" em "Rick Dias"\Nsignifica que é para uso no espaço.
+
+[14:01:27.815] [AVISO   ] Interrompido pelo usuário.

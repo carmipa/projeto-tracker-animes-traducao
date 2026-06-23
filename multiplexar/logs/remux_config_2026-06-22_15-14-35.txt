@@ -1,0 +1,10 @@
+================================================================================
+CONFIGURAÇÃO DA INFRAESTRUTURA DE PRODUÇÃO
+================================================================================
+Data/Hora de Inicialização : 2026-06-22 15:14:35
+Binário mkvmerge Mapeado  : C:\Program Files\MKVToolNix\mkvmerge.exe
+Diretório de Vídeos Origem : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)
+Diretório de Legendas Subs : D:\PROJETOS-OPEN\projeto-tracker-animes-traducao\legendas-traduzidas-ptbr\Macross 2
+Diretório de Destino Final : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\mkv_final_ptbr
+Hardware Ativo de Destino  : Armazenamento Local NVMe
+================================================================================

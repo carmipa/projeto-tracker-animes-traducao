@@ -258,7 +258,7 @@ def higienizar_linha(texto):
     t = t.replace('\\NIl ', '\\N Ele ')
     # Não substituir \\Nmais por \\N mas — corrompe PT-BR correto (ver vault 2026-06-20)
     t = t.replace('\\Nune ', '\\N uma ').replace('\\Nun ', '\\N um ')
-    t = re.sub(r'\\beuh\.\.\.', 'hã...', t, flags=re.IGNORECASE)
+    t = re.sub(r'\beuh\.\.\.', 'hã...', t, flags=re.IGNORECASE)
 
     # Remove \\N órfão no final (ex.: "...frente leste.\\N")
     t = re.sub(r'\\N\s*$', '', t)

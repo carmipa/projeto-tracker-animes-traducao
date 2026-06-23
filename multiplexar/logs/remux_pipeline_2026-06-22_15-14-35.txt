@@ -1,0 +1,42 @@
+[15:14:35.199] [DEBUG   ] Arquivo de configuração gerado com sucesso: remux_config_2026-06-22_15-14-35.txt
+[15:14:35.200] [DEBUG   ] Testando conectividade e acesso ao binário mkvmerge...
+[15:14:35.232] [INFO    ] SUCESSO: mkvmerge funcional: mkvmerge v99.0 ('Buka') 64-bit
+[15:14:35.232] [DEBUG   ] Validando caminhos de diretórios locais...
+[15:14:35.233] [INFO    ] SUCESSO: [OK] Toda a infraestrutura e permissões foram validadas com sucesso!
+[15:14:35.233] [DEBUG   ] Escaneando diretório: C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)
+[15:14:35.233] [INFO    ] Encontrados 13 arquivos de vídeo com extensão .mkv.
+[15:14:35.233] [DEBUG   ] Iniciando verificação de correspondência na pasta de legendas...
+[15:14:35.233] [DEBUG   ]   Pareado com sucesso: Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales].mkv -> Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass
+[15:14:35.233] [DEBUG   ]   Pareado com sucesso: Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv -> Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass
+[15:14:35.233] [DEBUG   ]   Pareado com sucesso: Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv -> Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass
+[15:14:35.233] [DEBUG   ]   Pareado com sucesso: Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv -> Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass
+[15:14:35.233] [DEBUG   ]   Pareado com sucesso: Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv -> Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass
+[15:14:35.234] [DEBUG   ]   Pareado com sucesso: Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales].mkv -> Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass
+[15:14:35.234] [WARNING ]   Legenda ausente para: Macross II - BD Box CM (BDRip 1920x1080p x265 HEVC FLAC 2.0)[sxales].mkv (esperado: Macross II - BD Box CM (BDRip 1920x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass)
+[15:14:35.234] [WARNING ]   Legenda ausente para: Macross II - BD Box PV (BDRip 1920x1080p x265 HEVC FLAC 2.0)[sxales].mkv (esperado: Macross II - BD Box PV (BDRip 1920x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass)
+[15:14:35.234] [WARNING ]   Legenda ausente para: Macross II - Message from Ishtar - 01 - Light of Earth Far Away (BDRip 1920x1080p x265 HEVC FLAC 2.0)[sxales].mkv (esperado: Macross II - Message from Ishtar - 01 - Light of Earth Far Away (BDRip 1920x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass)
+[15:14:35.234] [WARNING ]   Legenda ausente para: Macross II - Message from Ishtar - 02 - Toh A Wiarabl Ren Love You Once More (BDRip 1920x1080p x265 HEVC FLAC 2.0)[sxales].mkv (esperado: Macross II - Message from Ishtar - 02 - Toh A Wiarabl Ren Love You Once More (BDRip 1920x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass)
+[15:14:35.235] [WARNING ]   Legenda ausente para: Macross II - NCED (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv (esperado: Macross II - NCED (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass)
+[15:14:35.235] [WARNING ]   Legenda ausente para: Macross II - NCED (Ep 6) (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv (esperado: Macross II - NCED (Ep 6) (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass)
+[15:14:35.235] [WARNING ]   Legenda ausente para: Macross II - NCOP (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv (esperado: Macross II - NCOP (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass)
+[15:14:35.235] [INFO    ] Esteira trancada. Processando 6 episódios em lote via mkvmerge.
+[15:14:35.243] [INFO    ] [1/6] Multiplexando container Matroska: Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales].mkv
+[15:14:35.243] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[15:14:39.171] [INFO    ] SUCESSO:   Concluido (0.935 GB) em 3.93s! Legenda adicionada.
+[15:14:39.171] [INFO    ] [2/6] Multiplexando container Matroska: Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv
+[15:14:39.171] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[15:14:40.238] [INFO    ] SUCESSO:   Concluido (0.791 GB) em 1.07s! Legenda adicionada.
+[15:14:40.238] [INFO    ] [3/6] Multiplexando container Matroska: Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv
+[15:14:40.238] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[15:14:47.137] [INFO    ] SUCESSO:   Concluido (0.641 GB) em 6.90s! Legenda adicionada.
+[15:14:47.137] [INFO    ] [4/6] Multiplexando container Matroska: Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv
+[15:14:47.137] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[15:14:48.019] [INFO    ] SUCESSO:   Concluido (0.618 GB) em 0.88s! Legenda adicionada.
+[15:14:48.019] [INFO    ] [5/6] Multiplexando container Matroska: Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales].mkv
+[15:14:48.019] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[15:15:12.362] [INFO    ] SUCESSO:   Concluido (0.805 GB) em 24.34s! Legenda adicionada.
+[15:15:12.362] [INFO    ] [6/6] Multiplexando container Matroska: Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales].mkv
+[15:15:12.362] [DEBUG   ]   Despachando chamada para o kernel do Windows...
+[15:15:25.056] [INFO    ] SUCESSO:   Concluido (0.905 GB) em 12.69s! Legenda adicionada.
+[15:15:25.057] [DEBUG   ] Dicionário estatístico persistido: remux_stats_2026-06-22_15-14-35.json
+[15:15:25.057] [INFO    ] SUCESSO: Esteira finalizada e consolidada com sucesso!

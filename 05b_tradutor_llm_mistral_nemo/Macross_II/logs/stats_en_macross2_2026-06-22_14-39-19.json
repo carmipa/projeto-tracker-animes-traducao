@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-06-22_14-39-19",
+  "data_hora": "2026-06-22T14:51:43.613975",
+  "stats": {
+    "total_arquivos": 6,
+    "arquivos_salvos": 6,
+    "arquivos_pulados": 0,
+    "erros_arquivos": 0,
+    "linhas_com_erro": 0,
+    "dialogos_pulados": 0,
+    "cache_hits": 15,
+    "linhas_traduzidas": 1366,
+    "requisicoes_api": 176,
+    "tempo_execucao": "11m 37s"
+  }
+}

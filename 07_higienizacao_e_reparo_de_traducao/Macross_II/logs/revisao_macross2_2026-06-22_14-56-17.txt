@@ -1,0 +1,1762 @@
+RELATÓRIO REVISÃO EXTREMA MACROSS II (PRODUÇÃO)
+Executado: 2026-06-22 14:56:17
+  arquivos_processados: 6
+  linhas_modificadas: 438
+  karaoke_restaurado: 0
+  lore_corrigido: 4
+  higienizacao_geral: 434
+  correcoes_manuais: 0
+====================================================================================================
+
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L33 D5] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Hoje, reportando um\Nencontro escandaloso!
+  Depois: {\b1\fscx208\fscy208}Hoje, reportando um\N encontro escandaloso!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L35 D7] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Hibiki Kanzaki, repórter\Npara SNN News!
+  Depois: {\b1\fscx208\fscy208}Hibiki Kanzaki, repórter\N para SNN News!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L42 D14] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Assim, somos deixados a nos perguntar\Nexatamente o que...
+  Depois: {\b1\fscx208\fscy208}Assim, somos deixados a nos perguntar\N exatamente o que...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L44 D16] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}o comandante supremo Exxegran\Nestavam fazendo neste hotel!
+  Depois: {\b1\fscx208\fscy208}o comandante supremo Exxegran\N estavam fazendo neste hotel!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L45 D17] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Tenente Silvie Gena tem\Ndezessete anos...
+  Depois: {\b1\fscx208\fscy208}Tenente Silvie Gena tem\N dezessete anos...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L46 D18] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}e no último campeonato\NVAR do Sistema Solar...
+  Depois: {\b1\fscx208\fscy208}e no último campeonato\N VAR do Sistema Solar...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L48 D20] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Em uma recente pesquisa da SNN,\Nque perguntava quem eles gostariam de casar...
+  Depois: {\b1\fscx208\fscy208}Em uma recente pesquisa da SNN,\N que perguntava quem eles gostariam de casar...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L49 D21] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}os telespectadores classificaram a Srta. Gena\Ncomo número um...
+  Depois: {\b1\fscx208\fscy208}os telespectadores classificaram a Srta. Gena\N como número um...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L50 D22] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Ah, cara, eu não acredito que\NSilvie faria isso!
+  Depois: {\b1\fscx208\fscy208}Ah, cara, eu não acredito que\N Silvie faria isso!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L54 D26] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Isso provavelmente vai acabar com ele\Ne com o chefe de vez.
+  Depois: {\b1\fscx208\fscy208}Isso provavelmente vai acabar com ele\N e com o chefe de vez.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L55 D27] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Ah, Saori, você adoraria\Nque isso acontecesse, não é?
+  Depois: {\b1\fscx208\fscy208}Ah, Saori, você adoraria\N que isso acontecesse, não é?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L58 D30] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Cinquenta, sessenta, Na verdade\NPuxamos um setenta e cinco por cento!
+  Depois: {\b1\fscx208\fscy208}Cinquenta, sessenta, Na verdade\N Puxamos um setenta e cinco por cento!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L60 D32] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Ah, Hibiki. É essa a cicatriz\Nde sua última vitória?
+  Depois: {\b1\fscx208\fscy208}Ah, Hibiki. É essa a cicatriz\N de sua última vitória?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L61 D33] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208} Eu diria que você conseguiu a história do mês.\N
+  Depois: {\b1\fscx208\fscy208} Eu diria que você conseguiu a história do mês.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L62 D34] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208} Bem, vamos ter que\Nesperar para ver.
+  Depois: {\b1\fscx208\fscy208} Bem, vamos ter que\N esperar para ver.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L64 D36] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208} Você não sabe nada\Nsobre ser jornalista.
+  Depois: {\b1\fscx208\fscy208} Você não sabe nada\N sobre ser jornalista.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L65 D37] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208} Eu não?! O que diabos isso\ndeve querer dizer?!
+  Depois: {\b1\fscx208\fscy208} Eu não?! O que diabos isso\N deve querer dizer?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L66 D38] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208} Não é só sobre pegar as\Nmaiores audiências.
+  Depois: {\b1\fscx208\fscy208} Não é só sobre pegar as\N maiores audiências.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L70 D42] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Dennis Lone. Cameraman\NNão faz jornalismo duro.
+  Depois: {\b1\fscx208\fscy208}Dennis Lone. Cameraman\N Não faz jornalismo duro.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L71 D43] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Excelente no campo de batalha,\NInútil em tempos de paz.
+  Depois: {\b1\fscx208\fscy208}Excelente no campo de batalha,\N Inútil em tempos de paz.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L72 D44] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Faria qualquer coisa para ser\Na correspondência de guerra!
+  Depois: {\b1\fscx208\fscy208}Faria qualquer coisa para ser\N a correspondência de guerra!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L77 D49] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Você quebrou uma história sem\Nchecar os fatos. Não é bom.
+  Depois: {\b1\fscx208\fscy208}Você quebrou uma história sem\N checar os fatos. Não é bom.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L80 D52] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Um homem e uma mulher não vão a um\NHotel para planejar estratégia militar!
+  Depois: {\b1\fscx208\fscy208}Um homem e uma mulher não vão a um\N Hotel para planejar estratégia militar!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L81 D53] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Proteger a privacidade de um indivíduo é\Ndever de um jornalista.
+  Depois: {\b1\fscx208\fscy208}Proteger a privacidade de um indivíduo é\N dever de um jornalista.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L84 D56] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}As pessoas vivem para se divertir!\NVocê me disse isso mesmo!
+  Depois: {\b1\fscx208\fscy208}As pessoas vivem para se divertir!\N Você me disse isso mesmo!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L90 D62] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Eu suponho que você pode ser\Na estrela do momento...
+  Depois: {\b1\fscx208\fscy208}Eu suponho que você pode ser\N a estrela do momento...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L93 D65] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}O que importa se\Nas audiência está alta?!
+  Depois: {\b1\fscx208\fscy208}O que importa se\N as audiência está alta?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L94 D66] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Se quer ser um jornalista\Nde verdade, então mude!
+  Depois: {\b1\fscx208\fscy208}Se quer ser um jornalista\N de verdade, então mude!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L96 D68] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}o exército está\Nfazendo você mentir!
+  Depois: {\b1\fscx208\fscy208}o exército está\N fazendo você mentir!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L97 D69] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Se deseja continuar\Ntrabalhando aqui...
+  Depois: {\b1\fscx208\fscy208}Se deseja continuar\N trabalhando aqui...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L98 D70] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}então VOCÊ\Nescreverá uma carta de desculpas.
+  Depois: {\b1\fscx208\fscy208}então VOCÊ\N escreverá uma carta de desculpas.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L99 D71] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}O exército não é\Nmelhor do que ninguém!
+  Depois: {\b1\fscx208\fscy208}O exército não é\N melhor do que ninguém!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L100 D72] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}O que os torna\Nimunes a um escândalo?
+  Depois: {\b1\fscx208\fscy208}O que os torna\N imunes a um escândalo?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L103 D75] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Você é uma vergonha! Escândalo atrás\Nde escândalo, não basta ainda?
+  Depois: {\b1\fscx208\fscy208}Você é uma vergonha! Escândalo atrás\N de escândalo, não basta ainda?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L107 D79] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Não finja de desentendido! O exército\Nsempre impõe sua vontade!
+  Depois: {\b1\fscx208\fscy208}Não finja de desentendido! O exército\N sempre impõe sua vontade!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L110 D82] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Todos os visitantes próximos ao navio\Nsão aconselhados a retornar...
+  Depois: {\b1\fscx208\fscy208}Todos os visitantes próximos ao navio\N são aconselhados a retornar...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L112 D84] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Todos os visitantes próximos ao navio\Nsão aconselhados a retornar...
+  Depois: {\b1\fscx208\fscy208}Todos os visitantes próximos ao navio\N são aconselhados a retornar...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L114 D86] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Deveria ter trazido mais\Nbaterias comigo!
+  Depois: {\b1\fscx208\fscy208}Deveria ter trazido mais\N baterias comigo!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L115 D87] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Meu Deus. A descarga é até\nmais forte que a última!
+  Depois: {\b1\fscx208\fscy208}Meu Deus. A descarga é até\N mais forte que a última!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L116 D88] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}- Será que vai descarregar novamente?\n- Ordens de descolagem?
+  Depois: {\b1\fscx208\fscy208}- Será que vai descarregar novamente?\N- Ordens de descolagem?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L119 D91] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Você não é o único inimigo\nCom quem tenho que lidar!
+  Depois: {\b1\fscx208\fscy208}Você não é o único inimigo\N Com quem tenho que lidar!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L123 D95] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Estabelecer a linha de frente\nNa órbita de Marte.
+  Depois: {\b1\fscx208\fscy208}Estabelecer a linha de frente\N Na órbita de Marte.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L124 D96] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}E scramblear frotas de cruzadores 17\Ne 18 do grupo de batalha #2.
+  Depois: {\b1\fscx208\fscy208}E scramblear frotas de cruzadores 17\N e 18 do grupo de batalha #2.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L129 D101] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}quatro de desembarque e\Ndois navios de apoio.
+  Depois: {\b1\fscx208\fscy208}quatro de desembarque e\N dois navios de apoio.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L130 D102] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Só trinta navios?\NNada que não possamos lidar.
+  Depois: {\b1\fscx208\fscy208}Só trinta navios?\N Nada que não possamos lidar.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L133 D105] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Coordenadas orbitais de Marte MA-224.\NAguarde para a Operação Minmay.
+  Depois: {\b1\fscx208\fscy208}Coordenadas orbitais de Marte MA-224.\N Aguarde para a Operação Minmay.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L134 D106] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Ligue direto ativo com o cruzador\NFrotas 17 e 18 na órbita de Marte.
+  Depois: {\b1\fscx208\fscy208}Ligue direto ativo com o cruzador\N Frotas 17 e 18 na órbita de Marte.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L135 D107] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Equipes de ataque 2, 3 e 4\NHold em coordenadas MA-200.
+  Depois: {\b1\fscx208\fscy208}Equipes de ataque 2, 3 e 4\N Hold em coordenadas MA-200.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L137 D109] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Eu posso ir! Por favor,\Nenvie-me para cobrir isso!
+  Depois: {\b1\fscx208\fscy208}Eu posso ir! Por favor,\N envie-me para cobrir isso!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L139 D111] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Por favor! Eu vou conseguir as\Ncoberturas mais sensacionais!
+  Depois: {\b1\fscx208\fscy208}Por favor! Eu vou conseguir as\N coberturas mais sensacionais!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L140 D112] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Vou conseguir cenas que vão\Nprender eles na frente da TV!
+  Depois: {\b1\fscx208\fscy208}Vou conseguir cenas que vão\N prender eles na frente da TV!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L141 D113] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Eu farei eles chorarem de alegria\Nnas suas salas de estar!
+  Depois: {\b1\fscx208\fscy208}Eu farei eles chorarem de alegria\N nas suas salas de estar!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L142 D114] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Lembro-me de como fiquei emocionado\Nhá dez anos. Eu tinha apenas sete anos!
+  Depois: {\b1\fscx208\fscy208}Lembro-me de como fiquei emocionado\N há dez anos. Eu tinha apenas sete anos!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L143 D115] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}O Ataque Minmay jogando\No caos o inimigo...
+  Depois: {\b1\fscx208\fscy208}O Ataque Minmay jogando\N o caos o inimigo...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L144 D116] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}e a U.N. Spacy derrotando-os\Ntotalmente!
+  Depois: {\b1\fscx208\fscy208}e a U.N. Spacy derrotando-os\N totalmente!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L148 D120] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Hibiki, você tem uma licença Valkyrie,\Nnão é?
+  Depois: {\b1\fscx208\fscy208}Hibiki, você tem uma licença Valkyrie,\N não é?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L156 D128] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Sim, sou eu. Me dê\Na um passeio tranquilo, garoto.
+  Depois: {\b1\fscx208\fscy208}Sim, sou eu. Me dê\N a um passeio tranquilo, garoto.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L160 D132] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Bebendo no meio do dia!\NVocê acha que estamos de férias?
+  Depois: {\b1\fscx208\fscy208}Bebendo no meio do dia!\N Você acha que estamos de férias?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L162 D134] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Vamos cobrir uma batalha.\NSe não gostar, saia!
+  Depois: {\b1\fscx208\fscy208}Vamos cobrir uma batalha.\N Se não gostar, saia!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L175 D147] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Ei, Chefe, parece que\neles não vão precisar de nós afinal.
+  Depois: {\b1\fscx208\fscy208}Ei, Chefe, parece que\N eles não vão precisar de nós afinal.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L180 D152] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}A Defesa Minmay\nnão está funcionando...
+  Depois: {\b1\fscx208\fscy208}A Defesa Minmay\N não está funcionando...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L183 D155] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Eu sei que a U.N. Spacy sempre\Nconseguiu vencer os Zentradi.
+  Depois: {\b1\fscx208\fscy208}Eu sei que a U.N. Spacy sempre\N conseguiu vencer os Zentradi.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L184 D156] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Mas o Ataque Minmay,\Nnão vai funcionar para sempre!
+  Depois: {\b1\fscx208\fscy208}Mas o Ataque Minmay,\N não vai funcionar para sempre!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L186 D158] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}e esquecemos do que\Nestamos lutando!
+  Depois: {\b1\fscx208\fscy208}e esquecemos do que\N estamos lutando!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L200 D172] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Isso vai virar uma batalha\Nentre navios capitais.
+  Depois: {\b1\fscx208\fscy208}Isso vai virar uma batalha\N entre navios capitais.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L201 D173] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Vamos ver a nau capitania Heracles,\Norgulho da frota, em batalha.
+  Depois: {\b1\fscx208\fscy208}Vamos ver a nau capitania Heracles,\N orgulho da frota, em batalha.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L204 D176] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Nós viemos cobrir uma guerra!\NIsso não é um jogo!
+  Depois: {\b1\fscx208\fscy208}Nós viemos cobrir uma guerra!\N Isso não é um jogo!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L209 D181] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Não grave nossos caras\Nse destruindo!
+  Depois: {\b1\fscx208\fscy208}Não grave nossos caras\N se destruindo!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L210 D182] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Você acha que nosso público quer\Nver uma cena dessas?!
+  Depois: {\b1\fscx208\fscy208}Você acha que nosso público quer\N ver uma cena dessas?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L211 D183] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Eles querem assistir TV e ver\Notras forças vencendo!
+  Depois: {\b1\fscx208\fscy208}Eles querem assistir TV e ver\N otras forças vencendo!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L214 D186] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Não é algum show de variedades!\NGuerra é sofrimento!
+  Depois: {\b1\fscx208\fscy208}Não é algum show de variedades!\N Guerra é sofrimento!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L215 D187] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Não estamos escrevendo alguma\nsérie para ter grandes audiências!
+  Depois: {\b1\fscx208\fscy208}Não estamos escrevendo alguma\N série para ter grandes audiências!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L216 D188] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Registramos a verdade,\Ncomo ela é, enquanto acontece!
+  Depois: {\b1\fscx208\fscy208}Registramos a verdade,\N como ela é, enquanto acontece!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L219 D191] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}O espaço é vasto, e é uma utopia\npensar que...
+  Depois: {\b1\fscx208\fscy208}O espaço é vasto, e é uma utopia\N pensar que...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L220 D192] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}o universo gira\Nem torno da Terra.
+  Depois: {\b1\fscx208\fscy208}o universo gira\N em torno da Terra.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L221 D193] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Você acha que alcançamos\nos picos da cultura?
+  Depois: {\b1\fscx208\fscy208}Você acha que alcançamos\N os picos da cultura?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L222 D194] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}De jeito nenhum! O que algum\ndes nós sabe sobre cultura?
+  Depois: {\b1\fscx208\fscy208}De jeito nenhum! O que algum\N des nós sabe sobre cultura?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L225 D197] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Agora eu estou verdadeiramente irritado.\nFique fora do meu caminho!
+  Depois: {\b1\fscx208\fscy208}Agora eu estou verdadeiramente irritado.\N Fique fora do meu caminho!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L228 D200] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Este é um inferno de momento\npara me perguntar isso!
+  Depois: {\b1\fscx208\fscy208}Este é um inferno de momento\N para me perguntar isso!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L230 D202] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Se você quer se preocupar com alguma coisa\npreocupe-se com aqueles bandidos!
+  Depois: {\b1\fscx208\fscy208}Se você quer se preocupar com alguma coisa\N preocupe-se com aqueles bandidos!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L236 D208] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Você e o comandante\nnão estavam lutando lá dentro.
+  Depois: {\b1\fscx208\fscy208}Você e o comandante\N não estavam lutando lá dentro.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L239 D211] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Certa vez, tolos podem ouvir e\Nbatê-lo com uma corte marcial.
+  Depois: {\b1\fscx208\fscy208}Certa vez, tolos podem ouvir e\N batê-lo com uma corte marcial.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L244 D216] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Acorda!\NBandido em seu seis!
+  Depois: {\b1\fscx208\fscy208}Acorda!\N Bandido em seu seis!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L248 D220] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Certo, motorista,\Naquele é o nosso próximo tiro!
+  Depois: {\b1\fscx208\fscy208}Certo, motorista,\N aquele é o nosso próximo tiro!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L249 D221] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Estou gravando a nave inimiga\NEntra aí!
+  Depois: {\b1\fscx208\fscy208}Estou gravando a nave inimiga\N Entra aí!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L251 D223] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}De jeito nenhum! Depois disso,\Nacho isso eu devia conseguir pilotar qualquer coisa.
+  Depois: {\b1\fscx208\fscy208}De jeito nenhum! Depois disso,\N acho isso eu devia conseguir pilotar qualquer coisa.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L252 D224] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Isso aí. Um repórter objetivo\nmostra as duas faces da batalha.
+  Depois: {\b1\fscx208\fscy208}Isso aí. Um repórter objetivo\N mostra as duas faces da batalha.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L254 D226] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Acho que encontrei um motorista\Nótimo hoje.
+  Depois: {\b1\fscx208\fscy208}Acho que encontrei um motorista\N ótimo hoje.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L256 D228] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Você está louco?!\!\NPodíamos ter morrido!
+  Depois: {\b1\fscx208\fscy208}Você está louco?!\!\N Podíamos ter morrido!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L257 D229] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Bom ponto.\NO corpo pode temer a morte...
+  Depois: {\b1\fscx208\fscy208}Bom ponto.\N O corpo pode temer a morte...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L258 D230] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}mas depois de um tempo, você\Nnão sente mais.
+  Depois: {\b1\fscx208\fscy208}mas depois de um tempo, você\N não sente mais.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L263 D235] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Acho que sim.\NNão é linda?
+  Depois: {\b1\fscx208\fscy208}Acho que sim.\N Não é linda?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L265 D237] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}O que você está fazendo?!\NA você está falando sério?!
+  Depois: {\b1\fscx208\fscy208}O que você está fazendo?!\N A você está falando sério?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L268 D240] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Ela é uma garota, eu sou um cara e é\Numa situação apertada. Qual o problema?
+  Depois: {\b1\fscx208\fscy208}Ela é uma garota, eu sou um cara e é\N uma situação apertada. Qual o problema?
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L272 D244] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Precisamos enviar nossas filmagens\Nde volta para a rede...
+  Depois: {\b1\fscx208\fscy208}Precisamos enviar nossas filmagens\N de volta para a rede...
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L273 D245] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Essas não são nossas filmagens.\NElas são SUAS!
+  Depois: {\b1\fscx208\fscy208}Essas não são nossas filmagens.\N Elas são SUAS!
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L274 D246] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Não, eu não teria conseguido\Nisso sem você.
+  Depois: {\b1\fscx208\fscy208}Não, eu não teria conseguido\N isso sem você.
+----------------------------------------------------------------------------------------------------
+[Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L275 D247] Higienização estrutural / gramática
+  Antes : {\b1\fscx208\fscy208}Essas filmagens são tanto suas\Nquantas minhas.
+  Depois: {\b1\fscx208\fscy208}Essas filmagens são tanto suas\N quantas minhas.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L32 D4] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1\pos(720,816)}Mas precisamos dos Zentradi\Npara localizar o sinal biológico de Lady Ishtar.
+  Depois: {\fscx208\fscy208\b1\pos(720,816)}Mas precisamos dos Zentradi\N para localizar o sinal biológico de Lady Ishtar.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L38 D10] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Mas ouvi dizer que a empresa está planejando\NDar um funeral decente para ele.
+  Depois: {\fscx208\fscy208\b1}Mas ouvi dizer que a empresa está planejando\N Dar um funeral decente para ele.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L40 D12] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Parece que a batalha\Nfoi classificada.
+  Depois: {\fscx208\fscy208\b1}Parece que a batalha\N foi classificada.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L41 D13] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}O exército ordenou um bloqueio de notícias\NAté a conferência de amanhã.
+  Depois: {\fscx208\fscy208\b1}O exército ordenou um bloqueio de notícias\N Até a conferência de amanhã.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L42 D14] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Bem, todos vão saber a\Nverdade quando transmitirmos.
+  Depois: {\fscx208\fscy208\b1}Bem, todos vão saber a\N verdade quando transmitirmos.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L43 D15] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Dennis e eu conseguimos colocar\Na verdade lá fora.
+  Depois: {\fscx208\fscy208\b1}Dennis e eu conseguimos colocar\N a verdade lá fora.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L44 D16] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Ei, Hibiki. Eu sei que você conseguiu uma matéria\Nfora!
+  Depois: {\fscx208\fscy208\b1}Ei, Hibiki. Eu sei que você conseguiu uma matéria\N fora!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L47 D19] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Segredo militar?\NOu será que...?
+  Depois: {\fscx208\fscy208\b1}Segredo militar?\N Ou será que...?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L48 D20] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Ouvi dizer que você trouxe alguém\Nde volta em sua Valkyrie.
+  Depois: {\fscx208\fscy208\b1}Ouvi dizer que você trouxe alguém\N de volta em sua Valkyrie.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L49 D21] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Ei, se eu conseguir uma exclusiva,\NVocê seria o primeiro a saber.
+  Depois: {\fscx208\fscy208\b1}Ei, se eu conseguir uma exclusiva,\N Você seria o primeiro a saber.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L50 D22] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Bem, talvez eles estejam apenas\Ntentando fazer de você...
+  Depois: {\fscx208\fscy208\b1}Bem, talvez eles estejam apenas\N tentando fazer de você...
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L52 D24] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Pelo amor de Deus, estou feliz em ver você\Nde pé. Fique forte!
+  Depois: {\fscx208\fscy208\b1}Pelo amor de Deus, estou feliz em ver você\N de pé. Fique forte!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L55 D27] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Aqui está. Eu estava\Nesperando por isso. Alô?
+  Depois: {\fscx208\fscy208\b1}Aqui está. Eu estava\N esperando por isso. Alô?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L59 D31] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Cuidei dos ferimentos dela e\Nsediei por bem dela.
+  Depois: {\fscx208\fscy208\b1}Cuidei dos ferimentos dela e\N sediei por bem dela.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L60 D32] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Obrigado. Você é um homem entre\Nhomens, e ainda por cima.
+  Depois: {\fscx208\fscy208\b1}Obrigado. Você é um homem entre\N homens, e ainda por cima.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L80 D52] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Desculpe se te assustei. Beba isto.\NIsso vai acalmá-lo.
+  Depois: {\fscx208\fscy208\b1}Desculpe se te assustei. Beba isto.\N Isso vai acalmá-lo.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L81 D53] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Uau! Seu nome!\NNão me diga seu nome?
+  Depois: {\fscx208\fscy208\b1}Uau! Seu nome!\N Não me diga seu nome?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L84 D56] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Entendo... Então há Zentradi e\NMeltrandi micrones neste mundo.
+  Depois: {\fscx208\fscy208\b1}Entendo... Então há Zentradi e\N Meltrandi micrones neste mundo.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L88 D60] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}E com isso,\NIsto vou para o topo!
+  Depois: {\fscx208\fscy208\b1}E com isso,\N Isto vou para o topo!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L94 D66] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Não há do que ter medo. É apenas uma\Nedisposição de energia do navio.
+  Depois: {\fscx208\fscy208\b1}Não há do que ter medo. É apenas uma\N edisposição de energia do navio.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L95 D67] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}É o navio que trouxe a cultura\Npara vocês, gigantes, eighty anos atrás.
+  Depois: {\fscx208\fscy208\b1}É o navio que trouxe a cultura\N para vocês, gigantes, eighty anos atrás.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L98 D70] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Alguém está vindo\NPara este mundo.
+  Depois: {\fscx208\fscy208\b1}Alguém está vindo\N Para este mundo.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L99 D71] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Eu quero ver por mim mesma,\Nantes de retornar ao espaço.
+  Depois: {\fscx208\fscy208\b1}Eu quero ver por mim mesma,\N antes de retornar ao espaço.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L100 D72] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Quer os melhores discos?\NTente os do BM!
+  Depois: {\fscx208\fscy208\b1}Quer os melhores discos?\N Tente os do BM!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L102 D74] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}É hora do\NSNN Wide às onze.
+  Depois: {\fscx208\fscy208\b1}É hora do\N SNN Wide às onze.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L103 D75] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}No topo das notícias está a batalha espacial\Nde ontem.
+  Depois: {\fscx208\fscy208\b1}No topo das notícias está a batalha espacial\N de ontem.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L104 D76] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}A batalha foi o assunto da\Nconferência de imprensa...
+  Depois: {\fscx208\fscy208\b1}A batalha foi o assunto da\N conferência de imprensa...
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L105 D77] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}acabada de ser realizada pelo porta-voz\Nda U.N. Spacy, Alexeive.
+  Depois: {\fscx208\fscy208\b1}acabada de ser realizada pelo porta-voz\N da U.N. Spacy, Alexeive.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L106 D78] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Segundo o comunicado,\No inimigo permanece desconhecido.
+  Depois: {\fscx208\fscy208\b1}Segundo o comunicado,\N o inimigo permanece desconhecido.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L107 D79] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Mas parece que mais uma vez\Na cultura da Terra foi efetiva...
+  Depois: {\fscx208\fscy208\b1}Mas parece que mais uma vez\N a cultura da Terra foi efetiva...
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L109 D81] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}O que ele está falando?\NTomamos uma surra!
+  Depois: {\fscx208\fscy208\b1}O que ele está falando?\N Tomamos uma surra!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L110 D82] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Agora, vamos ao material exclusivo da SNN\NSobre a batalha.
+  Depois: {\fscx208\fscy208\b1}Agora, vamos ao material exclusivo da SNN\N Sobre a batalha.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L111 D83] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Este é o registro completo\NDa investida imparável...
+  Depois: {\fscx208\fscy208\b1}Este é o registro completo\N Da investida imparável...
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L112 D84] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Realizada pelos esquadrões de Valkyrie\Ndo Capt. Nexx e Lt. Gena.
+  Depois: {\fscx208\fscy208\b1}Realizada pelos esquadrões de Valkyrie\N do Capt. Nexx e Lt. Gena.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L114 D86] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}São só os melhores momentos\NDa batalha!
+  Depois: {\fscx208\fscy208\b1}São só os melhores momentos\N Da batalha!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L116 D88] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Parece que podemos baixar mais\Nmaterial da RCC.
+  Depois: {\fscx208\fscy208\b1}Parece que podemos baixar mais\N material da RCC.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L121 D93] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Aquele maldito... Alô?\NO que você quer?
+  Depois: {\fscx208\fscy208\b1}Aquele maldito... Alô?\N O que você quer?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L122 D94] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}O que diabos foi aquilo\Ntransmitido?!
+  Depois: {\fscx208\fscy208\b1}O que diabos foi aquilo\N transmitido?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L123 D95] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Ordem do produtor. A Divisão de Mídia\NBureau parece...
+  Depois: {\fscx208\fscy208\b1}Ordem do produtor. A Divisão de Mídia\N Bureau parece...
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L128 D100] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Pare com essa baboseira! A rede é\Napenas um porta-voz deles!
+  Depois: {\fscx208\fscy208\b1}Pare com essa baboseira! A rede é\N apenas um porta-voz deles!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L129 D101] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Você vai ver! Eu vou contar essa história!\NHá ainda uma carta na manga!
+  Depois: {\fscx208\fscy208\b1}Você vai ver! Eu vou contar essa história!\N Há ainda uma carta na manga!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L131 D103] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Milhões de nossos semelhantes\Nainda vagueiam pelo cosmos.
+  Depois: {\fscx208\fscy208\b1}Milhões de nossos semelhantes\N ainda vagueiam pelo cosmos.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L133 D105] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Mas quando eles finalmente entrarem em contato\Ncom a cultura da Terra...
+  Depois: {\fscx208\fscy208\b1}Mas quando eles finalmente entrarem em contato\N com a cultura da Terra...
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L136 D108] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Ei, gatinho, se você estiver entediado\npor que não escuta nosso show?
+  Depois: {\fscx208\fscy208\b1}Ei, gatinho, se você estiver entediado\N por que não escuta nosso show?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L144 D116] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}"Sorrir é errado. Isso dá uma abertura para seu\Ninimigo."
+  Depois: {\fscx208\fscy208\b1}"Sorrir é errado. Isso dá uma abertura para seu\N inimigo."
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L145 D117] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}"Eles vão te enganar..."\NPor quê?!
+  Depois: {\fscx208\fscy208\b1}"Eles vão te enganar..."\N Por quê?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L146 D118] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Como podem ver, o pod que\NDesceu na Terra...
+  Depois: {\fscx208\fscy208\b1}Como podem ver, o pod que\N Desceu na Terra...
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L148 D120] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Pensei que sua frota ainda estivesse\Na linha de Marte.
+  Depois: {\fscx208\fscy208\b1}Pensei que sua frota ainda estivesse\N a linha de Marte.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L149 D121] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Eles encontraram uma brecha\Nem nossa linha de defesa?
+  Depois: {\fscx208\fscy208\b1}Eles encontraram uma brecha\N em nossa linha de defesa?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L151 D123] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Há simplesmente muitas\Nincógnitas nesta batalha!
+  Depois: {\fscx208\fscy208\b1}Há simplesmente muitas\N incógnitas nesta batalha!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L152 D124] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}O que sabemos é que a\Nmúsica de defesa não é efetiva.
+  Depois: {\fscx208\fscy208\b1}O que sabemos é que a\N música de defesa não é efetiva.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L153 D125] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}E isso nos deixa perigosamente\NVulneráveis.
+  Depois: {\fscx208\fscy208\b1}E isso nos deixa perigosamente\N Vulneráveis.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L156 D128] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Você está trabalhando tanto para ser\Nlegal com uma garota. É amor?
+  Depois: {\fscx208\fscy208\b1}Você está trabalhando tanto para ser\N legal com uma garota. É amor?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L157 D129] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Me dá um break! Você sabe que ela é\napenas uma fofoca para mim!
+  Depois: {\fscx208\fscy208\b1}Me dá um break! Você sabe que ela é\N apenas uma fofoca para mim!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L158 D130] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Então por que não vender\Nseu material dela?
+  Depois: {\fscx208\fscy208\b1}Então por que não vender\N seu material dela?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L160 D132] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Errado. O exército tem\Na mão o controle da mídia.
+  Depois: {\fscx208\fscy208\b1}Errado. O exército tem\N a mão o controle da mídia.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L161 D133] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Depois que a guerra acabar,\Nvou transformar isso em uma super fofoca!
+  Depois: {\fscx208\fscy208\b1}Depois que a guerra acabar,\N vou transformar isso em uma super fofoca!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L162 D134] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Mentiroso. Você só tem medo de ela\nacabar te odiando.
+  Depois: {\fscx208\fscy208\b1}Mentiroso. Você só tem medo de ela\N acabar te odiando.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L171 D143] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Mas me diga, por que você fugiu\Ndo lugar de Hibiki?
+  Depois: {\fscx208\fscy208\b1}Mas me diga, por que você fugiu\N do lugar de Hibiki?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L172 D144] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Ele é muito sensível por dentro.\NAndava preocupado com você.
+  Depois: {\fscx208\fscy208\b1}Ele é muito sensível por dentro.\N Andava preocupado com você.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L175 D147] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}O que enviou a\Ncanção de amor para os gigantes.
+  Depois: {\fscx208\fscy208\b1}O que enviou a\N canção de amor para os gigantes.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L184 D156] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}O Coliseu Romano.\NA Torre de Pisa.
+  Depois: {\fscx208\fscy208\b1}O Coliseu Romano.\N A Torre de Pisa.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L188 D160] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Este é o melhor lugar\Npara aprender sobre a Terra.
+  Depois: {\fscx208\fscy208\b1}Este é o melhor lugar\N para aprender sobre a Terra.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L189 D161] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Vem cá, tem um lugar onde\Nvocê pode ver o Macross também.
+  Depois: {\fscx208\fscy208\b1}Vem cá, tem um lugar onde\N você pode ver o Macross também.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L191 D163] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Eu me pergunto se ele\Nestá tramando alguma coisa?
+  Depois: {\fscx208\fscy208\b1}Eu me pergunto se ele\N está tramando alguma coisa?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L192 D164] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Ele está falando com ela como se\Nela tivesse acabado de pousar neste planeta.
+  Depois: {\fscx208\fscy208\b1}Ele está falando com ela como se\N ela tivesse acabado de pousar neste planeta.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L194 D166] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Dizem que se um mentiroso colocar\Nsua mão nesta cara de pedra...
+  Depois: {\fscx208\fscy208\b1}Dizem que se um mentiroso colocar\N sua mão nesta cara de pedra...
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L197 D169] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Brincadeira! Viu?\NIsto é tudo o que eu sou.
+  Depois: {\fscx208\fscy208\b1}Brincadeira! Viu?\N Isto é tudo o que eu sou.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L198 D170] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Parece completamente inofensivo. Acho que\nnos saímos mal.
+  Depois: {\fscx208\fscy208\b1}Parece completamente inofensivo. Acho que\N nos saímos mal.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L200 D172] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}e eu poderia ter me vingado\Ndele antes.
+  Depois: {\fscx208\fscy208\b1}e eu poderia ter me vingado\N dele antes.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L208 D180] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Bom timing. Tenho uma conta a\Nsettar com você!
+  Depois: {\fscx208\fscy208\b1}Bom timing. Tenho uma conta a\N settar com você!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L209 D181] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Pare! Você faz ideia do que\Nestá acontecendo aqui?
+  Depois: {\fscx208\fscy208\b1}Pare! Você faz ideia do que\N está acontecendo aqui?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L210 D182] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Eu tiro esse idiota daqui.\NVocê contata o quartel-general.
+  Depois: {\fscx208\fscy208\b1}Eu tiro esse idiota daqui.\N Você contata o quartel-general.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L212 D184] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Aonde você vai? A saída é por\Naquele lado!
+  Depois: {\fscx208\fscy208\b1}Aonde você vai? A saída é por\N aquele lado!
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L229 D201] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Obrigado, Hibiki...\NQue divertido foi.
+  Depois: {\fscx208\fscy208\b1}Obrigado, Hibiki...\N Que divertido foi.
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L233 D205] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}O navio enviou a canção de amor\Npara os gigantes...
+  Depois: {\fscx208\fscy208\b1}O navio enviou a canção de amor\N para os gigantes...
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L242 D214] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Você a trouxe para cá,\Nnão foi?
+  Depois: {\fscx208\fscy208\b1}Você a trouxe para cá,\N não foi?
+----------------------------------------------------------------------------------------------------
+[Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L243 D215] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\b1}Tudo que eu sei é que\Nela é uma deles.
+  Depois: {\fscx208\fscy208\b1}Tudo que eu sei é que\N ela é uma deles.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L29 D1] Higienização estrutural / gramática
+  Antes : E aqui o mecha de batalha que atacou\No Parque da Cultura mais cedo hoje.
+  Depois: E aqui o mecha de batalha que atacou\N o Parque da Cultura mais cedo hoje.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L30 D2] Higienização estrutural / gramática
+  Antes : Esses são do mesmo tipo de mecha\Nque participaram da batalha em Marte,...
+  Depois: Esses são do mesmo tipo de mecha\N que participaram da batalha em Marte,...
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L31 D3] Higienização estrutural / gramática
+  Antes : e são considerados similares\Na Zentradi,...
+  Depois: e são considerados similares\N a Zentradi,...
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L32 D4] Higienização estrutural / gramática
+  Antes : e provavelmente fazem parte\Na uma frota Zentradi renegada.
+  Depois: e provavelmente fazem parte\N a uma frota Zentradi renegada.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L33 D5] Higienização estrutural / gramática
+  Antes : No entanto, graças a uma resposta rápida\Ndas forças da U.N. Spacy...
+  Depois: No entanto, graças a uma resposta rápida\N das forças da U.N. Spacy...
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L34 D6] Higienização estrutural / gramática
+  Antes : os danos aos monumentos do Parque da Cultura\Nforam minimizados...
+  Depois: os danos aos monumentos do Parque da Cultura\N foram minimizados...
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L36 D8] Higienização estrutural / gramática
+  Antes : A U.N. Spacy garante que nossas\NVálquirias superiores...
+  Depois: A U.N. Spacy garante que nossas\N Válquirias superiores...
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L45 D17] Higienização estrutural / gramática
+  Antes : É o Festival Anual da U.N. Spacy!\nMoon!
+  Depois: É o Festival Anual da U.N. Spacy!\N Moon!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L47 D19] Higienização estrutural / gramática
+  Antes : Há uma linda música\nesperando por você!
+  Depois: Há uma linda música\N esperando por você!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L52 D24] Higienização estrutural / gramática
+  Antes : Eu quero saber mais sobre\na música do seu planeta!
+  Depois: Eu quero saber mais sobre\N a música do seu planeta!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L69 D41] Higienização estrutural / gramática
+  Antes : Que tal aproveitarmos\Nesse momento juntos?
+  Depois: Que tal aproveitarmos\N esse momento juntos?
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L71 D43] Higienização estrutural / gramática
+  Antes : Posso ter seus autógrafos?\NSou fã de ambos!
+  Depois: Posso ter seus autógrafos?\N Sou fã de ambos!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L73 D45] Higienização estrutural / gramática
+  Antes : Silvie... Pare de tentar\NResolver os problemas do mundo.
+  Depois: Silvie... Pare de tentar\N Resolver os problemas do mundo.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L74 D46] Higienização estrutural / gramática
+  Antes : Quer dar uma volta?\NPara fins medicinais, é claro.
+  Depois: Quer dar uma volta?\N Para fins medicinais, é claro.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L84 D56] Higienização estrutural / gramática
+  Antes : As coisas mais próximas de nós são o Parque da Cultura,\Ne então a cidade.
+  Depois: As coisas mais próximas de nós são o Parque da Cultura,\N e então a cidade.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L85 D57] Higienização estrutural / gramática
+  Antes : Você pode ver a sede da U.N. Spacy\ntambém.
+  Depois: Você pode ver a sede da U.N. Spacy\N também.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L86 D58] Higienização estrutural / gramática
+  Antes : O interior está em bom estado,\nconsiderando todas as oscilações de energia.
+  Depois: O interior está em bom estado,\N considerando todas as oscilações de energia.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L112 D84] Higienização estrutural / gramática
+  Antes : Acho que esta nave é o\NVaso dos Alus.
+  Depois: Acho que esta nave é o\N Vaso dos Alus.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L127 D99] Higienização estrutural / gramática
+  Antes : Não vou deixar você ficar com ela\NSó para conseguir uma matéria!
+  Depois: Não vou deixar você ficar com ela\N Só para conseguir uma matéria!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L131 D103] Higienização estrutural / gramática
+  Antes : Entendo suas preocupações.\NPorém, temos nossas próprias preocupações!
+  Depois: Entendo suas preocupações.\N Porém, temos nossas próprias preocupações!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L138 D110] Higienização estrutural / gramática
+  Antes : Bem, então, o que você planeja fazer\Ncom ela?
+  Depois: Bem, então, o que você planeja fazer\N com ela?
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L139 D111] Higienização estrutural / gramática
+  Antes : Eu estava interessado em conseguir uma matéria de primeira,\Nmas não mais.
+  Depois: Eu estava interessado em conseguir uma matéria de primeira,\N mas não mais.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L148 D120] Higienização estrutural / gramática
+  Antes : Mas na próxima vez, eu vou prendê-la,\Nevenque eu tenha que quebrar seus braços!
+  Depois: Mas na próxima vez, eu vou prendê-la,\N evenque eu tenha que quebrar seus braços!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L162 D134] Higienização estrutural / gramática
+  Antes : E esse é o ás da U.N. Spacy\Ntenente Silvie Gena...
+  Depois: E esse é o ás da U.N. Spacy\N tenente Silvie Gena...
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L164 D136] Higienização estrutural / gramática
+  Antes : Comandando o Esquadrão Faerie\Npara algumas manobras aéreas precisas!
+  Depois: Comandando o Esquadrão Faerie\N para algumas manobras aéreas precisas!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L165 D137] Higienização estrutural / gramática
+  Antes : Olha pra Sylvie!\NQue gata!
+  Depois: Olha pra Sylvie!\N Que gata!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L167 D139] Higienização estrutural / gramática
+  Antes : Você pode namorar ELA então!\NIsto indo embora!
+  Depois: Você pode namorar ELA então!\N Isto indo embora!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L182 D154] Higienização estrutural / gramática
+  Antes : {\pos(720,891)}O inimigo começou a se mobilizar.\NI me pergunto qual é o plano deles...
+  Depois: {\pos(720,891)}O inimigo começou a se mobilizar.\N I me pergunto qual é o plano deles...
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L183 D155] Higienização estrutural / gramática
+  Antes : {\pos(720,816)}Duvido que o inimigo tenha nossas\Ncoordenadas. Pode ser uma armadilha.
+  Depois: {\pos(720,816)}Duvido que o inimigo tenha nossas\N coordenadas. Pode ser uma armadilha.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L187 D159] Higienização estrutural / gramática
+  Antes : O Festival Lunar tem o prazer de apresentar\Na Unidade 12 sua Gloria!
+  Depois: O Festival Lunar tem o prazer de apresentar\N a Unidade 12 sua Gloria!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L190 D162] Higienização estrutural / gramática
+  Antes : Se eles deixarem de acreditar nisso,\Nentão é o fim para todos nós.
+  Depois: Se eles deixarem de acreditar nisso,\N então é o fim para todos nós.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L203 D175] Higienização estrutural / gramática
+  Antes : {\pos(720,816)}Parece ser, mas não parece motivar\Nseus soldados a lutar?
+  Depois: {\pos(720,816)}Parece ser, mas não parece motivar\N seus soldados a lutar?
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L205 D177] Correção de lore Macross
+  Antes : {\pos(720,816)}Capture a Emuladora inimiga,\Npara estudá-la!
+  Depois: {\pos(720,816)}Capture a Emuladora inimiga,\N para estudá-la!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L212 D184] Higienização estrutural / gramática
+  Antes : Parece tão divertido...\NÉ essa a "música de amor"?
+  Depois: Parece tão divertido...\N É essa a "música de amor"?
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L214 D186] Higienização estrutural / gramática
+  Antes : E agora, a U.N. Spacy\Napresenta sua última aeronave de combate:
+  Depois: E agora, a U.N. Spacy\N apresenta sua última aeronave de combate:
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L219 D191] Higienização estrutural / gramática
+  Antes : Eu gostaria de cantar\Ncomo Wendy faz.
+  Depois: Eu gostaria de cantar\N como Wendy faz.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L223 D195] Higienização estrutural / gramática
+  Antes : Quando eu voltar ao Mardook,\NQuero que todos a escutem.
+  Depois: Quando eu voltar ao Mardook,\N Quero que todos a escutem.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L231 D203] Higienização estrutural / gramática
+  Antes : Hibiki, o que está acontecendo?\NAcabamos de perder o sinal!
+  Depois: Hibiki, o que está acontecendo?\N Acabamos de perder o sinal!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L232 D204] Higienização estrutural / gramática
+  Antes : O inimigo está atrás da Sylvie\nno Metal Siren.
+  Depois: O inimigo está atrás da Sylvie\N no Metal Siren.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L234 D206] Higienização estrutural / gramática
+  Antes : Sem brincadeira? Tudo bem, temos uma\nValkyrie aí em cima. Use-a!
+  Depois: Sem brincadeira? Tudo bem, temos uma\N Valkyrie aí em cima. Use-a!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L236 D208] Higienização estrutural / gramática
+  Antes : Mostre aos caras do exército\Ncomo se faz isso, Hibiki!
+  Depois: Mostre aos caras do exército\N como se faz isso, Hibiki!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L237 D209] Higienização estrutural / gramática
+  Antes : Não podemos nos dar ao luxo de ter vergonha\nNão agora.
+  Depois: Não podemos nos dar ao luxo de ter vergonha\N Não agora.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L240 D212] Higienização estrutural / gramática
+  Antes : Não está indo um pouco longe demais?!\NHora de abatê-los!
+  Depois: Não está indo um pouco longe demais?!\N Hora de abatê-los!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L241 D213] Higienização estrutural / gramática
+  Antes : Não posso. Não temos\Nmunição viva alguma.
+  Depois: Não posso. Não temos\N munição viva alguma.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L243 D215] Higienização estrutural / gramática
+  Antes : Isso não faz parte do espetáculo.\NFoi real, esses caras são de verdade!
+  Depois: Isso não faz parte do espetáculo.\N Foi real, esses caras são de verdade!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L249 D221] Higienização estrutural / gramática
+  Antes : Preciso convencer os Mardook...\NPara fazer o Feff parar!
+  Depois: Preciso convencer os Mardook...\N Para fazer o Feff parar!
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L252 D224] Higienização estrutural / gramática
+  Antes : Se eu contar aos Mardook sobre\NEarth, sobre sua música...
+  Depois: Se eu contar aos Mardook sobre\N Earth, sobre sua música...
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L260 D232] Higienização estrutural / gramática
+  Antes : Não sei, mas parece que\Nvamos viver por enquanto.
+  Depois: Não sei, mas parece que\N vamos viver por enquanto.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L273 D245] Higienização estrutural / gramática
+  Antes : {\pos(720,816)}Solte os humanos que você capturou.\NIrei para a nave.
+  Depois: {\pos(720,816)}Solte os humanos que você capturou.\N Irei para a nave.
+----------------------------------------------------------------------------------------------------
+[Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L282 D254] Higienização estrutural / gramática
+  Antes : EU VOU voltar, com a\Nmatéria do século! Tchau!
+  Depois: EU VOU voltar, com a\N matéria do século! Tchau!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L32 D4] Higienização estrutural / gramática
+  Antes : {\pos(720,816)}falou sobre um emissário de um planeta azul\Nque viria...
+  Depois: {\pos(720,816)}falou sobre um emissário de um planeta azul\N que viria...
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L34 D6] Higienização estrutural / gramática
+  Antes : {\pos(720,891)}"Eles guerrearão\Naproveitar a paz."
+  Depois: {\pos(720,891)}"Eles guerrearão\N aproveitar a paz."
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L36 D8] Higienização estrutural / gramática
+  Antes : Pergunto novamente. Qual é sua missão?\NDo que se trata essa "SNN"?
+  Depois: Pergunto novamente. Qual é sua missão?\N Do que se trata essa "SNN"?
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L37 D9] Higienização estrutural / gramática
+  Antes : A SNN é uma rede de notícias civil.\NI só trabalho para eles.
+  Depois: A SNN é uma rede de notícias civil.\N I só trabalho para eles.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L38 D10] Higienização estrutural / gramática
+  Antes : Então é uma agência de propaganda\ndivulgação?
+  Depois: Então é uma agência de propaganda\N divulgação?
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L42 D14] Higienização estrutural / gramática
+  Antes : Descobriu o que\Nsignificam as palavras?
+  Depois: Descobriu o que\N significam as palavras?
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L47 D19] Higienização estrutural / gramática
+  Antes : Você operou nela para\Ncontrolar seus pensamentos?
+  Depois: Você operou nela para\N controlar seus pensamentos?
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L48 D20] Higienização estrutural / gramática
+  Antes : Você está louco?! Eu nunca\Nfaria isso com ela!
+  Depois: Você está louco?! Eu nunca\N faria isso com ela!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L50 D22] Higienização estrutural / gramática
+  Antes : Independentemente da sua contaminação,\NIshtar será renascida!
+  Depois: Independentemente da sua contaminação,\N Ishtar será renascida!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L56 D28] Higienização estrutural / gramática
+  Antes : {\pos(720,816)}Senhor Feff, eu transportarei Lady Ishtar\Npara o Sarride.
+  Depois: {\pos(720,816)}Senhor Feff, eu transportarei Lady Ishtar\N para o Sarride.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L57 D29] Higienização estrutural / gramática
+  Antes : Alarme de superfície desligado.\NParece bom.
+  Depois: Alarme de superfície desligado.\N Parece bom.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L58 D30] Higienização estrutural / gramática
+  Antes : Preciso encontrar aquele idiota's\Nhoming signal de alguma forma.
+  Depois: Preciso encontrar aquele idiota's\N homing signal de alguma forma.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L64 D36] Higienização estrutural / gramática
+  Antes : {\pos(720,816)}Nós o levaremos de volta à\NTerra para nos servir.
+  Depois: {\pos(720,816)}Nós o levaremos de volta à\N Terra para nos servir.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L72 D44] Higienização estrutural / gramática
+  Antes : Sem tempo para explicações.\NCome on!
+  Depois: Sem tempo para explicações.\N Come on!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L74 D46] Higienização estrutural / gramática
+  Antes : Cuidado, Hibiki. Os\NZentradi estão por perto.
+  Depois: Cuidado, Hibiki. Os\N Zentradi estão por perto.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L76 D48] Higienização estrutural / gramática
+  Antes : Droga, se eles pegarem você desta vez,\Nnão será apenas entediante!
+  Depois: Droga, se eles pegarem você desta vez,\N não será apenas entediante!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L77 D49] Higienização estrutural / gramática
+  Antes : Sylvie, alguma coisa está errada. Eu nunca\Nvi vi Zentradi assim.
+  Depois: Sylvie, alguma coisa está errada. Eu nunca\N vi vi Zentradi assim.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L80 D52] Higienização estrutural / gramática
+  Antes : {\pos(720,816)} Além deste ponto, fica a\Nsacra área de Alus Nova.
+  Depois: {\pos(720,816)} Além deste ponto, fica a\N sacra área de Alus Nova.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L81 D53] Higienização estrutural / gramática
+  Antes : {\pos(720,816)} Lady Ishtar e Lady Elensh\Nestão esperando por você.
+  Depois: {\pos(720,816)} Lady Ishtar e Lady Elensh\N estão esperando por você.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L84 D56] Higienização estrutural / gramática
+  Antes : Eu sei. Você quer pegá-la.\NMas como vamos fazer isso?
+  Depois: Eu sei. Você quer pegá-la.\N Mas como vamos fazer isso?
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L94 D66] Higienização estrutural / gramática
+  Antes : {\pos(720,816)} Detectamos ele.\NEle está indo em direção à Sarride.
+  Depois: {\pos(720,816)} Detectamos ele.\N Ele está indo em direção à Sarride.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L97 D69] Higienização estrutural / gramática
+  Antes : Fui ao seu planeta,\Ne lá aprendi...
+  Depois: Fui ao seu planeta,\N e lá aprendi...
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L99 D71] Higienização estrutural / gramática
+  Antes : Ishtar, tudo o que eles fizeram\nfoi confundi-lo.
+  Depois: Ishtar, tudo o que eles fizeram\N foi confundi-lo.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L112 D84] Higienização estrutural / gramática
+  Antes : Eu toquei a alma\Ndo Alus!
+  Depois: Eu toquei a alma\N do Alus!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L113 D85] Higienização estrutural / gramática
+  Antes : O mundo dos Alus abriga\Na uma cultura magnífica.
+  Depois: O mundo dos Alus abriga\N a uma cultura magnífica.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L117 D89] Higienização estrutural / gramática
+  Antes : Canções de alegria...\NCanções de tristeza...
+  Depois: Canções de alegria...\N Canções de tristeza...
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L119 D91] Higienização estrutural / gramática
+  Antes : Nem nós, que possuímos\Napenas um tipo de canção...
+  Depois: Nem nós, que possuímos\N apenas um tipo de canção...
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L134 D106] Higienização estrutural / gramática
+  Antes : Eu não quero lutar\Ncom vocês agora!
+  Depois: Eu não quero lutar\N com vocês agora!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L135 D107] Higienização estrutural / gramática
+  Antes : Ishtar, paz para os Mardook significa\npoder sobre nossos inimigos.
+  Depois: Ishtar, paz para os Mardook significa\N poder sobre nossos inimigos.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L136 D108] Higienização estrutural / gramática
+  Antes : Sem isso, caos e confusão\nreinarão em todo o espaço.
+  Depois: Sem isso, caos e confusão\N reinarão em todo o espaço.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L137 D109] Higienização estrutural / gramática
+  Antes : Não, a canção de amor ainda ressoa\nem meu coração.
+  Depois: Não, a canção de amor ainda ressoa\N em meu coração.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L139 D111] Higienização estrutural / gramática
+  Antes : Eu não posso! Ishtar, volte suas\npensamentos ao que eram!
+  Depois: Eu não posso! Ishtar, volte suas\N pensamentos ao que eram!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L140 D112] Higienização estrutural / gramática
+  Antes : Você não deve profanar este\nlugar sagrado!
+  Depois: Você não deve profanar este\N lugar sagrado!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L141 D113] Higienização estrutural / gramática
+  Antes : Eu não posso! Lady Elensh,\nEu nunca poderei voltar!
+  Depois: Eu não posso! Lady Elensh,\N Eu nunca poderei voltar!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L142 D114] Higienização estrutural / gramática
+  Antes : As canções dos Alus ressoam\nem minha alma!
+  Depois: As canções dos Alus ressoam\N em minha alma!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L161 D133] Higienização estrutural / gramática
+  Antes : Não posso perdoar esses caras.\NVocê viu aqueles Zentradi.
+  Depois: Não posso perdoar esses caras.\N Você viu aqueles Zentradi.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L162 D134] Higienização estrutural / gramática
+  Antes : Talvez eles tenham nascido apenas\NPara lutar...
+  Depois: Talvez eles tenham nascido apenas\N Para lutar...
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L163 D135] Higienização estrutural / gramática
+  Antes : mas nunca desistiram\Nde seu direito à liberdade.
+  Depois: mas nunca desistiram\N de seu direito à liberdade.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L164 D136] Higienização estrutural / gramática
+  Antes : Eles são pessoas, não\NSomente armas!
+  Depois: Eles são pessoas, não\N Somente armas!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L166 D138] Higienização estrutural / gramática
+  Antes : Obrigado, Silvie!\NVocê confia nela então?
+  Depois: Obrigado, Silvie!\N Você confia nela então?
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L167 D139] Higienização estrutural / gramática
+  Antes : Sim. E até confio\No amigo repórter esquisito dela.
+  Depois: Sim. E até confio\N o amigo repórter esquisito dela.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L172 D144] Higienização estrutural / gramática
+  Antes : Relato do Valkyrie da U.N. Spacy\Npiloto, Tenente Sylvie Gena.
+  Depois: Relato do Valkyrie da U.N. Spacy\N piloto, Tenente Sylvie Gena.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L173 D145] Higienização estrutural / gramática
+  Antes : Infiltramos um navio Mardook.\NPosição fraca, perspectiva ruim.
+  Depois: Infiltramos um navio Mardook.\N Posição fraca, perspectiva ruim.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L174 D146] Higienização estrutural / gramática
+  Antes : Quem sabe esse registro\Nsobreviverá se não...
+  Depois: Quem sabe esse registro\N sobreviverá se não...
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L175 D147] Higienização estrutural / gramática
+  Antes : Acho que podemos dizer que estamos\NCapturados como ratos em uma armadilha!
+  Depois: Acho que podemos dizer que estamos\N Capturados como ratos em uma armadilha!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L185 D157] Higienização estrutural / gramática
+  Antes : {\pos(720,816)}Nosso navio-almirante na linha de frente foi\Ncontaminado pela canção alienígena.
+  Depois: {\pos(720,816)}Nosso navio-almirante na linha de frente foi\N contaminado pela canção alienígena.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L189 D161] Higienização estrutural / gramática
+  Antes : Mas a paz para os Mardook só pode\Nvir através da guerra e destruição.
+  Depois: Mas a paz para os Mardook só pode\N vir através da guerra e destruição.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L190 D162] Higienização estrutural / gramática
+  Antes : Isso é o destino divino,\Nque nós seguimos!
+  Depois: Isso é o destino divino,\N que nós seguimos!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L192 D164] Higienização estrutural / gramática
+  Antes : Houve aqueles que sentiram\Nque isso estava errado, mas isso é heresia.
+  Depois: Houve aqueles que sentiram\N que isso estava errado, mas isso é heresia.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L193 D165] Higienização estrutural / gramática
+  Antes : Não, o que sabemos deve ser esquecido.\NA vontade do Imperador Inges é tudo!
+  Depois: Não, o que sabemos deve ser esquecido.\N A vontade do Imperador Inges é tudo!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L194 D166] Higienização estrutural / gramática
+  Antes : Aqueles que foram contaminados\ndevem ser punidos!
+  Depois: Aqueles que foram contaminados\N devem ser punidos!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L205 D177] Higienização estrutural / gramática
+  Antes : {\pos(720,891)}Por que você se importa com\Nessa porcaria alienígena?!
+  Depois: {\pos(720,891)}Por que você se importa com\N essa porcaria alienígena?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L207 D179] Higienização estrutural / gramática
+  Antes : Merda, se ao menos ele não\Ntivesse ela lá dentro!
+  Depois: Merda, se ao menos ele não\N tivesse ela lá dentro!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L208 D180] Higienização estrutural / gramática
+  Antes : Isso deve ser o castigo daquele "Ingues"\Nguy!
+  Depois: Isso deve ser o castigo daquele "Ingues"\N guy!
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L214 D186] Higienização estrutural / gramática
+  Antes : {\pos(720,816)} Este é o desejo de Inges, senhor\Nemperor do Mardook.
+  Depois: {\pos(720,816)} Este é o desejo de Inges, senhor\N emperor do Mardook.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L215 D187] Higienização estrutural / gramática
+  Antes : {\pos(720,816)} E este é o resultado do que\Nvocê fez... Ishtar.
+  Depois: {\pos(720,816)} E este é o resultado do que\N você fez... Ishtar.
+----------------------------------------------------------------------------------------------------
+[Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L216 D188] Higienização estrutural / gramática
+  Antes : É o chefe! Chefe,\Nme recebe?
+  Depois: É o chefe! Chefe,\N me recebe?
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L33 D5] Higienização estrutural / gramática
+  Antes : {\pos(720,816)}Em nome de nossa cultura\Nesmagar esses vermes arrogantes.
+  Depois: {\pos(720,816)}Em nome de nossa cultura\N esmagar esses vermes arrogantes.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L34 D6] Higienização estrutural / gramática
+  Antes : {\pos(720,816)}Neste universo nada existe\Nque possa nos superar.
+  Depois: {\pos(720,816)}Neste universo nada existe\N que possa nos superar.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L35 D7] Higienização estrutural / gramática
+  Antes : {\pos(720,891)}Portanto, resistir à nossa\Nconquista é impossível.
+  Depois: {\pos(720,891)}Portanto, resistir à nossa\N conquista é impossível.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L40 D12] Higienização estrutural / gramática
+  Antes : Que eu fui salvar aquele\Nrepórter é a verdade.
+  Depois: Que eu fui salvar aquele\N repórter é a verdade.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L41 D13] Higienização estrutural / gramática
+  Antes : Mas havia uma garota naquele\NVálquir como também.
+  Depois: Mas havia uma garota naquele\N Válquir como também.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L50 D22] Higienização estrutural / gramática
+  Antes : Ishtar aparentemente achou que ela\Npoderia acabar com essa guerra.
+  Depois: Ishtar aparentemente achou que ela\N poderia acabar com essa guerra.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L52 D24] Higienização estrutural / gramática
+  Antes : Sim, senhor. Eles usam suas\NEmuladoras' música...
+  Depois: Sim, senhor. Eles usam suas\N Emuladora' música...
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L54 D26] Higienização estrutural / gramática
+  Antes : Ela sentiu que, se pudesse apenas\Ncantá-los uma música da Terra...
+  Depois: Ela sentiu que, se pudesse apenas\N cantá-los uma música da Terra...
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L55 D27] Correção de lore Macross
+  Antes : Mas a música precisa ser cantada\Npor uma de suas Emuladora.
+  Depois: Mas a música precisa ser cantada\N por uma de suas Emuladora.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L57 D29] Higienização estrutural / gramática
+  Antes : mas não o suficiente para mudar\No curso da guerra.
+  Depois: mas não o suficiente para mudar\N o curso da guerra.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L59 D31] Higienização estrutural / gramática
+  Antes : Você fez um bom trabalho.\NObrigado, tenente.
+  Depois: Você fez um bom trabalho.\N Obrigado, tenente.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L74 D46] Higienização estrutural / gramática
+  Antes : Rastreamos a transmissão...\NÉ da sala SubCom, bem aqui!
+  Depois: Rastreamos a transmissão...\N É da sala SubCom, bem aqui!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L76 D48] Higienização estrutural / gramática
+  Antes : Temos o direito de saber sobre\No perigo que a Terra enfrenta.
+  Depois: Temos o direito de saber sobre\N o perigo que a Terra enfrenta.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L77 D49] Higienização estrutural / gramática
+  Antes : O destino do mundo, as vidas\Nde cada um de nós...
+  Depois: O destino do mundo, as vidas\N de cada um de nós...
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L83 D55] Higienização estrutural / gramática
+  Antes : No navio inimigo.\NIsso é real.
+  Depois: No navio inimigo.\N Isso é real.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L84 D56] Higienização estrutural / gramática
+  Antes : Você não vai enganar os civis\Ncom esse material falso!
+  Depois: Você não vai enganar os civis\N com esse material falso!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L85 D57] Higienização estrutural / gramática
+  Antes : Eu acredito que ele escapou\Naque navio inimigo...
+  Depois: Eu acredito que ele escapou\N aque navio inimigo...
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L86 D58] Higienização estrutural / gramática
+  Antes : com um de seus homens,\NCmdr. Exxegran.
+  Depois: com um de seus homens,\N Cmdr. Exxegran.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L96 D68] Higienização estrutural / gramática
+  Antes : Em alerta de espera com o\Nresto do Esquadrão Faerie.
+  Depois: Em alerta de espera com o\N resto do Esquadrão Faerie.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L97 D69] Higienização estrutural / gramática
+  Antes : O Tenente Gena será preso por\Ntrês dias, assim como este civil.
+  Depois: O Tenente Gena será preso por\N três dias, assim como este civil.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L98 D70] Higienização estrutural / gramática
+  Antes : Canhões Macross se movendo\Npara posição.
+  Depois: Canhões Macross se movendo\N para posição.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L104 D76] Higienização estrutural / gramática
+  Antes : Mas o número real é desconhecido.\NPode ser três vezes maior.
+  Depois: Mas o número real é desconhecido.\N Pode ser três vezes maior.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L106 D78] Higienização estrutural / gramática
+  Antes : Atrairemos todos e então\Nedestruiremos com um só golpe!
+  Depois: Atrairemos todos e então\N edestruiremos com um só golpe!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L107 D79] Higienização estrutural / gramática
+  Antes : Distância até a frota inimiga:\n126.000.
+  Depois: Distância até a frota inimiga:\N126.000.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L108 D80] Higienização estrutural / gramática
+  Antes : 26.000 para a distância máxima de impacto\Ndos canhões Macross.
+  Depois: 26.000 para a distância máxima de impacto\N dos canhões Macross.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L109 D81] Higienização estrutural / gramática
+  Antes : Grande número de caças inimigos\nse aproximando a alta velocidade.
+  Depois: Grande número de caças inimigos\N se aproximando a alta velocidade.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L110 D82] Higienização estrutural / gramática
+  Antes : Lançar esquadrões Valkyrie. Devemos mantê-los\na distância dos canhões!
+  Depois: Lançar esquadrões Valkyrie. Devemos mantê-los\N a distância dos canhões!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L111 D83] Higienização estrutural / gramática
+  Antes : Lobo de Fogo e Esquadrão Touro Branco,\Ntodas as unidades decolando!
+  Depois: Lobo de Fogo e Esquadrão Touro Branco,\N todas as unidades decolando!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L113 D85] Higienização estrutural / gramática
+  Antes : Esquadrões Valkyrie engajando\Nmechas de batalha inimigas!
+  Depois: Esquadrões Valkyrie engajando\N mechas de batalha inimigas!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L114 D86] Higienização estrutural / gramática
+  Antes : Burt! Me dá cobertura!\NCara, vamos lá!
+  Depois: Burt! Me dá cobertura!\N Cara, vamos lá!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L115 D87] Higienização estrutural / gramática
+  Antes : Linha de frente recuando\NPara o Campo D.
+  Depois: Linha de frente recuando\N Para o Campo D.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L116 D88] Higienização estrutural / gramática
+  Antes : Esquadrão Touro Branco:\NTodas as unidades fora do ar.
+  Depois: Esquadrão Touro Branco:\N Todas as unidades fora do ar.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L117 D89] Higienização estrutural / gramática
+  Antes : Frota inimiga ainda a 2000 da\NDistância máxima de impacto.
+  Depois: Frota inimiga ainda a 2000 da\N Distância máxima de impacto.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L120 D92] Higienização estrutural / gramática
+  Antes : Defendam a Macross Cannon a qualquer custo!\NBaixem os sistemas de defesa aérea!
+  Depois: Defendam a Macross Cannon a qualquer custo!\N Baixem os sistemas de defesa aérea!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L121 D93] Higienização estrutural / gramática
+  Antes : A frota inimiga agora está em\nFaixa da Macross Cannon.
+  Depois: A frota inimiga agora está em\N Faixa da Macross Cannon.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L122 D94] Higienização estrutural / gramática
+  Antes : Esquadrões Valkyrie,\NFalhem para o campo B!
+  Depois: Esquadrões Valkyrie,\N Falhem para o campo B!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L124 D96] Higienização estrutural / gramática
+  Antes : Lendo 60% da frota inimiga\ndestruída.
+  Depois: Lendo 60% da frota inimiga\N destruída.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L125 D97] Higienização estrutural / gramática
+  Antes : Excelente. Preparem-se para\nfogo de uma segunda rodada!
+  Depois: Excelente. Preparem-se para\N fogo de uma segunda rodada!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L126 D98] Higienização estrutural / gramática
+  Antes : Detectando múltiplas reações de\ndefold a 12 horas!
+  Depois: Detectando múltiplas reações de\N defold a 12 horas!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L135 D107] Higienização estrutural / gramática
+  Antes : Eu não quero cantar\Na canção da guerra!
+  Depois: Eu não quero cantar\N a canção da guerra!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L136 D108] Higienização estrutural / gramática
+  Antes : Hibiki, me diz...\NDo que eu devo fazer?
+  Depois: Hibiki, me diz...\N Do que eu devo fazer?
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L138 D110] Higienização estrutural / gramática
+  Antes : Eu já te falei, um dos\Ninimigos me ajudou.
+  Depois: Eu já te falei, um dos\N inimigos me ajudou.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L140 D112] Higienização estrutural / gramática
+  Antes : Pare com essa baboseira!\NQuem te disse para fazer isso?!
+  Depois: Pare com essa baboseira!\N Quem te disse para fazer isso?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L141 D113] Higienização estrutural / gramática
+  Antes : Eu não fiz isso sob\NA ordens de ninguém!
+  Depois: Eu não fiz isso sob\N A ordens de ninguém!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L142 D114] Higienização estrutural / gramática
+  Antes : Eu só queria que todos\Nsoubessem a verdade!
+  Depois: Eu só queria que todos\N soubessem a verdade!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L143 D115] Higienização estrutural / gramática
+  Antes : Se não fizermos algo...\NEarth será destruída!
+  Depois: Se não fizermos algo...\N Earth será destruída!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L144 D116] Higienização estrutural / gramática
+  Antes : Você está dizendo que nossas forças\nvão perder?
+  Depois: Você está dizendo que nossas forças\N vão perder?
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L145 D117] Higienização estrutural / gramática
+  Antes : No ritmo em que estamos indo,\Ndefinitivamente vamos perder.
+  Depois: No ritmo em que estamos indo,\N definitivamente vamos perder.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L146 D118] Higienização estrutural / gramática
+  Antes : Eu já os vi...\NNão começaram a lutar ainda!
+  Depois: Eu já os vi...\N Não começaram a lutar ainda!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L147 D119] Higienização estrutural / gramática
+  Antes : Maldito Mardook.\NVocê vai pagar por isso!
+  Depois: Maldito Mardook.\N Você vai pagar por isso!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L149 D121] Higienização estrutural / gramática
+  Antes : Não importa quantos vierem, você não\nchegará à Terra. Por Silvie!
+  Depois: Não importa quantos vierem, você não\N chegará à Terra. Por Silvie!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L150 D122] Higienização estrutural / gramática
+  Antes : O inimigo está lutando pela sua vida,\Nmeu senhor.
+  Depois: O inimigo está lutando pela sua vida,\N meu senhor.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L151 D123] Higienização estrutural / gramática
+  Antes : Ainda não. Deixe meus guerreiros\Nouvir a Canção da Morte.
+  Depois: Ainda não. Deixe meus guerreiros\N ouvir a Canção da Morte.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L153 D125] Higienização estrutural / gramática
+  Antes : Nós certamente venceremos. Eles\Nsão impotentes contra nós.
+  Depois: Nós certamente venceremos. Eles\N são impotentes contra nós.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L154 D126] Higienização estrutural / gramática
+  Antes : Sinto o poder do\NAlus em suas mãos.
+  Depois: Sinto o poder do\N Alus em suas mãos.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L157 D129] Higienização estrutural / gramática
+  Antes : Esta ameaça não pode ser tolerada\Nmais, destrua-os.
+  Depois: Esta ameaça não pode ser tolerada\N mais, destrua-os.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L159 D131] Higienização estrutural / gramática
+  Antes : Aqueles que detêm o Alus,\NIrão ver vocês virar cinzas!
+  Depois: Aqueles que detêm o Alus,\N Irão ver vocês virar cinzas!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L161 D133] Correção de lore Macross
+  Antes : Os Emuladora do Groog\Nrefutam-se a cantar!
+  Depois: Os Emuladora do Groog\N refutam-se a cantar!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L164 D136] Higienização estrutural / gramática
+  Antes : Uma enorme quantidade de energia\Nestá se desdobrando ao nosso redor!
+  Depois: Uma enorme quantidade de energia\N está se desdobrando ao nosso redor!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L178 D150] Higienização estrutural / gramática
+  Antes : Lorde Feff, você não pode\Nproteger ela mais!
+  Depois: Lorde Feff, você não pode\N proteger ela mais!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L181 D153] Higienização estrutural / gramática
+  Antes : Lançar todos Zentran e ligá-los\Na canção das outras naves.
+  Depois: Lançar todos Zentran e ligá-los\N a canção das outras naves.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L184 D156] Higienização estrutural / gramática
+  Antes : Mesmo que eu tenha que usar este navio como um\Nescudo, eles não chegarão à Terra!
+  Depois: Mesmo que eu tenha que usar este navio como um\N escudo, eles não chegarão à Terra!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L187 D159] Higienização estrutural / gramática
+  Antes : Capitão Nexx, o Gloria está indo\Ndireto para a frota inimiga!
+  Depois: Capitão Nexx, o Gloria está indo\N direto para a frota inimiga!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L190 D162] Higienização estrutural / gramática
+  Antes : Capitão, isso é inútil!\NPrecisamos recuar!
+  Depois: Capitão, isso é inútil!\N Precisamos recuar!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L193 D165] Higienização estrutural / gramática
+  Antes : Capitão!\NCAPITÃO BALZAE!!!
+  Depois: Capitão!\N CAPITÃO BALZAE!!!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L194 D166] Higienização estrutural / gramática
+  Antes : Sou um guerreiro de Mardook,\Nleal ao Lorde Imperador Inges.
+  Depois: Sou um guerreiro de Mardook,\N leal ao Lorde Imperador Inges.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L195 D167] Higienização estrutural / gramática
+  Antes : Minha morte só virá\No campo de batalha.
+  Depois: Minha morte só virá\N o campo de batalha.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L197 D169] Higienização estrutural / gramática
+  Antes : Vá agora, Ishtar, antes\NI mudar de ideia.
+  Depois: Vá agora, Ishtar, antes\N I mudar de ideia.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L198 D170] Higienização estrutural / gramática
+  Antes : Direi que te matei por\Nseu crime de rebelião.
+  Depois: Direi que te matei por\N seu crime de rebelião.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L203 D175] Higienização estrutural / gramática
+  Antes : Esta é uma reunião não-oficial.\NNão haverá registros.
+  Depois: Esta é uma reunião não-oficial.\N Não haverá registros.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L205 D177] Higienização estrutural / gramática
+  Antes : Exatamente, apenas sem quaisquer\Nrepórteres indiscretos, espero!
+  Depois: Exatamente, apenas sem quaisquer\N repórteres indiscretos, espero!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L206 D178] Higienização estrutural / gramática
+  Antes : Comandante, a esta altura\nossas forças não podem vencer.
+  Depois: Comandante, a esta altura\N ossas forças não podem vencer.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L217 D189] Higienização estrutural / gramática
+  Antes : Os Mardook são liderados por\Na ditador Inges.
+  Depois: Os Mardook são liderados por\N a ditador Inges.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L218 D190] Higienização estrutural / gramática
+  Antes : Ele controla seu povo de forma impiedosa\Nusando o terror.
+  Depois: Ele controla seu povo de forma impiedosa\N usando o terror.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L219 D191] Higienização estrutural / gramática
+  Antes : Se pudermos nos unir ao povo Mardook\Nque deseja a paz...
+  Depois: Se pudermos nos unir ao povo Mardook\N que deseja a paz...
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L220 D192] Higienização estrutural / gramática
+  Antes : teremos força suficiente para\Nderrotar Inges e acabar com essa guerra.
+  Depois: teremos força suficiente para\N derrotar Inges e acabar com essa guerra.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L221 D193] Higienização estrutural / gramática
+  Antes : Lançar um ataque estratégico\Nsobre sua nave-mãe?!
+  Depois: Lançar um ataque estratégico\N sobre sua nave-mãe?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L233 D205] Higienização estrutural / gramática
+  Antes : Tudo terminará.\NA ninguém aprenderá nada.
+  Depois: Tudo terminará.\N A ninguém aprenderá nada.
+----------------------------------------------------------------------------------------------------
+[Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass L235 D207] Higienização estrutural / gramática
+  Antes : Mas depois que tudo termina, é tarde demais!\NI vejo a verdade agora...
+  Depois: Mas depois que tudo termina, é tarde demais!\N I vejo a verdade agora...
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L29 D1] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Linha de defesa 1, Área A:\NContato inimigo. Engajando.
+  Depois: {\fscx208\fscy208}Linha de defesa 1, Área A:\N Contato inimigo. Engajando.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L30 D2] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Frota 2 na Área 2 relata 70%\Nde baixas, incluindo o navio-almirante.
+  Depois: {\fscx208\fscy208}Frota 2 na Área 2 relata 70%\N de baixas, incluindo o navio-almirante.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L31 D3] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Confirmando reação\Nao Fold em Área A.
+  Depois: {\fscx208\fscy208}Confirmando reação\N ao Fold em Área A.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L32 D4] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Todos os transmissões pararam\Ndo grupo de batalha vinte.
+  Depois: {\fscx208\fscy208}Todos os transmissões pararam\N do grupo de batalha vinte.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L33 D5] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Unidades inimigas na Área C se movendo\NDa ponto P para ponto Q.
+  Depois: {\fscx208\fscy208}Unidades inimigas na Área C se movendo\N Da ponto P para ponto Q.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L35 D7] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Por favor, atenção. Em uma tentativa\Nde limitar a atividade inimiga...
+  Depois: {\fscx208\fscy208}Por favor, atenção. Em uma tentativa\N de limitar a atividade inimiga...
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L36 D8] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}U.N. Spacy ativou\Nsistema de defesa antiaérea.
+  Depois: {\fscx208\fscy208}U.N. Spacy ativou\N sistema de defesa antiaérea.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L37 D9] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Isso pode representar um pequeno\Nrisco para a superfície.
+  Depois: {\fscx208\fscy208}Isso pode representar um pequeno\N risco para a superfície.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L38 D10] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Como precaução, já iniciamos\Nevações...
+  Depois: {\fscx208\fscy208}Como precaução, já iniciamos\N evações...
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L50 D22] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}A U.N. Spacy não tem força\Npara vencer esses caras.
+  Depois: {\fscx208\fscy208}A U.N. Spacy não tem força\N para vencer esses caras.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L51 D23] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Nos resta apenas uma cartada.\NFaremos uma visita ao Macross.
+  Depois: {\fscx208\fscy208}Nos resta apenas uma cartada.\N Faremos uma visita ao Macross.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L55 D27] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Vamos só atirar\Nno navio-mãe deles.
+  Depois: {\fscx208\fscy208}Vamos só atirar\N no navio-mãe deles.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L56 D28] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}E então veremos se isso realmente\Né o "Navio dos Alus".
+  Depois: {\fscx208\fscy208}E então veremos se isso realmente\N é o "Navio dos Alus".
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L57 D29] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Parece divertido.\NContem comigo!
+  Depois: {\fscx208\fscy208}Parece divertido.\N Contem comigo!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L63 D35] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Vamos aguentar mesmo que\No chefe não esteja aqui!
+  Depois: {\fscx208\fscy208}Vamos aguentar mesmo que\N o chefe não esteja aqui!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L65 D37] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Cap. Nexx! Proceder para\NCannon Base Two!
+  Depois: {\fscx208\fscy208}Cap. Nexx! Proceder para\N Cannon Base Two!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L66 D38] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Se eu for embora,\neles terão uma brecha!
+  Depois: {\fscx208\fscy208}Se eu for embora,\N eles terão uma brecha!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L67 D39] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208} Capitão, isso é um jogo de azar\Npelo destino da Terra!
+  Depois: {\fscx208\fscy208} Capitão, isso é um jogo de azar\N pelo destino da Terra!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L69 D41] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\pos(720,816)}Destrua tudo!\NDestruição é a cultura Mardook!
+  Depois: {\fscx208\fscy208\pos(720,816)}Destrua tudo!\N Destruição é a cultura Mardook!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L70 D42] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\pos(720,816)}É a única coisa que pode dominar\Ne domar este universo confuso.
+  Depois: {\fscx208\fscy208\pos(720,816)}É a única coisa que pode dominar\N e domar este universo confuso.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L74 D46] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Bom trabalho... O Macross\Nestá voltando à vida!
+  Depois: {\fscx208\fscy208}Bom trabalho... O Macross\N está voltando à vida!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L77 D49] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Talvez eu devesse\Nsair e empurrar?
+  Depois: {\fscx208\fscy208}Talvez eu devesse\N sair e empurrar?
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L80 D52] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Saída do reator em 85%. Seguranças\Ndesligadas, ligando ao sistema principal.
+  Depois: {\fscx208\fscy208}Saída do reator em 85%. Seguranças\N desligadas, ligando ao sistema principal.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L82 D54] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Hibiki, abra um canal de com.\NComprimento de onda quatro.
+  Depois: {\fscx208\fscy208}Hibiki, abra um canal de com.\N Comprimento de onda quatro.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L83 D55] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Estou recebendo dados do\NCQ headquarters.
+  Depois: {\fscx208\fscy208}Estou recebendo dados do\N CQ headquarters.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L86 D58] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Precisamos de informações sobre a posição do\NMothership para atirar nela.
+  Depois: {\fscx208\fscy208}Precisamos de informações sobre a posição do\N Mothership para atirar nela.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L87 D59] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Não podemos falhar. Estamos apostando tudo\Nneste único tiro!
+  Depois: {\fscx208\fscy208}Não podemos falhar. Estamos apostando tudo\N neste único tiro!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L88 D60] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Esquadrão Liqueur Azul, prossiga para\NZS-5 e ataque!
+  Depois: {\fscx208\fscy208}Esquadrão Liqueur Azul, prossiga para\N ZS-5 e ataque!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L89 D61] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Senhor, mensagem recebida\nDo Tenente Gena.
+  Depois: {\fscx208\fscy208}Senhor, mensagem recebida\N Do Tenente Gena.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L93 D65] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Eles já têm várias naves\nNa atmosfera.
+  Depois: {\fscx208\fscy208}Eles já têm várias naves\N Na atmosfera.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L94 D66] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Destruir a nave-mãe\Npode ser a resposta.
+  Depois: {\fscx208\fscy208}Destruir a nave-mãe\N pode ser a resposta.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L97 D69] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Pessoas viviam aqui! O amor delas\Nainda ecoa.
+  Depois: {\fscx208\fscy208}Pessoas viviam aqui! O amor delas\N ainda ecoa.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L101 D73] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Quem está pilotando isso?! Eu nunca\Nsoube disso!
+  Depois: {\fscx208\fscy208}Quem está pilotando isso?! Eu nunca\N soube disso!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L103 D75] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Liação de dados estabelecida. Nave-mãe\Ncoordenadas confirmadas.
+  Depois: {\fscx208\fscy208}Liação de dados estabelecida. Nave-mãe\N coordenadas confirmadas.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L109 D81] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Nível de energia aumentando de\Neighty para ninety.
+  Depois: {\fscx208\fscy208}Nível de energia aumentando de\N eighty para ninety.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L112 D84] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Macross pronto\NPara disparar a arma principal!
+  Depois: {\fscx208\fscy208}Macross pronto\N Para disparar a arma principal!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L113 D85] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Por favor...\NFaça com que isso acabe!
+  Depois: {\fscx208\fscy208}Por favor...\N Faça com que isso acabe!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L121 D93] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Se eles tivessem nos ouvido mais cedo\Nisto não teria acontecido.
+  Depois: {\fscx208\fscy208}Se eles tivessem nos ouvido mais cedo\N isto não teria acontecido.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L123 D95] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Todos nós apenas ficamos um pouco demais\Nacostumados com a paz.
+  Depois: {\fscx208\fscy208}Todos nós apenas ficamos um pouco demais\N acostumados com a paz.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L124 D96] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Nos fechamos dentro\Ndo nosso pequeno mundo...
+  Depois: {\fscx208\fscy208}Nos fechamos dentro\N do nosso pequeno mundo...
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L125 D97] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}E nunca nos preocupamos em olhar\Napenas o mundo exterior.
+  Depois: {\fscx208\fscy208}E nunca nos preocupamos em olhar\N apenas o mundo exterior.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L128 D100] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}E quando as pessoas finalmente se unem...\NÉ geralmente tarde demais.
+  Depois: {\fscx208\fscy208}E quando as pessoas finalmente se unem...\N É geralmente tarde demais.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L131 D103] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Mas conseguimos nos unir...\NAinda não é tarde!
+  Depois: {\fscx208\fscy208}Mas conseguimos nos unir...\N Ainda não é tarde!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L138 D110] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Por que, Ishtar? Por que esse mundo\Nte fascina tanto?
+  Depois: {\fscx208\fscy208}Por que, Ishtar? Por que esse mundo\N te fascina tanto?
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L139 D111] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}O que te ilude tanto, que você\Nsente a Nave dos Alus?!
+  Depois: {\fscx208\fscy208}O que te ilude tanto, que você\N sente a Nave dos Alus?!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L142 D114] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Essa é a última aposta\No futuro da humanidade.
+  Depois: {\fscx208\fscy208}Essa é a última aposta\N o futuro da humanidade.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L153 D125] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}E nos uniu também.\NAlguns são os Alus.
+  Depois: {\fscx208\fscy208}E nos uniu também.\N Alguns são os Alus.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L154 D126] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Enviarei uma canção de amor\Nao Mardook.
+  Depois: {\fscx208\fscy208}Enviarei uma canção de amor\N ao Mardook.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L155 D127] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Então meu povo e a Terra\npoderão se unir novamente.
+  Depois: {\fscx208\fscy208}Então meu povo e a Terra\N poderão se unir novamente.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L159 D131] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Abra todos os canais de comunicação.\NVamos tentar, Silvie!
+  Depois: {\fscx208\fscy208}Abra todos os canais de comunicação.\N Vamos tentar, Silvie!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L160 D132] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Estamos aqui porque acreditamos\Nno poder do Macross.
+  Depois: {\fscx208\fscy208}Estamos aqui porque acreditamos\N no poder do Macross.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L164 D136] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Eu sou Ishtar,\NEmuladora da Mardook.
+  Depois: {\fscx208\fscy208}Eu sou Ishtar,\N Emuladora da Mardook.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L165 D137] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Há cultura aqui\Nque vale a pena defender.
+  Depois: {\fscx208\fscy208}Há cultura aqui\N que vale a pena defender.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L166 D138] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Ao salvá-la, criaremos\NAlgo maior.
+  Depois: {\fscx208\fscy208}Ao salvá-la, criaremos\N Algo maior.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L167 D139] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Destruí-la e nunca mais\NPodemos recriá-la.
+  Depois: {\fscx208\fscy208}Destruí-la e nunca mais\N Podemos recriá-la.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L168 D140] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Este mundo me ensinou\Na tristeza da destruição.
+  Depois: {\fscx208\fscy208}Este mundo me ensinou\N a tristeza da destruição.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L169 D141] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Os Mardook ensinam a destruição\Npara todas as coisas.
+  Depois: {\fscx208\fscy208}Os Mardook ensinam a destruição\N para todas as coisas.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L171 D143] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Não podemos encontrar inspiração\Nnas atos de destruição.
+  Depois: {\fscx208\fscy208}Não podemos encontrar inspiração\N nas atos de destruição.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L179 D151] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\pos(726,816)}O Mardook, está destinado a,\Ncontrolar o cosmos!
+  Depois: {\fscx208\fscy208\pos(726,816)}O Mardook, está destinado a,\N controlar o cosmos!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L183 D155] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Canções de felicidade!\NCanções de tristeza!
+  Depois: {\fscx208\fscy208}Canções de felicidade!\N Canções de tristeza!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L186 D158] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\pos(720,816)}Olhem, o castigo para\Naqueles que nos contaminam.
+  Depois: {\fscx208\fscy208\pos(720,816)}Olhem, o castigo para\N aqueles que nos contaminam.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L195 D167] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\pos(720,816)}O caminho de Mardook deve ser\Npreservado a qualquer custo!
+  Depois: {\fscx208\fscy208\pos(720,816)}O caminho de Mardook deve ser\N preservado a qualquer custo!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L196 D168] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208\pos(720,816)}Eu devo, agora, ensinar-lhes novamente\Nisto!
+  Depois: {\fscx208\fscy208\pos(720,816)}Eu devo, agora, ensinar-lhes novamente\N isto!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L201 D173] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Eu ainda acredito...\NEste é o Navio do Alus!
+  Depois: {\fscx208\fscy208}Eu ainda acredito...\N Este é o Navio do Alus!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L224 D196] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Ela está enviando para todos a\Ngentileza do seu próprio coração.
+  Depois: {\fscx208\fscy208}Ela está enviando para todos a\N gentileza do seu próprio coração.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L226 D198] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Não! Os Mardook não são\Nseus únicos!
+  Depois: {\fscx208\fscy208}Não! Os Mardook não são\N seus únicos!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L231 D203] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Carregar todas as canhões!\NAlvo o navio-mãe!
+  Depois: {\fscx208\fscy208}Carregar todas as canhões!\N Alvo o navio-mãe!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L247 D219] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Três dias se passaram desde\Na derrota de Inges.
+  Depois: {\fscx208\fscy208}Três dias se passaram desde\N a derrota de Inges.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L248 D220] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Um tratado de paz permanente foi\Nsinalado entre...
+  Depois: {\fscx208\fscy208}Um tratado de paz permanente foi\N sinalado entre...
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L251 D223] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Eu quero começar a criar\Nnossa própria cultura.
+  Depois: {\fscx208\fscy208}Eu quero começar a criar\N nossa própria cultura.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L253 D225] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Quando cantei, cantei\Nde coração.
+  Depois: {\fscx208\fscy208}Quando cantei, cantei\N de coração.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L254 D226] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}De tristeza, de dor,\NA e finalmente de esperança!
+  Depois: {\fscx208\fscy208}De tristeza, de dor,\N A e finalmente de esperança!
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L255 D227] Correção de lore Macross
+  Antes : {\fscx208\fscy208}Eu quero continuar sendo uma Emuladora para\Npoder ensinar ao meu povo o que...
+  Depois: {\fscx208\fscy208}Eu quero continuar sendo uma Emuladora para\N poder ensinar ao meu povo o que...
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L261 D233] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Fico feliz por ter encontrado você.\NPretendo lhe dar isto.
+  Depois: {\fscx208\fscy208}Fico feliz por ter encontrado você.\N Pretendo lhe dar isto.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L262 D234] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Obrigado.\NGuardarei com carinho.
+  Depois: {\fscx208\fscy208}Obrigado.\N Guardarei com carinho.
+----------------------------------------------------------------------------------------------------
+[Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass L267 D239] Higienização estrutural / gramática
+  Antes : {\fscx208\fscy208}Ela criará uma magnífica\Ncultura para o seu povo.
+  Depois: {\fscx208\fscy208}Ela criará uma magnífica\N cultura para o seu povo.
+----------------------------------------------------------------------------------------------------

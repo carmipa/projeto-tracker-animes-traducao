@@ -1,0 +1,9 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO EN -> PT-BR | MACROSS II
+================================================================================
+Início    : 2026-06-22 14:39:19
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Macross_II\logs
+================================================================================
+

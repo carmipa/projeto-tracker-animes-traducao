@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-PIPELINE DE TRADUÇÃO EN -> PT-BR — Macross 7
-Alvo: [AntBnecn] Macross 7 - Dynamite + Encore + Plus + Movie
+PIPELINE DE TRADUÇÃO EN -> PT-BR — Macross II: Lovers Again
+Alvo: [AntBnecn] Macross II (BDRip 1440x1080p)[sxales]
 
 Traduz legendas .ass e .srt em inglês via LM Studio (Mistral Nemo) e salva PT-BR.
 Logs auditáveis, cache persistente, mascaramento de tags ASS e concorrência multithread.
 
 Uso:
-  python script_tradutor_en_macross7.py
-  python script_tradutor_en_macross7.py --entrada PASTA_ENG --saida PASTA_PTBR
-  python script_tradutor_en_macross7.py --arquivo ep01.ass ep02.srt --saida PASTA_PTBR
+  python script_tradutor_en_macross2.py
+  python script_tradutor_en_macross2.py --entrada PASTA_ENG --saida PASTA_PTBR
+  python script_tradutor_en_macross2.py --arquivo ep01.ass ep02.srt --saida PASTA_PTBR
 """
 
 import os
@@ -68,19 +68,19 @@ class GerenciadorLogs:
 
         # Arquivos de auditoria
         self.f_pipeline = open(
-            os.path.join(self.pasta_logs, f"pipeline_en_macross7_{self.ts}.txt"),
+            os.path.join(self.pasta_logs, f"pipeline_en_macross2_{self.ts}.txt"),
             'w', encoding='utf-8'
         )
         self.f_erros = open(
-            os.path.join(self.pasta_logs, f"erros_en_macross7_{self.ts}.txt"),
+            os.path.join(self.pasta_logs, f"erros_en_macross2_{self.ts}.txt"),
             'w', encoding='utf-8'
         )
-        self.caminho_stats  = os.path.join(self.pasta_logs, f"stats_en_macross7_{self.ts}.json")
-        self.caminho_config = os.path.join(self.pasta_logs, f"config_en_macross7_{self.ts}.txt")
+        self.caminho_stats  = os.path.join(self.pasta_logs, f"stats_en_macross2_{self.ts}.json")
+        self.caminho_config = os.path.join(self.pasta_logs, f"config_en_macross2_{self.ts}.txt")
 
         header = (
             f"\n{'='*80}\n"
-            f"PIPELINE INDUSTRIAL DE TRADUÇÃO EN -> PT-BR | MACROSS 7\n"
+            f"PIPELINE INDUSTRIAL DE TRADUÇÃO EN -> PT-BR | MACROSS II\n"
             f"{'='*80}\n"
             f"Início    : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
             f"Python    : {sys.version.split()[0]}\n"
@@ -150,10 +150,10 @@ class GerenciadorLogs:
             f"Pasta entrada  : {pasta_entrada}\n"
             f"Pasta saída    : {pasta_saida}\n\n"
             f"Logs:\n"
-            f"  Pipeline : pipeline_en_macross7_{self.ts}.txt\n"
-            f"  Erros    : erros_en_macross7_{self.ts}.txt\n"
-            f"  Stats    : stats_en_macross7_{self.ts}.json\n"
-            f"  Config   : config_en_macross7_{self.ts}.txt\n"
+            f"  Pipeline : pipeline_en_macross2_{self.ts}.txt\n"
+            f"  Erros    : erros_en_macross2_{self.ts}.txt\n"
+            f"  Stats    : stats_en_macross2_{self.ts}.json\n"
+            f"  Config   : config_en_macross2_{self.ts}.txt\n"
         )
         with open(self.caminho_config, 'w', encoding='utf-8') as f:
             f.write(conteudo)
@@ -176,7 +176,7 @@ class GerenciadorLogs:
 
 
 # ============================================================================
-# VALIDAÇÃO ANTI-ALUCINAÇÃO E LORE (MACROSS 7)
+# VALIDAÇÃO ANTI-ALUCINAÇÃO E LORE (MACROSS II)
 # ============================================================================
 
 MAX_TAGS_POR_DIALOG = 12
@@ -196,12 +196,9 @@ PADRAO_PREAMBULO_LLM = re.compile(
 SUBSTITUICOES_POS_PROCESSAMENTO = [
     (re.compile(r"\bValqu[ií]ria\b", re.I), "Valkyrie"),
     (re.compile(r"\bValqu[ií]rias\b", re.I), "Valkyries"),
-    (re.compile(r"\bProtodiabo[s]?\b", re.I), "Protodeviln"),
-    (re.compile(r"\bProtodevilns\b", re.I), "Protodeviln"),
-    (re.compile(r"\bBombardeiros? de Fogo\b", re.I), "Fire Bomber"),
-    (re.compile(r"\bForça (do Som|Sonora)\b", re.I), "Sound Force"),
-    (re.compile(r"\bPrefeita Millia\b", re.I), "Prefeita Milia"),
-    (re.compile(r"\bMylene Flare Jenius\b", re.I), "Mylene Jenius"),
+    (re.compile(r"\bEmulador(?:es|a|as)?\b", re.I), "Emuladora"),
+    (re.compile(r"\bMarduks?\b", re.I), "Mardook"),
+    (re.compile(r"\bEsquadrão Fada\b", re.I), "Esquadrão Faerie"),
 ]
 
 def validar_traducao(original: str, traducao: str) -> bool:
@@ -230,11 +227,11 @@ def validar_traducao(original: str, traducao: str) -> bool:
 # PIPELINE DE TRADUÇÃO MISTRAL NEMO
 # ============================================================================
 
-class PipelineMacross7:
+class PipelineMacross2:
     LM_URL = "http://127.0.0.1:1234"
 
     SYSTEM_PROMPT = (
-        "You are an expert subtitler for Japanese anime, specializing in the Macross sci-fi, military space opera, and musical drama universe (specifically Macross 7, Macross Plus, Macross Dynamite 7, and Macross 7 Movie).\n"
+        "You are an expert subtitler for Japanese anime, specializing in the Macross sci-fi, military space opera, and musical drama universe (specifically Macross II: Lovers Again).\n"
         "Translate the following numbered subtitle lines from English into natural, fluent Brazilian Portuguese (PT-BR) suitable for anime subtitles.\n"
         "The final output must be entirely in Brazilian Portuguese, except for protected terms, character names, faction names, ship names, model names, and subtitle tags.\n\n"
 
@@ -245,28 +242,24 @@ class PipelineMacross7:
         "4. Keep intact all subtitle markers and tags exactly as received, such as '[T0]', '[T1]', '[T2]', '{\\an8}', '<i>', '</i>', '\\N', '\\n'. They must stay in the same position and format.\n\n"
 
         "PROTECTED MACROSS TERMS — DO NOT TRANSLATE:\n"
-        "- Valkyrie, Valkyries, Variable Fighter, VF-19, VF-11, VF-17, VF-22, YF-19, YF-21, Gunpod, Gun Pod, Battroid, GERWALK\n"
-        "- Fire Bomber, Sound Force, Diamond Force, Emerald Force, Jamming Birds, Sound Buster\n"
-        "- Basara Nekki, Mylene Jenius, Ray Lovelock, Veffidas Feaze, Gamlin Kizaki, Maximilian Jenius, Milia Fallyna Jenius, Dr. Chiba, Exsedol Folmo, Docker\n"
-        "- Protodeviln, Spiritia, Spiritia Dreaming, Anima Spiritia, Spiritia Farm, Lord Gepernich, Sivil, Gigile, Gavil, Glavil, Valgo, Livil\n"
-        "- Isamu Dyson, Guld Bowman, Myung Fang Lone, Sharon Apple, Lucy Macmillan, Project Super Nova, SDF-1 Macross, Base Aérea de New Edwards\n"
-        "- City 7, Battle 7, Sunny Flower, Riviera, Hollywood, Einstein\n"
-        "- Keep song titles in English/original, such as: 'Planet Dance', 'Totsugeki Love Heart', 'Holy Lonely Light', 'My Soul for You', 'Remember 16', 'Submarine Street', 'Light the Light', 'Dynamite Explosion', 'Angel Voice', 'New Frontier', 'Parade', 'Try Again', 'Sweet Fantasy'.\n\n"
+        "- Valkyrie, Valkyries, Variable Fighter, VF-2SS Valkyrie II, Metal Siren, Macross Cannon, Gunpod, Gun Pod, Battroid, GERWALK\n"
+        "- Mardook, Zentradi, Meltrandi, U.N. Spacy, SNN (Scramble News Network), Faerie Squadron\n"
+        "- Ishtar, Hibiki Kanzaki, Sylvie Gena, Feff, Volion, Emperor Inges, Exsedol, Mash, Dennis Lone, Amy\n"
+        "- Emulator (translate as Emuladora in PT-BR when referring to Ishtar or others of her class)\n"
+        "- Keep song titles in English/original, such as: '2億年前のように静かだね (2 Oku Nen Mae no You ni Shizuka da ne)', 'de-ja-vu', 'Yakusoku'.\n\n"
 
         "TERM ADAPTATIONS:\n"
         "- Protoculture -> Protocultura\n"
         "- Zentradi -> Zentradi\n"
         "- Meltrandi -> Meltrandi\n"
         "- Fold (hyper space jump/dimension) -> Fold (e.g. 'Salto Fold', 'Navegação Fold', 'Dobra Fold')\n"
-        "- Speaker Pod -> Pod de Alto-falante\n"
-        "- Speaker Pod Launcher -> Lançador de Pod de Alto-falante\n"
-        "- Sound Energy / Song Energy / Song Energy System -> Energia Sound / Energia da Canção / Sistema de Energia de Canção\n\n"
+        "- Emulator -> Emuladora\n\n"
 
         "STYLE RULES FOR PT-BR SUBTITLES:\n"
         "1. Use natural Brazilian Portuguese suitable for anime subtitles.\n"
         "2. Avoid literal English phrasing.\n"
         "3. Keep sentences concise and readable.\n"
-        "4. Preserve the dual musical, dramatic, and military tone of Macross 7 (Basara's passion for music vs. military defenses).\n"
+        "4. Preserve the dual musical, dramatic, and military tone of Macross II.\n"
         "5. Do not use exaggerated Brazilian slang unless the original line is clearly casual or comic.\n"
         "6. Translate idioms by meaning, not word-for-word.\n\n"
 
@@ -300,7 +293,7 @@ class PipelineMacross7:
         self.batch_size = max(1, batch_size)
 
         self.caminho_cache = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), "traducao_cache_macross7_en.json"
+            os.path.dirname(os.path.abspath(__file__)), "traducao_cache_macross2_en.json"
         )
         if limpar_cache and os.path.exists(self.caminho_cache):
             os.remove(self.caminho_cache)
@@ -948,14 +941,14 @@ def resolver_caminho_saida(caminho_entrada: str, pasta_saida: str | None) -> str
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Tradutor EN→PT-BR Macross 7 via LM Studio (Mistral Nemo).",
+        description="Tradutor EN→PT-BR Macross II via LM Studio (Mistral Nemo).",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Exemplos:\n"
-            "  python script_tradutor_en_macross7.py\n"
-            "  python script_tradutor_en_macross7.py --entrada D:\\legendas_eng --saida D:\\legendas_ptbr\n"
-            "  python script_tradutor_en_macross7.py --arquivo ep01.ass ep02.srt --saida D:\\legendas_ptbr\n"
-            "  python script_tradutor_en_macross7.py --arquivo D:\\legendas\\ep01.ass\n"
+            "  python script_tradutor_en_macross2.py\n"
+            "  python script_tradutor_en_macross2.py --entrada D:\\legendas_eng --saida D:\\legendas_ptbr\n"
+            "  python script_tradutor_en_macross2.py --arquivo ep01.ass ep02.srt --saida D:\\legendas_ptbr\n"
+            "  python script_tradutor_en_macross2.py --arquivo D:\\legendas\\ep01.ass\n"
         ),
     )
     parser.add_argument("--entrada", help="Pasta com legendas .ass/.srt em inglês")
@@ -1005,9 +998,9 @@ def executar_pipeline(args=None):
     pipe = None
 
     try:
-        log.secao("PIPELINE INDUSTRIAL UNIFICADO — MACROSS 7 (EN -> PT-BR)")
+        log.secao("PIPELINE INDUSTRIAL UNIFICADO — MACROSS II (EN -> PT-BR)")
 
-        pipe = PipelineMacross7(
+        pipe = PipelineMacross2(
             log,
             modelo=args.modelo,
             max_workers=args.workers,
@@ -1022,8 +1015,8 @@ def executar_pipeline(args=None):
 
         log.secao("DIRETÓRIOS DE TRABALHO")
 
-        caminho_padrao_origem = r"D:\PROJETOS-OPEN\animes\Macross 7\legendas_eng"
-        caminho_padrao_saida = r"D:\PROJETOS-OPEN\animes\Macross 7\legendas_ptbr"
+        caminho_padrao_origem = r"D:\PROJETOS-OPEN\animes\Macross II\legendas_eng"
+        caminho_padrao_saida = r"D:\PROJETOS-OPEN\animes\Macross II\legendas_ptbr"
 
         pasta_saida = None
         jobs = []

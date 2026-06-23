@@ -1,0 +1,20 @@
+
+================================================================================
+CONFIGURAÇÃO DA EXECUÇÃO
+================================================================================
+
+Data/Hora      : 2026-06-22 14:40:06
+
+LM Studio URL  : http://127.0.0.1:1234
+Modelo Ativo   : mistralai/mistral-nemo-instruct-2407
+Threads        : 2
+Batch size     : 8
+
+Pasta entrada  : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_eng
+Pasta saída    : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_ptbr
+
+Logs:
+  Pipeline : pipeline_en_macross2_2026-06-22_14-39-19.txt
+  Erros    : erros_en_macross2_2026-06-22_14-39-19.txt
+  Stats    : stats_en_macross2_2026-06-22_14-39-19.json
+  Config   : config_en_macross2_2026-06-22_14-39-19.txt

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Revisão extrema — Macross 7 (PT-BR)
+Revisão extrema — Macross II (PT-BR)
 Restaura karaokê romaji/japonês do ENG, corrige lore, tags ASS e gafes do Mistral.
 Opcional: remux mkvmerge com legendas corrigidas.
 """
@@ -29,7 +29,7 @@ if hasattr(sys.stdout, "reconfigure"):
     except (OSError, ValueError):
         pass
 
-PASTA_ANIME_PADRAO = r"C:\animes\[AntBnecn] Macross 7 - Dynamite + Encore + Plus + Movie [720p BD]"
+PASTA_ANIME_PADRAO = r"C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)"
 SUBPASTAS_LEGENDA = ("legendas_ptbr", "legendas_eng", "legendas_ptbr_corrigidas")
 
 # Limite por arquivo .ass (evita leitura acidental de arquivos enormes)
@@ -43,33 +43,20 @@ PATRON_DIALOGUE = re.compile(r"^(Dialogue:\s*[^,]*(?:,[^,]*){8},)(.*)$")
 
 ESTILOS_KARAOKE_ROMAJI = {
     s.lower() for s in (
-        "New Frontier",
-        "Jiyuu na Uta",
-        "ED4 JAP",
-        "OP2 JAP",
-        "Romaji Karaoke",
-        "Kanji Karaoke",
-        "Romaji Karaoke op",
-        "Kanji Karaoke op",
+        "OP",
+        "ED",
+        "Insert",
+        "Romaji",
+        "Kanji",
     )
 }
 
 SUBSTITUICOES_LORE = [
     (re.compile(r"\bValqu[ií]ria\b", re.I), "Valkyrie"),
     (re.compile(r"\bValqu[ií]rias\b", re.I), "Valkyries"),
-    (re.compile(r"\bProtodiabo[s]?\b", re.I), "Protodeviln"),
-    (re.compile(r"\bProtodevilns\b", re.I), "Protodeviln"),
-    (re.compile(r"\bBombardeiro[s]? de Fogo\b", re.I), "Fire Bomber"),
-    (re.compile(r"\bForça (?:do Som|Sonora)\b", re.I), "Sound Force"),
-    (re.compile(r"\bForça Diamante\b", re.I), "Diamond Force"),
-    (re.compile(r"\bForça Esmeralda\b", re.I), "Emerald Force"),
-    (re.compile(r"\bPássaros de Interferência\b", re.I), "Jamming Birds"),
-    (re.compile(r"\bDestruidor de Som\b", re.I), "Sound Buster"),
-    (re.compile(r"\bPrefeita Millia\b", re.I), "Prefeita Milia"),
-    (re.compile(r"\bMylene Flare Jenius\b", re.I), "Mylene Jenius"),
-    (re.compile(r"\bLutador(?:es)? Vari(?:ável|aveis)\b", re.I), "Variable Fighter"),
-    (re.compile(r"\bCity Seven\b", re.I), "City 7"),
-    (re.compile(r"\bBattle Seven\b", re.I), "Battle 7"),
+    (re.compile(r"\bEmulador(?:es|a|as)?\b", re.I), "Emuladora"),
+    (re.compile(r"\bMarduks?\b", re.I), "Mardook"),
+    (re.compile(r"\bEsquadrão Fada\b", re.I), "Esquadrão Faerie"),
 ]
 
 GRAMATICA_E_GAFES = {
@@ -106,22 +93,13 @@ GRAMATICA_E_GAFES = {
 
 # Correções cirúrgicas: chave = número da linha no arquivo .ass (1-indexed)
 CORRECOES_ESPECIFICAS = {
-    "dynamite_1": {
-        312: r"{\a6\pos(505.5,571.5)}O que é isso?\NSerá que ele é daquela época?",
-        407: "É uma nova fronteira.",
-        410: "É uma nova fronteira.",
-    },
-    "dynamite_3": {
-        276: r"{\pos(511.5,649.5)}Depois que você saiu de casa, ele disse que a\Nbaleia branca é a mais forte, mas solitária.",
-    },
-    "movie": {
-        287: r"{\a6}Spiritia incomum detectada em\NG Z O P F - B F L S D.",
-        288: r"Spiritia incomum detectada em\NG Z O P F - B F L S D.",
-    },
-    "plus_7_11": {
-        98: r"{\be1}O quê? Vampiros estão à solta?",
-        101: r"{\be1} Embora haja rumores de que os\Nvampiros são infiltradores inimigos...",
-    },
+    "ep_06": {
+        171: r"{\fscx208\fscy208}Não podemos encontrar inspiração\Nnos atos de destruição.",
+        201: r"{\fscx208\fscy208}Eu ainda acredito...\NEsta é a Nave de Alus!",
+        226: r"{\fscx208\fscy208}Não! Os Mardook não são\Nos únicos!",
+        231: r"{\fscx208\fscy208}Carreguem todos os canhões!\NAlvo: a nave-mãe!",
+        248: r"{\fscx208\fscy208}Um tratado de paz permanente foi\Nassinado entre...",
+    }
 }
 
 
@@ -213,21 +191,9 @@ MKVMERGE_PATH = achar_mkvtoolnix()
 
 
 def obter_chave_episodio(nome_arquivo):
-    nome_lower = nome_arquivo.lower()
-    if "dynamite" in nome_lower:
-        m = re.search(r"-\s*(\d+)", nome_lower)
-        return f"dynamite_{int(m.group(1))}" if m else "dynamite"
-    if "encore" in nome_lower:
-        m = re.search(r"-\s*(\d+)", nome_lower)
-        return f"encore_{int(m.group(1))}" if m else "encore"
-    if "movie" in nome_lower:
-        return "movie"
-    if "plus" in nome_lower:
-        if "01-06" in nome_lower:
-            return "plus_1_6"
-        if "07-11" in nome_lower:
-            return "plus_7_11"
-        return "plus"
+    m = re.search(r"-\s*(\d+)", nome_arquivo.lower())
+    if m:
+        return f"ep_{int(m.group(1)):02d}"
     return "desconhecido"
 
 
@@ -404,7 +370,7 @@ def processar_legendas(pasta_ptbr_in, pasta_eng_in, pasta_ptbr_out, dry_run=Fals
             return False, None
         _emit(f"{Fore.YELLOW}[AVISO] Modo in-place: sobrescrevendo legendas PT-BR na origem.")
 
-    _emit(f"\n{Fore.CYAN}=== REVISÃO EXTREMA MACROSS 7 ===")
+    _emit(f"\n{Fore.CYAN}=== REVISÃO EXTREMA MACROSS II ===")
     _emit(f"Originais (ENG) : {pasta_eng_in}")
     _emit(f"Traduzidas (PT) : {pasta_ptbr_in}")
     _emit(f"Destino (PT-COR): {pasta_ptbr_out}")
@@ -551,11 +517,11 @@ def _salvar_log(log_modificacoes, stats, dry_run):
     pasta_logs = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
     os.makedirs(pasta_logs, exist_ok=True)
     ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    caminho_log = os.path.join(pasta_logs, f"revisao_macross7_{ts}.txt")
+    caminho_log = os.path.join(pasta_logs, f"revisao_macross2_{ts}.txt")
     try:
         with open(caminho_log, "w", encoding="utf-8") as fl:
             modo = "DRY-RUN" if dry_run else "PRODUÇÃO"
-            fl.write(f"RELATÓRIO REVISÃO EXTREMA MACROSS 7 ({modo})\n")
+            fl.write(f"RELATÓRIO REVISÃO EXTREMA MACROSS II ({modo})\n")
             fl.write(f"Executado: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             for chave, valor in stats.items():
                 fl.write(f"  {chave}: {valor}\n")
@@ -635,7 +601,7 @@ def remuxar_mkv(pasta_mkv, pasta_legendas_corrigidas):
             MKVMERGE_PATH, "-o", caminho_out,
             "--no-subtitles", caminho_mkv,
             "--language", "0:por",
-            "--track-name", "0:Português (Revisão Macross 7)",
+            "--track-name", "0:Português (Revisão Macross II)",
             "--default-track", "0:yes",
             "--forced-display-flag", "0:no",
             caminho_leg,
@@ -791,12 +757,12 @@ def resolver_caminhos(args):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Revisão extrema Macross 7 — lore, karaoke, tags ASS",
+        description="Revisão extrema Macross II — lore, karaoke, tags ASS",
         epilog=(
             "Exemplos:\n"
-            "  python revisao_legenda_macross7.py\n"
-            "  python revisao_legenda_macross7.py \"C:\\animes\\...\\legendas_ptbr\"\n"
-            "  python revisao_legenda_macross7.py --entrada PT --eng ENG --saida SAIDA\n"
+            "  python revisao_legenda_macross2.py\n"
+            "  python revisao_legenda_macross2.py \"C:\\animes\\...\\legendas_ptbr\"\n"
+            "  python revisao_legenda_macross2.py --entrada PT --eng ENG --saida SAIDA\n"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )

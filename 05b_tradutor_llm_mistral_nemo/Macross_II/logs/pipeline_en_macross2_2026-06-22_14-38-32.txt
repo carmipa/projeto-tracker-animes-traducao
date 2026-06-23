@@ -1,0 +1,22 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO EN -> PT-BR | MACROSS II
+================================================================================
+Início    : 2026-06-22 14:38:32
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Macross_II\logs
+================================================================================
+
+
+================================================================================
+            PIPELINE INDUSTRIAL UNIFICADO — MACROSS II (EN -> PT-BR)            
+================================================================================
+
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[14:38:32.192] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[14:38:34.230] [ERRO    ] LM Studio não responde em http://127.0.0.1:1234. Certifique-se de que o LM Studio está rodando e a API local está ativa.
+[14:38:34.230] [ERRO    ] A conexão com o LM Studio local falhou. Abortando execução.

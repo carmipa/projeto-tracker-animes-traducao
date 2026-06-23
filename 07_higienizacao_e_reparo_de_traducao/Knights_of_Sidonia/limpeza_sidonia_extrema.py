@@ -187,7 +187,7 @@ def higienizar_linha(texto):
     t = t.replace('\\NIl ', '\\N Ele ')
     # A regra de substituir \\Nmais por \\N mas foi deletada por ser incorreta em PT-BR
     t = t.replace('\\Nune ', '\\N uma ').replace('\\Nun ', '\\N um ')
-    t = re.sub(r'\\beuh\\.\\.\\.', 'hã...', t, flags=re.IGNORECASE)
+    t = re.sub(r'\beuh\.\.\.', 'hã...', t, flags=re.IGNORECASE)
 
     # 2. Remoção de QUALQUER tag ASS duplicada consecutiva
     t = re.sub(r'(\\{\\[^{}]+\\})\\1+', r'\\1', t)

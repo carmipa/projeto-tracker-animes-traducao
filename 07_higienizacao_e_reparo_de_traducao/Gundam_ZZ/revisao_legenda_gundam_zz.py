@@ -1,14 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Revisão extrema — Macross 7 (PT-BR)
-Restaura karaokê romaji/japonês do ENG, corrige lore, tags ASS e gafes do Mistral.
+Revisão extrema — Mobile Suit Gundam ZZ (PT-BR)
+Restaura karaokê romaji/japonês do ENG, corrige lore, tags ASS e gafes de LLM/Mistral.
 Opcional: remux mkvmerge com legendas corrigidas.
+
+Uso:
+  python revisao_legenda_gundam_zz.py
+  python revisao_legenda_gundam_zz.py --entrada PASTA_PTBR --eng PASTA_ENG --saida SAIDA
+  python revisao_legenda_gundam_zz.py --arquivo ep01_PTBR.ass --eng PASTA_ENG --saida SAIDA
 """
 
 import os
 import re
 import sys
+import json
+import time
 import shutil
 import argparse
 import subprocess
@@ -29,7 +36,7 @@ if hasattr(sys.stdout, "reconfigure"):
     except (OSError, ValueError):
         pass
 
-PASTA_ANIME_PADRAO = r"C:\animes\[AntBnecn] Macross 7 - Dynamite + Encore + Plus + Movie [720p BD]"
+PASTA_ANIME_PADRAO = r"C:\animes\Gundam_ZZ"
 SUBPASTAS_LEGENDA = ("legendas_ptbr", "legendas_eng", "legendas_ptbr_corrigidas")
 
 # Limite por arquivo .ass (evita leitura acidental de arquivos enormes)
@@ -51,29 +58,124 @@ ESTILOS_KARAOKE_ROMAJI = {
         "Kanji Karaoke",
         "Romaji Karaoke op",
         "Kanji Karaoke op",
+        "OP JAP",
+        "ED JAP",
+        "Anime Ja Nai",
+        "Silent Voice",
+        "Issenman-Nen Ginga",
+        "Jidai ga Naiteiru",
     )
 }
 
 SUBSTITUICOES_LORE = [
-    (re.compile(r"\bValqu[ií]ria\b", re.I), "Valkyrie"),
-    (re.compile(r"\bValqu[ií]rias\b", re.I), "Valkyries"),
-    (re.compile(r"\bProtodiabo[s]?\b", re.I), "Protodeviln"),
-    (re.compile(r"\bProtodevilns\b", re.I), "Protodeviln"),
-    (re.compile(r"\bBombardeiro[s]? de Fogo\b", re.I), "Fire Bomber"),
-    (re.compile(r"\bForça (?:do Som|Sonora)\b", re.I), "Sound Force"),
-    (re.compile(r"\bForça Diamante\b", re.I), "Diamond Force"),
-    (re.compile(r"\bForça Esmeralda\b", re.I), "Emerald Force"),
-    (re.compile(r"\bPássaros de Interferência\b", re.I), "Jamming Birds"),
-    (re.compile(r"\bDestruidor de Som\b", re.I), "Sound Buster"),
-    (re.compile(r"\bPrefeita Millia\b", re.I), "Prefeita Milia"),
-    (re.compile(r"\bMylene Flare Jenius\b", re.I), "Mylene Jenius"),
-    (re.compile(r"\bLutador(?:es)? Vari(?:ável|aveis)\b", re.I), "Variable Fighter"),
-    (re.compile(r"\bCity Seven\b", re.I), "City 7"),
-    (re.compile(r"\bBattle Seven\b", re.I), "Battle 7"),
+    # Facções e Organizações
+    (re.compile(r"\bNova Zeon\b", re.I), "Neo Zeon"),
+    (re.compile(r"\bNovo Zeon\b", re.I), "Neo Zeon"),
+    (re.compile(r"\bZeon Novo\b", re.I), "Neo Zeon"),
+    (re.compile(r"\bZeon Nova\b", re.I), "Neo Zeon"),
+    (re.compile(r"\bA\.E\.U\.G\b", re.I), "A.E.U.G."),
+    (re.compile(r"\bEletrônica Anaheim\b", re.I), "Anaheim Electronics"),
+    (re.compile(r"\bEletrônicos Anaheim\b", re.I), "Anaheim Electronics"),
+    
+    # Locais
+    (re.compile(r"\bShangri-la\b", re.I), "Shangri-La"),
+    (re.compile(r"\bO Eixo\b", re.I), "Axis"),
+    (re.compile(r"\bau Eixo\b", re.I), "a Axis"),
+    (re.compile(r"\bdo Eixo\b", re.I), "de Axis"),
+    (re.compile(r"\bno Eixo\b", re.I), "em Axis"),
+    (re.compile(r"\beixo\b", re.IGNORECASE), "Axis"),  # Pegará "o eixo", "ao eixo", "Eixo", etc. Em Gundam ZZ "eixo" quase 100% refere-se a Axis.
+    (re.compile(r"\bLua-Lua\b", re.I), "Moon-Moon"),
+    (re.compile(r"\bMundo da Lua\b", re.I), "Moon-Moon"),
+
+    # Personagens A.E.U.G. / Aliados / Neutros
+    (re.compile(r"\bJudau\s+Ashta\b", re.I), "Judau Ashta"),
+    (re.compile(r"\bJudau\s+Asta\b", re.I), "Judau Ashta"),
+    (re.compile(r"\bRoux\s+Louka\b", re.I), "Roux Louka"),
+    (re.compile(r"\bRu\s+Luka\b", re.I), "Roux Louka"),
+    (re.compile(r"\bBeecha\s+Oleg\b", re.I), "Beecha Oleg"),
+    (re.compile(r"\bBicha\s+Oleg\b", re.I), "Beecha Oleg"), # Evitar gafe de grafia
+    (re.compile(r"\bIino\s+Abbav\b", re.I), "Iino Abbav"),
+    (re.compile(r"\bIno\s+Abav\b", re.I), "Iino Abbav"),
+    (re.compile(r"\bMondo\s+Agake\b", re.I), "Mondo Agake"),
+    (re.compile(r"\bElle\s+Vianno\b", re.I), "Elle Vianno"),
+    (re.compile(r"\bLeina\s+Ashta\b", re.I), "Leina Ashta"),
+    (re.compile(r"\bBrilhante\s+Noa\b", re.I), "Bright Noa"), # "Brilhante Noa" é clássico
+    (re.compile(r"\bAstonaige\s+Medoz\b", re.I), "Astonaige Medoz"),
+    (re.compile(r"\bHayato\s+Kobayashi\b", re.I), "Hayato Kobayashi"),
+    (re.compile(r"\bKamille\s+Bidan\b", re.I), "Kamille Bidan"),
+    (re.compile(r"\bCamille\s+Bidan\b", re.I), "Kamille Bidan"),
+    (re.compile(r"\bFa\s+Yuiry\b", re.I), "Fa Yuiry"),
+    (re.compile(r"\bEmary\s+Ounce\b", re.I), "Emary Ounce"),
+
+    # Personagens Neo Zeon / Inimigos
+    (re.compile(r"\bHaman\s+Karn\b", re.I), "Haman Karn"),
+    (re.compile(r"\bHaman\s+Kan\b", re.I), "Haman Karn"),
+    (re.compile(r"\bSenhorita\s+Haman\b", re.I), "Lady Haman"),
+    (re.compile(r"\bMashymre\s+Cello\b", re.I), "Mashymre Cello"),
+    (re.compile(r"\bMashimar\b", re.I), "Mashymre"),
+    (re.compile(r"\bChara\s+Soon\b", re.I), "Chara Soon"),
+    (re.compile(r"\bChara\s+Sun\b", re.I), "Chara Soon"),
+    (re.compile(r"\bGlemy\s+Toto\b", re.I), "Glemy Toto"),
+    (re.compile(r"\bGlemi\s+Toto\b", re.I), "Glemy Toto"),
+    (re.compile(r"\bElpeo\s+Ple\b", re.I), "Elpeo Ple"),
+    (re.compile(r"\bElpeo\s+Puru\b", re.I), "Elpeo Ple"),
+    (re.compile(r"\bPle\s+Two\b", re.I), "Ple Two"),
+    (re.compile(r"\bPuru\s+Two\b", re.I), "Ple Two"),
+    (re.compile(r"\bPuru\s+Dois\b", re.I), "Ple Two"),
+    (re.compile(r"\bGottn\s+Goh\b", re.I), "Gottn Goh"),
+    (re.compile(r"\bGemon\s+Bajack\b", re.I), "Gemon Bajack"),
+    (re.compile(r"\bRakan\s+Dahkaran\b", re.I), "Rakan Dahkaran"),
+    (re.compile(r"\bAugust\s+Gidan\b", re.I), "August Gidan"),
+    (re.compile(r"\bIllia\s+Pazom\b", re.I), "Illia Pazom"),
+
+    # Naves e Peças
+    (re.compile(r"\bArgama\b", re.I), "Argama"),
+    (re.compile(r"\bNahel\s+Argama\b", re.I), "Nahel Argama"),
+    (re.compile(r"\bNael\s+Argama\b", re.I), "Nahel Argama"),
+    (re.compile(r"\bEndra\b", re.I), "Endra"),
+    (re.compile(r"\bSadalahn\b", re.I), "Sadalahn"),
+    (re.compile(r"\bGwanban\b", re.I), "Gwanban"),
+    (re.compile(r"\bTopo do Núcleo\b", re.I), "Core Top"),
+    (re.compile(r"\bBase do Núcleo\b", re.I), "Core Base"),
+    (re.compile(r"\bLutador do Núcleo\b", re.I), "Core Fighter"),
+    (re.compile(r"\bCaça do Núcleo\b", re.I), "Core Fighter"),
+    (re.compile(r"\bCavaleiro Mega\b", re.I), "Mega Rider"),
+
+    # Mobile Suits A.E.U.G.
+    (re.compile(r"\bDouble\s+Zeta\b", re.I), "Double Zeta"),
+    (re.compile(r"\bZeta\s+Duplo\b", re.I), "Double Zeta"),
+    (re.compile(r"\bZeta\s+Gundam\b", re.I), "Zeta Gundam"),
+    (re.compile(r"\bHyaku[ -]Shiki\b", re.I), "Hyaku Shiki"),
+    (re.compile(r"\bCem\s+Estilos\b", re.I), "Hyaku Shiki"), # Erro raro, mas possível
+    (re.compile(r"\bMk-II\b", re.I), "Mk-II"),
+    (re.compile(r"\bMarca\s+Dois\b", re.I), "Mk-II"),
+
+    # Mobile Suits Neo Zeon
+    (re.compile(r"\bQubeley\b", re.I), "Qubeley"),
+    (re.compile(r"\bQuebeley\b", re.I), "Qubeley"),
+    (re.compile(r"\bZaku\b", re.I), "Zaku"),
+    (re.compile(r"\bBawoo\b", re.I), "Bawoo"),
+    (re.compile(r"\bDreissen\b", re.I), "Dreissen"),
+    (re.compile(r"\bDöven\s+Wolf\b", re.I), "Doven Wolf"),
+    (re.compile(r"\bDoven\s+Wolf\b", re.I), "Doven Wolf"),
+    (re.compile(r"\bLobo\s+Doven\b", re.I), "Doven Wolf"),
+    (re.compile(r"\bQuin\s+Mantha\b", re.I), "Queen Mansa"), # Ajustado para Queen Mansa que é mais legível, ou Quin Mantha dependendo do purismo. Vamos de Quin Mantha que é o oficial do kit
+    (re.compile(r"\bRainha\s+Mansa\b", re.I), "Quin Mantha"),
+    (re.compile(r"\bQueen\s+Mansa\b", re.I), "Quin Mantha"),
+    (re.compile(r"\bGeymalk\b", re.I), "Geymalk"),
+    (re.compile(r"\bZssa\b", re.I), "Zssa"),
+    (re.compile(r"\bGalluss-J\b", re.I), "Galluss-J"),
+    (re.compile(r"\bHamma-Hamma\b", re.I), "Hamma-Hamma"),
+    (re.compile(r"\bR-Jarja\b", re.I), "R-Jarja"),
+    (re.compile(r"\bGaza-C\b", re.I), "Gaza-C"),
+    (re.compile(r"\bGaza-D\b", re.I), "Gaza-D"),
+    (re.compile(r"\bJamru\s+Fin\b", re.I), "Jamru Fin"),
 ]
 
 GRAMATICA_E_GAFES = {
     "Eu vejo.": "Entendo.",
+    "Eu vejo que": "Percebo que",
+    "eu vejo que": "percebo que",
     "Olhe fora!": "Cuidado!",
     "Olha fora!": "Cuidado!",
     "Você é direito": "Você tem razão",
@@ -105,24 +207,7 @@ GRAMATICA_E_GAFES = {
 }
 
 # Correções cirúrgicas: chave = número da linha no arquivo .ass (1-indexed)
-CORRECOES_ESPECIFICAS = {
-    "dynamite_1": {
-        312: r"{\a6\pos(505.5,571.5)}O que é isso?\NSerá que ele é daquela época?",
-        407: "É uma nova fronteira.",
-        410: "É uma nova fronteira.",
-    },
-    "dynamite_3": {
-        276: r"{\pos(511.5,649.5)}Depois que você saiu de casa, ele disse que a\Nbaleia branca é a mais forte, mas solitária.",
-    },
-    "movie": {
-        287: r"{\a6}Spiritia incomum detectada em\NG Z O P F - B F L S D.",
-        288: r"Spiritia incomum detectada em\NG Z O P F - B F L S D.",
-    },
-    "plus_7_11": {
-        98: r"{\be1}O quê? Vampiros estão à solta?",
-        101: r"{\be1} Embora haja rumores de que os\Nvampiros são infiltradores inimigos...",
-    },
-}
+CORRECOES_ESPECIFICAS = {}
 
 
 def _emit(msg="", *, end="\n"):
@@ -138,6 +223,39 @@ def normalizar_caminho(caminho):
     return caminho
 
 
+def validar_arquivo_legenda(caminho, extensao=".ass"):
+    caminho = os.path.abspath(os.path.normpath(normalizar_caminho(caminho)))
+    if not os.path.isfile(caminho):
+        raise ValueError(f"Arquivo não encontrado: {caminho}")
+    if not caminho.lower().endswith(extensao.lower()):
+        raise ValueError(f"Extensão inválida (use {extensao}): {caminho}")
+    return caminho
+
+
+def caminho_saida_relativo(pasta_entrada, caminho_arq, pasta_saida):
+    """Espelha subpastas da entrada na saída."""
+    pasta_entrada = os.path.abspath(pasta_entrada)
+    caminho_arq = os.path.abspath(caminho_arq)
+    pasta_saida = os.path.abspath(pasta_saida)
+    rel = os.path.relpath(os.path.dirname(caminho_arq), pasta_entrada)
+    destino_dir = pasta_saida if rel == "." else os.path.join(pasta_saida, rel)
+    return os.path.join(destino_dir, os.path.basename(caminho_arq))
+
+
+def gravar_arquivo_atomico(caminho, linhas):
+    caminho_tmp = caminho + ".tmp"
+    with open(caminho_tmp, "w", encoding="utf-8-sig") as f:
+        f.writelines(linhas)
+    os.replace(caminho_tmp, caminho)
+
+
+def formatar_eta(segundos_restantes):
+    if segundos_restantes < 0 or segundos_restantes > 86400:
+        return "?"
+    m, s = divmod(int(segundos_restantes), 60)
+    return f"{m}m{s:02d}s" if m else f"{s}s"
+
+
 def validar_pasta(caminho, rotulo="Pasta"):
     """Resolve e valida diretório informado pelo operador."""
     caminho = normalizar_caminho(caminho)
@@ -151,8 +269,8 @@ def validar_pasta(caminho, rotulo="Pasta"):
 
 def caminho_dentro_de(base, alvo):
     """Garante que alvo resolvido permanece dentro de base (anti path traversal)."""
-    base_abs = os.path.abspath(os.path.normpath(base))
-    alvo_abs = os.path.abspath(os.path.normpath(alvo))
+    base_abs = os.path.normcase(os.path.abspath(os.path.normpath(base)))
+    alvo_abs = os.path.normcase(os.path.abspath(os.path.normpath(alvo)))
     try:
         comum = os.path.commonpath([base_abs, alvo_abs])
     except ValueError:
@@ -214,20 +332,9 @@ MKVMERGE_PATH = achar_mkvtoolnix()
 
 def obter_chave_episodio(nome_arquivo):
     nome_lower = nome_arquivo.lower()
-    if "dynamite" in nome_lower:
-        m = re.search(r"-\s*(\d+)", nome_lower)
-        return f"dynamite_{int(m.group(1))}" if m else "dynamite"
-    if "encore" in nome_lower:
-        m = re.search(r"-\s*(\d+)", nome_lower)
-        return f"encore_{int(m.group(1))}" if m else "encore"
-    if "movie" in nome_lower:
-        return "movie"
-    if "plus" in nome_lower:
-        if "01-06" in nome_lower:
-            return "plus_1_6"
-        if "07-11" in nome_lower:
-            return "plus_7_11"
-        return "plus"
+    m = re.search(r"-\s*(\d+)", nome_lower)
+    if m:
+        return f"ep_{int(m.group(1))}"
     return "desconhecido"
 
 
@@ -271,8 +378,8 @@ def indexar_dialogos_eng(linhas):
     return dialogos
 
 
-def achar_legenda_eng(nome_ptbr, pasta_eng):
-    nome_ptbr = nome_arquivo_seguro(nome_ptbr)
+def achar_legenda_eng(caminho_ptbr, pasta_eng, pasta_ptbr_base=None):
+    nome_ptbr = nome_arquivo_seguro(os.path.basename(caminho_ptbr))
     if not nome_ptbr:
         return None
     pasta_eng = os.path.abspath(pasta_eng)
@@ -281,6 +388,21 @@ def achar_legenda_eng(nome_ptbr, pasta_eng):
         nome_ptbr.replace("_PTBR.ass", ".ass"),
         nome_ptbr.replace("_ptbr.ass", "_ENG.ass"),
     ]
+
+    if pasta_ptbr_base:
+        try:
+            rel_dir = os.path.relpath(os.path.dirname(os.path.abspath(caminho_ptbr)), os.path.abspath(pasta_ptbr_base))
+        except ValueError:
+            rel_dir = "."
+        if rel_dir != ".":
+            for nome in candidatos:
+                nome = nome_arquivo_seguro(nome)
+                if not nome:
+                    continue
+                caminho = os.path.join(pasta_eng, rel_dir, nome)
+                if os.path.isfile(caminho) and caminho_dentro_de(pasta_eng, caminho):
+                    return caminho
+
     for nome in candidatos:
         nome = nome_arquivo_seguro(nome)
         if not nome:
@@ -288,29 +410,29 @@ def achar_legenda_eng(nome_ptbr, pasta_eng):
         caminho = os.path.join(pasta_eng, nome)
         if os.path.isfile(caminho) and caminho_dentro_de(pasta_eng, caminho):
             return caminho
+
     prefixo = nome_ptbr.split("_PTBR")[0].split("_ptbr")[0]
-    for nome in os.listdir(pasta_eng):
-        seguro = nome_arquivo_seguro(nome)
-        if not seguro:
+    for dirpath, _dirnames, filenames in os.walk(pasta_eng):
+        if not caminho_dentro_de(pasta_eng, dirpath):
             continue
-        if seguro.lower().endswith(".ass") and seguro.startswith(prefixo):
-            caminho = os.path.join(pasta_eng, seguro)
-            if os.path.isfile(caminho) and caminho_dentro_de(pasta_eng, caminho):
-                return caminho
+        for nome in filenames:
+            seguro = nome_arquivo_seguro(nome)
+            if not seguro:
+                continue
+            if seguro.lower().endswith(".ass") and seguro.startswith(prefixo):
+                caminho = os.path.join(dirpath, seguro)
+                if os.path.isfile(caminho) and caminho_dentro_de(pasta_eng, caminho):
+                    return caminho
     return None
 
 
 def listar_arquivos_ass(pasta):
+    """Lista .ass recursivamente, preservando estrutura de subpastas."""
     pasta = os.path.abspath(pasta)
     arquivos = []
     vistos = set()
-    for dirpath, dirnames, filenames in os.walk(pasta):
+    for dirpath, _dirnames, filenames in os.walk(pasta):
         if not caminho_dentro_de(pasta, dirpath):
-            dirnames.clear()
-            continue
-        profundidade = dirpath[len(pasta):].count(os.sep)
-        if profundidade > 1:
-            dirnames.clear()
             continue
         for nome in filenames:
             seguro = nome_arquivo_seguro(nome)
@@ -389,9 +511,18 @@ def higienizar_texto(texto, eh_grafico=False):
     return t
 
 
-def processar_legendas(pasta_ptbr_in, pasta_eng_in, pasta_ptbr_out, dry_run=False, permitir_in_place=False):
+def processar_legendas(
+    pasta_ptbr_in,
+    pasta_eng_in,
+    pasta_ptbr_out,
+    dry_run=False,
+    permitir_in_place=False,
+    pular_existentes=False,
+    arquivos_ptbr=None,
+):
     pasta_ptbr_in = validar_pasta(pasta_ptbr_in, "Pasta PT-BR")
-    pasta_eng_in = validar_pasta(pasta_eng_in, "Pasta ENG")
+    if pasta_eng_in:
+        pasta_eng_in = validar_pasta(pasta_eng_in, "Pasta ENG")
     os.makedirs(pasta_ptbr_out, exist_ok=True)
     pasta_ptbr_out = os.path.abspath(os.path.normpath(pasta_ptbr_out))
 
@@ -404,19 +535,38 @@ def processar_legendas(pasta_ptbr_in, pasta_eng_in, pasta_ptbr_out, dry_run=Fals
             return False, None
         _emit(f"{Fore.YELLOW}[AVISO] Modo in-place: sobrescrevendo legendas PT-BR na origem.")
 
-    _emit(f"\n{Fore.CYAN}=== REVISÃO EXTREMA MACROSS 7 ===")
+    _emit(f"\n{Fore.CYAN}=== REVISÃO EXTREMA GUNDAM ZZ ===")
     _emit(f"Originais (ENG) : {pasta_eng_in}")
     _emit(f"Traduzidas (PT) : {pasta_ptbr_in}")
     _emit(f"Destino (PT-COR): {pasta_ptbr_out}")
     if dry_run:
         _emit(f"{Fore.YELLOW}[DRY-RUN] Nenhuma alteração será gravada.")
 
-    arquivos_ptbr = listar_arquivos_ass(pasta_ptbr_in)
-    _emit(f"Encontrados {len(arquivos_ptbr)} arquivo(s) .ass\n{'-' * 80}")
+    if arquivos_ptbr:
+        jobs = []
+        for caminho in arquivos_ptbr:
+            caminho = validar_arquivo_legenda(caminho)
+            if not caminho_dentro_de(pasta_ptbr_in, caminho):
+                _emit(f"{Fore.YELLOW}[AVISO] Arquivo fora da pasta PT-BR: {caminho}")
+            if permitir_in_place:
+                caminho_saida = caminho
+            elif caminho_dentro_de(pasta_ptbr_in, caminho):
+                caminho_saida = caminho_saida_relativo(pasta_ptbr_in, caminho, pasta_ptbr_out)
+            else:
+                caminho_saida = os.path.join(pasta_ptbr_out, os.path.basename(caminho))
+            jobs.append((caminho, caminho_saida))
+    else:
+        jobs = [
+            (caminho, caminho_saida_relativo(pasta_ptbr_in, caminho, pasta_ptbr_out))
+            for caminho in listar_arquivos_ass(pasta_ptbr_in)
+        ]
+
+    _emit(f"Encontrados {len(jobs)} arquivo(s) .ass\n{'-' * 80}")
 
     log_modificacoes = []
     stats = {
         "arquivos_processados": 0,
+        "arquivos_pulados": 0,
         "linhas_modificadas": 0,
         "karaoke_restaurado": 0,
         "lore_corrigido": 0,
@@ -424,20 +574,41 @@ def processar_legendas(pasta_ptbr_in, pasta_eng_in, pasta_ptbr_out, dry_run=Fals
         "correcoes_manuais": 0,
     }
 
-    for num_arq, caminho_ptbr_in in enumerate(arquivos_ptbr, 1):
-        if not caminho_dentro_de(pasta_ptbr_in, caminho_ptbr_in):
+    tempo_inicio = time.time()
+    pulados = 0
+
+    for num_arq, (caminho_ptbr_in, caminho_ptbr_out) in enumerate(jobs, 1):
+        if not caminho_dentro_de(pasta_ptbr_in, caminho_ptbr_in) and not arquivos_ptbr:
             _emit(f"{Fore.YELLOW}[AVISO] Ignorando caminho fora da pasta de entrada: {caminho_ptbr_in}")
             continue
 
         arq = os.path.basename(caminho_ptbr_in)
-        caminho_eng_in = achar_legenda_eng(arq, pasta_eng_in)
-        caminho_ptbr_out = os.path.join(pasta_ptbr_out, arq)
-        if not caminho_dentro_de(pasta_ptbr_out, caminho_ptbr_out):
+        os.makedirs(os.path.dirname(caminho_ptbr_out) or ".", exist_ok=True)
+
+        if pular_existentes and os.path.isfile(caminho_ptbr_out) and not permitir_in_place:
+            pulados += 1
+            stats["arquivos_pulados"] += 1
+            _emit(f"{Fore.CYAN}[{num_arq}/{len(jobs)}] Pulando (já existe): {os.path.basename(caminho_ptbr_out)}")
+            continue
+
+        if not caminho_dentro_de(pasta_ptbr_out, caminho_ptbr_out) and not permitir_in_place:
             _emit(f"{Fore.RED}[ERRO] Caminho de saída inválido (path traversal): {caminho_ptbr_out}")
             continue
+
+        caminho_eng_in = achar_legenda_eng(caminho_ptbr_in, pasta_eng_in, pasta_ptbr_in)
         chave_ep = obter_chave_episodio(arq)
 
-        _emit(f"{Fore.CYAN}[{num_arq}/{len(arquivos_ptbr)}] {arq} (chave: {chave_ep})")
+        decorrido = time.time() - tempo_inicio
+        processados = num_arq - 1 - pulados
+        sufixo_eta = ""
+        if processados > 0:
+            media = decorrido / processados
+            restantes = len(jobs) - num_arq + 1
+            sufixo_eta = f" | ETA: {formatar_eta(media * restantes)}"
+
+        _emit(f"{Fore.CYAN}[{num_arq}/{len(jobs)}] {arq} (chave: {chave_ep}){sufixo_eta}")
+        _emit(f"  Entrada: {caminho_ptbr_in}")
+        _emit(f"  Saída  : {caminho_ptbr_out}")
 
         try:
             linhas_ptbr, _ = ler_arquivo_legenda(caminho_ptbr_in)
@@ -501,7 +672,7 @@ def processar_legendas(pasta_ptbr_in, pasta_eng_in, pasta_ptbr_out, dry_run=Fals
                     texto_final = texto_hig
                     modificada = True
                     if contem_lore:
-                        motivo = "Correção de lore Macross"
+                        motivo = "Correção de lore Gundam ZZ"
                         tipo = "LORE"
                     else:
                         motivo = "Higienização estrutural / gramática"
@@ -531,8 +702,7 @@ def processar_legendas(pasta_ptbr_in, pasta_eng_in, pasta_ptbr_out, dry_run=Fals
             linhas_novas.append(f"{prefixo}{texto_final}\n")
 
         if not dry_run:
-            with open(caminho_ptbr_out, "w", encoding="utf-8-sig") as f:
-                f.writelines(linhas_novas)
+            gravar_arquivo_atomico(caminho_ptbr_out, linhas_novas)
 
         if modificacoes_arquivo:
             status = "SIMULADO" if dry_run else "SALVO"
@@ -541,22 +711,49 @@ def processar_legendas(pasta_ptbr_in, pasta_eng_in, pasta_ptbr_out, dry_run=Fals
             _emit("  [OK] Nenhuma correção necessária.")
         _emit("-" * 50)
 
-    _salvar_log(log_modificacoes, stats, dry_run)
+    _salvar_log(log_modificacoes, stats, dry_run, pasta_ptbr_in, pasta_eng_in, pasta_ptbr_out)
     return True, stats
 
 
-def _salvar_log(log_modificacoes, stats, dry_run):
-    if not log_modificacoes:
-        return
+def _salvar_log(log_modificacoes, stats, dry_run, pasta_ptbr=None, pasta_eng=None, pasta_out=None):
     pasta_logs = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
     os.makedirs(pasta_logs, exist_ok=True)
     ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    caminho_log = os.path.join(pasta_logs, f"revisao_macross7_{ts}.txt")
+    modo = "DRY-RUN" if dry_run else "PRODUÇÃO"
+
+    caminho_json = os.path.join(pasta_logs, f"stats_gundam_zz_{ts}.json")
+    payload = {
+        "timestamp": ts,
+        "modo": modo,
+        "pastas": {
+            "ptbr": pasta_ptbr,
+            "eng": pasta_eng,
+            "saida": pasta_out,
+        },
+        "stats": stats,
+        "total_modificacoes": len(log_modificacoes),
+    }
+    try:
+        with open(caminho_json, "w", encoding="utf-8") as fj:
+            json.dump(payload, fj, indent=2, ensure_ascii=False)
+        _emit(f"{Fore.GREEN}✓ Stats JSON: {caminho_json}")
+    except OSError as e:
+        _emit(f"{Fore.YELLOW}[AVISO] Falha ao gravar stats JSON: {e}")
+
+    if not log_modificacoes:
+        return
+
+    caminho_log = os.path.join(pasta_logs, f"revisao_gundam_zz_{ts}.txt")
     try:
         with open(caminho_log, "w", encoding="utf-8") as fl:
-            modo = "DRY-RUN" if dry_run else "PRODUÇÃO"
-            fl.write(f"RELATÓRIO REVISÃO EXTREMA MACROSS 7 ({modo})\n")
+            fl.write(f"RELATÓRIO REVISÃO EXTREMA GUNDAM ZZ ({modo})\n")
             fl.write(f"Executado: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            if pasta_ptbr:
+                fl.write(f"PT-BR : {pasta_ptbr}\n")
+            if pasta_eng:
+                fl.write(f"ENG   : {pasta_eng}\n")
+            if pasta_out:
+                fl.write(f"Saída : {pasta_out}\n")
             for chave, valor in stats.items():
                 fl.write(f"  {chave}: {valor}\n")
             fl.write("=" * 100 + "\n\n")
@@ -570,6 +767,20 @@ def _salvar_log(log_modificacoes, stats, dry_run):
         _emit(f"{Fore.GREEN}✓ Log: {caminho_log}")
     except OSError as e:
         _emit(f"{Fore.YELLOW}[AVISO] Falha ao gravar log: {e}")
+
+
+def _nomes_combinam(nome_video, nome_legenda):
+    """Compara nome base do vídeo com a legenda evitando prefixo ambíguo
+    (ex.: 'Episodio_1' não deve combinar com 'Episodio_10')."""
+    base_leg = nome_legenda.split("_PTBR")[0]
+    for candidato in (nome_legenda, base_leg):
+        if candidato == nome_video:
+            return True
+        if candidato.startswith(nome_video):
+            resto = candidato[len(nome_video):]
+            if resto and not resto[0].isdigit():
+                return True
+    return False
 
 
 def remuxar_mkv(pasta_mkv, pasta_legendas_corrigidas):
@@ -606,7 +817,7 @@ def remuxar_mkv(pasta_mkv, pasta_legendas_corrigidas):
         nome_base = video[:-4]
         legenda = None
         for leg in legendas:
-            if leg.startswith(nome_base) or nome_base in leg.split("_PTBR")[0]:
+            if _nomes_combinam(nome_base, leg):
                 legenda = leg
                 break
         if not legenda:
@@ -635,7 +846,7 @@ def remuxar_mkv(pasta_mkv, pasta_legendas_corrigidas):
             MKVMERGE_PATH, "-o", caminho_out,
             "--no-subtitles", caminho_mkv,
             "--language", "0:por",
-            "--track-name", "0:Português (Revisão Macross 7)",
+            "--track-name", "0:Português (Revisão Gundam ZZ)",
             "--default-track", "0:yes",
             "--forced-display-flag", "0:no",
             caminho_leg,
@@ -714,7 +925,7 @@ def deduzir_pasta_saida(pasta_ptbr, raiz_anime=None):
 
 
 def resolver_caminhos(args):
-    """Resolve pastas via CLI, argumento posicional ou prompts interativos."""
+    """Resolve pastas via CLI, --arquivo, argumento posicional ou prompts interativos."""
     try:
         raiz_anime = validar_pasta(args.pasta_anime, "Pasta anime") if args.pasta_anime else None
     except ValueError as e:
@@ -722,12 +933,24 @@ def resolver_caminhos(args):
         sys.exit(1)
 
     interativo = sys.stdin.isatty() and not args.sem_prompt
+    arquivos_cli = []
+
+    if args.arquivo:
+        for caminho in args.arquivo:
+            try:
+                arquivos_cli.append(validar_arquivo_legenda(caminho))
+            except ValueError as e:
+                _emit(f"{Fore.RED}[ERRO] {e}")
+                sys.exit(1)
 
     try:
         pasta_ptbr = normalizar_caminho(args.entrada) or normalizar_caminho(args.pasta_ptbr)
     except ValueError as e:
         _emit(f"{Fore.RED}[ERRO] {e}")
         sys.exit(1)
+
+    if arquivos_cli and not pasta_ptbr:
+        pasta_ptbr = os.path.dirname(arquivos_cli[0])
 
     if not pasta_ptbr and interativo:
         padrao_pt = os.path.join(PASTA_ANIME_PADRAO, "legendas_ptbr")
@@ -744,22 +967,28 @@ def resolver_caminhos(args):
         sys.exit(1)
 
     if args.eng:
-        try:
-            pasta_eng = validar_pasta(args.eng, "Pasta ENG")
-        except ValueError as e:
-            _emit(f"{Fore.RED}[ERRO] {e}")
-            sys.exit(1)
+        if os.path.isdir(args.eng):
+            pasta_eng = os.path.abspath(args.eng)
+        else:
+            _emit(f"{Fore.YELLOW}[AVISO] Pasta ENG não encontrada: {args.eng}")
+            pasta_eng = None
     elif interativo:
-        pasta_eng = obter_pasta_operador(
-            "Pasta das legendas ENG originais (.ass)",
-            deduzir_pasta_eng(pasta_ptbr, raiz_anime),
-        )
+        # Pula validação chata interativa se não achar nada
+        _deduzida = deduzir_pasta_eng(pasta_ptbr, raiz_anime)
+        if os.path.isdir(_deduzida):
+            pasta_eng = obter_pasta_operador(
+                "Pasta das legendas ENG originais (.ass)",
+                _deduzida,
+            )
+        else:
+            _emit(f"{Fore.YELLOW}[AVISO] Pasta ENG deduzida não existe. Ignorando ENG.")
+            pasta_eng = None
     else:
-        try:
-            pasta_eng = validar_pasta(deduzir_pasta_eng(pasta_ptbr, raiz_anime), "Pasta ENG")
-        except ValueError as e:
-            _emit(f"{Fore.RED}[ERRO] {e}")
-            sys.exit(1)
+        _deduzida = deduzir_pasta_eng(pasta_ptbr, raiz_anime)
+        if os.path.isdir(_deduzida):
+            pasta_eng = os.path.abspath(_deduzida)
+        else:
+            pasta_eng = None
 
     if args.saida:
         pasta_out = os.path.abspath(os.path.normpath(normalizar_caminho(args.saida)))
@@ -787,16 +1016,17 @@ def resolver_caminhos(args):
             _emit(f"{Fore.RED}[ERRO] {e}")
             sys.exit(1)
 
-    return pasta_ptbr, pasta_eng, pasta_out, pasta_mkv
+    return pasta_ptbr, pasta_eng, pasta_out, pasta_mkv, arquivos_cli or None
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Revisão extrema Macross 7 — lore, karaoke, tags ASS",
+        description="Revisão extrema Gundam ZZ — lore, karaoke, tags ASS",
         epilog=(
             "Exemplos:\n"
-            "  python revisao_legenda_macross7.py\n"
-            "  python revisao_legenda_macross7.py \"C:\\animes\\...\\legendas_ptbr\"\n"
-            "  python revisao_legenda_macross7.py --entrada PT --eng ENG --saida SAIDA\n"
+            "  python revisao_legenda_gundam_zz.py\n"
+            "  python revisao_legenda_gundam_zz.py \"C:\\animes\\Gundam_ZZ\\legendas_ptbr\"\n"
+            "  python revisao_legenda_gundam_zz.py --entrada PT --eng ENG --saida SAIDA\n"
+            "  python revisao_legenda_gundam_zz.py --arquivo ep01_PTBR.ass --eng ENG --saida SAIDA\n"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -810,12 +1040,18 @@ def main():
         dest="entrada",
         help="Pasta das legendas PT-BR traduzidas",
     )
+    parser.add_argument(
+        "--arquivo",
+        nargs="+",
+        metavar="CAMINHO",
+        help="Um ou mais arquivos .ass específicos (ignora varredura de pasta)",
+    )
     parser.add_argument("--eng", help="Pasta das legendas ENG originais")
     parser.add_argument("--saida", help="Pasta de saída das legendas corrigidas")
     parser.add_argument(
         "--pasta-anime",
         default=None,
-        help=f"Raiz do anime (MKV); usado só se --entrada/--eng/--saida omitidos (padrão interativo: {PASTA_ANIME_PADRAO})",
+        help=f"Raiz do anime (MKV); padrão interativo: {PASTA_ANIME_PADRAO}",
     )
     parser.add_argument(
         "--pasta-mkv",
@@ -826,9 +1062,14 @@ def main():
     parser.add_argument("--no-remux", action="store_true", help="Não perguntar/remuxar MKV")
     parser.add_argument("--remux", action="store_true", help="Remux automático (sem prompt)")
     parser.add_argument(
+        "--pular-existentes",
+        action="store_true",
+        help="Não reprocessa se a saída já existir",
+    )
+    parser.add_argument(
         "--sem-prompt",
         action="store_true",
-        help="Não perguntar pastas — usa defaults automáticos (sem terminal interativo)",
+        help="Não perguntar pastas — usa defaults automáticos",
     )
     parser.add_argument(
         "--in-place",
@@ -837,27 +1078,35 @@ def main():
     )
     args = parser.parse_args()
 
-    pasta_ptbr, pasta_eng, pasta_out, pasta_mkv = resolver_caminhos(args)
+    pasta_ptbr, pasta_eng, pasta_out, pasta_mkv, arquivos_cli = resolver_caminhos(args)
 
     _emit("=" * 80)
-    _emit(f"{Fore.CYAN}  REVISÃO EXTREMA — MACROSS 7")
+    _emit(f"{Fore.CYAN}  REVISÃO EXTREMA — GUNDAM ZZ")
     _emit("=" * 80)
     _emit(f"{Fore.WHITE}PT-BR (entrada): {pasta_ptbr}")
     _emit(f"{Fore.WHITE}ENG  (origem) : {pasta_eng}")
     _emit(f"{Fore.WHITE}Saída         : {pasta_out}")
+    if arquivos_cli:
+        _emit(f"{Fore.WHITE}Modo arquivo  : {len(arquivos_cli)} legenda(s)")
     if args.remux or not args.no_remux:
         _emit(f"{Fore.WHITE}MKV  (remux)  : {pasta_mkv}")
 
     ok, stats = processar_legendas(
-        pasta_ptbr, pasta_eng, pasta_out,
+        pasta_ptbr,
+        pasta_eng,
+        pasta_out,
         dry_run=args.dry_run,
         permitir_in_place=args.in_place,
+        pular_existentes=args.pular_existentes,
+        arquivos_ptbr=arquivos_cli,
     )
 
     if ok and stats:
         _emit("\n" + "=" * 80)
         _emit(f"{Fore.CYAN}ESTATÍSTICAS:")
         _emit(f"  Arquivos processados     : {stats['arquivos_processados']}")
+        if stats.get("arquivos_pulados"):
+            _emit(f"  Arquivos pulados         : {stats['arquivos_pulados']}")
         _emit(f"  Linhas modificadas       : {Fore.YELLOW}{stats['linhas_modificadas']}")
         _emit(f"    Karaokê restaurados    : {stats['karaoke_restaurado']}")
         _emit(f"    Lore corrigido         : {stats['lore_corrigido']}")
@@ -887,3 +1136,8 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         _emit(f"\n{Fore.YELLOW}[AVISO] Interrompido pelo operador.")
         sys.exit(0)
+    except Exception as e:
+        _emit(f"\n{Fore.RED}[ERRO CRÍTICO] Falha inesperada: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(2)

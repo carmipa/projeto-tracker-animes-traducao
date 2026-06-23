@@ -1,0 +1,63 @@
+
+================================================================================
+PIPELINE INDUSTRIAL DE TRADUÇÃO EN -> PT-BR | MACROSS II
+================================================================================
+Início    : 2026-06-22 14:39:19
+Python    : 3.13.13
+Pasta logs: d:\PROJETOS-OPEN\projeto-tracker-animes-traducao\05b_tradutor_llm_mistral_nemo\Macross_II\logs
+================================================================================
+
+
+================================================================================
+            PIPELINE INDUSTRIAL UNIFICADO — MACROSS II (EN -> PT-BR)            
+================================================================================
+
+[14:39:19.264] [INFO    ] Cache carregado: 0 traduções disponíveis.
+
+================================================================================
+                          VALIDAÇÃO DE INFRAESTRUTURA                           
+================================================================================
+
+[14:39:19.273] [DEBUG   ] Testando LM Studio em http://127.0.0.1:1234...
+[14:39:19.281] [SUCESSO ] LM Studio OK — 5 modelo(s) carregado(s)
+[14:39:19.281] [INFO    ] Usando modelo ativo: mistralai/mistral-nemo-instruct-2407
+
+================================================================================
+                             DIRETÓRIOS DE TRABALHO                             
+================================================================================
+
+[14:39:29.160] [INFO    ] Pasta de entrada: C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_eng
+[14:40:06.114] [INFO    ] Pasta de saída: C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_ptbr
+[14:40:06.114] [INFO    ] Carregados 6 arquivo(s) de legenda.
+[14:40:06.115] [DEBUG   ] Config salvo: config_en_macross2_2026-06-22_14-39-19.txt
+
+================================================================================
+                          PROCESSANDO TRADUÇÃO EM LOTE                          
+================================================================================
+
+[14:40:06.116] [INFO    ] Entrada: C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_eng\Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_ENG.ass
+[14:40:06.116] [INFO    ] Saída  : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_ptbr\Macross II - 01v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass
+[14:40:06.118] [INFO    ] Cache hits neste arquivo: 0 | Misses a traduzir: 249
+[14:42:29.515] [INFO    ] Entrada: C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_eng\Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_ENG.ass
+[14:42:29.515] [INFO    ] Saída  : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_ptbr\Macross II - 02v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass
+[14:42:29.516] [INFO    ] Cache hits neste arquivo: 0 | Misses a traduzir: 228
+[14:44:36.853] [INFO    ] Entrada: C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_eng\Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_ENG.ass
+[14:44:36.853] [INFO    ] Saída  : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_ptbr\Macross II - 03v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass
+[14:44:36.854] [INFO    ] Cache hits neste arquivo: 0 | Misses a traduzir: 261
+[14:46:32.586] [INFO    ] Entrada: C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_eng\Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_ENG.ass
+[14:46:32.586] [INFO    ] Saída  : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_ptbr\Macross II - 04v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass
+[14:46:32.587] [INFO    ] Cache hits neste arquivo: 6 | Misses a traduzir: 188
+[14:47:56.882] [INFO    ] Entrada: C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_eng\Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_ENG.ass
+[14:47:56.882] [INFO    ] Saída  : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_ptbr\Macross II - 05v2 (BDRip 1440x1080p x265 HEVC FLAC 2.0)[sxales]_PTBR.ass
+[14:47:56.883] [INFO    ] Cache hits neste arquivo: 2 | Misses a traduzir: 206
+[14:49:28.352] [AVISO   ] Lote parcial 7/8. Retraduzindo 1 linha(s) individualmente...
+[14:49:34.107] [INFO    ] Entrada: C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_eng\Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_ENG.ass
+[14:49:34.107] [INFO    ] Saída  : C:\animes\Macross II (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales](v2)\legendas_ptbr\Macross II - 06v2 (BDRip 1440x1080p x265 HEVC FLACx2 2.0x2)[sxales]_PTBR.ass
+[14:49:34.108] [INFO    ] Cache hits neste arquivo: 7 | Misses a traduzir: 234
+[14:51:12.579] [AVISO   ] Lote parcial 7/8. Retraduzindo 1 linha(s) individualmente...
+
+================================================================================
+                              MÉTRICAS DA EXECUÇÃO                              
+================================================================================
+
+[14:51:43.614] [DEBUG   ] Stats salvo: stats_en_macross2_2026-06-22_14-39-19.json

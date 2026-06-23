@@ -19,6 +19,7 @@ import time
 import shutil
 import argparse
 import subprocess
+from difflib import SequenceMatcher
 from datetime import datetime
 
 try:
@@ -183,6 +184,7 @@ GRAMATICA_E_GAFES = {
     "Tenente-Capital": "Tenente-Capitão",
     "mariône": "marionete",
     "Big Brother": "Irmãozão",
+    "Grande Irmão": "Irmãozão",
     "Fool!": "idiota!",
     "Fool": "idiota",
     "Miss Milly": "Srta. Milly",
@@ -264,6 +266,18 @@ CORRECOES_REGEX_GERAIS = [
     (re.compile(r"(?i)(^|\\N)I can go back to the moon and see"), r"\1Posso voltar para a Lua e ver"),
     (re.compile(r"(?i)(^|\\N)Nous terminaremos"), r"\1Nós terminaremos"),
     (re.compile(r"(?i)(^|\\N)I decido"), r"\1Eu decido"),
+    (re.compile(r"(?i)both my parents had to leave home to\\Nlook for work, thanks to the war\."), r"meus pais tiveram que sair de casa\\Nem busca de trabalho, por causa da guerra."),
+    (re.compile(r"(?i)(^|\\N)At least let us put the hatch on!"), r"\1Pelo menos deixe-nos colocar a escotilha!"),
+    (re.compile(r"(?i)Mobile suits make me\.\.\. Make me\.\.\.!"), "Mobile suits me deixam... me deixam...!"),
+    (re.compile(r"(?i)exactly like we thought he was!"), "exatamente como pensávamos!"),
+    (re.compile(r"(?i)\bI-It just grazed me!"), "S-Só passou de raspão!"),
+    (re.compile(r"(?i)A-Are você trying to get us killed\?!"), "V-Você está tentando nos matar?!"),
+    (re.compile(r"(?i)W-Wait a minute\.\.\. Do you want\\Nme to take my clothes off\?"), r"E-Espere um pouco... Você quer\\Nque eu tire a roupa?"),
+    (re.compile(r"(?i)(^|\\N)I-Is he a friend of yours\?"), r"\1E-Ele é amigo seu?"),
+    (re.compile(r"(?i)exactly the thing to get my body back in shape\."), "exatamente o que eu preciso para recuperar a forma."),
+    (re.compile(r"(?i)(^|\\N)Hurry up and get on that bus!"), r"\1Depressa, entre naquele ônibus!"),
+    (re.compile(r"(?i)(^|\\N)H-Hold on a sec!"), r"\1E-Espere um pouco!"),
+    (re.compile(r"(?i)(^|\\N)Y-You're right\. If this works out,"), r"\1V-Você tem razão. Se isso der certo,"),
     (re.compile(r"\\N\s+ão\b", re.I), r"\\Nnão"),
     (re.compile(r"\b[Nn]ão\s+volte\b"), "não volte"),
     (re.compile(r"\\Ndo Federação\b", re.I), r"\\Nda Federação"),
@@ -280,6 +294,27 @@ CORRECOES_REGEX_GERAIS = [
     (re.compile(r"\\NQue senti\b"), r"\\Nque senti"),
     (re.compile(r"\\NPoderei\b"), r"\\Npoderei"),
     (re.compile(r"\\NTer algum\b"), r"\\Nter algum"),
+    (re.compile(r"\bHalloi Stampa\b", re.I), "Stampa Halloi"),
+    (re.compile(r"\bseria\\Nelefante\b", re.I), r"seria\\Nelegante"),
+    (re.compile(r"(^|\\N)sujeira sala\b", re.I), r"\1sala imunda"),
+    (re.compile(r"\bquem\\Ne se aliaram a Glemy\b", re.I), r"quem\\Nse aliou a Glemy"),
+    (re.compile(r"\bcortar sua cabeça limpa\b", re.I), "cortar sua cabeça fora"),
+    (re.compile(r"(^|\\N)consigo cuidar do seu próprio mobile suit\b", re.I), r"\1consegue cuidar do próprio mobile suit"),
+    (re.compile(r"\bO que se pode fazer se nem ao menos\\Nconsegue cuidar do próprio mobile suit\b", re.I), r"O que se pode fazer se ele nem ao menos\\Nconsegue cuidar do próprio mobile suit"),
+    (re.compile(r"\bAinda não sei onde Haman está perto\b", re.I), "Ainda não sei onde Haman está"),
+    (re.compile(r"(^|\\N)A mobilização de Stampa ataca-nos\b", re.I), r"\1Os homens de Stampa nos atacam"),
+    (re.compile(r"\bVocê me recebe\?", re.I), "Está me ouvindo?"),
+    (re.compile(r"\bMondo Agake! Gundam Mk-II, vou embora!", re.I), "Mondo Agake! Gundam Mk-II, saindo!"),
+    (re.compile(r"(^|\\N)segure-o aí\b", re.I), r"\1Segure-o aí"),
+    (re.compile(r"\bO imprinting que ele passou por esta situação é perfeito!", re.I), "O condicionamento dele para esta situação é perfeito!"),
+    (re.compile(r"\bPrincipalmente porque já levantei minha mão\b", re.I), "Principalmente porque já ergui minha mão"),
+    (re.compile(r"(^|\\N)Cabeça vai estourar!", re.I), r"\1Minha cabeça vai estourar!"),
+    (re.compile(r"\bSai daquela mobile suit!", re.I), "Saia daquele mobile suit!"),
+    (re.compile(r"\bChara Soon, volta!", re.I), "Chara Soon, volte!"),
+    (re.compile(r"\bKamille não lutou porque\\Nsomente lhe ordenaram\.", re.I), r"Kamille não lutou porque\\Nrecebeu ordens."),
+    (re.compile(r"\bnascido da tua intuição se torna\\Nteu motivo\b", re.I), r"nascida da sua intuição se torna\\Nseu motivo"),
+    (re.compile(r"\bAs vontades\\Ndaqueles que morreram inutilmente em batalha!", re.I), r"A vontade\\Ndaqueles que morreram inutilmente em batalha!"),
+    (re.compile(r"\bJudau está dizendo coisas legais para você\b", re.I), "Judau está falando coisas boas para você"),
     (re.compile(r"\b[Dd]a tão fácil\b"), "tão fácil"),
     (re.compile(r"\bque infiltrada em\b", re.I), "que se infiltrou em"),
     (re.compile(r"\btem\\Na um lugar\b", re.I), r"tem\\Num lugar"),
@@ -292,15 +327,40 @@ CORRECOES_REGEX_GERAIS = [
 
 PADRAO_RESIDUO_IDIOMA = re.compile(
     r"\b(only|kidnapping|can go back|moon and see|again|nous|i decido|"
-    r"where|what|when|why|because|yourself|big brother|fool|miss milly)\b",
+    r"where|what|when|why|because|yourself|big brother|fool|miss milly|"
+    r"halloi stampa|grande irmão)\b",
     re.I,
 )
 PADRAO_FRAGMENTO_QUEBRADO = re.compile(
     r"(\\N\s+ão\b|\\MAS\b|A\.E\.U\.G\.{2,}|"
     r"\bI\s+[a-záéíóúâêôãõç]+\b|\b[Nn]ovo Tipos\b|"
-    r"\\Ndo Federação\b|\\Nenão\b|\buma conceito\b|\\Na um reino\b)",
+    r"\\Ndo Federação\b|\\Nenão\b|\buma conceito\b|\\Na um reino\b|"
+    r"\bseria\\Nelefante\b|\\Nsujeira sala\b|quem\\Ne se aliaram\b|"
+    r"\bimprinting\b|\\NCabeça vai estourar|\\Nsomente lhe ordenaram)",
     re.I,
 )
+PALAVRAS_INGLES_COMUNS = {
+    "a", "about", "after", "again", "all", "am", "an", "and", "are", "as",
+    "at", "back", "be", "because", "been", "before", "but", "by", "can",
+    "come", "could", "did", "do", "does", "doing", "don't", "for", "from",
+    "get", "go", "going", "good", "got", "had", "has", "have", "he", "her",
+    "here", "him", "his", "how", "i", "if", "in", "is", "it", "just",
+    "like", "me", "my", "no", "not", "now", "of", "on", "or", "our",
+    "out", "right", "see", "she", "so", "that", "the", "their", "them",
+    "then", "there", "they", "this", "to", "up", "us", "was", "we", "were",
+    "what", "when", "where", "who", "why", "will", "with", "would", "you",
+    "your",
+}
+PALAVRAS_PT_COMUNS = {
+    "a", "ao", "aos", "as", "com", "como", "da", "das", "de", "do", "dos",
+    "e", "ela", "ele", "em", "eu", "isso", "me", "meu", "minha", "na", "nas",
+    "não", "no", "nos", "o", "os", "ou", "para", "por", "que", "se", "seu",
+    "sua", "um", "uma", "você",
+}
+PALAVRAS_ROMAJI_COMUNS = {
+    "da", "de", "ga", "iu", "ka", "kedo", "mada", "ni", "no", "sora", "to",
+    "toki", "wa", "wo", "yo",
+}
 
 # Correções cirúrgicas: chave = número da linha no arquivo .ass (1-indexed)
 CORRECOES_ESPECIFICAS = {}
@@ -413,6 +473,59 @@ def _balancear_tag(texto, abre, fecha):
 
 
 _GRAMATICA_COMPILADO = _compilar_dicionario(GRAMATICA_E_GAFES)
+
+
+def _texto_visivel_ass(texto):
+    texto = re.sub(r"\{[^{}]*\}", "", texto)
+    texto = texto.replace("\\N", " ").replace("\\n", " ")
+    return texto.strip()
+
+
+def _normalizar_para_comparacao(texto):
+    texto = _texto_visivel_ass(texto).lower()
+    texto = re.sub(r"[^0-9a-záéíóúâêôãõçüñ'\- ]+", " ", texto, flags=re.I)
+    texto = re.sub(r"\s+", " ", texto)
+    return texto.strip()
+
+
+def _tokens_texto(texto):
+    return re.findall(r"[a-záéíóúâêôãõçüñ']+", _normalizar_para_comparacao(texto), re.I)
+
+
+def _parece_ingles_nao_traduzido(texto):
+    tokens = _tokens_texto(texto)
+    if len(tokens) < 4:
+        return False
+    ingles = sum(1 for token in tokens if token in PALAVRAS_INGLES_COMUNS)
+    portugues = sum(1 for token in tokens if token in PALAVRAS_PT_COMUNS)
+    return ingles >= 4 and ingles >= max(3, portugues * 2)
+
+
+def _parece_romaji_karaoke(texto):
+    tokens = _tokens_texto(texto)
+    if len(tokens) < 5:
+        return False
+    romaji = sum(1 for token in tokens if token in PALAVRAS_ROMAJI_COMUNS)
+    ingles = sum(1 for token in tokens if token in PALAVRAS_INGLES_COMUNS)
+    return romaji >= 2 and ingles <= 2
+
+
+def _parece_igual_ao_eng(texto_pt, texto_eng):
+    if not texto_eng:
+        return False
+    if _parece_romaji_karaoke(texto_pt):
+        return False
+    pt = _normalizar_para_comparacao(texto_pt)
+    eng = _normalizar_para_comparacao(texto_eng)
+    if not pt or not eng or len(pt) < 10 or len(eng) < 10:
+        return False
+    tokens_pt = _tokens_texto(texto_pt)
+    ingles = sum(1 for token in tokens_pt if token in PALAVRAS_INGLES_COMUNS)
+    if pt == eng:
+        return ingles >= 2 or _parece_ingles_nao_traduzido(texto_pt)
+    if _parece_ingles_nao_traduzido(texto_pt):
+        return SequenceMatcher(None, pt, eng).ratio() >= 0.82
+    return False
 
 
 def achar_mkvtoolnix():
@@ -616,12 +729,18 @@ def higienizar_texto(texto, eh_grafico=False):
 
     t = _balancear_tag(t, "{\\i1}", "{\\i0}")
     t = _balancear_tag(t, "{\\b1}", "{\\b0}")
+    t = re.sub(r"\s*\{\\i1\}\{\\i0\}", "", t)
+    t = re.sub(r"\s*\{\\b1\}\{\\b0\}", "", t)
 
     return t
 
 
-def detectar_suspeita_qualidade(texto):
+def detectar_suspeita_qualidade(texto, texto_eng=None):
     """Retorna motivo de revisão manual quando a linha ainda parece problemática."""
+    if _parece_igual_ao_eng(texto, texto_eng):
+        return "possível linha não traduzida (igual ou muito parecida com ENG)"
+    if _parece_ingles_nao_traduzido(texto):
+        return "possível linha não traduzida (inglês predominante)"
     if PADRAO_RESIDUO_IDIOMA.search(texto):
         return "possível resíduo de inglês/francês"
     if PADRAO_FRAGMENTO_QUEBRADO.search(texto):
@@ -691,6 +810,7 @@ def processar_legendas(
         "higienizacao_geral": 0,
         "correcoes_manuais": 0,
         "linhas_suspeitas": 0,
+        "linhas_possivelmente_nao_traduzidas": 0,
     }
 
     tempo_inicio = time.time()
@@ -764,10 +884,11 @@ def processar_legendas(
 
             eh_grafico = any(tag in texto_ptbr for tag in ("\\pos", "\\move", "\\clip", "\\org", "{\\p", "|"))
             eh_karaoke = _estilo_karaoke(estilo)
+            texto_eng_ref = dialogos_eng[indice_dialogo] if indice_dialogo < len(dialogos_eng) else None
 
             # 1) Karaokê: restaurar texto ENG pelo índice do evento Dialogue (não linha do arquivo)
             if eh_karaoke and indice_dialogo < len(dialogos_eng):
-                texto_eng = dialogos_eng[indice_dialogo]
+                texto_eng = texto_eng_ref
                 if texto_ptbr != texto_eng:
                     texto_final = texto_eng
                     modificada = True
@@ -818,9 +939,14 @@ def processar_legendas(
                     "depois": texto_final,
                 })
 
-            motivo_suspeita = detectar_suspeita_qualidade(texto_final)
+            motivo_suspeita = detectar_suspeita_qualidade(
+                texto_final,
+                None if (eh_karaoke or eh_grafico) else texto_eng_ref,
+            )
             if motivo_suspeita:
                 stats["linhas_suspeitas"] += 1
+                if "não traduzida" in motivo_suspeita:
+                    stats["linhas_possivelmente_nao_traduzidas"] += 1
                 _emit(
                     f"  {Fore.MAGENTA}[REVISAR] L{idx_linha} D{indice_dialogo} — {motivo_suspeita}: {texto_final}"
                 )
@@ -1247,6 +1373,7 @@ def main():
         _emit(f"    Higienização / gramática: {stats['higienizacao_geral']}")
         _emit(f"    Correções manuais      : {stats['correcoes_manuais']}")
         _emit(f"    Linhas suspeitas       : {stats.get('linhas_suspeitas', 0)}")
+        _emit(f"      Possível não traduzida: {stats.get('linhas_possivelmente_nao_traduzidas', 0)}")
         _emit("=" * 80)
 
         if not args.dry_run and not args.no_remux:

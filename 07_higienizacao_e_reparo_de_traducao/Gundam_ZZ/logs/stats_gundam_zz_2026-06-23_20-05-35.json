@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-06-23_20-05-35",
+  "modo": "DRY-RUN",
+  "pastas": {
+    "ptbr": "C:\\animes\\zeta_zz\\TRADUZIDAS_ZZ",
+    "eng": "C:\\animes\\zeta_zz\\legendas_eng",
+    "saida": "C:\\animes\\zeta_zz\\revisao_teste_nao_traduzidas"
+  },
+  "stats": {
+    "arquivos_processados": 47,
+    "arquivos_pulados": 0,
+    "linhas_modificadas": 2013,
+    "karaoke_restaurado": 0,
+    "lore_corrigido": 250,
+    "higienizacao_geral": 1763,
+    "correcoes_manuais": 0,
+    "linhas_suspeitas": 18,
+    "linhas_possivelmente_nao_traduzidas": 18
+  },
+  "total_modificacoes": 2031
+}

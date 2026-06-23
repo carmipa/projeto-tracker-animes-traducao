@@ -206,19 +206,32 @@ python ".\12_remuxer_mkvmerge\batch_remuxer.py"
 
 ---
 
-## Esteira L — Gundam ZZ (TranslateGemma) — Fase 05c-2 → [07] → 12
+## Esteira L — Gundam ZZ (Mistral Nemo recomendado; TranslateGemma legado) — Fase 05b ou 05c-2 → [07] → 12
 
 ```powershell
-# Pré-requisito: LM Studio na porta 1234 com TranslateGemma 12B carregado
+# Pré-requisito recomendado: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+
+# Formas equivalentes de indicar a pasta de entrada
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" --entrada "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" --pasta "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" --origem "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+
+# Arquivos específicos
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" --arquivo ep01.ass ep02.ass --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+
+# Rota legada: LM Studio com TranslateGemma 12B carregado
 python ".\05c_tradutor_llm_translategemma\Gundam_ZZ\script_tradutor_en_gundam_zz.py"
+
 # Se necessário reparar falhas com marcas [ERRO_TRADUCAO:]
 python ".\07_higienizacao_e_reparo_de_traducao\repara_erros_traducao.py" "<legendas_eng>" "<legendas_ptbr>"
+python ".\07_higienizacao_e_reparo_de_traducao\Gundam_ZZ\revisao_legenda_gundam_zz.py" --dry-run
 python ".\12_remuxer_mkvmerge\batch_remuxer.py"
 ```
 
-Sem script de higienização de lore dedicado ainda (título mais recente do pipeline).
+O tradutor Mistral gera `*_PTBR.ass`, preserva subpastas da entrada e tem glossário/pós-processamento específico de Gundam ZZ (`Axis`, `Lady Haman`, `Quin Mantha`, `Ple Two`, `Elpeo Ple`, `Bright Noa`, `Hyaku Shiki`, `Core Fighter`).
 
-[Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md) · [Fase 07](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-07.md) · [Fase 12](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-12.md) · [Diagrama](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/arquitetura.md#esteira-l--gundam-zz)
+[Fase 05b](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05b.md) · [Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md) · [Fase 07](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-07.md) · [Fase 12](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-12.md) · [Diagrama](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/arquitetura.md#esteira-l--gundam-zz)
 
 ---
 

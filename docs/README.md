@@ -64,7 +64,7 @@
 | **I** | 02 → 05c → [07] → 12 → [10] | Gundam The Origin, legenda chinesa (CHS) | [Arquitetura](arquitetura.md#esteira-i--gundam-the-origin-legenda-chinesa-chs) |
 | **J** | 05b → [07] → 12 | Gundam Origin, legenda francesa (SUBFRENCH) | [Arquitetura](arquitetura.md#esteira-j--gundam-origin-legenda-francesa-subfrench) |
 | **K** | 05c-2 → [07] → 12 | Gundam Zeta | [Arquitetura](arquitetura.md#esteira-k--gundam-zeta) |
-| **L** | 05c-2 → [07] → 12 | Gundam ZZ | [Arquitetura](arquitetura.md#esteira-l--gundam-zz) |
+| **L** | 05b ou 05c-2 → [07] → 12 | Gundam ZZ | [Arquitetura](arquitetura.md#esteira-l--gundam-zz) |
 | **M** | 05b → [07] → 12 | Detonator Orgun | [Arquitetura](arquitetura.md#esteira-m--detonator-orgun) |
 | **N** | 05a → [07] → 12 | Knights of Sidonia | [Arquitetura](arquitetura.md#esteira-n--knights-of-sidonia) |
 

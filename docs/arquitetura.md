@@ -47,7 +47,8 @@ flowchart LR
     F1 -->|"ASS embutido EN, Sidonia"| N05A["Fase 05a<br/>tradutor_ass/batch_translator_sidonia.py"]
     F1 -->|"ASS embutido EN, lote pré-extraído"| E02["Fase 02<br/>extrator_inteligente_ass.py"]
     F1 -->|"ASS embutido EN, Gundam Zeta"| K05C2["Fase 05c-2<br/>Gundam_Zeta/script_tradutor_en_gundam_zeta.py"]
-    F1 -->|"ASS embutido EN, Gundam ZZ"| L05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
+    F1 -->|"ASS embutido EN, Gundam ZZ"| L05B["Fase 05b<br/>Gundam_ZZ/tradutor_mistral_gundam_zz.py"]
+    F1 -.->|"rota legada EN, Gundam ZZ"| L05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
     F1 -->|"ASS embutido EN, Detonator Orgun"| M05B["Fase 05b<br/>Detonator_Orgun/script_tradutor_en_detonator_orgun.py"]
     F1 -->|"ASS embutido FR, Macross Delta"| D05B["Fase 05b<br/>frances_para_ptbr/macross_deslta.py"]
     F1 -->|"ASS embutido FR, Gundam Origin"| J05B["Fase 05b<br/>frances_para_ptbr/script_tradutor_fr_gundam_origin.py"]
@@ -102,6 +103,7 @@ flowchart LR
     style D05B fill:#4B0082,stroke:#00E5FF,color:#fff
     style J05B fill:#4B0082,stroke:#00E5FF,color:#fff
     style M05B fill:#4B0082,stroke:#00E5FF,color:#fff
+    style L05B fill:#4B0082,stroke:#00E5FF,color:#fff
     style I05C fill:#4B0082,stroke:#00E5FF,color:#fff
     style K05C2 fill:#4B0082,stroke:#00E5FF,color:#fff
     style L05C2 fill:#4B0082,stroke:#00E5FF,color:#fff
@@ -466,19 +468,31 @@ python ".\12_remuxer_mkvmerge\batch_remuxer.py"
 
 ```mermaid
 flowchart LR
-    L_MKV["episodios/*.mkv (EN)"] --> L_F05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
-    L_F05C2 --> L_ASS["traducao/*_PTBR.ass"]
+    L_MKV["episodios/*.mkv (EN)"]
+    L_ENG["legendas_eng/*.ass (EN)"] --> L_F05B["Fase 05b<br/>Gundam_ZZ/tradutor_mistral_gundam_zz.py<br/>(Mistral Nemo recomendado)"]
+    L_ENG -.->|"rota legada"| L_F05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py<br/>(TranslateGemma)"]
+    L_F05B --> L_ASS["legendas_ptbr/*_PTBR.ass"]
+    L_F05C2 -.-> L_ASS
+    L_ASS -.->|"revisão/lore"| L_F07["Fase 07<br/>Gundam_ZZ/revisao_legenda_gundam_zz.py"]
     L_MKV --> L_F12["Fase 12<br/>batch_remuxer.py"]
     L_ASS --> L_F12
+    L_F07 -.-> L_F12
     L_F12 --> L_OUT["mkv_final_ptbr/*_PTBR.mkv"]
 
+    style L_F05B fill:#4B0082,stroke:#00E5FF,color:#fff
     style L_F05C2 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style L_F07 fill:#5c1010,stroke:#ff4444,color:#fff
     style L_F12 fill:#1e4620,stroke:#32CD32,color:#fff
 ```
 
 ```powershell
-# Pré-requisito: LM Studio na porta 1234 com TranslateGemma 12B carregado
+# Pré-requisito recomendado: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+
+# Rota legada alternativa: TranslateGemma 12B
 python ".\05c_tradutor_llm_translategemma\Gundam_ZZ\script_tradutor_en_gundam_zz.py"
+
+python ".\07_higienizacao_e_reparo_de_traducao\Gundam_ZZ\revisao_legenda_gundam_zz.py" --dry-run
 python ".\12_remuxer_mkvmerge\batch_remuxer.py"
 ```
 

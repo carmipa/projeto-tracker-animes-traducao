@@ -161,14 +161,45 @@ Extrai .ass e .srt → Traduz do Inglês via LM Studio (Mistral Nemo) → Salva 
 Sistema de Logs Auditável com Temporizadores de Precisão e Validador Anti-Alucinação Inglês.
 ```
 
+### 📄 Arquivo: `05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py`
+```text
+Tradutor EN -> PT-BR — Mobile Suit Gundam ZZ (Double Zeta)
+Motor: Mistral Nemo Instruct via LM Studio (API local OpenAI-compatible).
+
+Uso:
+  python tradutor_mistral_gundam_zz.py
+  python tradutor_mistral_gundam_zz.py PASTA_ENG --saida PASTA_PTBR
+  python tradutor_mistral_gundam_zz.py --entrada PASTA_ENG --saida PASTA_PTBR
+  python tradutor_mistral_gundam_zz.py --arquivo ep01.ass --saida PASTA_PTBR
+  python tradutor_mistral_gundam_zz.py --modelo mistral-nemo --batch-size 12
+```
+
 ### 📄 Arquivo: `05b_tradutor_llm_mistral_nemo\Macross_7\script_tradutor_en_macross7.py`
 ```text
-PIPELINE INDUSTRIAL UNIFICADO - VERSÃO INGLÊS (EN -> PT-BR)
+PIPELINE DE TRADUÇÃO EN -> PT-BR — Macross 7
 Alvo: [AntBnecn] Macross 7 - Dynamite + Encore + Plus + Movie
-Extrai .ass e .srt → Traduz do Inglês via LM Studio (Mistral Nemo) → Salva PT-BR
 
-Sistema de Logs Auditável com Temporizadores de Precisão e Validador Anti-Alucinação Inglês.
-Otimizado com cache persistente em disco, mascaramento de tags ASS e concorrência multithread.
+Traduz legendas .ass e .srt em inglês via LM Studio (Mistral Nemo) e salva PT-BR.
+Logs auditáveis, cache persistente, mascaramento de tags ASS e concorrência multithread.
+
+Uso:
+  python script_tradutor_en_macross7.py
+  python script_tradutor_en_macross7.py --entrada PASTA_ENG --saida PASTA_PTBR
+  python script_tradutor_en_macross7.py --arquivo ep01.ass ep02.srt --saida PASTA_PTBR
+```
+
+### 📄 Arquivo: `05b_tradutor_llm_mistral_nemo\Macross_II\script_tradutor_en_macross2.py`
+```text
+PIPELINE DE TRADUÇÃO EN -> PT-BR — Macross II: Lovers Again
+Alvo: [AntBnecn] Macross II (BDRip 1440x1080p)[sxales]
+
+Traduz legendas .ass e .srt em inglês via LM Studio (Mistral Nemo) e salva PT-BR.
+Logs auditáveis, cache persistente, mascaramento de tags ASS e concorrência multithread.
+
+Uso:
+  python script_tradutor_en_macross2.py
+  python script_tradutor_en_macross2.py --entrada PASTA_ENG --saida PASTA_PTBR
+  python script_tradutor_en_macross2.py --arquivo ep01.ass ep02.srt --saida PASTA_PTBR
 ```
 
 ### 📄 Arquivo: `05b_tradutor_llm_mistral_nemo\frances_para_ptbr\macross_deslta.py`
@@ -334,16 +365,41 @@ Termos de lore/marca: sempre normalizados para a grafia oficial,
 em QUALQUER caixa e posição na frase.
 ```
 
-### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_Zeta\limpeza_zeta_extrema.py`
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_ZZ\revisao_legenda_gundam_zz.py`
 ```text
-Termos de lore/marca: sempre normalizados para a grafia oficial,
-em QUALQUER caixa (Traje Móvel / traje móvel / TRAJE MÓVEL) e posição na frase.
+Revisão extrema — Mobile Suit Gundam ZZ (PT-BR)
+Restaura karaokê romaji/japonês do ENG, corrige lore, tags ASS e gafes de LLM/Mistral.
+Opcional: remux mkvmerge com legendas corrigidas.
+
+Uso:
+  python revisao_legenda_gundam_zz.py
+  python revisao_legenda_gundam_zz.py --entrada PASTA_PTBR --eng PASTA_ENG --saida SAIDA
+  python revisao_legenda_gundam_zz.py --arquivo ep01_PTBR.ass --eng PASTA_ENG --saida SAIDA
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Gundam_Zeta\revisao_legenda_gundam_zeta.py`
+```text
+Revisão extrema — Mobile Suit Zeta Gundam (PT-BR)
+Restaura karaokê romaji/japonês do ENG, corrige lore, tags ASS e gafes de LLM/Mistral.
+Opcional: remux mkvmerge com legendas corrigidas.
+
+Uso:
+  python revisao_legenda_gundam_zeta.py
+  python revisao_legenda_gundam_zeta.py --entrada PASTA_PTBR --eng PASTA_ENG --saida SAIDA
+  python revisao_legenda_gundam_zeta.py --arquivo ep01_PTBR.ass --eng PASTA_ENG --saida SAIDA
 ```
 
 ### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Knights_of_Sidonia\limpeza_sidonia_extrema.py`
 ```text
 Termos de lore/marca: sempre normalizados para a grafia oficial,
 em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Macross_7\revisao_legenda_macross7.py`
+```text
+Revisão extrema — Macross 7 (PT-BR)
+Restaura karaokê romaji/japonês do ENG, corrige lore, tags ASS e gafes do Mistral.
+Opcional: remux mkvmerge com legendas corrigidas.
 ```
 
 ### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Macross_Delta\limpeza_geral_macross.py`
@@ -362,6 +418,13 @@ em QUALQUER caixa e posição na frase.
 ```text
 Termos de lore/marca: sempre normalizados para a grafia oficial,
 em QUALQUER caixa e posição na frase.
+```
+
+### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Macross_II\revisao_legenda_macross2.py`
+```text
+Revisão extrema — Macross II (PT-BR)
+Restaura karaokê romaji/japonês do ENG, corrige lore, tags ASS e gafes do Mistral.
+Opcional: remux mkvmerge com legendas corrigidas.
 ```
 
 ### 📄 Arquivo: `07_higienizacao_e_reparo_de_traducao\Sword_Art_Online_Filme_2\limpeza_sao_filme2_extrema.py`
@@ -564,6 +627,3 @@ Status: PRODUCTION READY (High Performance)
 ```
 
 ---
-## 📁 Pasta: `legendas-corrigidas-ptbr/`
-*(Nenhum script Python nesta pasta)*
-

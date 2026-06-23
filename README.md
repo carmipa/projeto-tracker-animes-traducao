@@ -66,7 +66,8 @@ flowchart LR
     F1 -->|"ASS embutido EN, Sidonia"| N05A["Fase 05a<br/>tradutor_ass/batch_translator_sidonia.py"]
     F1 -->|"ASS embutido EN, lote pré-extraído"| E02["Fase 02<br/>extrator_inteligente_ass.py"]
     F1 -->|"ASS embutido EN, Gundam Zeta"| K05C2["Fase 05c-2<br/>Gundam_Zeta/script_tradutor_en_gundam_zeta.py"]
-    F1 -->|"ASS embutido EN, Gundam ZZ"| L05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
+    F1 -->|"ASS embutido EN, Gundam ZZ"| L05B["Fase 05b<br/>Gundam_ZZ/tradutor_mistral_gundam_zz.py"]
+    F1 -.->|"rota legada EN, Gundam ZZ"| L05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
     F1 -->|"ASS embutido EN, Detonator Orgun"| M05B["Fase 05b<br/>Detonator_Orgun/script_tradutor_en_detonator_orgun.py"]
     F1 -->|"ASS embutido FR, Macross Delta"| D05B["Fase 05b<br/>frances_para_ptbr/macross_deslta.py"]
     F1 -->|"ASS embutido FR, Gundam Origin"| J05B["Fase 05b<br/>frances_para_ptbr/script_tradutor_fr_gundam_origin.py"]
@@ -143,7 +144,7 @@ Diagramas detalhados de cada esteira: [docs/arquitetura.md](docs/arquitetura.md)
 | **I** | Gundam The Origin, legenda chinesa (CHS) | 02 → 05c → [07] → 12 → [10] | Qwen2.5-7B |
 | **J** | Gundam Origin, legenda francesa (SUBFRENCH) | 05b → [07] → 12 | Mistral Nemo 2407 |
 | **K** | Gundam Zeta | 05c-2 → [07] → 12 | TranslateGemma 12B |
-| **L** | Gundam ZZ | 05c-2 → [07] → 12 | TranslateGemma 12B |
+| **L** | Gundam ZZ | 05b ou 05c-2 → [07] → 12 | Mistral Nemo 2407 recomendado; TranslateGemma 12B legado |
 | **M** | Detonator Orgun | 05b → [07] → 12 | Mistral Nemo 2407 |
 | **N** | Knights of Sidonia | 05a → [07] → 12 | Gemma 4B |
 
@@ -254,7 +255,7 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | **I** | 02 → 05c → [07] → 12 → [10] | Gundam The Origin, legenda chinesa (CHS) | [Arquitetura](docs/arquitetura.md#esteira-i--gundam-the-origin-legenda-chinesa-chs) |
 | **J** | 05b → [07] → 12 | Gundam Origin, legenda francesa (SUBFRENCH) | [Arquitetura](docs/arquitetura.md#esteira-j--gundam-origin-legenda-francesa-subfrench) |
 | **K** | 05c-2 → [07] → 12 | Gundam Zeta | [Arquitetura](docs/arquitetura.md#esteira-k--gundam-zeta) |
-| **L** | 05c-2 → [07] → 12 | Gundam ZZ | [Arquitetura](docs/arquitetura.md#esteira-l--gundam-zz) |
+| **L** | 05b ou 05c-2 → [07] → 12 | Gundam ZZ | [Arquitetura](docs/arquitetura.md#esteira-l--gundam-zz) |
 | **M** | 05b → [07] → 12 | Detonator Orgun | [Arquitetura](docs/arquitetura.md#esteira-m--detonator-orgun) |
 | **N** | 05a → [07] → 12 | Knights of Sidonia | [Arquitetura](docs/arquitetura.md#esteira-n--knights-of-sidonia) |
 

@@ -6,6 +6,7 @@ Motor: Mistral Nemo Instruct via LM Studio (API local OpenAI-compatible).
 
 Uso:
   python tradutor_mistral_gundam_zz.py
+  python tradutor_mistral_gundam_zz.py PASTA_ENG --saida PASTA_PTBR
   python tradutor_mistral_gundam_zz.py --entrada PASTA_ENG --saida PASTA_PTBR
   python tradutor_mistral_gundam_zz.py --arquivo ep01.ass --saida PASTA_PTBR
   python tradutor_mistral_gundam_zz.py --modelo mistral-nemo --batch-size 12
@@ -1481,8 +1482,25 @@ def obter_diretorio_operador(mensagem: str, padrao: str | None = None) -> str:
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Tradutor EN→PT-BR Gundam ZZ (Double Zeta) via Mistral Nemo / LM Studio.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "Exemplos:\n"
+            "  python tradutor_mistral_gundam_zz.py\n"
+            "  python tradutor_mistral_gundam_zz.py \"C:\\animes\\Gundam_ZZ\\legendas_eng\" --saida \"C:\\animes\\Gundam_ZZ\\legendas_ptbr\"\n"
+            "  python tradutor_mistral_gundam_zz.py --entrada PASTA_ENG --saida PASTA_PTBR\n"
+            "  python tradutor_mistral_gundam_zz.py --arquivo ep01.ass ep02.ass --saida PASTA_PTBR\n"
+        ),
     )
-    parser.add_argument("--entrada", help="Pasta com legendas .ass em inglês")
+    parser.add_argument(
+        "pasta_entrada",
+        nargs="?",
+        help="Pasta com legendas .ass em inglês (atalho para --entrada)",
+    )
+    parser.add_argument(
+        "--entrada", "--pasta", "--origem",
+        dest="entrada",
+        help="Pasta com legendas .ass em inglês",
+    )
     parser.add_argument(
         "--arquivo", nargs="+", metavar="CAMINHO",
         help="Um ou mais arquivos .ass (ignora --entrada)",
@@ -1555,8 +1573,9 @@ def executar_pipeline(args=None):
                 os.makedirs(os.path.dirname(destino), exist_ok=True)
                 jobs.append((caminho_valido, os.path.dirname(destino), os.path.basename(destino)))
         else:
-            if args.entrada:
-                pasta_in = validar_pasta(args.entrada, "Pasta origem")
+            pasta_entrada = args.entrada or args.pasta_entrada
+            if pasta_entrada:
+                pasta_in = validar_pasta(pasta_entrada, "Pasta origem")
             else:
                 pasta_in = obter_diretorio_operador(
                     "Caminho da pasta de legendas EN (origem)",

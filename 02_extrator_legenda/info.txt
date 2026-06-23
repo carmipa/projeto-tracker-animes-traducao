@@ -1,52 +1,51 @@
 RELATÓRIO DE EXTRAÇÃO — EXTRACTOR INTELIGENTE
 ================================================================================
-Mobile.Suit.Z.Gundam.S01E01_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E01_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E02_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E02_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E03_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E03_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E04_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E04_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E05_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E05_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E06_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E06_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E07_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E07_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E08_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E08_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E09_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E09_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E10_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E10_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E11_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E11_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E12_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E12_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E13_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E13_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E14_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E14_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E15_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E15_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E16_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E16_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E17_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E17_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E18_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E18_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E19_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E19_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E20_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E20_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E21_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E21_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E22_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E22_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E23_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E23_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E24_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E24_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E25_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E25_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E26_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E26_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E27_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E27_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E28_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E28_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E29_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E29_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E30_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E30_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E31_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E31_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E32_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E32_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E33_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E33_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E34_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E34_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E35_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E35_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E36_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E36_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E37_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E37_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E38_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E38_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E39_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E39_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E40_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E40_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E41_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E41_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E42_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E42_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E43_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E43_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E44_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E44_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E45_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E45_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E46_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E46_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E47_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E47_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E48_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E48_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E49_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E49_PTBR_ENG.ass
-Mobile.Suit.Z.Gundam.S01E50_PTBR.mkv | Track ID: 2 | Nome: Português (Gemma 4B) | Formato: ASS | Saída: Mobile.Suit.Z.Gundam.S01E50_PTBR_ENG.ass
+Mobile.Suit.Gundam.ZZ.S00E01.mkv | Track ID: 5 | Nome: fallback | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S00E01_ENG.ass
+Mobile.Suit.Gundam.ZZ.S00E02.mkv | Track ID: 5 | Nome: fallback | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S00E02_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E01.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E01_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E02.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E02_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E03.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E03_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E04.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E04_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E05.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E05_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E06.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E06_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E07.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E07_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E08.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E08_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E09.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E09_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E10.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E10_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E11.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E11_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E12.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E12_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E13.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E13_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E14.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E14_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E15.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E15_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E16.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E16_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E17.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E17_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E18.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E18_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E19.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E19_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E20.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E20_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E21.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E21_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E22.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E22_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E23.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E23_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E24.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E24_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E25.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E25_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E26.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E26_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E27.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E27_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E28.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E28_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E29.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E29_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E30.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E30_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E31.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E31_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E32.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E32_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E33.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E33_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E34.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E34_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E35.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E35_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E36.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E36_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E37.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E37_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E38.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E38_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E39.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E39_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E40.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E40_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E41.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E41_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E42.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E42_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E43.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E43_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E44.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E44_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E45.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E45_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E46.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E46_ENG.ass
+Mobile.Suit.Gundam.ZZ.S01E47.mkv | Track ID: 2 | Nome: English | Formato: ASS | Saída: Mobile.Suit.Gundam.ZZ.S01E47_ENG.ass

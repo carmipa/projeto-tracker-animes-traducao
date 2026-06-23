@@ -68,6 +68,10 @@ projeto-tracker-animes-traducao/
 │   │   ├── script_tradutor_en_detonator_orgun.py  # MKV/SRT (EN) -> PT-BR — Esteira M
 │   │   ├── traducao_cache_orgun_en.json
 │   │   └── logs/                           # pipeline_en_orgun_*, erros_en_orgun_*, stats_en_orgun_*
+│   ├── Gundam_ZZ/
+│   │   ├── tradutor_mistral_gundam_zz.py   # *.ass (EN) -> *_PTBR.ass — Gundam ZZ (Esteira L, rota recomendada)
+│   │   ├── traducao_cache_gundam_zz_mistral.json
+│   │   └── logs/                           # pipeline_gundam_zz_mistral_*, erros_gundam_zz_mistral_*, stats_gundam_zz_mistral_*
 │   └── frances_para_ptbr/
 │       ├── macross_deslta.py               # MKV (FR) -> traducao/*_PTBR.ass — Macross Delta TV (Esteira D)
 │       ├── script_tradutor_fr_gundam_origin.py  # MKV (FR, SUBFRENCH) -> traducao/*_PTBR.ass — Gundam Origin (Esteira J)
@@ -88,7 +92,7 @@ projeto-tracker-animes-traducao/
 │   ├── Gundam_Origin/
 │   │   └── script_revisor_ptbr_gundam_origin.py  # revisão gramatical de PT-BR já traduzido (corretor ortográfico)
 │   ├── Gundam_ZZ/
-│   │   ├── script_tradutor_en_gundam_zz.py # MKV (EN) -> PT-BR — Gundam ZZ (Esteira L)
+│   │   ├── script_tradutor_en_gundam_zz.py # MKV (EN) -> PT-BR — Gundam ZZ (Esteira L, rota legada/alternativa)
 │   │   ├── traducao_cache_gundam_zz_en.json
 │   │   └── logs/stats_en_gundam_zz_*.json
 │   └── Gundam_Zeta/

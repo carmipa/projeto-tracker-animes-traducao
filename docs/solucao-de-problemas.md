@@ -23,7 +23,7 @@
 
 ## Esteiras A/D/K/L/M/N — Episódios MKV com extração + tradução integradas
 
-Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Zeta/ZZ (05c-2), Knights of Sidonia (05a + 02).
+Eighty-Six (05a), Macross Delta/Gundam Origin FR/Gundam ZZ/Detonator Orgun (05b), Gundam Zeta e rota legada de ZZ (05c-2), Knights of Sidonia (05a + 02).
 
 | Sintoma | Causa provável | Ação |
 |:---|:---|:---|
@@ -77,6 +77,7 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 | `RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO)` no log de erros | Nenhuma linha do lote pôde ser extraída/validada | Verifique se o modelo carregado é realmente o Mistral Nemo (não outro modelo incompatível com o formato de prompt indexado `[0]`, `[1]`...) |
 | `macross_deslta.py` com qualidade inferior ao esperado | Esse script pode não ter recebido os mesmos ajustes de prompt feitos em `script_tradutor_fr_gundam_origin.py` | Compare os prompts dos dois scripts e replique os ajustes relevantes |
 | `script_tradutor_en_detonator_orgun.py` falha de conexão (não HTTP 400) | LM Studio offline/instável durante o lote — erro de conexão mal-diagnosticado como erro de requisição | Confirme LM Studio rodando antes do lote; o script já tem backoff para reconexão |
+| Gundam ZZ gera arquivo sem `_PTBR` ou sobrescreve o original | Versão antiga do `tradutor_mistral_gundam_zz.py` ou uso de saída manual inadequada | Use a versão atual da Fase 05b: ela cria `{base}_PTBR.ass`, preserva subpastas e aceita a pasta por argumento posicional, `--entrada`, `--pasta` ou `--origem` |
 
 ---
 
@@ -160,7 +161,7 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 | Gundam The Origin, legenda **chinesa** (Qwen2.5) | I | 02 → 05c → [07] → 12 → [10] |
 | Gundam Origin, legenda **francesa** (SUBFRENCH) | J | 05b → [07] → 12 |
 | Gundam Zeta (TranslateGemma) | K | 05c-2 → [07] → 12 |
-| Gundam ZZ (TranslateGemma) | L | 05c-2 → [07] → 12 |
+| Gundam ZZ (Mistral Nemo recomendado; TranslateGemma legado) | L | 05b ou 05c-2 → [07] → 12 |
 | Detonator Orgun (Mistral Nemo, inglês) | M | 05b → [07] → 12 |
 | Knights of Sidonia | N | 05a → [07] → 12 |
 

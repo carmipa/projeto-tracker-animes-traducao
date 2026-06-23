@@ -86,7 +86,8 @@ flowchart LR
     F1 -->|"ASS embutido EN, Sidonia"| N05A["Fase 05a<br/>tradutor_ass/batch_translator_sidonia.py"]
     F1 -->|"ASS embutido EN, lote pré-extraído"| E02["Fase 02<br/>extrator_inteligente_ass.py"]
     F1 -->|"ASS embutido EN, Gundam Zeta"| K05C2["Fase 05c-2<br/>Gundam_Zeta/script_tradutor_en_gundam_zeta.py"]
-    F1 -->|"ASS embutido EN, Gundam ZZ"| L05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
+    F1 -->|"ASS embutido EN, Gundam ZZ"| L05B["Fase 05b<br/>Gundam_ZZ/tradutor_mistral_gundam_zz.py"]
+    F1 -.->|"rota legada EN, Gundam ZZ"| L05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
     F1 -->|"ASS embutido EN, Detonator Orgun"| M05B["Fase 05b<br/>Detonator_Orgun/script_tradutor_en_detonator_orgun.py"]
     F1 -->|"ASS embutido FR, Macross Delta"| D05B["Fase 05b<br/>frances_para_ptbr/macross_deslta.py"]
     F1 -->|"ASS embutido FR, Gundam Origin"| J05B["Fase 05b<br/>frances_para_ptbr/script_tradutor_fr_gundam_origin.py"]
@@ -163,7 +164,7 @@ Diagramas detalhados de cada esteira: [docs/arquitetura.md](docs/arquitetura.md)
 | **I** | Gundam The Origin, legenda chinesa (CHS) | 02 → 05c → [07] → 12 → [10] | Qwen2.5-7B |
 | **J** | Gundam Origin, legenda francesa (SUBFRENCH) | 05b → [07] → 12 | Mistral Nemo 2407 |
 | **K** | Gundam Zeta | 05c-2 → [07] → 12 | TranslateGemma 12B |
-| **L** | Gundam ZZ | 05c-2 → [07] → 12 | TranslateGemma 12B |
+| **L** | Gundam ZZ | 05b ou 05c-2 → [07] → 12 | Mistral Nemo 2407 recomendado; TranslateGemma 12B legado |
 | **M** | Detonator Orgun | 05b → [07] → 12 | Mistral Nemo 2407 |
 | **N** | Knights of Sidonia | 05a → [07] → 12 | Gemma 4B |
 
@@ -274,7 +275,7 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | **I** | 02 → 05c → [07] → 12 → [10] | Gundam The Origin, legenda chinesa (CHS) | [Arquitetura](docs/arquitetura.md#esteira-i--gundam-the-origin-legenda-chinesa-chs) |
 | **J** | 05b → [07] → 12 | Gundam Origin, legenda francesa (SUBFRENCH) | [Arquitetura](docs/arquitetura.md#esteira-j--gundam-origin-legenda-francesa-subfrench) |
 | **K** | 05c-2 → [07] → 12 | Gundam Zeta | [Arquitetura](docs/arquitetura.md#esteira-k--gundam-zeta) |
-| **L** | 05c-2 → [07] → 12 | Gundam ZZ | [Arquitetura](docs/arquitetura.md#esteira-l--gundam-zz) |
+| **L** | 05b ou 05c-2 → [07] → 12 | Gundam ZZ | [Arquitetura](docs/arquitetura.md#esteira-l--gundam-zz) |
 | **M** | 05b → [07] → 12 | Detonator Orgun | [Arquitetura](docs/arquitetura.md#esteira-m--detonator-orgun) |
 | **N** | 05a → [07] → 12 | Knights of Sidonia | [Arquitetura](docs/arquitetura.md#esteira-n--knights-of-sidonia) |
 
@@ -374,7 +375,7 @@ Pré-requisitos: **[docs/instalacao.md](docs/instalacao.md)** · Esteira B detal
 | **I** | 02 → 05c → [07] → 12 → [10] | Gundam The Origin, legenda chinesa (CHS) | [Arquitetura](arquitetura.md#esteira-i--gundam-the-origin-legenda-chinesa-chs) |
 | **J** | 05b → [07] → 12 | Gundam Origin, legenda francesa (SUBFRENCH) | [Arquitetura](arquitetura.md#esteira-j--gundam-origin-legenda-francesa-subfrench) |
 | **K** | 05c-2 → [07] → 12 | Gundam Zeta | [Arquitetura](arquitetura.md#esteira-k--gundam-zeta) |
-| **L** | 05c-2 → [07] → 12 | Gundam ZZ | [Arquitetura](arquitetura.md#esteira-l--gundam-zz) |
+| **L** | 05b ou 05c-2 → [07] → 12 | Gundam ZZ | [Arquitetura](arquitetura.md#esteira-l--gundam-zz) |
 | **M** | 05b → [07] → 12 | Detonator Orgun | [Arquitetura](arquitetura.md#esteira-m--detonator-orgun) |
 | **N** | 05a → [07] → 12 | Knights of Sidonia | [Arquitetura](arquitetura.md#esteira-n--knights-of-sidonia) |
 
@@ -462,7 +463,8 @@ flowchart LR
     F1 -->|"ASS embutido EN, Sidonia"| N05A["Fase 05a<br/>tradutor_ass/batch_translator_sidonia.py"]
     F1 -->|"ASS embutido EN, lote pré-extraído"| E02["Fase 02<br/>extrator_inteligente_ass.py"]
     F1 -->|"ASS embutido EN, Gundam Zeta"| K05C2["Fase 05c-2<br/>Gundam_Zeta/script_tradutor_en_gundam_zeta.py"]
-    F1 -->|"ASS embutido EN, Gundam ZZ"| L05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
+    F1 -->|"ASS embutido EN, Gundam ZZ"| L05B["Fase 05b<br/>Gundam_ZZ/tradutor_mistral_gundam_zz.py"]
+    F1 -.->|"rota legada EN, Gundam ZZ"| L05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
     F1 -->|"ASS embutido EN, Detonator Orgun"| M05B["Fase 05b<br/>Detonator_Orgun/script_tradutor_en_detonator_orgun.py"]
     F1 -->|"ASS embutido FR, Macross Delta"| D05B["Fase 05b<br/>frances_para_ptbr/macross_deslta.py"]
     F1 -->|"ASS embutido FR, Gundam Origin"| J05B["Fase 05b<br/>frances_para_ptbr/script_tradutor_fr_gundam_origin.py"]
@@ -517,6 +519,7 @@ flowchart LR
     style D05B fill:#4B0082,stroke:#00E5FF,color:#fff
     style J05B fill:#4B0082,stroke:#00E5FF,color:#fff
     style M05B fill:#4B0082,stroke:#00E5FF,color:#fff
+    style L05B fill:#4B0082,stroke:#00E5FF,color:#fff
     style I05C fill:#4B0082,stroke:#00E5FF,color:#fff
     style K05C2 fill:#4B0082,stroke:#00E5FF,color:#fff
     style L05C2 fill:#4B0082,stroke:#00E5FF,color:#fff
@@ -881,19 +884,31 @@ python ".\12_remuxer_mkvmerge\batch_remuxer.py"
 
 ```mermaid
 flowchart LR
-    L_MKV["episodios/*.mkv (EN)"] --> L_F05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py"]
-    L_F05C2 --> L_ASS["traducao/*_PTBR.ass"]
+    L_MKV["episodios/*.mkv (EN)"]
+    L_ENG["legendas_eng/*.ass (EN)"] --> L_F05B["Fase 05b<br/>Gundam_ZZ/tradutor_mistral_gundam_zz.py<br/>(Mistral Nemo recomendado)"]
+    L_ENG -.->|"rota legada"| L_F05C2["Fase 05c-2<br/>Gundam_ZZ/script_tradutor_en_gundam_zz.py<br/>(TranslateGemma)"]
+    L_F05B --> L_ASS["legendas_ptbr/*_PTBR.ass"]
+    L_F05C2 -.-> L_ASS
+    L_ASS -.->|"revisão/lore"| L_F07["Fase 07<br/>Gundam_ZZ/revisao_legenda_gundam_zz.py"]
     L_MKV --> L_F12["Fase 12<br/>batch_remuxer.py"]
     L_ASS --> L_F12
+    L_F07 -.-> L_F12
     L_F12 --> L_OUT["mkv_final_ptbr/*_PTBR.mkv"]
 
+    style L_F05B fill:#4B0082,stroke:#00E5FF,color:#fff
     style L_F05C2 fill:#4B0082,stroke:#00E5FF,color:#fff
+    style L_F07 fill:#5c1010,stroke:#ff4444,color:#fff
     style L_F12 fill:#1e4620,stroke:#32CD32,color:#fff
 ```
 
 ```powershell
-# Pré-requisito: LM Studio na porta 1234 com TranslateGemma 12B carregado
+# Pré-requisito recomendado: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+
+# Rota legada alternativa: TranslateGemma 12B
 python ".\05c_tradutor_llm_translategemma\Gundam_ZZ\script_tradutor_en_gundam_zz.py"
+
+python ".\07_higienizacao_e_reparo_de_traducao\Gundam_ZZ\revisao_legenda_gundam_zz.py" --dry-run
 python ".\12_remuxer_mkvmerge\batch_remuxer.py"
 ```
 
@@ -1186,6 +1201,10 @@ projeto-tracker-animes-traducao/
 │   │   ├── script_tradutor_en_detonator_orgun.py  # MKV/SRT (EN) -> PT-BR — Esteira M
 │   │   ├── traducao_cache_orgun_en.json
 │   │   └── logs/                           # pipeline_en_orgun_*, erros_en_orgun_*, stats_en_orgun_*
+│   ├── Gundam_ZZ/
+│   │   ├── tradutor_mistral_gundam_zz.py   # *.ass (EN) -> *_PTBR.ass — Gundam ZZ (Esteira L, rota recomendada)
+│   │   ├── traducao_cache_gundam_zz_mistral.json
+│   │   └── logs/                           # pipeline_gundam_zz_mistral_*, erros_gundam_zz_mistral_*, stats_gundam_zz_mistral_*
 │   └── frances_para_ptbr/
 │       ├── macross_deslta.py               # MKV (FR) -> traducao/*_PTBR.ass — Macross Delta TV (Esteira D)
 │       ├── script_tradutor_fr_gundam_origin.py  # MKV (FR, SUBFRENCH) -> traducao/*_PTBR.ass — Gundam Origin (Esteira J)
@@ -1206,7 +1225,7 @@ projeto-tracker-animes-traducao/
 │   ├── Gundam_Origin/
 │   │   └── script_revisor_ptbr_gundam_origin.py  # revisão gramatical de PT-BR já traduzido (corretor ortográfico)
 │   ├── Gundam_ZZ/
-│   │   ├── script_tradutor_en_gundam_zz.py # MKV (EN) -> PT-BR — Gundam ZZ (Esteira L)
+│   │   ├── script_tradutor_en_gundam_zz.py # MKV (EN) -> PT-BR — Gundam ZZ (Esteira L, rota legada/alternativa)
 │   │   ├── traducao_cache_gundam_zz_en.json
 │   │   └── logs/stats_en_gundam_zz_*.json
 │   └── Gundam_Zeta/
@@ -1535,19 +1554,32 @@ python ".\12_remuxer_mkvmerge\batch_remuxer.py"
 
 ---
 
-## Esteira L — Gundam ZZ (TranslateGemma) — Fase 05c-2 → [07] → 12
+## Esteira L — Gundam ZZ (Mistral Nemo recomendado; TranslateGemma legado) — Fase 05b ou 05c-2 → [07] → 12
 
 ```powershell
-# Pré-requisito: LM Studio na porta 1234 com TranslateGemma 12B carregado
+# Pré-requisito recomendado: LM Studio na porta 1234 com Mistral Nemo Instruct 2407 (GGUF) carregado
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+
+# Formas equivalentes de indicar a pasta de entrada
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" --entrada "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" --pasta "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" --origem "C:\animes\Gundam_ZZ\legendas_eng" --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+
+# Arquivos específicos
+python ".\05b_tradutor_llm_mistral_nemo\Gundam_ZZ\tradutor_mistral_gundam_zz.py" --arquivo ep01.ass ep02.ass --saida "C:\animes\Gundam_ZZ\legendas_ptbr"
+
+# Rota legada: LM Studio com TranslateGemma 12B carregado
 python ".\05c_tradutor_llm_translategemma\Gundam_ZZ\script_tradutor_en_gundam_zz.py"
+
 # Se necessário reparar falhas com marcas [ERRO_TRADUCAO:]
 python ".\07_higienizacao_e_reparo_de_traducao\repara_erros_traducao.py" "<legendas_eng>" "<legendas_ptbr>"
+python ".\07_higienizacao_e_reparo_de_traducao\Gundam_ZZ\revisao_legenda_gundam_zz.py" --dry-run
 python ".\12_remuxer_mkvmerge\batch_remuxer.py"
 ```
 
-Sem script de higienização de lore dedicado ainda (título mais recente do pipeline).
+O tradutor Mistral gera `*_PTBR.ass`, preserva subpastas da entrada e tem glossário/pós-processamento específico de Gundam ZZ (`Axis`, `Lady Haman`, `Quin Mantha`, `Ple Two`, `Elpeo Ple`, `Bright Noa`, `Hyaku Shiki`, `Core Fighter`).
 
-[Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md) · [Fase 07](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-07.md) · [Fase 12](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-12.md) · [Diagrama](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/arquitetura.md#esteira-l--gundam-zz)
+[Fase 05b](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05b.md) · [Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md) · [Fase 07](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-07.md) · [Fase 12](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-12.md) · [Diagrama](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/arquitetura.md#esteira-l--gundam-zz)
 
 ---
 
@@ -1763,9 +1795,9 @@ C:\TRACKER-ANIMES\animes\<titulo>\
 | 1 | **SO** | [MKVToolNix](https://mkvtoolnix.download/downloads.html) (`mkvmerge`, `mkvextract`) | Fases **02, 05a, 05b, 06, 10 (opcional), 12** |
 | 2 | **SO** | [MediaInfo](https://mediaarea.net/en/MediaInfo/Download) | Fase **01** |
 | 3 | **SO** | [LM Studio](https://lmstudio.ai/) + **Gemma 4B** na porta **1234** | Fases **05a, 07** |
-| 3b | **SO** | [LM Studio](https://lmstudio.ai/) + **Mistral Nemo Instruct 2407 (GGUF)** na porta **1234** | Fase **05b** (Macross Delta, Gundam Origin francês, Detonator Orgun) |
+| 3b | **SO** | [LM Studio](https://lmstudio.ai/) + **Mistral Nemo Instruct 2407 (GGUF)** na porta **1234** | Fase **05b** (Macross Delta, Gundam Origin francês, Gundam ZZ, Detonator Orgun) |
 | 3c | **SO** | [LM Studio](https://lmstudio.ai/) + **Qwen2.5-7B-Instruct** na porta **1234** | Fase **05c** (Gundam The Origin, legenda chinesa) |
-| 3d | **SO** | [LM Studio](https://lmstudio.ai/) + **TranslateGemma 12B** na porta **1234** | Fase **05c-2** (Gundam Zeta, Gundam ZZ) |
+| 3d | **SO** | [LM Studio](https://lmstudio.ai/) + **TranslateGemma 12B** na porta **1234** | Fase **05c-2** (Gundam Zeta, rota legada/alternativa de Gundam ZZ) |
 | 4 | **SO** | [FFmpeg/FFprobe](https://ffmpeg.org/download.html) (build com `hevc_nvenc` para Fase 03) | Fases **08, 03** |
 | 5 | **Python** | 3.10+ | Todas |
 | 6 | **pip** | [`requirements.txt`](../requirements.txt) | Todas |
@@ -1782,7 +1814,7 @@ C:\TRACKER-ANIMES\animes\<titulo>\
 | I — Gundam The Origin (legenda chinesa) | 02 → 05c → [07] → 12 → [10] | ✅ (10 opcional) | ✅ **Qwen2.5** (05c) | — |
 | J — Gundam Origin (legenda francesa) | 05b → [07] → 12 | ✅ | ✅ **Mistral Nemo** (05b) | — |
 | K — Gundam Zeta | 05c-2 → [07] → 12 | ✅ | ✅ **TranslateGemma** (05c-2) | — |
-| L — Gundam ZZ | 05c-2 → [07] → 12 | ✅ | ✅ **TranslateGemma** (05c-2) | — |
+| L — Gundam ZZ | 05b ou 05c-2 → [07] → 12 | ✅ | ✅ **Mistral Nemo** (05b recomendado) / TranslateGemma (05c-2 legado) | — |
 | M — Detonator Orgun | 05b → [07] → 12 | ✅ | ✅ **Mistral Nemo** (05b) | — |
 | N — Knights of Sidonia | 05a → [07] → 12 | ✅ | ✅ Gemma (05a/07) | — |
 | 08 — Sincronização (auxiliar) | 08 | — | — | ✅ |
@@ -1845,9 +1877,9 @@ Referência completa dos pacotes: [Dependências Python](file:///d:/PROJETOS-OPE
 2. Carregue **`google/gemma-4-e4b`** (ou Gemma 4B equivalente) para as **Fases 05a e 07**.
 3. Inicie o servidor em **`http://127.0.0.1:1234`**.
 4. Todos os scripts das **Fases 05a, 05b, 05c, 05c-2 e 07** validam `GET /v1/models` antes de processar e usam o **modelo detectado dinamicamente** — não há nome de modelo fixo no código.
-5. Para a **[Fase 05b](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05b.md)** (Macross Delta, Gundam Origin francês, Detonator Orgun), descarregue o Gemma e carregue **`mistralai/mistral-nemo-instruct-2407`** (GGUF) — qualidade de tradução muito superior no par francês→português e usado também para o inglês de Detonator Orgun.
+5. Para a **[Fase 05b](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05b.md)** (Macross Delta, Gundam Origin francês, Gundam ZZ, Detonator Orgun), descarregue o Gemma e carregue **`mistralai/mistral-nemo-instruct-2407`** (GGUF) — qualidade de tradução muito superior no par francês→português e usado também para inglês com glossário específico por título.
 6. Para a **[Fase 05c](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c.md)** (Gundam The Origin, legenda chinesa), carregue **`qwen2.5-7b-instruct`** antes de rodar `batch_translator_origin_zh.py` ou `repara_erros_origin_zh.py` — o desempenho do Qwen2.5 para o par chinês→português é muito superior ao do Gemma 4B.
-7. Para a **[Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md)** (Gundam Zeta, Gundam ZZ, revisão de PT-BR), carregue o modelo **TranslateGemma 12B**.
+7. Para a **[Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md)** (Gundam Zeta, rota legada/alternativa de Gundam ZZ, revisão de PT-BR), carregue o modelo **TranslateGemma 12B**.
 
 ---
 
@@ -1859,7 +1891,7 @@ Referência completa dos pacotes: [Dependências Python](file:///d:/PROJETOS-OPE
 | Filme / SRT externo | [Pipeline SRT (Esteira B)](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/pipeline-srt.md) |
 | Visão completa de todas as esteiras | [Arquitetura](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/arquitetura.md) |
 
-Requisitos mínimos: **venv** + **`requirements.txt`** + **LM Studio** (Fase 05a, com Gemma 4B) + **MKVToolNix** (Fases 02, 05a, 12, 06). FFmpeg só é necessário se for usar as Fases 08/03. Para as Esteiras D/E/J/M ([Fase 05b](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05b.md)), troque o modelo do LM Studio para Mistral Nemo Instruct 2407 (GGUF); para a Esteira I ([Fase 05c](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c.md)), troque para Qwen2.5-7B-Instruct; para as Esteiras K/L ([Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md)), troque para TranslateGemma 12B.
+Requisitos mínimos: **venv** + **`requirements.txt`** + **LM Studio** (Fase 05a, com Gemma 4B) + **MKVToolNix** (Fases 02, 05a, 12, 06). FFmpeg só é necessário se for usar as Fases 08/03. Para as Esteiras D/E/J/L/M ([Fase 05b](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05b.md)), troque o modelo do LM Studio para Mistral Nemo Instruct 2407 (GGUF); para a Esteira I ([Fase 05c](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c.md)), troque para Qwen2.5-7B-Instruct; para a Esteira K e a rota legada de L ([Fase 05c-2](file:///d:/PROJETOS-OPEN/projeto-tracker-animes-traducao/docs/modulo-fase-05c2.md)), troque para TranslateGemma 12B.
 
 ---
 
@@ -2197,7 +2229,7 @@ C:\TRACKER-ANIMES\animes\md-2\
 
 ## Esteiras A/D/K/L/M/N — Episódios MKV com extração + tradução integradas
 
-Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Zeta/ZZ (05c-2), Knights of Sidonia (05a + 02).
+Eighty-Six (05a), Macross Delta/Gundam Origin FR/Gundam ZZ/Detonator Orgun (05b), Gundam Zeta e rota legada de ZZ (05c-2), Knights of Sidonia (05a + 02).
 
 | Sintoma | Causa provável | Ação |
 |:---|:---|:---|
@@ -2251,6 +2283,7 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 | `RESPOSTA BRUTA DO LLM (FALHA DE EXTRAÇÃO/VALIDAÇÃO)` no log de erros | Nenhuma linha do lote pôde ser extraída/validada | Verifique se o modelo carregado é realmente o Mistral Nemo (não outro modelo incompatível com o formato de prompt indexado `[0]`, `[1]`...) |
 | `macross_deslta.py` com qualidade inferior ao esperado | Esse script pode não ter recebido os mesmos ajustes de prompt feitos em `script_tradutor_fr_gundam_origin.py` | Compare os prompts dos dois scripts e replique os ajustes relevantes |
 | `script_tradutor_en_detonator_orgun.py` falha de conexão (não HTTP 400) | LM Studio offline/instável durante o lote — erro de conexão mal-diagnosticado como erro de requisição | Confirme LM Studio rodando antes do lote; o script já tem backoff para reconexão |
+| Gundam ZZ gera arquivo sem `_PTBR` ou sobrescreve o original | Versão antiga do `tradutor_mistral_gundam_zz.py` ou uso de saída manual inadequada | Use a versão atual da Fase 05b: ela cria `{base}_PTBR.ass`, preserva subpastas e aceita a pasta por argumento posicional, `--entrada`, `--pasta` ou `--origem` |
 
 ---
 
@@ -2334,7 +2367,7 @@ Eighty-Six (05a), Macross Delta/Gundam Origin FR/Detonator Orgun (05b), Gundam Z
 | Gundam The Origin, legenda **chinesa** (Qwen2.5) | I | 02 → 05c → [07] → 12 → [10] |
 | Gundam Origin, legenda **francesa** (SUBFRENCH) | J | 05b → [07] → 12 |
 | Gundam Zeta (TranslateGemma) | K | 05c-2 → [07] → 12 |
-| Gundam ZZ (TranslateGemma) | L | 05c-2 → [07] → 12 |
+| Gundam ZZ (Mistral Nemo recomendado; TranslateGemma legado) | L | 05b ou 05c-2 → [07] → 12 |
 | Detonator Orgun (Mistral Nemo, inglês) | M | 05b → [07] → 12 |
 | Knights of Sidonia | N | 05a → [07] → 12 |
 

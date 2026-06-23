@@ -252,6 +252,9 @@ CORRECOES_REGEX_GERAIS = [
     (re.compile(r"(?i)\bonly\s+be careful!"), "Cuidado!"),
     (re.compile(r"(?i)\bonly\s+because you have a little\\Nskill de pilotagem de mobile suit!"), r"Só porque você tem um pouco de\\Nhabilidade pilotando mobile suits!"),
     (re.compile(r"(?i)\bonly\s+keep up the surveillance here,\\NTorres\."), r"Continue vigiando aqui,\\NTorres."),
+    (re.compile(r"(?i)(^|\\N)only\s+fique quieto e assista!"), r"\1Fique quieto e assista!"),
+    (re.compile(r"(?i)(^|\\N)only\s+não esqueça de sorrir\."), r"\1Não esqueça de sorrir."),
+    (re.compile(r"(?i)(^|\\N)only\s+espere um pouco mais!"), r"\1Espere só mais um pouco!"),
     (re.compile(r"(?i)\\N\s*Fool!"), r"\\Nidiota!"),
     (re.compile(r"(?i)\\N\s*Miss Milly\b"), r"\\NSrta. Milly"),
     (re.compile(r"(?i)\\N\s*Captão Bright again!"), r"\\No Capitão Bright de novo!"),
@@ -278,6 +281,20 @@ CORRECOES_REGEX_GERAIS = [
     (re.compile(r"(?i)(^|\\N)Hurry up and get on that bus!"), r"\1Depressa, entre naquele ônibus!"),
     (re.compile(r"(?i)(^|\\N)H-Hold on a sec!"), r"\1E-Espere um pouco!"),
     (re.compile(r"(?i)(^|\\N)Y-You're right\. If this works out,"), r"\1V-Você tem razão. Se isso der certo,"),
+    (re.compile(r"(^|\\N)Cause para preocupação\b"), r"\1motivo de preocupação"),
+    (re.compile(r"\bSide 1 immediately\b", re.I), "Side 1 imediatamente"),
+    (re.compile(r"(?i)(^|\\N)W-Wait a minute\.\.\."), r"\1E-Espere um pouco..."),
+    (re.compile(r"\bhatch de acesso\b", re.I), "escotilha de acesso"),
+    (re.compile(r"(?i)exactly as expected from the Argama! Os boatos eram verdadeiros\."), "Exatamente como esperado da Argama! Os boatos eram verdadeiros."),
+    (re.compile(r"(?i)exactly as expected from the Argama!\\NOs boatos eram verdadeiros\."), r"Exatamente como esperado da Argama!\\NOs boatos eram verdadeiros."),
+    (re.compile(r"(?i)'Cause não podemos\b"), "Porque não podemos"),
+    (re.compile(r"(?i)exactly como eu esperava\b"), "exatamente como eu esperava"),
+    (re.compile(r"(?i)exactly como planejado\b"), "exatamente como planejado"),
+    (re.compile(r"(?i)exactly como eu suspeitava\b"), "exatamente como eu suspeitava"),
+    (re.compile(r"(?i)exactly como eu pressenti\b"), "exatamente como eu pressenti"),
+    (re.compile(r"(?i)\bfique quieto e assista!"), "Fique quieto e assista!"),
+    (re.compile(r"(?i)\bnão esqueça de sorrir\."), "Não esqueça de sorrir."),
+    (re.compile(r"(?i)\bespere só mais um pouco!"), "Espere só mais um pouco!"),
     (re.compile(r"\\N\s+ão\b", re.I), r"\\Nnão"),
     (re.compile(r"\b[Nn]ão\s+volte\b"), "não volte"),
     (re.compile(r"\\Ndo Federação\b", re.I), r"\\Nda Federação"),
@@ -327,7 +344,7 @@ CORRECOES_REGEX_GERAIS = [
 
 PADRAO_RESIDUO_IDIOMA = re.compile(
     r"\b(only|kidnapping|can go back|moon and see|again|nous|i decido|"
-    r"where|what|when|why|because|yourself|big brother|fool|miss milly|"
+    r"where|what|when|why|because|yourself|big brother|fool|miss milly|immediately|"
     r"halloi stampa|grande irmão)\b",
     re.I,
 )
@@ -336,7 +353,8 @@ PADRAO_FRAGMENTO_QUEBRADO = re.compile(
     r"\bI\s+[a-záéíóúâêôãõç]+\b|\b[Nn]ovo Tipos\b|"
     r"\\Ndo Federação\b|\\Nenão\b|\buma conceito\b|\\Na um reino\b|"
     r"\bseria\\Nelefante\b|\\Nsujeira sala\b|quem\\Ne se aliaram\b|"
-    r"\bimprinting\b|\\NCabeça vai estourar|\\Nsomente lhe ordenaram)",
+    r"\bimprinting\b|\\NCabeça vai estourar|\\Nsomente lhe ordenaram|"
+    r"\bCause para preocupação\b|'Cause não podemos|\bexactly como\b|\bonly\s+(fique|não|espere)\b)",
     re.I,
 )
 PALAVRAS_INGLES_COMUNS = {

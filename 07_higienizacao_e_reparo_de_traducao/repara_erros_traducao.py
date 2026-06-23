@@ -131,8 +131,21 @@ def carregar_prompt_reparo(modo: str, pasta_originais: str = "") -> str:
             pasta_script_alvo = os.path.join(PASTA_RAIZ, "05c_tradutor_llm_translategemma", "Gundam_Zeta")
             nome_modulo = "script_tradutor_en_gundam_zeta"
         elif "zz" in pasta_originais_lower or "double zeta" in pasta_originais_lower:
-            pasta_script_alvo = os.path.join(PASTA_RAIZ, "05c_tradutor_llm_translategemma", "Gundam_ZZ")
-            nome_modulo = "script_tradutor_en_gundam_zz"
+            caminhos_zz = [
+                (
+                    os.path.join(PASTA_RAIZ, "05b_tradutor_llm_mistral_nemo", "Gundam_ZZ"),
+                    "tradutor_mistral_gundam_zz",
+                ),
+                (
+                    os.path.join(PASTA_RAIZ, "05c_tradutor_llm_translategemma", "Gundam_ZZ"),
+                    "script_tradutor_en_gundam_zz",
+                ),
+            ]
+            for pasta_cand, mod_cand in caminhos_zz:
+                if os.path.exists(os.path.join(pasta_cand, mod_cand + ".py")):
+                    pasta_script_alvo = pasta_cand
+                    nome_modulo = mod_cand
+                    break
         elif "unicorn" in pasta_originais_lower:
             caminhos_tentar = [
                 os.path.join(PASTA_RAIZ, "05a_tradutor_llm_gemma4", "tradutor_gundam_unicornio"),
@@ -148,8 +161,12 @@ def carregar_prompt_reparo(modo: str, pasta_originais: str = "") -> str:
         if pasta_script_alvo not in sys.path:
             sys.path.insert(0, pasta_script_alvo)
         try:
-            mod = __import__(nome_modulo, fromlist=["SYSTEM_PROMPT"])
-            prom = getattr(mod, "SYSTEM_PROMPT", fallback)
+            mod = __import__(nome_modulo, fromlist=["SYSTEM_PROMPT", "PROMPT_SISTEMA"])
+            prom = (
+                getattr(mod, "SYSTEM_PROMPT", None)
+                or getattr(mod, "PROMPT_SISTEMA", None)
+                or fallback
+            )
             print(f"{Fore.GREEN}[PROMPT] Carregado SYSTEM_PROMPT do módulo '{nome_modulo}' com sucesso!")
             return adaptar_prompt_reparo(prom)
         except Exception as e:
@@ -158,7 +175,11 @@ def carregar_prompt_reparo(modo: str, pasta_originais: str = "") -> str:
                 try:
                     with open(caminho_arq, "r", encoding="utf-8") as f:
                         conteudo_py = f.read()
-                    match = re.search(r'SYSTEM_PROMPT\s*=\s*(["\']{3})(.*?)\1', conteudo_py, re.DOTALL)
+                    match = re.search(
+                        r'(?:SYSTEM_PROMPT|PROMPT_SISTEMA)\s*=\s*(["\']{3})(.*?)\1',
+                        conteudo_py,
+                        re.DOTALL,
+                    )
                     if match:
                         print(f"{Fore.GREEN}[PROMPT] Extraído SYSTEM_PROMPT via Regex do arquivo '{nome_modulo}.py'!")
                         return adaptar_prompt_reparo(match.group(2).strip())

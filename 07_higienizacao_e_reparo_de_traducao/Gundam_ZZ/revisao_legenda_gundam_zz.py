@@ -65,6 +65,11 @@ ESTILOS_KARAOKE_ROMAJI = {
         "Silent Voice",
         "Issenman-Nen Ginga",
         "Jidai ga Naiteiru",
+        # Nome real do estilo de karaokê romaji nesta release (OP1/ED1, eps 1-25 e 47).
+        # Sem esta entrada, o Mistral "traduzia" a letra romaji para português
+        # (ex.: "aa jidai ga naiteiru" -> "a era está chorando"), e a varredura
+        # de qualidade não pegava o erro pois o texto resultante parecia PT-BR normal.
+        "Song JP",
     )
 }
 
@@ -171,6 +176,7 @@ SUBSTITUICOES_LORE = [
     (re.compile(r"\bGaza-C\b", re.I), "Gaza-C"),
     (re.compile(r"\bGaza-D\b", re.I), "Gaza-D"),
     (re.compile(r"\bJamru\s+Fin\b", re.I), "Jamru Fin"),
+    (re.compile(r"\bPrincipauté de Zeon\b", re.I), "Principado de Zeon"),
 ]
 
 GRAMATICA_E_GAFES = {
@@ -222,6 +228,16 @@ GRAMATICA_E_GAFES = {
     "Roger that": "Entendido",
     "Roger.": "Copiado.",
     "Copy that": "Entendido",
+
+    # Falas que o Mistral deixou 100% em inglês (não pegas pela varredura de
+    # qualidade porque eram curtas demais para os limiares antigos — ver
+    # _parece_ingles_nao_traduzido / _parece_igual_ao_eng).
+    "Turn on the holoscope.": "Ligue o holoscópio.",
+    "E-Eu-It's the Bawoo!": "É-É o Bawoo!",
+    "After you.": "Você primeiro.",
+    "C-Can we help you? (sem tradução)": "P-Podemos ajudá-lo?",
+    "C-Come on!": "V-Vamos!",
+    "Damn you, just now...!": "Maldito, agora mesmo...!",
 }
 
 CORRECOES_REGEX_GERAIS = [
@@ -291,7 +307,8 @@ CORRECOES_REGEX_GERAIS = [
     (re.compile(r"\(Part 1\)", re.I), "(Parte 1)"),
     (re.compile(r"\(Part 2\)", re.I), "(Parte 2)"),
     (re.compile(r"\bespaço\\Njerk\b", re.I), r"idiota\\Nespacial"),
-    (re.compile(r"\bIsto sou da Corpo Azul\b", re.I), "Eu sou do Corpo Azul"),
+    (re.compile(r"(^|\\N)Isto sou da Corpo Azul\b", re.I), r"\1Eu sou do Corpo Azul"),
+    (re.compile(r"(^|\\N)Isto sou do Corpo Azul\b", re.I), r"\1Eu sou do Corpo Azul"),
     (re.compile(r"\bda Corpo Azul\b", re.I), "do Corpo Azul"),
     (re.compile(r"\ba Corpo Azul\b", re.I), "o Corpo Azul"),
     (re.compile(r"\bMalditos those da Argama\b", re.I), "Malditos sejam aqueles da Argama"),
@@ -300,6 +317,14 @@ CORRECOES_REGEX_GERAIS = [
     (re.compile(r"\bcidade Frank\b", re.I), "cidade franca"),
     (re.compile(r"\bo Corpo Azul esteja\\Ndestruindo uma cidade franca\b", re.I), r"o Corpo Azul esteja\\Ndestruindo uma cidade franca"),
     (re.compile(r"\bQue se danem o Corpo Azul\b", re.I), "Que se dane o Corpo Azul"),
+    (re.compile(r"(^|\\N)Front de Independência Africano\b", re.I), r"\1Frente de Independência Africana"),
+    (re.compile(r"\bCorpo Azul do\\NFrente\b", re.I), r"Corpo Azul da\\NFrente"),
+    (re.compile(r"\bEu acredito que o Corpo Azul espalhará\\No nome Tuareg\b", re.I), r"Acredito que o Corpo Azul espalhará\\No nome dos Tuareg"),
+    (re.compile(r"\bPor que está aliado com\\Na nau de guerra Frank\?!", re.I), r"Por que está aliado com\\Na nave de guerra dos Franks?!"),
+    (re.compile(r"\bMesmo que o Corpo Azul esteja\\Ndestruindo uma cidade franca\b", re.I), r"Mesmo que o Corpo Azul esteja\\Ndestruindo uma cidade dos Franks"),
+    (re.compile(r"\bQue duplicidade\.", re.I), "Que traição."),
+    (re.compile(r"\bMerda pro Gadeb Jasin\b", re.I), "Maldito Gadeb Jasin"),
+    (re.compile(r"\bO subordinado Glemy, August,\b", re.I), "August, subordinado de Glemy,"),
     (re.compile(r"(^|\\N)Cause para preocupação\b"), r"\1motivo de preocupação"),
     (re.compile(r"\bSide 1 immediately\b", re.I), "Side 1 imediatamente"),
     (re.compile(r"(?i)(^|\\N)W-Wait a minute\.\.\."), r"\1E-Espere um pouco..."),
@@ -314,6 +339,33 @@ CORRECOES_REGEX_GERAIS = [
     (re.compile(r"(?i)\bfique quieto e assista!"), "Fique quieto e assista!"),
     (re.compile(r"(?i)\bnão esqueça de sorrir\."), "Não esqueça de sorrir."),
     (re.compile(r"(?i)\bespere só mais um pouco!"), "Espere só mais um pouco!"),
+    (re.compile(r"\bEste é um colônia espacial\b", re.I), "Esta é uma colônia espacial"),
+    (re.compile(r"(^|\\N)ultimas nascidas\b", re.I), r"\1últimas criações"),
+    (re.compile(r"\bE assim que se tornou conhecido que\b", re.I), "E assim que ficou claro que"),
+    (re.compile(r"(^|\\N|\{\\i1\})a declarou independência\b", re.I), r"\1declarou independência"),
+    (re.compile(r"\bprimeiro\\Nguerra\b", re.I), r"primeira\\Nguerra"),
+    (re.compile(r"\bEu tenho que\b", re.I), "Preciso"),
+    (re.compile(r"\beu tenho que\b", re.I), "preciso"),
+    (re.compile(r", me recebe\?", re.I), ", está me ouvindo?"),
+    (re.compile(r"\bMe recebe\?", re.I), "Está me ouvindo?"),
+    (re.compile(r"\bme recebe\?", re.I), "está me ouvindo?"),
+    (re.compile(r"\bAssistam enquanto eu derrota o Argama!", re.I), "Assistam enquanto eu derroto o Argama!"),
+    (re.compile(r"\bEstou tomando responsabilidade do meu jeito!", re.I), "Estou assumindo a responsabilidade do meu jeito!"),
+    (re.compile(r"\bEle tem lutado no deserto por eras\b", re.I), "Ele luta no deserto há eras"),
+    (re.compile(r"(^|\\N)ele derrotaria os Gundams\b", re.I), r"\1derrotaria os Gundams"),
+    (re.compile(r"\bÉ demonstrar nosso poder através do terror!", re.I), "Vamos demonstrar nosso poder através do terror!"),
+    (re.compile(r"\bEu tenho que pagar Judau!", re.I), "Preciso retribuir ao Judau!"),
+    (re.compile(r"\bPara parecer um aliado,\\Nvocê precisa igualar sua pele\b", re.I), r"Para parecer um aliado,\\Nvocê precisa combinar com eles"),
+    (re.compile(r"\bvou cortar sua cabeça fora\b", re.I), "vou arrancar sua cabeça"),
+    (re.compile(r"\bNão grita comigo!", re.I), "Não grite comigo!"),
+    (re.compile(r"\bMinha cabeça dói! Deixa pra lá!", re.I), "Minha cabeça dói! Esqueça!"),
+    (re.compile(r"\bEla é fria e honrada!", re.I), "Ela é fria e orgulhosa!"),
+    (re.compile(r"\bMinha senhora Chara!", re.I), "Lady Chara!"),
+    (re.compile(r"(^|\\N)I sinto-me alegre\b", re.I), r"\1sinto-me feliz"),
+    (re.compile(r"\bVocê acha que isso vai me fazer virar o rabo e correr\?!", re.I), "Acha que isso vai me fazer fugir com o rabo entre as pernas?!"),
+    (re.compile(r"\bIsto é uma tempestade de emoções!", re.I), "Isto é uma explosão de emoções!"),
+    (re.compile(r"\bRegulamentações de entrada\b", re.I), "Regulamentos de entrada"),
+    (re.compile(r"\bregulamentações\\Nde entrada\b", re.I), r"regulamentos\\Nde entrada"),
     (re.compile(r"\\N\s+ão\b", re.I), r"\\Nnão"),
     (re.compile(r"\b[Nn]ão\s+volte\b"), "não volte"),
     (re.compile(r"\\Ndo Federação\b", re.I), r"\\Nda Federação"),
@@ -359,6 +411,17 @@ CORRECOES_REGEX_GERAIS = [
     (re.compile(r"\\[Mm]as\b"), r"\\NMas"),
     (re.compile(r"\bA\.E\.U\.G\.{2,}"), "A.E.U.G."),
     (re.compile(r"(?i)(^|\\N)seja honesta consigo mesma!"), r"\1Seja honesta consigo mesma!"),
+    (re.compile(r"(?i)Turn on the holoscope\.?"), "Ligue o holoscópio."),
+    (re.compile(r"(?i)Turn on the holoscope!"), "Ligue o holoscópio!"),
+    (re.compile(r"(?i)E-Eu-It's the Bawoo!"), "É-É o Bawoo!"),
+    (re.compile(r"(?i)I-It's the Bawoo!"), "É-É o Bawoo!"),
+    (re.compile(r"(?i)It's the Bawoo!"), "É o Bawoo!"),
+    (re.compile(r"(?i)After you\.?"), "Depois de você."),
+    (re.compile(r"(?i)C-Can we help you\?(\s*\(sem tradução\))?"), "P-Podemos ajudá-lo?"),
+    (re.compile(r"(?i)Can we help you\?(\s*\(sem tradução\))?"), "Podemos ajudá-lo?"),
+    (re.compile(r"(?i)C-Come on!"), "V-Vamos!"),
+    (re.compile(r"(?i)Damn you, just now\.\.\.!"), "Maldito, agora mesmo...!"),
+    (re.compile(r"(?i)Damn you, just now!"), "Maldito, agora mesmo!"),
 ]
 
 PADRAO_RESIDUO_IDIOMA = re.compile(
@@ -378,15 +441,18 @@ PADRAO_FRAGMENTO_QUEBRADO = re.compile(
     re.I,
 )
 PALAVRAS_INGLES_COMUNS = {
-    "a", "about", "after", "again", "all", "am", "an", "and", "are", "as",
-    "at", "back", "be", "because", "been", "before", "but", "by", "can",
-    "come", "could", "did", "do", "does", "doing", "don't", "for", "from",
-    "get", "go", "going", "good", "got", "had", "has", "have", "he", "her",
-    "here", "him", "his", "how", "i", "if", "in", "is", "it", "just",
+    "a", "about", "after", "again", "all", "alright", "am", "an", "and",
+    "are", "as", "at", "back", "be", "because", "been", "before", "but",
+    "by", "can", "come", "could", "damn", "did", "do", "does", "doing",
+    "don't", "for", "from", "get", "go", "going", "gonna", "good", "got",
+    "gotta", "had", "has", "have", "he", "hell", "her", "here", "him",
+    "his", "how", "i", "if", "in", "is", "it", "just",
     "like", "me", "my", "no", "not", "now", "of", "on", "or", "our",
-    "out", "right", "see", "she", "so", "that", "the", "their", "them",
-    "then", "there", "they", "this", "to", "up", "us", "was", "we", "were",
-    "what", "when", "where", "who", "why", "will", "with", "would", "you",
+    "out", "please", "right", "see", "she", "so", "sorry", "stop", "that",
+    "the", "their", "them",
+    "then", "there", "they", "this", "to", "up", "us", "wait", "was", "we",
+    "well", "were", "what", "when", "where", "who", "why", "will", "with",
+    "would", "yeah", "you",
     "your",
 }
 PALAVRAS_PT_COMUNS = {
@@ -492,7 +558,14 @@ def _compilar_dicionario(dicionario):
     compilado = []
     for frase, correto in dicionario.items():
         nucleo = re.escape(frase)
-        prefixo = r"\b" if frase[0].isalnum() else ""
+        if frase[0].isalnum():
+            # \b sozinho falha quando a frase vem logo após "\N" (quebra de
+            # linha ASS): "N" é caractere de palavra, então não há fronteira
+            # entre "N" e a letra seguinte e o \b nunca casa ali. Aceita
+            # também a posição logo após \N/\n como início válido.
+            prefixo = r"(?:\b|(?<=\\N)|(?<=\\n))"
+        else:
+            prefixo = ""
         sufixo = r"\b" if frase[-1].isalnum() else ""
         compilado.append((re.compile(prefixo + nucleo + sufixo, re.IGNORECASE), correto))
     return compilado
@@ -538,11 +611,40 @@ def _tokens_texto(texto):
 
 def _parece_ingles_nao_traduzido(texto):
     tokens = _tokens_texto(texto)
-    if len(tokens) < 4:
+    # Ignora tokens de 1 letra: prefixos de gagueira ("C-Come", "E-Eu") quebram
+    # no hífen e sobram como "c"/"e" soltos, que não existem em nenhum dos
+    # dicionários e estragavam a proporção em falas curtas.
+    tokens = [t for t in tokens if len(t) > 1]
+    if len(tokens) < 2:
         return False
     ingles = sum(1 for token in tokens if token in PALAVRAS_INGLES_COMUNS)
     portugues = sum(1 for token in tokens if token in PALAVRAS_PT_COMUNS)
+    if len(tokens) < 4:
+        # Falas curtas ("After you.", "C-Come on!") nunca atingiam o limiar de
+        # 4 tokens e passavam direto. Só sinaliza quando TODOS os tokens batem
+        # com inglês e nenhum é uma palavra comum em português (evita falso
+        # positivo em ambíguos como "no", "a", "e").
+        return ingles == len(tokens) and portugues == 0
     return ingles >= 4 and ingles >= max(3, portugues * 2)
+
+
+def _tem_fonte_reduzida(texto, limiar=55):
+    """Detecta override \\fsNN menor que o normal dentro de um evento.
+
+    Alguns releases reaproveitam o MESMO estilo de karaokê para a linha
+    romaji grande e uma segunda linha de tradução menor por baixo (ex.: ED
+    especial do ep. 47, onde \\fs60 = romaji e \\fs50 = tradução em inglês).
+    Quando o evento ENG correspondente usa fonte reduzida, ele não é romaji
+    a ser copiado verbatim — é a legenda de tradução duplicada.
+    """
+    valores = [int(v) for v in re.findall(r"\\fs(\d+)", texto)]
+    return any(v <= limiar for v in valores)
+
+
+def _segmentos_visiveis(texto):
+    """Divide o texto visível (sem tags ASS) pelas quebras \\N/\\n."""
+    sem_tags = re.sub(r"\{[^{}]*\}", "", texto)
+    return [s.strip() for s in re.split(r"\\N|\\n", sem_tags) if s.strip()]
 
 
 def _parece_romaji_karaoke(texto):
@@ -561,7 +663,7 @@ def _parece_igual_ao_eng(texto_pt, texto_eng):
         return False
     pt = _normalizar_para_comparacao(texto_pt)
     eng = _normalizar_para_comparacao(texto_eng)
-    if not pt or not eng or len(pt) < 10 or len(eng) < 10:
+    if not pt or not eng or len(pt) < 4 or len(eng) < 4:
         return False
     tokens_pt = _tokens_texto(texto_pt)
     ingles = sum(1 for token in tokens_pt if token in PALAVRAS_INGLES_COMUNS)
@@ -803,12 +905,30 @@ def higienizar_texto(texto, eh_grafico=False):
     return t
 
 
-def detectar_suspeita_qualidade(texto, texto_eng=None):
+def detectar_suspeita_qualidade(texto, texto_eng=None, eh_karaoke=False):
     """Retorna motivo de revisão manual quando a linha ainda parece problemática."""
+    if eh_karaoke:
+        # Texto de karaokê é JP/romaji por natureza (ou mistura inglês de
+        # propósito em letras macarrônicas, ex. "Anime Ja Nai"). As heurísticas
+        # de "não traduzido"/"fragmento" abaixo são pensadas para diálogo
+        # comum em português e davam falso positivo aqui; a checagem própria
+        # de karaokê já roda fora desta função (motivo_karaoke_suspeito).
+        return ""
     if _parece_igual_ao_eng(texto, texto_eng):
         return "possível linha não traduzida (igual ou muito parecida com ENG)"
     if _parece_ingles_nao_traduzido(texto):
         return "possível linha não traduzida (inglês predominante)"
+    if re.search(r"\bsem\s+tradu[çc][aã]o\b", texto, re.I):
+        return "marcador de tradução pendente deixado no texto"
+    # Linha com múltiplos segmentos (\N) onde só uma parte ficou em inglês —
+    # o teste acima sobre o texto inteiro dilui a proporção e não pega isso
+    # (ex.: "Irei fortalecer o moral da frota.\NTurn on the holoscope.").
+    if not _parece_romaji_karaoke(texto):
+        segmentos = _segmentos_visiveis(texto)
+        if len(segmentos) > 1:
+            for segmento in segmentos:
+                if _parece_ingles_nao_traduzido(segmento):
+                    return "possível trecho não traduzido (segmento em inglês dentro da linha)"
     if PADRAO_RESIDUO_IDIOMA.search(texto):
         return "possível resíduo de inglês/francês"
     if PADRAO_FRAGMENTO_QUEBRADO.search(texto):
@@ -953,11 +1073,22 @@ def processar_legendas(
             eh_grafico = any(tag in texto_ptbr for tag in ("\\pos", "\\move", "\\clip", "\\org", "{\\p", "|"))
             eh_karaoke = _estilo_karaoke(estilo)
             texto_eng_ref = dialogos_eng[indice_dialogo] if indice_dialogo < len(dialogos_eng) else None
+            motivo_karaoke_suspeito = ""
 
             # 1) Karaokê: restaurar texto ENG pelo índice do evento Dialogue (não linha do arquivo)
             if eh_karaoke and indice_dialogo < len(dialogos_eng):
                 texto_eng = texto_eng_ref
-                if texto_ptbr != texto_eng:
+                if texto_eng and _tem_fonte_reduzida(texto_eng):
+                    # Alguns releases (ex.: ED especial do ep. 47) usam o MESMO
+                    # estilo de karaokê tanto para a linha romaji grande quanto
+                    # para uma legenda de tradução duplicada menor por baixo.
+                    # Copiar verbatim sobrescreveria uma tradução se houver
+                    # texto em inglês — não restaura, só sinaliza para revisão.
+                    motivo_karaoke_suspeito = (
+                        "estilo de karaokê, mas o evento ENG correspondente possui "
+                        "fonte reduzida (possível legenda) — confirmar manualmente"
+                    )
+                elif texto_ptbr != texto_eng:
                     texto_final = texto_eng
                     modificada = True
                     motivo = f"Karaokê restaurado (estilo: {estilo})"
@@ -1007,9 +1138,10 @@ def processar_legendas(
                     "depois": texto_final,
                 })
 
-            motivo_suspeita = detectar_suspeita_qualidade(
+            motivo_suspeita = motivo_karaoke_suspeito or detectar_suspeita_qualidade(
                 texto_final,
                 None if (eh_karaoke or eh_grafico) else texto_eng_ref,
+                eh_karaoke=eh_karaoke,
             )
             if motivo_suspeita:
                 stats["linhas_suspeitas"] += 1

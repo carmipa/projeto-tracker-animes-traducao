@@ -220,3 +220,11 @@ __marimo__/
 # Arquivos de trabalho dinâmicos de revisão de francês
 07_higienizacao_e_reparo_de_traducao/refino_frances_origin/linhas_para_revisar.json
 07_higienizacao_e_reparo_de_traducao/refino_frances_origin/linhas_revisadas.json
+# Arquivos locais de assistentes de IA (nao versionar)
+.claude/
+.codex/
+.gemini/
+.cursor/
+.windsurf/
+.continue/
+.aider*
